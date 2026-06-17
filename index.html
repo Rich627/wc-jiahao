@@ -1,64 +1,174 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#0e1117" />
-  <title>家豪世界杯預測 2026</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家豪世界盃預測 2026</title>
+    <meta name="description" content="家豪世界盃預測 2026 — 五個 AI 模型對 2026 世界盃每場比賽的賽果與比分預測。純娛樂，別跟著下注。">
+    <script>
+        (function() {
+            try {
+                var saved = localStorage.getItem('worldcup-theme');
+                var useSystem = !saved || saved === 'system';
+                var dark = saved === 'dark' || (useSystem && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+                document.documentElement.dataset.themeSource = saved || 'system';
+            } catch (_) {
+                document.documentElement.dataset.theme = 'light';
+                document.documentElement.dataset.themeSource = 'system';
+            }
+        })();
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: 'rgb(var(--color-background-rgb) / <alpha-value>)',
+                        surface: 'rgb(var(--color-surface-rgb) / <alpha-value>)',
+                        surfaceHighlight: 'rgb(var(--color-surface-highlight-rgb) / <alpha-value>)',
+                        primary: 'rgb(var(--color-primary-rgb) / <alpha-value>)',
+                        secondary: 'rgb(var(--color-secondary-rgb) / <alpha-value>)',
+                        text: {
+                            main: 'rgb(var(--color-text-main-rgb) / <alpha-value>)',
+                            muted: 'rgb(var(--color-text-muted-rgb) / <alpha-value>)',
+                            dark: 'rgb(var(--color-text-dark-rgb) / <alpha-value>)'
+                        },
+                        status: {
+                            available: 'rgb(var(--color-status-available-rgb) / <alpha-value>)',
+                            unavailable: 'rgb(var(--color-status-unavailable-rgb) / <alpha-value>)'
+                        },
+                        teamA: 'rgb(var(--color-team-a-rgb) / <alpha-value>)',
+                        teamB: 'rgb(var(--color-team-b-rgb) / <alpha-value>)'
+                    },
+                    fontFamily: {
+                        sans: ['"Space Grotesk"', '"Noto Sans TC"', 'system-ui', 'sans-serif'],
+                        display: ['"Space Grotesk"', '"Noto Sans TC"', 'system-ui', 'sans-serif'],
+                        mono: ['ui-monospace', 'SFMono-Regular', 'monospace']
+                    },
+                    boxShadow: {
+                        card: 'var(--shadow-card)',
+                        'card-hover': 'var(--shadow-card-hover)'
+                    }
+                }
+            }
+        };
+    </script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap">
-      <h1 class="site-title">⚽ 家豪世界杯預測 2026</h1>
-      <p class="site-sub">完整賽程 · 5 個大模型共識預測 · 台彩賠率 · 純娛樂</p>
+<body class="antialiased selection:bg-primary selection:text-text-dark">
+
+    <!-- Disclaimer Banner -->
+    <div id="notice-banner" class="text-center text-sm font-semibold py-2 px-4">
+        ⚠️ 純娛樂，別跟著下注 — 以下全部是 AI 模型的玩票預測，不是投注建議
     </div>
-  </header>
 
-  <main class="wrap">
-    <section class="notice">
-      <div class="notice-title">⚠️ 重要提示</div>
-      <p>
-        <strong>家豪策略：5 個大模型各自大膽預測，純娛樂、別跟著下注。</strong>
-      </p>
-      <p class="notice-sub">
-        所有預測由大型語言模型基於歷史數據自動生成，僅供娛樂，不構成任何投注或投資建議。賠率取自台彩 HAD 盤口快照，僅供參考。請理性看待、量力而為。
-      </p>
-    </section>
-
-    <section class="rules">
-      <details>
-        <summary>📋 玩法說明（點開）</summary>
-        <div class="rules-body">
-          <p>本站列出世界杯 2026 <strong>全部賽程</strong>，依日期排序，分「未開賽 / 已完賽」兩區。</p>
-          <ul>
-            <li><span class="pick-key home">主勝</span>＝看好主隊</li>
-            <li><span class="pick-key draw">和局</span>＝看好和局</li>
-            <li><span class="pick-key away">客勝</span>＝看好客隊</li>
-          </ul>
-          <p>有「家豪共識」標籤的場次，是 5 個大模型（GPT／Claude／DeepSeek／Gemini／Kimi 家豪）共同預測的；大字標出共識選邊與勝率，點開可看每個模型的完整理由。每場另附台彩 HAD 賠率（主／和／客）。已完賽場次顯示最終比分，並標 ✓命中／✗未中。</p>
+    <!-- Risk Confirmation Modal -->
+    <div id="risk-modal" class="risk-modal hidden" role="dialog" aria-modal="true" aria-labelledby="risk-modal-title" aria-describedby="risk-modal-desc">
+        <div class="risk-modal-panel">
+            <p class="risk-modal-eyebrow">重要提示</p>
+            <h2 id="risk-modal-title" class="risk-modal-title">瀏覽前風險確認</h2>
+            <p id="risk-modal-desc" class="risk-modal-intro">歡迎來到「家豪世界盃預測 2026」！在繼續瀏覽前，請務必詳閱並確認以下事項：</p>
+            <ol class="risk-modal-list">
+                <li>本站所有世界盃賽事預測，皆由大型語言模型依歷史資料自動生成，<strong>純娛樂、純技術交流參考，絕不構成任何投注建議</strong>。</li>
+                <li>即使是合法的運動彩券，依然存在極高的資金虧損風險。如您參與，請務必保持理性、量力而為。</li>
+                <li>本站堅決反對任何形式的非法賭博。請務必遵守您所在國家或地區的法律法規。</li>
+            </ol>
+            <div class="risk-modal-actions">
+                <button id="risk-accept" type="button" class="risk-modal-primary">我已明確知悉風險，不會跟著 AI 預測盲目下注</button>
+                <button id="risk-leave" type="button" class="risk-modal-secondary">離開本站</button>
+            </div>
         </div>
-      </details>
-    </section>
-
-    <div class="meta-bar">
-      <div id="summary" class="summary"></div>
-      <span id="generated-at" class="generated-at"></span>
     </div>
 
-    <div id="overview"></div>
-
-    <section id="match-list" class="match-list">
-      <p class="loading">載入賽程資料中…</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>家豪世界杯預測 2026 · 純娛樂用途 · 別跟著下注</p>
+    <!-- Game Rules Modal -->
+    <div id="rules-modal" class="info-modal hidden" role="dialog" aria-modal="true" aria-labelledby="rules-modal-title">
+        <button type="button" class="info-modal-backdrop" data-info-modal-close aria-label="關閉"></button>
+        <div class="info-modal-panel">
+            <div class="info-modal-head">
+                <h2 id="rules-modal-title" class="info-modal-title">玩法說明</h2>
+                <button type="button" class="info-modal-close" data-info-modal-close aria-label="關閉">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div class="info-modal-copy">
+                <p>本站集合五個大型語言模型（GPT 家豪、Claude 家豪、DeepSeek 家豪、Gemini 家豪、Kimi 家豪）對 2026 世界盃每場比賽做的<strong>獨立預測</strong>，包含勝負方向（主勝／和局／客勝）與預測比分。</p>
+                <p>每場比賽會顯示五個模型的<strong>共識選擇</strong>、有多少個模型認同，以及賽前官方賠率快照。</p>
+                <h3 class="info-modal-subtitle">再次提醒</h3>
+                <p>所有預測皆為 AI 自動生成、僅供娛樂。<strong>純娛樂，別跟著下注。</strong></p>
+            </div>
+        </div>
     </div>
-  </footer>
 
-  <script src="app.js"></script>
+    <!-- Header -->
+    <header class="site-header sticky top-0 z-50 backdrop-blur-xl border-b shadow-sm">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 h-16">
+            <div class="flex items-center min-w-0">
+                <span class="accent-dot"></span>
+                <h1 class="min-w-0 flex items-center text-lg md:text-2xl font-display font-bold tracking-tight">
+                    <span class="text-text-main truncate">家豪世界盃預測</span>
+                    <span class="text-primary ml-2 font-mono text-base md:text-lg border border-primary/30 px-1.5 py-0.5 rounded bg-primary/10 flex-shrink-0">2026</span>
+                </h1>
+            </div>
+            <div class="flex items-center gap-2">
+                <button type="button" class="rules-trigger" data-rules-open>玩法說明</button>
+                <button type="button" class="theme-toggle" data-theme-toggle aria-label="切換深色模式" title="切換深色模式">
+                    <svg class="theme-toggle-moon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.8A8.5 8.5 0 1111.2 3a6.5 6.5 0 009.8 9.8z"/></svg>
+                    <svg class="theme-toggle-sun" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.36-6.36l-1.42 1.42M7.06 16.94l-1.42 1.42m12.72 0l-1.42-1.42M7.06 7.06L5.64 5.64M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 md:px-8 pt-6 pb-20">
+
+        <!-- Hero / next match with prediction -->
+        <section id="hero-section" class="mb-10"></section>
+
+        <!-- Summary stat strip -->
+        <section id="stats-strip" class="mb-8"></section>
+
+        <!-- Stage Filter Tabs -->
+        <nav class="sticky top-16 z-40 -mx-4 md:-mx-8 px-4 md:px-8 py-3 nav-bar backdrop-blur-lg border-b mb-8">
+            <div class="flex items-center gap-2 overflow-x-auto tabs-scroll" id="stage-tabs"></div>
+        </nav>
+
+        <!-- Matches Container -->
+        <div id="matches-container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="match-card rounded-xl p-5 animate-pulse"><div class="h-4 bg-surfaceHighlight rounded w-1/3 mb-4"></div><div class="flex justify-between items-center mb-4"><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div><div class="h-4 bg-surfaceHighlight rounded w-1/6"></div><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div></div><div class="h-3 bg-surfaceHighlight rounded w-1/2 mt-4"></div></div>
+                <div class="match-card rounded-xl p-5 animate-pulse hidden md:block"><div class="h-4 bg-surfaceHighlight rounded w-1/3 mb-4"></div><div class="flex justify-between items-center mb-4"><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div><div class="h-4 bg-surfaceHighlight rounded w-1/6"></div><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div></div><div class="h-3 bg-surfaceHighlight rounded w-1/2 mt-4"></div></div>
+                <div class="match-card rounded-xl p-5 animate-pulse hidden lg:block"><div class="h-4 bg-surfaceHighlight rounded w-1/3 mb-4"></div><div class="flex justify-between items-center mb-4"><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div><div class="h-4 bg-surfaceHighlight rounded w-1/6"></div><div class="h-12 w-12 bg-surfaceHighlight rounded-full"></div></div><div class="h-3 bg-surfaceHighlight rounded w-1/2 mt-4"></div></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Match detail modal -->
+    <div id="detail-modal" class="info-modal hidden" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+        <button type="button" class="info-modal-backdrop" data-info-modal-close aria-label="關閉"></button>
+        <div class="info-modal-panel detail-panel">
+            <div class="info-modal-head">
+                <h2 id="detail-modal-title" class="info-modal-title">比賽預測</h2>
+                <button type="button" class="info-modal-close" data-info-modal-close aria-label="關閉">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <div id="detail-body" class="detail-body"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer border-t py-8 text-center text-text-muted text-xs font-mono">
+        <p class="mb-1">家豪世界盃預測 2026 · 五個 AI 模型的玩票預測</p>
+        <p class="text-secondary font-semibold">純娛樂，別跟著下注</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
