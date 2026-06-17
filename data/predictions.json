@@ -1,0 +1,364 @@
+{
+  "generated_at": "2026-06-17T12:40:00+08:00",
+  "models": [
+    "GPT家豪",
+    "Claude家豪",
+    "DeepSeek家豪",
+    "Gemini家豪",
+    "Kimi家豪"
+  ],
+  "matches": [
+    {
+      "id": "por-drc",
+      "home": "葡萄牙",
+      "away": "剛果民主",
+      "home_en": "Portugal",
+      "away_en": "DR Congo",
+      "kickoff_tw": "2026-06-18 01:00",
+      "group": "F",
+      "consensus": {
+        "selection": "HOME",
+        "selection_team": "葡萄牙",
+        "win_prob": 0.804,
+        "agree": "5/5 models",
+        "predicted_score": "3-1"
+      },
+      "models": [
+        {
+          "name": "GPT家豪",
+          "selection": "HOME",
+          "selection_team": "葡萄牙",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.85,
+            "D": 0.1,
+            "A": 0.05
+          },
+          "confidence": 0.9,
+          "key_risk": "DR Congo的防守意外表現",
+          "reasoning_md": "葡萄牙的攻擊火力明顯強於剛果，主力球員的預期進球數據也顯示他們能夠頻繁得分。剛果的陣容深度不足，面對這樣的強隊很難抵擋。即使剛果有個別球員表現不錯，但整體實力差距過大，爆冷機會微乎其微。"
+        },
+        {
+          "name": "Claude家豪",
+          "selection": "HOME",
+          "selection_team": "葡萄牙",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.75,
+            "D": 0.15,
+            "A": 0.1
+          },
+          "confidence": 0.85,
+          "key_risk": "DR Congo前鋒Nathanaël Mbuku單場爆發可能性",
+          "reasoning_md": "葡萄牙火力明顯碾壓剛果，Ramos和Felix兩把尖刀幾乎決定勝局。剛果雖有Mbuku這個0.60進球率的尖兵，但整體陣容深度和質量不足以撼動葡萄牙。"
+        },
+        {
+          "name": "DeepSeek家豪",
+          "selection": "HOME",
+          "selection_team": "葡萄牙",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.85,
+            "D": 0.1,
+            "A": 0.05
+          },
+          "confidence": 0.8,
+          "key_risk": "DR Congo的Nathanaël Mbuku爆發力驚人，若葡萄牙後防輕敵可能被他單點突破",
+          "reasoning_md": "葡萄牙火力碾壓（五名主力預期進球全＞0.3），且陣容深度是對手1.5倍。DR Congo只有Mbuku能看，但中後場一堆次級聯賽球員，扛不住B費+拉斐爾萊奧的邊中結合。唯一懸念是葡萄牙若早早領先可能鬆懈送一球。"
+        },
+        {
+          "name": "Gemini家豪",
+          "selection": "HOME",
+          "selection_team": "葡萄牙",
+          "predicted_score": "2-0",
+          "win_prob": {
+            "H": 0.75,
+            "D": 0.15,
+            "A": 0.1
+          },
+          "confidence": 0.8,
+          "key_risk": "DR Congo 陣容深度不足，主力球員狀態下滑或傷病可能影響比賽走向。",
+          "reasoning_md": "葡萄牙攻擊火力指數明顯優於剛果，主力球員進球效率也高出不少。雖然剛果有幾位在歐洲踢球的球員，但整體陣容深度和頂級聯賽數據的人數都明顯落後，難以與葡萄牙抗衡。葡萄牙主場優勢加上實力差距，贏面很大，但剛果若能守住陣線，也有機會小輸。"
+        },
+        {
+          "name": "Kimi家豪",
+          "selection": "HOME",
+          "selection_team": "葡萄牙",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.82,
+            "D": 0.12,
+            "A": 0.06
+          },
+          "confidence": 0.78,
+          "key_risk": "Mbuku單場爆種，靠速度打穿葡萄牙邊路",
+          "reasoning_md": "葡萄牙攻擊深度碾壓，五個前場都能進球，剛果只有兩人夠看。剛果後防深度更慘，13人頂級聯賽數據代表替補一上就被打爆。唯一爆冷點是Mbuku如果像當年Eto'o一樣單場兩次反擊得手，但機率極低。"
+        }
+      ]
+    },
+    {
+      "id": "eng-cro",
+      "home": "英格蘭",
+      "away": "克羅埃西亞",
+      "home_en": "England",
+      "away_en": "Croatia",
+      "kickoff_tw": "2026-06-18 04:00",
+      "group": "L",
+      "consensus": {
+        "selection": "HOME",
+        "selection_team": "英格蘭",
+        "win_prob": 0.734,
+        "agree": "5/5 models",
+        "predicted_score": "3-1"
+      },
+      "models": [
+        {
+          "name": "GPT家豪",
+          "selection": "HOME",
+          "selection_team": "英格蘭",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.75,
+            "D": 0.15,
+            "A": 0.1
+          },
+          "confidence": 0.85,
+          "key_risk": "Croatia的防守表現可能意外提升",
+          "reasoning_md": "英格蘭的攻擊火力明顯強於克羅地亞，尤其是哈里·凱恩的預期進球數據非常高。克羅地亞的主力火力普遍偏低，難以對英格蘭造成威脅。即使克羅地亞有時候能咬住比分，但整體實力差距太大，英格蘭贏面大。"
+        },
+        {
+          "name": "Claude家豪",
+          "selection": "HOME",
+          "selection_team": "英格蘭",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.75,
+            "D": 0.15,
+            "A": 0.1
+          },
+          "confidence": 0.85,
+          "key_risk": "Kramarić突然爆發或Kane受傷",
+          "reasoning_md": "英格蘭火力完勝克羅地亞，Kane、Saka、Bellingham三箭齊發，對方攻擊力明顯不足。英格蘭陣容深度高達25/26，穩定性和替補質量都遠超克羅地亞。這場比賽只有意外才會改變結果。"
+        },
+        {
+          "name": "DeepSeek家豪",
+          "selection": "HOME",
+          "selection_team": "英格蘭",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.7,
+            "D": 0.2,
+            "A": 0.1
+          },
+          "confidence": 0.8,
+          "key_risk": "Croatia的中場控制力可能拖慢節奏，讓英格蘭火力無法完全發揮",
+          "reasoning_md": "英格蘭前場數據碾壓，Kane+Saka+Bellingham的預期進球總和就快抵克國全隊。克羅埃西亞主力老化（Perišić預期進球0.16根本是來養老的），深度又差一截，除非中場魔術師Modrić爆氣控場90分鐘，否則會被英格蘭年輕腿跑垮。"
+        },
+        {
+          "name": "Gemini家豪",
+          "selection": "HOME",
+          "selection_team": "英格蘭",
+          "predicted_score": "2-0",
+          "win_prob": {
+            "H": 0.75,
+            "D": 0.15,
+            "A": 0.1
+          },
+          "confidence": 0.8,
+          "key_risk": "Croatia 的中場老將能否有效限制 Bellingham 的推進",
+          "reasoning_md": "英格蘭的攻擊火力指數明顯高於克羅埃西亞，特別是 Kane、Saka、Bellingham 的進球效率都非常突出。克羅埃西亞雖然有 Kramarić 和 Budimir，但整體攻擊深度和頂級聯賽球員比例都輸了一截。英格蘭主場優勢加上更強的個人能力，贏面很大，克羅埃西亞想爆冷難度極高。"
+        },
+        {
+          "name": "Kimi家豪",
+          "selection": "HOME",
+          "selection_team": "英格蘭",
+          "predicted_score": "3-1",
+          "win_prob": {
+            "H": 0.72,
+            "D": 0.18,
+            "A": 0.1
+          },
+          "confidence": 0.85,
+          "key_risk": "Perišić突然回春＋英格蘭右後衛失位",
+          "reasoning_md": "英格蘭攻擊火力指數0.68對0.54，五個主力每90分鐘預期進球全在0.4以上，Croatia只有Budimir一人達標。深度也差一截，25人vs20人頂級聯賽數據，替補火力直接碾壓。唯一爆冷點是Perišić若找回邊路單挑能力，英格蘭右路防守一向走神，被他偷一個可能把比分咬到2-1，但整體差距太大，翻不了盤。"
+        }
+      ]
+    },
+    {
+      "id": "gha-pan",
+      "home": "加納",
+      "away": "巴拿馬",
+      "home_en": "Ghana",
+      "away_en": "Panama",
+      "kickoff_tw": "2026-06-18 07:00",
+      "group": "L",
+      "consensus": {
+        "selection": "HOME",
+        "selection_team": "加納",
+        "win_prob": 0.87,
+        "agree": "5/5 models",
+        "predicted_score": "3-0"
+      },
+      "models": [
+        {
+          "name": "GPT家豪",
+          "selection": "HOME",
+          "selection_team": "加納",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.9,
+            "D": 0.05,
+            "A": 0.05
+          },
+          "confidence": 0.85,
+          "key_risk": "Ghana的主力球員狀態不佳",
+          "reasoning_md": "Ghana的攻擊實力指數明顯高於Panama，且主力球員在頂級聯賽的數據也表現不俗。Panama幾乎沒有頂級聯賽的火力支持，這場比賽Ghana贏面極大，預計會大勝。"
+        },
+        {
+          "name": "Claude家豪",
+          "selection": "HOME",
+          "selection_team": "加納",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.85,
+            "D": 0.1,
+            "A": 0.05
+          },
+          "confidence": 0.75,
+          "key_risk": "Panama意外韌性或Ghana前場效率不彰",
+          "reasoning_md": "Ghana火力明顯碾壓，攻擊實力指數遠勝對手。Williams和Semenyo組成的前場線路質量太高，Panama幾乎沒有頂級聯賽球員，防線必然潰敗。這場比賽基本上是單方面的進攻訓練。"
+        },
+        {
+          "name": "DeepSeek家豪",
+          "selection": "HOME",
+          "selection_team": "加納",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.85,
+            "D": 0.1,
+            "A": 0.05
+          },
+          "confidence": 0.9,
+          "key_risk": "Ghana前鋒群集體啞火，Panama靠定位球偷雞",
+          "reasoning_md": "Ghana攻擊線全是頂級聯賽球員，Iñaki Williams數據碾壓全場；Panama整隊幾乎沒頂級聯賽經驗，火力指數掛零。這種差距不爆冷天理難容，直接壓主隊碾壓。唯一懸念是加納會不會鬆懈送分。"
+        },
+        {
+          "name": "Gemini家豪",
+          "selection": "HOME",
+          "selection_team": "加納",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.9,
+            "D": 0.05,
+            "A": 0.05
+          },
+          "confidence": 0.85,
+          "key_risk": "Panama 陣容深度不足，一旦主力被鎖死，進攻端將完全癱瘓。",
+          "reasoning_md": "Ghana 攻擊火力指數遠超 Panama，且主力球員多來自歐洲頂級聯賽，進攻端有 Iñaki Williams、Semenyo 等人能製造威脅。Panama 陣容深度和頂級聯賽球員數量懸殊，面對 Ghana 的攻勢，很難招架。這場比賽 Ghana 贏面極大，比分差距也會比較明顯。"
+        },
+        {
+          "name": "Kimi家豪",
+          "selection": "HOME",
+          "selection_team": "加納",
+          "predicted_score": "3-0",
+          "win_prob": {
+            "H": 0.85,
+            "D": 0.12,
+            "A": 0.03
+          },
+          "confidence": 0.9,
+          "key_risk": "Panama靠定位球偷一顆",
+          "reasoning_md": "加納前場全是五大聯賽輸出點，Panama連一個頂級聯賽的人都沒有，火力差距大到離譜。除非Panama靠死球蒙進一球，不然就是被壓著打整場。我直接喊3-0，沒在客氣。"
+        }
+      ]
+    },
+    {
+      "id": "uzb-col",
+      "home": "烏茲別克",
+      "away": "哥倫比亞",
+      "home_en": "Uzbekistan",
+      "away_en": "Colombia",
+      "kickoff_tw": "2026-06-18 10:00",
+      "group": "K",
+      "consensus": {
+        "selection": "AWAY",
+        "selection_team": "哥倫比亞",
+        "win_prob": 0.65,
+        "agree": "5/5 models",
+        "predicted_score": "1-3"
+      },
+      "models": [
+        {
+          "name": "GPT家豪",
+          "selection": "AWAY",
+          "selection_team": "哥倫比亞",
+          "predicted_score": "1-3",
+          "win_prob": {
+            "H": 0.2,
+            "D": 0.2,
+            "A": 0.6
+          },
+          "confidence": 0.8,
+          "key_risk": "Uzbekistan主場優勢可能影響比賽結果",
+          "reasoning_md": "Colombia的攻擊實力明顯優於Uzbekistan，尤其是Luis Díaz和Luis Suárez的火力更是強勁。Uzbekistan的主力火力不足，面對這樣的對手很難抵擋。即使在主場，Uzbekistan也難以撼動Colombia的實力。"
+        },
+        {
+          "name": "Claude家豪",
+          "selection": "AWAY",
+          "selection_team": "哥倫比亞",
+          "predicted_score": "0-2",
+          "win_prob": {
+            "H": 0.15,
+            "D": 0.15,
+            "A": 0.7
+          },
+          "confidence": 0.85,
+          "key_risk": "Shomurodov突然爆發或防線奇蹟",
+          "reasoning_md": "Colombia火力完勝，11個頂級聯賽球員對比烏茲別克斯坦可憐的2個，Luis Díaz和Luis Suárez組合太猛。烏茲別克斯坦攻擊實力指數只有0.24，根本擋不住Colombia的進攻輪番轟炸。"
+        },
+        {
+          "name": "DeepSeek家豪",
+          "selection": "AWAY",
+          "selection_team": "哥倫比亞",
+          "predicted_score": "1-3",
+          "win_prob": {
+            "H": 0.1,
+            "D": 0.2,
+            "A": 0.7
+          },
+          "confidence": 0.8,
+          "key_risk": "Uzbekistan的防守反擊可能意外得手",
+          "reasoning_md": "Colombia的攻擊火力明顯強於Uzbekistan，尤其是Luis Díaz和Luis Suárez的進球能力。Uzbekistan雖然有Shomurodov，但整體實力差距太大，Colombia贏面大。唯一風險是Uzbekistan的防守反擊可能偷到一球。"
+        },
+        {
+          "name": "Gemini家豪",
+          "selection": "AWAY",
+          "selection_team": "哥倫比亞",
+          "predicted_score": "1-2",
+          "win_prob": {
+            "H": 0.15,
+            "D": 0.25,
+            "A": 0.6
+          },
+          "confidence": 0.75,
+          "key_risk": "Uzbekistan 主力火力集中，但 Colombia 整體攻擊火力更平均且有頂級聯賽經驗者眾。",
+          "reasoning_md": "哥倫比亞的攻擊實力指數和頂級聯賽球員數量都明顯優於烏茲別克，特別是 Luis Díaz 和 Luis Suárez 的進球效率驚人。烏茲別克雖然有 Shomurodov，但整體深度不足，難以抵擋哥倫比亞的火力壓制，預計哥倫比亞小勝。"
+        },
+        {
+          "name": "Kimi家豪",
+          "selection": "AWAY",
+          "selection_team": "哥倫比亞",
+          "predicted_score": "1-3",
+          "win_prob": {
+            "H": 0.15,
+            "D": 0.2,
+            "A": 0.65
+          },
+          "confidence": 0.78,
+          "key_risk": "Uzbekistan主場氣氛+哥倫比亞慢熱，上半場被偷一球可能讓比賽變得難看",
+          "reasoning_md": "哥倫比亞攻擊指數高出一截，Díaz+Suárez兩把刀每90分鐘合計0.96 xG，Uzbekistan全隊加起來不到人家一半。烏茲別克深度只有2人踢頂級聯賽，後面體力掉下去就等死。唯一爆冷點是哥倫比亞開局慢熱，但撐過前20分鐘就是屠殺。"
+        }
+      ]
+    }
+  ]
+}
