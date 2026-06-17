@@ -2,11 +2,11 @@
   "generated_at": "2026-06-17T13:34:16+08:00",
   "competition_name": "世界盃",
   "models": [
-    "GPT家豪",
-    "Claude家豪",
-    "DeepSeek家豪",
-    "Gemini家豪",
-    "Kimi家豪"
+    "GPT",
+    "Claude",
+    "DeepSeek",
+    "Gemini",
+    "Kimi"
   ],
   "matches": [
     {
@@ -318,7 +318,7 @@
         "predicted_score": "3-0",
         "models": [
           {
-            "name": "GPT家豪",
+            "name": "GPT",
             "selection": "HOME",
             "selection_team": "奧地利",
             "predicted_score": "3-0",
@@ -328,7 +328,7 @@
             "reasoning_md": null
           },
           {
-            "name": "Claude家豪",
+            "name": "Claude",
             "selection": "HOME",
             "selection_team": "奧地利",
             "predicted_score": "3-0",
@@ -338,7 +338,7 @@
             "reasoning_md": null
           },
           {
-            "name": "DeepSeek家豪",
+            "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "奧地利",
             "predicted_score": "3-0",
@@ -348,7 +348,7 @@
             "reasoning_md": null
           },
           {
-            "name": "Gemini家豪",
+            "name": "Gemini",
             "selection": "HOME",
             "selection_team": "奧地利",
             "predicted_score": "3-0",
@@ -358,7 +358,7 @@
             "reasoning_md": null
           },
           {
-            "name": "Kimi家豪",
+            "name": "Kimi",
             "selection": "HOME",
             "selection_team": "奧地利",
             "predicted_score": "3-0",
@@ -392,7 +392,7 @@
         "predicted_score": "3-1",
         "models": [
           {
-            "name": "GPT家豪",
+            "name": "GPT",
             "selection": "HOME",
             "selection_team": "葡萄牙",
             "predicted_score": "3-0",
@@ -406,7 +406,7 @@
             "reasoning_md": "葡萄牙的攻擊火力明顯強於剛果，主力球員的預期進球資料也顯示他們能夠頻繁得分。剛果的陣容深度不足，面對這樣的強隊很難抵擋。即使剛果有個別球員表現不錯，但整體實力差距過大，爆冷機會微乎其微。"
           },
           {
-            "name": "Claude家豪",
+            "name": "Claude",
             "selection": "HOME",
             "selection_team": "葡萄牙",
             "predicted_score": "3-1",
@@ -420,7 +420,7 @@
             "reasoning_md": "葡萄牙火力明顯碾壓剛果，Ramos和Felix兩把尖刀幾乎決定勝局。剛果雖有Mbuku這個0.60進球率的尖兵，但整體陣容深度和質量不足以撼動葡萄牙。"
           },
           {
-            "name": "DeepSeek家豪",
+            "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "葡萄牙",
             "predicted_score": "3-1",
@@ -434,7 +434,7 @@
             "reasoning_md": "葡萄牙火力碾壓（五名主力預期進球全＞0.3），且陣容深度是對手1.5倍。DR Congo只有Mbuku能看，但中後場一堆次級聯賽球員，扛不住B費+拉斐爾萊奧的邊中結合。唯一懸念是葡萄牙若早早領先可能鬆懈送一球。"
           },
           {
-            "name": "Gemini家豪",
+            "name": "Gemini",
             "selection": "HOME",
             "selection_team": "葡萄牙",
             "predicted_score": "2-0",
@@ -448,7 +448,7 @@
             "reasoning_md": "葡萄牙攻擊火力指數明顯優於剛果，主力球員進球效率也高出不少。雖然剛果有幾位在歐洲踢球的球員，但整體陣容深度和頂級聯賽資料的人數都明顯落後，難以與葡萄牙抗衡。葡萄牙主場優勢加上實力差距，贏面很大，但剛果若能守住陣線，也有機會小輸。"
           },
           {
-            "name": "Kimi家豪",
+            "name": "Kimi",
             "selection": "HOME",
             "selection_team": "葡萄牙",
             "predicted_score": "3-1",
@@ -486,7 +486,7 @@
         "predicted_score": "3-1",
         "models": [
           {
-            "name": "GPT家豪",
+            "name": "GPT",
             "selection": "HOME",
             "selection_team": "英格蘭",
             "predicted_score": "3-1",
@@ -500,7 +500,7 @@
             "reasoning_md": "英格蘭的攻擊火力明顯強於克羅埃西亞，尤其是哈里·凱恩的預期進球資料非常高。克羅埃西亞的主力火力普遍偏低，難以對英格蘭造成威脅。即使克羅埃西亞有時候能咬住比分，但整體實力差距太大，英格蘭贏面大。"
           },
           {
-            "name": "Claude家豪",
+            "name": "Claude",
             "selection": "HOME",
             "selection_team": "英格蘭",
             "predicted_score": "3-1",
@@ -514,7 +514,7 @@
             "reasoning_md": "英格蘭火力完勝克羅埃西亞，Kane、Saka、Bellingham三箭齊發，對方攻擊力明顯不足。英格蘭陣容深度高達25/26，穩定性和替補質量都遠超克羅埃西亞。這場比賽只有意外才會改變結果。"
           },
           {
-            "name": "DeepSeek家豪",
+            "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "英格蘭",
             "predicted_score": "3-1",
@@ -528,7 +528,7 @@
             "reasoning_md": "英格蘭前場資料碾壓，Kane+Saka+Bellingham的預期進球總和就快抵克國全隊。克羅埃西亞主力老化（Perišić預期進球0.16根本是來養老的），深度又差一截，除非中場魔術師Modrić爆氣控場90分鐘，否則會被英格蘭年輕腿跑垮。"
           },
           {
-            "name": "Gemini家豪",
+            "name": "Gemini",
             "selection": "HOME",
             "selection_team": "英格蘭",
             "predicted_score": "2-0",
@@ -542,7 +542,7 @@
             "reasoning_md": "英格蘭的攻擊火力指數明顯高於克羅埃西亞，特別是 Kane、Saka、Bellingham 的進球效率都非常突出。克羅埃西亞雖然有 Kramarić 和 Budimir，但整體攻擊深度和頂級聯賽球員比例都輸了一截。英格蘭主場優勢加上更強的個人能力，贏面很大，克羅埃西亞想爆冷難度極高。"
           },
           {
-            "name": "Kimi家豪",
+            "name": "Kimi",
             "selection": "HOME",
             "selection_team": "英格蘭",
             "predicted_score": "3-1",
@@ -580,7 +580,7 @@
         "predicted_score": "3-0",
         "models": [
           {
-            "name": "GPT家豪",
+            "name": "GPT",
             "selection": "HOME",
             "selection_team": "迦納",
             "predicted_score": "3-0",
@@ -594,7 +594,7 @@
             "reasoning_md": "Ghana的攻擊實力指數明顯高於Panama，且主力球員在頂級聯賽的資料也表現不俗。Panama幾乎沒有頂級聯賽的火力支援，這場比賽Ghana贏面極大，預計會大勝。"
           },
           {
-            "name": "Claude家豪",
+            "name": "Claude",
             "selection": "HOME",
             "selection_team": "迦納",
             "predicted_score": "3-0",
@@ -608,7 +608,7 @@
             "reasoning_md": "Ghana火力明顯碾壓，攻擊實力指數遠勝對手。Williams和Semenyo組成的前場線路質量太高，Panama幾乎沒有頂級聯賽球員，防線必然潰敗。這場比賽基本上是單方面的進攻訓練。"
           },
           {
-            "name": "DeepSeek家豪",
+            "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "迦納",
             "predicted_score": "3-0",
@@ -622,7 +622,7 @@
             "reasoning_md": "Ghana攻擊線全是頂級聯賽球員，Iñaki Williams資料碾壓全場；Panama整隊幾乎沒頂級聯賽經驗，火力指數掛零。這種差距不爆冷天理難容，直接壓主隊碾壓。唯一懸念是迦納會不會鬆懈送分。"
           },
           {
-            "name": "Gemini家豪",
+            "name": "Gemini",
             "selection": "HOME",
             "selection_team": "迦納",
             "predicted_score": "3-0",
@@ -636,7 +636,7 @@
             "reasoning_md": "Ghana 攻擊火力指數遠超 Panama，且主力球員多來自歐洲頂級聯賽，進攻端有 Iñaki Williams、Semenyo 等人能製造威脅。Panama 陣容深度和頂級聯賽球員數量懸殊，面對 Ghana 的攻勢，很難招架。這場比賽 Ghana 贏面極大，比分差距也會比較明顯。"
           },
           {
-            "name": "Kimi家豪",
+            "name": "Kimi",
             "selection": "HOME",
             "selection_team": "迦納",
             "predicted_score": "3-0",
@@ -674,7 +674,7 @@
         "predicted_score": "1-3",
         "models": [
           {
-            "name": "GPT家豪",
+            "name": "GPT",
             "selection": "AWAY",
             "selection_team": "哥倫比亞",
             "predicted_score": "1-3",
@@ -688,7 +688,7 @@
             "reasoning_md": "Colombia的攻擊實力明顯優於Uzbekistan，尤其是Luis Díaz和Luis Suárez的火力更是強勁。Uzbekistan的主力火力不足，面對這樣的對手很難抵擋。即使在主場，Uzbekistan也難以撼動Colombia的實力。"
           },
           {
-            "name": "Claude家豪",
+            "name": "Claude",
             "selection": "AWAY",
             "selection_team": "哥倫比亞",
             "predicted_score": "0-2",
@@ -702,7 +702,7 @@
             "reasoning_md": "Colombia火力完勝，11個頂級聯賽球員對比烏茲別克可憐的2個，Luis Díaz和Luis Suárez組合太猛。烏茲別克攻擊實力指數只有0.24，根本擋不住Colombia的進攻輪番轟炸。"
           },
           {
-            "name": "DeepSeek家豪",
+            "name": "DeepSeek",
             "selection": "AWAY",
             "selection_team": "哥倫比亞",
             "predicted_score": "1-3",
@@ -716,7 +716,7 @@
             "reasoning_md": "Colombia的攻擊火力明顯強於Uzbekistan，尤其是Luis Díaz和Luis Suárez的進球能力。Uzbekistan雖然有Shomurodov，但整體實力差距太大，Colombia贏面大。唯一風險是Uzbekistan的防守反擊可能偷到一球。"
           },
           {
-            "name": "Gemini家豪",
+            "name": "Gemini",
             "selection": "AWAY",
             "selection_team": "哥倫比亞",
             "predicted_score": "1-2",
@@ -730,7 +730,7 @@
             "reasoning_md": "哥倫比亞的攻擊實力指數和頂級聯賽球員數量都明顯優於烏茲別克，特別是 Luis Díaz 和 Luis Suárez 的進球效率驚人。烏茲別克雖然有 Shomurodov，但整體深度不足，難以抵擋哥倫比亞的火力壓制，預計哥倫比亞小勝。"
           },
           {
-            "name": "Kimi家豪",
+            "name": "Kimi",
             "selection": "AWAY",
             "selection_team": "哥倫比亞",
             "predicted_score": "1-3",

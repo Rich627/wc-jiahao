@@ -1,7 +1,7 @@
 'use strict';
 
 /* ============================================================
-   家豪世界盃預測 2026 — frontend logic
+   足球 Master 世界盃預測 2026 — frontend logic
    Pure static. Reads ./data/predictions.json. No backend, no LLM,
    no external data calls.
    ============================================================ */
@@ -126,7 +126,7 @@ function renderHero() {
             ${esc(dateKey(match.kickoff_tw))} ${esc(fmtTime(match.kickoff_tw))} (台灣時間)
           </div>
           <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
-            <span class="pick-chip ${pickClass} text-base px-4 py-2">家豪共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
+            <span class="pick-chip ${pickClass} text-base px-4 py-2">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
             <span class="text-text-muted text-sm font-mono">勝率 ${winPct}</span>
             <span class="text-text-muted text-sm font-mono">預測比分 ${esc(p.predicted_score || '—')}</span>
           </div>
@@ -194,7 +194,7 @@ function predictionStrip(match) {
     const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '';
     return `<div class="mt-4 pt-3 border-t border-gray-100">
         <div class="flex items-center justify-between gap-2 flex-wrap">
-          <span class="pick-chip ${pickClass}">家豪：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
+          <span class="pick-chip ${pickClass}">Master：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
           <span class="text-xs text-text-muted font-mono">${esc(p.predicted_score || '')}${winPct ? ' · ' + winPct : ''}</span>
         </div>
         <div class="mt-2 text-[11px] text-text-muted">${esc(p.agree || '')} 認同 · 點擊看各模型分析</div>
@@ -321,7 +321,7 @@ function openDetail(matchId) {
       </div>
       <div class="rounded-xl p-4 mb-3" style="background:var(--color-info-soft);border:1px solid var(--color-info-border)">
         <div class="flex items-center justify-between flex-wrap gap-2">
-          <span class="pick-chip ${pickClass} text-sm">家豪共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
+          <span class="pick-chip ${pickClass} text-sm">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
           <span class="text-sm font-mono text-text-muted">勝率 ${winPct} · 比分 ${esc(p.predicted_score || '—')} · ${esc(p.agree || '')} 認同</span>
         </div>
       </div>
