@@ -308,8 +308,23 @@ html[data-theme="dark"] .model-mark.llm-avatar { border-color: rgb(var(--color-s
 .model-kimi     { background: #1F2937; }                 /* Moonshot dark */
 .model-mark-fallback { background: var(--color-text-muted); }
 
+/* ---------- Real brand logos (local SVG files) ---------- */
+/* White rounded chip so dark monochrome logos (Claude, Kimi) stay legible
+   on the dark theme; light logos sit fine on white too. */
+.model-logo-wrap {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 9999px; flex: 0 0 auto;
+    background: #fff; overflow: hidden;
+    box-shadow: 0 1px 3px rgb(15 23 42 / 0.18);
+}
+.model-logo { width: 64%; height: 64%; object-fit: contain; display: block; }
+.model-logo-wrap.llm-avatar { width: 32px; height: 32px; border: 2px solid #fff; box-shadow: 0 2px 6px rgb(15 23 42 / 0.16); }
+html[data-theme="dark"] .model-logo-wrap.llm-avatar { border-color: rgb(var(--color-surface-elevated-rgb)); }
+
 .model-name-wrap { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
 .model-name-wrap .model-mark { width: 24px; height: 24px; }
+/* Larger logo in the per-model detail blocks */
+.model-name-wrap .model-logo-wrap { width: 30px; height: 30px; }
 
 /* ---------- Date group headings ---------- */
 .date-group-line {

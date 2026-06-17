@@ -63,13 +63,33 @@ const MODEL_SVG = {
     kimi: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3.4" fill="#fff"/></svg>'
 };
 
+// Replace a failed logo <img> with the inline colored-circle fallback mark.
+function modelLogoFail(img) {
+    const key = img.getAttribute('data-key') || '';
+    const name = img.getAttribute('data-name') || '';
+    const short = img.getAttribute('data-short') || '';
+    const wrap = img.parentNode;
+    if (!wrap) return;
+    const mark = document.createElement('span');
+    mark.className = 'model-mark model-' + key;
+    mark.title = name;
+    mark.innerHTML = MODEL_SVG[key] || short;
+    wrap.replaceWith(mark);
+}
+
 function modelBadge(name, cls) {
     const meta = modelMeta(name);
     const extra = cls ? ' ' + cls : '';
     if (!meta) {
         return `<span class="model-mark model-mark-fallback${extra}" title="${esc(name)}">${esc(String(name || '').slice(0, 1))}</span>`;
     }
-    return `<span class="model-mark model-${meta.key}${extra}" title="${esc(name)}">${MODEL_SVG[meta.key] || esc(meta.short)}</span>`;
+    // Real official brand logos (local files). On load failure, gracefully
+    // fall back to the inline colored-circle mark so we never show a broken image.
+    return `<span class="model-logo-wrap${extra}" title="${esc(name)}">` +
+        `<img src="assets/models/${meta.key}.svg" class="model-logo" ` +
+        `alt="${esc(meta.label)} logo" data-key="${esc(meta.key)}" ` +
+        `data-name="${esc(name)}" data-short="${esc(meta.short)}" ` +
+        `onerror="modelLogoFail(this)"></span>`;
 }
 
 const state = {
