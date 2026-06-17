@@ -9,6 +9,69 @@
 const SEL_LABEL = { HOME: '主勝', DRAW: '和局', AWAY: '客勝' };
 const SEL_CLASS = { HOME: 'pick-home', DRAW: 'pick-draw', AWAY: 'pick-away' };
 
+/* ---------- team flag map (中文隊名 → ISO2 for flagcdn.com) ---------- */
+const TEAM_ISO2 = {
+    '伊拉克': 'iq', '伊朗': 'ir', '克羅埃西亞': 'hr', '剛果民主共和國': 'cd', '剛果民主': 'cd',
+    '加拿大': 'ca', '南非': 'za', '卡達': 'qa', '厄瓜多': 'ec', '哥倫比亞': 'co',
+    '土耳其': 'tr', '埃及': 'eg', '塞內加爾': 'sn', '墨西哥': 'mx', '奧地利': 'at',
+    '巴拉圭': 'py', '巴拿馬': 'pa', '巴西': 'br', '庫拉索': 'cw', '德國': 'de',
+    '挪威': 'no', '捷克': 'cz', '摩洛哥': 'ma', '日本': 'jp', '比利時': 'be',
+    '沙烏地阿拉伯': 'sa', '法國': 'fr', '波黑': 'ba', '海地': 'ht', '澳大利亞': 'au',
+    '澳洲': 'au', '烏拉圭': 'uy', '烏茲別克': 'uz', '瑞典': 'se', '瑞士': 'ch',
+    '突尼西亞': 'tn', '突尼斯': 'tn', '約旦': 'jo', '紐西蘭': 'nz', '維德角': 'cv',
+    '佛得角': 'cv', '美國': 'us', '英格蘭': 'gb-eng', '荷蘭': 'nl', '葡萄牙': 'pt',
+    '蘇格蘭': 'gb-sct', '西班牙': 'es', '象牙海岸': 'ci', '科特迪瓦': 'ci', '迦納': 'gh',
+    '加納': 'gh', '阿根廷': 'ar', '阿爾及利亞': 'dz', '韓國': 'kr', '南韓': 'kr',
+    '威爾斯': 'gb-wls'
+};
+
+function teamFlagIso(name) {
+    if (!name || isPlaceholder(name)) return null;
+    return TEAM_ISO2[name] || null;
+}
+
+/* ---------- model brand marks (self-contained inline SVG, no external CDN) ---------- */
+const MODEL_BRANDS = {
+    GPT:      { key: 'gpt',      label: 'GPT',      short: 'GPT' },
+    Claude:   { key: 'claude',   label: 'Claude',   short: 'CL'  },
+    DeepSeek: { key: 'deepseek', label: 'DeepSeek', short: 'DS'  },
+    Gemini:   { key: 'gemini',   label: 'Gemini',   short: 'GM'  },
+    Kimi:     { key: 'kimi',     label: 'Kimi',     short: 'KM'  }
+};
+
+function modelMeta(name) {
+    const n = String(name || '').trim();
+    if (MODEL_BRANDS[n]) return MODEL_BRANDS[n];
+    // fuzzy match (e.g. "GPT-4o", "Claude 3.5", "Gemini Pro")
+    const lower = n.toLowerCase();
+    for (const k in MODEL_BRANDS) {
+        if (lower.indexOf(k.toLowerCase()) >= 0) return MODEL_BRANDS[k];
+    }
+    if (lower.indexOf('openai') >= 0) return MODEL_BRANDS.GPT;
+    if (lower.indexOf('anthropic') >= 0) return MODEL_BRANDS.Claude;
+    if (lower.indexOf('google') >= 0) return MODEL_BRANDS.Gemini;
+    if (lower.indexOf('moonshot') >= 0) return MODEL_BRANDS.Kimi;
+    return null;
+}
+
+// Inline SVG brand-ish marks (openly drawn, not copyrighted logos), brand-colored.
+const MODEL_SVG = {
+    gpt: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6a4.6 4.6 0 014.2 2.74 4.6 4.6 0 012.66 7.9 4.6 4.6 0 01-4.05 5.46A4.6 4.6 0 017.8 21.4a4.6 4.6 0 01-2.66-7.9A4.6 4.6 0 019.19 4.04 4.6 4.6 0 0112 2.6zm0 3.4a2.4 2.4 0 100 4.8 2.4 2.4 0 000-4.8z"/></svg>',
+    claude: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.6 17.8L9.9 6.2h2.5l4.3 11.6h-2.4l-.9-2.6H8.9l-.9 2.6H5.6zm4-4.5h3.1l-1.55-4.5-1.55 4.5zM17 6.2h2.2v11.6H17z"/></svg>',
+    deepseek: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c4.5 1 6.5 3.4 7.4 5.2.6-1.7 2-3.2 4.6-3.8-1 .9-1.6 1.9-1.8 3.2 1.5.3 3 .3 4.8-.4-2 2.6-4.7 3.6-7 3.4-3.2-.3-6.2-2.6-8-7.6z"/><circle cx="13.3" cy="12.2" r="1"/></svg>',
+    gemini: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c.4 4.8 2.6 8.6 8 10-5.4 1.4-7.6 5.2-8 10-.4-4.8-2.6-8.6-8-10 5.4-1.4 7.6-5.2 8-10z"/></svg>',
+    kimi: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3.4" fill="#fff"/></svg>'
+};
+
+function modelBadge(name, cls) {
+    const meta = modelMeta(name);
+    const extra = cls ? ' ' + cls : '';
+    if (!meta) {
+        return `<span class="model-mark model-mark-fallback${extra}" title="${esc(name)}">${esc(String(name || '').slice(0, 1))}</span>`;
+    }
+    return `<span class="model-mark model-${meta.key}${extra}" title="${esc(name)}">${MODEL_SVG[meta.key] || esc(meta.short)}</span>`;
+}
+
 const state = {
     matches: [],
     models: [],
@@ -106,9 +169,7 @@ function renderHero() {
     const pickLabel = SEL_LABEL[p.consensus_selection] || p.consensus_selection || '';
     const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
     const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
-    const avatars = (p.models || []).map(m =>
-        `<span class="llm-avatar" title="${esc(m.name)}">${esc((m.name || '').slice(0, 1))}</span>`
-    ).join('');
+    const avatars = (p.models || []).map(m => modelBadge(m.name, 'llm-avatar')).join('');
 
     el.innerHTML = `
       <div class="hero-card p-6 md:p-8 shadow-card cursor-pointer" data-match="${esc(match.match_id)}">
@@ -118,9 +179,15 @@ function renderHero() {
             <span class="badge badge-upcoming">下一場焦點預測</span>
           </div>
           <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mb-5">
-            <div class="text-right hero-team-name text-text-main">${esc(match.home)}</div>
+            <div class="hero-team hero-team-home">
+              ${flagImg(match.home, 'hero-flag', 'w160')}
+              <span class="hero-team-name text-text-main">${esc(match.home)}</span>
+            </div>
             <div class="hero-vs-mark"><span>VS</span></div>
-            <div class="text-left hero-team-name text-text-main">${esc(match.away)}</div>
+            <div class="hero-team hero-team-away">
+              ${flagImg(match.away, 'hero-flag', 'w160')}
+              <span class="hero-team-name text-text-main">${esc(match.away)}</span>
+            </div>
           </div>
           <div class="text-center text-text-muted text-sm font-mono mb-5">
             ${esc(dateKey(match.kickoff_tw))} ${esc(fmtTime(match.kickoff_tw))} (台灣時間)
@@ -167,8 +234,20 @@ function renderTabs() {
 }
 
 /* ---------- match card ---------- */
+function flagImg(name, sizeClass, cdnW) {
+    // Renders a flag <img>; on error swaps in the letter-circle fallback.
+    const iso = teamFlagIso(name);
+    const fallback = `<div class="logo-placeholder ${sizeClass} rounded-full text-sm">${esc(teamInitial(name))}</div>`;
+    if (!iso) return fallback;
+    const w = cdnW || 'w80';
+    const src = `https://flagcdn.com/${w}/${iso}.png`;
+    const fb = fallback.replace(/"/g, '&quot;');
+    return `<img src="${src}" alt="${esc(name)}" class="team-flag ${sizeClass} rounded-full" loading="lazy"
+        onerror="this.onerror=null;this.outerHTML='${fb}';">`;
+}
+
 function logoCell(name) {
-    return `<div class="logo-placeholder w-11 h-11 rounded-full text-sm">${esc(teamInitial(name))}</div>`;
+    return flagImg(name, 'w-11 h-11', 'w80');
 }
 
 function statusBadge(match) {
@@ -291,7 +370,7 @@ function modelBlockHtml(m) {
     const conf = m.confidence != null ? Math.round(m.confidence * 100) + '%' : '';
     return `<div class="model-block">
         <div class="model-head">
-          <span class="model-name">${esc(m.name)}</span>
+          <span class="model-name-wrap">${modelBadge(m.name)}<span class="model-name">${esc(m.name)}</span></span>
           <span class="pick-chip ${pickClass}">${esc(pickLabel)}${m.selection_team ? ' · ' + esc(m.selection_team) : ''}</span>
         </div>
         <div class="kv-row">

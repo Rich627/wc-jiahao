@@ -274,6 +274,42 @@ html[data-theme="dark"] .hero-card::before { opacity: 0.8; }
     display: inline-flex; align-items: center; justify-content: center;
     font-size: 12px; font-weight: 700;
 }
+html[data-theme="dark"] .llm-avatar { border-color: rgb(var(--color-surface-elevated-rgb)); }
+
+/* ---------- Team flags ---------- */
+.team-flag {
+    object-fit: cover; display: block;
+    border: 1px solid var(--color-border);
+    background: var(--color-card-muted);
+    box-shadow: var(--shadow-card);
+}
+.hero-team { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+.hero-flag {
+    width: 64px; height: 64px; border-radius: 9999px; object-fit: cover;
+    border: 2px solid var(--color-border); box-shadow: var(--shadow-card);
+}
+.hero-team .logo-placeholder.hero-flag { font-size: 22px; }
+.hero-team .hero-team-name { text-align: center; }
+@media (max-width: 640px) { .hero-flag { width: 48px; height: 48px; } }
+
+/* ---------- Model brand marks ---------- */
+.model-mark {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 28px; height: 28px; border-radius: 9999px; flex: 0 0 auto;
+    color: #fff; font-size: 11px; font-weight: 800; overflow: hidden;
+}
+.model-mark svg { width: 64%; height: 64%; fill: currentColor; }
+.model-mark.llm-avatar { width: 32px; height: 32px; border: 2px solid #fff; box-shadow: 0 2px 6px rgb(15 23 42 / 0.16); }
+html[data-theme="dark"] .model-mark.llm-avatar { border-color: rgb(var(--color-surface-elevated-rgb)); }
+.model-gpt      { background: #10A37F; }                 /* OpenAI green */
+.model-claude   { background: #D97757; }                 /* Anthropic clay/orange */
+.model-deepseek { background: #4D6BFE; }                 /* DeepSeek blue */
+.model-gemini   { background: linear-gradient(135deg, #4285F4 0%, #9B72CB 50%, #D96570 100%); } /* Google multicolor */
+.model-kimi     { background: #1F2937; }                 /* Moonshot dark */
+.model-mark-fallback { background: var(--color-text-muted); }
+
+.model-name-wrap { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+.model-name-wrap .model-mark { width: 24px; height: 24px; }
 
 /* ---------- Date group headings ---------- */
 .date-group-line {
