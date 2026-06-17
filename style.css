@@ -349,7 +349,216 @@ body {
 }
 .match-card.open .match-detail { display: block; }
 
-.model-card {
+/* ===== Model badges (provider colored circles) ===== */
+.mbadge { display: inline-flex; align-items: center; gap: 6px; }
+.mbadge-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  font-size: 0.66rem;
+  font-weight: 900;
+  color: #0e1117;
+  flex: 0 0 auto;
+  line-height: 1;
+}
+.mbadge-name { font-size: 0.78rem; font-weight: 700; }
+/* provider brand colors */
+.prov-gpt .mbadge-dot      { background: #10a37f; color: #fff; }
+.prov-claude .mbadge-dot   { background: #d97757; color: #fff; }
+.prov-deepseek .mbadge-dot { background: #4d6bfe; color: #fff; }
+.prov-gemini .mbadge-dot   { background: #a78bfa; color: #1a1130; }
+.prov-kimi .mbadge-dot     { background: #f59e0b; color: #1a1304; }
+.prov-other .mbadge-dot    { background: var(--text-dim); color: #0e1117; }
+
+/* ===== Per-match consensus one-liner ===== */
+.consensus-line {
+  margin-top: 10px;
+  font-size: 0.84rem;
+  color: var(--text);
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--draw);
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+.consensus-line.home { border-left-color: var(--home); }
+.consensus-line.away { border-left-color: var(--away); }
+.consensus-line.draw { border-left-color: var(--draw); }
+.consensus-line b { font-weight: 800; }
+
+/* ===== "誰站哪邊" sides grid ===== */
+.sides-title {
+  margin-top: 12px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: var(--text-dim);
+  letter-spacing: 0.5px;
+}
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}
+.side-col {
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 8px 10px;
+  min-width: 0;
+}
+.side-col.home { border-color: rgba(34,197,94,0.4); }
+.side-col.away { border-color: rgba(239,68,68,0.4); }
+.side-col.draw { border-color: rgba(148,163,184,0.4); }
+.side-head {
+  font-size: 0.74rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.side-col.home .side-head { color: var(--home); }
+.side-col.away .side-head { color: var(--away); }
+.side-col.draw .side-head { color: var(--draw); }
+.side-count {
+  font-size: 0.66rem;
+  font-weight: 800;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0 6px;
+  color: var(--text-dim);
+}
+.side-badges { display: flex; flex-direction: column; gap: 6px; }
+.side-badges .mbadge { min-width: 0; }
+.side-badges .mbadge-name {
+  font-size: 0.74rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.side-empty { color: var(--text-dim); font-size: 0.8rem; }
+
+/* ===== Top-of-page overview ===== */
+#overview { margin: 12px 0 4px; }
+.overview {
+  background: var(--bg-card);
+  border: 1px solid rgba(74,222,128,0.35);
+  border-radius: var(--radius);
+  padding: 4px 14px;
+}
+.overview summary {
+  cursor: pointer;
+  font-weight: 800;
+  padding: 11px 0;
+  list-style: none;
+  user-select: none;
+}
+.overview summary::-webkit-details-marker { display: none; }
+.ov-body { padding-bottom: 10px; display: flex; flex-direction: column; gap: 8px; }
+.ov-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--draw);
+  border-radius: 9px;
+  padding: 8px 11px;
+}
+.ov-row.home { border-left-color: var(--home); }
+.ov-row.away { border-left-color: var(--away); }
+.ov-row.draw { border-left-color: var(--draw); }
+.ov-row:active { background: var(--bg); }
+.ov-teams { font-size: 0.92rem; font-weight: 800; }
+.ov-teams i { font-style: normal; color: var(--text-dim); font-weight: 600; font-size: 0.8rem; }
+.ov-pick {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  font-size: 0.76rem;
+  color: var(--text-dim);
+}
+.ov-tag {
+  font-weight: 800;
+  border-radius: 6px;
+  padding: 1px 7px;
+  font-size: 0.74rem;
+}
+.ov-tag.home { background: rgba(34,197,94,0.18); color: var(--home); }
+.ov-tag.away { background: rgba(239,68,68,0.18); color: var(--away); }
+.ov-tag.draw { background: rgba(148,163,184,0.18); color: var(--draw); }
+.ov-team { font-weight: 800; color: var(--text); }
+.ov-unanimous { color: var(--accent); font-weight: 800; }
+.ov-prob b, .ov-prob { font-variant-numeric: tabular-nums; }
+
+/* ===== Models block: tabs + panels + expand-all ===== */
+.models-block { margin-top: 12px; }
+.models-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.model-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  flex: 1;
+  min-width: 0;
+}
+.model-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 4px 9px 4px 4px;
+  cursor: pointer;
+}
+.model-tab.active {
+  color: var(--text);
+  border-color: var(--accent);
+  background: var(--bg);
+}
+.model-tab-name { white-space: nowrap; }
+.expand-all {
+  background: var(--bg-card-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 5px 11px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.expand-all:active { background: var(--bg); }
+.ea-expanded { display: none; }
+.models-block.show-all .ea-collapsed { display: none; }
+.models-block.show-all .ea-expanded { display: inline; }
+/* hide tab bar when showing all (tabs no longer drive the view) */
+.models-block.show-all .model-tabs { opacity: 0.45; pointer-events: none; }
+
+/* Panels: by default only .active shows; when show-all, all show */
+.model-panel { display: none; }
+.model-panel.active { display: block; }
+.models-block.show-all .model-panel { display: block; }
+
+.model-panel {
   background: var(--bg-card-2);
   border: 1px solid var(--border);
   border-radius: 12px;
