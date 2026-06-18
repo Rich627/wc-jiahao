@@ -720,4 +720,11 @@ async function init() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+// Run init regardless of whether DOMContentLoaded already fired — a deferred/
+// cache-busted script can execute AFTER the event, leaving the listener stranded
+// and the page stuck on its static skeletons.
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}
