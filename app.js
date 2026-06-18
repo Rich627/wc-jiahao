@@ -191,6 +191,7 @@ const carousel = {
     touchX: null,
     touchY: null,
     dragging: false,
+    paused: false,   // true only while the pointer is actively over the carousel
 };
 
 function carouselSlideHtml(match) {
@@ -247,14 +248,29 @@ function carouselGoTo(i, animate) {
 function carouselNext() { carouselGoTo(carousel.index + 1); }
 function carouselPrev() { carouselGoTo(carousel.index - 1); }
 
+// Autoplay: a single persistent timer that always ticks. While the pointer is
+// over the carousel (carousel.paused === true) it simply skips advancing for
+// that tick, then resumes — so the timer is NEVER torn down by hover. This is
+// the fix for "sits on slide 1": the old code stopped the timer on mouseenter,
+// and if the cursor happened to be over the carousel at load (it sits at the
+// top of the page) autoplay was dead on arrival and never restarted.
+function carouselTick() {
+    if (carousel.paused) return;
+    carouselNext();
+}
 function carouselStart() {
     carouselStop();
     if (carousel.matches.length > 1) {
-        carousel.timer = setInterval(carouselNext, carousel.INTERVAL);
+        carousel.timer = setInterval(carouselTick, carousel.INTERVAL);
     }
 }
 function carouselStop() {
     if (carousel.timer) { clearInterval(carousel.timer); carousel.timer = null; }
+}
+// Reset the timer phase so a manual interaction gives a full interval before
+// the next auto-advance, without ever leaving the timer torn down.
+function carouselRestartTimer() {
+    if (carousel.matches.length > 1) carouselStart();
 }
 
 function renderCarousel() {
@@ -304,27 +320,29 @@ function renderCarousel() {
 
     if (multi) {
         document.getElementById('carousel-prev').addEventListener('click', e => {
-            e.stopPropagation(); carouselPrev(); carouselStart();
+            e.stopPropagation(); carouselPrev(); carouselRestartTimer();
         });
         document.getElementById('carousel-next').addEventListener('click', e => {
-            e.stopPropagation(); carouselNext(); carouselStart();
+            e.stopPropagation(); carouselNext(); carouselRestartTimer();
         });
         document.querySelectorAll('#carousel-dots .carousel-dot').forEach(d => {
             d.addEventListener('click', e => {
-                e.stopPropagation(); carouselGoTo(+d.dataset.dot); carouselStart();
+                e.stopPropagation(); carouselGoTo(+d.dataset.dot); carouselRestartTimer();
             });
         });
 
-        // Pause on hover (desktop)
-        root.addEventListener('mouseenter', carouselStop);
-        root.addEventListener('mouseleave', carouselStart);
+        // Pause on hover (desktop) — flag only; the timer keeps running so it
+        // can never be left dead if the cursor is over the carousel at load.
+        root.addEventListener('mouseenter', () => { carousel.paused = true; });
+        root.addEventListener('mouseleave', () => { carousel.paused = false; });
 
-        // Touch / swipe (mobile)
+        // Touch / swipe (mobile) — pause via flag during the gesture, never
+        // tear down the timer.
         viewport.addEventListener('touchstart', e => {
             carousel.touchX = e.touches[0].clientX;
             carousel.touchY = e.touches[0].clientY;
             carousel.dragging = false;
-            carouselStop();
+            carousel.paused = true;
         }, { passive: true });
         viewport.addEventListener('touchmove', e => {
             if (carousel.touchX == null) return;
@@ -342,61 +360,12 @@ function renderCarousel() {
             carousel.touchY = null;
             // reset drag flag after click handler so a tap still opens detail
             setTimeout(() => { carousel.dragging = false; }, 0);
-            carouselStart();
+            carousel.paused = false;
+            carouselRestartTimer();
         });
 
         carouselStart();
     }
-}
-
-/* ---------- hero (next upcoming match that has a prediction) ---------- */
-function renderHero() {
-    const el = document.getElementById('hero-section');
-    const candidates = state.matches
-        .filter(m => m.my_prediction && !isFinished(m))
-        .sort((a, b) => (a.kickoff_tw || '').localeCompare(b.kickoff_tw || ''));
-    const match = candidates[0];
-    if (!match) { el.innerHTML = ''; return; }
-
-    const p = match.my_prediction;
-    const pickLabel = SEL_LABEL[p.consensus_selection] || p.consensus_selection || '';
-    const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
-    const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
-    const avatars = (p.models || []).map(m => modelBadge(m.name, 'llm-avatar')).join('');
-
-    el.innerHTML = `
-      <div class="hero-card p-6 md:p-8 shadow-card cursor-pointer" data-match="${esc(match.match_id)}">
-        <div class="relative z-10">
-          <div class="flex items-center justify-between mb-5">
-            <span class="badge badge-stage">${esc(shortStage(match.stage))}</span>
-            <span class="badge badge-upcoming">下一場焦點預測</span>
-          </div>
-          <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-4 mb-5">
-            <div class="hero-team hero-team-home">
-              ${flagImg(match.home, 'hero-flag', 'w160')}
-              <span class="hero-team-name text-text-main">${esc(match.home)}</span>
-            </div>
-            <div class="hero-vs-mark"><span>VS</span></div>
-            <div class="hero-team hero-team-away">
-              ${flagImg(match.away, 'hero-flag', 'w160')}
-              <span class="hero-team-name text-text-main">${esc(match.away)}</span>
-            </div>
-          </div>
-          <div class="text-center text-text-muted text-sm font-mono mb-5">
-            ${esc(dateKey(match.kickoff_tw))} ${esc(fmtTime(match.kickoff_tw))} (台灣時間)
-          </div>
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
-            <span class="pick-chip ${pickClass} text-base px-4 py-2">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
-            <span class="text-text-muted text-sm font-mono">勝率 ${winPct}</span>
-            <span class="text-text-muted text-sm font-mono">預測比分 ${esc(p.predicted_score || '—')}</span>
-          </div>
-          <div class="flex items-center justify-center gap-1 mt-5">
-            ${avatars}
-            <span class="ml-2 text-xs text-text-muted">${esc(p.agree || '')} 認同</span>
-          </div>
-        </div>
-      </div>`;
-    el.querySelector('[data-match]').addEventListener('click', () => openDetail(match.match_id));
 }
 
 /* ---------- stage tabs ---------- */
@@ -742,7 +711,6 @@ async function init() {
     try {
         await loadData();
         renderCarousel();
-        renderHero();
         renderStats();
         renderTabs();
         renderMatches();
