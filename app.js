@@ -281,11 +281,28 @@ function statusBadge(match) {
     return '<span class="badge badge-upcoming">未開賽</span>';
 }
 
-function oddsRow(odds) {
+function fmtOdds(v) {
+    if (v == null) return '—';
+    const n = Number(v);
+    return Number.isFinite(n) ? n.toFixed(2) : String(v);
+}
+
+function oddsRow(odds, hhad) {
     if (!odds) return '';
-    const cell = (k, v) => `<div class="odds-cell"><div class="odds-k">${k}</div><div class="odds-v">${v != null ? v : '—'}</div></div>`;
-    return `<div class="grid grid-cols-3 gap-2 mt-4">
-        ${cell('主勝', odds.H)}${cell('和局', odds.D)}${cell('客勝', odds.A)}
+    const cell = (k, v) => `<div class="odds-cell"><div class="odds-k">${k}</div><div class="odds-v">${fmtOdds(v)}</div></div>`;
+    let hhadHtml = '';
+    if (hhad && (hhad.H != null || hhad.A != null)) {
+        const line = hhad.line != null ? hhad.line : '';
+        hhadHtml = `<div class="grid grid-cols-2 gap-2 mt-2">
+            ${cell(`讓球 ${line} 主`, hhad.H)}${cell(`讓球 ${line} 客`, hhad.A)}
+          </div>`;
+    }
+    return `<div class="odds-block mt-4">
+        <div class="odds-label">台彩賠率</div>
+        <div class="grid grid-cols-3 gap-2 mt-1">
+          ${cell('主勝', odds.H)}${cell('和局', odds.D)}${cell('客勝', odds.A)}
+        </div>
+        ${hhadHtml}
       </div>`;
 }
 
@@ -344,7 +361,7 @@ function matchCardHtml(match) {
             <span class="team-name text-sm text-text-main">${esc(match.away)}</span>
           </div>
         </div>
-        ${oddsRow(match.had_odds)}
+        ${oddsRow(match.had_odds, match.hhad)}
         ${predictionStrip(match)}
       </div>`;
 }
@@ -469,6 +486,21 @@ function openDetail(matchId) {
     const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
     const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
     const odds = match.had_odds || {};
+    const hhad = match.hhad;
+    const hasOdds = match.had_odds && (odds.H != null || odds.D != null || odds.A != null);
+    const hhadLine = hhad && hhad.line != null ? hhad.line : '';
+    const oddsBlock = hasOdds ? `
+      <div class="odds-label mb-1">台彩賠率</div>
+      <div class="grid grid-cols-3 gap-2 mb-2">
+        <div class="odds-cell"><div class="odds-k">主勝</div><div class="odds-v">${fmtOdds(odds.H)}</div></div>
+        <div class="odds-cell"><div class="odds-k">和局</div><div class="odds-v">${fmtOdds(odds.D)}</div></div>
+        <div class="odds-cell"><div class="odds-k">客勝</div><div class="odds-v">${fmtOdds(odds.A)}</div></div>
+      </div>
+      ${hhad && (hhad.H != null || hhad.A != null) ? `
+      <div class="grid grid-cols-2 gap-2 mb-4">
+        <div class="odds-cell"><div class="odds-k">讓球 ${esc(String(hhadLine))} 主</div><div class="odds-v">${fmtOdds(hhad.H)}</div></div>
+        <div class="odds-cell"><div class="odds-k">讓球 ${esc(String(hhadLine))} 客</div><div class="odds-v">${fmtOdds(hhad.A)}</div></div>
+      </div>` : '<div class="mb-4"></div>'}` : '';
 
     document.getElementById('detail-body').innerHTML = `
       <div class="flex items-center justify-between flex-wrap gap-2 mb-3">
@@ -481,11 +513,7 @@ function openDetail(matchId) {
           <span class="text-sm font-mono text-text-muted">勝率 ${winPct} · 比分 ${esc(p.predicted_score || '—')} · ${esc(p.agree || '')} 認同</span>
         </div>
       </div>
-      <div class="grid grid-cols-3 gap-2 mb-4">
-        <div class="odds-cell"><div class="odds-k">主勝賠率</div><div class="odds-v">${odds.H != null ? odds.H : '—'}</div></div>
-        <div class="odds-cell"><div class="odds-k">和局賠率</div><div class="odds-v">${odds.D != null ? odds.D : '—'}</div></div>
-        <div class="odds-cell"><div class="odds-k">客勝賠率</div><div class="odds-v">${odds.A != null ? odds.A : '—'}</div></div>
-      </div>
+      ${oddsBlock}
       <h3 class="text-sm font-bold text-text-main mb-1">各模型分析</h3>
       ${(p.models || []).map(modelBlockHtml).join('')}
       <p class="mt-4 text-[11px] text-center text-secondary font-semibold">純娛樂，別跟著下注</p>`;

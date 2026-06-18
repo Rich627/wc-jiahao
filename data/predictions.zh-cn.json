@@ -1,0 +1,1711 @@
+{
+  "generated_at": "2026-06-17T13:34:16+08:00",
+  "competition_name": "世界杯",
+  "models": [
+    "GPT家豪",
+    "Claude家豪",
+    "DeepSeek家豪",
+    "Gemini家豪",
+    "Kimi家豪"
+  ],
+  "matches": [
+    {
+      "match_id": "54328038",
+      "home": "墨西哥",
+      "away": "南非",
+      "kickoff_tw": "2026-06-12 03:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "2-0",
+      "had_odds": {
+        "H": 1.26,
+        "D": 4.45,
+        "A": 9.0
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329974",
+      "home": "韩国",
+      "away": "捷克",
+      "kickoff_tw": "2026-06-12 10:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "2-1",
+      "had_odds": {
+        "H": 2.4,
+        "D": 2.86,
+        "A": 2.76
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328042",
+      "home": "加拿大",
+      "away": "波黑",
+      "kickoff_tw": "2026-06-13 03:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-1",
+      "had_odds": {
+        "H": 1.62,
+        "D": 3.32,
+        "A": 4.75
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328045",
+      "home": "美国",
+      "away": "巴拉圭",
+      "kickoff_tw": "2026-06-13 09:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "4-1",
+      "had_odds": {
+        "H": 1.78,
+        "D": 3.1,
+        "A": 4.08
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329984",
+      "home": "卡塔尔",
+      "away": "瑞士",
+      "kickoff_tw": "2026-06-14 03:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-1",
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329930",
+      "home": "巴西",
+      "away": "摩洛哥",
+      "kickoff_tw": "2026-06-14 06:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-1",
+      "had_odds": {
+        "H": 1.51,
+        "D": 3.55,
+        "A": 5.4
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329987",
+      "home": "海地",
+      "away": "苏格兰",
+      "kickoff_tw": "2026-06-14 09:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "0-1",
+      "had_odds": {
+        "H": 7.4,
+        "D": 4.12,
+        "A": 1.33
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329990",
+      "home": "澳大利亚",
+      "away": "土耳其",
+      "kickoff_tw": "2026-06-14 12:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "2-0",
+      "had_odds": {
+        "H": 5.3,
+        "D": 3.53,
+        "A": 1.52
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329950",
+      "home": "德国",
+      "away": "库拉索",
+      "kickoff_tw": "2026-06-15 01:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "7-1",
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329953",
+      "home": "荷兰",
+      "away": "日本",
+      "kickoff_tw": "2026-06-15 04:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "2-2",
+      "had_odds": {
+        "H": 1.78,
+        "D": 3.3,
+        "A": 3.78
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329993",
+      "home": "科特迪瓦",
+      "away": "厄瓜多尔",
+      "kickoff_tw": "2026-06-15 07:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-0",
+      "had_odds": {
+        "H": 3.36,
+        "D": 2.65,
+        "A": 2.2
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329996",
+      "home": "瑞典",
+      "away": "突尼斯",
+      "kickoff_tw": "2026-06-15 10:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "5-1",
+      "had_odds": {
+        "H": 1.71,
+        "D": 3.15,
+        "A": 4.4
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329959",
+      "home": "西班牙",
+      "away": "佛得角",
+      "kickoff_tw": "2026-06-16 00:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "0-0",
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329956",
+      "home": "比利时",
+      "away": "埃及",
+      "kickoff_tw": "2026-06-16 03:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-1",
+      "had_odds": {
+        "H": 1.43,
+        "D": 3.84,
+        "A": 5.9
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330007",
+      "home": "沙特阿拉伯",
+      "away": "乌拉圭",
+      "kickoff_tw": "2026-06-16 06:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-1",
+      "had_odds": {
+        "H": 7.65,
+        "D": 4.25,
+        "A": 1.31
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329999",
+      "home": "伊朗",
+      "away": "新西兰",
+      "kickoff_tw": "2026-06-16 09:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "2-2",
+      "had_odds": {
+        "H": 1.56,
+        "D": 3.3,
+        "A": 5.4
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329962",
+      "home": "法国",
+      "away": "塞内加尔",
+      "kickoff_tw": "2026-06-17 03:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "3-1",
+      "had_odds": {
+        "H": 1.31,
+        "D": 4.23,
+        "A": 7.7
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330010",
+      "home": "伊拉克",
+      "away": "挪威",
+      "kickoff_tw": "2026-06-17 06:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "1-4",
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329965",
+      "home": "阿根廷",
+      "away": "阿尔及利亚",
+      "kickoff_tw": "2026-06-17 09:00",
+      "stage": "小组赛 第1轮",
+      "status": "已完賽",
+      "score": "3-0",
+      "had_odds": {
+        "H": 1.26,
+        "D": 4.4,
+        "A": 9.2
+      },
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330013",
+      "home": "奥地利",
+      "away": "约旦",
+      "kickoff_tw": "2026-06-17 12:00",
+      "stage": "世界杯 小组赛 第1轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": {
+        "H": 1.21,
+        "D": 5.15,
+        "A": 9.2
+      },
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "奥地利",
+        "win_prob": 0.9,
+        "agree": "5/5 models",
+        "predicted_score": "3-0",
+        "models": [
+          {
+            "name": "GPT家豪",
+            "selection": "HOME",
+            "selection_team": "奥地利",
+            "predicted_score": "3-0",
+            "win_prob": null,
+            "confidence": null,
+            "key_risk": null,
+            "reasoning_md": null
+          },
+          {
+            "name": "Claude家豪",
+            "selection": "HOME",
+            "selection_team": "奥地利",
+            "predicted_score": "3-0",
+            "win_prob": null,
+            "confidence": null,
+            "key_risk": null,
+            "reasoning_md": null
+          },
+          {
+            "name": "DeepSeek家豪",
+            "selection": "HOME",
+            "selection_team": "奥地利",
+            "predicted_score": "3-0",
+            "win_prob": null,
+            "confidence": null,
+            "key_risk": null,
+            "reasoning_md": null
+          },
+          {
+            "name": "Gemini家豪",
+            "selection": "HOME",
+            "selection_team": "奥地利",
+            "predicted_score": "3-0",
+            "win_prob": null,
+            "confidence": null,
+            "key_risk": null,
+            "reasoning_md": null
+          },
+          {
+            "name": "Kimi家豪",
+            "selection": "HOME",
+            "selection_team": "奥地利",
+            "predicted_score": "3-0",
+            "win_prob": null,
+            "confidence": null,
+            "key_risk": null,
+            "reasoning_md": null
+          }
+        ]
+      },
+      "correct": null
+    },
+    {
+      "match_id": "54329969",
+      "home": "葡萄牙",
+      "away": "刚果民主共和国",
+      "kickoff_tw": "2026-06-18 01:00",
+      "stage": "小组赛 第1轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": {
+        "H": 1.13,
+        "D": 5.86,
+        "A": 13.5
+      },
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "葡萄牙",
+        "win_prob": 0.796,
+        "agree": "5/5 models",
+        "predicted_score": "3-1",
+        "models": [
+          {
+            "name": "GPT家豪",
+            "selection": "HOME",
+            "selection_team": "葡萄牙",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
+            },
+            "confidence": 0.9,
+            "key_risk": "DR Congo的防守意外表現",
+            "reasoning_md": "葡萄牙的攻擊火力明顯強於剛果，主力球員的預期進球數據也顯示他們能夠頻繁得分。剛果的陣容深度不足，面對這樣的強隊很難抵擋。即使剛果有個別球員表現不錯，但整體實力差距過大，爆冷機會微乎其微。"
+          },
+          {
+            "name": "Claude家豪",
+            "selection": "HOME",
+            "selection_team": "葡萄牙",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.85,
+            "key_risk": "DR Congo前鋒Nathanaël Mbuku單場爆發可能性",
+            "reasoning_md": "葡萄牙火力明顯碾壓剛果，Ramos和Felix兩把尖刀幾乎決定勝局。剛果雖有Mbuku這個0.60進球率的尖兵，但整體陣容深度和質量不足以撼動葡萄牙。"
+          },
+          {
+            "name": "DeepSeek家豪",
+            "selection": "HOME",
+            "selection_team": "葡萄牙",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
+            },
+            "confidence": 0.8,
+            "key_risk": "DR Congo的Nathanaël Mbuku爆發力驚人，若葡萄牙後防輕敵可能被他單點突破",
+            "reasoning_md": "葡萄牙火力碾壓（五名主力預期進球全＞0.3），且陣容深度是對手1.5倍。DR Congo只有Mbuku能看，但中後場一堆次級聯賽球員，扛不住B費+拉斐爾萊奧的邊中結合。唯一懸念是葡萄牙若早早領先可能鬆懈送一球。"
+          },
+          {
+            "name": "Gemini家豪",
+            "selection": "HOME",
+            "selection_team": "葡萄牙",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.8,
+            "key_risk": "DR Congo 陣容深度不足，主力球員狀態下滑或傷病可能影響比賽走向。",
+            "reasoning_md": "葡萄牙攻擊火力指數明顯優於剛果，主力球員進球效率也高出不少。雖然剛果有幾位在歐洲踢球的球員，但整體陣容深度和頂級聯賽數據的人數都明顯落後，難以與葡萄牙抗衡。葡萄牙主場優勢加上實力差距，贏面很大，但剛果若能守住陣線，也有機會小輸。"
+          },
+          {
+            "name": "Kimi家豪",
+            "selection": "HOME",
+            "selection_team": "葡萄牙",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.12,
+              "A": 0.06
+            },
+            "confidence": 0.78,
+            "key_risk": "Mbuku單場爆種，靠速度打穿葡萄牙邊路",
+            "reasoning_md": "葡萄牙攻擊深度碾壓，五個前場都能進球，剛果只有兩人夠看。剛果後防深度更慘，13人頂級聯賽數據代表替補一上就被打爆。唯一爆冷點是Mbuku如果像當年Eto'o一樣單場兩次反擊得手，但機率極低。"
+          }
+        ]
+      },
+      "correct": null
+    },
+    {
+      "match_id": "54329971",
+      "home": "英格兰",
+      "away": "克罗地亚",
+      "kickoff_tw": "2026-06-18 04:00",
+      "stage": "小组赛 第1轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": {
+        "H": 1.53,
+        "D": 3.5,
+        "A": 5.25
+      },
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "英格兰",
+        "win_prob": 0.704,
+        "agree": "5/5 models",
+        "predicted_score": "3-1",
+        "models": [
+          {
+            "name": "GPT家豪",
+            "selection": "HOME",
+            "selection_team": "英格兰",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.85,
+            "key_risk": "Croatia的防守表現可能意外提升",
+            "reasoning_md": "英格蘭的攻擊火力明顯強於克羅地亞，尤其是哈里·凱恩的預期進球數據非常高。克羅地亞的主力火力普遍偏低，難以對英格蘭造成威脅。即使克羅地亞有時候能咬住比分，但整體實力差距太大，英格蘭贏面大。"
+          },
+          {
+            "name": "Claude家豪",
+            "selection": "HOME",
+            "selection_team": "英格兰",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.85,
+            "key_risk": "Kramarić突然爆發或Kane受傷",
+            "reasoning_md": "英格蘭火力完勝克羅地亞，Kane、Saka、Bellingham三箭齊發，對方攻擊力明顯不足。英格蘭陣容深度高達25/26，穩定性和替補質量都遠超克羅地亞。這場比賽只有意外才會改變結果。"
+          },
+          {
+            "name": "DeepSeek家豪",
+            "selection": "HOME",
+            "selection_team": "英格兰",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.7,
+              "D": 0.2,
+              "A": 0.1
+            },
+            "confidence": 0.8,
+            "key_risk": "Croatia的中場控制力可能拖慢節奏，讓英格蘭火力無法完全發揮",
+            "reasoning_md": "英格蘭前場數據碾壓，Kane+Saka+Bellingham的預期進球總和就快抵克國全隊。克羅埃西亞主力老化（Perišić預期進球0.16根本是來養老的），深度又差一截，除非中場魔術師Modrić爆氣控場90分鐘，否則會被英格蘭年輕腿跑垮。"
+          },
+          {
+            "name": "Gemini家豪",
+            "selection": "HOME",
+            "selection_team": "英格兰",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.8,
+            "key_risk": "Croatia 的中場老將能否有效限制 Bellingham 的推進",
+            "reasoning_md": "英格蘭的攻擊火力指數明顯高於克羅埃西亞，特別是 Kane、Saka、Bellingham 的進球效率都非常突出。克羅埃西亞雖然有 Kramarić 和 Budimir，但整體攻擊深度和頂級聯賽球員比例都輸了一截。英格蘭主場優勢加上更強的個人能力，贏面很大，克羅埃西亞想爆冷難度極高。"
+          },
+          {
+            "name": "Kimi家豪",
+            "selection": "HOME",
+            "selection_team": "英格兰",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.72,
+              "D": 0.18,
+              "A": 0.1
+            },
+            "confidence": 0.85,
+            "key_risk": "Perišić突然回春＋英格蘭右後衛失位",
+            "reasoning_md": "英格蘭攻擊火力指數0.68對0.54，五個主力每90分鐘預期進球全在0.4以上，Croatia只有Budimir一人達標。深度也差一截，25人vs20人頂級聯賽數據，替補火力直接碾壓。唯一爆冷點是Perišić若找回邊路單挑能力，英格蘭右路防守一向走神，被他偷一個可能把比分咬到2-1，但整體差距太大，翻不了盤。"
+          }
+        ]
+      },
+      "correct": null
+    },
+    {
+      "match_id": "54330020",
+      "home": "加纳",
+      "away": "巴拿马",
+      "kickoff_tw": "2026-06-18 07:00",
+      "stage": "小组赛 第1轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": {
+        "H": 1.96,
+        "D": 3.05,
+        "A": 3.43
+      },
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "加纳",
+        "win_prob": 0.864,
+        "agree": "5/5 models",
+        "predicted_score": "3-0",
+        "models": [
+          {
+            "name": "GPT家豪",
+            "selection": "HOME",
+            "selection_team": "加纳",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.9,
+              "D": 0.05,
+              "A": 0.05
+            },
+            "confidence": 0.85,
+            "key_risk": "Ghana的主力球員狀態不佳",
+            "reasoning_md": "Ghana的攻擊實力指數明顯高於Panama，且主力球員在頂級聯賽的數據也表現不俗。Panama幾乎沒有頂級聯賽的火力支持，這場比賽Ghana贏面極大，預計會大勝。"
+          },
+          {
+            "name": "Claude家豪",
+            "selection": "HOME",
+            "selection_team": "加纳",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
+            },
+            "confidence": 0.75,
+            "key_risk": "Panama意外韌性或Ghana前場效率不彰",
+            "reasoning_md": "Ghana火力明顯碾壓，攻擊實力指數遠勝對手。Williams和Semenyo組成的前場線路質量太高，Panama幾乎沒有頂級聯賽球員，防線必然潰敗。這場比賽基本上是單方面的進攻訓練。"
+          },
+          {
+            "name": "DeepSeek家豪",
+            "selection": "HOME",
+            "selection_team": "加纳",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
+            },
+            "confidence": 0.9,
+            "key_risk": "Ghana前鋒群集體啞火，Panama靠定位球偷雞",
+            "reasoning_md": "Ghana攻擊線全是頂級聯賽球員，Iñaki Williams數據碾壓全場；Panama整隊幾乎沒頂級聯賽經驗，火力指數掛零。這種差距不爆冷天理難容，直接壓主隊碾壓。唯一懸念是加納會不會鬆懈送分。"
+          },
+          {
+            "name": "Gemini家豪",
+            "selection": "HOME",
+            "selection_team": "加纳",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.9,
+              "D": 0.05,
+              "A": 0.05
+            },
+            "confidence": 0.85,
+            "key_risk": "Panama 陣容深度不足，一旦主力被鎖死，進攻端將完全癱瘓。",
+            "reasoning_md": "Ghana 攻擊火力指數遠超 Panama，且主力球員多來自歐洲頂級聯賽，進攻端有 Iñaki Williams、Semenyo 等人能製造威脅。Panama 陣容深度和頂級聯賽球員數量懸殊，面對 Ghana 的攻勢，很難招架。這場比賽 Ghana 贏面極大，比分差距也會比較明顯。"
+          },
+          {
+            "name": "Kimi家豪",
+            "selection": "HOME",
+            "selection_team": "加纳",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.12,
+              "A": 0.03
+            },
+            "confidence": 0.9,
+            "key_risk": "Panama靠定位球偷一顆",
+            "reasoning_md": "加納前場全是五大聯賽輸出點，Panama連一個頂級聯賽的人都沒有，火力差距大到離譜。除非Panama靠死球蒙進一球，不然就是被壓著打整場。我直接喊3-0，沒在客氣。"
+          }
+        ]
+      },
+      "correct": null
+    },
+    {
+      "match_id": "54330016",
+      "home": "乌兹别克斯坦",
+      "away": "哥伦比亚",
+      "kickoff_tw": "2026-06-18 10:00",
+      "stage": "小组赛 第1轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": {
+        "H": 9.25,
+        "D": 4.65,
+        "A": 1.24
+      },
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "哥伦比亚",
+        "win_prob": 0.66,
+        "agree": "5/5 models",
+        "predicted_score": "1-3",
+        "models": [
+          {
+            "name": "GPT家豪",
+            "selection": "AWAY",
+            "selection_team": "哥伦比亚",
+            "predicted_score": "1-3",
+            "win_prob": {
+              "H": 0.2,
+              "D": 0.2,
+              "A": 0.6
+            },
+            "confidence": 0.8,
+            "key_risk": "Uzbekistan主場優勢可能影響比賽結果",
+            "reasoning_md": "Colombia的攻擊實力明顯優於Uzbekistan，尤其是Luis Díaz和Luis Suárez的火力更是強勁。Uzbekistan的主力火力不足，面對這樣的對手很難抵擋。即使在主場，Uzbekistan也難以撼動Colombia的實力。"
+          },
+          {
+            "name": "Claude家豪",
+            "selection": "AWAY",
+            "selection_team": "哥伦比亚",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.15,
+              "A": 0.7
+            },
+            "confidence": 0.85,
+            "key_risk": "Shomurodov突然爆發或防線奇蹟",
+            "reasoning_md": "Colombia火力完勝，11個頂級聯賽球員對比烏茲別克斯坦可憐的2個，Luis Díaz和Luis Suárez組合太猛。烏茲別克斯坦攻擊實力指數只有0.24，根本擋不住Colombia的進攻輪番轟炸。"
+          },
+          {
+            "name": "DeepSeek家豪",
+            "selection": "AWAY",
+            "selection_team": "哥伦比亚",
+            "predicted_score": "1-3",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.2,
+              "A": 0.7
+            },
+            "confidence": 0.8,
+            "key_risk": "Uzbekistan的防守反擊可能意外得手",
+            "reasoning_md": "Colombia的攻擊火力明顯強於Uzbekistan，尤其是Luis Díaz和Luis Suárez的進球能力。Uzbekistan雖然有Shomurodov，但整體實力差距太大，Colombia贏面大。唯一風險是Uzbekistan的防守反擊可能偷到一球。"
+          },
+          {
+            "name": "Gemini家豪",
+            "selection": "AWAY",
+            "selection_team": "哥伦比亚",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.25,
+              "A": 0.6
+            },
+            "confidence": 0.75,
+            "key_risk": "Uzbekistan 主力火力集中，但 Colombia 整體攻擊火力更平均且有頂級聯賽經驗者眾。",
+            "reasoning_md": "哥倫比亞的攻擊實力指數和頂級聯賽球員數量都明顯優於烏茲別克，特別是 Luis Díaz 和 Luis Suárez 的進球效率驚人。烏茲別克雖然有 Shomurodov，但整體深度不足，難以抵擋哥倫比亞的火力壓制，預計哥倫比亞小勝。"
+          },
+          {
+            "name": "Kimi家豪",
+            "selection": "AWAY",
+            "selection_team": "哥伦比亚",
+            "predicted_score": "1-3",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.2,
+              "A": 0.65
+            },
+            "confidence": 0.78,
+            "key_risk": "Uzbekistan主場氣氛+哥倫比亞慢熱，上半場被偷一球可能讓比賽變得難看",
+            "reasoning_md": "哥倫比亞攻擊指數高出一截，Díaz+Suárez兩把刀每90分鐘合計0.96 xG，Uzbekistan全隊加起來不到人家一半。烏茲別克深度只有2人踢頂級聯賽，後面體力掉下去就等死。唯一爆冷點是哥倫比亞開局慢熱，但撐過前20分鐘就是屠殺。"
+          }
+        ]
+      },
+      "correct": null
+    },
+    {
+      "match_id": "54329975",
+      "home": "捷克",
+      "away": "南非",
+      "kickoff_tw": "2026-06-19 00:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329985",
+      "home": "瑞士",
+      "away": "波黑",
+      "kickoff_tw": "2026-06-19 03:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328043",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "kickoff_tw": "2026-06-19 06:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328039",
+      "home": "墨西哥",
+      "away": "韩国",
+      "kickoff_tw": "2026-06-19 09:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328046",
+      "home": "美国",
+      "away": "澳大利亚",
+      "kickoff_tw": "2026-06-20 03:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329988",
+      "home": "苏格兰",
+      "away": "摩洛哥",
+      "kickoff_tw": "2026-06-20 06:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329931",
+      "home": "巴西",
+      "away": "海地",
+      "kickoff_tw": "2026-06-20 08:30",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329991",
+      "home": "土耳其",
+      "away": "巴拉圭",
+      "kickoff_tw": "2026-06-20 11:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329954",
+      "home": "荷兰",
+      "away": "瑞典",
+      "kickoff_tw": "2026-06-21 01:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329951",
+      "home": "德国",
+      "away": "科特迪瓦",
+      "kickoff_tw": "2026-06-21 04:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329994",
+      "home": "厄瓜多尔",
+      "away": "库拉索",
+      "kickoff_tw": "2026-06-21 08:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329997",
+      "home": "突尼斯",
+      "away": "日本",
+      "kickoff_tw": "2026-06-21 12:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329960",
+      "home": "西班牙",
+      "away": "沙特阿拉伯",
+      "kickoff_tw": "2026-06-22 00:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329957",
+      "home": "比利时",
+      "away": "伊朗",
+      "kickoff_tw": "2026-06-22 03:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330008",
+      "home": "乌拉圭",
+      "away": "佛得角",
+      "kickoff_tw": "2026-06-22 06:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330000",
+      "home": "新西兰",
+      "away": "埃及",
+      "kickoff_tw": "2026-06-22 09:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329966",
+      "home": "阿根廷",
+      "away": "奥地利",
+      "kickoff_tw": "2026-06-23 01:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329963",
+      "home": "法国",
+      "away": "伊拉克",
+      "kickoff_tw": "2026-06-23 05:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330011",
+      "home": "挪威",
+      "away": "塞内加尔",
+      "kickoff_tw": "2026-06-23 08:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330014",
+      "home": "约旦",
+      "away": "阿尔及利亚",
+      "kickoff_tw": "2026-06-23 11:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329968",
+      "home": "葡萄牙",
+      "away": "乌兹别克斯坦",
+      "kickoff_tw": "2026-06-24 01:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329972",
+      "home": "英格兰",
+      "away": "加纳",
+      "kickoff_tw": "2026-06-24 04:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330021",
+      "home": "巴拿马",
+      "away": "克罗地亚",
+      "kickoff_tw": "2026-06-24 07:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330018",
+      "home": "哥伦比亚",
+      "away": "刚果民主共和国",
+      "kickoff_tw": "2026-06-24 10:00",
+      "stage": "小组赛 第2轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328044",
+      "home": "瑞士",
+      "away": "加拿大",
+      "kickoff_tw": "2026-06-25 03:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329986",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "kickoff_tw": "2026-06-25 03:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329932",
+      "home": "苏格兰",
+      "away": "巴西",
+      "kickoff_tw": "2026-06-25 06:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329989",
+      "home": "摩洛哥",
+      "away": "海地",
+      "kickoff_tw": "2026-06-25 06:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328041",
+      "home": "捷克",
+      "away": "墨西哥",
+      "kickoff_tw": "2026-06-25 09:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329976",
+      "home": "南非",
+      "away": "韩国",
+      "kickoff_tw": "2026-06-25 09:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329952",
+      "home": "厄瓜多尔",
+      "away": "德国",
+      "kickoff_tw": "2026-06-26 04:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329995",
+      "home": "库拉索",
+      "away": "科特迪瓦",
+      "kickoff_tw": "2026-06-26 04:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329955",
+      "home": "突尼斯",
+      "away": "荷兰",
+      "kickoff_tw": "2026-06-26 07:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329998",
+      "home": "日本",
+      "away": "瑞典",
+      "kickoff_tw": "2026-06-26 07:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328047",
+      "home": "土耳其",
+      "away": "美国",
+      "kickoff_tw": "2026-06-26 10:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329992",
+      "home": "巴拉圭",
+      "away": "澳大利亚",
+      "kickoff_tw": "2026-06-26 10:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329964",
+      "home": "挪威",
+      "away": "法国",
+      "kickoff_tw": "2026-06-27 03:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330012",
+      "home": "塞内加尔",
+      "away": "伊拉克",
+      "kickoff_tw": "2026-06-27 03:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329961",
+      "home": "乌拉圭",
+      "away": "西班牙",
+      "kickoff_tw": "2026-06-27 08:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330009",
+      "home": "佛得角",
+      "away": "沙特阿拉伯",
+      "kickoff_tw": "2026-06-27 08:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329958",
+      "home": "新西兰",
+      "away": "比利时",
+      "kickoff_tw": "2026-06-27 11:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330001",
+      "home": "埃及",
+      "away": "伊朗",
+      "kickoff_tw": "2026-06-27 11:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329973",
+      "home": "巴拿马",
+      "away": "英格兰",
+      "kickoff_tw": "2026-06-28 05:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330022",
+      "home": "克罗地亚",
+      "away": "加纳",
+      "kickoff_tw": "2026-06-28 05:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329970",
+      "home": "哥伦比亚",
+      "away": "葡萄牙",
+      "kickoff_tw": "2026-06-28 07:30",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330019",
+      "home": "刚果民主共和国",
+      "away": "乌兹别克斯坦",
+      "kickoff_tw": "2026-06-28 07:30",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54329967",
+      "home": "约旦",
+      "away": "阿根廷",
+      "kickoff_tw": "2026-06-28 10:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54330015",
+      "home": "阿尔及利亚",
+      "away": "奥地利",
+      "kickoff_tw": "2026-06-28 10:00",
+      "stage": "小组赛 第3轮",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327932",
+      "home": "A2",
+      "away": "B2",
+      "kickoff_tw": "2026-06-29 03:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327935",
+      "home": "C1",
+      "away": "F2",
+      "kickoff_tw": "2026-06-30 01:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327933",
+      "home": "E1",
+      "away": "A3/B3/C3/D3/F3",
+      "kickoff_tw": "2026-06-30 04:30",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327934",
+      "home": "F1",
+      "away": "C2",
+      "kickoff_tw": "2026-06-30 09:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327937",
+      "home": "E2",
+      "away": "I2",
+      "kickoff_tw": "2026-07-01 01:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327936",
+      "home": "I1",
+      "away": "C3/D3/F3/G3/H3",
+      "kickoff_tw": "2026-07-01 05:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327939",
+      "home": "A1",
+      "away": "C3/E3/F3/H3/I3",
+      "kickoff_tw": "2026-07-01 09:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327940",
+      "home": "L1",
+      "away": "E3/H3/I3/J3/K3",
+      "kickoff_tw": "2026-07-02 00:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327943",
+      "home": "G1",
+      "away": "A3/E3/H3/I3/J3",
+      "kickoff_tw": "2026-07-02 04:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327941",
+      "home": "D1",
+      "away": "B3/E3/F3/I3/J3",
+      "kickoff_tw": "2026-07-02 08:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327945",
+      "home": "H1",
+      "away": "J2",
+      "kickoff_tw": "2026-07-03 03:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327944",
+      "home": "K2",
+      "away": "L2",
+      "kickoff_tw": "2026-07-03 07:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327946",
+      "home": "B1",
+      "away": "E3/F3/G3/I3/J3",
+      "kickoff_tw": "2026-07-03 11:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328013",
+      "home": "D2",
+      "away": "G2",
+      "kickoff_tw": "2026-07-04 02:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54327947",
+      "home": "J1",
+      "away": "H2",
+      "kickoff_tw": "2026-07-04 06:00",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328012",
+      "home": "K1",
+      "away": "D3/E3/I3/J3/L3",
+      "kickoff_tw": "2026-07-04 09:30",
+      "stage": "1/16决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328018",
+      "home": "第1场1/16决赛胜者",
+      "away": "第3场1/16决赛胜者",
+      "kickoff_tw": "2026-07-05 01:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328017",
+      "home": "第2场1/16决赛胜者",
+      "away": "第5场1/16决赛胜者",
+      "kickoff_tw": "2026-07-05 05:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328019",
+      "home": "第4场1/16决赛胜者",
+      "away": "第6场1/16决赛胜者",
+      "kickoff_tw": "2026-07-06 04:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328020",
+      "home": "第7场1/16决赛胜者",
+      "away": "第8场1/16决赛胜者",
+      "kickoff_tw": "2026-07-06 08:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328021",
+      "home": "第11场1/16决赛胜者",
+      "away": "第12场1/16决赛胜者",
+      "kickoff_tw": "2026-07-07 03:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328022",
+      "home": "第9场1/16决赛胜者",
+      "away": "第10场1/16决赛胜者",
+      "kickoff_tw": "2026-07-07 08:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328023",
+      "home": "第14场1/16决赛胜者",
+      "away": "第16场1/16决赛胜者",
+      "kickoff_tw": "2026-07-08 00:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328024",
+      "home": "第13场1/16决赛胜者",
+      "away": "第15场1/16决赛胜者",
+      "kickoff_tw": "2026-07-08 04:00",
+      "stage": "1/8决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328025",
+      "home": "第1场1/8决赛胜者",
+      "away": "第2场1/8决赛胜者",
+      "kickoff_tw": "2026-07-10 04:00",
+      "stage": "1/4决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328026",
+      "home": "第5场1/8决赛胜者",
+      "away": "第6场1/8决赛胜者",
+      "kickoff_tw": "2026-07-11 03:00",
+      "stage": "1/4决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328027",
+      "home": "第3场1/8决赛胜者",
+      "away": "第4场1/8决赛胜者",
+      "kickoff_tw": "2026-07-12 05:00",
+      "stage": "1/4决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328028",
+      "home": "第7场1/8决赛胜者",
+      "away": "第8场1/8决赛胜者",
+      "kickoff_tw": "2026-07-12 09:00",
+      "stage": "1/4决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328029",
+      "home": "第1场1/4决赛胜者",
+      "away": "第2场1/4决赛胜者",
+      "kickoff_tw": "2026-07-15 03:00",
+      "stage": "半决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328030",
+      "home": "第3场1/4决赛胜者",
+      "away": "第4场1/4决赛胜者",
+      "kickoff_tw": "2026-07-16 03:00",
+      "stage": "半决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328032",
+      "home": "第1场半决赛败者",
+      "away": "第2场半决赛败者",
+      "kickoff_tw": "2026-07-19 05:00",
+      "stage": "季军赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    },
+    {
+      "match_id": "54328033",
+      "home": "第1场半决赛胜者",
+      "away": "第2场半决赛胜者",
+      "kickoff_tw": "2026-07-20 03:00",
+      "stage": "决赛",
+      "status": "未開賽",
+      "score": null,
+      "had_odds": null,
+      "my_prediction": null,
+      "correct": null
+    }
+  ]
+}

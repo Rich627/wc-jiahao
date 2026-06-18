@@ -392,7 +392,8 @@ body.modal-open { overflow: hidden; }
     border-radius: 16px; border: 1px solid var(--color-border);
     background: rgb(var(--color-surface-elevated-rgb) / 0.98); box-shadow: var(--shadow-modal); overflow: hidden;
 }
-.info-modal-panel.detail-panel { width: min(680px, 100%); max-height: 88vh; display: flex; flex-direction: column; }
+.info-modal-panel.detail-panel { width: min(680px, 100%); max-height: 85vh; display: flex; flex-direction: column; }
+.info-modal-panel.detail-panel .info-modal-head { flex: 0 0 auto; }
 .info-modal-head {
     position: relative; display: flex; align-items: center; justify-content: center;
     min-height: 70px; padding: 18px 64px 14px; border-bottom: 1px solid var(--color-border); background: var(--color-surface);
@@ -410,8 +411,23 @@ body.modal-open { overflow: hidden; }
 .info-modal-copy strong { color: var(--color-text-main); }
 .info-modal-subtitle { margin: 16px 0 6px; font-size: 14px; font-weight: 700; color: var(--color-text-main); }
 
-.detail-body { padding: 20px; overflow: auto; }
+.detail-body {
+    padding: 20px;
+    flex: 1 1 auto;
+    min-height: 0;            /* allow flex child to shrink so it can scroll */
+    max-height: 85vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+}
 .detail-body p + p { margin-top: 10px; }
+
+/* 台彩 odds block */
+.odds-label {
+    font-size: 11px; font-weight: 700; letter-spacing: 0.02em;
+    color: var(--color-text-muted);
+}
 .model-block {
     border: 1px solid var(--color-border); border-radius: 12px; padding: 14px;
     background: var(--color-card-muted); margin-top: 12px;
@@ -438,6 +454,8 @@ body.modal-open { overflow: hidden; }
 @media (max-width: 640px) {
     .info-modal { align-items: flex-end; padding: 12px; }
     .info-modal-panel { border-radius: 16px 16px 0 0; }
+    .info-modal-panel.detail-panel { max-height: 90vh; }
+    .detail-body { max-height: 90vh; padding: 16px; }
 }
 
 /* ---------- Scrollbars ---------- */

@@ -25,7 +25,12 @@
         "A": 9.0
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.0,
+        "A": 3.11
+      }
     },
     {
       "match_id": "54329974",
@@ -41,7 +46,12 @@
         "A": 2.76
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 5.7,
+        "A": 1.42
+      }
     },
     {
       "match_id": "54328042",
@@ -57,7 +67,12 @@
         "A": 4.75
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.04,
+        "A": 2.01
+      }
     },
     {
       "match_id": "54328045",
@@ -73,7 +88,12 @@
         "A": 4.08
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.7,
+        "A": 1.82
+      }
     },
     {
       "match_id": "54329984",
@@ -85,7 +105,12 @@
       "score": "1-1",
       "had_odds": null,
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 2.0,
+        "H": 2.08,
+        "A": 2.62
+      }
     },
     {
       "match_id": "54329930",
@@ -101,7 +126,12 @@
         "A": 5.4
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.7,
+        "A": 2.21
+      }
     },
     {
       "match_id": "54329987",
@@ -117,7 +147,12 @@
         "A": 1.33
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 1.0,
+        "H": 2.71,
+        "A": 2.15
+      }
     },
     {
       "match_id": "54329990",
@@ -133,7 +168,12 @@
         "A": 1.52
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 1.0,
+        "H": 2.18,
+        "A": 2.8
+      }
     },
     {
       "match_id": "54329950",
@@ -145,7 +185,12 @@
       "score": "7-1",
       "had_odds": null,
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -3.0,
+        "H": 1.87,
+        "A": 2.65
+      }
     },
     {
       "match_id": "54329953",
@@ -161,7 +206,12 @@
         "A": 3.78
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.55,
+        "A": 1.78
+      }
     },
     {
       "match_id": "54329993",
@@ -177,7 +227,12 @@
         "A": 2.2
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 1.0,
+        "H": 1.51,
+        "A": 5.3
+      }
     },
     {
       "match_id": "54329996",
@@ -193,7 +248,12 @@
         "A": 4.4
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.45,
+        "A": 1.88
+      }
     },
     {
       "match_id": "54329959",
@@ -205,7 +265,12 @@
       "score": "0-0",
       "had_odds": null,
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -2.0,
+        "H": 1.71,
+        "A": 3.25
+      }
     },
     {
       "match_id": "54329956",
@@ -221,7 +286,12 @@
         "A": 5.9
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.56,
+        "A": 2.35
+      }
     },
     {
       "match_id": "54330007",
@@ -237,7 +307,12 @@
         "A": 1.31
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 1.0,
+        "H": 2.84,
+        "A": 2.11
+      }
     },
     {
       "match_id": "54329999",
@@ -253,7 +328,12 @@
         "A": 5.4
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.1,
+        "A": 2.07
+      }
     },
     {
       "match_id": "54329962",
@@ -269,7 +349,12 @@
         "A": 7.7
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.12,
+        "A": 2.77
+      }
     },
     {
       "match_id": "54330010",
@@ -281,7 +366,12 @@
       "score": "1-4",
       "had_odds": null,
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 2.0,
+        "H": 2.21,
+        "A": 2.38
+      }
     },
     {
       "match_id": "54329965",
@@ -297,7 +387,12 @@
         "A": 9.2
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 1.9,
+        "A": 3.15
+      }
     },
     {
       "match_id": "54330013",
@@ -313,7 +408,12 @@
         "A": 9.2
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 1.79,
+        "A": 3.45
+      }
     },
     {
       "match_id": "54329969",
@@ -329,7 +429,12 @@
         "A": 13.5
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -2.0,
+        "H": 2.66,
+        "A": 2.0
+      }
     },
     {
       "match_id": "54329971",
@@ -345,7 +450,12 @@
         "A": 5.25
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.84,
+        "A": 2.15
+      }
     },
     {
       "match_id": "54330020",
@@ -361,7 +471,12 @@
         "A": 3.43
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 4.25,
+        "A": 1.64
+      }
     },
     {
       "match_id": "54330016",
@@ -377,7 +492,12 @@
         "A": 1.24
       },
       "my_prediction": null,
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": 1.0,
+        "H": 3.2,
+        "A": 1.9
+      }
     },
     {
       "match_id": "54329975",
@@ -387,7 +507,11 @@
       "stage": "小組賽 第2輪",
       "status": "未開賽",
       "score": null,
-      "had_odds": null,
+      "had_odds": {
+        "H": 1.69,
+        "D": 3.25,
+        "A": 4.35
+      },
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "捷克",
@@ -502,7 +626,12 @@
           }
         ]
       },
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.25,
+        "A": 1.92
+      }
     },
     {
       "match_id": "54329985",
@@ -512,7 +641,11 @@
       "stage": "小組賽 第2輪",
       "status": "未開賽",
       "score": null,
-      "had_odds": null,
+      "had_odds": {
+        "H": 1.35,
+        "D": 4.1,
+        "A": 6.9
+      },
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "瑞士",
@@ -627,7 +760,12 @@
           }
         ]
       },
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 2.23,
+        "A": 2.62
+      }
     },
     {
       "match_id": "54328043",
@@ -637,7 +775,11 @@
       "stage": "小組賽 第2輪",
       "status": "未開賽",
       "score": null,
-      "had_odds": null,
+      "had_odds": {
+        "H": 1.24,
+        "D": 4.7,
+        "A": 9.1
+      },
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "加拿大",
@@ -752,7 +894,12 @@
           }
         ]
       },
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 1.87,
+        "A": 3.28
+      }
     },
     {
       "match_id": "54328039",
@@ -762,7 +909,11 @@
       "stage": "小組賽 第2輪",
       "status": "未開賽",
       "score": null,
-      "had_odds": null,
+      "had_odds": {
+        "H": 1.86,
+        "D": 3.0,
+        "A": 3.87
+      },
       "my_prediction": {
         "consensus_selection": "AWAY",
         "consensus_team": "韓國",
@@ -877,7 +1028,12 @@
           }
         ]
       },
-      "correct": null
+      "correct": null,
+      "hhad": {
+        "line": -1.0,
+        "H": 3.78,
+        "A": 1.74
+      }
     },
     {
       "match_id": "54328046",
