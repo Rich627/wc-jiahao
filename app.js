@@ -182,6 +182,173 @@ function renderStats() {
       </div>`;
 }
 
+/* ---------- featured carousel (auto-looping 焦點預測) ---------- */
+const carousel = {
+    matches: [],
+    index: 0,
+    timer: null,
+    INTERVAL: 4000,
+    touchX: null,
+    touchY: null,
+    dragging: false,
+};
+
+function carouselSlideHtml(match) {
+    const p = match.my_prediction;
+    const pickLabel = SEL_LABEL[p.consensus_selection] || p.consensus_selection || '';
+    const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
+    const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
+    const agree = p.agree || ((p.models ? p.models.length : 0) + ' models');
+    return `<div class="carousel-slide" data-match="${esc(match.match_id)}" role="group" aria-label="${esc(match.home)} vs ${esc(match.away)}">
+        <div class="carousel-card">
+          <div class="flex items-center justify-between mb-4">
+            <span class="badge badge-stage">${esc(shortStage(match.stage))}</span>
+            <span class="badge badge-upcoming">焦點預測</span>
+          </div>
+          <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-3 mb-4">
+            <div class="carousel-team">
+              ${flagImg(match.home, 'carousel-flag', 'w160')}
+              <span class="carousel-team-name text-text-main">${esc(match.home)}</span>
+            </div>
+            <div class="carousel-vs"><span>VS</span></div>
+            <div class="carousel-team">
+              ${flagImg(match.away, 'carousel-flag', 'w160')}
+              <span class="carousel-team-name text-text-main">${esc(match.away)}</span>
+            </div>
+          </div>
+          <div class="text-center text-text-muted text-xs font-mono mb-4">
+            ${esc(dateKey(match.kickoff_tw))} ${esc(fmtTime(match.kickoff_tw))} (台灣時間)
+          </div>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 flex-wrap">
+            <span class="pick-chip ${pickClass} text-sm px-3 py-1.5">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
+            <span class="text-text-muted text-xs font-mono">勝率 ${winPct}</span>
+            <span class="text-text-muted text-xs font-mono">預測比分 ${esc(p.predicted_score || '—')}</span>
+            <span class="text-text-muted text-xs font-mono">${esc(agree)} 認同</span>
+          </div>
+        </div>
+      </div>`;
+}
+
+function carouselGoTo(i, animate) {
+    const n = carousel.matches.length;
+    if (!n) return;
+    carousel.index = ((i % n) + n) % n;
+    const track = document.getElementById('carousel-track');
+    if (track) {
+        track.style.transition = animate === false ? 'none' : '';
+        track.style.transform = `translateX(${-carousel.index * 100}%)`;
+    }
+    document.querySelectorAll('#carousel-dots .carousel-dot').forEach((d, di) => {
+        d.classList.toggle('active', di === carousel.index);
+        d.setAttribute('aria-selected', di === carousel.index ? 'true' : 'false');
+    });
+}
+
+function carouselNext() { carouselGoTo(carousel.index + 1); }
+function carouselPrev() { carouselGoTo(carousel.index - 1); }
+
+function carouselStart() {
+    carouselStop();
+    if (carousel.matches.length > 1) {
+        carousel.timer = setInterval(carouselNext, carousel.INTERVAL);
+    }
+}
+function carouselStop() {
+    if (carousel.timer) { clearInterval(carousel.timer); carousel.timer = null; }
+}
+
+function renderCarousel() {
+    const el = document.getElementById('carousel-section');
+    if (!el) return;
+    const matches = state.matches
+        .filter(m => m.my_prediction && m.my_prediction.models && m.my_prediction.models.length && !isFinished(m))
+        .sort((a, b) => (a.kickoff_tw || '').localeCompare(b.kickoff_tw || ''));
+    carousel.matches = matches;
+    if (!matches.length) { el.innerHTML = ''; return; }
+
+    const slides = matches.map(carouselSlideHtml).join('');
+    const dots = matches.map((m, i) =>
+        `<button class="carousel-dot${i === 0 ? ' active' : ''}" data-dot="${i}" role="tab" aria-selected="${i === 0 ? 'true' : 'false'}" aria-label="第 ${i + 1} 場焦點預測"></button>`
+    ).join('');
+    const multi = matches.length > 1;
+
+    el.innerHTML = `
+      <div class="carousel" id="carousel" aria-roledescription="輪播" aria-label="焦點預測輪播">
+        <div class="carousel-viewport" id="carousel-viewport">
+          <div class="carousel-track" id="carousel-track">${slides}</div>
+        </div>
+        ${multi ? `
+        <button class="carousel-arrow carousel-arrow-prev" id="carousel-prev" aria-label="上一場" type="button">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button class="carousel-arrow carousel-arrow-next" id="carousel-next" aria-label="下一場" type="button">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="焦點預測導覽">${dots}</div>
+        ` : ''}
+      </div>`;
+
+    carousel.index = 0;
+    carouselGoTo(0, false);
+
+    const viewport = document.getElementById('carousel-viewport');
+    const root = document.getElementById('carousel');
+
+    // Click slide → open detail (suppressed if it was a swipe drag)
+    viewport.querySelectorAll('.carousel-slide').forEach(slide => {
+        slide.addEventListener('click', () => {
+            if (carousel.dragging) return;
+            openDetail(slide.dataset.match);
+        });
+    });
+
+    if (multi) {
+        document.getElementById('carousel-prev').addEventListener('click', e => {
+            e.stopPropagation(); carouselPrev(); carouselStart();
+        });
+        document.getElementById('carousel-next').addEventListener('click', e => {
+            e.stopPropagation(); carouselNext(); carouselStart();
+        });
+        document.querySelectorAll('#carousel-dots .carousel-dot').forEach(d => {
+            d.addEventListener('click', e => {
+                e.stopPropagation(); carouselGoTo(+d.dataset.dot); carouselStart();
+            });
+        });
+
+        // Pause on hover (desktop)
+        root.addEventListener('mouseenter', carouselStop);
+        root.addEventListener('mouseleave', carouselStart);
+
+        // Touch / swipe (mobile)
+        viewport.addEventListener('touchstart', e => {
+            carousel.touchX = e.touches[0].clientX;
+            carousel.touchY = e.touches[0].clientY;
+            carousel.dragging = false;
+            carouselStop();
+        }, { passive: true });
+        viewport.addEventListener('touchmove', e => {
+            if (carousel.touchX == null) return;
+            const dx = e.touches[0].clientX - carousel.touchX;
+            const dy = e.touches[0].clientY - carousel.touchY;
+            if (Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(dy)) carousel.dragging = true;
+        }, { passive: true });
+        viewport.addEventListener('touchend', e => {
+            if (carousel.touchX != null && carousel.dragging) {
+                const dx = e.changedTouches[0].clientX - carousel.touchX;
+                if (dx <= -40) carouselNext();
+                else if (dx >= 40) carouselPrev();
+            }
+            carousel.touchX = null;
+            carousel.touchY = null;
+            // reset drag flag after click handler so a tap still opens detail
+            setTimeout(() => { carousel.dragging = false; }, 0);
+            carouselStart();
+        });
+
+        carouselStart();
+    }
+}
+
 /* ---------- hero (next upcoming match that has a prediction) ---------- */
 function renderHero() {
     const el = document.getElementById('hero-section');
@@ -574,6 +741,7 @@ async function init() {
     wireModals();
     try {
         await loadData();
+        renderCarousel();
         renderHero();
         renderStats();
         renderTabs();

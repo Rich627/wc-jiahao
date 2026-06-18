@@ -276,6 +276,84 @@ html[data-theme="dark"] .hero-card::before { opacity: 0.8; }
 }
 html[data-theme="dark"] .llm-avatar { border-color: rgb(var(--color-surface-elevated-rgb)); }
 
+/* ---------- Featured carousel (auto-looping 焦點預測) ---------- */
+.carousel { position: relative; }
+.carousel-viewport { overflow: hidden; border-radius: 18px; }
+.carousel-track {
+    display: flex;
+    transition: transform 0.55s cubic-bezier(0.22, 0.61, 0.36, 1);
+    will-change: transform;
+}
+.carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 2px;
+}
+.carousel-card {
+    background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-card-muted-strong) 100%);
+    border: 1px solid var(--color-info-border);
+    border-radius: 16px;
+    padding: 24px;
+    position: relative; overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.carousel-slide:hover .carousel-card {
+    border-color: var(--color-primary-border);
+    box-shadow: var(--shadow-card-hover);
+}
+@media (min-width: 768px) { .carousel-card { padding: 32px; } }
+.carousel-team { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; }
+.carousel-team-name { font-size: 20px; font-weight: 700; line-height: 1.1; text-align: center; }
+@media (max-width: 640px) { .carousel-team-name { font-size: 16px; } }
+.carousel-flag {
+    width: 56px; height: 56px; border-radius: 9999px; object-fit: cover;
+    border: 2px solid var(--color-border); box-shadow: var(--shadow-card);
+}
+.carousel-team .logo-placeholder.carousel-flag { font-size: 20px; }
+@media (max-width: 640px) { .carousel-flag { width: 44px; height: 44px; } }
+.carousel-vs {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--color-text-muted); font-family: "Space Grotesk", system-ui, sans-serif;
+    font-size: 18px; font-weight: 700; letter-spacing: 0.06em;
+}
+
+/* arrows */
+.carousel-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    z-index: 5; width: 40px; height: 40px; border-radius: 9999px;
+    display: flex; align-items: center; justify-content: center;
+    background: rgb(var(--color-surface-rgb) / 0.85);
+    border: 1px solid var(--color-border-strong);
+    color: var(--color-text-main);
+    box-shadow: var(--shadow-card);
+    cursor: pointer; backdrop-filter: blur(6px);
+    transition: background 0.2s ease, transform 0.15s ease, color 0.2s ease;
+}
+.carousel-arrow:hover { background: var(--color-primary); color: rgb(var(--color-text-dark-rgb)); border-color: var(--color-primary); }
+.carousel-arrow:active { transform: translateY(-50%) scale(0.92); }
+.carousel-arrow svg { width: 18px; height: 18px; }
+.carousel-arrow-prev { left: 8px; }
+.carousel-arrow-next { right: 8px; }
+@media (max-width: 640px) { .carousel-arrow { width: 34px; height: 34px; } .carousel-arrow svg { width: 15px; height: 15px; } }
+
+/* dots */
+.carousel-dots {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    margin-top: 14px;
+}
+.carousel-dot {
+    width: 8px; height: 8px; border-radius: 9999px; padding: 0;
+    background: var(--color-border-strong); border: none; cursor: pointer;
+    transition: width 0.25s ease, background 0.25s ease;
+}
+.carousel-dot.active { width: 22px; background: var(--color-primary); }
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-track { transition: none; }
+}
+
 /* ---------- Team flags ---------- */
 .team-flag {
     object-fit: cover; display: block;
