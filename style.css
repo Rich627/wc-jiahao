@@ -420,6 +420,18 @@ body.modal-open { overflow: hidden; }
 .model-block .model-name { font-weight: 700; color: var(--color-text-main); }
 .model-reason { font-size: 13px; line-height: 1.7; color: var(--color-text-muted); margin-top: 8px; }
 .model-risk { font-size: 12px; color: var(--color-secondary); margin-top: 6px; }
+.model-script { margin-top: 10px; border-top: 1px dashed var(--color-border); padding-top: 8px; }
+.model-script-toggle {
+    cursor: pointer; font-size: 12px; font-weight: 600; color: var(--color-info, #2563eb);
+    list-style: none; user-select: none; display: inline-block;
+}
+.model-script-toggle::-webkit-details-marker { display: none; }
+.model-script[open] .model-script-toggle { margin-bottom: 6px; }
+.model-script-body { font-size: 13px; line-height: 1.75; color: var(--color-text-main); }
+.model-script-body p { margin: 6px 0; }
+.model-script-body ul, .model-script-body ol { margin: 6px 0 6px 18px; padding: 0; }
+.model-script-body li { margin: 3px 0; }
+.model-script-body b { color: var(--color-text-main); font-weight: 700; }
 .kv-row { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 12px; color: var(--color-text-muted); margin-top: 4px; }
 .kv-row b { color: var(--color-text-main); }
 

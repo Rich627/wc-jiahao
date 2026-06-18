@@ -36,7 +36,9 @@ const MODEL_BRANDS = {
     Claude:   { key: 'claude',   label: 'Claude',   short: 'CL'  },
     DeepSeek: { key: 'deepseek', label: 'DeepSeek', short: 'DS'  },
     Gemini:   { key: 'gemini',   label: 'Gemini',   short: 'GM'  },
-    Kimi:     { key: 'kimi',     label: 'Kimi',     short: 'KM'  }
+    Kimi:     { key: 'kimi',     label: 'Kimi',     short: 'KM'  },
+    Grok:     { key: 'grok',     label: 'Grok',     short: 'GK'  },
+    GLM:      { key: 'glm',      label: 'GLM',      short: 'GLM' }
 };
 
 function modelMeta(name) {
@@ -51,6 +53,8 @@ function modelMeta(name) {
     if (lower.indexOf('anthropic') >= 0) return MODEL_BRANDS.Claude;
     if (lower.indexOf('google') >= 0) return MODEL_BRANDS.Gemini;
     if (lower.indexOf('moonshot') >= 0) return MODEL_BRANDS.Kimi;
+    if (lower.indexOf('grok') >= 0 || lower.indexOf('xai') >= 0 || lower.indexOf('x-ai') >= 0) return MODEL_BRANDS.Grok;
+    if (lower.indexOf('glm') >= 0 || lower.indexOf('zhipu') >= 0 || lower.indexOf('z-ai') >= 0 || lower.indexOf('z.ai') >= 0) return MODEL_BRANDS.GLM;
     return null;
 }
 
@@ -60,7 +64,9 @@ const MODEL_SVG = {
     claude: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.6 17.8L9.9 6.2h2.5l4.3 11.6h-2.4l-.9-2.6H8.9l-.9 2.6H5.6zm4-4.5h3.1l-1.55-4.5-1.55 4.5zM17 6.2h2.2v11.6H17z"/></svg>',
     deepseek: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c4.5 1 6.5 3.4 7.4 5.2.6-1.7 2-3.2 4.6-3.8-1 .9-1.6 1.9-1.8 3.2 1.5.3 3 .3 4.8-.4-2 2.6-4.7 3.6-7 3.4-3.2-.3-6.2-2.6-8-7.6z"/><circle cx="13.3" cy="12.2" r="1"/></svg>',
     gemini: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c.4 4.8 2.6 8.6 8 10-5.4 1.4-7.6 5.2-8 10-.4-4.8-2.6-8.6-8-10 5.4-1.4 7.6-5.2 8-10z"/></svg>',
-    kimi: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3.4" fill="#fff"/></svg>'
+    kimi: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3.4" fill="#fff"/></svg>',
+    grok: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.3 15.3l8-5.9c.4-.3.95-.18 1.14.27 1 2.37.54 5.22-1.41 7.17-1.95 1.95-4.67 2.38-7.15 1.4l-2.7 1.26c3.9 2.66 8.6 2 11.56-.95 2.34-2.35 3.07-5.54 2.39-8.42-.98-4.23.24-5.92 2.75-9.38l.18-.25-3.3 3.3L9.3 15.3zm-1.65 1.43c-2.8-2.67-2.31-6.83.07-9.21 1.76-1.77 4.65-2.49 7.17-1.42l2.7-1.25a6.5 6.5 0 0 0-1.73-.89C12.84 2.79 9.34 3.43 6.88 5.89 4.52 8.26 3.8 11.82 5.08 14.94l2.57 1.8z"/></svg>',
+    glm: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.7 6.5h10.6v2L9.6 16.5h7.7v2H6.5v-2l7.7-8H6.7z"/></svg>'
 };
 
 // Replace a failed logo <img> with the inline colored-circle fallback mark.
@@ -400,7 +406,40 @@ function modelBlockHtml(m) {
         </div>
         ${m.reasoning_md ? `<div class="model-reason">${esc(m.reasoning_md)}</div>` : ''}
         ${m.key_risk ? `<div class="model-risk">⚠ 風險：${esc(m.key_risk)}</div>` : ''}
+        ${m.script_md ? `<details class="model-script">
+          <summary class="model-script-toggle">展開完整劇本 ▾</summary>
+          <div class="model-script-body">${mdToHtml(m.script_md)}</div>
+        </details>` : ''}
       </div>`;
+}
+
+/* Minimal markdown -> HTML for the 劇本 block. Handles bullets, numbered
+   list lines, **bold**, and paragraph breaks. Everything is escaped first so
+   model output can never inject markup. */
+function mdToHtml(md) {
+    const lines = String(md || '').replace(/\r\n/g, '\n').split('\n');
+    const out = [];
+    let inList = false, listTag = '';
+    const inline = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+    const closeList = () => { if (inList) { out.push(`</${listTag}>`); inList = false; } };
+    for (let raw of lines) {
+        const line = raw.trim();
+        if (!line) { closeList(); continue; }
+        const ul = line.match(/^[-*•]\s+(.*)$/);
+        const ol = line.match(/^\d+[.)、]\s+(.*)$/);
+        if (ul) {
+            if (!inList || listTag !== 'ul') { closeList(); out.push('<ul>'); inList = true; listTag = 'ul'; }
+            out.push(`<li>${inline(ul[1])}</li>`);
+        } else if (ol) {
+            if (!inList || listTag !== 'ol') { closeList(); out.push('<ol>'); inList = true; listTag = 'ol'; }
+            out.push(`<li>${inline(ol[1])}</li>`);
+        } else {
+            closeList();
+            out.push(`<p>${inline(line)}</p>`);
+        }
+    }
+    closeList();
+    return out.join('');
 }
 
 function openDetail(matchId) {
