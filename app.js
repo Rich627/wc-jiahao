@@ -291,18 +291,34 @@ function oddsRow(odds) {
 
 function predictionStrip(match) {
     const p = match.my_prediction;
+    const finished = isFinished(match);
     if (!p) {
-        return `<div class="mt-4 pt-3 border-t border-gray-100 text-xs text-text-muted text-center">尚未出預測</div>`;
+        // Finished but no model prediction → show the final score, not "尚未出預測".
+        const txt = finished
+            ? `已完賽 ${esc(match.score || '')}`
+            : '尚未出預測';
+        return `<div class="mt-4 pt-3 border-t border-gray-100 text-xs text-text-muted text-center">${txt}</div>`;
     }
     const pickLabel = SEL_LABEL[p.consensus_selection] || '';
     const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
     const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '';
+    // Finished match WITH a prediction: show predicted vs actual + correct mark.
+    let resultLine = '';
+    if (finished) {
+        const correct = match.correct;
+        const mark = correct === true ? '<span class="font-bold" style="color:#10B981">✓ 命中</span>'
+            : correct === false ? '<span class="text-secondary font-bold">✗ 未中</span>'
+            : '';
+        resultLine = `<div class="mt-2 text-[11px] text-text-muted font-mono">
+            預測 ${esc(p.predicted_score || '—')} · 實際 <b>${esc(match.score || '—')}</b>${mark ? ' · ' + mark : ''}
+          </div>`;
+    }
     return `<div class="mt-4 pt-3 border-t border-gray-100">
         <div class="flex items-center justify-between gap-2 flex-wrap">
           <span class="pick-chip ${pickClass}">Master：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
           <span class="text-xs text-text-muted font-mono">${esc(p.predicted_score || '')}${winPct ? ' · ' + winPct : ''}</span>
         </div>
-        <div class="mt-2 text-[11px] text-text-muted">${esc(p.agree || '')} 認同 · 點擊看各模型分析</div>
+        ${resultLine || `<div class="mt-2 text-[11px] text-text-muted">${esc(p.agree || '')} 認同 · 點擊看各模型分析</div>`}
       </div>`;
 }
 
@@ -345,13 +361,15 @@ function renderMatches() {
     const upcoming = list.filter(m => !isFinished(m));
     const finished = list.filter(isFinished);
 
-    function groupHtml(arr) {
+    function groupHtml(arr, descending) {
         const byDate = {};
         arr.forEach(m => {
             const k = dateKey(m.kickoff_tw);
             (byDate[k] = byDate[k] || []).push(m);
         });
-        return Object.keys(byDate).sort().map(k => {
+        let dateKeys = Object.keys(byDate).sort();
+        if (descending) dateKeys = dateKeys.reverse();
+        return dateKeys.map(k => {
             const cards = byDate[k].map(matchCardHtml).join('');
             return `<div class="mb-8">
                 <div class="match-date-heading">
@@ -374,7 +392,7 @@ function renderMatches() {
               <h3 class="text-base font-bold text-text-main">已完賽</h3>
               <span class="text-xs text-text-muted">${finished.length} 場</span>
             </summary>
-            <div class="match-history-content">${groupHtml(finished)}</div>
+            <div class="match-history-content">${groupHtml(finished, true)}</div>
           </details>`;
     }
     if (!html) html = `<div class="text-center text-text-muted py-16">此階段尚無比賽</div>`;
