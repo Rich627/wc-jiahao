@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T17:18:32+08:00",
+  "generated_at": "2026-06-20T05:31:02+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -505,8 +505,8 @@
       "away": "南非",
       "kickoff_tw": "2026-06-19 00:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": {
         "H": 1.69,
         "D": 3.25,
@@ -639,8 +639,8 @@
       "away": "波黑",
       "kickoff_tw": "2026-06-19 03:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "4-1",
       "had_odds": {
         "H": 1.35,
         "D": 4.1,
@@ -773,8 +773,8 @@
       "away": "卡達",
       "kickoff_tw": "2026-06-19 06:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "6-0",
       "had_odds": {
         "H": 1.24,
         "D": 4.7,
@@ -907,8 +907,8 @@
       "away": "韓國",
       "kickoff_tw": "2026-06-19 09:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-0",
       "had_odds": {
         "H": 1.86,
         "D": 3.0,
@@ -1041,13 +1041,13 @@
       "away": "澳大利亞",
       "kickoff_tw": "2026-06-20 03:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "美國",
-        "win_prob": 0.754,
+        "win_prob": 0.791,
         "agree": "7/7 models",
         "predicted_score": "3-0",
         "models": [
@@ -1061,40 +1061,40 @@
               "D": 0.18,
               "A": 0.1
             },
-            "confidence": 0.67,
-            "key_risk": "美國隊在攻守轉換防守（rest-defense）上顯得有些鬆散——**Dest** 與 **Antonee Robinson** 位置過高，**Adams** 陷入孤立，而澳洲隊透過 **Irankunda** 發動的反擊，隨時可能讓一次失誤導致比賽局勢翻盤。",
-            "reasoning_md": "美國隊勝出：他們擁有遠比對手更具實證的射門創造能力（Balogun/Reyna/Pulisic），且中場控制力足以壓制 Australia 的 3-4-2-1 陣型。Australia 或許能透過拚搶偷得一分（可能來自定位球或反擊），但他們無法在 90 分鐘內抵擋住 USA 持續不斷的進攻威脅。",
-            "script_md": "### 整體分析\n- 這場比賽是 USA 的囊中物：前場四人組具備頂級的進攻破壞力（Folarin Balogun 的 xG/90 為 0.66、Giovanni Reyna 為 0.40、Christian Pulisic 為 0.27），且進攻能力指數的巨大差距（2.38 對 0.21）顯示，Australia 爆冷擊敗 Turkey 更像是一次性的劇本，而非可複製的優勢。\n- Australia 的 3-4-2-1 陣型會將重兵佈防在球後，但也將邊路與半場空間拱手讓給了 USA——這正是 Pulisic 和 Reyna 最能造成威脅的區域。\n\n### 關鍵對位\n- **Balogun 對決 Australia 三中衛**：Australia 的 19 號 Harry Souttar (Leicester City FC) 是一道身體素質極佳的防線，但 Balogun 的跑位會將他拉出舒適區；只要一個腳步判斷失誤，就會演變成倒三角回傳後的進球。\n- **Reyna 在防線間對決 Australia 雙中場**：如果 Australia 的 22 號 Jackson Irvine (FC St. Pauli) 與 8 號 Connor Metcalfe (FC St. Pauli) 位置過深，他們將會讓出控球權；如果他們壓上，Reyna 就能將球傳給身後的跑動隊友。\n- **Australia 的威脅來自直接進攻**：Australia 的 17 號 Nestory Irankunda (Watford FC) 與 9 號 Mohamed Touré (Norwich City FC) 是顯而易見的進攻出口——他們依靠反擊與定位球，而非長時間的控球。\n\n### 比賽劇本（預測走勢）\n- **開局**：USA 在主場強勢開局，將 Dest 與 Antonee Robinson 的位置推高，並累積進攻次數。首個進球來自於高壓逼搶——Reyna 在左內側找到 Pulisic，或是 Dest 的套邊進攻創造出倒三角回傳，由 **Balogun** 完成破門。\n- **中段**：Australia 穩守陣腳試圖挺過風暴；Mathew Ryan 會做出幾次撲救，Souttar 也能贏下許多空中爭頂。但 USA 的第二個進球終將到來，因為邊後衛無法同時兼顧邊路與中路防守——**Pulisic** 或 **Aaronson** 會在後點後插上得分。\n- **尾聲**：當 USA 的邊後衛位置過高且回防怠慢時，Australia 終於偷得一球——透過快速轉換進攻打入邊路空檔，或是利用定位球由 **Souttar** 強勢頭槌或搶下第二落點。隨後 USA 鎖定勝局：Australia 全力進攻導致後場空虛，**Balogun/Pepi/Weah** 獲得大片空間跑動並攻入第三球。\n\n### 為何預測 3-1\n- 根據數據顯示，USA 的創造機會能力完全高出一個檔次，且預計他們將派出與 4-1 大勝 Paraguay 時相同的陣容。Australia 雖然防守有韌性，但缺乏能持續創造射門機會的球員，無法與對手進行 90 分鐘的對攻。\n\n### 變數\n- 如果 USA 未能將早期的優勢轉化為進球（Balogun/Pulisic 揮霍機會），且 Australia 將 0-0 的比分維持到最後 25 分鐘，比賽將變成定位球的輪盤賭——Souttar 的一次關鍵發揮加上 Irankunda 的反擊，可能將比賽變成 1-1 的苦戰，或是 Australia 的偷襲得手。"
+            "confidence": 0.73,
+            "key_risk": "澳洲隊的「三後衛體系」加上「定位球威脅」（特別是 Harry Souttar），將比賽轉變為低進攻頻率的拉鋸戰，導致美國隊浪費得分機會，或是在一次死球防守中遭到懲罰。",
+            "reasoning_md": "美國隊獲勝的原因在於他們擁有數名具備決定比賽能力的球員（**Balogun**、**Reyna**、**Pulisic**），且在進攻端有著更高水準的產出；反觀澳洲隊的創造力相對薄弱，過度依賴戰術結構與零星的閃光時刻。澳洲隊或許能透過 3-4-2-1 陣型與對手僵持，但面對如此強大的個人能力，他們很難在 90 分鐘內守住防線。",
+            "script_md": "### 整體分析\n- 這是一場天賦與火力的不對等對決：美國隊的進攻具備真實且可持續的進球威脅（Balogun 的 xG/90 為 0.66；Reyna 為 0.40；Pulisic 為 0.27），且中場（Adams/McKennie）擁有足夠的跑動能力將澳洲隊壓制在半場。澳洲隊的數據顯示他們是「體系大於球星」的球隊，這沒問題——直到他們先失球為止。\n\n### 關鍵對位\n- **Folarin Balogun (AS Monaco)** 對決澳洲三中衛：**Australia No.19 Harry Souttar (Leicester City FC)** 在制空權上佔據統治地位，但 Balogun 不需要爭頂——他只需要在邊路空檔處抓到一次失誤，比賽就結束了。\n- **Giovanni Reyna (Borussia Mönchengladbach)** 在邊翼衛身後尋找空檔：如果 **Australia No.5 Jordan Bos (Feyenoord Rotterdam)** 和 **Australia No.4 Jacob Italiano (Grazer AK)** 壓得太靠上，Reyna 便能將球傳給如 **Timothy Weah (Olympique Marseille)** 和 **Christian Pulisic (AC Milan)** 這樣能衝刺空檔的球員。\n- 澳洲隊的最佳進攻路徑是簡單粗暴的：針對 **Australia No.19 Souttar** 和 **Australia No.21 Cameron Burgess (Swansea City AFC)** 附近的定位球與第二落點，外加 **Australia No.17 Nestory Irankunda (Watford FC)** 的轉換進攻爆發力。\n\n### 比賽劇本（前段 → 中段 → 後段）\n- 比賽初期，澳洲隊採取緊湊的 5-4-1/5-2-2-1 陣型試圖拖慢節奏；美國隊則透過 Dest/Antonee Robinson 的重疊跑位以及 Reyna 在線路間的穿插進行試探。\n- 美國隊透過倒三角回傳或直塞球率先破門（1-0）——Balogun 是本場比賽最冷靜的終結者，而澳洲隊的邊翼衛最終會露出防守縫隙。\n- 比賽中段，澳洲隊迎來他們的「時刻」：定位球或長擲界外球造成的混亂帶來了扳平比分的機會——他們很可能會偷進**一球**（1-1），因為美國隊的中後衛將會受到 Souttar 制空能力的嚴峻考驗。\n- 隨後實力差距顯現。一旦美國隊透過 Reyna/Pulisic 的組合配合再次取得領先（2-1），澳洲隊必須壓上進攻，這對抗美國隊的轉換速度而言無異於自殺。\n- 比賽後段，美國隊透過反擊鎖定勝局（3-1），由 Weah/Pulisic 拉開球場寬度，並由 Balogun 或後插上的中場球員完成致命一擊。\n\n### 為何預測 3-1\n- 澳洲隊具備防守與競爭力，但他們缺乏足夠穩定的創造力來與美國隊進行 90 分鐘的對攻。美國隊擁有三名能在單一動作中決定比賽勝負的球員，因此即便澳洲隊偷進一球，他們仍會丟掉多球。\n\n### 翻盤關鍵\n- 如果 Pulisic/Balogun 的傷勢限制了他們的發揮，且澳洲隊將比賽拖入定位球大戰（Souttar 贏下所有爭頂），再加上 Irankunda 的一次反擊，美國隊可能會被拖入 1-1 的平局，甚至被澳洲隊以 1-2 偷走勝利。"
           },
           {
             "name": "Claude",
             "selection": "HOME",
             "selection_team": "美國",
-            "predicted_score": "3-0",
+            "predicted_score": "3-1",
             "win_prob": {
-              "H": 0.72,
+              "H": 0.74,
               "D": 0.18,
-              "A": 0.1
+              "A": 0.08
             },
             "confidence": 0.7,
-            "key_risk": "澳洲隊的 3-4-2-1 陣型採取深度防守並造成對手挫折，若美國隊浪費進攻機會且 Mathew Ryan 有如神助，這場比賽將演變成一場 1-0 的苦戰。",
-            "reasoning_md": "美國隊輕鬆取勝——他們擁有一條真正的頂級聯賽中軸線（Balogun、Reyna、Pulisic、McKennie），而對手澳洲隊幾乎沒有任何頂級進攻產出（指數僅 0.21，只有 5 名球員有頂級聯賽數據）。雙方在實力與板凳深度上的差距實在太過懸殊。",
-            "script_md": "**整體分析：** 從帳面實力來看，這是一場實力懸殊的對決。美國隊的進攻指數（2.38）遠高於澳洲隊（0.21），且美國隊的前場擁有真正的歐洲頂級聯賽火力。澳洲隊的整體戰術建立在對陣土耳其時的成功經驗上：採用低位防守的 3-4-2-1 陣型，承受壓力，並試圖透過反擊或定位球偷襲得分。他們擁有敬業的職業球員，但幾乎沒有頂級的進球威脅——他們陣中唯一有頂級聯賽 xG（預期進球）數據的球員是 20 號 Volpato（Sassuolo，0.06），這說明了一切。\n\n**關鍵對位：** 決定性的戰場在於美國隊的前場四人組對陣澳洲隊的三中衛：21 號 Burgess（Swansea）、3 號 Circati（Parma）和 19 號 Souttar（Leicester）。Souttar 身材高大且擅長爭頂，但轉身速度慢——Balogun（xG/90 為 0.66）和 Pulisic 的跑位將會撕裂這條防線。Reyna（0.40）在 8 號 Metcalfe（St. Pauli）和 13 號 O'Neill（NYCFC）組成的中場之間穿梭，這對美國隊來說是明顯的優勢。孤軍奮戰的 9 號 Touré（Norwich）將會缺乏支援。門將 Mathew Ryan（Levante）是澳洲隊將比分維持在體面範圍內的最大希望。\n\n**比賽劇本：** 美國隊從開賽起就會掌控控球權，但澳洲隊的深位防守意味著進球可能不會在開賽前 15 分鐘出現。預計美國隊會在 25-35 分鐘左右取得首個進球——可能是 Balogun 的進球或 Pulisic 的內切射門——一旦澳洲隊被迫壓上進攻，防線空檔就會暴露。下半場一小時前的第二個進球將鎖定勝局，而體力下滑的三中衛防線將在比賽末段因替補球員（Pepi、Weah、Tillman）持續施壓而再丟一球。澳洲隊唯一現實的進球途徑是透過定位球找 Souttar，或是利用 17 號 Irankunda（Watford）進行轉換進攻。\n\n**為何預測 3-0：** 雙方的質量與板凳深度差距太大，若僅以一球小勝並不符合實際情況；美國隊擁有眾多得分點，且替補席能維持進攻強度，而澳洲隊在運動戰中幾乎無法創造威脅。美國隊很有可能零封對手，因為澳洲隊的進攻火力確實相當薄弱。\n\n**變數：** 如果澳洲隊的低位防守能堅持 70 分鐘且 Ryan 表現神勇，比賽可能會變成緊張的 1-0——甚至可能靠 Souttar 的一次定位球頭槌偷走一場平局。但那屬於爆冷劇本，而非預期走向。"
+            "key_risk": "澳洲隊以 3-4-2-1 陣型擺出鐵桶陣，並透過 Souttar 在定位球或反擊中偷襲得手——他們剛剛以 2-0 爆冷擊敗了土耳其，所以他們絕對有能力製造驚喜。",
+            "reasoning_md": "美國隊輕鬆取勝——Balogun (0.66 xG/90)、Reyna 與 Pulisic 展現了巨大的火力差距（進攻指數 2.38 對 0.21），這是澳洲隊那支陣容單薄、僅具低級別聯賽水準的進攻線所無法抗衡的。唯一的懸念在於 Popovic 的低位防守能否堅持得夠久，以維持一個體面的比分差距。",
+            "script_md": ""
           },
           {
             "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "美國",
-            "predicted_score": "3-0",
+            "predicted_score": "4-0",
             "win_prob": {
-              "H": 0.78,
-              "D": 0.14,
-              "A": 0.08
+              "H": 0.92,
+              "D": 0.06,
+              "A": 0.02
             },
-            "confidence": 0.91,
-            "key_risk": "澳洲若全線退守拼死球，Souttar 定位球偷到一個可能讓比賽變僵持，但美國個人能力隨時能撕開缺口。",
-            "reasoning_md": "美國陣容攻擊指數完全碾壓，火力點分散又健康；澳洲只能捱打，偷雞得手也扛不住全面轟炸。",
-            "script_md": "① 整體判讀：美國這套陣容攻擊實力指數 2.38 對 0.21，根本是不同量級。16 個有頂級聯賽資料的深度，前場 Balogun（每90分鐘預期進球 0.66）、Reyna（0.40）、Pulisic（0.27）三叉戟健康出戰，每一路都能鑿穿澳洲。澳洲除了爆冷贏土耳其的那股氣，純牌面完全擋不住。\n② 關鍵對位：美國左路 overload——Pulisic 和 Antonee Robinson 的疊瓦會把澳洲右翼衛 4號 Jacob Italiano（Grazer AK）壓成肉醬；中路 Balogun 的搶點嗅覺搭配 Reyna 後上，直接對上澳洲三中衛裡最慢的 19號 Harry Souttar（Leicester City FC），一個變速就能吃死他。澳洲想靠 17號 Nestory Irankunda（Watford FC）反擊，但碰上 Tyler Adams 這輛中場推土機根本過不了中線。\n③ 比賽劇本：開場美國就高位強迫取分，15 分鐘內 Pulisic 左路內切被犯規或直接低射破門首開紀錄。澳洲被迫稍往前壓，30 分鐘左右 Balogun 接應 Dest 低平傳中用腳尖捅進第二球，2-0。下半場澳洲換人堆中場死守，美國控球圍攻，60-70 分鐘 Reyna 禁區邊緣遠射或接倒三角掃入第三球，之後養生收工。\n④ 比分為什麼是 3-0：美國攻擊每場預期貢獻 2.25，對澳洲這種級別實際進三球很保守；澳洲全場射正大概一次，Matt Turner 零封是基本盤，澳洲沒有穩定火力點，連撿漏都很難。\n⑤ 什麼情況會翻盤：除非美國自己輕敵到散步，開場送點或定位球讓 Souttar 頂進一個，然後全隊心態崩掉、狂轟無果反被澳洲最後反擊殺死，但那機率比墨爾本下雪還低。"
+            "confidence": 0.95,
+            "key_risk": "美國後防偶爾斷電，若久攻不下被澳洲定位球偷一個，可能讓比賽末段變得難看，但不足以翻盤。",
+            "reasoning_md": "純粹的降維打擊。美國攻擊火力指數是澳洲的11倍，這不是同一個量級的對決。澳洲爆冷土耳其的劇本不會重演，因為美國前場這群怪物能把澳洲三中衛直接衝垮。",
+            "script_md": "① **整體判讀：大人打小孩**。美國陣容攻擊實力指數2.38，深度16人有頂級聯賽資料；澳洲只有可憐的0.21，5人有資料。這不是一場需要分析戰術的比賽，這是美國隊的射門表演。澳洲靠著擊敗土耳其的氣勢想來拚，但他們那條英冠、澳超混搭的防線，面對Balogun、Pulisic、Reyna的衝擊，連半場都頂不住。\n\n② **關鍵對位：Balogun單點爆破**。美國20號Folarin Balogun（AS Monaco）每90分鐘預期進球0.66，是本場最致命的武器。澳洲三中衛裡，19號Harry Souttar（Leicester City FC）身高夠但轉身像航母掉頭，21號Cameron Burgess（Swansea City AFC）在英冠都不是頂級，面對Balogun的穿插跑位，他們只能犯規。中場美國7號Giovanni Reyna（Borussia Mönchengladbach）的0.40 xG90會是第二波打擊，澳洲中場根本沒人能跟住他後插上的節奏。\n\n③ **比賽劇本：開場即屠殺**。上半場15分鐘內，美國就會靠著前場壓迫造成澳洲後衛出球失誤，Balogun或Pulisic其中一人先開紀錄。澳洲想靠3-4-2-1的翼衛前壓，但這正好給美國邊路反擊留出巨大空檔。30分鐘左右比分就會變成2-0，比賽懸念結束。下半場美國會換上Pepi、Weah繼續衝擊，澳洲體能下滑後防線漏洞百出，最終比分直奔4-0。澳洲全場可能只有一兩腳來自定位球的射門，但Matt Turner連汗都不會出。\n\n④ **為什麼是這個比分**：美國本屆場均預期貢獻2.25，澳洲1.42。但這1.42是打土耳其這種防線刷出來的，面對美國的高位逼搶，澳洲連球都過不了半場，預期進球會直接腰斬。美國4-1巴拉圭不是偶然，是火力全開的預演，這場只會更殘忍。\n\n⑤ **什麼情況會翻盤**：除非美國全隊昨晚集體食物中毒。澳洲唯一的機會是美國後衛線自己玩火，5號Antonee Robinson（Fulham FC）助攻太猛回不來，被澳洲17號Nestory Irankunda（Watford FC）靠速度偷一個，然後全隊縮在半場死守。但以美國中前場的攻堅能力，就算先丟一球也能翻回來，澳洲想爆冷需要奇蹟，而奇蹟不會連續發生兩次。"
           },
           {
             "name": "Gemini",
@@ -1103,28 +1103,28 @@
             "predicted_score": "3-0",
             "win_prob": {
               "H": 0.75,
-              "D": 0.18,
-              "A": 0.07
+              "D": 0.15,
+              "A": 0.1
             },
             "confidence": 0.85,
-            "key_risk": "Pulisic 和 Balogun 的傷勢比報導中更嚴重，這不僅拖慢了美國隊的進攻節奏，也讓澳洲隊得以藉由定位球攻入致勝一球。",
-            "reasoning_md": "美國隊擁有壓倒性的頂級聯賽火力，將能輕易瓦解陣中嚴重缺乏頂尖人才的澳洲隊。Socceroos（澳洲國家隊）爆冷擊敗土耳其固然是個溫馨的故事，但在這裡，現實將會給予他們沉重的一擊。",
-            "script_md": "**整體解讀：** 雙方的數據差距簡直是天壤之別。美國隊擁有 2.38 的進攻指數，陣中更有 16 名頂級聯賽球員，而澳洲隊僅有慘澹的 0.21。別被澳洲隊以 2-0 爆冷擊敗土耳其的比賽給騙了——他們在火力上嚴重不足，缺乏足夠的頂尖實力來抵擋地主隊的攻勢。\n\n**關鍵對位：** Folarin Balogun（xG 0.66）和 Christian Pulisic 將會把澳洲隊腳步沉重的三中衛防線耍得團團轉。19 號 Harry Souttar（Leicester City FC）雖然是空戰巨人，但轉身速度慢得像艘郵輪；讓他與 Pulisic 或 Reyna 比拼速度，比賽就結束了。澳洲隊唯一的希望是透過 17 號 Nestory Irankunda（Watford FC）和 9 號 Mohamed Touré（Norwich City FC）進行反擊，但由 Tyler Adams 坐鎮的美國中場將會在反擊發動前就將其扼殺。\n\n**比賽劇本：** 預計美國隊在狂熱的主場觀眾助威下，開賽就會發動猛攻。澳洲隊將會擺出 3-4-2-1 陣型死守，祈禱能撐過前 30 分鐘。但這招行不通。Giovanni Reyna 將會撕開防線，一旦首開紀錄，澳洲隊將被迫放棄低位防守。屆時比賽將會演變成一場潰敗。美國隊將掌控節奏，在上半場結束前攻入第二球，並在比賽尾聲再下一城，讓 Socceroos 只能在場上疲於奔命。\n\n**為何預測此比分：** 3-0 的大勝完美反映了雙方進攻天賦的巨大差距。澳洲隊根本沒有足夠的頂級球員來威脅美國隊的大門，而 Pochettino 的球隊擁有太多進攻武器，不可能在 90 分鐘內保持沈默。\n\n**什麼情況會翻盤：** 如果 Pulisic 和 Balogun 的「輕微傷勢」在開賽初期復發並被迫退場，美國隊的進攻可能會陷入無效控球的泥淖。若再加上 Souttar 在比賽節奏之外，利用招牌的定位球頭槌破門，澳洲隊或許有機會偷走一場本屆賽事最難看的 1-1 平局。"
+            "key_risk": "美國隊浪費了開局的得分機會，隨後陷入急躁，並因一次定位球防守失誤，讓 Harry Souttar 輕鬆攻破球門。",
+            "reasoning_md": "美國隊擁有壓倒性的頂級火力，將無情地撕裂這支靠著僥倖爆冷而氣勢正旺的澳洲隊。Balogun 和 Pulisic 將會徹底擊潰澳洲隊緩慢且低水準的後防線。",
+            "script_md": "數據不會說謊——這兩支球隊之間的實力差距有如鴻溝。美國隊擁有 2.38 的進攻指數，陣中更有 16 名頂級聯賽球員，而澳洲隊僅有可憐的 0.21。別被澳洲隊以 2-0 爆冷擊敗土耳其的可愛表現給騙了；當天賦差距如此懸殊時，奇蹟不會發生兩次。\n\nFolarin Balogun（xG 0.66）和 Christian Pulisic（xG 0.27）將會把澳洲隊的三中衛防線耍得團團轉。澳洲隊 19 號 Harry Souttar（Leicester City FC）雖然是空中的巨人，但轉身卻像郵輪一樣笨重。預計 Giovanni Reyna 和 Weston McKennie 將會在球場中路徹底壓制澳洲隊 22 號 Jackson Irvine（FC St. Pauli）和 8 號 Connor Metcalfe（FC St. Pauli）。\n\n澳洲隊將會擺出 3-4-2-1 陣型，採取「大巴戰術」並祈禱能獲得定位球機會。美國隊將會在開賽初期掌控球權並試探邊路。一旦美國隊取得首顆進球——很可能在上半場結束前透過 Pulisic 和 Balogun 的快速配合達成——比賽將會呈現一面倒的局面。澳洲隊沒有任何備案，因為他們缺乏頂級聯賽的前鋒來追趕比分；指望澳洲隊 9 號 Mohamed Touré（Norwich City FC）能突破這條美國防線簡直是個笑話。\n\n我預測這將是一場 3-0 的大勝。美國隊的進攻太過犀利，且在 Pochettino 的帶領下運作流暢。澳洲隊 1.42 的預期貢獻值只是建立在一場幸運比賽上的海市蜃樓；他們在頂級聯賽的實際進攻產出幾乎為零。\n\n美國隊唯一可能丟分的狀況，就是他們在角球防守時睡著，讓 Souttar 早早頂進一球，隨後讓澳洲人將 11 名球員全部退守到球後長達 80 分鐘。否則，這將會是一場屠殺。"
           },
           {
             "name": "Kimi",
             "selection": "HOME",
             "selection_team": "美國",
-            "predicted_score": "3-1",
+            "predicted_score": "3-0",
             "win_prob": {
-              "H": 0.78,
-              "D": 0.15,
-              "A": 0.07
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
             },
-            "confidence": 0.82,
-            "key_risk": "澳洲19號 Harry Souttar 的空中統治力＋美國門將 Matt Turner 撲遠射不穩，定位球被偷一顆。",
-            "reasoning_md": "美國攻擊指數 2.38 對澳洲 0.21，整整十倍火力差；澳洲只有 5 人踢過頂級聯賽，擋不住 Balogun＋Reyna 的歐冠節奏。",
-            "script_md": "- 整體判讀：美國 16 名頂級聯賽球員輪換深度嚇人，澳洲只有 5 個，中場 Irvine+Metcalfe 雖硬但技術差兩檔；美國邊路 Dest+Robinson 會把翼衛 6號 Geria 跟 4號 Italiano 生吃。\n- 關鍵對位：20號 Balogun（xG90 0.66）對位 3號 Circati（Parma 替補水準）＋19號 Souttar，速度差一圈，第一腳觸球就爆；澳洲唯一反擊出口是 17號 Irankunda（Watford）單挑 2號 Dest，但後者有歐冠經驗，七成會把對手趕向邊線。\n- 劇本：15 分鐘前美國高位逼搶，McKennie 搶下二點，Reyna 直塞，Balogun 單刀開 1-0；30 分鐘澳洲靠左側自由球 Souttar 頭槌扳平 1-1；下半場 55 分鐘 Pulisic 內切兜射死角 2-1，80 分鐘替補 Weah 反擊再捅 3-1。\n- 為什麼這比分：美國場均 xG 2.25，澳洲防線 xG 失球模型預估 2.4，給澳洲偷一顆定位球，其餘時間被壓著打，淨勝兩球合理。\n- 翻盤情境：若 Turner 撲遠射脫手送禮＋澳洲 60 分鐘前再偷一顆反擊，把比分變 2-1 領先，美國急躁亂槍，才有 1-2 爆冷可能，但機率不到一成。"
+            "confidence": 0.92,
+            "key_risk": "澳洲 17 號 Nestory Irankunda（Watford FC）靠個人速度偷一個反擊，讓比賽變成 2-1 的懸念",
+            "reasoning_md": "美國攻擊指數 2.38 對澳洲 0.21，整整 11 倍差距；澳洲只有 5 人有頂級聯賽資料，美國 16 人，深度直接碾壓。",
+            "script_md": "## ① 整體判讀\n美國火力四線全有資料：Balogun 0.66、Reyna 0.40、Pulisic 0.27，澳洲前場最高 xG90 只有 0.06（20 號 Volpato），根本對不上。\n\n## ② 關鍵對位\n- 美國左翼 Pulisic 對上澳洲右翼衛 4 號 Italiano（Grazer AK），俱樂部等級差三檔，Pulisic 內切就是提款機。\n- 美國中場 McKennie（Juventus）+ Adams（Bournemouth）壓制澳洲雙中場 8 號 Metcalfe（FC St. Pauli）+ 22 號 Irvine（FC St. Pauli），身體、技術、節奏全吃死。\n\n## ③ 比賽劇本\n- 早段（0-15 分）：美國高位逼搶，第 12 分鐘 Balogun 接 Pulisic 直塞首開紀錄。\n- 中段（15-60 分）：澳洲 5-4-1 死守，但 35 分鐘 Reyna 禁區前沿遠射 2-0；澳洲唯一反擊點 17 號 Irankunda 兩次單兵衝刺都被 Dest 回追破壞。\n- 末段（60-90 分）：美國換上 Aaronson、Weah 繼續衝，第 78 分鐘 McKennie 頭槌角球 3-0 收工。\n\n## ④ 為什麼是 3-0\n美國每 90 分鐘預期貢獻 2.25，澳洲 1.42，但澳洲這 1.42 還是打弱隊刷的，面對美國高位壓迫直接腰斬，實際預期掉到 0.7 以下，守不住也進不了。\n\n## ⑤ 翻盤條件\n除非 Matt Turner 一次離譜失誤 + Irankunda 70 分鐘後連續兩次反擊偷雞，把比分咬成 2-1，否則澳洲連射正都難。"
           },
           {
             "name": "Grok",
@@ -1132,14 +1132,14 @@
             "selection_team": "美國",
             "predicted_score": "3-0",
             "win_prob": {
-              "H": 0.81,
-              "D": 0.14,
-              "A": 0.05
+              "H": 0.84,
+              "D": 0.12,
+              "A": 0.04
             },
-            "confidence": 0.79,
-            "key_risk": "澳洲隊緊湊的 3-4-2-1 陣型與定位球防守，讓比賽膠著的時間比預期更長。",
-            "reasoning_md": "美國隊的進攻指數為 2.38，遠高於澳洲隊的 0.21，加上陣容深度優勢明顯，這場主場賽事美國隊將輕鬆勝出。",
-            "script_md": "美國在每個進攻位置和陣容深度上都擁有明顯優勢，而澳洲則依賴五名頂級聯賽球員以及臨時拼湊的 3-4-2-1 陣型。Balogun (Monaco) 和 Reyna (Mönchengladbach) 將會拉開由 Burgess、Circati 和 Souttar 組成的三中衛防線，同時 Pulisic 和 Aaronson 則負責拉開進攻寬度。開賽初期的施壓讓 Balogun 在 25 分鐘內接獲 Reyna 的直塞球首開紀錄；隨後 McKennie 和 Adams 控制了中場，並成功阻斷了 17 號 Irankunda (Watford) 和 7 號 Leckie 的反擊。下半場澳洲隊退守後場，但缺乏足夠的實力威脅 Turner 把守的球門；美國隊在 65 分鐘後由 Pulisic 再下一城，並在比賽尾聲靠著 Reyna 的反擊進球，最終以 3-0 取勝。比分反映了雙方在火力上的巨大差距；除非出現紅牌或在定位球防守上發生兩次失誤，否則戰局難以翻盤。"
+            "confidence": 0.86,
+            "key_risk": "澳洲隊緊湊的三中衛陣型，迫使對手在定位球防守中陷入混亂",
+            "reasoning_md": "美國隊以 3-0 完勝澳洲隊；**Balogun**、**Reyna** 與 **Pulisic** 徹底壓制了這支陣容單薄、缺乏頂級聯賽火力的球隊。",
+            "script_md": "美國隊擁有壓倒性的進攻深度（指數 2.38 對 0.21），且有 16 名球員在頂級聯賽出賽，而澳洲隊僅有 5 名。Balogun (Monaco) 和 Reyna (Mönchengladbach) 將撕裂對手的 3-4-2-1 陣型；Pulisic 則帶來了第三個威脅點。開賽初期的施壓讓 Balogun 在 25 分鐘內透過運動戰取得進球。澳洲隊 19 號 Harry Souttar (Leicester) 與 3 號 Alessandro Circati (Parma) 位置站得很深，但仍無法阻擋 Reyna 在中場的穿插跑動。半場結束前，美國隊靠著 Pulisic 的倒三角回傳再下一城。下半場澳洲隊防線退得更深；美國隊轉為反擊，並由 McKennie 在尾聲攻入第三球。3-0 的比分反映了雙方陣容實力與預期貢獻值（2.25 對 1.42）的巨大鴻溝。除非美國隊在定位球防守上出現災難性失誤，或是 Pulisic 與 Balogun 同時受傷，否則比賽結果難以翻盤。"
           },
           {
             "name": "GLM",
@@ -1148,13 +1148,13 @@
             "predicted_score": "3-1",
             "win_prob": {
               "H": 0.72,
-              "D": 0.16,
-              "A": 0.12
+              "D": 0.18,
+              "A": 0.1
             },
             "confidence": 0.78,
-            "key_risk": "澳洲19號 Souttar（Leicester City FC）的高空球統治力，若美國死攻不下被澳洲靠定位球偷到，可能被逼平。",
-            "reasoning_md": "美國贏定了。攻擊指數 2.38 碾壓澳洲 0.21，Balogun 跟 Pulisic 的火力根本不是澳洲這檔次能扛的，3-1 剛好。",
-            "script_md": "### 整體判讀：降維打擊\n美國的攻擊指數 2.38 對上澳洲的 0.21，這不是同個級別的對話。美國中前場全在五大聯賽當主力，澳洲只有 5 人有頂級聯賽資料，而且沒一個能穩定輸出 xG。美國剛 4-1 屠了巴拉圭，氣勢正旺，這場就是攻防演練。\n\n### 關鍵對位：矛與盾的差距\n美國20號 Balogun（AS Monaco）每90分鐘 xG 高達 0.66，這資料擺在歐洲都是頂級殺手，澳洲的後衛線根本沒人跟得上這節奏。澳洲教練 Popovic 擺 3-4-2-1 鐵桶陣想複製爆冷土耳其的劇本，但19號 Souttar（Leicester City FC）轉身慢的毛病會被10號 Pulisic（AC Milan）抓著打。澳洲唯一能看的是17號 Irankunda（Watford FC）的反擊速度，但美國4號 Adams（AFC Bournemouth）在中場一掃，澳洲連半場都過不去。\n\n### 比賽劇本：早段破門，末段收尾\n開賽美國就壓著打，Balogun 前20分鐘就能靠個人能力撕開防線進一個。澳洲被迫壓出來想反擊，結果後場空檔全露，Pulisic 跟7號 Reyna（Borussia Mönchengladbach）在中路隨便切，半場前 2-0。下半段美國收一收控球，澳洲靠角球讓 Souttar 頂進一個挽回顏面，但美國換上替補再進一個鎖死比賽。\n\n### 為什麼是 3-1\n美國火力太分散，Balogun、Pulisic、Reyna 三個人 xG 加起來超過 1.3，澳洲防線撐不住90分鐘。但美國門將1號 Turner（New England Revolution）在 MLS 混，等級不夠，澳洲亂槍打鳥偷一個不意外。3-1 剛好反映雙方實力差距。\n\n### 什麼情況會翻盤\n除非 Balogun 跟 Pulisic 傷勢復發直接退場，不然美國這套陣容要輸給澳洲，除非足球規則改了。唯一變數是澳洲死守120分鐘靠點球，但正規時間美國必拿走三分。"
+            "key_risk": "澳洲3-4-2-1陣型鐵桶防守＋19號 Souttar（Leicester City FC）高空統治力，讓美國久攻不下後被17號 Irankunda（Watford FC）反擊偷死。",
+            "reasoning_md": "美國贏定了，這不是同個級別的對手。美國鋒線全在五大聯賽，澳洲連個像樣的進攻資料都生不出來，火力碾壓太明顯。唯一懸念是美國後防會不會又送一個，但3-1是合理劇本。",
+            "script_md": "### 整體判讀：降維打擊\n這場比賽就是「歐洲聯賽主力」打「亞洲及邊緣聯賽雜牌軍」。美國陣容攻擊指數2.38，澳洲只有0.21，差了十倍以上。美國光是有頂級聯賽資料的就有16人，澳洲只有5個，而且澳洲那5個還多半是中下游球隊的輪換球員。深度、火力、質量，美國全贏。\n\n### 關鍵對位：美國矛 vs 澳洲盾\n美國20號 Balogun（AS Monaco）每90分鐘xG 0.66，這資料擺在歐洲都是頂級終結者，澳洲後防沒人扛得住他。澳洲教練Popovic擺3-4-2-1就是認慫，擺明要靠19號 Souttar（Leicester City FC）的身高和3號 Circati（Parma）的站位死守。問題是，美國10號 Pulisic（AC Milan）和7號 Reyna（Borussia Mönchengladbach）的穿插跑動，不是澳洲這種等級的後衛跟得上的。澳洲中場22號 Irvine（FC St. Pauli）和8號 Metcalfe（FC St. Pauli）在德甲是保級隊等級，對上美國8號 McKennie（Juventus FC）和4號 Adams（AFC Bournemouth），中場直接被碾過。\n\n### 比賽劇本\n- **早段（0-25分）**：美國開局就壓著打，澳洲3-4-2-1退成5-4-1，禁區裡堆人。美國控球率可能衝到65%以上，但前15分鐘可能打不穿鐵桶，因為澳洲19號 Souttar（Leicester City FC）確實高、確實能頂。\n- **中段（25-60分）**：美國會破局。Balogun的跑位和Pulisic的內切會把澳洲三中衛拉散，Reyna在中路找到縫隙。大機率25-35分鐘之間美國先進球，可能是Balogun接Pulisic助攻。進球後澳洲被迫往前推，這時候就是美國的菜了——McKennie和Adams的中場壓迫會讓澳洲後場出球失誤連環爆。第二球大概45-55分鐘來。\n- **末段（60-90分）**：美國2-0領先後可能收一收，Pochettino換人輪換。澳洲這時候放手一搏，17號 Irankunda（Watford FC）的速度和20號 Volpato（US Sassuolo）的技術可能製造威脅。美國門將1號 Turner（New England Revolution）本來就不穩，澳洲很可能在定位球或反擊中扳回一個。但美國替補深度夠，9號 Pepi（PSV Eindhoven）上來再補一刀，3-1收尾。\n\n### 為什麼是3-1\n美國的進攻火力（本屆場均預期貢獻2.25）對澳洲的防守，正常發揮就是2-3球起跳。澳洲進攻指數0.21慘不忍睹，但美國門將Turner在MLS等級，後防線也不是頂級，澳洲靠定位球或反擊偷一個完全合理。3-1不是因為澳洲強，是因為美國防守會鬆。\n\n### 什麼情況會翻盤\n澳洲要翻盤只有一條路：前30分鐘死守成功，然後靠17號 Irankunda（Watford FC）反擊偷一個，1-0領先後全隊縮排禁區擺大巴。但說實話，以澳洲這條後防線的個人能力，要90分鐘守住美國的輪番轟炸，機率不到一成。美國要是前20分鐘就進了，這場會變屠殺，4-0、5-0都有可能。"
           }
         ]
       },
@@ -1169,7 +1169,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "摩洛哥",
+        "win_prob": 0.511,
+        "agree": "7/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.27,
+              "A": 0.48
+            },
+            "confidence": 0.62,
+            "key_risk": "蘇格蘭將比賽轉化為定位球與第二落點的爭奪戰，並依靠 McTominay 插入禁區的跑位以及 Robertson 的傳中來左右勝負。",
+            "reasoning_md": "摩洛哥勝出：他們擁有更高的進攻指數、更出色的頂尖致勝球員輸出（Brahim Díaz），並且在邊路擁有 Hakimi 和 Mazraoui 等更具質量的球員，足以對 Scotland 的側翼造成壓力。Scotland 雖然具備得分能力，但過於依賴中場進球和攻守轉換，難以在火力上勝過這支摩洛哥隊。",
+            "script_md": "### 整體分析\n- Morocco 是進攻更敏銳、陣容深度更佳的一方（1.54 對 1.25；預期貢獻值 1.79 對 1.41），且他們擁有最純粹的「一腳觸球改變戰局」球員——**10 號 Brahim Díaz (Real Madrid, xG/90 0.41)**。\n- Scotland 的威脅確實存在，但過於傾斜：主要的 xG 來自中場插上球員（**McTominay/Ferguson**），而非可靠的前鋒產出，因此他們的進球往往需要比賽陷入混亂。\n\n### 關鍵對位\n- **Scotland 左路 (Robertson/Tierney)** 對決 **Morocco 右路 (2 號 Hakimi, PSG；外加 Díaz 的內切)** 是勝負關鍵：如果 Scotland 強攻該側，他們同時也敞開了 Hakimi 最喜歡反擊的通道。\n- Scotland 最強的進攻手段是 **4 號 McTominay (Napoli, xG/90 0.33)** 的後插上；Morocco 的應對則是讓 **Amrabat** 坐鎮防線前，迫使這些跑動必須從更深、更晚的位置發起。\n- 在禁區內，Morocco 的門將優勢至關重要：與 Scotland 的門將人選相比，**Bounou** 是更具備「為球隊守住勝果」特質的門將，這也支持了客隊在膠著比賽中取勝的預測。\n\n### 比賽劇本（開局 → 中段 → 尾聲）\n- 開局階段，Scotland 在主場氣勢如虹：Robertson 的傳中、McGinn 的拼搶，以及幾次混亂中的射門——聲勢大於實質威脅。\n- Morocco 穩住陣腳後，第一次乾淨的機會便隨之而來：Díaz 在 Scotland 中場與中後衛之間找到空檔，釋放 Hakimi/Mazraoui 的邊路空間，隨後由 Morocco 先馳得點——可能是 Díaz 親自操刀或是一次倒三角回傳破門。\n- 比賽中段，Scotland 以這支球隊一貫的方式回應：施壓 + 定位球 + 中場插上。McTominay 或 Ferguson 在第二波進攻中得手，Scotland 扳平比分。\n- 尾聲階段，實力差距顯現：Scotland 必須持續投入兵力進攻，而 Morocco 的邊路出口則會懲罰這一點。一次快速轉換（Hakimi 的套邊或 Díaz 的直塞）創造出致勝球，隨後 Morocco 靠著 Amrabat/Ounahi 的控場鎖定勝局。\n\n### 為何預測 1-2\n- Scotland 絕對有能力偷進一球（他們最好的球員是具備進球能力的中場），但 Morocco 創造高品質機會的方式更多：Díaz 作為終結者/創造者，加上 Hakimi 的最後一傳/射能力，讓他們多出了一顆進球的優勢。\n\n### 變數\n- 如果 Scotland 能在空中球/定位球爭奪中取得決定性優勢（Robertson 的傳球，McTominay/Hanley 的爭頂），*且* Morocco 的轉換進攻被拖慢，這場比賽將演變成 1-1 的苦戰，或是 Scotland 的險勝。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.27,
+              "D": 0.28,
+              "A": 0.45
+            },
+            "confidence": 0.62,
+            "key_risk": "蘇格蘭隊憑藉 McTominay、Hanley 與 Souttar 在定位球上的強大威脅，對陣缺乏制空權的 Morocco 後防線，極有可能偷走一場勝利，特別是如果 Andy Robertson 的傳中球能精準到位的話。",
+            "reasoning_md": "摩洛哥的進攻更為犀利且具深度——Brahim Díaz（每 90 分鐘預期進球值 0.41）與 Hakimi 的前插助攻，火力遠勝於幾乎完全依賴 McTominay 的蘇格蘭隊。前場的質量與創造力使這場比賽的天平傾向摩洛哥。",
+            "script_md": "**整體解讀：** Morocco 的陣容深度明顯更勝一籌——進攻指數 1.54 對 1.25，頂級聯賽球員儲備更豐富（15 人對 12 人），且擁有 Brahim Díaz 這位真正的關鍵球員。Scotland 組織嚴密、韌性十足，且在定位球方面極具威脅，但他們在運動戰中的威脅顯得過於單一：一旦限制住 Scott McTominay（每 90 分鐘預期進球 0.33），進攻火力便迅速枯竭，Ché Adams 和 Lyndon Dykes 的數據表現平平。\n\n**關鍵對位：** 比賽的核心在於 Morocco 2 號 Hakimi（Paris Saint-Germain，每 90 分鐘預期進球 0.19）在右路的飛奔——Andy Robertson 和 Aaron Hickey 將被迫回撤防守，從而削弱 Scotland 自身的邊路進攻。Brahim Díaz 在 Scotland 較為緩慢的中場線之間遊走，將是決定比賽勝負的關鍵對位。反觀 Scotland，在運動戰中唯一的真正希望是 McTominay 的後插上，以及 McGinn 面對 Sofyan Amrabat（Real Betis）和 6 號 Bouaddi（Lille OSC）時的突破——這些中場對決雖有勝算，但進攻產量不足。\n\n**比賽劇本：** 預計 Morocco 將在開局階段掌控球權，而 Scotland 則會採取緊湊的中場防守陣型，尋求透過反擊將球交給 McTominay 和 Ben Gannon-Doak。Scotland 甚至可能先透過定位球取得進球——Hanley、Souttar 和 McTominay 在空中爭頂時極具威脅，而 Morocco 的後防線（Issa Diop、Chadi Riad）在制空權上並不穩健。但隨著 90 分鐘比賽的進行，Morocco 更優異的創造力將發揮作用：Brahim 或 El Kaabi 將比分扳平，而 Hakimi 的邊路重疊進攻將在比賽末段擊潰 Scotland。\n\n**為何預測 1-2：** Scotland 能夠攻入那種刻在他們 DNA 裡的混亂或定位球進球，但 Morocco 在純粹進攻質量和深度上的優勢，最終將壓垮 Scotland 單薄的前鋒線。Morocco 攻入兩顆運動戰進球是合理的預測；而 Scotland 的那一球則來自他們一貫具備威脅的定位球。\n\n**變數：** 如果 Scotland 能贏下定位球爭奪戰，且 Angus Gunn 有神級發揮，比賽將演變成 1-0 或 1-1 的苦戰——Morocco 在狹小空間內過度傳導的習慣，可能會讓 Scotland 偷走三分。Bounou 對傳中球的誤判，或是 Morocco 中後衛在角球防守中被壓制，將是爆冷的途徑。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.2,
+              "A": 0.55
+            },
+            "confidence": 0.72,
+            "key_risk": "蘇格蘭主場作戰，McTominay的後插上與定位球可能讓摩洛哥防線短暫斷電，若早早進球則比賽走勢會翻轉。",
+            "reasoning_md": "摩洛哥整體攻擊質量與陣容深度碾壓蘇格蘭，Brahim Díaz和Hakimi的右路會是無解組合，蘇格蘭只能靠零星反擊和主場氣勢偷一球，但難逃敗局。",
+            "script_md": "① 整體判讀：摩洛哥陣容攻擊實力指數1.54遠高於蘇格蘭1.25，且頂級聯賽資料覆蓋15人對12人，火力分佈更廣。蘇格蘭進攻極度依賴中場後排插上，前鋒群無人在頂級聯賽有穩定xG輸出，攻堅能力薄弱。摩洛哥有Brahim Díaz這種皇馬級別的爆點，搭配Hakimi的邊路疊瓦，蘇格蘭左路Robertson將被壓製得很慘。\n② 關鍵對位：摩洛哥10號 Brahim Díaz（Real Madrid C. F.）xG90高達0.41，他會頻繁遊走在蘇格蘭中場與後衛線之間，蘇格蘭5號 Grant Hanley（Hibernian FC）轉身慢，將是災難。摩洛哥2號 Achraf Hakimi（Paris Saint-Germain）xG90 0.19，他的後插上傳中或內切射門，蘇格蘭3號 Andy Robertson（Liverpool FC）若被牽制，身後空檔巨大。蘇格蘭唯一指望是4號 Scott McTominay（SSC Napoli）xG90 0.33，從中場後上搶點，摩洛哥4號 Sofyan Amrabat（Real Betis）覆蓋不足時可能被偷襲。\n③ 比賽劇本：開場摩洛哥就高位壓迫，15分鐘內Brahim Díaz接Hakimi倒三角回傳射門變線入網，0-1。蘇格蘭主場球迷鼓譟下，球隊長傳沖吊，30分鐘左右McTominay在角球混戰中頂入扳平，1-1。下半場摩洛哥提速，60分鐘左右Hakimi右路突破傳中，替補上來的20號 Ayoub El Kaabi（Olympiacos FC）門前包抄得分，1-2。之後摩洛哥收縮打反擊，蘇格蘭空有控球但無力滲透，最終1-2完場。\n④ 為什麼是這個比分：摩洛哥攻擊點多且個人能力強，至少進2球合理；蘇格蘭主場作戰且定位球有McTominay這個高點，能偷1球，但運動戰創造力幾乎為零，無法打穿摩洛哥防線第二次。\n⑤ 翻盤條件：若蘇格蘭開場搶攻得手，並全員退守半場，摩洛哥可能陷入破密集難題，且蘇格蘭門將1號 Angus Gunn（Nottingham Forest FC）若有超神撲救，可能爆冷守平甚至1-0偷勝。但摩洛哥陣容深度足夠，後手有El Kaabi等衝擊型前鋒，大機率還是能逆轉。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.2,
+              "A": 0.65
+            },
+            "confidence": 0.85,
+            "key_risk": "蘇格蘭將比賽變成了一場充滿身體對抗的定位球混戰，而 Scott McTominay 則憑藉標誌性的頭槌為球隊解圍。",
+            "reasoning_md": "摩洛哥擁有 Brahim Díaz 和 Achraf Hakimi 這種頂尖的菁英級戰力，而蘇格蘭的進攻則完全依賴中場球員衝入禁區。當你陣中真正的先發前鋒只具備英格蘭低級別聯賽的水準時，是不可能贏下世界盃比賽的。",
+            "script_md": "讓我們拋開那些浪漫的廢話：蘇格蘭的進攻根本是個迷思。當你的主要進球威脅是像 Scott McTominay 和 Lewis Ferguson 這樣的中場球員，而你真正的鋒線人選卻是 9 號 Lyndon Dykes (Charlton Athletic FC) 或 18 號 George Hirst (Ipswich Town FC) 時，這簡直就像是拿奶油刀去打槍戰。Morocco 的層級顯然高出一截，他們擁有 1.54 的進攻指數以及 15 名頂級聯賽球員。\n\n戰術上的不對等在右路顯得格外刺眼。Achraf Hakimi (PSG) 是一名場均預期進球（xG/90）達到 0.19 的右後衛——他的威脅性比蘇格蘭整條鋒線還要大，他將整場比賽壓制住 Andy Robertson，讓蘇格蘭最好的進攻出口徹底失效。在中路，Brahim Díaz (Real Madrid, xG/90 為 0.41) 將會在 McGinn 和 McTominay 身後找到空檔，將腳步沉重的蘇格蘭中後衛拉出防守位置。\n\n預計 Morocco 從開賽哨響就會掌控節奏。蘇格蘭會試圖退守、承受壓力並攪亂比賽節奏，但 Díaz 的技術天賦會在半場前就撕開他們的防線。一旦蘇格蘭在下半場被迫追分，他們將不得不採取長傳吊入禁區的戰術。由 Sofyan Amrabat 坐鎮的 Morocco 中場將會清掃所有第二落點並發動致命反擊，讓 Neil El Aynaoui 或 Hakimi 終結比賽。\n\nMorocco 以 2-0 取勝是唯一合理的預測；頂尖的技術質量勝過單純的拚勁。蘇格蘭唯一能扭轉劇本的方法，就是設法將 Morocco 拖入混亂且充滿肢體碰撞的泥淖戰，透過贏得無數次廉價的自由球來餵給 McTominay 爭頂。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.25,
+              "A": 0.5
+            },
+            "confidence": 0.75,
+            "key_risk": "蘇格蘭定位球+McTominay頭槌偷一個",
+            "reasoning_md": "摩洛哥攻擊指數、深度、單兵火力全面壓過蘇格蘭；蘇格蘭只能靠定位球偷雞，整體被動。",
+            "script_md": "## 整體判讀\n摩洛哥攻擊實力指數1.54對1.25，頂級聯賽深度15人對12人，火力點更集中——Brahim Díaz（皇馬，xG90 0.41）一人就抵掉蘇格蘭半條中場。\n\n## 關鍵對位\n- 右路：摩洛哥2號 Achraf Hakimi（巴黎，xG90 0.19）對蘇格蘭左邊衛3號 Andy Robertson（利物浦），速度+插上完全壓制。\n- 中路：蘇格蘭4號 McTominay（拿坡里）+7號 McGinn（維拉）要硬扛摩洛哥6號 Bouaddi（裡爾）+8號 Ounahi（吉羅納），身體對抗不吃虧，但創造力差一檔。\n\n## 比賽劇本\n1. **早段**：摩洛哥高位逼搶，15分鐘內Brahim Díaz右路內切射門中柱，嚇出冷汗。\n2. **中段**：蘇格蘭被迫回收5-4-1，靠McTominay前插頭槌在第32分鐘偷進一球——角球二點，Morocco門將1號 Bounou站位失誤。\n3. **末段**：摩洛哥60分鐘後換上20號 El Kaabi（奧林匹亞科斯）+17號 Abde（昂熱），雙前鋒衝擊；第68分鐘Hakimi右路傳中，El Kaabi頭槌扳平。第84分鐘Brahim Díaz禁區前沿左腳弧線死角絕殺。\n\n## 為什麼是1-2\n蘇格蘭全場xG預估1.1，其中0.4來自定位球；摩洛哥xG 1.9，運動戰優勢明顯。蘇格蘭守得住70分鐘，但體能崩盤後被邊路速度生吃。\n\n## 翻盤條件\n蘇格蘭必須上半場靠定位球偷到兩球，且摩洛哥前場把握度低到離譜（單場浪射15+）。只要Brahim Díaz正常發揮，翻盤機率不到兩成。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.28,
+              "D": 0.32,
+              "A": 0.4
+            },
+            "confidence": 0.62,
+            "key_risk": "蘇格蘭的定位球混亂或 McTominay 的遠射攻勢",
+            "reasoning_md": "Morocco 較高的進攻指數（1.54 對 1.25）以及更深厚的板凳深度讓他們佔據優勢；Scotland 雖有主場優勢能攻入一球，但缺乏足夠的火力來抵擋 Morocco 的進攻。",
+            "script_md": "- 整體分析：Morocco 擁有陣容深度更佳的頂級聯賽球員（15 人對 12 人）以及更高的預期貢獻值（1.79 對 1.41）；Scotland 依賴緊湊的中場防守，但在鋒線上缺乏致命一擊的能力。\n- 關鍵對位：Morocco 10 號 Brahim Díaz (Real Madrid C. F., xG/90 0.41) 將會拉開 Scotland 的防線；Scotland 4 號 Scott McTominay (SSC Napoli, xG/90 0.33) 與 19 號 Lewis Ferguson (Bologna FC, xG/90 0.22) 必須掌控中場，否則 Morocco 的 24 號 Neil El Aynaoui (AS Roma) 與 8 號 Azzedine Ounahi (Girona FC) 將會主導比賽節奏。\n- 比賽劇本：Morocco 開賽即展開高位壓迫，並由 Hakimi 頻繁前插助攻；Scotland 採取緊湊防守，並透過 McGinn 發動反擊；首個進球可能出現在第 35 分鐘左右，來自 Díaz 的內切射門或 McTominay 的轉換進攻；比賽中段 Morocco 可能會退守並利用反擊機會；比賽末段 Scotland 的全力進攻將留下空檔，讓 El Kaabi 或 Rahimi 終結比賽。\n- 為何預測此比分：Morocco 以 2-1 客場險勝，因為他們的進攻質量優於 Scotland 的主場組織能力；雙方各有一球來自運動戰，另一球則來自定位球或反擊。\n- 翻盤關鍵：Scotland 3 號 Andy Robertson 傳出精準助攻且 McTominay 梅開二度，或是 Morocco 2 號 Achraf Hakimi 與 5 號 Nayef Aguerd 出現防守失誤，送給對手輕鬆得分的機會。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.22,
+              "D": 0.23,
+              "A": 0.55
+            },
+            "confidence": 0.7,
+            "key_risk": "蘇格蘭靠 McTominay 的中場後插上與定位球亂戰偷分，將比分死咬成平局。",
+            "reasoning_md": "摩洛哥贏。中場創造力與鋒線終結能力全面碾壓，Brahim Díaz 的頂級聯賽資料蘇格蘭防線根本擋不住。蘇格蘭進攻過度依賴中場後插上，鋒線無力，被進球只是時間問題。",
+            "script_md": "### 整體判讀：實力有落差，摩洛哥中前場完勝\n摩洛哥的陣容攻擊指數（1.54）和頂級聯賽深度（15/26）都明顯壓過蘇格蘭（1.25，12/26）。蘇格蘭最大的問題是「鋒線軟腳」，前鋒群沒一個有頂級聯賽 xG90 資料，進球全靠中場 McTominay 和 Ferguson 硬扛；摩洛哥不光有皇馬的 Brahim Díaz（xG90 0.41）當核心，中後場也都在五大聯賽打主力，這種硬碰硬的比賽，中場拿不住球就等於輸一半。\n\n### 關鍵對位：蘇格蘭邊路被爆，鋒線隱形\n- **摩洛哥 10號 Brahim Díaz（Real Madrid C. F.）**：xG90 高達 0.41，這種終結能力在蘇格蘭防線眼裡是降維打打擊。蘇格蘭中衛如 5號 Grant Hanley（Hibernian FC）和 13號 Jack Hendry（Al Ettifaq FC）轉身慢，絕對跟不住 Díaz 的靈活跑位。\n- **摩洛哥 2號 Achraf Hakimi（Paris Saint-Germain）**：xG90 0.19 的邊後衛，直接對上蘇格蘭老將 3號 Andy Robertson（Liverpool FC）。Robertson 體能下滑，Hakimi 絕對能靠速度生吃這一側。\n- **蘇格蘭 4號 Scott McTominay（SSC Napoli）**：全隊唯一能翻盤的棋子，xG90 0.33。摩洛哥中場 4號 Sofyan Amrabat（Real Betis）必須專人鎖死他後插上的路線。\n\n### 比賽劇本：摩洛哥控局，蘇格蘭死咬\n- **早段（0-30分）**：摩洛哥反客為主，利用 Díaz 和 Hakimi 在右路連續施壓。蘇格蘭只能收縮防線，前鋒 9號 Lyndon Dykes（Charlton Athletic FC）完全碰不到球，場面難看。\n- **中段（30-70分）**：摩洛哥破門。大機率是 Díaz 在禁區前沿接球轉身破網，或者 Hakimi 下底傳中製造混亂。蘇格蘭落後後只能靠 McTominay 的遠射或定位球硬砸，大機率能偷到一個。\n- **末段（70分+）**：蘇格蘭想壓上扳平，結果後場空檔全露。摩洛哥換上 20號 Ayoub El Kaabi（Olympiacos FC）打反擊，一劍封喉。\n\n### 為什麼是 1-2\n蘇格蘭的火力不足以支撐他們在陣地戰進兩球，全隊預期貢獻（1.41）低於摩洛哥（1.79）。摩洛哥防守雖然不是銅牆鐵壁，但蘇格蘭鋒線太爛，進球只能靠中場「盲盒抽獎」。摩洛哥則能透過流暢配合穩定輸出，進兩球是基本盤。\n\n### 什麼情況會翻盤\n如果摩洛哥開局輕敵，被蘇格蘭靠 McTominay 早早進個定位球，然後全隊龜縮擺大巴，摩洛哥如果臨門一腳失準（Díaz 當天腳風不順），蘇格蘭是有機會悶成 1-1 偷走一分。但你要蘇格蘭贏球？除非摩洛哥自爆。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1181,7 +1294,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "巴西",
+        "win_prob": 0.94,
+        "agree": "7/7 models",
+        "predicted_score": "5-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.9,
+              "D": 0.07,
+              "A": 0.03
+            },
+            "confidence": 0.78,
+            "key_risk": "巴西在面對 Haiti 的深度低位防守時，輪換與終結能力表現不佳，導致比賽因定位球或攻守轉換的瞬間，比預期更早陷入僵局。",
+            "reasoning_md": "巴西將會橫掃這場比賽：雙方在進攻質量與板凳深度上的差距極其懸殊，而 Haiti 沒有足夠的球權爭奪者或進攻出口來抵擋長達 90 分鐘如潮水般的攻勢。只要 Brazil 的門前把握能力稍微在線，這將會是一場零封對手的屠殺。",
+            "script_md": "### 整體分析\n巴西的前場陣容實在太過強大：Vinícius Júnior、Raphinha、Martinelli 和 Matheus Cunha 都是頂尖的機會創造者，而巴西的進攻指數（3.16）對比海地的（0.61），完全顯示這將是一場單方面的輾壓。海地最知名的威脅是 **Haiti No.10 Jean-Ricner Bellegarde (Wolverhampton Wanderers FC)**，但他目前的進攻效率並不足以威脅到 Alisson 以及 Marquinhos 與 Gabriel Magalhães 組成的中衛搭檔。\n\n### 關鍵對位\n- **Vinícius Júnior 對決海地右路**：如果海地的防線被壓制，Vini 將會透過一對一單打予取予求；若海地採取包夾，則會為 Raphinha 或 Paquetá 拉開進攻空間。\n- **巴西的第二波插上球員**（Paquetá、Bruno Guimarães）在禁區周圍的跑動對決海地的中場防線：海地缺乏足夠的頂級防守深度來長時間填補這些空檔。\n- 海地唯一現實的進攻途徑是製造混亂：透過定位球尋找像 Adé 或 Delcroix 這樣的目標，或是由 **Haiti No.10 Bellegarde (Wolverhampton Wanderers FC)** 發動罕見的反擊，傳球給像 Isidor 這樣的跑動型球員。\n\n### 比賽劇本（前段 → 中段 → 後段）\n巴西在主場開局迅速，將海地壓制在後場，並在比賽初期取得進球——透過邊路超載、倒三角回傳，完成乾淨俐落的射門（Cunha 或 Raphinha）。一旦海地被迫壓上進攻，比賽基本上就結束了：巴西的邊鋒將獲得更多一對一機會，而 Paquetá 與 Bruno 將開始在邊後衛與中後衛之間尋找空檔傳球。\n\n中段是巴西的舒適區：Casemiro 或 Fabinho 負責撲滅反擊，Marquinhos 上前攔截第二落點，海地的出球點將被徹底封鎖。第二個進球會在 60 分鐘前出現，隨後比賽進入「損害控管」階段——海地退守至更深、更平行的防線，而巴西則持續控球直到下一個空檔出現。\n\n比賽後段，隨著體力下降與專注力下滑，巴西再添兩球——一球來自於強迫對手失誤後的轉換進攻，另一球來自持續施壓（補射或後點推射）。巴西在最後 10 分鐘透過控球管理比賽，海地最好的進攻表現僅是幾次無法對 Alisson 造成實質威脅的定位球。\n\n### 為何預測 4-0\n巴西擁有眾多獨立的進球來源（Vini、Raphinha、Martinelli、Cunha）以及身後的創造者；海地缺乏同等級的決勝球員，也沒有足夠的深度來抵擋持續不斷的頂級進攻。預測零封對手是合理的判斷，因為海地的主要威脅來自低預期進球（xG）的模式（定位球/反擊），而巴西的中軸線屬於世界頂級。\n\n### 變數所在\n如果巴西大幅輪換陣容並表現鬆懈——浪費早期機會、讓海地看見希望，隨後因定位球失球——比賽可能會縮小成令人煩躁的 2-1。但若要發生真正的爆冷，海地需要展現出目前數據中完全看不見的終結能力與持續控球能力。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "5-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.85,
+            "key_risk": "巴西在取得大幅領先後容易鬆懈的習慣，加上 Haiti 在禁區內重兵防守以維持比分差距，可能會將一場大勝縮小為 3-0。",
+            "reasoning_md": "巴西隊贏了，而且是大勝。在 Vinícius（0.76 xG/90）與 Raphinha（0.50）的帶領下，巴西隊打出了 3.16 的進攻指數；反觀 Haiti 僅有 0.61 的指數，且陣中幾乎沒有頂級聯賽的骨幹球員，這在各個環節上都是一場實力懸殊的對決。",
+            "script_md": "**整體解讀：** 就純粹的實力而言，這簡直是大人打小孩。巴西的前場陣容——Vinícius、Raphinha、Cunha、Martinelli、Endrick，甚至還有替補席上的 Neymar——在進攻指數上比 Haiti 全隊高出五倍之多。Haiti 的板凳深度是致命傷：26 人名單中僅有 7 人擁有頂級聯賽數據，而他們的「火力」上限僅是 10 號 Bellegarde (Wolverhampton) 的每 90 分鐘 0.13 xG，這甚至不到 Raphinha 數據的三分之一。\n\n**關鍵對位：** 巴西的左路是 Haiti 被撕裂的缺口。Vinícius 面對 2 號 Carlens Arcus (Angers SCO) 以及任何協防球員簡直是場噩夢；Arcus 的速度與對抗能力根本無法應付這種衝擊。在中場，Casemiro 與 Bruno Guimarães 將完全掌控比賽，對抗 Haiti 的 6 號 Carl Sainté (El Paso Locomotive) 與 17 號 Danley Jean Jacques (Philadelphia Union)——這是一組 USL/MLS 等級的中場對上兩位經過英超洗禮的頂尖球員。Haiti 唯一的希望在於 10 號 Bellegarde (Wolverhampton) 的反擊機會，但他能獲得的支援將寥寥無幾。\n\n**比賽劇本：** 巴西將會快速進入狀態，預計 20 分鐘內就會由 Vinícius 內切或 Raphinha 的射門取得首開紀錄。Haiti 將會採取低位防守試圖死守，但防線終將崩潰——上半場結束前會出現第二個進球，一旦比分來到 2-0，Haiti 的體能就會崩盤。巴西隨後換上 Endrick 與 Neymar，利用 Haiti 疲憊的雙腿在下半場再灌進兩到三球。考慮到 Gabriel Magalhães 與 Marquinhos 的進攻傳球能力，定位球也是 Haiti 的另一個危險地帶。\n\n**為何是這個比分：** 5-0 反映了雙方的實力差距以及巴西無情的進攻深度，同時也考慮到他們在比賽後段可能會放慢節奏，而不是追求兩位數的進球。Alisson 這場比賽將會是個觀眾，並能保持零封。\n\n**什麼情況會翻盤：** 沒有任何情況能讓 Haiti 獲勝——除非巴西領到紅牌並送出三顆烏龍球。唯一現實的變數在於勝分差距：如果 Haiti 防守如拚命三郎般頑強，而巴西表現鬆懈或自滿，你可能「只」會看到 3-0 的比分。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.95,
+            "key_risk": "巴西大幅輪換或早早領先後徹底鬆懈，海地死守全場只輸一球，但想逼平仍需要奇蹟。",
+            "reasoning_md": "巴西攻擊實力指數是海地的五倍，前場個個能在豪門獨當一面，海地防線連頂級聯賽經驗都稀缺，註定被屠殺。",
+            "script_md": "① 整體判讀：巴西前場天賦完全溢位，Vinícius Júnior、Raphinha、Matheus Cunha 甚至替補席上的 Endrick 都能單點爆破；海地陣容深度極淺，只有 7 人踢過頂級聯賽，攻擊實力指數 0.61 根本無法威脅 Alisson 把守的大門。\n② 關鍵對位：巴西 7 號 Vinícius Júnior（Real Madrid）對上海地 2 號 Carlens Arcus（Angers SCO），速度與技術差距如同職業打業餘；海地中場唯一能拿球的 10 號 Jean-Ricner Bellegarde（Wolverhampton Wanderers FC）將被 Casemiro 與 Bruno Guimarães 絞殺，全場觸球次數屈指可數。\n③ 比賽劇本：開場 15 分鐘巴西就由 Vinícius 左路內切首開紀錄，海地立刻全線退守半場；30 分鐘左右 Raphinha 右腳遠射再下一城，上半場 2-0；下半場巴西換上 Endrick 與 Martinelli 繼續衝擊，海地體能崩潰，70 分鐘後再丟兩球，其中一球來自角球 Marquinhos 頭槌。\n④ 為什麼是 4-0：海地根本沒有反擊資本，前鋒 9 號 Duckens Nazon（Esteghlal Tehran FC）孤立無援，全場零射正；巴西就算收著踢也能靠定位球與個人靈光繼續進球，4-0 是最低消費。\n⑤ 翻盤條件：除非巴西開場就有人被紅牌罰下，且海地靠 17 號 Danley Jean Jacques（Philadelphia Union）遠射蒙進一腳，然後全隊用生命堵槍眼守 80 分鐘，這種劇本發生的機率比隕石砸球場還低。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.95,
+            "key_risk": "巴西隊早早取得進球後便顯得有些意興闌珊，將最後 60 分鐘當作散步般的訓練賽，最終以 2-0 輕鬆勝出。",
+            "reasoning_md": "巴西頂尖的進攻火力（Vinícius、Raphinha）對於 Haiti 的低階防線來說，是一場災難性的實力懸殊。這根本不是一場足球比賽；這是一場透過電視轉播的處決。",
+            "script_md": "別再浪費時間假裝這是一場勢均力敵的比賽了。巴西隊 3.16 的進攻指數對於僅有 0.61 的 Haiti 來說簡直是死刑判決。你看到的是一條由歐冠頂級球星組成的鋒線，對陣一條由瑞士聯賽、MLS 和法國低級別聯賽球員拼湊而成的防線。\n\n邊路的對位簡直是不公平的。Vinícius Júnior (0.76 xG/90) 和 Raphinha (0.50 xG/90) 將直接衝擊 Haiti 2 號 Carlens Arcus (Angers SCO) 和 5 號 Hannes Delcroix (FC Lugano)。Haiti 在本屆賽事至今 1.74 的預期貢獻只是一個可愛的統計異常，但面對 Gabriel Magalhães 和 Marquinhos，他們的主要威脅——Haiti 10 號 Jean-Ricner Bellegarde (Wolverhampton Wanderers FC) 將會完全拿不到球。\n\n預計巴西會在前 15 分鐘內打破僵局。Haiti 會試圖「擺大巴」，但他們的防守深度遠不足以應付 Vini、Martinelli 和 Matheus Cunha 長達 90 分鐘的跑動。一旦第一球進了，低位防守就會崩潰。巴西應該能在半場結束前輕鬆取得 3-0 領先，將下半場變成 Bruno Guimarães 和 Casemiro 的大型搶圈練習賽。\n\n我預測這會是一場 4-0 的大勝，因為數據就是這麼說的。唯一能改變劇本的情況，是巴西隊開場就領到災難性的紅牌，或是 Alisson 真的在場上睡著，送給 Haiti 17 號 Danley Jean Jacques (Philadelphia Union) 一顆幸運進球。除此之外，這將是一場單方面的屠殺。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "5-0",
+            "win_prob": {
+              "H": 0.92,
+              "D": 0.06,
+              "A": 0.02
+            },
+            "confidence": 0.88,
+            "key_risk": "巴西門將 Alisson 開場 10 分鐘內玩火送禮，被 Haiti 9號 Duckens Nazon 偷雞先開紀錄",
+            "reasoning_md": "火力差距 5 倍、深度差距 2 倍，Haiti 全隊只有 2 人 xG90 破 0.1，巴西前場 5 人組隨便拉一個都比對面王牌強；除非門將自爆，否則就是屠殺。",
+            "script_md": "### 整體判讀\n巴西攻擊指數 3.16 對 0.61，等於拿火箭筒打彈弓；Haiti 只有 7 人踢過頂級聯賽，後防線 5號 Delcroix（FC Lugano）+ 22號 Duverne（KAA Gent）速度跟不上 Vinícius 的 0.76 xG90。\n\n### 關鍵對位\n- **左路屠宰場**：Vinícius Júnior 對位 Haiti 右後衛 22號 Duverne，速度差兩檔，半場就能製造 3 次單刀。\n- **中場真空**：Haiti 10號 Bellegarde（Wolves）+ 17號 Jean Jacques（Philadelphia Union）加起來 xG90 才 0.23，連 Casemiro 一個人的一半都不到，根本搶不下球。\n\n### 比賽劇本\n1. **15'**：Raphinha 右路內切爆射先開張，0-1。\n2. **25'-35'**：Vinícius 連續兩次單刀，比分拉到 0-3，Haiti 全線回收 5-4-1 只求少輸。\n3. **60'**：Martinelli 替補上場 5 分鐘頭槌破門，0-4。\n4. **80'**：Endrick 禁區混戰補刀，0-5。\n\n### 為什麼是 5-0\n巴西全隊 xG 總和是 Haiti 的 6 倍，且 Haiti 門將 1號 Placide（SC Bastia）撲救率聯賽墊底，擋不住任何一次高質量射門。\n\n### 翻盤唯一可能\n開場 10 分鐘內 Alisson 短傳失誤被 Haiti 9號 Duckens Nazon 撿漏偷一個，接著全隊龜縮死守 + 門將超神，但這機率低於 5%。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "5-0",
+            "win_prob": {
+              "H": 0.96,
+              "D": 0.03,
+              "A": 0.01
+            },
+            "confidence": 0.92,
+            "key_risk": "巴西在取得早早進球後心態鬆懈，讓 Haiti 獲得了一次難得的反擊機會。",
+            "reasoning_md": "巴西隊的頂尖進攻（Vinícius 0.76 xG/90、Raphinha 0.50）及其陣容深度，徹底摧毀了 Haiti 僅有 0.61 指數的疲軟防線。",
+            "script_md": "巴西隊從開賽哨響起便憑藉 3.16 的球隊進攻指數（對比海地隊的 0.61）主宰了控球權與場上區域。**Vinícius Júnior** 與 **Raphinha** 在兩翼頻頻撕裂對手防線，而 **Casemiro** 與 **Bruno Guimarães** 則掌控了中場。海地隊 10 號 **Jean-Ricner Bellegarde**（Wolverhampton Wanderers FC）與 17 號 **Danley Jean Jacques**（Philadelphia Union）未能構成實質威脅，且很快便陷入孤立無援的境地。巴西隊在上半場靠著 **Vinícius** 與 **Raphinha** 的進球取得兩球領先，下半場隨著海地隊退守並頻頻送出定位球，巴西隊再添三球。5-0 的比分反映了雙方在火力與板凳深度上的巨大鴻溝；除非巴西隊在專注度上徹底崩盤，否則比賽結果難以撼動。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "巴西",
+            "predicted_score": "5-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.92,
+            "key_risk": "巴西世界盃至今場均預期貢獻僅0.85，若鋒線集體快樂足球，海地死守可能少輸一點。",
+            "reasoning_md": "巴西贏定了，這是頂級聯賽球隊踢地區聯賽聯隊的降維打擊。海地防線全是二級聯賽球員，根本擋不住Vini跟Raphinha的兩翼齊飛，大比分屠殺沒懸念。",
+            "script_md": "### 整體判讀：大人打小孩\n這場比賽沒什麼好分析的，純粹是「降維打擊」。巴西陣容深度16人有頂級聯賽資料，攻擊指數3.16；海地只有7人有頂級聯賽資料，指數0.61。這不是同一個級別的球隊，巴西的板凳深度都比海地主力強。\n\n### 關鍵對位：兩翼齊飛，海地防線崩潰\n海地的後防線簡直是災難：3號 Thermoncy（BSC Young Boys）、5號 Delcroix（FC Lugano）、24號 Paugain（SV Zulte Waregem）——這些球員在歐洲二級聯賽都不一定是主力，要面對Vinícius Júnior（xG90 0.76）和Raphinha（xG90 0.50）的輪番衝擊？這就像拿紙糊的門去擋卡車。海地唯一能看的是10號 Bellegarde（Wolverhampton），但他的xG90只有0.13，要突破Casemiro和Bruno Guimarães的中場絞殺？做夢。\n\n### 比賽劇本：早段破門，中段屠殺，末段收工\n- **早段（0-20分鐘）**：巴西開局就壓著踢，Vini左路突破製造混亂，15分鐘內先進一球。海地連過半場都難。\n- **中段（20-70分鐘）**：Raphinha右路也開張，Matheus Cunha中路搶點。海地體能崩潰，防線漏洞百出，巴西3-0領先後換上Martinelli和Endrick繼續虐。\n- **末段（70分鐘後）**：巴西控球倒腳，但Endrick和Igor Thiago還是能再進一兩個。海地全場0射正。\n\n### 為什麼是5-0\n巴西的攻擊火力指數是海地的5倍，但巴西世界盃至今場均預期貢獻只有0.85——說明他們有「快樂足球」的毛病。正常發揮應該是5-0或6-0，但如果Vini和Raphinha狀態一般，可能「只」贏4-0。海地進球？不可能，Alisson在利物浦見過的場面比這大多了。\n\n### 什麼情況會翻盤\n翻盤？不存在的。唯一能讓海地「少輸」的劇本是：巴西早早3-0領先後徹底收手，開始練兵倒腳，不認真進攻。但即使如此，海地的反擊也威脅不了巴西的防線。這場比賽唯一的懸念是巴西能進幾個，不是誰贏。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1193,7 +1419,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "土耳其",
+        "win_prob": 0.604,
+        "agree": "7/7 models",
+        "predicted_score": "2-1",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.58,
+              "D": 0.25,
+              "A": 0.17
+            },
+            "confidence": 0.64,
+            "key_risk": "土耳其在進攻三區的終結能力與決策——如果 **Arda Güler** 和 **Hakan Çalhanoğlu** 無法將場上優勢轉化為進球，那麼巴拉圭的 **Enciso** 與 **Sanabria** 可能會透過反擊偷走勝利。",
+            "reasoning_md": "土耳其之所以獲勝，是因為他們的創造機會能力遙遙領先（預期貢獻值 2.36 對比 0.72），且陣中擁有 Arda Güler 和 Hakan Çalhanoğlu 這兩位真正的射門製造機，能將控球優勢轉化為進球。巴拉圭的前場雖然名氣響亮，但數據顯示除非能打出乾淨俐落的轉換進攻，否則他們的進攻顯得相當乏力。",
+            "script_md": "### 整體分析\n- Turkey 是一支具備實質進攻量能與多樣性的球隊：擁有兩名頂尖的創造者/終結者（Arda Güler、Hakan Çalhanoğlu），加上後方一群擅長邊路跑動的支援部隊（Kerem Aktürkoğlu、Kenan Yıldız、Barış Alper Yılmaz）。Paraguay 雖然有知名的前鋒，但他們的賽事貢獻數據（0.72）顯示這是一支只能靠零星機會生存的球隊。\n\n### 關鍵對位\n- **Arda Güler (Real Madrid, xG/90 0.49)** 內切對抗 Paraguay 中後衛是個難題：如果 **Paraguay No.15 Gustavo Gómez (SE Palmeiras)** 壓出來防守，Turkey 的邊路跑動球員就會攻擊他身後的空間；如果他留在後防線，Arda 就會直接起腳射門。\n- **Hakan Çalhanoğlu (Inter, xG/90 0.34)** 在定位球方面對抗採取深度防守的 Paraguay——這將是第二個進球的來源。\n- Paraguay 的主要威脅來自直接進攻：由 **Julio Enciso (RC Strasbourg, xG/90 0.33)** 和 **Miguel Almirón (Atlanta United, xG/90 0.23)** 輸送球權，交由 **Antonio Sanabria (Cremonese, xG/90 0.44)** 在轉換進攻中完成終結。Turkey 的任務很簡單：不要給 Enciso 留下開闊的空間。\n\n### 比賽劇本（前段 → 中段 → 後段）\n- Turkey 在主場開局採取主動，將 Paraguay 壓制在半場，並從半場空間（half-spaces）累積射門次數——Arda 和 Hakan 輪流進行試探。\n- 第一個進球在上半場結束前出現：Paraguay 雖然承受住壓力，但邊路防守的一次疏忽讓 Arda 獲得了絕佳射門機會，Turkey 以 1-0 領先。\n- 中場休息後，Paraguay 迎來了他們表現最好的時段：他們將 Almirón/Enciso 的位置推得更靠前，並嘗試儘早將球傳給 Sanabria，但 Turkey 的後防線保持了陣型，迫使對方只能進行低機率的射門。\n- 比賽後段，Paraguay 體力下滑並開始在禁區附近犯規；Turkey 透過定位球鎖定勝局——Çalhanoğlu 的傳球或直接破門將比分改寫為 2-0，隨後 Turkey 透過控球穩穩收下比賽。\n\n### 為何預測 2-0\n- 預期貢獻值的數據差距大到無法忽視：Turkey 應能創造足夠的機會攻入兩球，而 Paraguay 的低產出顯示，除非獲得對手的失誤大禮，否則他們難以產生足夠的進攻量來穩定擊敗 Turkey。\n\n### 變數\n- 一次乾淨俐落的 Paraguay 反擊（Enciso 妙傳給 Sanabria）或 Turkey 的早期失誤都可能改變整場比賽的基調——如果 Turkey 沒有先得分，Paraguay 的低位防守加轉換進攻可能會將比賽拖入 0-0/1-1 的苦戰，或是演變成一場偷襲得手的比賽。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.52,
+              "D": 0.26,
+              "A": 0.22
+            },
+            "confidence": 0.58,
+            "key_risk": "巴拉圭的前鋒 Sanabria 和 Enciso 展現了極高的門前把握度，利用反擊重創了土耳其表現不穩且進攻產出低迷的後防線。",
+            "reasoning_md": "土耳其之所以能勝出，是因為他們的核心創造力——Güler 與 Çalhanoğlu——在中場的運作水準是 Paraguay 望塵莫及的，而在主場優勢下，這種實力差距將主導比賽走向。不過，戰況會比兩隊名氣所顯示的更為膠著：Paraguay 的前鋒確實具備威脅，而 Turkey 的防線又較為疲軟，因此預期雙方皆有進球機會。",
+            "script_md": "**整體解讀：**別被 Paraguay 華麗的進攻指數給騙了——他們場均預期貢獻值（0.72）與 Turkey 的 2.36 相比顯得相當疲軟，而這段差距正是整場比賽的關鍵。Turkey 的威脅來自於中軸線：Arda Güler（xG90 0.49）與 Çalhanoğlu（0.34）展現出 Real Madrid / Inter 等級的實力，板凳席上還有 Kenan Yıldız 和 Kerem Aktürkoğlu 隨時待命。Paraguay 的實力確實存在，但過度集中在三名球員身上，其餘位置幾乎沒有威脅。\n\n**關鍵對位：**Turkey 的 Güler 對上 Paraguay 的雙防守中場——14 號 Cubas（Vancouver Whitecaps）與 20 號 Ojeda（Orlando City）——將是決定勝負的戰場。坦白說，MLS 等級的中場很難跟上 Güler 的節奏以及 Çalhanoğlu 的定位球傳送。反過來說：Paraguay 的 9 號 Sanabria（Cremonese，0.44）與 19 號 Enciso（Strasbourg，0.33）門前把握度極高，而 Turkey 的中後衛（Söyüncü 的 xG90 為 0.00，Kabak 為 0.10）在壓力下完全無法讓人放心。這正是 Paraguay 取得進球的機會點。\n\n**比賽劇本：**Turkey 開賽後將掌控球權，但 Paraguay 會採取深度防守並保持陣型緊湊，樂於承受壓力並利用 10 號 Almirón 和 Sosa 進行反擊。預計僵局會在上半場中段或下半場 60 分鐘後被打破，來源可能是 Turkey 的定位球或 Güler 的個人秀——Çalhanoğlu 將球傳給 Demiral/Kabak 是最明顯的得分手段。Paraguay 會透過反擊或 Sanabria 把握住 Turkey 中後衛移動緩慢的弱點追回一球，讓比賽進入緊張的尾聲，最終由 Turkey 更深厚的板凳深度（Yıldız、Aktürkoğlu 替補上陣）鎖定勝局。\n\n**為何預測 2-1：**Turkey 在 90 分鐘內的創造力過於強大，但他們漏洞百出的防線保證了 Paraguay 至少能懲罰他們一次失誤。中場的質量決定勝負，而防守的脆弱性則讓比分保持膠著。\n\n**翻盤關鍵：**如果 Sanabria 和 Enciso 同時發揮，且 Turkey 的中後衛表現出數據所暗示的低迷狀態，Paraguay 有機會以 1-2 偷走勝利——這才是本場比賽真正的爆冷路徑。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.55,
+              "D": 0.25,
+              "A": 0.2
+            },
+            "confidence": 0.7,
+            "key_risk": "巴拉圭攻擊實力指數高達1.59，反擊組有Sanabria和Enciso兩柄快刀，土耳其防線一旦壓上過深，一腳長傳就可能被單刀破門。",
+            "reasoning_md": "土耳其靠中前場創造力與陣容深度壓制，但巴拉圭反擊質量極高，會咬出一個進球，土耳其仍能險勝。",
+            "script_md": "① 整體判讀：土耳其的每場預期貢獻2.36遠勝巴拉圭的0.72，中場有恰爾汗奧盧組織、居萊爾穿插，進攻層次分明；巴拉圭雖攻擊實力指數更高，但深度僅6人有頂級資料，極依賴反擊三人組。\n② 關鍵對位：土耳其10號恰爾汗奧盧（國際米蘭）的定位球和直塞會不斷找8號居萊爾（皇馬）與11號伊爾迪茲（尤文），巴拉圭中衛15號古斯塔沃·戈麥斯（帕爾梅拉斯）和5號巴爾布埃納（格雷米奧）正面防空不差，但轉身慢，居萊爾的無球內切是致命殺招。巴拉圭反擊核心是9號安東尼奧·薩納布里亞（克雷莫納，xG90 0.44）和19號胡利奧·恩西索（斯特拉斯堡，xG90 0.33），土耳其4號瑟因居（費內巴切）和3號德米拉爾（阿赫利）速度偏慢，身後空檔會被利用。\n③ 比賽劇本：土耳其開場強攻，前15分鐘恰爾汗奧盧遠射中柱，隨後角球由德米拉爾頭球破門1-0。巴拉圭收縮但30分鐘左右反擊，恩西索左路突破傳中，薩納布里亞搶點扳平1-1。下半場土耳其換上伊爾馬茲提速，65分鐘居萊爾禁區內個人能力扣過戈麥斯低射死角2-1。末段巴拉圭壓上，阿爾米隆遠射被撲，土耳其反擊錯失空門，最終2-1結束。\n④ 比分邏輯：土耳其預期貢獻2.36對應兩球合理，巴拉圭0.72對應一球，雙方防線都有明顯漏洞，2-1最貼合資料面。\n⑤ 翻盤條件：若土耳其早早進球後心態鬆懈，巴拉圭上半場反超（如薩納布里亞梅開二度），則可能1-2爆冷；或者土耳其久攻不下，巴拉圭定位球偷一個後全線死守，0-1也不是沒可能。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.7,
+              "D": 0.18,
+              "A": 0.12
+            },
+            "confidence": 0.85,
+            "key_risk": "Paraguay 的資深中後衛將比賽變成了一場粗野、斷斷續續的摔角大戰，讓 Turkey 的年輕進攻球員感到挫折，並靠著一次定位球機會以 1-0 偷走勝利。",
+            "reasoning_md": "土耳其頂尖的歐洲級中場，加上 Arda Güler 的致命狀態，將徹底壓垮 Paraguay。儘管 Paraguay 在帳面數據上擁有極高的進攻指數，但在實際賽事中卻毫無建樹。",
+            "script_md": "別被 Paraguay 的 1.59 進攻指數給騙了——那完全是海市蜃樓。他們在本次賽事中的實際貢獻僅有可憐的 0.72，這意味著當比賽哨聲響起時，他們根本毫無威脅。反觀 Turkey，他們現在簡直是一台進攻機器，每場比賽能創造出高達 2.36 的預期貢獻值。土耳其人擁有深厚的陣容深度（擁有 9 名頂級聯賽球員，而 Paraguay 僅有 6 名）、歐洲賽場的底蘊，以及足以徹底扼殺比賽節奏的中場引擎。\n\n中場的實力差距顯而易見。Hakan Çalhanoğlu (Inter) 將能輕鬆掌控節奏，對抗 Paraguay 支離破碎的中場。在進攻三區，Arda Güler (Real Madrid, 0.49 xG/90) 將會把 Paraguay 腳步沉重的後衛耍得團團轉。Paraguay 唯一的希望是將球傳給 19 號 Julio Enciso (RC Strasbourg) 或 9 號 Antonio Sanabria (US Cremonese)，但隨著 Turkey 掌控控球權，這兩人將會完全得不到支援。\n\n預計 Turkey 會在開賽初期就先馳得點。Çalhanoğlu 將會穿針引線，而 Güler 將在 30 分鐘前透過穿透性傳球取得進球或助攻。Paraguay 將被迫放棄防守陣型，這正中 Turkey 下懷。到了下半場，Kenan Yıldız 和 Kerem Aktürkoğlu 等人將能利用對手留下的空檔進行反擊。Paraguay 或許能靠 10 號 Miguel Almirón (Atlanta United FC) 的個人孤注一擲，勉強擠進一顆安慰球，但 Turkey 將會輕鬆攻入第三球以鎖定勝局。\n\n我預測 Turkey 將以 3-1 取得決定性勝利。他們的火力是真實且經過驗證的，並且正處於絕佳狀態，而 Paraguay 則是虛張聲勢。這場比賽唯一的變數是 Paraguay 能否將比賽拖入泥沼戰，透過開場對 Güler 和 Çalhanoğlu 的粗暴犯規來干擾節奏，並藉由角球偷襲取得一場「搶分」勝利。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.68,
+              "D": 0.22,
+              "A": 0.1
+            },
+            "confidence": 0.82,
+            "key_risk": "Paraguay 19號 Julio Enciso（RC Strasbourg）突然爆發＋土耳其後衛3號 Merih Demiral（Al Ahli FC）走神送禮",
+            "reasoning_md": "土耳其火力深度碾壓，Güler+Çalhanoğlu兩人每90分鐘就能製造0.83預期進球，而巴拉圭全隊至今場均只有0.72；土耳其只要正常發揮就能打穿。",
+            "script_md": "① **整體判讀**：土耳其攻擊實力指數1.16雖低於巴拉圭1.59，但那是因為巴拉圭資料來自低強度聯賽；土耳其9人有頂級聯賽資料，巴拉圭只有6人，真實火力差距一目瞭然。\n\n② **關鍵對位**：\n- 土耳其8號 Arda Güler（Real Madrid）＋10號 Hakan Çalhanoğlu（Inter）對位巴拉圭6號 Júnior Alonso（Atlético Mineiro）＋15號 Gustavo Gómez（Palmeiras），南美老將速度跟不上。\n- 巴拉圭唯一威脅是19號 Julio Enciso（RC Strasbourg）靠個人盤帶衝擊土耳其3號 Merih Demiral（Al Ahli），但Demiral正面對抗硬，Enciso得拉到邊路才有空間。\n\n③ **比賽劇本**：\n- 早段土耳其高位逼搶，第18分鐘 Güler 禁區前沿左腳弧線破門。\n- 中段巴拉圭收縮5-4-1，靠10號 Miguel Almirón（Atlanta United）長傳找9號 Antonio Sanabria（Cremonese）反擊，第34分鐘 Sanabria 頭球扳平。\n- 下半場土耳其換上17號 İrfan Can Kahveci 加強肋部滲透，第62分鐘 Çalhanoğlu 直接自由球死角，第78分鐘 Güler 反擊梅開二度鎖定3-1。\n\n④ **為什麼3-1**：土耳其兩翼 Kadıoğlu（Brighton）＋Aktürkoğlu（Fenerbahçe）持續衝擊，巴拉圭邊後衛2號 Velázquez（Cerro Porteño）體能崩盤，最後半小時再丟兩球合理。\n\n⑤ **翻盤條件**：Enciso＋Sanabria同場爆種，兩人各進兩球世界波，且土耳其門將1號 Mert Günok（Fenerbahçe）出球失誤送大禮——發生機率一成不到。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.58,
+              "D": 0.25,
+              "A": 0.17
+            },
+            "confidence": 0.62,
+            "key_risk": "巴拉圭較高的球隊進攻指數轉化為高效的反擊",
+            "reasoning_md": "土耳其在主場以 2-1 取勝。儘管 Paraguay 的指數偏高，但 Güler 和 Çalhanoğlu 提供的火力遠勝於 Paraguay 零散的進攻球員。",
+            "script_md": "土耳其在頂尖陣容深度與個人素質上擁有明顯優勢。Güler (Real Madrid) 與 Çalhanoğlu (Inter) 是唯一能持續製造威脅的組合，而巴拉圭則仰賴 Enciso、Sanabria 與 Almirón，但他們的產出難以與之匹敵。\n\n比賽初期，土耳其採取高位壓迫；Güler 回撤至空檔處接應，Çalhanoğlu 則負責長傳轉移。巴拉圭陣型緊湊，由 10 號 Almirón (Atlanta United) 與 19 號 Enciso (Strasbourg) 尋找長傳機會給 Sanabria。\n\n比賽中段，土耳其取得突破：在一次 Çalhanoğlu 的定位球戰術後，Güler 於禁區邊緣起腳弧線破門。巴拉圭隨即透過反擊回應，由 9 號 Sanabria (Cremonese) 在一次難得的攻守轉換中完成進球。\n\n比賽後段，土耳其憑藉 Yıldız 與 Kökçü 的替補上陣重新掌控局面；隨後透過一次倒三角回傳攻入第二球。巴拉圭僅有六名頂級聯賽球員，難以維持高強度的壓迫。\n\n最終比分得以維持，是因為土耳其的預期進球值 (2.36) 遠高於巴拉圭 (0.72)，且主場優勢將此差距轉化為勝果。\n\n除非巴拉圭的前場三叉戟同時發揮巔峰狀態，且土耳其的後防線 (Demiral, Söyüncü) 在面對長傳時崩盤，否則比賽結果難以翻盤。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "土耳其",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.62,
+              "D": 0.23,
+              "A": 0.15
+            },
+            "confidence": 0.7,
+            "key_risk": "巴拉圭若靠粗野犯規打斷節奏並靠定位球偷襲，可能逼平甚至翻盤",
+            "reasoning_md": "土耳其贏。資料會騙人：巴拉圭帳面攻擊指數高，但主力前鋒9號 Sanabria（US Cremonese）和10號 Almirón（Atlanta United FC）根本不在五大聯賽強權，含金量低；土耳其有 Arda Güler 和 Hakan Çalhanoğlu 坐鎮中前場，加上主場優勢，2-1 正常贏。",
+            "script_md": "### 整體判讀：土耳其中場碾壓，巴拉圭虛有其表\n巴拉圭帳面攻擊指數 1.59 看起來嚇人，但仔細看名單，主力前鋒9號 Sanabria（US Cremonese）在義乙踢球，10號 Almirón（Atlanta United FC）在 MLS，19號 Enciso（RC Strasbourg）在法甲中下游——這條攻擊線的「頂級聯賽資料」水分很大。反觀土耳其，Arda Güler（Real Madrid C. F.）和 Hakan Çalhanoğlu（FC Internazionale Milano）是真正的歐冠級中場核心，本屆場均預期貢獻 2.36 直接碾壓巴拉圭的 0.72，差距一目瞭然。\n\n### 關鍵對位：中場決定一切\n土耳其的10號 Çalhanoğlu（Inter）會是全場最關鍵的人，他的遠射和定位球能直接撕裂巴拉圭防線。巴拉圭中場8號 Diego Gómez（Brighton & Hove Albion FC）是唯一在英超體系踢球的人，但他一個人扛不住土耳其中場群的輪番衝擊。巴拉圭後防15號 Gustavo Gómez（SE Palmeiras）在巴甲是老油條，但面對 Arda Güler 的靈活跑位和11號 Kenan Yıldız（Juventus FC）的速度，光靠經驗撐不住90分鐘。\n\n### 比賽劇本：土耳其先搶攻，巴拉圭死守反擊\n開場土耳其就會靠主場氣勢壓上，Arda Güler 在右路找空間，Çalhanoğlu 在中路控制節奏。巴拉圭擺明要縮陣反擊，讓19號 Enciso 一個人前面跑。上半場30分鐘左右，土耳其靠定位球或 Arda Güler 的禁區前沿突破先破門。下半場巴拉圭被迫壓上，土耳其打反擊，Kenan Yıldız 或 Barış Alper Yılmaz 抓反擊再進一個。巴拉圭末段靠角球或亂戰扳回一球，但為時已晚。\n\n### 為什麼是 2-1\n土耳其進攻火力夠，但後防線4號 Çağlar Söyüncü（Fenerbahçe SK）和3號 Merih Demiral（Al Ahli FC）已經不在頂級聯賽，防線有漏洞，被巴拉圭抓到一次機會很正常。2-1 反映的是：土耳其中場贏、前鋒贏、後防送一個。\n\n### 什麼情況會翻盤\n如果巴拉圭開場就踢粗、犯規多，把比賽切碎，讓土耳其中場節奏起不來，然後靠定位球偷一個——這時候土耳其後防的脆弱會暴露，巴拉圭有機會逼平甚至爆冷。但這需要巴拉圭全隊紀律性極高且門將1號 Gatito Fernández（Cerro Porteño）開掛，機率不高。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1205,7 +1544,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "荷蘭",
+        "win_prob": 0.674,
+        "agree": "7/7 models",
+        "predicted_score": "3-1",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.57,
+              "D": 0.22,
+              "A": 0.21
+            },
+            "confidence": 0.63,
+            "key_risk": "瑞典隊的 9 號球員 Alexander Isak（Liverpool FC）是一位個人 xG（預期進球值）製造機（每 90 分鐘 0.86 球），面對任何防線，他只要有兩次乾淨的射門機會，就能扭轉戰局。",
+            "reasoning_md": "荷蘭以 2-1 勝出，因為他們在前場（Depay/Gakpo/Malen）擁有更穩定、可複製的創造機會能力，且具備更頂尖的防守工具；而瑞典則過度依賴 Isak 將較少的進攻階段轉化為進球。瑞典會取得進球，但他們的門將/防守水準以及較薄弱的板凳深度，將無法在這種比賽節奏下支撐 90 分鐘。",
+            "script_md": "### 整體分析\nNetherlands 擁有更深厚、分佈更均勻的進攻威脅（Depay 0.65 xG/90、Gakpo 0.48、Malen 0.47），即便其中一名鋒線球員狀態不佳，仍能持續創造機會。Sweden 的進攻則呈現頭重腳輕的態勢：**Sweden No.9 Alexander Isak (Liverpool FC)** 是主要威脅（0.86 xG/90），並有 **Sweden No.11 Anthony Elanga (Newcastle United FC)** 從旁協助，但其餘球員的進攻產量並不具備同樣的威脅性。\n\n### 關鍵對位\n- Dutch 的邊路跑動與倒三角傳球 vs Sweden 的後防線：Dumfries 的前插助攻、Gakpo/Malen 對半場空間的衝擊，以及 Depay 在禁區內對第二落點的把握。\n- Sweden 的重拳出擊非常直接：Isak 伺機遊走在 van Dijk/van de Ven 的身後；若 Netherlands 防線壓得太高，一旦被送出一記直塞球，防線將陷入混亂。\n- 門將/陣容深度差距至關重要：Netherlands 有頂級防守核心作為後盾，可以信任 Verbruggen；而 Sweden 的門將群（Derby/Stoke/AIK 水準）往往是導致球隊「多丟一球」的關鍵。\n\n### 比賽劇本（賽況推演）\nNetherlands 在主場開局強勢，將 Sweden 壓制在半場，並透過持續的施壓取得首顆進球——例如 Dumfries 在後點包抄，或是 Gakpo 強行突破後由 Depay 補射破門。Sweden 則以他們擅長的方式回應：破解高位壓迫，將球傳給跑出空檔的 **Sweden No.11 Elanga (Newcastle United FC)**，並由 **Sweden No.9 Isak (Liverpool FC)** 完成高質量的射門，將比分扳平為 1-1。\n\n扳平比分後，Netherlands 並未慌亂——這正是他們陣容深度的體現：Koopmeiners/Reijnders 保持球權流動，Malen 的跑位則讓 Sweden 的中後衛疲於奔命。致勝球出現在下半場中後段，來自 Netherlands 的另一波攻勢（倒三角傳球或半場空間的射門），隨後進入比賽管理階段：de Roon/de Jong 封鎖中路，Sweden 雖然全力追趕，但進攻逐漸變得只能依賴「Isak 的個人能力」。\n\n### 為何預測 2-1\nSweden 擁有足夠頂尖的終結能力（Isak）來取得進球，但 Netherlands 具備過多進入禁區與射門的手段，不可能只被限制住一球。在 90 分鐘的比賽中，Sweden 較薄弱且上限較低的防守與門將水準，終究會導致他們丟掉那關鍵的一球。\n\n### 變數\n如果 Netherlands 的防線兩度被抓到空檔，讓 Isak 獲得兩次乾淨的中路射門機會，或者 Sweden 透過定位球偷襲得手，迫使 Netherlands 陷入急躁，那麼比賽可能會演變成一場殘酷的 1-2 偷襲式勝利。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.62,
+              "D": 0.23,
+              "A": 0.15
+            },
+            "confidence": 0.66,
+            "key_risk": "Isak 簡直是一人毀滅小組——只要面對防守容易鬆懈的荷蘭後防線，哪怕只有半次機會，Sweden 都有可能偷到一場平局，甚至更糟。",
+            "reasoning_md": "荷蘭隊之所以能贏，是因為他們的火力層次豐富且深度十足——**Depay**、**Gakpo** 和 **Malen** 都具備極高的預期進球值（xG），而瑞典隊則呈現危險的頭重腳輕，基本上只能靠 **Isak** 以及他身後祈禱般的運氣。荷蘭隊的板凳深度與多點開花的進攻威脅，足以在 90 分鐘內壓垮陣容單薄的瑞典隊。",
+            "script_md": ""
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.68,
+              "D": 0.19,
+              "A": 0.13
+            },
+            "confidence": 0.75,
+            "key_risk": "瑞典9號 Isak（Liverpool FC）的單點爆破能力太誇張，靠個人能力打穿荷蘭防線改變比賽走勢。",
+            "reasoning_md": "荷蘭贏，瑞典中後場深度完全跟不上，除了Isak全是砲灰。荷蘭多點開花會讓瑞典防線崩潰。",
+            "script_md": "① **整體判讀：** 荷蘭陣容攻擊實力指數2.86對瑞典1.91，根本是不同量級的對決。荷蘭有資料的球員多到滿出來，瑞典連湊一套有頂級聯賽穩定輸出的陣容都勉強，這就是一場大人打小孩的比賽。\n② **關鍵對位：** 荷蘭10號Depay（0.65 xG90）和11號Gakpo（0.48 xG90）會輪流折磨瑞典3號Lindelöf領銜的防線，瑞典後衛群除了Lindelöf在Aston Villa有零星資料，其他人都沒在頂級聯賽證明過自己。唯一變數是瑞典9號Isak（0.86 xG90），他是全場最恐怖的單箭頭，但荷蘭有4號van Dijk這堵牆伺候他，中場供應鏈也會被荷蘭絞殺。\n③ **比賽劇本：** 荷蘭開場就高位壓迫，前20分鐘瑞典後場出球就會失誤連連。Gakpo在左路內切製造混亂，上半場中段荷蘭靠角球或傳中，由van Dijk或Weghorst頭球砸開僵局。瑞典落後後被迫壓出，Isak零星獲得反擊機會但孤掌難鳴，荷蘭中場3號de Roon專職掃蕩不讓他輕鬆拿球。下半場瑞典體能下滑，荷蘭換上Malen用速度衝擊身後，輕鬆再補一刀鎖定2-0。\n④ **為什麼是2-0：** 荷蘭火力夠穩但不到屠殺級，本屆場均預期貢獻1.69不算誇張，瑞典會全線退守避免慘案，但防線漏洞多到堵不住第二球。荷蘭進兩球後會控節奏省體力，不再強攻。\n⑤ **翻盤條件：** Isak開場五分鐘就用個人能力偷一個，荷蘭心態急躁全線壓上，瑞典全員龜縮死守然後靠Elanga反擊再捅一刀。但這機率極低，瑞典中場根本拿不住球。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.85,
+            "key_risk": "Alexander Isak 頂尖的終結能力（每 90 分鐘 0.86 xG）將兩次反擊轉化為兩顆進球，以「偷襲」的方式搶下比賽勝利。",
+            "reasoning_md": "荷蘭隊在中場展現出的壓倒性實力與進攻深度，將會無情地暴露瑞典隊門將僅具低級別聯賽水準的弱點。Alexander Isak 或許能透過反擊攻入一球，但荷蘭隊的火力實在太過猛烈，瑞典隊單薄的陣容根本無法抵擋整整 90 分鐘。",
+            "script_md": "我們直接切入重點：這場比賽是兩個完全不同量級的對決。Netherlands 擁有 2.86 的頂級進攻指數以及全方位的深厚陣容，而 Sweden 則過度依賴少數幾位明星前鋒，試圖掩蓋其陣容深度嚴重不足的問題（僅有 14 名頂級聯賽球員）。\n\n最關鍵的實力差距在於門將與中場。荷蘭隊將部署一個令人窒息的中場三人組——預計是 De Jong、Gravenberch 和 Reijnders——他們絕對會讓 Sweden 的中場核心陷入癱瘓。與此同時，Sweden 被迫依賴較低層級的門將，如 Sweden No.1 Jacob Widell Zetterström (Derby County FC) 或 Sweden No.12 Viktor Johansson (Stoke City FC)。你不可能讓英冠水準的門將去面對 Memphis Depay (0.65 xG/90) 和 Cody Gakpo (0.48 xG/90) 的狂轟濫炸，還指望能全身而退。\n\n預計 Netherlands 會在開賽後主導控球，將 Sweden 壓制在半場。Sweden 唯一的救命稻草是反擊，平心而論，Alexander Isak (0.86 xG/90) 是一位致命的武器，絕對能考驗 Van Dijk 和 Aké。Isak 或 Sweden No.17 Viktor Gyökeres (Arsenal FC) 很可能會在比賽節奏之外偷進一球，讓比賽增添懸念。\n\n然而，荷蘭隊的火力終究會壓過對手。Gakpo 和 Depay 將會不斷轟炸瑞典隊的大門，隨著下半場體力下滑，Netherlands 可以換上 Donyell Malen (0.47 xG/90) 或 Wout Weghorst，對抗疲憊且實力懸殊的瑞典防線，完成最後一擊。預測 Netherlands 以 3-1 取勝是明智的判斷；唯一能翻盤的情況，就是 Isak 踢出職業生涯代表作，而荷蘭隊完全喪失了臨門一腳的能力。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.15,
+              "A": 0.1
+            },
+            "confidence": 0.82,
+            "key_risk": "瑞典9號 Isak（Liverpool FC）單點爆發＋荷蘭後衛慢熱",
+            "reasoning_md": "荷蘭攻擊深度與火力全面碾壓瑞典，瑞典除Isak外無第二威脅，荷蘭穩吃。",
+            "script_md": "## 整體判讀\n荷蘭攻擊實力指數2.86對瑞典1.91，差距接近一檔；荷蘭25人有頂級聯賽資料，瑞典僅14人，板凳深度差兩圈。\n\n## 關鍵對位\n- 瑞典唯一能打疼人的是9號 Isak（xG90 0.86），但他得面對4號 van Dijk＋5號 Aké的雙塔，空間被壓到只剩反擊一條路。\n- 瑞典中場19號 Svanberg（xG90 0.15）對位荷蘭21號 Frenkie de Jong，控球節奏直接降速，瑞典想守轉攻會卡死。\n\n## 比賽劇本\n1. **開場15分鐘**：荷蘭高位逼搶，10號 Depay（xG90 0.65）＋11號 Gakpo（xG90 0.48）兩翼齊飛，第12分鐘Gakpo內切左腳先開紀錄。\n2. **中段30-60分鐘**：瑞典被迫回收5-4-1，靠Isak單兵反擊，第38分鐘Isak抓住van de Ven一次失位單刀扳平。\n3. **末段60-90分鐘**：荷蘭換上18號 Malen（xG90 0.47）＋24號 Summerville持續衝邊，瑞典體能崩盤；第72分鐘Koopmeiners遠射折射破門，第85分鐘Weghorst頭槌鎖定3-1。\n\n## 為什麼是3-1\n荷蘭三線火力點多，瑞典除Isak外xG90無人過0.3，反擊進一球已是上限，後70分鐘守不住多點轟炸。\n\n## 翻盤條件\n瑞典必須上半場偷兩球且Isak＋Elanga同時爆發，同時荷蘭門將Verbruggen出現低階失誤——機率不到一成。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.73,
+              "D": 0.17,
+              "A": 0.1
+            },
+            "confidence": 0.78,
+            "key_risk": "Isak 憑藉一己之力創造了神奇時刻",
+            "reasoning_md": "荷蘭以 3-1 勝出。憑藉更深厚的陣容深度與進攻指數（2.86 對 1.91），儘管 Isak 繳出頂尖數據，荷蘭仍成功壓制瑞典。",
+            "script_md": "荷蘭隊在各個方面都擁有明顯優勢，唯獨一項除外：Alexander Isak 的終結能力。荷蘭隊擁有 25 名頂級聯賽球員，這讓他們在進攻端有多種輪換選擇，而瑞典隊僅有 14 人的核心陣容，一旦先發十一人體力下滑，陣容深度便顯得捉襟見肘。比賽初期，Depay 和 Gakpo 拉開了瑞典隊的防線；瑞典隊 9 號 Isak (Liverpool FC) 伺機進行反擊，但缺乏隊友支援。到了中場階段，Gravenberch 和 Reijnders 控制了中場，讓 Malen 或 Koopmeiners 有機會首開紀錄。荷蘭隊在攻入第二球後僅短暫回撤，給了對手獲得定位球的機會，但 van Dijk 在防守端佔據絕對優勢。瑞典隊雖在比賽末段靠 Isak 追回一球，但主隊隨即在反擊中攻入第三球。除非 Isak 能展現兩次神來之筆，且荷蘭隊因終結能力不佳而浪費了陣容深度的優勢，否則比分不會翻盤。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "荷蘭",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.62,
+              "D": 0.22,
+              "A": 0.16
+            },
+            "confidence": 0.7,
+            "key_risk": "瑞典9號 Isak（Liverpool FC）抓荷蘭中衛身後空間，靠反擊單刀偷進球",
+            "reasoning_md": "荷蘭贏，因為陣容深度跟火力分佈完全輾壓。瑞典只有 Isak 一根毒刺，荷蘭防線只要不犯蠢，主場穩穩拿下。",
+            "script_md": "### 整體判讀\n荷蘭攻擊指數 2.86 打瑞典 1.91，這不是一個層級的比賽。荷蘭 25/26 人有頂級聯賽資料，瑞典只有 14/26，板凳深度差一截。但別以為這是屠殺局——瑞典本屆預期貢獻 1.73 居然比荷蘭的 1.69 還高，代表他們有咬住比賽的本錢。\n\n### 關鍵對位\n荷蘭的贏面在於火力分散：10號 Depay（SC Corinthians，xG90 0.65）、11號 Gakpo（Liverpool FC，xG90 0.48）、18號 Malen（AS Roma，xG90 0.47）三叉戟隨便一個都能單幹。瑞典後防核心3號 Lindelöf（Aston Villa FC）跟4號 Hien（Atalanta Bergamo）頂得住一場90分鐘的高壓嗎？我打個大問號。但瑞典的真實威脅只有一個人——9號 Isak（Liverpool FC，xG90 0.86），這數字比荷蘭任何前鋒都高。荷蘭中衛4號 van Dijk（Liverpool FC）俱樂部天天跟 Isak 當隊友，但國家隊沒有利物浦的體系保護，15號 van de Ven（Tottenham Hotspur）速度快但愛上搶，一旦被11號 Elanga（Newcastle United FC）拉開空間，Isak 絕對能咬一口。\n\n### 比賽劇本\n- **早段（0-25分鐘）**：荷蘭主場開局壓制，Gakpo 跟 Malen 輪流衝瑞典右路，瑞典5號 Gudmundsson（Leeds United FC）會很忙。瑞典擺鐵桶，Isak 一個人頂前面等反擊。\n- **中段（25-60分鐘）**：荷蘭靠 Depay 或 Gakpo 開啟僵局，大機率是禁區前沿的配合或定位球。進球後荷蘭不會收縮，因為中場8號 Gravenberch（Liverpool FC）跟14號 Reijnders（Manchester City FC）的控球能力太穩，瑞典搶不到球。\n- **末段（60-90分鐘）**：瑞典落後必須壓上，這時候 Isak 的價值就出來了。荷蘭防線壓得太高，van de Ven 一次失位或 van Dijk 補防不及，Isak 單刀追回一分。但荷蘭馬上換人調整，19號 Brobbey（Sunderland AFC）或24號 Summerville（West Ham United FC）上來衝瑞典疲勞的後防，再進一個鎖定勝局。\n\n### 為什麼是 2-1\n荷蘭火力夠贏，但防線不是鐵板一塊。瑞典進攻太單調，但 Isak 一個人就夠偷一球。2-1 剛好反映雙方實力差距——荷蘭贏，但不至於碾壓。\n\n### 什麼情況會翻盤\n如果荷蘭開局15分鐘浪費兩個絕佳機會，瑞典士氣起來、鐵桶擺得更死，Isak 再偷一個反擊，這場就可能變成1-1甚至瑞典1-0爆冷。荷蘭的軟肋是攻轉守那一下，van de Ven 跟 Geertruida 兩個邊中衛都不算穩。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1217,7 +1669,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "德國",
+        "win_prob": 0.81,
+        "agree": "7/7 models",
+        "predicted_score": "3-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.75,
+              "D": 0.16,
+              "A": 0.09
+            },
+            "confidence": 0.72,
+            "key_risk": "德國隊的防線壓得太過靠前，在攻守轉換時遭到 Ivory Coast 陣中唯一的致命威脅——22 號 Guessand (Crystal Palace FC) 的懲罰，再加上一次定位球的失守。",
+            "reasoning_md": "德國隊獲勝的原因在於進攻深度上的巨大差距：他們能派出 Musiala、Wirtz、Sané 以及多位真正的終結者（Undav、Havertz、Beier）來給對手致命一擊。Ivory Coast 雖然有幾位具威脅性的前鋒，但缺乏足夠持續的創造機會能力，難以在德國隊 90 分鐘的壓迫下生存。",
+            "script_md": "德國隊的進攻宛如輸送帶般源源不絕：Deniz Undav（每 90 分鐘 0.72 xG）是名符其實的禁區掠食者，而 Musiala、Wirtz 與 Sané 的三人組意味著 Ivory Coast 的後防線每五分鐘就得面對不同的難題。數據顯示 Ivory Coast 確實具備「傷害」對手的能力（22 號 Guessand (Crystal Palace FC) 每 90 分鐘 0.58 xG），但他們整體的進攻產量不足以與德國隊長期對攻（預期貢獻值 2.19 對比德國隊的 6.66）。\n\n關鍵對位：Ivory Coast 的中後衛 21 號 Ndicka (AS Roma) 與 7 號 Kossounou (Atalanta Bergamo) 將會被 Kai Havertz 的跑位拉出防區，隨後被 Musiala 和 Sané 等擅長衝擊半場空間（half-spaces）的球員撕裂防線。如果 Ivory Coast 選擇退守，德國隊的組織核心（Wirtz、Groß、Kimmich）將會持續向禁區輸送球權，為 Undav 和 Beier 製造機會；如果他們選擇壓上，則會讓德國隊獲得反擊的空間。\n\n劇本：德國隊在主場開局強勢，將 Ivory Coast 壓制在半場，並在 25 分鐘內取得首開紀錄的進球——Musiala 在兩線之間接獲 Wirtz 的直塞球後破門。比賽中段，Ivory Coast 終於獲得喘息機會並發動反擊：22 號 Guessand (Crystal Palace FC) 成功擺脫防守後進球，讓比賽一度陷入緊張。但這正是德國隊板凳深度展現優勢的時刻——Undav 在持續的施壓下門前補進第二球；隨著 Ivory Coast 全力反撲，Sané 在比賽末段透過轉換進攻攻入第三球。\n\n為何預測 3-1：Ivory Coast 擁有足夠的個人威脅能偷進一球，但德國隊擁有大量高品質的終結者（Undav、Havertz、Beier 的 xG/90 皆在 0.45 以上），這使得單場多顆進球成為常態，而非過度樂觀的預期。\n\n變數：德國隊若在開局浪費太多大好機會，並在攻守轉換時失去陣型結構，只要再被 Guessand 突破一次或丟掉定位球，比賽瞬間就會陷入混亂，演變成 2-2 之類的局面。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.74,
+              "D": 0.16,
+              "A": 0.1
+            },
+            "confidence": 0.68,
+            "key_risk": "象牙海岸在反擊時的速度——**Guessand**、**Diakité** 和 **Adingra** 抓住了德國隊緩慢且位置靠後的防線（**Tah**/**Anton**），如果德國隊稍有鬆懈，就會門戶大開。",
+            "reasoning_md": "德國隊輕鬆獲勝：他們的進攻指數（3.53）是 Ivory Coast（1.67）的兩倍多，且從先發到板凳皆具備真正的進攻火力。Ivory Coast 雖然能透過反擊得分，但無法在 90 分鐘的比賽中維持同樣的強度。",
+            "script_md": "**整體解讀：** 這是一場在進攻火力深度與廣度上不對等的對決。德國隊擁有五名貨真價實的進攻威脅（Undav 0.72、Havertz 0.46、Sané 0.44、Beier 0.45、Musiala 0.42），再加上具備創造力的中場——由 Wirtz、Stiller 與 Kimmich 負責穿針引線。Ivory Coast 的實力不容小覷，但集中在三名球員身上；其餘陣容深度明顯不足（26 人名單中僅 17 人有頂級聯賽數據）。\n\n**關鍵對位：** Ivory Coast 的危險人物是 22 號 Evann Guessand (Crystal Palace)，其 xG90 高達 0.58，是隊內最犀利的終結者；輔以 14 號 Oumar Diakité (Cercle Brugge) 以及 10 號 Simon Adingra (AS Monaco) 的直接衝擊。然而，德國隊的中軸線——Rüdiger、Schlotterbeck、Kimmich、Pavlović/Stiller——在素質上遠勝 Ivory Coast 由 Kessié、Seri 與 Sangaré 組成的中場引擎，後者整場比賽恐將疲於奔命。Ivory Coast 的後防線（Diomande、Ndicka、Singo）雖具備一定水準，但在德國隊的輪換與邊路進攻下將面臨嚴峻考驗。\n\n**比賽劇本：** 德國隊開賽即掌控球權，並在半小時內取得突破——預計由 Wirtz 或 Musiala 助攻，Undav 或 Havertz 首開紀錄。Ivory Coast 不會整場死守，他們會嘗試透過反擊尋找 Guessand 與 Adingra，其中一次反擊很可能取得進球，讓比賽短暫出現懸念。但德國隊的板凳深度將在下半場發揮作用——替補上陣的 Beier 與 Sané 體力充沛，持續施壓，最終透過定位球或第三次攻勢鎖定勝局。\n\n**為何預測 3-1：** 德國隊在 90 分鐘內的進攻火力輸出實在太過強大；儘管 Ivory Coast 能靠反擊攻入一球，但主隊能輕鬆做出回應。**變數：** 若 Neuer 的高位防線頻繁被 Ivory Coast 的速度撕裂，且德國隊表現鬆懈或輕敵，比賽可能會陷入 2-2 的苦戰——但兩隊的天賦差距使得爆冷的可能性微乎其微。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.1,
+              "A": 0.05
+            },
+            "confidence": 0.92,
+            "key_risk": "象牙海岸擺出五後衛鐵桶陣死守，德國前場全是技術流卻缺乏攻城錘，久攻不下心浮氣躁時被反擊偷一個。",
+            "reasoning_md": "德國全線實力輾壓，象牙海岸連中場都湊不出頂級聯賽資料，這不是同個量級的對決。德國至少贏三球起跳。",
+            "script_md": "① 整體判讀：德國陣容攻擊指數 3.53 對 1.67，火力差距是不同次元。象牙海岸 26 人名單只有 17 人有頂級聯賽資料，中場主力 Seri、Kessié、Fofana 全都不在五大聯賽，這條中場線會被德國技術流玩死。\n\n② 關鍵對位：德國 26 號 Undav（VfB Stuttgart）xG90 高達 0.72，是場上最危險的禁區殺手，象牙海岸後防只有 20 號 Agbadou（Beşiktaş JK）勉強算硬漢，但轉身慢，會被 Musiala 和 Wirtz 的直塞球打穿。象牙海岸唯一反擊點是 22 號 Guessand（Crystal Palace FC），xG90 0.58 算有威脅，但德國中衛 2 號 Rüdiger（Real Madrid）速度跟身體都能單防鎖死他。\n\n③ 比賽劇本：開場德國就高位壓迫，象牙海岸連半場都過不了。15 分鐘內 Musiala 或 Wirtz 會在禁區邊緣遠射破門。上半場德國至少 2-0 領先。下半場象牙海岸體能下滑，德國換上 Havertz 和 Sané 繼續衝擊，定位球 Rüdiger 或 Tah 再頂進一個，終場前 Undav 補刀。象牙海岸全場射門可能不超過 3 次。\n\n④ 為什麼是 4-0：德國本屆場均預期貢獻 6.66，象牙海岸只有 2.19，這資料差距反映到比分就是三到四球的差距。象牙海岸攻擊線除了 Guessand 之外，Adingra xG90 只有 0.20，Diakité 0.37 是在比甲刷的，面對諾伊爾把關的德國大門根本沒戲。\n\n⑤ 翻盤條件：德國如果早早進球後開始養生踢法，象牙海岸靠角球或定位球蒙進一個，比賽可能變成 2-1 的緊張局面。但以這支德國的板凳深度（Havertz、Sané、Beier 都在替補席），就算先發不順，下半場也能用個人能力解決比賽。爆冷機率微乎其微。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.13,
+              "A": 0.05
+            },
+            "confidence": 0.85,
+            "key_risk": "象牙海岸（Ivory Coast）憑藉身體對抗強悍的中場，將比賽變成了混亂且犯規頻繁的肉搏戰，不僅打亂了德國（Germany）的節奏，更成功執行了一次「偷襲式」的反擊。",
+            "reasoning_md": "德國隊壓倒性的進攻深度與頂尖的組織核心，將徹底窒息 Ivory Coast 的防線。由 Musiala、Wirtz 與 Undav 所創造出的龐大進攻機會，將會擊潰 Ivory Coast 的防守，最終以多球差距輕鬆取勝。",
+            "script_md": "德國隊在此處展現了絕對的統治力。憑藉 3.53 的進攻指數以及全隊 26 人皆為頂級聯賽戰力的陣容，他們在場上的各個位置都優於 Ivory Coast。Ivory Coast 雖然具備一定的身體對抗優勢，但他們的進攻產出過於薄弱，難以與一支場均能創造 6.66 預期貢獻值的球隊抗衡。\n\n中場的爭奪將是 Ivory Coast 試圖生存的關鍵。Ivory Coast 18 號 Ibrahim Sangaré (Nottingham Forest FC) 與 8 號 Franck Kessié (Al Ahli FC) 將試圖以身體素質壓制 Jamal Musiala 與 Florian Wirtz，但這對德國雙星的跑位實在太過靈活，難以被鎖死。在前場，Deniz Undav 與 Kai Havertz 將不斷地將 Ivory Coast 21 號 Evan Ndicka (AS Roma) 及其他後防球員拉出防守位置。\n\n德國隊將從開賽哨響起便壟斷球權。預期他們能早早取得突破，由 Wirtz 或 Musiala 在嚴密的防線中送出穿透傳球。Ivory Coast 將被迫退守，寄望能透過反擊將球交給 22 號 Evann Guessand (Crystal Palace FC)，但 Antonio Rüdiger 具備足夠的速度與預判能力來化解這些孤立的長傳球。\n\n到了下半場，隨著 Ivory Coast 因疲於奔命而體力下滑，德國隊替補席上的球員——如 Leroy Sané 與 Maximilian Beier——將會加強攻勢並在比賽末段取得進球。3-0 的比分反映了雙方在實力與板凳深度上的巨大差距。德國隊擁有太多的得分手段，而 Ivory Coast 一旦落後，便缺乏足夠的持續火力來發動反擊。唯一能改變此結果的可能性，是 Ivory Coast 在第一次反擊中便成功破門，並在隨後的 80 分鐘內完美執行「擺大巴」戰術。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.12,
+              "A": 0.06
+            },
+            "confidence": 0.85,
+            "key_risk": "象牙海岸22號 Guessand（Crystal Palace）靠個人爆發偷一個，德國後衛走神",
+            "reasoning_md": "德國攻擊火力指數是象牙海岸的兩倍，且全隊26人都有頂級聯賽資料，板凳深度碾壓；象牙海岸只有17人，主力火力點單薄，守不住90分鐘。",
+            "script_md": "### 整體判讀\n德國攻擊實力指數3.53對1.67，直接差一個檔次；26人全頂級聯賽 vs 17人，替補差距更殘酷。象牙海岸中場雖有8號 Kessié、6號 Seko Fofana，但前場支援火力不足，守轉攻瞬間就斷線。\n\n### 關鍵對位\n- 德國左路：19號 Sané（Galatasaray）+ 10號 Musiala（Bayern）面物件牙海岸右閘5號 Singo（Galatasaray），速度+技術雙殺。\n- 象牙海岸唯一亮點：22號 Guessand（Crystal Palace）xG90 0.58，靠個人衝刺打德國3號 Anton（Dortmund）身後，但只有一次機會。\n\n### 比賽劇本\n- 早段（0-15分）：德國高位逼搶，第12分鐘26號 Undav（Stuttgart）接Musiala直塞首開紀錄。\n- 中段（15-60分）：象牙海岸收縮5-4-1，德國圍攻但浪費機會；第38分鐘定位球，4號 Tah（Bayern）頭槌2-0。\n- 末段（60-90分）：德國換上14號 Beier（Dortmund）+ 7號 Havertz（Arsenal）保持衝擊；第72分鐘Guessand反擊單刀扳回1球。補時德國再偷一個，3-1收工。\n\n### 為什麼是3-1\n德國預期進球6.66 vs 象牙海岸2.19，火力差距擺在那；象牙海岸只能靠Guessand偷雞，整體創造力不足，守90分鐘不現實。\n\n### 翻盤條件\n象牙海岸必須上半場就偷1-0，然後死守+門將1號 Fofana（Çaykur Rizespor）超神；一旦先落後，他們沒有逆轉火力。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.87,
+              "D": 0.09,
+              "A": 0.04
+            },
+            "confidence": 0.84,
+            "key_risk": "象牙海岸 22 號球員 **Evann Guessand**（Crystal Palace FC）發動了一次單刀反擊",
+            "reasoning_md": "德國隊以 3.53 的進攻指數及六名頂尖終結者，輾壓了 Ivory Coast 僅 1.67 的評級與單薄的陣容；預計將是一場由主隊掌控的勝利。",
+            "script_md": "- 比賽開賽後，Germany 憑藉 Musiala 與 Wirtz 在 Undav 和 Havertz 身後穿針引線，完全掌控了控球權與場上區域；Ivory Coast 採取深度防守，但因人數不足而無法有效封鎖空間。\n- 比賽進行不到 30 分鐘，Germany 便取得首個進球：Kimmich 參與轉移球權後，由 Sané 回傳助攻 Deniz Undav 破門；Ivory Coast 的 22 號球員 Evann Guessand 試圖發動反擊，但面對 Rüdiger 與 Tah 的防守顯得力不從心。\n- 下半場，Germany 再下一城，由 Tah 接應定位球頭槌破門，或是 Musiala 透過盤帶後完成進球；Ivory Coast 因陣中僅有 17 名頂級聯賽球員，體能逐漸下滑，且未能製造持續性的威脅。\n- 比賽末段，Germany 放慢節奏以維持零封，而 Ivory Coast 的中場（Seri、Kessié）無法組織足夠的攻勢來威脅 Neuer。\n- 3-0 的比分反映了雙方在陣容深度與預期進球數（xG）上的巨大差距；除非 Guessand 出現罕見的單刀機會或 Germany 防線失誤，否則戰局難以改變。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "德國",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.11,
+              "A": 0.07
+            },
+            "confidence": 0.85,
+            "key_risk": "象牙海岸前場個別球員（如22號 Guessand 或11號 Yan Diomande）抓反擊偷到一球，讓德國被迫拉開陣型戰",
+            "reasoning_md": "德國贏定了。攻擊指數 3.53 對 1.67 是降維打擊，象牙海岸中場出球能力不足，光靠前場幾個速度點根本咬不住德國的立體火力。",
+            "script_md": "### 整體判讀：大衛與歌利亞，但歌利亞這次帶了機槍\n德國這套陣容攻擊指數 3.53，全隊 26 人都有頂級聯賽資料；象牙海岸只有 17 人有頂級聯賽資料，攻擊指數 1.67。這不是「強隊打弱隊」，這是「職業打半職業」。德國本屆每場預期貢獻 6.66，象牙海岸 2.19，差距是三倍。象牙海岸唯一能聊以自慰的是前場有幾個五大聯賽的面孔，但他們的中場——4號 Seri（NK Maribor）、6號 Seko Fofana（FC Porto）、8號 Kessié（Al Ahli FC）——這個檔次想跟 Wirtz、Musiala 纏鬥？做夢。\n\n### 關鍵對位：象牙海岸的命門在中場與左路防守\n- **象牙海岸中場集體降級**：4號 Jean Michaël Seri（NK Maribor）和8號 Franck Kessié（Al Ahli FC）已經不在歐洲主流賽場，6號 Seko Fofana（FC Porto）在葡超還行但不是頂級。這三人面對德國17號 Florian Wirtz（Liverpool FC，xG90 0.35）和10號 Jamal Musiala（FC Bayern München，xG90 0.42）的輪番衝擊，半場就會被鑿穿。\n- **左路防守是災難**：3號 Ghislain Konan（Gil Vicente FC）這個級別的左後衛，要面對德國19號 Leroy Sané（Galatasaray SK，xG90 0.44）或9號 Jamie Leweling（VfB Stuttgart，xG90 0.36）的衝刺——Sané 內切那一下，Konan 大機率吃牌加送定位球。\n- **象牙海岸唯一亮點**：22號 Evann Guessand（Crystal Palace FC，xG90 0.58）這個數字確實嚇人，比德國大部分前鋒都高。但問題是——誰給他傳球？中場被壓扁，他全場能拿到幾次像樣的球？\n\n### 比賽劇本\n- **早段（0-20分鐘）**：德國控球率直接拉到 70% 以上，象牙海岸五後衛或四後衛縮排去苟。但德國不怕你縮——Wirtz 和 Musiala 在禁區前沿的滲透能力，加上6號 Joshua Kimmich（FC Bayern München）的邊路斜傳，20 分鐘內大機率破門。最可能的方式：Musiala 禁區前沿轉身射門或 Wirtz 直塞26號 Deniz Undav（VfB Stuttgart，xG90 0.72）單刀。\n- **中段（20-60分鐘）**：象牙海岸落後被迫往前推一點，這正好是德國最想要的。空間一出來，Sané 和 Leweling 兩翼齊飛，第二球很快就到。象牙海岸這段時間唯一威脅是 Guessand 抓反擊——但德國2號 Antonio Rüdiger（Real Madrid C. F.）和4號 Jonathan Tah（FC Bayern München）這對中衛組合，速度和身體都不吃虧，Guessand 很難討到便宜。\n- **末段（60-90分鐘）**：2-0 領先後德國開始換人輪換，7號 Kai Havertz（Arsenal FC，xG90 0.46）和14號 Maximilian Beier（Borussia Dortmund，xG90 0.45）上來保持壓迫。象牙海岸體能下降、陣型鬆散，第三球來自定位球或反擊——15號 Nico Schlotterbeck（Borussia Dortmund，xG90 0.11）角球頭槁或者 Beier 反越位單刀。\n\n### 為什麼是 3-0\n- 德國攻擊點太多，象牙海岸防不過來。Undav 的 xG90 0.72 是全場最高，他一個人就能製造至少一球。\n- 象牙海岸全隊 xG 加起來可能不到 0.8，德國門將1號 Manuel Neuer（FC Bayern München）就算狀態普通，零封機率也很高。\n- 3-0 不是因為德國特別想刷，是因為象牙海岸的防守深度和門將1號 Yahia Fofana（Çaykur Rizespor）——這個俱樂部級別——擋不住德國的火力分佈。兩球是底線，三球是正常。\n\n### 什麼情況會翻盤\n- **唯一可能**：開場10分鐘內象牙海岸靠22號 Guessand（Crystal Palace FC）偷一個反擊進球，然後全隊擺大巴。如果德國急躁犯規送定位球，8號 Kessié（Al Ahli FC）的罰球和2號 Ousmane Diomande（Sporting CP）的頭球是有威脅的。但這需要德國同時犯三個錯誤：先丟球、中場失控、定位球防守走神——機率很低，但不是零。"
+          }
+        ]
+      },
       "correct": null
     },
     {
