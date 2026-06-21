@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T05:31:02+08:00",
+  "generated_at": "2026-06-21T20:30:28+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -1166,8 +1166,8 @@
       "away": "摩洛哥",
       "kickoff_tw": "2026-06-20 06:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -1291,8 +1291,8 @@
       "away": "海地",
       "kickoff_tw": "2026-06-20 08:30",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -1416,8 +1416,8 @@
       "away": "巴拉圭",
       "kickoff_tw": "2026-06-20 11:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -1541,8 +1541,8 @@
       "away": "瑞典",
       "kickoff_tw": "2026-06-21 01:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "5-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -1666,8 +1666,8 @@
       "away": "象牙海岸",
       "kickoff_tw": "2026-06-21 04:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -1791,8 +1791,8 @@
       "away": "庫拉索",
       "kickoff_tw": "2026-06-21 08:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -1803,8 +1803,8 @@
       "away": "日本",
       "kickoff_tw": "2026-06-21 12:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-4",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -1818,7 +1818,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "西班牙",
+        "win_prob": 0.919,
+        "agree": "7/7 models",
+        "predicted_score": "4-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.1,
+              "A": 0.02
+            },
+            "confidence": 0.78,
+            "key_risk": "西班牙唯一真正的威脅在於面對頑強的低位防守時浪費機會，加上沙烏地阿拉伯門將如有神助的表現，讓比賽在足夠長的時間內保持詭異的膠著，進而導致球隊在反擊或定位球防守上出現動搖。",
+            "reasoning_md": "西班牙輕鬆取勝：進攻指數差距（3.69 對 0.20）與預期貢獻差距（4.64 對 0.98）顯示這是一場一面倒的比賽。西班牙擁有太多的終結者與創造者（Ferran、Oyarzabal、Olmo、Yamal/Williams），Saudi Arabia 無法在 90 分鐘內完全抵擋。",
+            "script_md": "### 整體分析\n- 這是一場控球壓制與射門次數的輾壓：Spain 擁有數名在頂級聯賽具備實質 xG/90（每90分鐘預期進球）產出的攻擊手，而 Saudi Arabia 基本上只能靠運氣、防守耐力以及偶爾的快攻反擊來支撐。\n- Spain 的中場核心（**Rodri**、**Pedri**、**Fabián Ruiz/Gavi**）應該會駐紮在 Saudi Arabia 的半場，不斷進行傳導直到對方的防線崩潰。\n\n### 關鍵對位 / 球員\n- 邊路對決對 Saudi Arabia 來說極為殘酷：**Lamine Yamal** 與 **Nico Williams** 能壓制邊後衛、製造倒三角回傳，並迫使對手不斷進行 1v1 防守——這正是深層防守陣型開始出現漏洞的地方。\n- 在禁區內，Spain 擁有穩定的終結者：**Ferran Torres (0.47 xG/90)** 與 **Mikel Oyarzabal (0.42 xG/90)** 並非華而不實的球員，他們是能穩定創造大量射門機會的得分手。\n- Saudi Arabia 最好的「死守」籌碼是負責回防的 **No.12 Saud Abdulhamid (RC Lens)**，以及作為反擊中唯一具威脅性的出口 **No.10 Salem Al-Dawsari (Al Hilal SC)**——但他們大部分時間將是在疲於奔命，而非發動進攻。\n\n### 比賽劇本（前段 → 中段 → 後段）\n- 前段：Spain 開局強勢，將 Saudi Arabia 鎖在半場內，並在 25 分鐘內取得首顆進球——極可能來自邊路突破後的倒三角傳中，由 **Ferran Torres** 完成終結。\n- 中段：一旦 Saudi Arabia 被迫稍微壓出，Spain 的半場空間操盤手（**Dani Olmo**、**Pedri**）便會開始將球塞給後插上的隊友；第二顆進球會在半場結束前或下半場剛開賽不久出現。\n- 後段：Saudi Arabia 再次退守，但疲勞與定位球將徹底擊垮他們——**Aymeric Laporte** 在死球狀態下是持續的威脅，而 Spain 的人員輪替將持續在禁區邊緣與六碼區創造無人看管的射門機會。\n\n### 為何預測 4-0\n- Spain 的進攻深度意味著即便換人，進攻壓力也不會減弱，且數據差距顯示 Saudi Arabia 根本無法創造足夠的威脅來與對手抗衡（0.98 的預期貢獻值並非「爆冷」的範疇）。\n\n### 什麼情況會翻盤\n- 除非出現完美風暴：Spain 錯失大量絕佳機會、Saudi Arabia 的門將如有神助，且 **No.10 Salem Al-Dawsari (Al Hilal SC)** 在唯一一次乾淨的反擊或定位球混戰中偷進一球——否則這只是一場減少失球的防守戰，而非一場勢均力敵的比賽。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.92,
+              "D": 0.06,
+              "A": 0.02
+            },
+            "confidence": 0.82,
+            "key_risk": "西班牙大幅輪換陣容，心態變得鬆懈，而 Saudi Arabia 則在 Al-Owais/Al-Aqidi 當晚神勇表現的掩護下擺出鐵桶陣，將比賽拖入令人沮喪的 1-0 局面。",
+            "reasoning_md": "Spain 在各項指標上都高出一個檔次——進攻指數 3.69 對 0.20，頂級聯賽深度 25 對 1。這是一道天賦鴻溝，而不僅僅是差距；Spain 將輕鬆取勝，Saudi 唯一實際的希望就是盡量減少失球。",
+            "script_md": "**整體分析：** 這是整個小組賽中最懸殊的對戰組合之一。Spain 的陣容深度極佳，即便其*替補*球員——如 Lamine Yamal (0.24)、Dani Olmo、Pedri 以及從板凳出發的 Rodri——放在其他任何國家隊都能輕鬆佔據先發位置。Saudi Arabia 陣中僅有一名球員擁有頂級聯賽的數據；他們的整體火力皆來自 Saudi Pro League，面對以 Barcelona、Arsenal、PSG 球員為核心的對手時，這些數據根本無法轉化為實質威脅。\n\n**關鍵對位：** Spain 的進攻發動機 Pedri 與 Rodri 將在中場完全壓制 Saudi 的 23 號 Mohamed Kanno (Al Hilal) 與 15 號 Abdullah Al-Khaibari (Al Nassr)——控球權將呈現一面倒且令人窒息的局面。在前場，Ferran Torres (0.47 xG/90) 與 Mikel Oyarzabal (0.42) 正是那種能懲罰對手鐵桶陣的冷血終結者。Saudi 最好的反擊機會來自 10 號 Salem Al-Dawsari (Al Hilal) 的推進，以及作為單箭頭的 9 號 Firas Al-Buraikan (Al Ahli)，但他們將會面臨缺乏支援的窘境。Saudi 門將 21 號 Mohammed Al-Owais (Al Ula) 將迎來漫長且忙碌的一晚。\n\n**比賽劇本：** 預計 Saudi 從第一分鐘起就會採取深度防守，排出兩個四人防線，試圖消磨對手耐心。Spain 將耐心地進行試探，大約在 20 到 30 分鐘左右防線就會崩潰——很可能是由 Ferran 或 Oyarzabal 破門——隨後防線體力耗盡，進球將接踵而至。下半場 Spain 進行輪換，即便換上生力軍（Yamal、Olmo），攻勢依然不減。考慮到禁區內有 Laporte 和 Merino，定位球也是 Spain 的另一項武器。\n\n**為何預測 4-0：** 一支實力如此懸殊的球隊，面對一支缺乏頂級聯賽進攻產出的對手，絕不會只滿足於小勝——他們會不斷累積進球。一旦防線被撕開，預期會有三到四個進球；考慮到 Saudi 缺乏創造力，Spain 保持零失球的可能性極高。\n\n**變數：** 唯有 Spain 輕敵，加上 Al-Owais 繳出世界級的門將表現，才可能將比分維持在體面的 1-0。若 Saudi 想取得實質結果，必須仰賴 Spain 自爆——這不是我會下的賭注。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.96,
+              "D": 0.03,
+              "A": 0.01
+            },
+            "confidence": 0.95,
+            "key_risk": "西班牙上半場若遲遲無法破大巴，心態急躁全線壓上，被沙特10號Salem Al-Dawsari（Al Hilal SC）一次反擊偷襲得手，可能陷入0-1的泥沼戰。",
+            "reasoning_md": "純實力碾壓局，西班牙前場個個能在歐洲頂級聯賽每90分鐘預期進球0.2以上，沙特全隊只有一個人在歐洲二流聯賽踢球，連主力火力都拿不出頂級資料，這不是比賽，是屠殺。",
+            "script_md": "① 整體判讀：西班牙的攻擊實力指數3.69對上沙特的0.20，簡直是職業隊打業餘隊。西班牙陣中Ferran Torres、Oyarzabal禁區嗅覺頂級，邊路Nico Williams和Yamal能爆破，中場還有Pedri、Rodri控場，沙特從頭到尾只有被壓在半場摩擦的份。\n② 關鍵對位：沙特後防唯一有頂級聯賽經驗的12號Saud Abdulhamid（RC Lens）要面對西班牙左路Grimaldo的瘋狂插上，他根本頂不住。西班牙前鋒Ferran Torres（xG90 0.47）會抓著沙特中衛5號Hassan Al-Tambakti（Al Hilal SC）這個點打，轉身慢、沒見過這種級別的無球跑動，上半場就會被爆。\n③ 比賽劇本：開場西班牙就高位逼搶，沙特直接退守30米區域擺大巴。前20分鐘西班牙會浪費兩個必進球，場邊球迷開始鼓譟，但第28分鐘Ferran Torres接Oyarzabal橫敲打破僵局。半場1-0。下半場沙特體能下降，65分鐘後西班牙換上Yamal和Baena加速，70到85分鐘內連進三球，包括一個定位球Laporte頭槌和一個反擊Nico Williams單刀。\n④ 為什麼是4-0：西班牙本屆平均每場預期貢獻4.64，沙特只有0.98，這差不多就是4、5球的差距。但沙特門將Al-Owais會撲出幾個，加上西班牙最後20分鐘會收著踢，避免受傷，所以4-0是合理且保留面子的比分。\n⑤ 翻盤條件：除非西班牙自己作死，上半場腦抽紅牌少打一人，然後沙特全場唯一一次射正就進球，否則絕無可能。這支沙特根本沒有在歐洲頂級聯賽穩定輸出的攻擊手，想爆冷比中彩票還難。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.1,
+              "A": 0.02
+            },
+            "confidence": 0.92,
+            "key_risk": "西班牙的邊路球員在面對 10 人防守的低位防線時表現失常，導致比賽陷入沉悶且令人沮喪的 0-0 或 1-0 苦戰。",
+            "reasoning_md": "西班牙壓倒性的技術優勢與頂尖的邊路進攻，將有系統地瓦解 Saudi Arabia 無可避免的低位防守。Saudi Arabia 幾乎沒有任何頂級賽事的經驗，難以在 Spain 長達 90 分鐘的猛烈施壓下倖存。",
+            "script_md": "別再談什麼「世界盃的魔力」這種廢話了——這根本是一場實力懸殊的對決。Spain 的進攻指數高達 3.69，而 Saudi Arabia 則慘不忍睹，僅有 0.20。Saudi Arabia 陣中只有一名球員擁有頂級聯賽的數據；反觀 Spain，他們擁有 25 名精英技術型球員組成的艦隊。\n\nSaudi Arabia 從開賽哨聲響起就會採取無恥且絕望的 5-4-1 鐵桶陣。破解深度防守的關鍵在於邊路寬度與 1 對 1 的突破能力，而 Spain 擁有 Lamine Yamal 和 Nico Williams 這兩件終極武器。他們將會孤立並折磨 Saudi Arabia 的邊後衛。12 號 Saud Abdulhamid (RC Lens) 是唯一見識過歐洲頂級聯賽節奏的 Saudi Arabia 後衛，但他無法同時防守兩側。\n\nSpain 將會在進攻三區紮營，用傳導球讓 Saudi Arabia 陷入催眠般的恍惚狀態。如果中路在運動戰中受阻，Spain 還有一項詭異但不可否認的作弊代碼：Aymeric Laporte 在這組數據中展現了驚人的 1.68 xG90，證明他在定位球進攻中絕對是一台重型攻城槌。預計 Spain 會在上半場結束前打破僵局——要麼是靠 Pedri 或 Olmo 的靈光一閃，要麼是 Laporte 接應角球的頭槌破門。一旦防線潰堤，Saudi Arabia 就必須壓出來進攻，這將讓 Ferran Torres 和 Mikel Oyarzabal 在下半場無情地利用空檔。\n\n我預測比分為 3-0，因為 Spain 不需要刷出網球般的比分；他們拿到進球後就會控制節奏，保留體力。Saudi Arabia 想要創造奇蹟的唯一希望，就是 1 號門將 Nawaf Al-Aqidi (Al Nassr FC) 踢出職業生涯代表作、Spain 罰丟一記點球，並且 10 號 Salem Al-Dawsari (Al Hilal SC) 偷到一顆百中選一的反擊進球。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.91,
+              "D": 0.06,
+              "A": 0.03
+            },
+            "confidence": 0.92,
+            "key_risk": "沙特10號 Salem Al-Dawsari（Al Hilal SC）突然單點爆發＋西班牙門將 Raya 低階失誤",
+            "reasoning_md": "西班牙攻擊指數 3.69 對 0.20，火力差距 18 倍；沙特全隊只有 1 人踢過頂級聯賽，根本壓不住高位逼搶。",
+            "script_md": "## 整體判讀\n西班牙全隊 25/26 人來自五大聯賽，沙特只有 12 號 Saud Abdulhamid（RC Lens）一人，其餘全是沙超內迴圈，節奏、強度、個人能力全面被碾壓。\n\n## 關鍵對位\n- 西班牙兩翼：17 號 Nico Williams（Athletic Club）＋19 號 Lamine Yamal（FC Barcelona）對上沙特 2 號 Ali Majrashi（Al Ahli FC）與 24 號 Moteb Al-Harbi（Al Hilal SC），速度差兩檔，邊路會被生吃。\n- 中場：Rodri＋Pedri＋Fabián Ruiz 的三角傳控，沙特 6 號 Nasser Al-Dawsari（Al Hilal SC）＋15 號 Abdullah Al-Khaibari（Al Nassr FC）根本搶不下球，只能退成 5-4-1 鐵桶。\n\n## 比賽劇本\n1. **早段（0-15'）**：西班牙高位逼搶，第 8 分鐘 Ferran Torres 接 Yamal 下底橫傳推空門先開紀錄。\n2. **中段（15-60'）**：沙特全線回收，西班牙控球 75% 以上，第 32 分鐘 Dani Olmo 禁區弧頂遠射 2-0；半場後 55' 再靠定位球 Laporte 頭槌 3-0。\n3. **末段（60-90'）**：沙特體能崩盤，西班牙換上 Gavi、Baena 繼續衝，第 78 分鐘 Oyarzabal 反越位單刀 4-0。\n\n## 為什麼是 4-0\n沙特預期貢獻 0.98，西班牙 4.64，差距 4.7 倍；西班牙邊路速度＋中場傳控能把鐵桶撕成篩子，沙特反擊點只有 10 號 Salem Al-Dawsari，一人難敵四手。\n\n## 翻盤條件\n除非西班牙門將 Raya 第 20 分鐘離譜失誤送禮，且沙特立刻擺 6-3-1 死守＋Salem 世界波偷第二球，否則比分不會低於 3-0。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.93,
+              "D": 0.05,
+              "A": 0.02
+            },
+            "confidence": 0.91,
+            "key_risk": "沙烏地阿拉伯的定位球戰術在開賽初期讓 Spain 措手不及",
+            "reasoning_md": "西班牙隊 3.69 的進攻指數以及陣中擁有的頂級聯賽前鋒群，將會輾壓沙烏地阿拉伯隊僅 0.20 的指數以及趨近於零的菁英深度；預期這將是一場例行公事般的慘勝。",
+            "script_md": "西班牙憑藉更深厚的陣容深度與進攻數據指標，掌控了比賽的每一個階段，而 Saudi Arabia 則缺乏頂級聯賽的進攻火力。關鍵的對位失衡在於 Ferran Torres 與 Lamine Yamal 反覆撕裂 Saudi Arabia 的後防線，該防線由 3 號 Ali Lajami (Al Hilal SC)、5 號 Hassan Al-Tambakti (Al Hilal SC) 以及 2 號 Ali Majrashi (Al Ahli FC) 組成。西班牙在 20 分鐘內由 Ferran Torres 破門首開紀錄，隨後在半場結束前，藉由 Saudi Arabia 採取退守策略並讓出空間的機會，由 Nico Williams 與 Dani Olmo 再添兩球。下半場西班牙進行輪換但仍佔據主導地位，最終由 Mikel Oyarzabal 在反擊中攻入第四球鎖定勝局。4-0 的比分反映了雙方 4.64 比 0.98 的貢獻值差距，以及 Saudi Arabia 完全無法構成威脅的事實。除非西班牙在罕見的防守反擊或定位球防守中出現災難性失誤，否則比賽結果難以翻盤。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.95,
+            "key_risk": "西班牙大比分領先後提前收兵、走傳控路線消磨時間，導致進球數卡死在兩到三球，讓沙烏地阿拉伯只輸兩球甚至守住資料。",
+            "reasoning_md": "西班牙全隊頂級聯賽資料深度碾壓，沙烏地阿拉伯只有12號 Saud Abdulhamid（RC Lens）一人見過世面，這種等級差根本是大人打小孩，主隊穩贏。",
+            "script_md": "### 整體判讀：大人打小孩\n這場比賽沒什麼好分析的，就是單方面的屠殺。西班牙陣容攻擊指數3.69，替補席上隨便拉一個出來的xG90資料，都能把沙烏地阿拉伯全隊按在地上摩擦。沙特全隊只有12號 Saud Abdulhamid（RC Lens）勉強在歐洲頂級聯賽踢過球，其他25人全在本土聯賽自嗨，這種見識和節奏的落差，一上場就會被西班牙的傳控體系給淹死。\n\n### 關鍵對位：中場絞肉機與邊路快車\n沙特中場6號 Nasser Al-Dawsari（Al Hilal SC）和15號 Abdullah Al-Khaibari（Al Nassr FC）要去面對西班牙16號 Rodri（Manchester City FC）和20號 Pedri（FC Barcelona）的組織？這簡直是開玩笑。Rodri一個人就能把沙特的逼搶化解掉，順便把球分給兩翼的17號 Nico Williams（Athletic Club）和19號 Lamine Yamal（FC Barcelona）去衝擊沙特脆弱的邊後衛。沙特後防線上的3號 Ali Lajami（Al Hilal SC）面對這種等級的邊路爆破，大概撐不過三十分鐘就會開始喘氣。\n\n### 比賽劇本：早段破門，全場控場\n開賽十五分鐘內，西班牙就會靠著前場壓迫和邊路突破先下一城，大機率是7號 Ferran Torres（FC Barcelona）或21號 Mikel Oyarzabal（Real Sociedad）收頭。沙特被打懵後只能全線退守，擺出鐵桶陣試圖苟活。但西班牙最不怕的就是密集防守，20號 Pedri和10號 Dani Olmo（FC Barcelona）在中前場的滲透能力，會在比賽中段把沙特防線徹底撕裂。下半場沙特體能崩盤，西班牙換上替補繼續圍攻，定位球和遠射都能再進兩個。\n\n### 為什麼是這個比分\n4-0是最合理的結果。西班牙每場預期貢獻4.64，沙特只有0.98，這代表沙特全場連一腳像樣的射門都擠不出來。西班牙不會客氣，也不需要客氣，主場作戰加上世界盃小組賽要搶淨勝球，贏三個是底線，贏四個是正常發揮。沙特能做的就是把球門堵住，但面對這種等級的火力，堵不住的。\n\n### 什麼情況會翻盤\n除非西班牙開場就自爆，比如門將1號 David Raya（Arsenal FC）送大禮或者後防線4號 Eric García（FC Barcelona）又犯老毛病送點球，沙特靠著那一絲士氣苟住。但就算送一個，西班牙也能進四個回來。沙特想拿分？做夢比較快。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1830,7 +1943,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "比利時",
+        "win_prob": 0.833,
+        "agree": "7/7 models",
+        "predicted_score": "3-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.78,
+              "D": 0.15,
+              "A": 0.07
+            },
+            "confidence": 0.72,
+            "key_risk": "比利時的後防線在攻守轉換時被對手抓到空檔，或是因輕易丟失定位球／被反擊，讓伊朗的 9 號球員 Taremi (Olympiacos FC) 將一場節奏緩慢的比賽，變成了一場混亂的單球決勝戰。",
+            "reasoning_md": "比利時輕鬆獲勝：他們在前場擁有頂尖的射門創造者與終結者，且各個位置板凳深度十足；反觀 Iran 的進攻端缺乏在頂級聯賽證明過身手的球員。如果比利時率先進球，這場比賽將演變成射門練習，而非五五波的對決。",
+            "script_md": "### 整體分析\nBelgium 擁有陣容豪華且現代化的前場五人組，具備頂尖的射門產量（Trossard、Lukébakio、Lukaku、De Ketelaere），並由 De Bruyne 擔任節奏掌控者；Iran 的數據與板凳深度皆無法與之匹敵。在 Courtois 的坐鎮下，Belgium 可以採取積極進攻的策略，即便偶爾被反擊也不會自亂陣腳。\n\n### 關鍵對位\n- **Belgium 邊路前鋒 vs. Iran 邊後衛：** Trossard（xG/90 為 0.52）與 Lukébakio（xG/90 為 0.52）是持續威脅禁區的進攻點；Iran 的 5 號 Milad Mohammadi (Persepolis FC) 與 23 號 Ramin Rezaeian (Foolad Khuzestan FC) 整晚都將疲於防守自家禁區。\n- **De Bruyne 的傳球路線：** Kevin De Bruyne (SSC Napoli) 加上 Doku 與 De Ketelaere 等跑動型球員，應能有效壓制 Iran 的中場防線（Iran 6 號 Ezatolahi (Shabab Al Ahli) / 15 號 Cheshmi (Esteghlal)）。\n- **Iran 的唯一殺手鐧：** Iran 9 號 Taremi (Olympiacos FC) 是顯而易見的進攻出口——如果 Belgium 的中後衛被誘入無謂的對抗，那將是 Iran 製造混亂的途徑。\n\n### 比賽劇本（前段 → 中段 → 後段）\nBelgium 開賽即發動快攻，將 Iran 壓制在半場，並在進攻三區累積大量觸球；首個進球預計來自「邊路轉中路」的戰術模式——由 Trossard/Lukébakio 進攻禁區，同時 Lukaku 牽制對方中後衛。一旦 Belgium 取得 1-0 領先，Iran 將被迫壓出進攻，這正是 De Bruyne 傳出致命直塞球的時機，Belgium 的速度優勢（Doku）也將開始撕裂對手身後的空間。\n\nIran 的最佳進攻時段落在上半場中段與下半場初段：透過幾次定位球、一兩次直接長傳給 Taremi，並寄望 Belgium 失去專注力。但 Belgium 的板凳深度讓他們能持續施壓——替補上場的生力軍將維持射門產量，而非僅僅是為了守成。\n\n### 為何預測 3-0\nBelgium 的進攻能力指數（3.03）以及眾多具威脅的得分手指向了多點開花，而 Iran 缺乏頂級聯賽的進攻數據且過度依賴少數進攻點，意味著其創造機會的能力有限。加上 Courtois 的把關以及 Belgium 的中場控制力（Tielemans/Onana/Witsel 等選項），保持零失球是最可能的結果。\n\n### 變數\n如果 Belgium 浪費了開賽的進球機會並先失球——特別是透過定位球或 Taremi 主導的反擊——那麼 Iran 就可能採取「擺大巴」戰術，將比賽拖入令人窒息的 1-0 或 1-1 肉搏戰。若沒有 Belgium 的首個進球突破僵局，比賽的不確定性將大幅升高。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.8,
+              "D": 0.14,
+              "A": 0.06
+            },
+            "confidence": 0.7,
+            "key_risk": "伊朗隊擺出鐵桶陣，Beiranvand 表現神勇，而比利時隊在比賽末段的鬆懈，讓他們最終以 0-1 吞下令人沮喪的苦戰敗仗，或是被 Taremi 透過反擊偷襲得手。",
+            "reasoning_md": "比利時的進攻火力處於另一個層次——指數為 3.03 對上 0.33，陣中擁有五名真正的頂級聯賽得分手，而 Iran 則幾乎沒有任何頂級聯賽的進攻數據。這是一場實力懸殊的對決；除非 Iran 能上演教科書級別的「擺大巴」防守，否則 Belgium 將輕鬆取勝。",
+            "script_md": "**整體分析：** 從紙面實力來看，這是一場實力懸殊的對決，實際賽場上恐怕也是如此。比利時的球隊進攻指數（3.03）遠超伊朗（0.33），陣容深度也說明了同樣的問題——26名比利時球員中有21人擁有頂級聯賽數據，而伊朗僅有1人。Trossard（0.52）和Lukébakio（0.52）是極具威脅的終結者，De Ketelaere（0.33）和Lukaku（0.40）在前場提供了足夠的壓制力，而De Bruyne依然是球隊的指揮官。伊朗此役的戰術意圖很明確：力求生存、深度防守、消耗對手。\n\n**關鍵對位：** 比利時的邊路威脅是致命的——Jérémy Doku 以及 Trossard/Lukébakio 的組合將不斷衝擊由 13 號 Kanaanizadegan（Persepolis）和 4 號 Khalilzadeh（Tractor Sazi）坐鎮的後防線，這兩名後衛都不具備應對這種速度的頂級聯賽水準。伊朗唯一現實的進攻火花是 9 號 Mehdi Taremi（Olympiacos），他是隊中唯一擁有真正歐洲賽場經驗的球員，外加 7 號 Jahanbakhsh（Dender）——但他們將面臨缺乏支援的困境。伊朗的一切進攻都將圍繞門將 1 號 Beiranvand（Tractor Sazi）展開，他將會是全場最忙碌的人。\n\n**比賽劇本：** 預計伊朗從第一分鐘起就會採取「擺大巴」戰術。比利時將掌控控球權，但可能需要耐心才能攻破對手密集的禁區；突破口很可能出現在 25 到 40 分鐘之間，透過 Trossard 或 Lukébakio 的進球，或是 De Bruyne 的定位球傳送。一旦首開紀錄，伊朗的防線紀律將會動搖，比利時會在 60 分鐘前攻入第二球。隨著體能下降，替補球員（Doku、Lukaku 等）將利用空檔攻入第三球。\n\n**為何預測 3-0：** 雙方的天賦差距太大，伊朗難以頻繁威脅比利時的球門，而比利時擁有太多的終結者，伊朗的防線很難堅持 90 分鐘不失球。伊朗最好的希望是半場前保持零失球，但他們缺乏足夠的火力讓比利時為任何輕敵付出代價。\n\n**變數：** 如果伊朗能上演教科書般的「擺大巴」，加上 Beiranvand 拿出巔峰表現，或許能將比賽拖入緊張的 1-0 局面；考慮到世界盃小組賽的變數，Taremi 透過反擊進球並非不可能——但若要伊朗真正贏球，需要比利時全隊夢遊，同時 Beiranvand 表現神勇。別指望這種情況發生。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.13,
+              "A": 0.05
+            },
+            "confidence": 0.88,
+            "key_risk": "伊朗全線退守禁區擺出六後衛鐵桶陣，比利時攻堅便秘，被伊朗拖到 70 分鐘 0-0 後心態崩盤，反被 Taremi 偷一個定位球反擊。",
+            "reasoning_md": "純粹的職業隊打業餘隊。比利時攻擊線是英超、義甲頂級射手，伊朗全隊只有一個人在歐洲二流聯賽有資料。這場不是會不會贏，是贏幾個的問題。",
+            "script_md": "① 整體判讀：這是一場實力完全不對等的比賽。比利時陣容攻擊指數 3.03 是伊朗 0.33 的九倍有餘，深度更是天壤之別。伊朗全隊 26 人只有中場 14 號 Saman Ghoddos（Al Ittihad Kalba SCC）有頂級聯賽 xG 資料，還是可憐的 0.04，這根本不是同一個級別的對抗。\n\n② 關鍵對位：比利時的殺招在邊路與肋部。Leandro Trossard（xG90 0.52）和 Dodi Lukébakio（xG90 0.52）會像熱刀切奶油一樣撕開伊朗後防。伊朗後衛線全員來自伊朗本土聯賽或次級聯賽，面對英超、葡超等級的邊鋒衝擊，連犯規都可能來不及。特別注意伊朗 5 號 Milad Mohammadi（Persepolis FC），他這一側將直接面對 Trossard 的無球穿插，半場就有可能被打到心態崩潰。\n\n③ 比賽劇本：開場就是半場攻防演練。比利時前 15 分鐘高壓逼搶，伊朗連半場都過不了。De Bruyne 的過頂球和直塞會不斷找到 Lukaku 這個支點，Lukaku 雖然 xG90 只有 0.40，但扛住伊朗這些後衛綽綽有餘。上半場 25 分鐘左右，Trossard 內切後一腳弧線球破門，1-0。伊朗失球後不敢壓上，死守到半場結束。下半場 55 分鐘，伊朗體能下降，De Bruyne 禁區外遠射或自由球直接得分，2-0。最後 15 分鐘伊朗防線潰散，替補上來的 Charles De Ketelaere 再補一刀，3-0 收工。\n\n④ 為什麼是這個比分：3-0 是「給面子」的比分。比利時本屆場均預期貢獻 2.68，伊朗是 1.97，但伊朗那個 1.97 是在亞洲區刷出來的，面對歐洲頂級防線直接歸零。比利時只要認真踢 60 分鐘就能進三球，剩下時間會換上替補控制節奏，避免受傷。伊朗全場射門次數不會超過 3 次，射正掛零。\n\n⑤ 什麼情況會翻盤：唯一翻盤可能是比利時自己玩火。如果上半場太浪，Lukaku 又上演「快樂足球」連空門都打不進，伊朗靠著前鋒 9 號 Mehdi Taremi（Olympiacos FC）的個人能力偷一個反擊，然後全隊 11 人堵在門線上，才有可能出現 0-1 的超級大冷門。但這種劇本發生的機率，比你出門被雷劈到兩次還低。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.14,
+              "A": 0.04
+            },
+            "confidence": 0.85,
+            "key_risk": "Belgium 對於低位防守感到挫折，只能訴諸漫無目的的傳中，而 Iran 的 1 號門將 Alireza Beiranvand 則踢出了生涯代表作，硬是搶下一場 0-0 的和局。",
+            "reasoning_md": "比利時擁有壓倒性的頂尖火力，但要突破伊朗隊 10 人的鐵桶陣，將是一場艱苦的圍城戰，而非上半場就能輕鬆解決的比賽。De Bruyne 的視野與 Doku 的速度，終將在比賽後段撕開體力下滑的伊朗防線。",
+            "script_md": "別被 3.03 對 0.33 的進攻指數懸殊差距給騙了——這場比賽不會演變成板球比分。Iran 勢必會擺出極其誇張、毫不掩飾的「鐵桶陣」。Belgium 陣中擁有 21 名頂級聯賽球員，而 Iran 僅有 14 號 Saman Ghoddos（Al Ittihad Kalba SCC）一名具備頂級聯賽數據的球員。這將是一場典型的攻防圍城戰。\n\n整場比賽的關鍵在於 Belgium 的頂尖邊路球員 Jérémy Doku 和 Leandro Trossard，能否成功拉開空間並「吃掉」Iran 的本土邊後衛，如 2 號 Saleh Hardani（Esteghlal Tehran FC）和 23 號 Ramin Rezaeian（Foolad Khuzestan FC）。這在速度與靈活性上是完全不對等的較量，但屆時場上的空間將會極度壓縮。\n\n比賽初期，Belgium 預計會感到相當挫折。Iran 將會深度回防，塞滿禁區以窒息 Romelu Lukaku，並誘使 Belgium 不斷傳出毫無目標的傳中球。突破口不會來自蠻力，而會出現在下半場——當 Kevin De Bruyne 不再將球傳入那台「絞肉機」，而是精準地塞球給內切的 Trossard 或 Lukébakio 時。一旦 Belgium 取得首顆進球，Iran 就必須壓出來進攻，這將為 Belgium 留下鎖定勝局的第二球空間。\n\n2-0 的比分反映了攻破一支頑強、深度防守的弱旅時的嚴峻現實——這需要耐心與後期的執行力，而不僅僅是帳面上的火力。這場比賽唯一可能爆冷的途徑，就是 1 號 Alireza Beiranvand（Tractor Sazi Tabriz FC）化身為銅牆鐵壁，導致 Belgium 自亂陣腳，隨後由 9 號 Mehdi Taremi（Olympiacos FC）在罕見且孤立的反擊中偷襲得手。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.12,
+              "A": 0.03
+            },
+            "confidence": 0.88,
+            "key_risk": "伊朗靠定位球偷一個，Courtois撲點失手",
+            "reasoning_md": "比利時攻擊火力3.03對0.33，伊朗全隊只有14號Ghoddos有頂級聯賽資料，差距大到風格剋不剋都無所謂。",
+            "script_md": "### 整體判讀\n比利時攻擊指數3.03，伊朗0.33，差距近十倍；伊朗26人裡只有14號Saman Ghoddos（Al Ittihad Kalba）有歐洲頂級聯賽資料，其餘全是伊朗聯賽或中東俱樂部，硬實力被碾壓。\n\n### 關鍵對位\n- 比利時右路：Dodi Lukébakio（Benfica，xG90 0.52）+ Timothy Castagne（Fulham）對伊朗左邊衛3號Ehsan Hajsafi（Sepahan），速度與身體全面吃虧。\n- 中路：Kevin De Bruyne（Napoli，xG90 0.19）面對伊朗6號Saeid Ezatolahi（Shabab Al Ahli），技術與視野差兩檔。\n- 伊朗唯一能威脅的點：9號Mehdi Taremi（Olympiacos）靠反擊爭二點，但比利時中衛Theate+Debast身高與對抗不吃虧。\n\n### 比賽劇本\n1. **早段（0-15分鐘）**：比利時高位逼搶，伊朗被迫長傳找Taremi，第12分鐘Lukébakio右路內切射門被撲，Lukaku補射1-0。\n2. **中段（15-60分鐘）**：伊朗收縮5-4-1，但De Bruyne兩次直塞撕開防線，Trossard第38分鐘單刀2-0。\n3. **末段（60-90分鐘）**：伊朗換上18號Amirhossein Hosseinzadeh（Tractor）打反擊，第75分鐘獲得前場自由球，Taremi頭球被Courtois神撲。補時階段De Ketelaere禁區混戰再進一球，3-0。\n\n### 為什麼是3-0\n比利時每場預期貢獻2.68，伊朗防線全是本土聯賽級別，擋不住多點開花；伊朗預期1.97主要靠定位球，但面對Courtois基本沒戲。\n\n### 翻盤條件\n伊朗必須上半場靠定位球偷一個，然後死守+門將超神；一旦先丟球，0.33的攻擊指數追分機率接近零。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.09,
+              "A": 0.03
+            },
+            "confidence": 0.82,
+            "key_risk": "伊朗透過 Taremi 的定位球破門，或是 Belgium 的防守失誤而險勝。",
+            "reasoning_md": "比利時以 3.03 的進攻指數及眾多頂級聯賽的創造者，輾壓了伊朗僅 0.33 的指數以及幾乎完全缺乏頂級數據的表現；預期這將是一場由主隊掌控的勝利。",
+            "script_md": "比利時從開賽哨響便掌控了控球權與場上區域，由 De Bruyne 和 Trossard 在中場及邊路穿針引線，同時 Lukaku 與 De Ketelaere 則在禁區內牽制對手。伊朗採取低位防守（low block）陣型，僅依靠 9 號 Mehdi Taremi (Olympiacos FC) 與 14 號 Saman Ghoddos (Al Ittihad Kalba SCC) 進行零星的反擊，但鮮少對 Courtois 造成威脅。比利時在 25 分鐘左右透過 Trossard 的回傳或 De Bruyne 的直塞球打破僵局，隨後在持續施壓下，於半場結束前由 Lukaku 或 Lukébakio 再下一城。下半場伊朗仍保持陣型緊湊，但缺乏創造持續威脅的能力，讓比利時得以在比賽尾聲透過反擊或定位球攻入第三球。3-0 的比分反映了比利時在陣容深度上的巨大優勢，以及伊朗在各個位置上皆無法與其火力抗衡的事實。除非比利時出現早期的防守失誤，或是 Taremi 在死球狀態下展現個人靈光一閃的表現，否則這將是伊朗避免慘敗的唯一現實途徑。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "比利時",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.08,
+              "A": 0.04
+            },
+            "confidence": 0.85,
+            "key_risk": "伊朗全隊龜縮死守，拖慢節奏，比利時久攻不下反而被 Taremi 偷一腳反擊。",
+            "reasoning_md": "比利時贏定了，這是頂級聯賽球隊打地區聯賽球隊，火力指數 3.03 碾壓 0.33，差距大到不用算。伊朗全隊只有 1 人有頂級聯賯資料，中後場全在亞洲聯賽踢球，面對 De Bruyne 跟 Trossard 的等級，根本扛不住。",
+            "script_md": "### 整體判讀\n這場沒什麼好拐彎抹角的。比利時陣容攻擊指數 3.03，伊朗 0.33，差了快十倍。比利時 21/26 人在頂級聯賯踢球，伊朗只有 1/26，名單拿出來一比，根本是不同級別的球隊在踢球。伊朗唯一的本錢就是身體對抗跟死守，但你要守 90 分鐘不漏，得要有夠等級的後衛，他們沒有。\n\n### 關鍵對位\n- **比利時的攻擊群太豪華**：Trossard（Arsenal，xG90 0.52）跟 Lukébakio（Benfica，xG90 0.52）兩翼齊飛，De Ketelaere（Atalanta，xG90 0.33）在中路做軸，De Bruyne（Napoli，xG90 0.19）負責餵球。這組合放在世界盃都是頂級。\n- **伊朗的命門在後場**：4號 Shojae Khalilzadeh（Tractor Sazi Tabriz FC）跟 13號 Hossein Kanaanizadegan（Persepolis FC）這對中衛搭檔，整季都在亞洲聯賽踢，面對 Lukaku（Napoli，xG90 0.40）的身體衝撞，我看撐不過 60 分鐘就要崩。\n- **伊朗唯一能看的人**：9號 Mehdi Taremi（Olympiacos FC）是全隊唯一有歐洲俱樂部背景的鋒線，但他一個人救不了全隊，中場 7號 Alireza Jahanbakhsh（FCV Dender EH）在荷甲都踢不上主力了，供輸完全斷層。\n\n### 比賽劇本\n- **早段（0-20 分鐘）**：比利時一開賽就壓著踢，伊朗擺鐵桶陣。De Bruyne 在中場隨便傳，Doku 跟 Trossard 兩邊輪流衝。伊朗前 15 分鐘還能靠身體硬頂。\n- **中段（20-60 分鐘）**：比利時一定會破門。最可能的方式是 Trossard 或 Lukébakio 在邊路 1v1 打爆伊朗邊衛 5號 Milad Mohammadi（Persepolis FC），傳中給 Lukaku 吃餅。一旦 1-0 開胡，伊朗被迫壓出來，那就完了，比利時反擊一打一個準。\n- **末段（60-90 分鐘）**：2-0 之後比利時收一收，控球為主。但伊朗體能下降、注意力渙散，De Ketelaere 或替補上來的球員再補一刀，3-0 收工。\n\n### 為什麼是 3-0\n比利時火力夠，但世界盃小組賽沒必要趕盡殺絕，2-0 領先後就會收著踢。伊朗進攻能力太差（全隊預期貢獻 1.97，但對手等級完全不同），要進比利時的門，得先過 Courtois（Real Madrid）這關，我看是進不了。3-0 剛好，不誇張也不保守。\n\n### 什麼情況會翻盤\n只有一種可能：比利時自己出問題。要嘛 De Bruyne 或 Lukaku 傷退，要嘛全隊心不在焉、以為隨便踢就贏，結果被 Taremi 抓一個反擊偷進球，然後伊朗全隊縮成 10-0-0 死守到底。但說真的，這個劇本發生的機率不到 5%。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1842,7 +2068,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "烏拉圭",
+        "win_prob": 0.863,
+        "agree": "7/7 models",
+        "predicted_score": "3-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.87,
+              "D": 0.1,
+              "A": 0.03
+            },
+            "confidence": 0.78,
+            "key_risk": "烏拉圭將場上的優勢轉化為低質量的進攻數據（浪費射門機會），並因一次輕易的定位球防守失誤而導致失球，終結了零封紀錄。",
+            "reasoning_md": "Uruguay 輕鬆取勝：進攻產出差距（2.95 對 0.29）以及 Núñez 頂尖的 xG（預期進球）效率，應能壓制缺乏頂級火力的 Cape Verde。若 Uruguay 先馳得點，比賽將演變成單方面的圍攻，並極有可能在 Giménez 與 Araújo 的防守下保持零失球。",
+            "script_md": "### 整體分析\n- 從純粹的數據產出來看，這是一場實力懸殊的對決：Uruguay 的進攻指數（1.84）與賽事貢獻度（2.95）顯示出持續的壓制力，而 Cape Verde（0.45；0.29）看起來像是一支只能勉強求生的球隊。\n- Uruguay 同時擁有足以瓦解反擊的防守中軸：José Giménez (Atlético) 和 Ronald Araújo (Barcelona) 應能將對手的轉換進攻在形成射門前就予以化解。\n\n### 關鍵對位 / 球員\n- **Darwin Núñez** (xG/90 **0.85**) 是此役的重型武器：只要持續餵球，防線終將崩潰。\n- **Federico Valverde** 與 **Rodrigo Bentancur** 為 Uruguay 提供了控球權與第二波進攻的跑動；Cape Verde 的中場整晚將疲於奔命。\n- Cape Verde 最大的希望在於 **No.7 Jovane Cabral (CF Estrela Da Amadora)** 能靈光一現，以及 **No.5 Logan Costa (Villarreal CF)** 在定位球上的威脅。\n\n### 比賽劇本（前段 → 中段 → 後段）\n- Uruguay 在主場開局強勢：高位壓迫、早早傳中與倒三角回傳，Valverde 積極爭搶第二落點。首個進球將在半場前出現——極大機率是 Núñez 在持續施壓後，於六碼區內完成破門。\n- 一旦 Uruguay 取得領先，Cape Verde 的戰術將轉為純粹的損害控管：**No.1 Vozinha (GD Chaves)** 將面臨源源不絕的射門，而解圍球只會引來下一波攻勢。\n- 比賽中段：Uruguay 的中場將 Cape Verde 壓制在半場內；Bentancur/de la Cruz/Arrascaeta 持續組織進攻，直到第二個進球出現——可能是 Núñez 梅開二度，或是中場球員插上破門。\n- 比賽後段，Cape Verde 因形勢所迫必須壓上，Uruguay 將利用反擊或定位球攻入第三球。\n\n### 為何預測 3-0\n- Uruguay 的數據顯示他們能攻入多球，但國際賽事的節奏以及 Cape Verde 的深度防守通常會將比分限制在「舒適」的範圍，而非網球比分。Cape Verde 的進攻貢獻度極低，因此 Uruguay 零封對手是預期中的結果。\n\n### 變數（翻盤點）\n- 若 Uruguay 在開局錯失大好機會並變得急躁，Cape Verde 有機會僵持住局面——屆時一次定位球（Logan Costa）或 Jovane Cabral 罕見的反擊，可能讓比賽變成令人緊張的 1-0 或 1-1。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.74,
+              "D": 0.18,
+              "A": 0.08
+            },
+            "confidence": 0.62,
+            "key_risk": "烏拉圭的自滿加上 Cape Verde 的「擺大巴」戰術——如果 Núñez 經歷一個揮霍機會的夜晚，而 Vozinha 又狀態神勇，這場比賽將會變成一場令人沮喪的 0-0 或 1-0 苦戰。",
+            "reasoning_md": "烏拉圭的實力、陣容深度以及 Darwin Núñez 的火力（每 90 分鐘 0.85 的預期進球值 xG 遠超 Cape Verde 的任何球員）使他們成為穩操勝券的熱門球隊——Cape Verde 僅 0.45 的進攻指數根本無法與之抗衡。因此，這將是一場節奏受控的主場勝利，但不會演變成大屠殺，因為首次參賽的黑馬球隊防守站位較深，且烏拉圭有時會顯得漫不經心。",
+            "script_md": "**整體解讀：** 這是一場火力不對等的對決，但不會演變成一面倒的屠殺。Uruguay 的進攻指數為 1.84，遠高於 Cape Verde 的 0.45。關鍵在於 Uruguay 擁有 Darwin Núñez（每 90 分鐘預期進球值 xG 為 0.85）這位真正的頂級終結者，以及由 Valverde、Bentancur、Araújo 和 Giménez 組成的歐冠級別中軸線。Cape Verde 是一支依靠韌性而非進球能力、組織嚴密的球隊——他們最具威脅的球員是 7 號 Jovane Cabral (CF Estrela Da Amadora)，但其每 90 分鐘預期進球值僅為 0.17，且球隊板凳深度不足（26 人名單中僅 2 人有頂級聯賽數據）。\n\n**關鍵對位：** 比賽焦點在於 Cape Verde 的後防線——5 號 Logan Costa (Villarreal CF) 與 4 號 Roberto Lopes (Shamrock Rovers FC)——能否成功壓制 Núñez 以及 Valverde 和 Pellistri 的跑動。Costa 是他們陣中唯一具備頂級聯賽資歷的後衛；一旦他陷入孤立無援，Uruguay 的跑位將徹底撕裂防線。在另一端，Cape Verde 的希望寄託於 7 號 Cabral 和 10 號 Jamiro Monteiro (PEC Zwolle) 能否在反擊或定位球中偷襲得手，但面對 Araújo 和 Giménez，他們將難以創造出機會。\n\n**比賽劇本：** 預計 Cape Verde 開賽後會採取深度防守並保持陣型緊湊，試圖製造挫折感並維持 0-0 的僵局——這是世界盃弱旅的經典藍圖。Uruguay 會進行試探並錯失幾次機會（Núñez 的表現向來極具戲劇性的不穩定），隨後在半小時至下半場中段取得突破，進球者很可能是 Núñez 或來自 Valverde 的遠射。一旦首開紀錄，Cape Verde 必須壓上進攻，防線空檔隨之出現，Uruguay 將透過反擊或 Núñez 的機會再下一城。比賽末段，在勝券在握的情況下，Uruguay 會進行輪換並放慢節奏，而非持續猛攻。\n\n**為何預測 2-0：** 天賦差距顯示 Uruguay 將輕鬆勝出，但考慮到對手採取深度防守以及 Núñez 的揮霍機會，比分將受到限制——我不認為這場比賽會出現 4-0。面對低位防守取得兩顆乾淨俐落的進球，是較為客觀的預測。\n\n**變數：** 如果 Uruguay 將此役視為散步，且門將 Vozinha (GD Chaves) 有神級演出，Uruguay 可能會因久攻不下而感到焦躁，最終演變成 1-0 的險勝，甚至出現 0-0 的爆冷平局。若 Cabral 能在逆境中透過反擊進球，將會真正動搖 Uruguay 的軍心——這是 Cape Verde 爆冷唯一的現實路徑。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.09,
+              "A": 0.03
+            },
+            "confidence": 0.92,
+            "key_risk": "烏拉圭大幅輪換練兵，導致前場默契不足，上半場久攻不下。",
+            "reasoning_md": "烏拉圭血洗級大勝。攻擊力 1.84 對 0.45 是天與地的差別，維德角全隊只有 2 人在頂級聯賽踢球，根本是拿水果刀對大砲。",
+            "script_md": "① 整體判讀：這不是同一個量級的對決。烏拉圭攻擊指數 1.84，場均預期貢獻 2.95，火力是維德角（0.29）的十倍。維德角陣容深度極差，全隊只有後衛 Logan Costa 和中場 Jovane Cabral 有頂級聯賽資料，其餘球員遍佈業餘或半職業聯賽，根本扛不住高強度衝擊。\n\n② 關鍵對位：烏拉圭 9 號 Darwin Núñez（Al Hilal SC）的 xG90 高達 0.85，他一個人就抵過維德角全隊的攻擊期望值。維德角 5 號 Logan Costa（Villarreal CF）是唯一勉強能對位的後衛，但他 xG90 只有 0.06，面對 Núñez 的衝擊力和 Valverde 的後插上遠射，會被生吞活剝。維德角 7 號 Jovane Cabral（CF Estrela Da Amadora）xG90 僅 0.17，烏拉圭 4 號 Ronald Araújo（FC Barcelona）能輕鬆鎖死這個唯一反擊點。\n\n③ 比賽劇本：開場 15 分鐘內烏拉圭就會靠 Núñez 的頭球或 Valverde 的禁區外爆射破門。維德角被迫稍微壓出，後場空檔更大，上半場尾聲烏拉圭再進一球，2-0 進入更衣室。下半場 60 分鐘後，維德角體能下滑，替補席完全沒深度，烏拉圭靠 Pellistri 的邊路突破和定位球（Giménez、Araújo 搶點）再灌兩球，輕鬆寫意。\n\n④ 為什麼是 4-0：烏拉圭領先後會降速控場，不會往死裡打，但維德角連基本的由守轉攻都做不好，全場可能零射正。4-0 是「贏得舒服但不過分羞辱」的合理比分。\n\n⑤ 翻盤條件：除非烏拉圭開場就紅牌少打一人，且維德角靠唯一有速度的 7 號 Jovane Cabral 偷一個反擊後全員堵門，否則爆冷機率為零。連平局都需要奇蹟。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.85,
+              "D": 0.12,
+              "A": 0.03
+            },
+            "confidence": 0.9,
+            "key_risk": "Darwin Núñez 經歷了他那種惡名昭彰的「混亂射門日」，將一場原本能輕鬆大勝的比賽，變成了一場令人沮喪且比分低迷的苦戰。",
+            "reasoning_md": "烏拉圭擁有 Darwin Núñez 純粹的身體素質以及 Federico Valverde 的遠射能力，這兩者是破解鐵桶陣的終極利器。Cape Verde 或許會採取死守戰術，但他們來自低級別聯賽的後衛群，根本無法抵擋長達 90 分鐘、高強度的頂級壓迫。",
+            "script_md": "這場比賽是一場單方面的執行。Cape Verde 的進攻指數僅有微不足道的 0.45，這意味著他們別無選擇，只能擺出「雙層巴士」陣型，退守深處，祈禱能以 0-0 逼和。\n\n對於這支弱旅來說，問題在於 Uruguay 擁有破解鐵桶陣所需的精確工具。Darwin Núñez (Al Hilal SC) 將作為純粹的攻城槌，對抗由 Cape Verde 4 號 Roberto Lopes (Shamrock Rovers FC) 與 5 號 Logan Costa (Villarreal CF) 組成的防線。Costa 確實是頂級聯賽水準的球員，但 Lopes 在空中對抗和邊路防守中，將會被 Núñez 的身體素質徹底摧毀。\n\n即便 Cape Verde 擠滿禁區並壓縮 Núñez 的空間，Uruguay 也不需要透過傳導將球送進球門。Federico Valverde 只需在 30 碼外發動遠射砲火，就能打破僵局。預計 Uruguay 會在開賽後發動猛攻，一旦在 25 分鐘左右取得首個進球，Cape Verde 的整套戰術計畫就會隨之崩潰。\n\n他們完全沒有追分的火力，主要威脅 Cape Verde 7 號 Jovane Cabral (CF Estrela Da Amadora) 將會陷入孤立無援，並被 Ronald Araújo 和 Manuel Ugarte 完全吞噬。我預測這將是一場 3-0 的輕鬆大勝。唯一能讓 Cape Verde 免於慘敗的變數，就是 Núñez 把射門靴忘在飯店，並浪費掉半打以上的絕佳進球機會。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.09,
+              "A": 0.03
+            },
+            "confidence": 0.85,
+            "key_risk": "Cape Verde 7號 Jovane Cabral（CF Estrela Da Amadora）靠個人速度偷一次反擊偷雞",
+            "reasoning_md": "烏拉圭火力深度碾壓，Cape Verde 只有兩人踢過頂級聯賽，根本撐不住 90 分鐘；除非烏拉圭前 20 分鐘浪射，否則就是屠殺。",
+            "script_md": "① 整體判讀：烏拉圭攻擊指數 1.84 vs 0.45，深度 12 人 vs 2 人，完全兩個世界。Cape Verde 後衛線除了 5 號 Logan Costa（Villarreal CF）外全是二三級聯賽，身體對不上 Núñez 和 Valverde。\n② 關鍵對位：Darwin Núñez（Al Hilal SC）xG90 0.85，對位 Cape Verde 22 號 Steven Moreira（Columbus Crew）+ 4 號 Roberto Lopes（Shamrock Rovers FC），這兩人聯賽等級低兩檔，速度、彈跳全吃虧。Valverde 遠射+二點插上，Cape Verde 中場 6 號 Kevin Pina（FC Krasnodar）單防擋不住。\n③ 比賽劇本：開場 10 分鐘烏拉圭就高壓逼搶，Cape Verde 只能長傳找 7 號 Jovane Cabral 單兵突襲；第 18 分鐘 Núñez 頭槌破門，0-1。30 分鐘後 Cape Verde 全線收縮 5-4-1，但定位球被 4 號 Araújo（FC Barcelona）頂進第二球。下半場 70 分鐘烏拉圭換上 Pellistri 打反擊，再下一城，3-0 打卡下班。\n④ 為什麼 3-0：烏拉圭每場預期 2.95 球，Cape Verde 僅 0.29；烏拉圭三線全歐洲頂級，Cape Verde 只有兩人踢過五大聯賽，體能 60 分鐘後崩盤。\n⑤ 翻盤條件：Cape Verde 必須靠 7 號 Jovane Cabral 一次反擊偷雞＋烏拉圭前 20 分鐘浪射＋門將 Vozinha（GD Chaves）神撲 8 次，三個條件同時發生，機率 3%。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.87,
+              "D": 0.11,
+              "A": 0.02
+            },
+            "confidence": 0.84,
+            "key_risk": "Cape Verde 採取鐵桶陣，並靠著 Logan Costa 的定位球破門得分。",
+            "reasoning_md": "烏拉圭以 1.84 的進攻指數與 2.95 的預期貢獻值，輾壓了 Cape Verde 的 0.45/0.29；單是 Núñez 一人的數據就超越了對手全隊。",
+            "script_md": "Uruguay 從開賽哨響便展現宰制力，由 Valverde 與 Bentancur 掌控中場，並透過 Núñez 拉開防線。Cape Verde 採取深度防守，依靠 5 號 Logan Costa (Villarreal CF) 與 2 號 Stopira 試圖在夾縫中求生存。上半場結束前，Pellistri 發動攻勢，由 Núñez 率先破門。下半場隨著 Cape Verde 體力下滑且陣型潰散，Uruguay 再添兩球，其中第三球由 de Arrascaeta 與 Valverde 聯手攻入。比分能維持清白，歸功於 Uruguay 的板凳深度讓他們在輪換時仍能保持控制力。除非出現罕見的定位球失誤或 Núñez 領到紅牌，否則戰局難以翻轉。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "烏拉圭",
+            "predicted_score": "4-0",
+            "win_prob": {
+              "H": 0.95,
+              "D": 0.04,
+              "A": 0.01
+            },
+            "confidence": 0.93,
+            "key_risk": "Darwin Núñez 單刀吐餅大會，全場 xG 破 3.5 但只進一球，加上 Cape Verde 門將 Vozinha 開掛，最後只贏一兩球。",
+            "reasoning_md": "烏拉圭贏定了，這不是預測是常識。攻擊指數 1.84 碾壓 0.45，陣容深度 12 人有頂級聯賽資料對人家 2 人，這叫降維打擊不叫比賽。",
+            "script_md": "### 整體判讀：大人在打小孩\n\n這場比賽沒有懸念，只有屠殺。烏拉圭陣容攻擊指數 1.84，Cape Verde 0.45，差了四倍。深度？烏拉圭 12/26 人踢頂級聯賽，Cape Verde 只有 2/26 人。這不是同個級別的比賽，這是老鷹抓小雞。\n\n### 關鍵對位：中場直接碾過去\n\nCape Verde 中場核心 10號 Jamiro Monteiro（PEC Zwolle）和 6號 Kevin Pina（FC Krasnodar）要面對的是 8號 Federico Valverde（Real Madrid，xG90 0.13）加 6號 Rodrigo Bentancur（Tottenham，xG90 0.14）這種等級的中場。這兩個人加起來的薪水和實力，可能比 Cape Verde 整隊還高。Valverde一個人就能把中場搶爆，Bentancur負責分球，Cape Verde 連過半場都困難。\n\nCape Verde 唯一能看的是 5號 Logan Costa（Villarreal，xG90 0.06），這傢伙在黃潛踢球，是陣中唯一能跟烏拉圭球員對話的人。但他一個人扛不住整條防線。\n\n### 比賽劇本\n\n**早段（0-20分）：** 烏拉圭開賽就壓著打。9號 Darwin Núñez（Al Hilal，xG90 0.85）這個進球機器每90分鐘預期進球 0.85，面對 Cape Verde 這種等級的後衛，前20分鐘就能製造至少兩個絕對機會。第一球大機率在15分鐘前進，Núñez 或 10號 de Arrascaeta（CR Flamengo）破門。\n\n**中段（20-60分）：** 烏拉圭 2-0 領先後會稍微收一下，讓 Cape Verde 出來。但 Cape Verde 的 7號 Jovane Cabral（CF Estrela Da Amadora，xG90 0.17）是唯一有頂級聯賽資料的攻擊手，他一個人反擊威脅有限。烏拉圭中場 Ugarte（Manchester United）負責掃蕩，Cape Verde 反擊過不了中線。第35-45分鐘，定位球或邊路傳中，Araújo（Barcelona）或 Giménez（Atlético Madrid）頭球砸進去，3-0。\n\n**末段（60-90分）：** 烏拉圭開始輪換，Pellistri（Panathinaikos，xG90 0.16）和替補上來收割。Cape Verde 體力崩了，後防線 3號 Diney（Al Bataeh Club）和 2號 Stopira（SCU Torreense）這種等級的後衛，到70分鐘已經被衝垮。第75分鐘左右再進一球，4-0。\n\n### 為什麼是 4-0\n\n烏拉圭每場預期貢獻 2.95，面對 Cape Verde 這種等級的對手，只會更高不會更低。Cape Verde 每場 0.29，面對 Araújo+Giménez 這條防線，大概連 0.1 都摸不到。4-0 是我給的最合理的比分，烏拉圭進球能力擺在那，Cape Verde 攻擊力基本為零。\n\n### 什麼情況會翻盤\n\n翻盤？不存在的。唯一能讓這場比賽變難看的是：Núñez 瘋狂吐餅（他有這個傳統），全場 xG 破 3.5 但只進一球，加上 Cape Verde 門將 1號 Vozinha（GD Chaves）開掛撲十幾個。那樣可能變成 1-0 或 2-0，但 Cape Verde 贏？做夢去吧。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1854,7 +2193,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "埃及",
+        "win_prob": 0.622,
+        "agree": "6/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.18,
+              "D": 0.24,
+              "A": 0.58
+            },
+            "confidence": 0.64,
+            "key_risk": "紐西蘭正試圖將比賽轉變為空中對抗與定位球的肉搏戰，讓 **Chris Wood** 能憑藉一兩次關鍵機會來決定勝負。",
+            "reasoning_md": "埃及獲勝是因為他們擁有 Salah 和 Marmoush 這兩位真正的比賽決勝者，並且在進攻能力上具有明顯優勢（1.74 對 0.97）。New Zealand 的進攻套路基本上就是依靠 Wood 加上定位球，除非埃及隊送出轉換進攻的機會，否則這在 90 分鐘的比賽中是不夠的。",
+            "script_md": "### 整體分析\n- 埃及擁有更強大的頂尖進攻威脅：**Mohamed Salah**（每 90 分鐘預期進球值 xG 0.77）加上 **Omar Marmoush**（0.44）是紐西蘭除了 **Chris Wood** 之外無法比擬的難題。\n- 紐西蘭會展現競爭力，但數據顯示其*頂尖深度不足*：如果 Wood 受到限制，他們的進攻機會數量將會迅速下滑。\n\n### 關鍵對位\n- **Salah 對陣紐西蘭左路**：如果 **紐西蘭 13 號 Liberato Cacace (Wrexham AFC)** 被壓制在後場，Salah 將能切入內線並開始撕裂防線。\n- **Marmoush 衝擊防線** 對陣 **紐西蘭 5 號 Michael Boxall (Minnesota United FC)** / **4 號 Tyler Bindon (Sheffield United FC)**：速度與跑位對抗不擅長轉身回追的防線。\n- 紐西蘭唯一的明確進攻手段：透過 **紐西蘭 10 號 Sarpreet Singh (Wellington Phoenix FC)** 的支援以及像 **11 號 Elijah Just (Motherwell FC)** 這類跑動型球員，將球快速吊入禁區或傳中給 **Wood**。\n\n### 比賽劇本（賽況預測）\n- **開局 (0–25')**：埃及開賽更敏銳且陣型壓得更靠前。Salah 向內切入吸引防守，埃及獲得首波真正的攻勢——無論是倒三角回傳機會，還是禁區周圍的二次進攻射門。\n- **中段 (25–70')**：紐西蘭穩住陣腳並將比賽節奏變亂：直接長傳找 Wood、利用界外球和角球。他們會獲得一段施壓時間，且 Wood 勢必會得到一次絕佳機會。\n- **但埃及先馳得點**：預計由 Salah 發動攻勢——他可能親自破門，或為從左右半空間插上的 Marmoush 創造路徑。**0-1 埃及領先**。\n- **尾聲 (70–90')**：紐西蘭換上更多跑動型球員並終於有所斬獲：透過傳中、頭球擺渡或定位球——**Wood** 將比分扳平為 **1-1**，因為這就是頂尖 xG/90 前鋒在獲得餵球時會做的事。\n- 隨後決勝關鍵出現：埃及不需要太多機會；**Salah/Marmoush** 在反擊或二次進攻中再次製造決定性的一擊。**1-2 埃及獲勝**，並以控球結束比賽。\n\n### 為何預測此比分\n- 紐西蘭絕對有能力進球（Wood 的 0.67 xG/90 是貨真價實的），但埃及的*雙箭頭*威脅加上更高的進攻指數，應能多創造出一個進球。\n\n### 什麼情況會翻盤\n- 如果埃及無法防守轉換進攻，整場比賽讓 **紐西蘭 10 號 Sarpreet Singh (Wellington Phoenix FC)** 頻繁地將球傳給 Wood，比賽將變成五五波的定位球大戰——而這正是爆冷門的溫床。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.24,
+              "D": 0.3,
+              "A": 0.46
+            },
+            "confidence": 0.55,
+            "key_risk": "埃及的防線完全由國內聯賽球員組成，容易出現疏漏，再加上世界盃賽事的變數——如果 Salah 表現沉寂，比賽結果可能會翻盤為平局，或是由 NZ 爆冷取勝。",
+            "reasoning_md": "埃及的火力優勢是貨真價實的——**Salah** 和 **Marmoush** 的等級遠高於紐西蘭陣中的任何球員——這將成為勝負關鍵。但紐西蘭球風強悍、訓練有素，且擁有 **Chris Wood** 能懲罰埃及不穩的後防線，因此這場比賽的差距會比帳面名單看起來更小。",
+            "script_md": "**整體解讀：** Egypt 明顯是進攻能力較強的一方——進攻指數為 1.74 對 0.97，且關鍵在於他們擁有 Salah 和 Marmoush 這兩位具備英超前六名水準的頂尖進攻核心。New Zealand 的球隊風格完全建立在勤奮、組織紀律以及一名頂尖終結者身上；他們的進攻深度不足（幾乎全靠 Wood 一人扛起）。反過來說：Egypt 的防線完全由國內聯賽球員組成（來自 Al Ahly、Zamalek 和 Pyramids），只有身穿 6 號球衣的 Abdelmonem（效力於 OGC Nice）在歐洲頂級聯賽踢球。這點是可以被針對的弱點。\n\n**關鍵對位：** Egypt 的 10 號 Salah（Liverpool，xG90 為 0.77）與 22 號 Marmoush（Man City，0.44）將對上 New Zealand 由 Bindon、Boxall 和 Cacace 組成的防線——他們雖是稱職的職業球員，但實力仍低了一個檔次。New Zealand 的勝負關鍵在於 9 號 Chris Wood（0.67）能否憑藉身體優勢壓制 Egypt 的中後衛 Yasser Ibrahim 和 Abdelmonem，並接應來自 10 號 Sarpreet Singh 的傳球以及 13 號 Cacace 的傳中。需留意 Egypt 7 號 Trézéguet 和 25 號 Zizo 在邊路的進攻。\n\n**比賽劇本：** 預計 New Zealand 會採取深度防守，保持陣型緊湊，並在開局階段將比賽節奏拖慢——他們不會主動搶攻，而是會採取守勢，並尋求透過反擊或定位球（他們的制空高度是一項真正的武器）將球交給 Wood。Egypt 應能掌控控球權，並在 30 分鐘左右透過 Salah 的內切或 Marmoush 的跑位尋求突破。New Zealand 很可能會做出回應——Wood 正是那種能在面對緊張的國內聯賽防線時偷進一球的球員，進球可能來自角球或反擊。比賽後段，Egypt 更優異的個人能力將會顯現，並以微弱優勢再次領先。\n\n**為何預測 1-2：** 這不會是一場大勝——New Zealand 的組織太過嚴密，而 Egypt 的防守又太過平庸——但 Egypt 擁有兩名能決定比賽的球員，而 New Zealand 只有一名。兩次精彩的個人表現將勝過一次。\n\n**變數：** 如果 Salah 被成功限制，且 Egypt 的控球變得毫無威脅（這很有可能發生——他們目前的「預期貢獻值」實際上比 New Zealand 還低），比賽將演變成 1-1 的拉鋸戰，甚至可能出現 New Zealand 靠著 Wood 的頭槌完成「偷襲」獲勝的情況。世界盃小組賽的變數加上被動的熱門球隊，正是弱隊搶分的典型劇本——若最終戰平，請不要感到驚訝。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.25,
+              "A": 0.6
+            },
+            "confidence": 0.72,
+            "key_risk": "Chris Wood 定位球頭球搶點，紐西蘭透過死球戰術先偷進球後全線死守",
+            "reasoning_md": "埃及鋒線雙核 Salah 與 Marmoush 個人能力遠超紐西蘭防線，但紐西蘭有 Chris Wood 這門重砲，若埃及久攻不下，可能被反咬。",
+            "script_md": "① 整體判讀：埃及陣容攻擊實力指數 1.74 明顯壓過紐西蘭的 0.97，且中前場擁有世界級爆點。紐西蘭僅靠 9 號 Chris Wood（Nottingham Forest）單點支撐，其 xG90 達 0.67，但隊友輸送有限，整隊其餘僅 13 號 Cacace 有頂級資料但威脅近乎零。埃及三線有旅歐球員壓陣，控制力佔優。\n\n② 關鍵對位：埃及 10 號 Salah（Liverpool，xG90 0.77）將反覆針對紐西蘭左路 3 號 Francis de Vries（Auckland FC），節奏與爆發力差距懸殊；另一側 22 號 Marmoush（Manchester City，xG90 0.44）的內切會讓紐西蘭中衛 4 號 Tyler Bindon（Sheffield United）極度難受。紐西蘭唯一逆襲路徑是找 9 號 Wood，埃及中衛 6 號 Abdelmonem（OGC Nice）必須在身體對抗上限制其第一點。\n\n③ 比賽劇本：開場埃及主控，紐西蘭退守 5-4-1，前 20 分鐘埃及邊路傳中與遠射試探，紐西蘭門將 1 號 Crocombe（Millwall）忙碌。30 分鐘左右，Salah 一次內切造犯規或直接打門，可能迫使門將撲救脫手，Marmoush 補射先開紀錄，0-1。下半場紐西蘭被迫壓出，身後空間變大，65 分鐘埃及反擊，Salah 單刀鎖定 0-2。隨後埃及控節奏，紐西蘭靠定位球讓 Wood 爭頂製造險情，但無法破門。\n\n④ 為何是 0-2：埃及破密集需靠個人靈光，兩球領先後不再冒險，紐西蘭全場預期進球難過 0.5，Wood 被包夾難有作為，零封合理。\n\n⑤ 翻盤條件：紐西蘭上半場死守成功，且在下半場一開始利用角球或自由球由 9 號 Wood 頭球破門，1-0 後全員縮回半場堆積肉盾，埃及情緒急躁失誤增多，可能爆冷 1-0 或 1-1。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "DRAW",
+            "selection_team": "和局",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.4,
+              "A": 0.35
+            },
+            "confidence": 0.75,
+            "key_risk": "Egypt 在前 15 分鐘取得進球，迫使 New Zealand 放棄低位防守，隨後在反擊中慘遭屠殺。",
+            "reasoning_md": "Egypt 擁有超級巨星，但 New Zealand 擁有終極的平衡戰力：厚顏無恥的低位防守（low block）以及 Chris Wood 在制空權上的絕對優勢。The Pharaohs 將會掌控球權，但缺乏足以撕裂密集防守的頂尖中場創造力，最終將導致一場令人沮喪且艱苦的僵局。",
+            "script_md": "別只看球衣背後的球星名字。每個人看到 Mohamed Salah 和 Omar Marmoush 就認為埃及能輕鬆過關，但這對「法老軍團」來說是一場風格上的夢魘。埃及的進攻指數高達 1.74，但看看他們的深度在哪裡——他們的中場完全由本土球員組成。這些來自 Al Ahly 和 Pyramids 的苦力型球員，缺乏拆解「10 人鐵桶陣」所必需的頂級精準傳球能力。New Zealand 很清楚自己在技術上處於劣勢；他們會擺出巨大的身體對抗型大巴，將比賽變成一場摔角大戰。\n\n關鍵戰役在於空間與定位球。New Zealand 的 5 號 Michael Boxall (Minnesota United FC) 和 4 號 Tyler Bindon (Sheffield United FC) 將會死守在禁區內，不給 Marmoush 任何身後空間。而在另一端，埃及的本土中後衛，例如 2 號 Yasser Ibrahim (Al Ahly FC)，必須面對 Chris Wood。Wood 在英超聯賽中繳出了 0.67 xG/90 的頂級數據——他是一個身體素質怪物，絕對會在空中對抗中碾壓他們。\n\n劇本將會這樣發展：New Zealand 從開賽哨響起就放棄 75% 的控球權。埃及將會在禁區外不斷傳導，期待 Salah 創造奇蹟，同時挫折感會逐漸累積。在比賽節奏之外，New Zealand 贏得一次輕鬆的角球或邊路自由球，然後 Wood 以頭槌破門震驚全場。埃及最終會憑藉 Salah 或 Marmoush 的個人天賦勉強扳平比分，但面對一支拚死防守的球隊，他們在尋求致勝球時將會技窮。\n\n我預測比分為 1-1 平手，這不是在騎牆，而是解讀戰術現實。New Zealand 的預期貢獻值 1.57 實際上高於埃及的 1.38 是有原因的；他們對於僅有的幾次醜陋機會擁有無情的效率。唯一能讓這場比賽變成埃及大勝的變數，就是法老軍團早早取得進球。如果 New Zealand 太早落後而被迫壓上進攻，Marmoush 將會在轉換進攻中徹底撕裂他們。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "1-3",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.2,
+              "A": 0.65
+            },
+            "confidence": 0.78,
+            "key_risk": "埃及後衛線全是國內聯賽班底，若被Wood單點爆破可能偷到1-1",
+            "reasoning_md": "埃及火力深度與個人質量碾壓，Salah+Marmoush雙箭頭對紐西蘭後衛全是降維打擊；紐西蘭只能靠Wood單點偷雞，整體差距兩檔。",
+            "script_md": "### ① 整體判讀\n埃及攻擊指數1.74對紐西蘭0.97，等於拿英超前六打英冠中游；Salah+Marmoush兩人xG90合計1.21，已經快追上紐西蘭全隊預期1.57。\n\n### ② 關鍵對位\n- **埃及右路Salah vs 紐西蘭左後衛13號Cacace（Wrexham）**：英甲級別邊衛對世界級邊鋒，90分鐘內至少三次一對一生吃。\n- **紐西蘭9號Wood（Forest） vs 埃及中衛5號Ramy Rabia（Al Ain）**：Wood是紐西蘭唯一頂級聯賽火力點，Rabia轉身慢，定位球是紐西蘭唯一破口。\n\n### ③ 比賽劇本\n- **早段（0-25'）**：埃及控球65%以上，Salah第18分鐘內切左腳死角先開紀錄。\n- **中段（25-70'）**：紐西蘭被迫回收5-4-1，靠Wood反擊；第55分鐘利用角球由4號Bindon（Sheffield Utd）頭槌扳平1-1。\n- **末段（70'+）**：埃及換上Trézéguet+Zizo雙翼衝擊，第78分鐘Marmoush接Salah直塞單刀2-1，補時第93分鐘Trézéguet反擊再下一城鎖定3-1。\n\n### ④ 為什麼是1-3\n埃及火力點太多，紐西蘭後衛線除Bindon外全是澳超/美職聯級別，守不住90分鐘；埃及三線壓上後防空檔大，給Wood一次定位球偷雞，但整體差距擺在那。\n\n### ⑤ 翻盤條件\n埃及後衛線若集體短路＋門將El Shenawy撲救失常，讓Wood+Barbarouses兩次反擊得手，紐西蘭才可能爆冷2-2。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "0-3",
+            "win_prob": {
+              "H": 0.13,
+              "D": 0.18,
+              "A": 0.69
+            },
+            "confidence": 0.78,
+            "key_risk": "Chris Wood 靠著一次早期的反擊頭槌破門",
+            "reasoning_md": "埃及在進攻端展現出的明顯優勢（1.74 指數，Salah + Marmoush），對比紐西蘭單薄的陣容（0.97 指數，僅有 Wood），造就了一場輕鬆的客場勝利。",
+            "script_md": "- 整體解讀：Egypt 在進攻端的各個階段都展現出遠勝對手的質量與深度；New Zealand 缺乏足夠的球員在開放式比賽中與之抗衡。\n- 關鍵對位：Mohamed Salah (Liverpool) 與 Omar Marmoush (Manchester City) 撕裂了 New Zealand 的邊後衛防線；Chris Wood (Nottingham Forest) 則在面對以 Mohamed Abdelmonem (Nice) 為首的 Egypt 中後衛群時顯得孤立無援。\n- 比賽劇本：Egypt 開賽即展開高位壓迫，並由 Salah 在 25 分鐘內取得進球；失球後 New Zealand 採取退守策略；Marmoush 在半場結束前透過反擊攻入第二球；下半場 Egypt 掌控節奏，並在尾聲透過定位球頭槌攻入第三球。\n- 為何是 0-3：Egypt 的進攻火力優勢過於巨大，即便 New Zealand 擁有主場優勢，其有限的陣容深度也難以克服。\n- 翻盤關鍵：Wood 透過罕見的長傳球率先破門，隨後 New Zealand 全場死守（parking the bus）90 分鐘。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "埃及",
+            "predicted_score": "0-3",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.15,
+              "A": 0.75
+            },
+            "confidence": 0.82,
+            "key_risk": "紐西蘭全隊死守，靠 Chris Wood 在定位球偷到一球，最後變成 1-2 的緊張局面。",
+            "reasoning_md": "埃及贏定了。Salah 跟 Marmoush 兩條大腿的火力指數直接輾壓紐西蘭整條防線，這不是名氣問題，是資料上的降維打擊。",
+            "script_md": "### 整體判讀：實力完全不在同一個檔次\n別被世界盃預期貢獻那 1.57 vs 1.38 的資料騙了。埃及的陣容攻擊指數 1.74 直接輾壓紐西蘭的 0.97，這代表什麼？代表埃及前場的「創造力與終結能力」是紐西蘭的快兩倍。紐西蘭這套名單除了 Chris Wood，其他人連五大聯賽的門檻都摸不到；埃及這邊 Salah 跟 Marmoush 隨便一個拉出來，身價都能買下紐西蘭整條防線。這場比賽就是單方面的攻防演練。\n\n### 關鍵對位：紐西蘭防線被秒殺\n紐西蘭最大的悲劇在於他們的邊後衛。你看 2號 Tim Payne（Wellington Phoenix FC）跟 13號 Liberato Cacace（Wrexham AFC），這種級別的後衛在面對 Salah（xG90 0.77）跟 Marmoush（xG90 0.44）的時候，連拉衣角的機會都沒有。Salah 只要一個變向，這條防線就直接被撕裂。紐西蘭唯一的亮點是 9號 Chris Wood（Nottingham Forest FC），他的 xG90 高達 0.67，這是英超主力前鋒的水準，但他孤立無援，中場 6號 Joe Bell（Viking Stavanger）根本送不出能穿透埃及防線的傳球。\n\n### 比賽劇本：早段破門，全場控制\n- **早段（0-20分鐘）**：埃及開賽就搶攻。Salah 在右路拿球，紐西蘭後衛連犯規都來不及，埃及 15 分鐘內先進一球。\n- **中段（20-60分鐘）**：紐西蘭被迫壓上想找 Wood，結果後場露出大片空檔。Marmoush 跟 Trézéguet（Al Ahly FC）輪番衝擊，紐西蘭的 4號 Tyler Bindon（Sheffield United FC）會被速度吃死。埃及再進一球，2-0。\n- **末段（60-90分鐘）**：紐西蘭士氣崩潰，埃及換上替補繼續控制節奏。Salah 在 70 分鐘左右再進一球鎖定勝局，3-0。紐西蘭連像樣的反擊都組織不起來。\n\n### 為什麼是 0-3\n因為紐西蘭的進攻完全斷線。Wood 再強，拿不到球就是擺設。埃及的 6號 Mohamed Abdelmonem（OGC Nice）是五大聯賽等級的中衛，一對一防守 Wood 綽綽有餘。紐西蘭全場預期進球（xG）能破 0.5 就算偷笑了。而埃及這邊 Salah 跟 Marmoush 隨便跑位都能製造殺機，3 球是基本消費。\n\n### 什麼情況會翻盤\n除非埃及自己犯賤，開賽就被紅牌罰下一人，或者門將 1號 Mohamed El Shenawy（Al Ahly FC）突然腦抽送烏龍。不然紐西蘭要贏？做夢比較快。唯一能讓比分不那麼難看的，是紐西蘭全隊縮在禁區死守，靠 Wood 在定位球偷一個，變成 1-2。但你要他們守住 90 分鐘？不可能。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -1866,7 +2318,120 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "阿根廷",
+        "win_prob": 0.741,
+        "agree": "7/7 models",
+        "predicted_score": "3-1",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.68,
+              "D": 0.2,
+              "A": 0.12
+            },
+            "confidence": 0.64,
+            "key_risk": "奧地利的直接型前鋒搭檔（7號 Arnautović + 11號 Gregoritsch）在阿根廷的控制型打法穩定下來之前，將定位球／第二落點轉化為快速進球。",
+            "reasoning_md": "Argentina 之所以能贏，是因為他們的進攻深度完全是另一個層級（擁有數名每 90 分鐘 xG 值達 0.4–0.8 的威脅球員），即便一套戰術受阻，他們仍能持續施壓。Austria 前場雖有威脅，但整體戰力仍處於劣勢，將會花費太多時間在防守對手的攻勢浪潮上。",
+            "script_md": "### 整體分析\n- 阿根廷的進攻能力指數（3.37）對比奧地利的（2.45）存在明顯差距：阿根廷擁有*更多*頂尖終結者，且創造機會的方式更多元，而不僅僅依賴單一球星。\n- 奧地利在結構上具備競爭力，並透過 7 號 Marko Arnautović (FK Crvena Zvezda) 和 11 號 Michael Gregoritsch (FC Augsburg) 展現出真正的進球威脅，但在 90 分鐘的比賽中，他們將面臨過大的防守壓力。\n\n### 關鍵對位 / 球員\n- 阿根廷的終結深度相當恐怖：18 號 Nico Paz (Como, xG/90 0.78) + 22 號 Lautaro Martínez (Inter, 0.67) + 9 號 Julián Alvarez (Atlético, 0.48) 意味著奧地利無法透過單一盯人計畫來「解決」他們。\n- 奧地利最強的抵抗力來自於 8 號 David Alaba (Real Madrid) 對防線的組織，以及 3 號 Kevin Danso (Tottenham) 對抗賽的處理——如果他們能贏下空中爭頂並阻止倒三角回傳，比賽將保持膠著。\n- 對阿根廷而言，危險在於直接進攻：針對 7 號 Arnautović 和 11 號 Gregoritsch 的傳中球與第二落點，對上 13 號 Cristian Romero (Tottenham) / 6 號 Lisandro Martínez (Manchester United) 的組合將充滿身體對抗與混亂，這正是弱勢方偷襲進球的典型方式。\n\n### 比賽劇本（前段 → 中段 → 後段）\n- **前段：** 奧地利開局陣型緊湊且具侵略性——20 號 Konrad Laimer (Bayern) 和 4 號 Xaver Schlager (RB Leipzig) 試圖在中場進行絞殺，並在轉換進攻時發動 21 號 Patrick Wimmer (Wolfsburg)。阿根廷仍能獲得第一次乾淨的射門機會，因為他們的鋒線總能找到空檔跑位；突破口來自於倒三角回傳或半空間（half-space）的配合，而非盲目的傳中。\n- **中段：** 一旦阿根廷取得領先，比賽節奏會稍微開放，這對奧地利來說將變得棘手：如果他們壓出來進攻，阿根廷在禁區內的威脅（Lautaro/Alvarez/Nico Paz）將開始累積射門。奧地利確實會獲得機會——一次定位球或直接進攻階段，由 Arnautović 或 Gregoritsch 將混亂局面轉化為進球，將比分扳平為 1-1 或追至 2-1。\n- **後段：** 阿根廷的板凳深度與控球穩定性接管比賽。隨著 20 號 Alexis Mac Allister (Liverpool) 和 24 號 Enzo Fernández (Chelsea) 能夠持續發動進攻，奧地利的體能與專注力將會崩潰；阿根廷隨後會再進第二球，並在奧地利急於追分時攻入第三球。\n\n### 為何預測 3-1\n- 奧地利絕對有能力進球——兩名前鋒擁有 0.60+ xG/90 的數據是貨真價實的——但阿根廷擁有*三名*菁英級別的機會創造者，外加多名次要威脅（例如 15 號 Nicolás González 0.51, 17 號 Giuliano Simeone 0.40）。這通常意味著即便面對防守嚴密的球隊，阿根廷也能創造出 2–4 次高品質的得分序列。\n\n### 翻盤關鍵\n- 如果奧地利整晚都能贏下第一點爭搶（Alaba/Danso/Lienhart 清理所有高空球），且阿根廷的中場控制力陷入無效控球，奧地利就有機會將比賽拖入 1-1 的僵局，並透過定位球或 7 號 Arnautović 的反擊終結比賽來偷走勝利。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.66,
+              "D": 0.21,
+              "A": 0.13
+            },
+            "confidence": 0.62,
+            "key_risk": "奧地利的資深中軸線（Alaba、Danso、Laimer）採取鐵桶陣，靠著 Arnautović/Gregoritsch 偷襲得手，而 Argentina 當天缺乏頂級前鋒的表現，最終讓比賽以令人沮喪的 1-1 和局收場。",
+            "reasoning_md": "阿根廷勝出——進攻深度差距（3.37 對 2.45）是真實存在的，他們的鋒線火力更廣泛且更銳利，Nico Paz、Lautaro 和 Julián Álvarez 都具備相當可觀的 xG 數據。奧地利可以透過兩名極具威脅的前鋒進行反擊來傷害對手，但他們的防線速度與深度不足以支撐整場 90 分鐘的比賽。",
+            "script_md": "**整體解讀：** Argentina 在各個關鍵位置上都擁有更深厚的陣容深度與更強的致命威脅。他們的進攻指數（3.37）遠高於 Austria（2.45），且至關重要的是，他們的火力分散在五名以上真正的威脅點上——Nico Paz（0.78）、Lautaro（0.67）、Julián Álvarez（0.48）、Nicolás González（0.51）以及 Simeone（0.40）。Austria 的威脅則集中在兩名高齡前鋒身上；一旦封鎖住他們，進攻泉源便會枯竭。\n\n**關鍵對位：** Austria 最好的希望在於鋒線——7 號 Marko Arnautović（FK Crvena Zvezda，0.67）與 11 號 Michael Gregoritsch（FC Augsburg，0.60）是真正的終結者，他們會伺機利用 Argentina 後防線的任何鬆懈。但問題在於：Argentina 的中軸線——Cristian Romero、Lisandro Martínez、Otamendi——專門對付這類支點型前鋒；而 33 歲的 8 號 David Alaba（Real Madrid）加上 3 號 Kevin Danso，根本無法跟上 Simeone 與 González 在身後的跑動。Austria 的中場（Laimer、Xaver Schlager、Sabitzer）雖然勤奮，但在進攻端幾乎毫無建樹（預期進球值 xG 皆低於 0.16）。\n\n**比賽劇本：** 預計 Austria 開賽初期會採取深度防守，壓縮中路空間，試圖熬過前 25 分鐘來挫傷對手銳氣。Argentina 會進行試探，錯失幾次機會後，在半小時左右取得突破——很可能是由 Lautaro 或 Nico Paz 在運動戰中破門。Austria 會透過反擊或定位球製造威脅（Arnautović 正是那種能懲罰對手失誤的人），甚至可能在比賽中段扳平或追回一球。但隨著 65 分鐘後體能下降，Argentina 的板凳深度與第二波進攻球員將會撕開防線，建立兩球的領先優勢。\n\n**為何預測 3-1：** Argentina 會在較早階段進球，隨後因 Austria 的兩名前鋒（他們唯一的真正出口）而失掉一球，但最終憑藉更優越的深度與輪換在比賽末段拉開比分。從 90 分鐘的 xG 數據來看，Argentina 取得更多進球的機率壓倒性地高。\n\n**變數所在：** 如果 Austria 徹底採取「擺大巴」戰術，保持陣型緊湊，且 Schlager 在門前有如神助，這場比賽可能會變成令人緊張的 1-0 或 1-1——且世界盃小組賽的變數意味著強隊翻車的可能性永遠存在。只有在 Argentina 的臨門一腳失準，且 Arnautović 把握住他唯一的那次絕佳機會時，戰局才可能翻轉。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.7,
+              "D": 0.2,
+              "A": 0.1
+            },
+            "confidence": 0.72,
+            "key_risk": "奧地利雙塔定位球轟炸，阿根廷中衛身高偏矮可能漏頂",
+            "reasoning_md": "阿根廷前場火力點太多，Nico Paz 和 Lautaro 狀態火熱，奧地利中場創造力貧乏，但靠 Arnautović 與 Gregoritsch 的高點能偷一球，最終阿根廷有驚無險 2-1 拿下。",
+            "script_md": "① 整體判讀：阿根廷攻擊實力指數 3.37 遠高於奧地利的 2.45，且深度更足。前場有 Como 的 18 號 Nico Paz（xG90 0.78）和國米的 22 號 Lautaro Martínez（xG90 0.67）兩把尖刀，加上 Messi 的穿針引線，破密集能力頂級。奧地利中場 Sabitzer、Laimer 都是工兵型，xG90 最高才 0.19，根本餵不出像樣快攻，只能靠前場老將個人能力。\n② 關鍵對位：阿根廷中衛 13 號 Cristian Romero（熱刺）和 6 號 Lisandro Martínez（曼聯）身高都不足 185cm，偏偏奧地利有 7 號 Marko Arnautović（FK Crvena Zvezda，xG90 0.67）和 11 號 Michael Gregoritsch（奧格斯堡，xG90 0.60）兩個 190+ 的高塔。奧地利只要邊路起球或定位球，阿根廷禁區必然風聲鶴唳。\n③ 比賽劇本：開場阿根廷就壓著打，Messi 回撤組織，Paz 和 Álvarez 頻繁換位。前 30 分鐘奧地利還能靠 Danso 和 Alaba 硬扛，但第 35 分鐘左右，Lautaro 接 Mac Allister 直塞禁區內扛住後衛轉身抽射破門，1-0。下半場奧地利果斷換上 Gregoritsch 變陣雙塔，第 60 分鐘利用角球由 Arnautović 頭槌扳平 1-1。阿根廷被逼急，Messi 開始強行突破，第 75 分鐘造成禁區前自由球，Nico Paz 左腳弧線球直掛死角，2-1。最後 15 分鐘奧地利全線壓上，但阿根廷反擊有 Álvarez 和 Simeone 的速度，可惜未能擴大比分。\n④ 為什麼是 2-1：阿根廷能創造大量機會，但奧地利門將 Schlager 會撲出幾個，加上阿根廷後防身高硬傷必丟一個定位球，所以淨勝一球最合理。\n⑤ 翻盤條件：如果阿根廷上半場久攻不下，奧地利死守到 70 分鐘後，再靠一次反擊或第二個定位球得手，就可能 1-0 或 1-1 爆冷。但奧地利中場根本沒人能送出致命直塞，要進兩球難如登天，所以最多就是逼平。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.72,
+              "D": 0.21,
+              "A": 0.07
+            },
+            "confidence": 0.85,
+            "key_risk": "奧地利隊憑藉在 Bundesliga 磨練出的堅強防守成功擺出「鐵桶陣」，讓 Argentina 陷入苦戰，最終以 0-0 握手言和。",
+            "reasoning_md": "阿根廷勢不可擋的進攻深度與抗壓中場，終將瓦解奧地利組織嚴密但陣容老化的防線。奧地利缺乏足夠的轉換速度，難以對阿根廷積極前壓的中後衛構成威脅。",
+            "script_md": "Argentina 帶著 3.37 的恐怖進攻指數進入這場比賽，擁有 Austria（2.45）那支雖然頑強但實力有限的陣容所無法比擬的頂級火力。\n\n關鍵戰役在於中場的絞殺：Austria 的 20 號 Konrad Laimer (FC Bayern München) 和 4 號 Xaver Schlager (RB Leipzig) 將試圖把中場變成戰區，透過積極的壓迫來干擾 Enzo Fernández 和 Alexis Mac Allister。然而，由 8 號 David Alaba (Real Madrid C. F.) 和 3 號 Kevin Danso (Tottenham Hotspur FC) 坐鎮的 Austria 防線，最終將被迫退守至禁區深處，以抵擋來自 Lautaro Martínez、Julián Alvarez 以及竄紅新星 Nico Paz 的猛烈攻勢。在鋒線上，Austria 的 7 號 Marko Arnautović (FK Crvena Zvezda) 速度太慢，難以在反擊中對 Cristian Romero 和 Lisandro Martínez 造成威脅。\n\n預計 Argentina 在前 30 分鐘會踢得相當挫折，因為 Austria 會採取密集防守並頻頻犯規。但實力終究會說話。Argentina 很可能會在上半場結束前，透過個人靈光一閃或快速的組合配合取得突破。一旦 Austria 被迫壓出進攻以追趕比分，空間就會被拉開，讓 Argentina 在比賽後段輕鬆攻入第二球。\n\n2-0 的比分在這裡非常合理：Austria 的組織能力足以避免慘敗，但他們在反擊中完全缺乏威脅，無法讓 Argentina 感到壓力。這場比賽唯一可能爆冷或踢平的情況，是 Austria 的門將踢出職業生涯代表作，且他們能幸運地透過一次亂戰中的定位球偷襲得手。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-1",
+            "win_prob": {
+              "H": 0.74,
+              "D": 0.17,
+              "A": 0.09
+            },
+            "confidence": 0.82,
+            "key_risk": "Austria雙塔Arnautović+Gregoritsch高空砸點，阿根廷定位球第二落點保護差，被追1球後心態急可能再丟1個",
+            "reasoning_md": "阿根廷前場5人xG90全破0.4，奧地利只有2人破0.6且全隊深度低一檔；中場Lo Celso-Mac Allister-Enzo三點控制+反搶，奧地利雙6 Schlager+Laimer擋不住，節奏被吃死。",
+            "script_md": "- 整體判讀：阿根廷攻擊指數3.37 vs 2.45，相當於多出一條頂級鋒線；22人有五大聯賽資料，奧地利20人但半數是德甲替補級，板凳火力落差更大。\n- 關鍵對位：奧地利7號Arnautović（0.67 xG）+11號Gregoritsch（0.60 xG）專打高球，正好對上阿根廷13號C-羅梅羅+6號L-馬丁內斯這對矮個中衛；阿根廷邊後衛26號莫利納壓上後身後空檔，由奧地利21號Wimmer（0.27 xG）打反擊走廊。\n- 比賽劇本：前15分鐘阿根廷高位逼搶，18號Nico Paz（0.78 xG）或22號Lautaro（0.67 xG）先開紀錄；奧地利收縮5-4-1，靠定位球由Arnautović頭槌扳回1球；下半場斯卡洛尼換上15號N-岡薩雷斯+10號梅西衝第二波，70分鐘後再捅2球，奧地利體能崩盤。\n- 為什麼3-1：阿根廷預期進球總和遠高，且中場壓制能把奧地利xG壓到1.0以下，但定位球防守漏洞送1球；最後20分鐘體能+技術差距再進1球鎖定。\n- 翻盤劇本：若奧地利上半場靠兩次定位球偷到2-1領先，阿根廷小組賽心態急，遠射浪射增多，奧地利5號Posch+3號Danso蹲坑到底，最後1-2爆冷，但機率不到一成。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.87,
+              "D": 0.1,
+              "A": 0.03
+            },
+            "confidence": 0.84,
+            "key_risk": "奧地利透過 Danso 或 Arnautović 在定位球中攻入一球",
+            "reasoning_md": "阿根廷以 3.37 的進攻指數與堆疊的前鋒陣容，輾壓了奧地利的 2.45；預期將是一場由主隊掌控的勝利。",
+            "script_md": "Argentina 從開賽便掌控球權，由 Enzo Fernández 與 Alexis Mac Allister 坐鎮中場，並透過 Nico Paz (xG/90 0.78) 與 Lautaro Martínez (0.67) 拉開 Austria 的防線。Austria 的 3 號 Kevin Danso (Tottenham) 與 8 號 David Alaba (Real Madrid) 在初期防守穩健，但難以抵擋 Julián Alvarez 與 Giuliano Simeone 的連番攻勢。Argentina 在 35 分鐘左右打破僵局，由 Paz 橫傳助攻或 Martínez 門前補射得分，隨後在上半場結束前透過反擊或定位球再下一城。下半場 Austria 防線後撤，仰賴 Marko Arnautović 與 Marcel Sabitzer 的反擊，但缺乏足夠的質量在 Lisandro Martínez 與 Cristian Romero 的防守下創造絕佳機會。比賽末段，Argentina 靠著替補球員或 Messi 的參與攻入第三球，穩健地控制比賽節奏。3-0 的比分反映了雙方陣容深度的差距；除非在死球防守上出現疏失，否則戰局難以翻轉。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.82,
+              "D": 0.1,
+              "A": 0.08
+            },
+            "confidence": 0.85,
+            "key_risk": "奧地利中場硬漢群（如20號 Laimer 拜仁）如果成功絞殺阿根廷中場組織，靠定位球偷咬一口後全員退守，可能變成難看的鐵桶陣讓阿根廷久攻不下。",
+            "reasoning_md": "阿根廷贏定了。奧地利鋒線全靠老將，中後場硬度有餘但創造力不足，面對阿根廷多點開花的立體攻勢根本擋不住，被屠殺只是時間問題。",
+            "script_md": "### 整體判讀：降維打擊，毫無懸念\n這場比賽就是單方面的屠殺局。阿根廷的陣容攻擊指數3.37直接輾壓奧地利的2.45，而且深度極其恐怖。奧地利的鋒線簡直是「養老院」——主力前鋒7號 Arnautović（FK Crvena Zvezda）和11號 Gregoritsch（FC Augsburg）資料看著不錯，但在頂級後衛面前根本討不到便宜。阿根廷這邊火力分佈太廣，從Nico Paz到Lautaro Martínez全員狀態線上，奧地利防線顧此失彼。\n\n### 關鍵對位：奧地利防線的死亡宣告\n奧地利中後場看似有20號 Laimer（FC Bayern München）和8號 Alaba（Real Madrid C. F.）坐鎮，硬度不差，但面對阿根廷的流動攻擊群絕對當機。最致命的對位：阿根廷18號 Nico Paz（Como，xG90 0.78）在中場的推進和遠射，會直接打穿奧地利由4號 Xaver Schlager（RB Leipzig）和6號 Seiwald（RB Leipzig）組成的雙後腰屏障。只要中場一被撕裂，奧地利的3號 Danso（Tottenham Hotspur FC）一個人根本守不住Lautaro Martínez和Julián Alvarez的輪番衝擊。\n\n### 比賽劇本：早段破門，末段收頭\n- **早段（0-20分鐘）**：阿根廷開局就壓著打，奧地利試圖用身體對抗破壞節奏，但阿根廷中場Mac Allister和Enzo Fernández的控制力太強。15分鐘內，Nico Paz或Lautaro Martínez極可能透過中路滲透先下一城。\n- **中段（20-60分鐘）**：丟球後奧地利被迫壓出，這正是阿根廷最喜歡的節奏。Julián Alvarez和Giuliano Simeone的反擊速度會把奧地利的邊後衛16號 Mwene（1. FSV Mainz 05）打穿，第二個進球大機率在半場結束前到來。\n- **末段（60分鐘+）**：2-0領先後阿根廷會控制節奏，但奧地利體能下滑、防線鬆動，替補上場的阿根廷鋒線還能繼續擴大比分。奧地利全場可能連一腳射正都撈不到。\n\n### 為什麼是3-0\n阿根廷攻擊點太多，奧地利防不住也攻不出去。3-0反映的是實力差距，不是運氣。奧地利前鋒老化、中場缺乏創造力，全場零進球是合理結局。\n\n### 什麼情況會翻盤\n除非阿根廷自己擺爛、後防線集體失智送點球，或者奧地利門將1號 Schlager（FC Red Bull Salzburg）開掛撲出十幾個必進球——但這種事在資料面前不值一提。"
+          }
+        ]
+      },
       "correct": null
     },
     {
