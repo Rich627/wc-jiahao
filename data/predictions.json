@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T05:09:17+08:00",
+  "generated_at": "2026-07-03T05:24:53+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -626,7 +626,7 @@
           }
         ]
       },
-      "correct": null,
+      "correct": false,
       "hhad": {
         "line": -1.0,
         "H": 3.25,
@@ -760,7 +760,7 @@
           }
         ]
       },
-      "correct": null,
+      "correct": true,
       "hhad": {
         "line": -1.0,
         "H": 2.23,
@@ -894,7 +894,7 @@
           }
         ]
       },
-      "correct": null,
+      "correct": true,
       "hhad": {
         "line": -1.0,
         "H": 1.87,
@@ -1028,7 +1028,7 @@
           }
         ]
       },
-      "correct": null,
+      "correct": false,
       "hhad": {
         "line": -1.0,
         "H": 3.78,
@@ -1158,7 +1158,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329988",
@@ -1283,7 +1283,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329931",
@@ -1408,7 +1408,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329991",
@@ -1533,7 +1533,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54329954",
@@ -1658,7 +1658,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329951",
@@ -1783,7 +1783,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329994",
@@ -6224,7 +6224,7 @@
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "葡萄牙",
-        "win_prob": 0.474,
+        "win_prob": 0.48,
         "agree": "5/7 models",
         "predicted_score": "2-1",
         "models": [
@@ -6235,16 +6235,16 @@
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.48,
-              "D": 0.28,
-              "A": 0.24
+              "D": 0.27,
+              "A": 0.25
             },
             "confidence": 0.56,
-            "key_risk": "克羅埃西亞的控制三角（10號 **Modrić** + 8號 **Kovačić**）負責將球輸送給 14號 **Perišić**，再由他傳中給 11號 **Budimir**，這種戰術可能會讓比賽節奏變得沉悶，使葡萄牙的進攻機會枯竭，最終由一次定位球或傳中決定勝負。",
+            "key_risk": "克羅埃西亞的中場控制（10號 **Modrić** + 8號 **Kovačić**）拖慢了葡萄牙的節奏，隨後由 **Budimir**/**Perišić** 利用一次關鍵的空中爭頂或定位球機會，懲罰葡萄牙過於激進的邊後衛。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的劇本：*葡萄牙坐鎮主場，擁有眾星雲集的進攻線，他們火力全開擊敗 Croatia 並取得勝利。*\n\n但我並不完全買單：Croatia 的數據顯示「他們絕對有能力與你抗衡」——他們的進攻指數實際上更高，而且他們擁有一套非常明確的爆冷配方：Modrić 的最後一傳 + Perišić 的創造機會，再由 Budimir 在禁區內完成終結。這正是強隊在小組賽中因為自認安全而慘遭「打劫」的典型方式（想想 2022 年 Argentina 對陣 Saudi Arabia：一套戰術、一次重擊、隨之而來的混亂）。如果葡萄牙的邊後衛（No.20 Cancelo / No.25 Nuno Mendes）壓得太靠前，且 Bruno/Vitinha 的進攻節奏變得草率，Croatia 不需要大量的進攻次數——他們只需要一次精準的傳中或一次定位球機會，就能扭轉戰局。",
-            "signature_scene": "下半場約 63 分鐘：葡萄牙將 Croatia 壓制在半場內。8 號 Bruno Fernandes (Man United) 成功搶斷，隨即第一時間送出一記直塞球至右路空檔；9 號 Gonçalo Ramos (PSG) 橫向跑位甩開 3 號 Pongračić (Fiorentina)，並以一記低射穿越 1 號 Livaković，將比分改寫為 2-1。",
-            "reasoning_md": "葡萄牙以 2-1 小勝：憑藉其進攻機會的數量（1.94 的預期貢獻值）以及多位高 xG（預期進球）的終結者（9 號 Ramos、11 號 Félix），即便他們可能會因傳中或定位球而失球，仍應能比 Croatia 創造出更多次絕佳的進攻機會。",
-            "script_md": "### 整體分析\n葡萄牙擁有更具**爆發力的多點得分能力**：9號 Gonçalo Ramos (0.63 xG/90)、11號 João Félix (0.52)，再加上8號 Bruno Fernandes 帶來的遠射與關鍵傳球產量。克羅埃西亞的威脅則更具**結構性**：10號 Luka Modrić (2.96 次關鍵傳球/90) 與 14號 Ivan Perišić 作為機會創造的核心，目標鎖定11號 Ante Budimir (0.55 xG/90)。\n\n### 關鍵對位\n- 葡萄牙邊路超載：25號 Nuno Mendes + 17號 Rafael Leão 對上克羅埃西亞右路（預計為2號 Stanišić），這是葡萄牙能不斷製造倒三角回傳的區域。\n- 克羅埃西亞的「單一傳中戰術」：14號 Perišić (PSV) 提早傳中給 Budimir，對抗葡萄牙的中後衛（由3號 Rúben Dias 坐鎮）——只要成功一次就夠了。\n- 中場控制：如果15號 João Neves (PSG) 先發且積極逼搶，克羅埃西亞有機會繞過他；如果他能做好防守屏障，葡萄牙的攻守轉換將變得致命。\n\n### 比賽劇本（前段 → 中段 → 後段）\n葡萄牙在主場開局強勢，將20號 João Cancelo 與 25號 Nuno Mendes 推高，將克羅埃西亞壓制在深處；前20分鐘大多是葡萄牙的射門與半場機會，Livaković 至少被迫做出一次精彩撲救。\n克羅埃西亞透過 Modrić/Kovačić 的傳導穩住陣腳，他們第一次真正的威脅攻勢依然是老套路：Perišić 在邊路接球並傳中給 Budimir —— 這會造成威脅，也是他們得分的方式。\n葡萄牙透過持續施壓取得首開紀錄（由 Bruno 創造的機會或倒三角回傳破門），但克羅埃西亞會做出回應，因為葡萄牙的邊後衛留下了空間，而克羅埃西亞確實擁有可靠的終結者（Budimir/Kramarić）能把握住一次乾淨的進攻機會。\n比賽後段，葡萄牙眾多的射門好手（Bruno、Bernardo、Félix）將迫使對手出現第二次決定性機會；Ramos 是最有可能把握住的人，因為他的 xG 數據反映的是純粹的前鋒產量，而非華而不實的球風。\n\n### 為何預測此比分\n這場比賽充滿了**總進球數 2–3 球**的氣息：葡萄牙創造更多機會，克羅埃西亞把握住一次高品質的進攻。2-1 的比分符合雙方的天賦差距，且不至於是一場一面倒的屠殺。\n\n### 翻盤關鍵\n如果克羅埃西亞先得分（定位球或 Perišić 傳給 Budimir），比賽將轉向低節奏的拉鋸戰，由 Modrić 控制節奏，而葡萄牙則會開始強行射門——屆時 1-1 甚至 1-2 的結果就很有可能發生。"
+            "contrarian_md": "### 明顯的劇本\n葡萄牙坐鎮主場，擁有更多知名球星與進攻好手——這應該是一場葡萄牙能輕鬆拿下的勝利。\n\n### 為何我不完全買單\n克羅埃西亞的**進攻指數其實更高**（3.57 對 2.96），且他們的創造機會方式非常「單一模式，一擊必殺」：**No.14 Perišić (PSV)** 不斷傳出頂級助攻（xAG/90 為 1.47），供給 **No.11 Budimir (Osasuna)**（xG/90 為 0.55），這正是那種簡單、可複製且能在小組賽中爆冷擊敗強隊的進攻套路。如果葡萄牙的邊後衛（No.20 Cancelo / No.25 Nuno Mendes）踢得像邊鋒一樣，克羅埃西亞不需要整場 90 分鐘都表現更好——他們只需要*一次*乾淨俐落的攻守轉換加上傳中。看看 2022 年阿根廷對陣沙烏地阿拉伯的比賽：一個被判無效的進球、一條鬆散的防線，一場「穩贏」的比賽瞬間就會翻盤。",
+            "signature_scene": "上半場（27’）：葡萄牙 8 號 Bruno Fernandes (Man United) 向右側漂移，誘使 Croatia 的中場壓上，隨後送出一記斜傳至空檔，給予葡萄牙 9 號 Gonçalo Ramos (PSG) —— 他一腳觸球越過 Livaković，比分來到 1-0。下半場（62’）：Croatia 14 號 Perišić (PSV) 在一次角球二次進攻中瞄準後點；Croatia 11 號 Budimir (Osasuna) 強勢頭槌攻門，造成門前一陣混亂，形成追平比分的威脅。",
+            "reasoning_md": "葡萄牙以 2-1 取勝：他們透過 Bruno、Leão 和 Neto 為 Ramos 和 Félix 輸送球權，創造出更穩定的運動戰預期進球（xG）；而 Croatia 的主要威脅則集中在 Perišić 的傳中與 Budimir 的終結能力上——雖然危險，但更容易針對其戰術進行佈局。",
+            "script_md": "葡萄牙的優勢在於**射門次數與進攻多樣性**：8號 Bruno Fernandes 與 10號 Bernardo Silva 都能在兩個半場空間（half-spaces）創造機會，而前鋒線（9號 Gonçalo Ramos xG/90 為 0.63、11號 João Félix xG/90 為 0.52、17號 Rafael Leão）則提供了多種得分手段——包括直塞球、倒三角回傳以及邊路的 1 對 1 突破。克羅埃西亞則更講究「結構性」：10號 Luka Modrić（AC Milan）負責掌控節奏，9號 Kramarić 負責串聯，而最穩定的進攻終結手段則是 **14號 Perišić（PSV）傳中**給 **11號 Budimir（Osasuna）**。\n\n比賽初期，克羅埃西亞會試圖透過 Modrić 與 Kovačić 的控球來穩定節奏，但葡萄牙的邊後衛（20號 Cancelo、25號 Nuno Mendes）會將對手壓制在後場，迫使克羅埃西亞的邊路防守球員進入長時間的防守狀態。首個進球最有可能來自葡萄牙打穿克羅埃西亞邊後衛身後的空檔——Bruno 傳給 Ramos 是目前數據上最直接的連線。\n\n比賽中段，克羅埃西亞最強的進攻手段是直接且具身體對抗性的打法：Perišić 傳中，Budimir 衝擊前點或後點，再加上 Kramarić 跟進搶第二落點。這就是為什麼即便葡萄牙整體實力較強，克羅埃西亞仍能取得進球——可能是一次定位球、一次後點的人數優勢，或是一次防守疏失。\n\n比賽後段，葡萄牙擁有更深厚的板凳深度，具備持球推進與射門能力的球員（18號 Pedro Neto、19號 Gonçalo Guedes、26號 Francisco Conceição）能持續製造進攻機會，而克羅埃西亞因急於追分，將會暴露更多防守空檔，讓葡萄牙獲得更多絕佳機會。這就是為什麼 2-1 是最現實的預測比分：克羅埃西亞有足夠的實力取得進球，但葡萄牙的預期進球數（1.94）足以支撐他們攻入**兩球**。\n\n比賽的變數在於：如果 Modrić 的節奏控制能將葡萄牙壓制在緩慢的控球節奏中，且葡萄牙壓上的邊後衛頻頻被打反擊，克羅埃西亞絕對有能力將比分改寫為 1-0 或 2-1 反超——特別是如果 Budimir 贏下了第一次關鍵的空中爭頂，導致葡萄牙開始在禁區內防守變得緊張。"
           },
           {
             "name": "Claude",
@@ -6257,12 +6257,12 @@
               "A": 0.23
             },
             "confidence": 0.55,
-            "key_risk": "克羅埃西亞的 **Modrić-Perišić** 連線主導了比賽節奏，並將比賽步調拖慢，將葡萄牙拉入一場無法突破的 1-1 棋局對抗中。",
+            "key_risk": "克羅埃西亞的中場（Modrić-Kovačić）掌控節奏、拖垮比賽節奏，而 Perišić 荒謬的創造數據（xAG90 1.47、KeyPass90 6.34）則為 Kramarić 或 Budimir 創造出一次致命的終結機會，從而險勝對手。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點是：「Croatia 老了，Portugal 擁有更深厚、更具爆發力的鋒線（Ramos 0.63 xG90、Félix 0.52、Leão、Neto）——主隊將輾壓這群老將。」我只認同一半。仔細觀察：Croatia 的進攻指數（3.57）實際上比 Portugal（2.96）還要**高**，而且 Perišić 的數據簡直荒謬（xAG90 1.47、KeyPass90 6.34）——那不是個過客，而是一個能將任何定位球或重疊跑位轉化為得分機會的節拍器。Croatia 之所以能稱霸國際賽十年，正是因為他們能讓「更強」的對手陷入他們那種緩慢、令人窒息的節奏（2018 年他們淘汰了 Argentina 等級的球隊；2022 年他們踢走了 Brazil）。Portugal 的防線固然優質，但由 João Neves 取代 Vitinha 的中場組合，在控制比賽的能力上，比起 Modrić-Kovačić-Pašalić 顯得更為稚嫩。如果 Portugal 表現鬆懈並將此視為例行公事——就像 2018 年的 Germany 或 2022 年的 Argentina 那樣——Croatia 就會扼殺比賽節奏並靠定位球偷走勝利。這正是爆冷的途徑。",
-            "signature_scene": "下半場約 70 分鐘：葡萄牙 25 號 Nuno Mendes (Paris Saint-Germain) 在左路高速推進後回傳給 9 號 Gonçalo Ramos，後者在近柱將球送入網窩，終於突破了 Croatia 的防線。但要注意隨後的反擊——五分鐘後，Croatia 14 號 Ivan Perišić (PSV Eindhoven) 開出定位球，11 號 Ante Budimir (CA Osasuna) 在人群中躍起頭槌破門，讓比賽變得緊張起來。",
-            "reasoning_md": "葡萄牙以 2-1 小勝——憑藉更深層次、更快速的進攻選擇以及主場節奏在 90 分鐘內佔據優勢，但 Croatia 的定位球威脅與 Modrić 的控場能力讓比賽保持膠著，而 Perišić 的一次傳中則讓比賽充滿懸念。",
-            "script_md": "**整體解讀：** 從帳面數據來看，這些指數具有誤導性——克羅埃西亞的進攻指數為 3.57，葡萄牙為 2.96——但葡萄牙在終結能力上的深度更勝一籌（Ramos 0.63、Félix 0.52、Leão 0.34、Neto 0.19 皆火力全開），而克羅埃西亞則過度依賴 Modrić 和 Perišić 這兩位指揮官來為 Kramarić 和 Budimir 輸送炮彈。葡萄牙節奏更快、打法更直接；克羅埃西亞則更聰明、節奏更慢。\n\n**關鍵對位：** 焦點在於克羅埃西亞的 10 號 Modrić 和 14 號 Ivan Perišić 如何試圖拖慢比賽節奏，對抗葡萄牙透過左路的 Leão 和 Nuno Mendes 所展現的轉換速度。請留意克羅埃西亞 11 號 Budimir（CA Osasuna，xG90 為 0.55）作為對抗 Rúben Dias 的空中支點——考慮到 Perišić 的傳球能力，定位球是克羅埃西亞在此役真正的武器。在中場方面，由 João Neves 取代 Vitinha，在面對克羅埃西亞的老將時，控球能力會略有下降。\n\n**比賽劇本：** 預計上半場會相當謹慎——克羅埃西亞陣型緊湊，由 Modrić 掌控節奏，葡萄牙則在缺乏明確機會的情況下進行試探；半場結束時比分可能是 0-0 或緊張的 1-0。隨著體能下降，葡萄牙的板凳深度和速度將在下半場勝出：Nuno Mendes 與 Ramos 的連線有望在 60 分鐘左右打破僵局。克羅埃西亞不會輕易言敗——Perišić 的一次定位球助攻將扳回一城，最後 15 分鐘將會非常驚險。\n\n**為何預測此比分：** 2-1 的比分符合比賽走勢——葡萄牙優異的終結能力最終會見效，但克羅埃西亞在定位球上的威脅保證了他們能取得進球。比分將維持在合理的 1 球差距範圍內；大比分慘案不太可能發生，因為克羅埃西亞的比賽經驗太過老練。\n\n**變數：** 如果 Modrić 完全掌控了節奏，而葡萄牙變得自滿，比賽可能會變成 1-1，甚至出現克羅埃西亞靠角球偷襲得手的局面——這正是克羅埃西亞在錦標賽中經典的伏擊戰術。葡萄牙必須在開局階段打出速度，不能讓比賽演變成緩慢的棋局。"
+            "contrarian_md": "顯而易見的觀點是：Portugal 擁有陣容深度更深、球風更華麗的球隊——Ramos (0.63 xG90)、Félix、Leão 以及負責穿針引線的 Bruno——而 Croatia 則是一支依賴 40 歲 Modrić 的老齡化球隊，因此 Portugal 將會輕鬆勝出。但我只認同一半。Croatia 的進攻指數 (3.57) 實際上**超越**了 Portugal (2.96)，而且他們的火力貨真價實：Budimir 為 0.55、Kramarić 為 0.49，再加上 Perišić 驚人的創造力。Croatia 是大賽中長期表現超乎預期的球隊，他們在近幾屆世界盃正是透過承受壓力並懲罰對手的一次失誤，淘汰了 Brazil 和 Argentina——這正是 2022 年 Argentina 被 Saudi 爆冷擊敗的方式。Portugal 在 Dias 身後的後防中衛深度不足，而 Croatia 的中場有能力讓 Portugal 在 70 分鐘內看起來踢得漂亮卻毫無威脅。這並非一場穩操勝券的比賽。",
+            "signature_scene": "下半場約 65 分鐘：克羅埃西亞 14 號 Ivan Perišić (PSV) 從左路傳出一記早傳球，11 號 Ante Budimir (Osasuna) 擺脫 Rúben Dias 的防守頭槌攻門——Diogo Costa 將球撲出，但 9 號 Andrej Kramarić (Hoffenheim) 第一時間補射破門扳平比分，隨後葡萄牙憑藉板凳深度（Leão、Neto）在比賽末段攻入致勝球。",
+            "reasoning_md": "葡萄牙憑藉主場優勢與替補席上更出色的終結能力險勝，但克羅埃西亞更強的進攻指數以及由 Modrić 領軍的中場，讓這場比賽成為一場勝負僅在伯仲之間的一球之差對決，而非一場輕鬆的比賽。",
+            "script_md": "**整體解讀：** 雙方實力差距比名氣所顯示的更為接近。Portugal 擁有更敏銳的禁區終結者——Ramos (xG90 0.63) 與 Félix (0.52) 極具威脅——加上板凳深度確實雄厚（Leão、Neto、Guedes、Conceição）。然而，Croatia 的進攻指數更高，且他們的中軸線（Modrić、Kovačić、Perišić、Kramarić、Budimir）是久經沙場的盃賽老手。\n\n**關鍵對位：** 比賽勝負取決於中場。Croatia 10 號 Luka Modrić (AC Milan, KeyPass90 2.96) 與 8 號 Mateo Kovačić (Man City) 對抗 Bruno Fernandes 與 João Neves——如果讓克羅埃西亞人掌控節奏，Portugal 將陷入進攻荒。在邊路，Croatia 14 號 Ivan Perišić (PSV) 以驚人的 xAG90 1.47 與 KeyPass90 6.34 成為場上最具威脅的創造力來源；無論是誰負責盯防他（Semedo/Dalot），都將面臨一場噩夢。在前場，11 號 Budimir (Osasuna) 與 9 號 Kramarić (Hoffenheim) 將考驗 Rúben Dias 以及 Portugal 略顯不穩的中後衛深度。\n\n**比賽劇本：** 預計上半場會是一場謹慎的棋局——Croatia 樂於讓 Portugal 持球，並透過反擊與定位球進行試探。Portugal 可能會在上半場中段透過 Ramos 或 Bruno 的個人能力先馳得點。Croatia 不會輕易崩盤；大約在 60 分鐘左右，Perišić、Kramarić 與 Budimir 的連線有望扳平比分。隨後勝負將取決於板凳深度——而 Portugal 下半場的替補奇兵（Leão、Neto）陣容更深，有望在最後時刻絕殺對手。\n\n**為何預測此比分：** 2-1 符合雙方的火力配置，也符合這類世界盃賽事通常以一球之差定勝負的現實。若 Croatia 防守到位且 Modrić 能有效控制比賽節奏，1-1 的平局也極有可能發生。\n\n**變數：** 如果 Croatia 先進球並採取鐵桶陣——這是他們的拿手好戲——考慮到 Portugal 在狹小空間內容易過度傳導的傾向，0-1 或 1-1 的結果完全可能出現。自滿是 Portugal 在這場比賽中的最大敵人。"
           },
           {
             "name": "DeepSeek",
@@ -6270,35 +6270,35 @@
             "selection_team": "和局",
             "predicted_score": "1-1",
             "win_prob": {
-              "H": 0.3,
+              "H": 0.25,
               "D": 0.4,
-              "A": 0.3
+              "A": 0.35
             },
-            "confidence": 0.65,
-            "key_risk": "葡萄牙邊路個人能力爆種，Leão或Neto直接打穿克羅埃西亞防線，讓比賽變成對攻，葡萄牙把握機會能力瞬間升檔。",
+            "confidence": 0.72,
+            "key_risk": "葡萄牙前場天賦突然爆發，Rafael Leão 或 Bruno Fernandes 靠個人能力撕開防線，或是 C 羅在定位球中搶點得手，瞬間改變比賽走勢。",
             "second_score": "0-1",
-            "contrarian_md": "主流看名氣，覺得葡萄牙前場星光熠熠，克羅埃西亞又老了四歲，肯定頂不住。但我不買賬。這支克羅埃西亞陣容攻擊實力指數3.57，反超葡萄牙的2.96，中場控制力才是比賽的根。2022阿根廷首戰輸沙烏地、2018德國輸韓國，全是「強隊控不住中場被磨死」的劇本。克羅埃西亞中場Modrić、Kovačić配上Perišić的傳中，恰恰能讓葡萄牙最弱的邊路防守現形。",
-            "signature_scene": "下半場第55分鐘，克羅埃西亞14號 Perišić（PSV Eindhoven）左路扣過Nélson Semedo，用右腳兜出招牌弧線傳中，11號 Ante Budimir（CA Osasuna）擠開Rúben Dias，前點甩頭頂入死角。",
-            "reasoning_md": "葡萄牙控不住中場節奏，克羅埃西亞用傳中和定位球砸出至少一分，平局是最寫實的結局，克羅埃西亞偷走勝利也不意外。",
-            "script_md": "① 整體判讀：克羅埃西亞的陣容攻擊指數高得反常，不是因為前鋒比葡萄牙強，而是中場Modrić的穿針引線、Perišić的邊路核武級傳中，配上Budimir這類空霸，體系殺傷力極精準。葡萄牙陣容看似豪華，但João Félix（Al Nassr）的資料訊號要打折扣，聯賽強度不足，他真正的高強度輸出存疑。\n② 關鍵對位：葡萄牙右後衛Nélson Semedo（Fenerbahçe）防守端對上Perišić幾乎無解——Perišić每90分鐘關鍵傳球6.34次、預期助攻1.47，全是左路餵餅。中衛Rúben Dias頭球不差，但他要顧及Budimir的同時，還得提防Kramarić後插上。克羅埃西亞8號 Kovačić（Manchester City）會全程黏死Bruno Fernandes，讓葡萄牙前場斷電。\n③ 比賽劇本：開場葡萄牙想壓，但中場根本搶不過克羅埃西亞，Modrić回撤接球把節奏拖慢。上半場0-0，克羅埃西亞好幾次定位球讓葡萄牙門前冒煙。下半場55分鐘左右，Perišić在左路硬吃Semedo傳中，Budimir頭球破門，0-1。落後後葡萄牙換上C羅、Neto搏命，70分鐘左右利用角球亂戰，Rúben Dias或Ramos門前補射扳平。最後20分鐘葡萄牙狂攻，但克羅埃西亞收縮反擊，雙方再無建樹。\n④ 比分邏輯：1-1是典型強強對話的磨損比分，葡萄牙個人能力能保證有球入賬，但防守端必被懲罰。克羅埃西亞進球後不會冒進，葡萄牙要打穿低位防守也不容易，平局最合理。\n⑤ 翻盤狀況：如果葡萄牙開場就由Rafael Leão用速度生吃Stanišić搶到首球，那劇本會變成克羅埃西亞壓出來被打反擊，比分可能往2-0葡萄牙方向走；但克羅埃西亞這條老狐狸不會輕易給這種機會。"
+            "contrarian_md": "主流一看葡萄牙，又是 C 羅、B 費、萊奧，星光熠熠，肯定認為克羅埃西亞那幫老將早就跑不動了，葡萄牙穩贏。但我不買賬的正是這種「名氣壓倒資料」的錯覺。克羅埃西亞的陣容攻擊實力指數 3.57 比葡萄牙的 2.96 高出一截，全隊 20 人有頂級聯賽資料，深度完全不虛。更致命的是，克羅埃西亞是世界盃史上最會悶聲翻盤的球隊之一——2018 年 3-0 打爆阿根廷，2022 年點球淘汰巴西，而葡萄牙自己就有 2022 年輸給摩洛哥的慘痛記憶。這支克羅埃西亞的中場控制力，加上佩裡西奇那一手傳中，完全有能力讓葡萄牙全場進攻便秘，最後被一個定位球或反擊偷走勝利。別迷信強者標籤，這裡頭的冷味比表面聞起來濃得多。",
+            "signature_scene": "下半場第 67 分鐘，克羅埃西亞 14 號 Ivan Perišić（PSV Eindhoven）在左路突然變向甩開 Nélson Semedo，下底傳出一記落點極其刁鑽的弧線球，11 號 Ante Budimir（CA Osasuna）壓過 Rúben Dias 頭球砸進遠角，克羅埃西亞 1-0 領先。",
+            "reasoning_md": "克羅埃西亞中場控制力更強，佩裡西奇和莫德里奇的經驗會讓葡萄牙進攻層層受阻，看好克羅埃西亞不敗，平局最合理。",
+            "script_md": "① 整體判讀：葡萄牙紙面攻擊手多，但實際火力分佈集中在 Ramos 和 Félix 身上，這倆人在沙特和巴黎的強度轉換到世界盃要打折扣，真正能撕開防守的只有 Leão 的爆點。克羅埃西亞這邊，攻擊實力指數 3.57 不是白給的，莫德里奇（10 號，AC Milan）的排程、佩裡西奇（14 號）的傳中，加上 Budimir（11 號）的支點，反擊刀刀見血，中場控制力高出一檔，葡萄牙想輕鬆推進沒那麼容易。\n② 關鍵對位：克羅埃西亞的 Gvardiol（4 號，Manchester City）迴歸先發，直接掐住 Ramos 的啟動空間，Ramos 那 0.63 xG90 在 Gvardiol 的貼身下至少要打七折。葡萄牙邊路 Nuno Mendes 插上助攻後，身後的空檔會被佩裡西奇（關鍵傳球 90 分鐘 6.34 次）瘋狂利用，右側 Dalot 同樣要面對 Perišić 的斜插。中場 Bruno Fernandes 和 Kovačić（8 號，Manchester City）的纏鬥將決定球權流向，Kovačić 的推進能力會讓葡萄牙後腰很吃力。\n③ 比賽劇本：上半場克羅埃西亞主動回縮，讓出控球權，葡萄牙控球率可能超 60%，但真正射正很少，多半是 B 費遠射或 Leão 內切打高。克羅埃西亞由莫德里奇發動長傳找佩裡西奇傳中，半場前 Budimir 可能就有一次頭球威脅。下半場 60 分鐘後，葡萄牙體能下降，開始壓上，克羅埃西亞的反擊機會增多，第 67 分鐘左右佩裡西奇傳中助 Budimir 破門。丟球后葡萄牙瘋狂反撲，C 羅（7 號）替補出場，在混戰中或定位球中由 Rúben Dias 頭球扳平，比分 1-1 維持到終場。\n④ 為什麼是這個比分：1-1 最符合兩隊真實實力對比——克羅埃西亞的防守體系能扛住葡萄牙的陣地戰，但葡萄牙仍有定位球或球星閃光點扳平的能力。克羅埃西亞的進攻效率（每場預期貢獻 1.28）很難進第二個球，葡萄牙也難破密集防守，各進一球合情合理。\n⑤ 什麼情況會翻盤：如果葡萄牙早早進球，比如 Leão 在第 15 分鐘就靠個人能力爆射破門，那克羅埃西亞就得被迫壓出，葡萄牙的反擊速度會讓他們很難受，比分可能變成 2-0 或 3-1。反過來，若克羅埃西亞先進球后，葡萄牙心態急躁、後防更加冒進，可能被 Kramarić（9 號，TSG Hoffenheim）再偷一個反擊，變成 0-2 的冷門結局。"
           },
           {
             "name": "Gemini",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
+            "selection": "AWAY",
+            "selection_team": "克羅埃西亞",
+            "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.35,
-              "D": 0.4,
-              "A": 0.25
+              "H": 0.3,
+              "D": 0.25,
+              "A": 0.45
             },
-            "confidence": 0.65,
-            "key_risk": "葡萄牙憑藉球員純粹的個人天賦（Leão、Bruno Fernandes）早早打開局面，迫使 Croatia 必須積極追分，隨後在反擊中被對手徹底瓦解。",
-            "second_score": "1-2",
-            "contrarian_md": "最顯而易見的論調是，葡萄牙的黃金世代速度太快、太有活力，且陣容深度遠勝於那支必須靠意志力苦撐、逐漸老化的 Croatia。每個人都預期 Leão 和 Bruno Fernandes 能將對手耍得團團轉。但我並不買帳。看看原始數據：Croatia 的進攻指數（3.57）實際上超越了葡萄牙（2.96）。為什麼？因為 Ivan Perišić 交出了電玩等級的創造力數據（每 90 分鐘 6.34 次關鍵傳球、1.47 的預期助攻 xAG），而 Kramarić 則是具備雙重威脅的怪物。如果葡萄牙將他們的邊後衛（Cancelo 和 Mendes）推得太靠前，他們就是在自投羅網。我們曾見過阿根廷敗給沙烏地阿拉伯、德國輸給日本，原因都是因為他們敞開了後防大門；Croatia 正好具備了吸收壓力、掌控中場節奏，並在反擊中懲罰葡萄牙的特質。",
-            "signature_scene": "下半場第 65 分鐘。葡萄牙隊 20 號 João Cancelo 位置壓得太過靠前。克羅埃西亞隊 14 號 Ivan Perišić（PSV Eindhoven）接獲 Modrić 一記大範圍的斜傳球，隨即沿左路推進，並送出一記招牌式的精準傳中，讓 11 號 Ante Budimir（CA Osasuna）前插搶點，迫使 Diogo Costa 做出一次驚險的撲救，才力保球門不失，維持平手局面。",
-            "reasoning_md": "Portugal 擁有閃耀的球星與速度，但 Croatia 具備更優異的進攻數據指標，以及能掌控節奏的中場靈性，因此一場充滿韌性、講究戰術的 1-1 平局是最可能的結果。",
-            "script_md": "- **整體解讀**：Portugal 擁有驚人的陣容深度與充滿活力的進攻球員，但 Croatia 的底層數據顯示他們是一支極具效率且危險的球隊。Croatia 的進攻指數實際上略勝 Portugal 一籌，這歸功於他們在邊路頂尖的創造機會能力以及精準的終結能力。\n- **關鍵對位**：比賽勝負將取決於邊路。Portugal 的 No.20 João Cancelo 與 No.25 Nuno Mendes 喜歡大舉壓上進攻，但他們將面臨 Croatia No.14 Ivan Perišić (PSV Eindhoven) 的挑戰，後者每 90 分鐘能創造出驚人的 6.34 次關鍵傳球。在中場，No.8 Bruno Fernandes 將試圖撕裂防線，但他必須繞過 Croatia No.10 Luka Modrić (AC Milan) 與 Croatia No.8 Mateo Kovačić (Manchester City FC) 豐富的經驗。\n- **比賽劇本**：預計 Portugal 開賽後會發動猛攻。隨著 No.15 João Neves 為中場注入活力，Portugal 很可能會先馳得點，或許是透過 No.9 Gonçalo Ramos 接應 Leão 的倒三角回傳完成破門。但 Croatia 不會驚慌，他們會放慢比賽節奏，利用 Modrić 控球，並針對 Portugal 壓上後留下的後場空間進行打擊。\n- **扳平比分**：在 70 分鐘前，Croatia 將會反擊。Perišić 將利用 Cancelo 留下的空檔，傳出致命球給 Croatia No.11 Ante Budimir (CA Osasuna) 或 Croatia No.9 Andrej Kramarić (TSG Hoffenheim) 將比分扳平。\n- **比分預測原因**：1-1 的平局反映了兩種風格的碰撞——Portugal 的高強度進攻對上 Croatia 高超的比賽管理與致命的反擊。雙方都不會在最後 15 分鐘孤注一擲。\n- **變數關鍵**：如果 Portugal 的中後衛能完全封鎖 Budimir 的空中優勢，或者 Leão 能在開賽初期成功單打並突破 Croatia No.2 Josip Stanišić (FC Bayern München)，Portugal 就可能以 2-0 輕鬆取勝。"
+            "confidence": 0.7,
+            "key_risk": "葡萄牙純粹的個人天賦——特別是 Rafael Leão 或 Bruno Fernandes 憑空創造進球的能力——繞過了 Croatia 結構嚴謹的中場，使得戰術上的博弈變得毫無意義。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的論調是，擁有眾多英超與 PSG 球星的葡萄牙「黃金世代」，將會輕易壓制老邁的克羅埃西亞。人們看著 Modrić 和 Perišić，心想他們「巔峰已過」。但我並不這麼認為。看看實際數據：克羅埃西亞的進攻指數（3.57）顯著高於葡萄牙（2.96）。為什麼？因為 14 號 Ivan Perišić（PSV Eindhoven）每 90 分鐘能送出驚人的 6.34 次關鍵傳球，而 9 號 Andrej Kramarić（TSG Hoffenheim）則貢獻了 3.11 次。葡萄牙的邊後衛 Cancelo 和 Mendes 防守時簡直像是對自家禁區過敏。如果葡萄牙因為預期能輕鬆取勝而投入過多兵力進攻，克羅埃西亞的這些老將將會透過反擊冷靜地將他們瓦解，就像他們在 2022 年擊潰巴西那樣。",
+            "signature_scene": "下半場第 65 分鐘。Portugal 在 Cancelo 一次失敗的套邊進攻後在前場丟球。8 號 Mateo Kovačić (Manchester City FC) 從中路推進，過掉 Vitinha，隨後將球分到邊路給 14 號 Ivan Perišić (PSV Eindhoven)。Perišić 傳出一記招牌式的直接傳中球進入禁區，找到 11 號 Ante Budimir (CA Osasuna)，後者力壓 Rúben Dias 頭槌破門。",
+            "reasoning_md": "克羅埃西亞（Croatia）的底層創造力數據令人震驚，他們經驗豐富的中場陣容，完全有能力利用 Portugal 過於激進的邊後衛身後留下的巨大空間，進而爆冷取勝。",
+            "script_md": "**整體分析：** 葡萄牙擁有極強的個人天賦，但克羅埃西亞的團隊進攻指數（3.57）揭示了一頭隱藏的怪獸。克羅埃西亞的創造機會能力屬於頂尖水準，而葡萄牙的中場組合 João Neves 與 Vitinha 缺乏統治經驗豐富的克羅埃西亞中場核心所需的純粹身體對抗強度。\n\n**關鍵對位：** 決定性的戰場在於邊路。葡萄牙的 20 號 João Cancelo (FC Barcelona) 和 25 號 Nuno Mendes (Paris Saint-Germain) 本質上就是邊鋒。這正中克羅埃西亞 14 號 Ivan Perišić (PSV Eindhoven) 和 9 號 Andrej Kramarić (TSG Hoffenheim) 的下懷。Perišić 每 90 分鐘 6.34 次關鍵傳球是應對高位防線的致命武器。在中路，8 號 Bruno Fernandes (Manchester United FC) 將試圖撕開防線，但 4 號 Joško Gvardiol (Manchester City FC) 的預期回歸將鞏固克羅埃西亞的後防線。\n\n**比賽劇本：** 葡萄牙將會開局搶攻，掌控球權並試圖儘早餵球給 9 號 Gonçalo Ramos (Paris Saint-Germain)。他們甚至可能憑藉一次靈光一現率先破門。然而，克羅埃西亞不會驚慌。他們將採取結構嚴謹的中位防守，吸收壓力，並利用 10 號 Luka Modrić (AC Milan) 來掌控節奏。隨著葡萄牙陣型壓上並感到挫折，空間將會打開。在上半場末段或下半場初段，克羅埃西亞將利用轉換進攻發動突襲，運用 Perišić 的傳中球來餵給 11 號 Ante Budimir (CA Osasuna)。\n\n**為何是此比分 (1-2)：** 葡萄牙的火力確保了他們能取得進球，但他們在邊路的防守漏洞將會受到克羅埃西亞的懲罰，這支球隊在數據上正以驚人的效率創造高品質的進攻機會。\n\n**什麼情況會翻轉結果：** 如果葡萄牙總教練 Roberto Martínez 指示他的邊後衛保持紀律，或者 João Neves 與 Vitinha 能夠完全壓制住 Modrić 和 Kovačić，那麼葡萄牙純粹的進攻深度就有可能以 2-0 或 2-1 艱難取勝。"
           },
           {
             "name": "Kimi",
@@ -6311,12 +6311,12 @@
               "A": 0.3
             },
             "confidence": 0.65,
-            "key_risk": "Croatia 的 xG 資料被低估——Budimir 0.55 xG90 + Kramarić 0.49 xG90 的雙中鋒配置，配上 Modrić 2.96 關鍵傳球90，這是典型的大賽老油條組合，專打葡萄牙這種『明星多但節奏散』的隊伍。",
+            "key_risk": "Croatia 9號 Andrej Kramarić（TSG Hoffenheim）xG90 0.49 的終結效率，若 Modrić 10號（AC Milan）的關鍵傳球 2.96 能餵到他腳下，葡萄牙後衛 3號 Rúben Dias（Man City）+ 20號 João Cancelo（Barcelona）的組合會被針對打穿。",
             "second_score": "2-1",
-            "contrarian_md": "主流敘事：葡萄牙陣容星光熠熠，Ramos、Félix、Leão 三叉戟 xG 爆炸，Croatia 只剩 39 歲 Modrić 老將撐場，這是世代交替的一戰。但我不買賬——Croatia 的攻擊實力指數 3.57 反而高於葡萄牙的 2.96，這數字不是假的。2022 世界盃 Croatia 連續淘汰日本、巴西進四強，靠的就是『你看我老、我咬死你』的韌性。葡萄牙的問題是：B 費 3.26 關鍵傳球90 是資料刷子，大賽關鍵時刻常隱身；Ronaldo 在 Al Nassr 的資料沒給，但 41 歲的他首發就是戰術減速器。João Félix 在 Al Nassr 的 0.52 xG90 是沙超水分，不是西甲水準。這場如果爆冷，劇本就是：葡萄牙控球 60% 但創造不出絕對機會，Croatia 兩個高效中鋒抓一次定位球、一次反擊，1-0 或 2-1 帶走。",
-            "signature_scene": "下半場 65 分鐘，10號 Luka Modrić（AC Milan）中場右側拿球，原地擺脫 João Neves（Paris Saint-Germain）後斜長傳找 9號 Andrej Kramarić（TSG Hoffenheim），Kramarić 背身扛開 Rúben Dias（Manchester City FC）做給 11號 Ante Budimir（CA Osasuna），Budimir 一腳觸球抽射遠角——這球不進，但 Portugal 門將 Diogo Costa 撲出後，14號 Ivan Perišić（PSV Eindhoven）左側補射空門，1-1 扳平。這是 Croatia 經典的『老將排程+雙中鋒連線』，Modrić 的 2.96 關鍵傳球90 終於兌現。",
-            "reasoning_md": "Croatia 攻擊效率資料被低估，葡萄牙明星陣容節奏散、Ronaldo 首發拖累轉換速度，1-1 或 Croatia 2-1 爆冷最可能。",
-            "script_md": "## 整體判讀：數字會說謊，但 xG 不會\n\n葡萄牙陣容看起來像 FIFA 遊戲封面：Ramos 0.63 xG90、Félix 0.52、Leão 0.34，加上 B 費 3.26 關鍵傳球90，攻擊實力指數卻只有 2.96？問題出在**深度與節奏**——20/26 人有頂級聯賽資料聽起來漂亮，但中場 João Neves 頂替 Vitinha 是降級，Rúben Neves 在 Al Hilal 的資料沒給，實際是沙超養老。對比 Croatia：攻擊指數 3.57 更高，Budimir 0.55 + Kramarić 0.49 的雙中鋒配置，配上 Modrić 2.96 關鍵傳球90，這是**效率優先**的殺人組合。\n\n## 關鍵對位：葡萄牙的『明星病』 vs Croatia 的『老將韌性』\n\n- **葡萄牙軟肋**：7號 Cristiano Ronaldo（Al Nassr FC）首發 = 高位壓迫少一人，轉換速度被拖慢。B 費大賽常『資料好看、決定性差』，3.26 關鍵傳球90 裡有多少是安全球？右邊路 20號 João Cancelo（FC Barcelona）0.24 預期助攻90 好看，但防守站位冒進，Croatia 14號 Ivan Perišić（PSV Eindhoven）6.34 關鍵傳球90 專打這種身後。\n- **Croatia 殺招**：4號 Joško Gvardiol（Manchester City FC）回歸先發，左腳長傳直接找 9號 Kramarić 或 11號 Budimir，兩人合計 1.04 xG90，不需要太多觸球，一次機會就致命。10號 Modrić 39 歲但 2.96 關鍵傳球90 仍是世界級，葡萄牙 15號 João Neves（Paris Saint-Germain）經驗不足，中場對話會被老狐狸牽著走。\n\n## 比賽劇本：控球多≠贏球\n\n- **早段（0-25分）**：葡萄牙主導控球，B 費、Bernardo Silva 倒腳尋找縫隙，但 Ronaldo 站樁、Ramos 拉邊，禁區內沒人。Croatia 5-4-1 低位，Budimir 騷擾 Dias，消耗戰。\n- **中段（25-60分）**：葡萄牙一次邊路配合，17號 Rafael Leão（AC Milan）左路內切射門，1-0。但領先後葡萄牙想收，Croatia 不給——Modrić 定位球找 Gvardiol 頭槌，或 Perišić 左側傳中，Budimir 搶點，1-1。\n- **末段（60-90分）**：葡萄牙換上 18號 Pedro Neto（Chelsea FC）提速，但 Croatia 雙中鋒體能仍在，Kramarić 一次反擊單刀被 Dias 犯規，黃牌+自由球，Modrić 直接攻門或戰術配合，2-1 絕殺或 1-1 守住。\n\n## 為什麼是 1-1（或 2-1 Croatia）\n\n世界盃小組賽第三場，葡萄牙可能已提前出線或需要淨勝球，但 Croatia 需要分數。歷史告訴我們：2018 年 Croatia 三場小組賽全勝包括 3-0 阿根廷；2022 年淘汰賽連續踢滿 120 分鐘。這隊的韌性不是數字能衡量。葡萄牙的『明星陣容』在 2022 年八強被摩洛哥 1-0 送走，就是因為控球 70% 沒用，被防反咬死。這場劇本類似：葡萄牙控球多、射門多、預期進球高，但 Croatia 效率更高，1-1 是最可能結果，Croatia 2-1 爆冷有 30% 機率。\n\n## 什麼情況會翻盤\n\n- **葡萄牙大勝**：Ramos 和 Félix 同時爆發，且 Ronaldo 60 分鐘前被換下，Neto、Conceição 速度衝垮 Croatia 老邊路。但這需要 Martinez 有膽子，歷史上他沒有。\n- **Croatia 崩盤**：Modrić 體能提早耗盡（70分鐘前），中場被 Neves+Nunes 絞殺，但 Modrić 大賽從不提早下場。"
+            "contrarian_md": "主流敘事：葡萄牙有 C 羅、有英超幫、有巴黎幫，攻擊指數 2.96 看起來豪華，Croatia 只剩老 Modrić 在撐，自然押葡萄牙輕取。但我看資料：Croatia 攻擊指數 3.57 其實更高，而且他們本屆預期貢獻 1.28 雖低，但對手強度可能更高。關鍵是 Croatia 有兩個 xG90 0.5+ 級別的中鋒（9號 Kramarić 0.49、11號 Budimir 0.55），葡萄牙只有 Ramos 一個 0.63，其他前場都是 0.3 上下。Modrić 的預期助攻 0.41 是 Bruno Fernandes 8號（0.38）的級別，這場是兩個頂級餅師對決。2018 阿根廷被冰島逼平、2022 阿根廷輸沙烏地，都是「明星前場+薄弱中場銜接」被對方雙中鋒+老將組織打懵。葡萄牙中場 Neves 21號（Al Hilal）+ Neves 15號（PSG）的組合，對抗硬度不如 Croatia 的 Kovačić 8號（Man City）+ Moro 7號（Bologna）。",
+            "signature_scene": "下半場 60-70 分鐘，Croatia 10號 Luka Modrić（AC Milan）中場右側拿球，葡萄牙 15號 João Neves（PSG）上搶被過，Modrić 斜塞找到禁區內 9號 Andrej Kramarić（TSG Hoffenheim），後者背身扛住 3號 Rúben Dias（Man City）轉身低射遠角破門，1-1 扳平。這球後葡萄牙被迫壓上，Croatia 14號 Ivan Perišić（PSV）開始在左路獲得反擊空間。",
+            "reasoning_md": "Croatia 攻擊指數更高、雙中鋒終結效率壓制葡萄牙，Modrić 仍能主導節奏；葡萄牙前場豪華但中場銜接偏軟，C 羅 7號（Al Nassr）年齡導致高強度對抗下效率存疑。預期一場僵持，Croatia 有望逼平甚至偷勝。",
+            "script_md": "## 整體判讀\n\n表面葡萄牙星光熠熠，但資料說 Croatia 攻擊指數 3.57 > 葡萄牙 2.96。葡萄牙的「豪華」是廣度（Leão、Félix、Neto 都在 0.3-0.5 xG90 區間），但缺乏第二個 0.5+ 級別的終結點；Croatia 有 9號 Kramarić（0.49）和 11號 Budimir（0.55）兩個高效中鋒，這在世界盃鐵桶陣中是致命武器。\n\n## 關鍵對位\n\n- **中場控制**：葡萄牙 8號 Bruno Fernandes（Man United）關鍵傳球 3.26 很亮眼，但他需要球權；Croatia 10號 Modrić（AC Milan）關鍵傳球 2.96 略低，但預期助攻 0.41 更高，說明他傳的是「真威脅球」。葡萄牙 15號 João Neves（PSG）頂替 Vitinha，這孩子射門 1.89 看起來積極，但對抗經驗不足，碰上 Modrić + Kovačić 8號（Man City）的雙控組合，容易失位。\n- **邊路攻防**：葡萄牙 17號 Rafael Leão（AC Milan）xG90 0.34 不算頂級，面對 Croatia 2號 Josip Stanišić（Bayern）+ 4號 Joško Gvardiol（Man City）的邊路組合，突破空間有限。反過來 Croatia 14號 Ivan Perišić（PSV）預期助攻 1.47 是怪物級別，葡萄牙 20號 João Cancelo（Barcelona）攻強守弱，這側會被針對。\n- **終結效率**：葡萄牙 7號 Cristiano Ronaldo（Al Nassr）沒有 xG90 資料，說明不在頂級聯賽統計範圍，41 歲在高強度小組賽第三場的體能存疑；Croatia 雙中鋒都在當打之年，Budimir 0.55 的 xG90 是這場最高效的終結點。\n\n## 比賽劇本\n\n**早段（0-25分鐘）**：葡萄牙控球主攻，Bruno Fernandes 頻繁嘗試直塞找 9號 Gonçalo Ramos（PSG），但 Croatia 5號 Duje Ćaleta-Car（Real Sociedad）+ 6號 Josip Šutalo（Ajax）的中衛組合身高足夠，Ramos 頭球優勢發揮不出來。C 羅兩次禁區外遠射偏出，看起來「很努力」但沒實質威脅。\n\n**中段（25-60分鐘）**：Croatia 逐漸拿回中場，Modrić 開始在右肋部活動，避開 Bruno Fernandes 的逼搶範圍。35 分鐘左右，Modrić 斜塞找到 11號 Ante Budimir（Osasuna），後者小角度射門被 1號 Diogo Costa（Porto）撲出。葡萄牙反擊，Leão 左路突破傳中，C 羅頭球頂高。上半場 0-0，葡萄牙控球 58% 但預期進球落後。\n\n**下半場（60-75分鐘）**：Croatia 調整，14號 Perišić 換到左路對位 Cancelo。65 分鐘，Modrić 過頂球找到 Perišić，後者底線回敲，9號 Kramarić（Hoffenheim）搶點破門，0-1。葡萄牙 70 分鐘換上 11號 João Félix（Al Nassr）和 18號 Pedro Neto（Chelsea），改打三前鋒。78 分鐘，Bruno Fernandes 禁區外遠射折射，Ramos 補射扳平 1-1。\n\n**末段（75-90分鐘）**：葡萄牙壓上求勝，Croatia 收縮打反擊。85 分鐘，Kovačić 斷球長傳，20號 Igor Matanović（Freiburg）單刀被 Costa 撲出。最終 1-1，雙方都接受結果。\n\n## 為什麼是 1-1\n\n葡萄牙中場硬度不足，無法持續壓制 Modrić；Croatia 雙中鋒能進球，但邊路反擊效率（Perišić 年齡、Matanović 經驗）不足以擴大優勢。雙方都有進球能力，但都缺「殺死比賽」的第三球。\n\n## 什麼情況會翻盤\n\n- **葡萄牙大勝（2-0/3-1）**：C 羅爆發（機率低），或 Croatia 中衛組合 5號 Ćaleta-Car + 6號 Šutalo 其中一人紅牌/重大失誤。\n- **Croatia 爆冷（1-2/0-1）**：Modrić 助攻梅開二度，Kramarić/Budimir 其中一人把握第二次機會；葡萄牙 Neves 中場失位導致快速失球，心態崩盤。"
           },
           {
             "name": "Grok",
@@ -6324,17 +6324,17 @@
             "selection_team": "葡萄牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.52,
-              "D": 0.31,
-              "A": 0.17
+              "H": 0.58,
+              "D": 0.28,
+              "A": 0.14
             },
             "confidence": 0.62,
-            "key_risk": "Modrić 與 Kovačić 掌控節奏，並發動反擊供給 Kramarić/Budimir。",
+            "key_risk": "Modrić 與 Kovačić 的中場控制力，將比賽轉化為低強度的博弈棋局",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為 Portugal 憑藉 Ronaldo、Bruno 和 Ramos 的火力可以輕鬆過關。這忽略了 Croatia 更優異的球隊進攻指數（3.57 對 2.96），以及 Portugal 最好的創造者（Bruno 場均 3.26 次關鍵傳球、Bernardo）所搭配的前鋒線已顯露老態，且在面對組織嚴密的「中位防守」（mid-blocks）時已顯現出脆弱性；2018 年的 Germany 對陣 Korea 以及 2022 年的 Argentina 對陣 Saudi Arabia，正是這些「穩操勝券」的小組賽賽事如何翻車的具體寫照。",
-            "signature_scene": "下半場第 65 分鐘：克羅埃西亞 10 號 Luka Modrić (AC Milan) 傳出一記 40 碼的斜線長傳，找到 9 號 Andrej Kramarić (TSG Hoffenheim)，後者在 Portugal 於定位球進攻中投入過多兵力導致防守空虛的情況下，直接起腳破門，擊敗門將 Diogo Costa。",
-            "reasoning_md": "Croatia 較高的進攻指數與中場控制力，足以抵銷 Portugal 的主場優勢與球星光環；預計這將是一場比分膠著的比賽，Portugal 有望以 2-1 小勝，但戰局隨時可能翻盤。",
-            "script_md": "葡萄牙在開賽初期掌握較多控球權，但克羅埃西亞的中場（Modrić、Kovačić、Pašalić）不斷贏得第二落點，並將比賽節奏控制在狹小區域內。葡萄牙的第一個進球來自第 28 分鐘，由 Cancelo 傳中，Rúben Dias 以頭槌破門。克羅埃西亞在上半場結束前扳平比分，由 Perišić 傳中，Budimir 頭球頂入。下半場葡萄牙將 João Félix 和 Leão 的位置推得更靠前；Ramos 終於在第 71 分鐘將一次倒三角回傳轉化為進球。克羅埃西亞陣型後撤，兩度發動反擊，但僅創造出一次絕佳機會，可惜 Livaković 未能將其轉化為進球。2-1 的比分維持到終場，因為葡萄牙的板凳球員（Neto、Trincão）提供了足夠的體能來終結比賽。若非 Dalot 因疲勞領到紅牌，或是 Modrić 展現出神來之筆，比賽結果可能會翻轉為克羅埃西亞獲勝或平局。"
+            "contrarian_md": "傳統觀點認為，憑藉 Ronaldo、Ramos 和 Fernandes 的強大火力，Portugal 在主場將能輕鬆取勝。然而，這種說法忽略了 Croatia 更高的進攻指數（3.57 對 2.96）、Gvardiol 可能回歸的消息，以及由 Modrić 領軍的球隊曾多次讓強權難堪的事實（2018 年的 Korea、2022 年的 Japan）。認為 Portugal 能輕取對手的薄弱論點，正是爆冷門的溫床。",
+            "signature_scene": "下半場第 65 分鐘：**Bruno Fernandes**（Manchester United）送出一記斜傳給 **Gonçalo Ramos**，在 Croatia 於定位球進攻中投入過多兵力導致防守空虛的情況下，**Gonçalo Ramos** 直接起腳破門，攻破 Livaković 把守的大門。",
+            "reasoning_md": "葡萄牙更深厚的陣容深度與 1.94 的預期貢獻值（expected contribution）勝過 Croatia 的經驗優勢；憑藉主場優勢，預計將以 2-1 小勝。",
+            "script_md": "葡萄牙透過 Vitinha/Neves 與 Bruno Fernandes 控制球權與場地，而克羅埃西亞則採取緊湊防守，由 Gvardiol 與 Šutalo 鎮守禁區。比賽初期，葡萄牙藉由邊路威脅（Leão 與 Cancelo）施壓，但克羅埃西亞的 10 號 Modrić 與 8 號 Kovačić 成功拖慢節奏，限制了對手的得分機會。首顆進球出現在 35 至 40 分鐘左右，由 Ramos 接應 Leão 的回傳球破門。下半場克羅埃西亞做出回應，由 Perišić 傳中助攻 Budimir 頭槌得分，迫使葡萄牙加強進攻。比賽尾聲，隨著克羅埃西亞體力下滑，Bruno Fernandes 送出直塞球，Ramos 再下一城攻入致勝球。葡萄牙的板凳深度（Neto、Conceição）成功阻止了克羅埃西亞扳平比分。最終比分維持在 2-1，因為雙方皆未創造出足夠的進攻量來拉開差距。比賽結果唯有在 Modrić 能掌控全場 90 分鐘節奏，且克羅埃西亞能把握定位球機會，同時葡萄牙浪費預期進球（xG）的情況下，才有可能翻盤。"
           },
           {
             "name": "GLM",
@@ -6342,17 +6342,17 @@
             "selection_team": "和局",
             "predicted_score": "1-1",
             "win_prob": {
-              "H": 0.45,
+              "H": 0.42,
               "D": 0.3,
-              "A": 0.25
+              "A": 0.28
             },
             "confidence": 0.65,
-            "key_risk": "葡萄牙鋒線狀態火熱（Ramos、Félix），若克羅埃西亞中場控制力不如預期，葡萄牙可能靠個人能力打破僵局。",
+            "key_risk": "克羅埃西亞中場過度老化，若葡萄牙改打高位逼搶，克羅埃西亞後場出球崩潰可能連丟兩球提前繳械。",
             "second_score": "2-1",
-            "contrarian_md": "主流敘事會說葡萄牙陣容豪華、C羅最後一舞、攻擊指數高，理應碾壓老化的克羅埃西亞。但我不完全信：葡萄牙攻擊指數2.96其實低於克羅埃西亞的3.57，且克羅埃西亞本屆預期貢獻1.28雖低，卻代表他們靠體系而非爆發。Modrić轉戰米蘭仍有頂級組織能力（關鍵傳球90高達2.96），Kramarić（xG90 0.49）和Budimir（xG90 0.55）的火力分佈比葡萄牙更均勻。歷史上2018克羅埃西亞淘汰英格蘭、2022摩洛哥四強，都是「大家覺得穩」的強隊被體系型球隊咬死。葡萄牙若以為名氣能贏，很可能翻車。",
-            "signature_scene": "下半場60分鐘左右，10號 Modrić（AC Milan）在中圈接球，一腆對角長傳找到左路插上的14號 Perišić（PSV Eindhoven），Perišić底線附近傳中，9號 Kramarić（TSG Hoffenheim）禁區內甩開3號 Rúben Dias（Manchester City FC）頭球破門——克羅埃西亞靠一次教科書反擊先進球。",
-            "reasoning_md": "克羅埃西亞攻擊指數3.57高於葡萄牙2.96，火力分佈更均勻，Modrić的組織力仍是頂級。葡萄牙鋒線名氣大但本屆預期貢獻僅1.94，效率普通。這場大機率平手，1-1最寫實。",
-            "script_md": "## 整體判讀\n克羅埃西亞的陣容攻擊指數3.57硬是壓過葡萄牙的2.96，這不是幻覺——他們的火力分佈太均勻了。Budimir（xG90 0.55）、Kramarić（0.49）、Pašalić（0.35）三條線都有人能進球，加上Modrić每90分鐘2.96次關鍵傳球在中場掌舵，這支球隊的體系成熟度被嚴重低估。葡萄牙的問題在於：攻擊指數低、本屆預期貢獻1.94看似不差但效率普通，C羅在Al Nassr的資料沒列入，真實狀態存疑。\n\n## 關鍵對位\n- **中場爭奪**：8號 Bruno Fernandes（Man United，關鍵傳球90 3.26）vs 10號 Modrić（AC Milan，關鍵傳球90 2.96）——這是全場勝負手。Bruno傳球更狠但失誤多，Modrić更穩。15號 João Neves（PSG）頂替Vitinha先發是雙刃劍，衝擊力夠但大賽經驗不足，可能被Modrić的老狐狸球商玩死。\n- **鋒線效率**：9號 Gonçalo Ramos（PSG，xG90 0.63）是葡萄牙最可靠的終結者，但克羅埃西亞4號 Gvardiol（Man City）回歸先發後，防線核心回來了。Ramos對Gvardiol這組對位，資料上Ramos佔優但Gvardiol在大賽的穩定性更高。\n- **邊路突破**：11號 Rafael Leão（AC Milan，xG90 0.34）對克羅埃西亞右路，但14號 Perišić（PSV，預期助攻90 1.47）如果改踢邊路，他的防守紀律和反擊傳中能力會讓Leão攻上去後留的空檔變成克羅埃西亞的武器。\n\n## 比賽劇本\n- **上半場（0-45min）**：葡萄牙主動壓上，Bruno Fernandes和Bernardo Silva控制球權，但克羅埃西亞中場三角（Modrić-Kovačić-Moro）不慌不忙地吸收壓力。葡萄牙幾次邊路突破被Gvardiol和Stanišić化解，Ramos拿到一兩次半機會但沒轉化。0-0進中場。\n- **下半場（46-70min）**：克羅埃西亞開始反客為主。Modrić中場一次精準長傳找到Perišić，Perišić傳中、Kramarić或Budimir搶點破門，克羅埃西亞1-0領先。葡萄牙被迫壓上。\n- **末段（70-90min）**：葡萄牙換上Pedro Neto（Chelsea）和Trincão加強邊路衝擊，終於靠一次定位球或Bruno Fernandes遠射扳平。1-1。之後雙方都不敢冒險，比賽收尾。\n\n## 為什麼是1-1\n世界盃小組賽首輪，兩隊都不想輸。葡萄牙攻擊效率不足以碾壓有體系的克羅埃西亞，克羅埃西亞的鋒線也沒強到能打穿葡萄牙防線兩次。1-1是最誠實的比分。\n\n## 什麼情況會翻盤\n如果João Neves上半場就因經驗不足送出致命失誤，克羅埃西亞可能早早領先後龜縮反擊，葡萄牙急躁之下全線壓上，被Kramarić再抓一次反擊——那就是0-2爆冷。反過來，如果Ramos前20分鐘就進球，克羅埃西亞被迫壓出來，葡萄牙的反擊速度（Leão+Neto）可能打出2-0或3-0。但兩種極端情境機率都不高，1-1才是正路。"
+            "contrarian_md": "主流名氣會看葡萄牙陣容豪華、攻擊指數高，覺得贏定了。但我不買帳：葡萄牙本屆預期貢獻1.94看似不錯，鋒線卻有Cristiano Ronaldo（Al Nassr FC）和João Félix（Al Nassr FC）兩人遠離頂級聯賽，實戰節奏跟不上世界盃強度。反觀克羅埃西亞攻擊指數3.57更高，主力Kramarić、Budimir都在歐洲一級聯賽當打之年。2018德國輸韓國、2022阿根廷輸沙烏地，都是大家覺得「穩贏」的強隊被對手咬死。這場克羅埃西亞完全具備咬住甚至翻盤的條件。",
+            "signature_scene": "下半場60分鐘左右，克羅埃西亞10號 Luka Modrić（AC Milan）在中圈接球，葡萄牙8號 Bruno Fernandes（Manchester United FC）上搶太兇被一腳穿越，Modrić直塞9號 Andrej Kramarić（TSG Hoffenheim），後者禁區邊緣橫敲11號 Ante Budimir（CA Osasuna）推射破門——葡萄牙中場逼搶落空、後防瞬間暴露。",
+            "reasoning_md": "克羅埃西亞中場控制力和鋒線效率被嚴重低估，葡萄牙鋒線多名主力遠離頂級聯賽、實戰節奏存疑。這場克羅埃西亞能咬住，最可能1-1平手，葡萄牙就算贏也只贏1球。",
+            "script_md": "## 整體判讀\n葡萄牙帳面豪華但鋒線有隱患：7號 Cristiano Ronaldo（Al Nassr FC）和11號 João Félix（Al Nassr FC）都在沙烏地聯賽，世界盃高壓節奏下能發揮幾成是大問號。克羅埃西亞攻擊指數3.57硬是壓過葡萄牙的2.96，而且主力Kramarić（Hoffenheim）、Budimir（Osasuna）都在歐洲一級聯賽每週對抗頂級後衛，手感不是沙國聯賽能比的。\n\n## 關鍵對位\n中場是勝負手。克羅埃西亞10號 Luka Modrić（AC Milan）關鍵傳球90高達2.96，搭配8號 Kovačić（Manchester City FC）的控球和15號 Pašalić（Atalanta）的後插上（xG90 0.35），這條中場線的創造力不輸葡萄牙。葡萄牙靠8號 Bruno Fernandes（Manchester United FC，關鍵傳球90 3.26）和10號 Bernardo Silva（Manchester City FC）撐場，但21號 João Neves（Paris Saint-Germain）頂替Vitinha先發，經驗和組織力差一截。如果葡萄牙中場控制不住，後防3號 Rúben Dias（Manchester City FC）一個人扛不住Budimir和Kramarić的輪番衝擊。\n\n## 比賽劇本\n- **早段（0-25分）**：葡萄牙主場搶攻，Leão和Neto在邊路製造威脅，但克羅埃西亞4號 Gvardiol（Manchester City FC）回歸先發後防線穩住。葡萄牙可能靠一次定位球或Bruno Fernandes遠射先破門，1-0。\n- **中段（25-65分）**：克羅埃西亞站穩陣腳，Modrić開始控制節奏，Perišić（PSV Eindhoven，預期助攻90 1.47）在邊路送出威脅球。葡萄牙中場逼搶效率下降，克羅埃西亞找到空間，Budimir或Kramarić把握一次機會扳平。\n- **末段（65-90分）**：雙方都怕輸不敢壓上，葡萄牙換人但板凳鋒線（Trincão、Guedes）殺傷力有限，克羅埃西亞靠經驗消耗時間。最終1-1收場。\n\n## 為什麼是這個比分\n葡萄牙進攻火力被高估——Ronaldo和Félix的xG資料來自沙烏地聯賽，含金量存疑；克羅埃西亞防守有Gvardiol坐鎮，不會輕易崩盤。克羅埃西亞攻擊效率扎實（Budimir xG90 0.55、Kramarić 0.49都在歐洲一級聯賽），進1球合理但也不至於灌2-3球。1-1是最符合雙方真實實力對比的結果。\n\n## 什麼情況會翻盤\n如果葡萄牙上半場就打進2球，克羅埃西亞被迫壓上，後場空間暴露，葡萄牙反擊可能擴大到3-1。反之，如果克羅埃西亞中場完全壓制、Modrić踢出大師級表現，葡萄牙後防失誤送禮，克羅埃西亞2-1爆冷贏球也不是不可能。但最大機率是雙方各進1球握手言和。"
           }
         ]
       },
@@ -6370,7 +6370,7 @@
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "瑞士",
-        "win_prob": 0.586,
+        "win_prob": 0.581,
         "agree": "7/7 models",
         "predicted_score": "2-1",
         "models": [
@@ -6380,17 +6380,17 @@
             "selection_team": "瑞士",
             "predicted_score": "2-0",
             "win_prob": {
-              "H": 0.6,
+              "H": 0.58,
               "D": 0.25,
-              "A": 0.15
+              "A": 0.17
             },
             "confidence": 0.62,
-            "key_risk": "瑞士的進球轉化率：如果 Okafor/Embolo 無法將進攻聲勢轉化為進球，Algeria 的 Chaïbi/Aouar 可能會透過一次攻守轉換或定位球偷走比賽。",
+            "key_risk": "瑞士隊的臨門一腳逐漸變成「狂射卻無法終結」，而阿爾及利亞則靠著一次 Chaïbi 與 Aouar 的轉換進攻，或是 Bensebaini 與 Mandi 的定位球戰術偷得一分。",
             "second_score": "2-1",
-            "contrarian_md": "傳統觀點：Switzerland 在主場作戰時是一支更穩健、陣容深度更佳的歐洲球隊——應能例行公事般取勝。\n\n為何我不太認同「穩健」這一說：Algeria 的最佳陣容擁有真正的創造者（10 號 Chaïbi、8 號 Aouar），加上 15 號 Aït-Nouri 與 21 號 Bensebaini 所提供的頂級傳中與邊路重疊進攻；如果 Switzerland 的右路防守需要臨時拼湊（Widmer 出賽存疑），那將成為對手鎖定的目標。只要一次越位陷阱失誤或是一次定位球機會，這場比賽就可能演變成經典的世界盃冷門——2022 年 Argentina 對陣 Saudi Arabia 的比賽就證明了，熱門球隊若在上半場表現乏力，整場比賽的局勢隨時可能翻盤。",
-            "signature_scene": "下半場（55'–65'）：瑞士隊 10 號 Xhaka（Sunderland）將球斜傳至左路通道；19 號 Noah Okafor（Leeds）轉身擺脫 2 號 Aïssa Mandi（Lille）後回敲，由 7 號 Breel Embolo（Rennes）第一時間起腳破門——比數來到 2-0，比賽就此定案。",
-            "reasoning_md": "瑞士之所以獲勝，是因為他們擁有更可靠的頂級聯賽陣容深度，以及多名高 xG（預期進球）的前鋒；而阿爾及利亞在賽事中的產出相當薄弱，且其門將與板凳陣容的配置，給人一種「只能死守並祈禱」的感覺。",
-            "script_md": "### 整體分析\nSwitzerland 是進攻更乾淨、陣容深度更佳的一方（Okafor、Embolo、Ndoye 和 Amdouni 都能創造出真正的射門機會），且他們在門將位置上有 Gregor Kobel 這位可靠的防線守護者。Algeria 具備足夠的技術水準來製造威脅，但他們目前為止的世界盃進攻貢獻值（0.41）顯示這是一支依賴靈光一現的球隊。\n\n### 關鍵對位\n- Switzerland 的前場壓迫 vs Algeria 的後場組織：No.7 Embolo 和 No.19 Okafor 有能力迫使對手進行狼狽的解圍並爭搶第二落點。\n- Algeria 唯一有效的進攻途徑：No.10 Farès Chaïbi (Eintracht Frankfurt) 儘早找到 No.9 Amine Gouiri (Marseille)，並配合 No.15 Rayan Aït-Nouri (Manchester City) 在 Switzerland 右後衛身後的空間進行套邊進攻（特別是如果 Widmer 缺陣的話）。\n- 門將差距至關重要：Kobel 是「分數拯救者」；而 Algeria 的門將人選在面對持續射門時，看起來遠不如前者可靠。\n\n### 比賽劇本\nSwitzerland 開局節奏明快，透過邊路進攻和大量的射門將 Algeria 壓制在半場——Ndoye 和 Vargas 拉開對方的邊後衛，而 Xhaka 則掌控比賽節奏。Algeria 最好的進攻時段將出現在他們突破第一波壓迫，並由 Chaïbi 將球塞給 Gouiri 之時，但由於缺乏 Amoura 的速度，他們在身後的威脅性降低，Switzerland 也更容易重新組織防線。\n\n### 進球與比賽狀態\n我預測 Switzerland 會先馳得點（透過定位球或二次進攻），隨後 Algeria 必須壓上進攻——這正是 Switzerland 的跑動型球員所樂見的。第二個進球將來自於持續施壓後的轉換進攻或倒三角回傳；此後 Switzerland 將透過 Freuler 和 Zakaria 的防守屏障以及 Kobel 的穩健表現來控制比賽。\n\n### 為何預測 2-0\n這是最符合世界盃現實的結果：更優越的陣容深度 + 更高的前場射門品質 + 巨大的門將優勢，對陣一支缺少關鍵進攻出口且難以維持 90 分鐘進攻強度的 Algeria。\n\n### 變數\n如果 Switzerland 浪費了開局的機會，而 Algeria 先馳得點——例如透過 Chaïbi 的定位球或 Gouiri 的反擊——比賽可能會演變成 0-1 或 1-1 的拉鋸戰，屆時 Switzerland 的「控制」可能會轉變為慌亂。"
+            "contrarian_md": "### 明顯的觀點\n瑞士隊坐鎮主場，陣容深度更佳，且擁有更穩固的中軸線（1號 Kobel、5號 Akanji、10號 Xhaka）——他們能掌控比賽並取得勝利。\n\n### 為何我對這種「安全感」持保留態度\n瑞士隊的數據顯示他們能創造大量機會，但盃賽足球往往會懲罰浪費機會的球隊：如果 Okafor 或 Embolo 無法在開局階段把握住機會，阿爾及利亞的最佳進攻路徑就是透過 10 號 Farès Chaïbi（法蘭克福）傳球給 9 號 Amine Gouiri（馬賽），再加上 15 號 Aït-Nouri 從邊後衛位置送出的威脅傳中，打出*一次*乾淨俐落的反擊。這正是那些「理應安全」的比賽翻車的原因——想想 2022 年阿根廷對陣沙烏地阿拉伯的比賽：一次防線鬆懈、一次無情的攻守轉換，奪冠熱門就會陷入長達 70 分鐘的苦苦追趕。",
+            "signature_scene": "下半場（58’）：瑞士隊在右路形成人數優勢——11號 Dan Ndoye（Nottingham Forest）壓制住邊後衛，22號 Fabian Rieder（Augsburg）送出低平回傳，19號 Noah Okafor（Leeds）直接起腳射門；門將脫手，7號 Breel Embolo（Rennes）在6碼處補射破門，比分來到 2-0。",
+            "reasoning_md": "瑞士獲勝的原因在於他們的鋒線（Okafor/Embolo/Ndoye）簡直是一台高產量的進攻製造機，而 Algeria 陣容深度不足、門將位置較弱，加上 Amoura 因傷缺陣，這削弱了他們最具威脅的混亂戰術選擇。",
+            "script_md": "Switzerland 是這場比賽中更為穩定的 *90 分鐘*球隊：擁有更強的進攻指數、更深厚的頂級聯賽陣容深度，以及一套不需要奇蹟就能創造機會的攻守結構。Algeria 確實擁有技術型球員（10 號 Chaïbi、8 號 Aouar、9 號 Gouiri），但整體的輸出表現更像是「一兩次精彩瞬間」，而非持續性的施壓——再加上 18 號 Mohamed Amoura (Wolfsburg) 缺陣，他們的縱向威脅和爭搶第二落點的能力都隨之下降。\n\n**關鍵對位：** 如果 Switzerland 的 5 號 Manuel Akanji (Inter) 和 4 號 Nico Elvedi (Gladbach) 能讓 Gouiri 背對球門，他們應該能踢得很輕鬆；真正的危險在於讓 Chaïbi 接球並轉身。另一方面，Algeria 最強的武器在左路——15 號 Rayan Aït-Nouri (Man City) 加上 21 號 Ramy Bensebaini (Dortmund) 可以透過人數優勢進行壓制，並向 Switzerland 的後點傳中，特別是如果 Switzerland 的右後衛位置需要臨時補位（3 號 Widmer 出賽存疑，25 號 Luca Jaquez 可能先發）。\n\n**比賽劇本：** Switzerland 開局節奏快且佔據地盤——Xhaka (10 號) 和 Rieder (22 號) 儘早為跑動球員輸送球權，由 Ndoye (11 號) 和 Vargas (17 號) 衝擊禁區。他們透過簡單的套路取得首球：邊路傳中、爭搶第二落點，並在 Algeria 防線重整前由 Okafor/Embolo 完成終結。Algeria 的回應是 15 到 20 分鐘的反擊潮，由 Chaïbi 和 Aouar 嘗試送出直塞球給身後的 Gouiri；他們會贏得幾次危險的自由球，但由於缺少 Amoura，Switzerland 禁區內的「混亂感」相當有限。\n\n下半場當 Algeria 必須壓上陣型時，Switzerland 將攻入第二球：更多的回傳球空間、罰球點附近的更多射門，前鋒群的 xG（預期進球）數據終於轉化為比分。**為何預測 2-0：** Switzerland 的創造機會能力與防守中軸線看起來足以將 Algeria 的進攻限制在低質量射門；最現實的變數是 **2-1**，前提是 Algeria 能透過定位球或 Chaïbi 到 Gouiri 的單次轉換進球。\n\n**翻盤關鍵：** Switzerland 浪費開局的必進球機會 + Algeria 先進一球（定位球/反擊）。如果 Algeria 先得分，Switzerland 可能會變得急躁，比賽將演變成低比分的拉鋸戰，屆時 1-1 或 1-2 的比分就有可能出現。"
           },
           {
             "name": "Claude",
@@ -6399,34 +6399,34 @@
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.47,
-              "D": 0.29,
-              "A": 0.24
+              "D": 0.28,
+              "A": 0.25
             },
             "confidence": 0.55,
-            "key_risk": "阿爾及利亞的前鋒線（Gouiri、Chaïbi、Aouar）確實極具威脅，而瑞士的中後衛 Elvedi 與 Akanji 在攻守轉換時可能會被對手轉身突破——只要出現一次失誤，比分就可能被追平或導致輸球。",
+            "key_risk": "Algeria 的前場火力（Gouiri、Aouar、Chaïbi）優於其薄弱的防守情報，並憑藉幾次冷靜的射門扭轉了戰局。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點是：Switzerland 是一支陣容整齊、深度足夠且久經頂級聯賽磨練的球隊（26 人中有 23 人有數據支持，指數為 2.04），且坐擁主場優勢；而 Algeria 則是一支狀態不穩的非洲球隊，不僅缺少了 Amoura，其世界盃貢獻值數據也相當慘淡（0.41 對比 Switzerland 的 4.06）。每個人都預期 Switzerland 能輕鬆取勝。但我並不完全認同這種「輕鬆」的說法。Algeria 的進攻指數（1.92）與 Switzerland 相差無幾，且他們真正的火力相當驚人——Gouiri（xG90 為 0.37，每 90 分鐘 3.36 次射門）、Aouar（0.37）、Chaïbi（0.21，且擁有高達 2.32 的 KeyPass90）。這比 Switzerland 那種中規中矩但缺乏銳利的進攻核心（Okafor 只是 Leeds 的輪換球員，Embolo 狀態起伏不定，Amdouni/Vargas 表現平平）更具創造力。Switzerland 是一支典型的「安全牌」球隊，但歷史總是不斷給他們教訓——這與 Germany 經常被理應擊敗的對手逼平或擊敗的情況如出一轍。如果 Algeria 能組織好防守並打出反擊，那麼 1-1 戰平，或是像 Saudi Arabia 對陣 Argentina 那樣的爆冷取勝，都極有可能發生。",
-            "signature_scene": "下半場約 60 分鐘：阿爾及利亞 10 號 **Farès Chaïbi**（Eintracht Frankfurt）送出一記穿越球，越過 **Nico Elvedi** 的防線傳給 9 號 **Amine Gouiri**（Olympique Marseille），後者迫使 **Kobel** 做出一次精彩撲救並贏得一波角球攻勢——瑞士隊陣腳大亂了十分鐘，直到 **Xhaka** 穩住局面。",
-            "reasoning_md": "Switzerland 在陣容深度、主場優勢以及定位球控制上略勝一籌，但雙方實力差距遠比名氣所顯示的還要接近——預計這將是一場令人緊張的比賽，最終比分可能為 2-1，而 Algeria 的進攻至少能攻破對手大門一次。",
-            "script_md": "**整體解讀：** 瑞士隊陣容更為完整且深度更佳——各位置皆由頂級聯賽球員組成，中場由 Xhaka（每 90 分鐘關鍵傳球 1.30 次）與 Freuler 坐鎮，紀律嚴明，並以 Akanji 和 Kobel 為核心構建了穩固的中軸線。但他們的進攻顯得中規中矩，缺乏致命一擊的能力：Okafor 和 Embolo 承擔了預期進球（xG）的重任，但兩人的俱樂部狀態皆非頂尖，且陣中缺乏能輕易懲罰阿爾及利亞防守失誤的頂級終結者。\n\n**關鍵對位：** 比賽勝負取決於阿爾及利亞的進攻三叉戟——10 號 Farès Chaïbi（Eintracht Frankfurt）與 8 號 Houssem Aouar（Al Ittihad）負責為 9 號 Amine Gouiri（Olympique Marseille）輸送炮彈，後者是場上最敏銳的純前鋒（每 90 分鐘預期進球 0.37 次，每 90 分鐘射門 3.36 次）。缺少 18 號 Mohamed Amoura（VfL Wolfsburg）削弱了他們反擊的速度，而 Mahrez 目前僅剩名氣，數據已大不如前。在邊路，Rayan Aït-Nouri（Man City）回歸左後衛位置是一次實質性的升級，他將對 Widmer 或 Jaquez（瑞士隊唯一的傷病疑慮）施加壓力。\n\n**比賽劇本：** 預計瑞士隊將在開局控制控球權，而阿爾及利亞則會採取緊湊的防守陣型，伺機為 Gouiri 創造反擊機會。首個進球很可能由瑞士隊取得，來源於中場組織或定位球——Xhaka 傳中找 Akanji 或 Embolo 是最明顯的戰術套路。阿爾及利亞在下半場會逐漸進入狀態，並透過 Chaïbi 與 Gouiri 的連線發起攻勢；比賽中將有 10 到 15 分鐘的時間段，瑞士隊會出現明顯動搖。憑藉瑞士隊的板凳深度以及替補球員（Amdouni, Ndoye）帶來的活力，應能勉強重新掌控局面。\n\n**比分預測理由：** 2-1 的比分相當合理——瑞士隊組織更嚴密且佔據主場優勢，但阿爾及利亞的進攻威脅太大，難以被零封。若瑞士隊的終結能力持續低迷，比分可能會滑向 1-1。\n\n**變數：** 若由 Gouiri 先馳得點，或是 Elvedi 在攻守轉換時出現失誤，阿爾及利亞的防守反擊戰術就有機會偷走 0-1 或 1-1 的結果——這正是世界盃中「穩健」熱門球隊慘遭爆冷的典型劇本。"
+            "contrarian_md": "顯而易見的觀點是：Switzerland 是陣容深度更佳、經驗更豐富的歐洲球隊（Akanji、Xhaka、Kobel、Embolo、Okafor），進攻指數為 2.04 對上 1.92，且擁有主場優勢，因此他們能輕鬆勝出。我有一半認同這個說法——但僅止於一半。仔細觀察：Switzerland 的「火力」分散在英超球隊的邊緣球員身上，他們大多坐在板凳上（Okafor 在 Leeds、Amdouni 在 Burnley、Ndoye 則是輪替球員）。Algeria 的進攻球員實際上是「先發」且能產出數據的——Gouiri（每 90 分鐘預期進球 0.37，每 90 分鐘射門 3.36 次）和 Aouar（0.37）在每 90 分鐘的效率上，比這支紅色軍團中的任何人都更具威脅。Amoura 的傷勢確實造成影響，但由 Mahrez、Gouiri、Chaïbi 和 Aouar 組成的四人鋒線確實危險，而 Aït-Nouri 回歸左後衛位置，對球隊來說是 Man City 等級的升級，而非降級。這正是典型的陷阱：每個人都假設「穩健的 Switzerland 能處理掉這支非洲球隊」，就像 2022 年德國隊以為能「處理掉」日本隊一樣。如果 Swiss 掉以輕心，且 Xhaka 的中場防線被繞過，比賽結果將會翻盤變成 1-2。",
+            "signature_scene": "下半場約 65 分鐘：阿爾及利亞 10 號 Farès Chaïbi（法蘭克福）送出一記穿越球，越過 Nico Elvedi 的防線，交給 9 號 Amine Gouiri（馬賽），後者停球後起腳，球從近柱低處鑽入，擊敗了 Kobel——瑞士隊因急於追分，後防線陣型過於平齊而遭到懲罰。",
+            "reasoning_md": "Switzerland 憑藉板凳深度與對定位球的掌控在主場險勝，但 Algeria 的先發攻擊手狀態銳利，足以攻破對手大門——預計這將是一場緊張膠著的 2-1 比賽，而非 Switzerland 輕鬆愜意的獲勝。",
+            "script_md": "**整體分析：** Switzerland 在各個位置上都更為均衡——陣容深度十足（26 人中有 23 人擁有頂級聯賽數據），並以 Akanji、Xhaka 和 Kobel 組成的「歐冠級」中軸線為核心，且擁有真正的主場優勢。Algeria 的陣容深度較淺（僅 14/26 人有相關情報），但進攻端火力集中：他們的威脅來自少數幾名效力於優秀球會且具備門前終結能力的攻擊手。\n\n**關鍵對位：** Granit Xhaka（10 號，Sunderland）必須在面對 Algeria 10 號 Farès Chaïbi（Eintracht Frankfurt）時掌控節奏，後者場均 2.32 次關鍵傳球的數據使其成為客隊的進攻大腦。勝負關鍵在於 Algeria 9 號 Amine Gouiri（Olympique Marseille）與 8 號 Houssem Aouar（Al Ittihad）對陣 Switzerland 中後衛組合 Akanji 與 Elvedi 的對決——如果 Widmer 缺席右後衛位置而由 Jaquez 代打，該側將成為 Aït-Nouri（15 號，Man City）與 Chaïbi 鎖定的軟肋。鋒線上，Switzerland 仰賴 Embolo（7 號）與 Okafor（19 號），他們的原始 xG90（預期進球值）數據強勁，但缺乏穩定的球會出賽時間。\n\n**比賽劇本：** 預計 Switzerland 將在開賽初期掌控控球權並試探兩翼；Algeria 則會採取中位防守（mid-block），並在反擊中尋找 Gouiri 及 Amoura 替補人選的機會。我認為 Switzerland 會在上半場結束前透過 Embolo 或定位球頭槌（Akanji/Elvedi 是空戰威脅）取得突破。Algeria 將在下半場做出回應——大約在 60 分鐘左右，他們的攻擊手將獲得絕佳機會並扳平比分，迫使最後 25 分鐘進入極度緊張的拉鋸戰。Switzerland 優異的板凳深度（Vargas、Amdouni、Ndoye）將在比賽末段決定勝負。\n\n**為何預測 2-1：** 這場比賽具備了經典世界盃小組賽的所有特徵——總進球數 2-3 球，一球之差定勝負。兩隊的防線都不算滴水不漏，且雙方都擁有真正的終結者，因此兩隊都很難保持零封。\n\n**變數：** 如果 Algeria 先馳得點並採取「擺大巴」戰術，Switzerland 不穩定的臨門一腳（替補前鋒為主）將使 1-1 甚至 1-2 的比分變得非常有可能。Switzerland 的輕敵加上 Gouiri 梅開二度是爆冷的途徑——歷史經驗顯示，熱門球隊在這種比賽中輸球的機率比數據模型預測的更高。"
           },
           {
             "name": "DeepSeek",
             "selection": "HOME",
             "selection_team": "瑞士",
-            "predicted_score": "2-0",
+            "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.6,
+              "H": 0.55,
               "D": 0.25,
-              "A": 0.15
+              "A": 0.2
             },
             "confidence": 0.65,
-            "key_risk": "瑞士破密集能力不足，久攻不下被反擊偷襲",
-            "second_score": "1-0",
-            "contrarian_md": "主流會認為瑞士陣容實力碾壓，阿爾及利亞攻擊力墊底，三分手到擒來。但阿爾及利亞中前場仍有Aouar、Chaïbi這種能突然改變戰局的球員，一旦瑞士後防走神，完全可能複製喀麥隆爆冷阿根廷的劇本。世界盃上強隊翻車往往就是圍攻不進反被日。",
-            "signature_scene": "上半場第33分鐘，瑞士10號Xhaka中路精準過頂挑傳，19號Okafor反越位成功，停球后面對門將冷靜推射遠角入網。",
-            "reasoning_md": "瑞士整體攻防碾壓阿爾及利亞，Okafor效率極高，輕取2-0。",
-            "script_md": "**整體判讀**：瑞士陣容深度與攻擊火力明顯高出一籌，前場有Okafor(0.49 xG90)與Embolo(0.42)兩把尖刀，中場Xhaka掌控節奏，後防Akanji坐鎮。阿爾及利亞失去速度點Amoura，只能靠老將Mahrez與Aouar的靈光，但整體創造力匱乏。\n\n**關鍵對位**：瑞士19號Okafor的速度將反覆衝擊阿爾及利亞老將2號Mandi，這是最大突破口。阿爾及利亞10號Chaïbi的定位球與傳中是唯一可能威脅Kobel的武器。\n\n**比賽劇本**：瑞士從開場就掌控控球權，不斷從邊路發起衝擊。上半場30分鐘左右，Xhaka一腳過頂球找到Okafor，後者擺脫Mandi後破門，1-0。阿爾及利亞被迫壓上，反留後方空檔。下半場65分鐘，瑞士反擊，Embolo接應傳中頭槌再下一城。\n\n**比分定論**：2-0最符合場面，瑞士有能力進更多，但世界盃節奏下會適可而止。阿爾及利亞攻擊乏力，很難攻破瑞士大門。\n\n**翻盤劇本**：若瑞士久攻不下心態急躁，後防線一次失誤讓Mahrez偷到單刀，比賽可能走向1-1。但發生機率低。"
+            "key_risk": "阿爾及利亞左路爆點Aït-Nouri回歸，專打瑞士右後衛Widmer可能缺陣的缺口，若瑞士右路被打穿，比賽走勢會完全顛倒。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會說瑞士是歐洲勁旅、陣容均衡，打一支非洲二線的阿爾及利亞穩贏。但別忘了，阿爾及利亞前場有Gouiri、Aouar、Chaïbi這些在法甲、德甲證明過自己的技術流，瑞士的防線速度偏慢，Akanji和Elvedi轉身回追是硬傷。2022世界盃阿根廷輸沙烏地、德國輸日本，都是被技術型小快靈打穿防線身後。如果瑞士壓得太靠上，阿爾及利亞反擊一打一個準，這場爆冷不是沒可能。",
+            "signature_scene": "下半場第55分鐘，阿爾及利亞15號Rayan Aït-Nouri左路套邊插上，接到10號Chaïbi的直塞後低平球傳中，9號Amine Gouiri前點搶在瑞士4號Elvedi之前一腳踹射破門，把比分扳成1-1。",
+            "reasoning_md": "瑞士贏在整體深度和攻擊點分散，但阿爾及利亞有爆冷基因，比分會咬得很緊。瑞士2-1險勝是最合理的劇本，但平局絕非意外。",
+            "script_md": "① 整體判讀：瑞士強在整體性，攻擊實力指數2.04對1.92，差距不大但關鍵在深度。瑞士23人有頂級聯賽資料，阿爾及利亞只有14人，板凳差距會在下半場顯現。瑞士前場Okafor(0.49 xG90)和Embolo(0.42)是穩定輸出點，阿爾及利亞則靠Gouiri(0.37)和Aouar(0.37)的個人能力。\n② 關鍵對位：瑞士右後衛Widmer髖部不適，可能由25號Luca Jaquez頂替，這側將直接面對阿爾及利亞最銳利的武器——15號Rayan Aït-Nouri（曼城，關鍵傳球90高達4.00，傳中機器）。如果瑞士右路被爆，阿爾及利亞的進球就從這裡來。反過來，阿爾及利亞中後衛組合Mandi和Tougai缺乏頂級聯賽穩定出場，面對瑞士前場Okafor和Embolo的衝擊會很吃力。\n③ 比賽劇本：開場瑞士控場，利用Xhaka的排程和Ndoye的邊路衝擊施壓。阿爾及利亞收縮打反擊，Aït-Nouri和Chaïbi的左路連線是生命線。上半場瑞士靠定位球或邊路傳中由Embolo頭球破門，1-0。下半場阿爾及利亞反撲，Gouiri或Aouar抓瑞士防線身後空檔扳平，1-1。但瑞士板凳深度優勢在65分鐘後體現，Amdouni或Vargas替補上場改變節奏，最終靠一次混戰或個人能力打進致勝球，2-1。\n④ 為什麼是2-1：瑞士攻擊點多但缺乏一錘定音的超級射手，阿爾及利亞防守有漏洞但反擊夠犀利。世界盃小組賽最常見的就是一球分勝負，2-1符合雙方攻防實力對比。瑞士本屆場均預期貢獻4.06遠高於阿爾及利亞的0.41，但阿爾及利亞的0.41是被傷病和首發不完整拉低的，實際Gouiri+Aouar+Chaïbi的組合威脅不小。\n⑤ 翻盤條件：如果阿爾及利亞上半場頂住瑞士的攻勢，並由Aït-Nouri或Chaïbi在反擊中先偷一個，瑞士心態會崩。阿爾及利亞鋒線老將7號Riyad Mahrez雖然資料缺失，但大賽經驗豐富，替補上來踢最後20分鐘可能改變戰局。如果瑞士右路防守崩盤，阿爾及利亞完全可能2-1客場帶走勝利。"
           },
           {
             "name": "Gemini",
@@ -6434,17 +6434,17 @@
             "selection_team": "瑞士",
             "predicted_score": "2-0",
             "win_prob": {
-              "H": 0.68,
+              "H": 0.65,
               "D": 0.22,
-              "A": 0.1
+              "A": 0.13
             },
-            "confidence": 0.8,
-            "key_risk": "阿爾及利亞的幾位大牌球星（Gouiri、Mahrez、Aït-Nouri）突然找回了化學反應，並在不被看好的情況下取得進球，迫使瑞士隊必須去突破一個絕望且嚴密的低位防守陣型。",
-            "second_score": "1-0",
-            "contrarian_md": "顯而易見的劇本是，運作流暢的 Switzerland 將輕鬆瓦解表現失調的 Algeria，後者每場比賽的預期貢獻值僅有可憐的 0.41。但千萬別忽視 Algeria 先發陣容中的天賦。擁有 15 號 Rayan Aït-Nouri (Manchester City) 和 21 號 Ramy Bensebaini (Borussia Dortmund) 坐鎮防線，以及 9 號 Amine Gouiri (Olympique Marseille) 擔任箭頭，他們具備足夠的個人能力來執行「擺大巴」戰術，並透過單次反擊給予對手致命一擊。如果 Switzerland 的控球優勢無法轉化為早期的進球，挫折感可能會隨之而來——我們已經見識過當比賽節奏放緩時，Switzerland 在面對頑強且具備運動能力的防線時往往難以突破。",
-            "signature_scene": "下半場中段，Granit Xhaka（10號）在禁區邊緣掌控節奏，精準地傳出一記穿透球給 Dan Ndoye（11號）。Ndoye 成功擺脫防守球員，帶球推進至底線後送出低平球傳中，迫使 Algeria 的門將出現失誤，讓 Breel Embolo（7號）在近距離將球撞進球門。",
-            "reasoning_md": "瑞士隊在中場的絕對控制力與進攻深度，將無情地暴露阿爾及利亞隊在門將位置上的明顯弱點，以及他們在本次賽事中極其糟糕的狀態。",
-            "script_md": "瑞士隊帶著巨大的數據優勢進入這場比賽，他們每場比賽能創造超過 4.0 的預期貢獻值（expected contributions），相比之下阿爾及利亞僅有慘淡的 0.41。瑞士隊由 Granit Xhaka、Remo Freuler 和 Denis Zakaria 組成的中場三人組將完全掌控球場中路，從開賽哨響起便主導比賽節奏。\n\n阿爾及利亞陣中雖有如 15 號 Rayan Aït-Nouri（Manchester City FC）和 9 號 Amine Gouiri（Olympique Marseille）等知名球員，但球隊板凳深度卻嚴重不足。最明顯的實力差距在於門將位置，阿爾及利亞必須依賴如 1 號 Melvin Mastil（FC Stade Nyonnais）或 23 號 Luca Zidane（Granada CF）等低級別聯賽的門將，來面對由 Noah Okafor 和 Breel Embolo 領銜的瑞士鋒線。\n\n預計阿爾及利亞將採取深度防守，承受壓力，並祈禱 Riyad Mahrez 或 Gouiri 能在反擊中創造奇蹟。然而，由 Dan Ndoye 和 Ruben Vargas 驅動的瑞士隊，其強勢的邊路進攻將把阿爾及利亞的防線拉扯到崩潰邊緣。瑞士隊很可能會在上半場末段或下半場初段打破僵局，迫使阿爾及利亞放棄防守陣型。\n\n一旦比賽進入開放局面，瑞士隊更優越的板凳深度——例如換上 Zeki Amdouni 等球員——將利用阿爾及利亞球員疲憊的雙腿終結比賽。2-0 的勝利是最合理的結果。阿爾及利亞唯一能扭轉局面的方式，是 Gregor Kobel 出現罕見的失誤，或是 Aït-Nouri 成功完全封鎖瑞士隊右路，同時發動一次完美的個人反擊。"
+            "confidence": 0.75,
+            "key_risk": "阿爾及利亞以旅歐球員為核心的精銳防線（Bensebaini、Mandi、Aït-Nouri）成功執行「擺大巴」戰術，讓瑞士隊無功而返，最終雙方握手言和。",
+            "second_score": "1-1",
+            "contrarian_md": "最顯而易見的說法是，Switzerland 每場比賽能創造高達 4.06 的預期貢獻值（expected contribution），絕對會徹底擊潰僅有 0.41 的 Algeria。但我並不認為會出現一面倒的慘案。看看 Algeria 的後防線：Ramy Bensebaini (Dortmund)、Aïssa Mandi (Lille) 以及 Rayan Aït-Nouri (Man City)。這是一條歐冠等級的防線。如果 Algeria 認清自身進攻能力的侷限並採取「擺大巴」戰術，Switzerland 的前鋒群——他們雖然不錯，但並非頂尖且冷酷的終結者——很可能會輕易碰壁。想想 2022 年的 Morocco：擁有頂級後衛的北非球隊完全有能力抵銷對手優異的進攻數據。此外，隨著 Switzerland 右後衛 Silvan Widmer 出賽成疑，Aït-Nouri 在反擊時將有一個明顯的弱點可以利用。如果 Switzerland 失去耐心，踢出 0-0 或被對手以 0-1 偷襲得手的情況是完全可能發生的。",
+            "signature_scene": "下半場中段，Granit Xhaka（10號）在 Algeria 禁區周圍策動了一波持續的攻勢，隨後送出一記隱蔽的直塞球給 Dan Ndoye（11號）。Ndoye 擺脫防守球員後殺入底線，並傳出一記低平球，Algeria 的門將處理出現瑕疵，讓 Breel Embolo（7號）在近距離將球撞進球門。",
+            "reasoning_md": "瑞士在中場的絕對控制力以及源源不絕的進攻機會，終將擊潰 Algeria；儘管 Algeria 擁有具備歐冠水準的防線，但門將位置的明顯弱點以及毫無進攻節奏的問題，卻成為了致命傷。",
+            "script_md": "- **整體局勢：** 瑞士是一台運作高效、凝聚力強的機器，全場各位置皆具備頂級聯賽的深度；反觀 Algeria 則是一支缺乏整合的隊伍。這支北非勁旅擁有出色的防線，但在門將位置上存在巨大落差，且進攻端表現疲軟，在本屆賽事中幾乎毫無建樹。\n- **關鍵對位：** 瑞士右路的防守是本場比賽的壓力點。由於 Silvan Widmer 上陣成疑，年輕的 Luca Jaquez (VfB Stuttgart) 可能必須獨自應對 Algeria 15 號 Rayan Aït-Nouri (Manchester City) 與 Amine Gouiri 的重疊跑位。在中場核心地帶，Granit Xhaka 將掌控比賽節奏，迫使 Houssem Aouar 與 Hicham Boudaoui 疲於奔命。\n- **比賽劇本：** 預計 Algeria 會意識到自身進攻乏力，從而採取深位、頑強的低位防守陣型。Bensebaini 與 Mandi 將整場不斷解圍傳中球，這會讓瑞士隊在上半場陷入挫折與苦戰。瑞士將掌握控球權，透過邊路的 Ndoye 與 Vargas 不斷試探，但上半場結束時比分可能仍維持在 0-0。\n- **突破僵局：** 下半場，瑞士持續施加的龐大壓力將會奏效。Xhaka 精準的調度與遠射，最終將暴露 Algeria 門將位置的弱點（無論是 Luca Zidane 還是 Benbot）。一旦瑞士取得首個進球，Algeria 將被迫放棄防守陣型，這將為 Noah Okafor 或 Embolo 在攻守轉換中留下空間，從而終結比賽懸念。\n- **變數：** 如果 Algeria 的門將能繳出神級表現，且 Aït-Nouri 能在罕見的精準反擊中成功撕裂瑞士右路，那麼這支北非球隊或許能偷走一場 1-1 的平局，甚至爆冷以 0-1 取勝。"
           },
           {
             "name": "Kimi",
@@ -6452,17 +6452,17 @@
             "selection_team": "瑞士",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.55,
-              "D": 0.28,
-              "A": 0.17
+              "H": 0.62,
+              "D": 0.25,
+              "A": 0.13
             },
-            "confidence": 0.62,
-            "key_risk": "阿爾及利亞左後衛13號 Jaouen Hadjam（BSC Young Boys）的4.00關鍵傳球90若被啟動，搭配10號 Farès Chaïbi（Eintracht Frankfurt）的0.33預期助攻90，左路滲透可能打穿瑞士右側缺口",
-            "second_score": "1-1",
-            "contrarian_md": "主流敘事：瑞士是歐洲硬漢、連續大賽16強常客，阿爾及利亞非洲球隊、世界盃至今預期貢獻僅0.41，這場穩拿。但我看資料——瑞士攻擊指數2.04對1.92，差距沒有想像中大；阿爾及利亞14人有頂級聯賽資料，核心火力Gouiri(0.37)、Aouar(0.37)並不比瑞士Embolo(0.42)、Okafor(0.49)差太多。2022阿根廷輸沙烏地、德國輸日本，都是「歐洲中上游vs非洲/亞洲技術流」的劇本——強隊控球壓不垮、被反擊一劍封喉。瑞士這批後衛除了Akanji，Elvedi、Widmer都非頂級，若Hadjam+Ait-Nouri左路打活，爆冷不是天方夜譚。",
-            "signature_scene": "下半場60-75分鐘，阿爾及利亞10號 Farès Chaïbi（Eintracht Frankfurt）左路內切，瑞士右後衛Luca Jaquez（VfB Stuttgart）替補登場經驗不足，被Chaïbi 2.32關鍵傳球90找到後插上的8號 Houssem Aouar（Al Ittihad）推射破門，1-1扳平——這球來自瑞士壓上後的轉換，Aouar 1.45射門90的終結效率被低估。",
-            "reasoning_md": "瑞士贏面稍大但絕非穩贏，2-1是實力差距的真實反映——他們有Okafor和Embolo兩個0.4+ xG的終結點，但阿爾及利亞左路進攻組合有爆點能力，能咬下一球。",
-            "script_md": "## 整體判讀\n瑞士攻擊指數2.04 vs 阿爾及利亞1.92，紙面差距約半檔。但關鍵在「深度」：瑞士23/26人有頂級聯賽資料，阿爾及利亞僅14/26，替補席斷層明顯。這意味著比賽後段瑞士輪換優勢大，但前60分鐘阿爾及利亞主力能拚。\n\n## 關鍵對位\n- **瑞士右路缺口**：Silvan Widmer（3號，Mainz 05）傷疑，若由25號 Luca Jaquez（VfB Stuttgart）替補，這是他國家隊首次大賽先發，面對阿爾及利亞左路13號 Jaouen Hadjam（BSC Young Boys，4.00關鍵傳球90）+ 15號 Rayan Aït-Nouri（Man City，0.94關鍵傳球90）的輪流衝擊，這條邊會被針對。\n- **阿爾及利亞隱患**：7號 Riyad Mahrez（Al Ahli）已33歲，脫離歐洲頂級聯賽兩年，資料未顯示xG——他是名氣大於實力的典型，瑞士5號 Manuel Akanji（Inter）對位他不吃虧。\n- **瑞士殺招**：19號 Noah Okafor（Leeds United，0.49 xG90）是這場最高效的終結點，阿爾及利亞中衛2號 Aïssa Mandi（Lille，0.32射門90）轉身慢，Okafor的2.37射門90會找到機會。\n\n## 比賽劇本\n**早段（0-25分鐘）**：瑞士控球6成，但阿爾及利亞10號 Chaïbi + 9號 Gouiri（Marseille，3.36射門90）前場逼搶，迫使瑞士後衛開大腳——這是阿爾及利亞想要的節奏。\n\n**中段（25-60分鐘）**：瑞士10號 Granit Xhaka（Sunderland，1.30關鍵傳球90）長傳找到7號 Breel Embolo（Rennes，3.09射門90）頭球破門，1-0。阿爾及利亞被迫壓上，反而暴露身後——但瑞士第二球遲遲不來，因為阿爾及利亞門將23號 Luca Zidane（Granada）撲救反應好。\n\n**末段（60-90分鐘）**：阿爾及利亞換上22號 Ibrahim Maza（Leverkusen，2.63射門90）衝刺，第68分鐘左路Hadjam傳中，8號 Aouar（1.45射門90）後點扳平1-1。瑞士最後20分鐘輪換深度發威，20號 Michel Aebischer（Pisa）或14號 Ardon Jashari（Milan）中場控制，第82分鐘Okafor反擊單刀鎖定2-1。\n\n## 為什麼是2-1\n瑞士有兩個0.4+ xG的穩定輸出點，阿爾及利亞只有Gouiri一個（0.37），且Amoura傷缺削弱替補火力。但阿爾及利亞左路進攻資料亮眼（Hadjam 4.00關鍵傳球90是全場最高），能咬下一球是合理預期。3-0大勝需要對手崩盤，阿爾及利亞中場Zerrouki、Bentaleb有歐洲聯賽經驗，不會徹底失控。\n\n## 翻盤情景\n若Widmer確定缺陣且Jaquez被Hadjam+Aït-Nouri打爆，阿爾及利亞2-1逆轉——劇本：上半場Chaïbi助攻Aouar領先，瑞士急躁壓上，下半場Gouiri反擊單刀。這需要Mahrez突然回春（低機率），或Zidane神撲擋住Okafor兩次以上（中等機率）。"
+            "confidence": 0.72,
+            "key_risk": "阿爾及利亞左邊路 Aït-Nouri（15號，Manchester City）+ Chaïbi（10號，Eintracht Frankfurt）的組合若打穿瑞士右側，可能製造單點爆破，尤其瑞士Widmer若缺陣、Jaquez頂替的話，這條邊會被針對到死。",
+            "second_score": "1-0",
+            "contrarian_md": "主流敘事：瑞士歐洲老牌、陣容深度碾壓（23/26頂級聯賽 vs 阿爾及利亞14/26），Xhaka+Zakaria中場穩如老狗，阿爾及利亞Mahrez老了、Aouar在沙超撈金，這場瑞士穩贏。——我不買賬的點：阿爾及利亞這屆世界盃預期貢獻0.41極低，但那是「至今」資料，樣本可能包含戰術試錯或對手極強；反過來看，他們有Aït-Nouri、Chaïbi、Gouiri三個能在歐洲頂級聯賽單點爆破的點，瑞士後衛線除了Akanji（5號，Inter）和Elvedi（4號，Gladbach）算硬，兩個邊衛Widmer/Rodriguez都30+，Rodriguez（13號，Betis）本季在聯賽已經邊緣化。2018德國輸韓國、2022阿根廷輸沙烏地，都是「控球強隊邊後衛被速度生吃+中場傳控無效」的劇本。這場若瑞士壓太兇，阿爾及利亞的Chaïbi（10號）+ Gouiri（9號）反擊組合不是沒機會偷一個。",
+            "signature_scene": "下半場60-75分鐘，阿爾及利亞10號 Farès Chaïbi（Eintracht Frankfurt）在左路連續過掉瑞士替補右後衛Jaquez（25號，Stuttgart），倒三角傳中給9號 Amine Gouiri（Olympique Marseille）推射破門，比分變1-1，瑞士全場壓制但後防單點被爆。",
+            "reasoning_md": "瑞士贏，但不輕鬆。深度和體系明顯佔優，但阿爾及利亞有歐洲級爆破點，2-1或1-0小勝最現實。",
+            "script_md": "**整體判讀**：瑞士攻擊指數2.04 vs 阿爾及利亞1.92，差距不大，但瑞士深度23人頂級聯賽 vs 對方14人，這是硬差距。Xhaka（10號，Sunderland）+ Zakaria（6號，Monaco）+ Freuler（8號，Bologna）的中場三角，傳控和節奏控制明顯高一檔。阿爾及利亞問題是「頭重腳輕」——前場Gouiri、Chaïbi、Mahrez有料，但中後場Zerrouki（6號，Twente）、Titraoui（24號，Charleroi）這種歐洲二線配置，扛不住瑞士持續施壓。\n\n**關鍵對位**：\n- **瑞士右路隱患**：Widmer（3號，Mainz）若缺陣，Jaquez（25號，Stuttgart）頂替，這孩子本季在Stuttgart是替補邊後衛，面對Aït-Nouri（15號，Man City）+ Chaïbi（10號，Frankfurt）的左路衝擊，這條邊會被針對。Rodriguez（13號，Betis）左邊同樣老化，但Aït-Nouri回歸首發意味著阿爾及利亞主攻左邊，瑞士右路壓力更大。\n- **阿爾及利亞中場真空**：Aouar（8號，Al Ittihad）在沙超踢了一年，節奏和對抗下滑；Bentaleb（19號，Lille）大傷後復出，覆蓋能力有限。這個中場攔截不了Xhaka的長傳排程，會被瑞士反覆打身後找Okafor（19號，Leeds）和Ndoye（11號，Forest）。\n\n**比賽劇本**：\n- **早段（0-30分）**：瑞士控球六四開，Xhaka和Freuler倒腳找節奏，阿爾及利亞退守5-4-1，Gouiri（9號）單箭頭孤立。瑞士第一個進球來自定位球或邊路傳中——Amdouni（23號，Burnley）或Embolo（7號，Rennes）頭槌，預計20-25分鐘破蛋。\n- **中段（30-60分）**：阿爾及利亞逐漸適應節奏，Chaïbi（10號）開始回撤拿球串聯，Aït-Nouri（15號）壓上助攻。瑞士右邊Jaquez被過一次後，Yakin可能指令Xhaka右傾保護，但這會鬆開中場。阿爾及利亞的反擊進球大機率出現在這段——Chaïbi個人突破或Gouiri反越位。\n- **末段（60-90分）**：瑞士換上Okafor（19號，0.49 xG90）或Rieder（22號，Augsburg，0.12 xG90+0.15預期助攻）加強終結，阿爾及利亞體能下滑，中場真空被放大。瑞士第二球來自Xhaka直塞或Rieder內切遠射，2-1鎖定。若阿爾及利亞死守，可能拖成1-1，但瑞士深度優勢在換人後顯現。\n\n**為什麼是2-1**：瑞士創造機會能力明顯更強（本屆4.06預期貢獻 vs 阿爾及利亞0.41），但阿爾及利亞有單點爆破能力，不會被零封。世界盃小組賽第二輪，領先方往往保守，給落後方反撲空間。\n\n**翻盤情境**：若瑞士上半場久攻不下（Xhaka遠射不開張、Embolo浪費機會），阿爾及利亞60分鐘後靠Chaïbi+Aït-Nouri左路打穿，Gouiri梅開二度或Mahrez（7號）定位球偷一個，可能1-2爆冷。關鍵是瑞士右邊誰踢——Widmer能上，穩；Jaquez頂替，危。"
           },
           {
             "name": "Grok",
@@ -6475,12 +6475,12 @@
               "A": 0.14
             },
             "confidence": 0.62,
-            "key_risk": "Algeria 透過 Gouiri/Aouar 發動一次冷靜的反擊得手，隨後 Switzerland 穩住陣腳。",
+            "key_risk": "Algeria 透過 Gouiri/Aouar 發動反擊，隨後 Switzerland 穩住陣腳",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為 Switzerland 憑藉陣容深度（指數 2.04，擁有 23 名頂級聯賽球員）與主場優勢將輕鬆過關。這種說法忽略了 Algeria 集中化的實力（Aouar 的 0.37 xG、Gouiri 的 0.37 xG，以及效力於 City 的 Aït-Nouri），也忽略了若 Widmer 缺陣，Swiss 的邊後衛替補將變得多麼薄弱；2018 年的 Germany 對陣 Korea 以及 2022 年的 Argentina 對陣 Saudi 的比賽正說明了，當弱勢方採取緊湊防守並兩度反擊得手時，這些看似「穩贏」的小組賽局勢將會完全翻轉。",
-            "signature_scene": "第 68 分鐘：瑞士隊 19 號 Noah Okafor（Leeds）從左路後方鬼魅般切入，在 Xhaka 快速轉移球權後第一時間起腳破門，懲罰了為了追平比分而大舉壓上的 Algeria。",
-            "reasoning_md": "瑞士以 2-1 勝出：整體陣容深度與進攻產出（4.06 對 0.41）優於 Algeria 的零星天賦；預期比分差距不大，因為 Algeria 將保持陣型緊湊並透過反擊製造威脅。",
-            "script_md": "瑞士隊透過中場的 Xhaka 和 Zakaria 控制球權與場地，但阿爾及利亞的五後衛防線（Aït-Nouri、Bensebaini、Mandi）保持緊湊，在比賽初期限制了對手的絕佳機會。首個進球來自定位球，或是禁區周圍持續的施壓，最終由 Embolo 或 Okafor 轉化為進球。阿爾及利亞在失球後陣型更為後撤，隨後利用 Aouar 和 Gouiri 發動反擊；其中一次反擊在半場結束前或下半場剛開賽時奏效，將比分扳平為 1-1。瑞士隊換上生力軍（Ndoye、Amdouni），並在比賽尾聲透過轉移球或 Okafor 的個人能力攻入第二球。阿爾及利亞缺乏足夠的板凳深度，在再次落後的情況下難以維持施壓。最終比分維持在 2-1，因為雙方都未能創造出大量的進攻機會；若出現紅牌或阿爾及利亞有 Amoura 等級的球員靈光一現，比賽結果可能會翻盤為平局或客勝。"
+            "contrarian_md": "傳統觀點認為 Switzerland 憑藉陣容深度和歐洲球會的底蘊可以輕鬆過關。但 Algeria 板凳深度不足（僅有 14 名頂級聯賽球員）且缺少 Amoura，這使他們在定位球防守疏失或面對 Gouiri 的個人能力時顯得脆弱；歷史經驗顯示，像 2022 年的 Saudi Arabia 或 2018 年的 Korea，正是利用了這些「穩贏」的熱門球隊在取得領先後採取保守防守的心理，進而爆冷取勝。",
+            "signature_scene": "下半場第 68 分鐘：瑞士隊 7 號 Embolo (Rennes) 在禁區邊緣持球策應，隨後回敲給 19 號 Okafor (Leeds)，後者在右路起腳弧線球破門，比分來到 2-1。",
+            "reasoning_md": "瑞士隊的 2.04 進攻指數、4.06 預期貢獻值以及遠勝於對手的板凳深度，優於阿爾及利亞隊的 1.92 指數與 0.41 貢獻值；主場球隊將以些微差距險勝。",
+            "script_md": "瑞士隊憑藉中場的 Xhaka 和 Zakaria 掌控了控球權與場上區域，而阿爾及利亞隊則採取緊縮防守，伺機透過 Gouiri 和 Aouar 發動反擊。開賽初期的施壓在第 28 分鐘收到成效，Widmer 與 Jaquez 的邊路重疊進攻拉開了空間，由 Ndoye 先馳得點。阿爾及利亞隊在半場結束前做出回應，由 9 號球員 Gouiri（效力於 Marseille）接獲 Chaïbi 的直塞球，在反擊中破門得分。下半場瑞士隊陣型前壓；Embolo 的持球策應與 Okafor 的跑位拉開了阿爾及利亞隊單薄的防線，直到第 68 分鐘攻入致勝球。阿爾及利亞隊因板凳深度不足（僅有 14 名頂級聯賽球員），無法維持持續的施壓，在 75 分鐘後體能下滑。2-1 的比分符合數據表現，因為瑞士隊創造了更多高質量的進球機會，但阿爾及利亞隊的前場四人組在攻守轉換時仍具威脅。若 Akanji 領到紅牌或 Gouiri 早早進球，比賽結果可能會轉向平局或由阿爾及利亞隊獲勝。"
           },
           {
             "name": "GLM",
@@ -6493,12 +6493,12 @@
               "A": 0.15
             },
             "confidence": 0.7,
-            "key_risk": "阿爾及利亞中場創造力爆發：8號Aouar和10號Chaïbi若在禁區前沿找到縫隙，瑞士中場防守覆蓋不足可能被反擊打穿。",
+            "key_risk": "阿爾及利亞中前場球員（如Aouar、Gouiri）的個人靈光一閃，在瑞士防線狀態不穩時偷走分數。",
             "second_score": "1-1",
-            "contrarian_md": "主流敘事會說：瑞士是歐洲體系球隊，26人名單幾乎全在五大聯賽，攻擊指數2.04碾壓阿爾及利亞的1.92，加上世界盃至今場均預期貢獻4.06 vs 0.41，根本不同級別，瑞士穩贏。我不完全買帳。第一，阿爾及利亞的0.41場均貢獻可能是小樣本噪音，不代表他們真這麼差——他們鋒線Gouiri在馬賽xG90有0.37，Aouar在伊蒂哈德也是0.37，這不是爛隊的數字。第二，瑞士的攻擊指數看起來高，但你細看主力火力：Okafor在利茲聯xG90 0.49很漂亮，Embolo在雷恩0.42也不差，但這些人分散在不同聯賽、不同體系，國家隊集訓時間有限，化學反應未必跟資料成正比。第三，阿爾及利亞深度只有14/26人有頂級聯賽資料，看起來薄，但首發11人的質量並不差——Aït-Nouri在曼城、Bensebaini在多特蒙德、Boudaoui在尼斯、Chaïbi在法蘭克福，這條中軸線完全能跟瑞士掰手腕。2018年德國輸韓國、2022年阿根廷輸沙烏地，都是「資料看起來碾壓但實際場上打不出來」的典型案例。如果這場爆冷，最可能是瑞士攻擊群各自為戰、遲遲打不開，阿爾及利亞靠Gouiri或Mahrez的個人能力偷一個。",
-            "signature_scene": "下半場第65分鐘左右，瑞士10號Xhaka（Sunderland）在中場丟球，阿爾及利亞10號Chaïbi（Eintracht Frankfurt）一腳直塞找到9號Gouiri（Olympique Marseille），Gouiri扛住5號Akanji（Inter）的貼身防守，禁區內左腳抽射近柱得手，把比分追平或反超——這是瑞士中場覆蓋不足最容易被刺穿的方式。",
-            "reasoning_md": "瑞士贏，但贏得不舒服。整體陣容深度和攻擊火力分佈確實佔優，但中場防守有縫隙，阿爾及利亞的Gouiri+Aouar+Chaïbi三角有足夠質量咬住比分。2-1是最合理的結局，瑞士靠整體壓制和定位球險勝。",
-            "script_md": "## 整體判讀\n瑞士的優勢在「厚度」——26人裡23個有頂級聯賽資料，替補上來不降級。阿爾及利亞只有14個，替補席一拉開差距就出來了。但首發對首發，阿爾及利亞並沒有被甩開：Aït-Nouri（曼城）、Bensebaini（多特蒙德）、Boudaoui（尼斯）、Chaïbi（法蘭克福）、Gouiri（馬賽），這些人放在任何世界盃隊伍都是主力。瑞士的問題是中場防守——Xhaka在桑德蘭、Zakaria在摩納哥，兩個人都是好球員但都不是純掃蕩型，一旦壓上去回不來，後衛線直接暴露。\n\n## 關鍵對位\n- 瑞士19號Okafor（Leeds United，xG90 0.49）vs 阿爾及利亞21號Bensebaini（Dortmund）：Okafor是瑞士最具威脅的鋒線球員，但Bensebaini在多特蒙德見過更快更狠的邊鋒，這組對位不會一面倒。\n- 阿爾及利亞9號Gouiri（Marseille，xG90 0.37）vs 瑞士5號Akanji（Inter）：Gouiri的跑位很賊，Akanji速度快但偶爾會注意力遊離，這是阿爾及利亞最有機會咬住的地方。\n- 瑞士10號Xhaka vs 阿爾及利亞8號Aouar（Al Ittihad，xG90 0.37）：Xhaka的關鍵傳球90有1.30，說明他會壓上去組織，但Aouar的xG90 0.37代表他前插射門能力很強，Xhaka壓上去留下的空間就是Aouar的跑道。\n- 阿爾及利亞少了Mohamed Amoura（Wolfsburg，射門90 2.81）是實質損失，他的跑動量和前場壓迫會被Mahrez替代，但Mahrez在Al Ahli的狀態是個問號——名氣還在，但節奏跟歐洲聯賽不同。\n\n## 比賽劇本\n- **上半場（0-45分鐘）**：瑞士控球率會高，大概55-60%，但真正滲透進禁區的次數不多。阿爾及利亞擺出4-3-3的中低位防守，Aït-Nouri和Hadjam（如果首發）會內縮保護中路。瑞士的Okafor和Ndoye會在兩側試圖突破，但Bensebaini和Mandi都是老經驗的歐洲聯賽後衛，不會輕易被過乾淨。上半場最可能0-0或瑞士靠定位球1-0領先——Xhaka的關鍵傳球90有1.30，角球或自由球是他的菜。\n- **中場調整**：如果0-0，瑞士主帥會要求邊後衛Widmer（如果健康）或Jaquez更積極前插，拉開場地寬度。阿爾及利亞則會讓Mahrez更多內切，尋找Akanji和Elvedi之間的縫隙。\n- **下半場（45-90分鐘）**：瑞士的深度優勢開始顯現——替補席上的Amdouni（Burnley，xG90 0.27）、Fassnacht、Itten都能上來維持節奏，阿爾及利亞替補的頂級聯賽資料球員明顯少。瑞士大概在60-75分鐘之間靠整體壓制打進第二球，可能是Embolo或Amdouni在禁區內的混戰進球。但阿爾及利亞不會束手就擒——Gouiri或Chaïbi在75-85分鐘的反擊中偷一個，比賽最後10分鐘會很緊張。\n\n## 為什麼是2-1\n- 瑞士的攻擊指數2.04 vs 1.92，差距有但不是碾壓級別。世界盃小組賽這種「有差距但不大」的對局，最常見就是1球差。\n- 瑞士本屆場均預期貢獻4.06看起來嚇人，但阿爾及利亞的0.41大機率是小樣本失真——他們首發的進攻球員xG90加總並不差，Gouiri 0.37 + Aouar 0.37 + Chaïbi 0.21 + Boudaoui 0.20 = 1.15，跟瑞士的Okafor 0.49 + Embolo 0.42 + Ndoye 0.31 + Amdouni 0.27 = 1.49相比，差距沒有想像中大。\n- 兩隊都有進球能力，但瑞士的防守組織（Kobel在多特蒙德、Akanji在國米）比阿爾及利亞的門將Mastil（瑞士第二級聯賽）穩定得多。阿爾及利亞的門將位置是最大軟肋——如果Luca Zidane（Granada）首發會好一些，但資料顯示他沒有頂級聯賽xG90資料，代表他的出場時間和麵對的射門質量都有限。\n\n## 什麼情況會翻盤\n- 如果瑞士的Okafor和Embolo同時啞火，阿爾及利亞的防守反擊戰術完全可能奏效——Gouiri的xG90 0.37不是假的，他在馬賽是真的能進球。\n- 如果Xhaka壓得太深、Zakaria覆蓋不足，Aouar和Chaïbi在中場拿球轉身的畫面會反覆出現，瑞士的後衛線會被拉扯到崩潰。\n- 最危險的翻盤劇本：上半場瑞士久攻不下，阿爾及利亞靠一次角球或Mahrez的個人突破1-0領先，然後全隊縮成鐵桶陣。瑞士面對鐵桶陣的歷史成績並不好——他們的攻擊群擅長空間跑動，不擅長陣地戰破密集防守。這種情況下1-1甚至0-1都不是不可能。"
+            "contrarian_md": "主流敘事會看瑞士陣容幾乎全五大聯賟、深度碾壓，加上阿爾及利亞少了Amoura，理所當然認為瑞士穩贏甚至大勝。但我不完全信這套：瑞士本屆預期貢獻4.06看似嚇人，但鋒線Okafor、Embolo的xG90資料有灌水嫌疑（英冠、法甲中下游），面對高壓防守效率往往打折。阿爾及利亞雖然深度差，但中軸Bensebaini、Aouar、Gouiri都在頂級豪門或勁旅，單點爆發力極強。世界盃冷門史（如2022阿根廷輸沙烏地）往往就是強隊以為「穩了」、被弱隊幾個反擊打穿。瑞士若開局久攻不下，後防線Akanji與Elvedi壓上留下的空檔，就是阿爾及利亞翻車的溫床。",
+            "signature_scene": "下半場第65分鐘，瑞士10號 Xhaka中場傳球失誤，阿爾及利亞8號 Aouar（Al Ittihad）直塞，9號 Gouiri（Olympique Marseille）利用速度撕破Akanji防線單刀破門，瞬間把比分追平，讓瑞士驚出冷汗。",
+            "reasoning_md": "瑞士整體深度和戰術素質佔優，主場（名義）加持下掌控節奏，但鋒線效率有限。阿爾及利亞中軸有單點爆發力，能偷進球但防線深度不足。預判瑞士2-1險勝，過程絕不輕鬆。",
+            "script_md": "① **整體判讀**：瑞士的優勢在於中場控制力和陣容深度，Xhaka、Zakaria能穩住球權；阿爾及利亞劣勢是防線鬆散且深度不足（僅14人有頂級聯賽資料），但中前場的Aouar、Gouiri具備反擊威脅。瑞士贏面大，但別指望碾壓。\n② **關鍵對位**：瑞士的進攻主要靠19號 Okafor（Leeds United）和11號 Embolo（Stade Rennais）衝擊，但阿爾及利亞21號 Bensebaini（Borussia Dortmund）是後防核心，若他能頂住壓力，瑞士進球不會多。反之，阿爾及利亞的反擊要看8號 Aouar（Al Ittihad）能否打穿瑞士5號 Akanji（Inter）與4號 Elvedi的防線，這裡是瑞士最可能被打穿的地方。\n③ **比賽劇本**：開局瑞士會控球圍攻，但阿爾及利亞收縮防線，瑞士得勢不得分。上半場尾聲，瑞士靠定位球或邊路傳中，由Embolo或Okafor亂戰破門1-0。下半場阿爾及利亞被迫壓上，瑞士中場失誤被斷，Aouar直塞Gouiri反擊扳平1-1。比賽末段，瑞士靠替補深度優勢，由23號 Amdouni（Burnley）或22號 Rieder（Augsburg）上場改變節奏，第80分鐘左右再進一球鎖勝2-1。\n④ **為什麼是這個比分**：瑞士火力指數2.04雖高，但鋒線xG90多在0.3-0.5之間，不是頂級殺手，進2球已是正常發揮；阿爾及利亞預期貢獻0.41極低，但Gouiri的xG90 0.37說明他有單場進球能力，進1球合理。大比分不符合雙方實力差。\n⑤ **什麼情況會翻盤**：如果瑞士開局太急躁被阿爾及利亞15號 Aït-Nouri（Manchester City）左路反擊偷一個，瑞士心態一亂，阿爾及利亞全線退守，瑞士破密集防守無方，就可能被悶和甚至0-1爆冷。"
           }
         ]
       },
@@ -6516,7 +6516,7 @@
       "my_prediction": {
         "consensus_selection": "AWAY",
         "consensus_team": "埃及",
-        "win_prob": 0.586,
+        "win_prob": 0.591,
         "agree": "7/7 models",
         "predicted_score": "1-2",
         "models": [
@@ -6526,17 +6526,17 @@
             "selection_team": "埃及",
             "predicted_score": "0-1",
             "win_prob": {
-              "H": 0.17,
-              "D": 0.25,
-              "A": 0.58
+              "H": 0.18,
+              "D": 0.27,
+              "A": 0.55
             },
             "confidence": 0.62,
-            "key_risk": "埃及的進攻火力過度集中於前場（Salah/Marmoush）；如果澳洲能將比賽節奏轉變為圍繞 19 號 Harry Souttar 的定位球與第二落點爭奪戰，埃及可能會被拖入低進球機會的苦戰，進而丟失積分。",
+            "key_risk": "埃及的進攻過度依賴前場（Salah/Marmoush）；如果澳洲的定位球威脅（19號 Harry Souttar）率先奏效，或是埃及的臨門一腳失準，比賽將陷入 1-1 的苦戰。",
             "second_score": "1-2",
-            "contrarian_md": "### 明顯的劇本\nEgypt 擁有 Salah 和 Marmoush，在進攻指數上佔有巨大優勢（2.72 對 0.21），理應能輕鬆以火力壓制 Australia。\n\n### 為什麼我對「安全牌」說法持保留態度\n這項優勢確實存在，但它也過於**集中**：如果 Australia 封鎖 Salah 的進攻路線、採取聰明的犯規戰術，並將比賽節奏拖入高空球爭搶與禁區防守戰，Egypt 其他非球星球員的創造力可能會陷入沉寂。世界盃歷史上充滿了「單核球隊」翻船的案例，特別是當弱勢方將比賽拖入混亂時（2022 年 Argentina 對陣 Saudi Arabia 就是教科書級別的例子：擁有高預期進球數據的強隊，在微小差距下被對手的低位防守與定位球懲罰）。如果 Egypt 無法率先進球，這場比賽很可能演變成一場靠單次角球定勝負的 0-0 或 1-0 擲硬幣賭局。",
-            "signature_scene": "下半場（58’）：Egypt 斷球，10 號 Mohamed Salah (Liverpool) 從右路內切，將球塞入空檔給 22 號 Omar Marmoush (Manchester City)，Marmoush 的低平球回傳造成門前六碼處一陣混亂，最終由 Salah 捅射破門，取得 0-1 領先。",
-            "reasoning_md": "埃及獲勝的原因在於 Australia 的進攻數據貧乏，而埃及擁有兩名頂尖的射門型前鋒（Salah/Marmoush），他們只需要一次乾淨俐落的攻守轉換，就能決定這場膠著的比賽。",
-            "script_md": "在數據層面上，Egypt 是此處唯一擁有可靠且具持續性進球威脅的球隊：10 號 Mohamed Salah 和 22 號 Omar Marmoush 所創造的射門與 xG（預期進球值）水準，是 Australia 難以企及的。Australia 的策略顯而易見——將比賽拖入陣地戰：採取低位防守、爭取定位球機會，並讓 19 號 Harry Souttar (Leicester City) 在死球狀態下發動進攻，同時由 8 號 Connor Metcalfe (FC St. Pauli) 和 22 號 Jackson Irvine (FC St. Pauli) 負責干擾第二落點。\n\n比賽初期，Australia 採取了醜陋但強硬的身體對抗：16 號 Aziz Behich (Melbourne City) 和 2 號 Miloš Degenek (APOEL) 緊貼對手，門將 Mathew Ryan (1 號) 雖然忙碌但並未陷入絕境，因為 Egypt 多以試探為主，而非大舉壓入禁區。真正的危險在於 Salah 面對球門接球時——Australia 不能讓 3 號 Alessandro Circati (Parma) 整晚都被拉到邊路進行 1 對 1 防守。\n\n比賽中段：Egypt 開始透過右路的快速配合尋找裂縫——Salah 吸引兩名防守球員後，將球傳給切入空檔的 Marmoush。Australia 最好的進攻時刻來自 20 號 Cristian Volpato (Sassuolo) 在半場空間的搶斷並贏得自由球，但受限於終結能力不足，無法將壓力轉化為進球。\n\n比賽末段：Egypt 終於給予致命一擊——一次攻守轉換、一次倒三角回傳、一次混亂中的補射（或是若防守動作過大而獲得的 Salah 點球）。在取得 0-1 領先後，Egypt 成功控制了比賽節奏；Australia 換上更多跑動型球員如 17 號 Nestory Irankunda (Watford) 並頻繁傳中，但大多被封堵或僅是碰運氣的長傳。\n\n為何比分為 0-1：世界盃小組賽往往比分膠著，而 Australia 在此役最大的優勢在於防守而非進攻——因此 Egypt 靠著關鍵時刻的一擊制勝，而非大比分屠殺。可能改變戰局的因素：Australia 透過定位球早早取得進球（Souttar 頭槌），或是 Egypt 浪費了多次絕佳機會，讓比賽陷入 0-0 的僵局，最終由一次角球決定勝負。"
+            "contrarian_md": "**顯而易見的論調：**「埃及有 Mohamed Salah 和 Omar Marmoush，所以他們會輕鬆過關。」\n\n**為什麼我並不完全買單：** 埃及的數據與其說是展現了絕對的統治力，不如說是更凸顯了對**兩大球星的依賴**（頂級聯賽的進攻數據點寥寥無幾），而這正是世界盃熱門球隊最容易翻船的地方——只要半場表現不佳，或是被一次定位球突襲，整個戰術計畫就會崩盤（2022 年阿根廷對沙烏地阿拉伯就是最佳範本）。Australia 不需要踢得比埃及好；他們只需要把比賽節奏拖得混亂，將戰局拉入角球和二點球的爭奪，並迫使埃及證明他們在沒有 Salah 的魔法加持下也能進球。",
+            "signature_scene": "下半場約 63 分鐘：埃及 10 號 Mohamed Salah（Liverpool）從右路內切，迅速傳出一記斜線球給埃及 22 號 Omar Marmoush（Manchester City），Marmoush 隨即第一時間橫傳，由後插上的 Salah 在近柱勁射破門——這是一次簡單的兩人小組配合，Australia 無法在質量上與之抗衡，比分來到 1-0。",
+            "reasoning_md": "Egypt 贏得這場膠著的比賽，因為他們頂尖的創造射門能力（Salah/Marmoush）遠勝 Australia，而 Australia 的進攻在頂級聯賽的實績上顯得薄弱。Australia 或許能長時間抵擋攻勢，但最終決定勝負的，往往是那一瞬間的頂級個人能力。",
+            "script_md": "埃及擁有本場比賽唯一真正頂級的進攻裝備：**No.10 Mohamed Salah (Liverpool)** 具備極高的 xG（預期進球）與射門產量，加上作為第二跑動點的 **No.22 Omar Marmoush (Manchester City)**。澳洲的進攻數據平平（能力指數 **0.21**，預期貢獻 **1.02**），因此他們的策略基本上是：力求生存、伺機偷襲定位球，並祈禱比賽節奏維持在低水平。\n\n澳洲將試圖把比賽變成一場肉搏戰——採取深防線、大腳解圍，並針對 **No.19 Harry Souttar (Leicester City)** 和 **No.21 Cameron Burgess (Swansea City)** 設計定位球戰術。如果澳洲能創造出威脅，那將來自於由 **No.20 Cristian Volpato (Sassuolo)** 傳出關鍵球的轉換進攻，以及 **No.8 Connor Metcalfe (FC St. Pauli)** 在中場的遠射。\n\n比賽初期，預計埃及會掌握球權，但未必能輕易撕開防線；澳洲前 30 分鐘的重點在於避免在禁區附近犯下低級犯規，並讓 **No.1 Mathew Ryan (Levante)** 能清楚觀察場上局勢。比賽在下半場後會出現傾斜，隨著埃及加快節奏，Salah 的牽制力會將澳洲的邊後衛向內拉扯，進而為 Marmoush 的斜線跑動打開通道。\n\n**預測比分為 0-1**，因為埃及的優勢確實存在，但還不到「四球大勝」的程度：澳洲具備防守能力且身體對抗強悍，而埃及可能只需要一次流暢的配合就能贏下比賽。最可能的進球模式是由 Salah 助攻，或是 Salah 利用對手解圍失誤所創造的進球。\n\n比賽的變數在於：澳洲若能先透過角球得分（Souttar 頭槌），或者如果 Salah 遭到成功包夾且無人能提供最後一擊，導致埃及失去冷靜——屆時比賽將演變成 1-1 的定位球賭博。"
           },
           {
             "name": "Claude",
@@ -6545,16 +6545,16 @@
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.24,
-              "D": 0.29,
-              "A": 0.47
+              "D": 0.28,
+              "A": 0.48
             },
             "confidence": 0.58,
-            "key_risk": "埃及隊的支援陣容薄弱且以國內聯賽球員為主——如果 Salah 被限制住，他們的火力就會枯竭，而澳洲隊在定位球上的身高優勢（Souttar、Circati）則可能讓他們搶下一場平局，甚至取得更好的結果。",
+            "key_risk": "澳洲隊在主場擺出鐵桶陣，並靠著 6 呎 5 吋的 **Souttar** 與 **Circati** 在定位球進攻中的制空威脅偷得一球，將比賽硬生生拖成 1-1 平手。",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為：Salah + Marmoush 的火力屬於世界級（每 90 分鐘預期進球值 xG 分別為 0.77 與 0.44），埃及的進攻指數（2.72）遠超澳洲（0.21），因此這場比賽埃及將輕鬆獲勝。但我並不完全買單的原因在於：除了這兩名球員外，埃及陣容幾乎全由 Al Ahly、Zamalek 或 Pyramids 的本土球員組成——其深度數據僅為 3/26，這意味著一旦你封鎖了 Salah，進球就會停滯。澳洲雖然進攻乏味，但他們組織嚴密、身材高大且極難被突破——這正是最讓依賴球星的球隊感到挫折的類型。世界盃歷史給了我們強烈的警示：2018 年的德國輸給韓國、2022 年的阿根廷輸給沙烏地阿拉伯——那些依賴單一火力的熱門球隊往往會被對手的「大巴戰術」困住。澳洲或許贏得不漂亮，但比賽踢到第 80 分鐘仍維持 0-0 是極有可能發生的劇本，而 Souttar 的一次定位球頭槌就足以扭轉一切。",
-            "signature_scene": "下半場約 70 分鐘：埃及 10 號 Salah 從右路內切，晃過 Aziz Behich 後起腳弧線球射入遠角——這是澳洲隊的低位防守在持續壓力下終於崩潰的時刻。再看上半場，澳洲 19 號 Harry Souttar 在角球進攻中躍起頭槌，迫使 El Shenawy 狼狽撲救——澳洲隊唯一真正的進球途徑就是空中定位球。",
-            "reasoning_md": "埃及獲勝，但贏得驚險——Salah 是決定勝負的關鍵差異，而 Australia 基本上沒有頂級聯賽的火力能與之抗衡。然而，Egypt 陣容單薄且以本土球員為主的板凳深度，讓這場比賽最終僅以一球之差分出勝負，而非一場大勝。",
-            "script_md": "**整體解讀：** 這是一場球星個人能力對決頑強防守的比賽。埃及的進攻完全仰賴兩名球員——10號 Salah（Liverpool，xG90 為 0.77，每 90 分鐘 4.01 次射門）以及 22 號 Marmoush（Man City，xG90 為 0.44）。澳洲的進攻指數（0.21）確實慘不忍睹；他們的「主力火力」陣容甚至完全沒有頂級聯賽的數據。但他們在防守端身材高大且紀律嚴明——Souttar、Circati、Behich——這正是那種能將強隊拖入泥淖的球隊類型。\n\n**關鍵對位：** 整場比賽的焦點在於 Salah 對決澳洲後防線以及邊後衛 16 號 Aziz Behich（Melbourne City）。Behich 必須撐過 90 分鐘 Salah 的內切攻勢——他大概率無法全程守住。澳洲唯一的進攻創意來源是 20 號 Cristian Volpato（Sassuolo，KeyPass90 為 2.38，xAG90 為 0.21），負責輸送球給 9 號 Mohamed Touré 以及定位球目標 19 號 Harry Souttar（Leicester）。埃及的軟肋在於其國內聯賽邊後衛的身後空間——13 號 Fatouh（Zamalek）、3 號 Hany（Al Ahly）——但澳洲缺乏足夠的速度來懲罰這一點。\n\n**比賽劇本：** 預計上半場會是一場謹慎、低比分的拉鋸戰——澳洲會採取深度防守、吸收壓力並祈禱獲得角球機會；Souttar 的頭球威脅是他們上半場最好的得分點。埃及會掌控球權，但除了 Salah 和 Marmoush 之外，其餘進攻球員僅具備國內聯賽水準且缺乏戰術靈感，因此進球會來得較晚。大約在 60 分鐘左右，Salah 或 Marmoush 會找到空檔；隨後澳洲必須壓上進攻，這將為埃及創造反擊機會，從而再下一城，或是澳洲在比賽末段透過定位球製造緊張局面。\n\n**為何預測此比分：** 1-2 是合理的結果——埃及憑藉個人能力勝出，但由於支援陣容薄弱，加上澳洲在空中球的威脅，比分差距不會被拉開，不會演變成一場大勝。如果 Salah 當天表現平平，1-1 的平局也是極有可能發生的選項。\n\n**變數：** 如果澳洲能將 0-0 的比分維持到最後 15 分鐘並把握住一次定位球機會——由 Souttar 或 Circati 在角球中破門——那麼爆冷逼平或以 1-0 取勝完全有可能發生。過度依賴球星且無法早早進球的球隊，正是世界盃中最容易遭到伏擊的對象。"
+            "contrarian_md": "顯而易見的觀點：Egypt 擁有 Salah (0.77 xG90) 和 Marmoush (0.44) —— 這兩位是貨真價實的五大聯賽前鋒，而對手 Australia 的「主力火力」陣容名單上寫的卻是「無頂級聯賽數據可供參考」。天賦差距是真實存在的。但我不完全買單的地方在於：Egypt 等於 Salah + Marmoush + 一大群來自 Al Ahly/Zamalek 等國內聯賽的球員。他們的陣容指數 (2.72) 基本上就是靠這兩個人撐起來的。如果抽掉 Salah，這就是一支非常平庸的球隊，而 Australia 正是那種組織嚴密、身體對抗強悍、紀律嚴明且擅長「擺大巴」的球隊，專門讓單核球隊感到挫折——還記得 Saudi Arabia 如何封鎖 Argentina 的球星，或是 Japan 如何抵擋 Germany 的進攻嗎？Egypt 在客場作戰，需要突破低位防守，且後防線上的 No.3 Hany 和 No.5 Rabia 都是在 UAE 或國內聯賽踢球，絕對有可能在定位球防守上被對手偷襲。這絕對不會是一場 Egypt 輕鬆獲勝的比賽，平局的可能性非常高。",
+            "signature_scene": "下半場，Egypt 的 10 號 Salah 從右路內切，與 22 號 Marmoush 進行二過一配合後，低射穿過 Ryan 的防守——這是 Australia 無法預防的個人能力展現。但首先，請觀察 Australia 的 19 號 Souttar 和 3 號 Circati 在開賽初段如何進攻 Volpato（20 號，KeyPass90 2.38）開出的角球——這正是 Egypt 全由國內聯賽球員組成的後防線被壓制並失掉頭球的地方。",
+            "reasoning_md": "埃及獲勝，但過程艱難——在陣容深度不足的情況下，**Salah** 和 **Marmoush** 成為了勝負關鍵，他們最終將會破解澳洲隊頑強的防守陣型。比分預測 1-2，也有很大機率僅以 1-1 戰平。",
+            "script_md": "**整體解讀：** 這兩支球隊的陣型截然不同。Egypt 在鋒線上擁有頂尖戰力（Salah 的 xG90 為 0.77，Marmoush 為 0.44），但在其他位置上表現平平——這是一支以 Al Ahly 和 Zamalek 的本土球員為班底的隊伍。Australia 缺乏頂級聯賽的火力，但擁有真正的身材優勢、組織紀律以及透過 No.8 Metcalfe 和 No.22 Irvine 展現出的拚勁，此外還有 No.20 Volpato 這位真正的進攻創造點（KeyPass90 為 2.38，xAG90 為 0.21）。\n\n**關鍵對位：** 整場比賽的焦點在於 Salah/Marmoush 對抗 Australia 的五後衛防線（No.19 Souttar、No.3 Circati、No.16 Behich）。Australia 的反制手段是定位球——憑藉 6 呎 5 吋的 Souttar 和 Circati（Shots90 為 0.27）接應 Volpato 的傳球，他們有明確的得分途徑來對抗 Egypt 的本土聯賽防線（No.3 Hany、No.5 Rabia）。Egypt 由 El Ahly 球員組成的中場（No.8 Ashour、No.19 Attia）並無過人之處，且容易受到壓迫。\n\n**比賽劇本：** 預計 Australia 會在主場採取緊縮防守，封鎖身後空間，並挑戰 Egypt 的破防能力。上半場可能會是緊張且無進球的局面，或許 Australia 會在開局透過定位球製造威脅。比賽中段 Egypt 會耐心試探；比賽將在 60 分鐘後變得開放。我看好 Salah 在下半場憑藉個人能力創造決定性時刻——無論是內切射門還是與 Marmoush 的連線。Australia 在比賽末段會大舉進攻，並可能透過死球機會偷進一球。\n\n**為何預測此比分：** 1-2 的比分符合一支「一人球隊」險勝一支頑強但缺乏進攻威脅的防守方；Salah 會有所貢獻，但 Australia 的空中優勢能讓他們取得進球。如果 Egypt 的終結能力失準，比賽將演變成 1-1 的苦戰。\n\n**變數：** 如果 Australia 先透過角球得分，且 Egypt 的支援球員無法在 Salah 之外創造機會，這場比賽可能會演變成主隊的「偷雞」平局，甚至是爆冷獲勝。Egypt 對兩名球員的過度依賴是他們的弱點——只要擺出鐵桶陣並贏下空中對抗，爆冷的機會就很大。"
           },
           {
             "name": "DeepSeek",
@@ -6562,17 +6562,17 @@
             "selection_team": "埃及",
             "predicted_score": "0-1",
             "win_prob": {
-              "H": 0.15,
-              "D": 0.25,
-              "A": 0.6
+              "H": 0.1,
+              "D": 0.2,
+              "A": 0.7
             },
-            "confidence": 0.7,
-            "key_risk": "埃及破密集防守能力不足，澳洲死守成功並利用定位球偷襲",
-            "second_score": "0-0",
-            "contrarian_md": "主流會說埃及有Salah和Marmoush，澳洲根本擋不住。但我不完全買賬：埃及中後場多來自國內聯賽，創造力有限，面對澳洲的鐵桶陣可能陷入苦戰。世界盃上，強隊翻車往往就是這種看似穩贏的局，2018年德國輸韓國就是破不了大巴反被偷。",
-            "signature_scene": "下半場第63分鐘，埃及10號Salah右路突破傳中，22號Marmoush門前搶點破門，打破僵局。",
-            "reasoning_md": "埃及鋒線雙星決定比賽，澳洲進攻毫無威脅，小負已是最好結果。",
-            "script_md": "① 整體判讀：埃及攻擊實力指數2.72遠勝澳洲的0.21，Salah和Marmoush的個人能力是決定性差距，但埃及中場組織平庸，攻堅效率存疑；澳洲主場作戰，勢必全線退守拼一分。\n② 關鍵對位：埃及10號Salah（Liverpool）對上澳洲19號Harry Souttar（Leicester City），Salah的靈活內切會讓高大後衛轉身困難；澳洲唯一可能的反擊爆點是20號Cristian Volpato（US Sassuolo），他的關鍵傳球是澳洲為數不多的創造力來源。\n③ 比賽劇本：開場埃及控球主攻，澳洲收縮成5-4-1，上半場0-0悶局，埃及得勢不得分；下半場60分鐘後埃及加強邊路傳中與Salah的個人突破，第63分鐘Salah右路下底倒三角，Marmoush搶點破門；落後後澳洲被迫壓出，但前場無力威脅埃及大門，埃及可能反擊再下一城，但大機率1-0收場。\n④ 為什麼是0-1：澳洲攻擊指數0.21，本屆場均預期進球僅1.02，面對埃及的防線很難進球；埃及雖有頂級射手，但攻堅能力並非頂尖，小勝是最常見的真實比分。\n⑤ 翻盤情況：若澳洲早早利用角球或自由球，由19號Souttar頭球破門取得領先，埃及可能心態急躁，澳洲全線死守爆冷1-0，重演強隊翻車劇本。"
+            "confidence": 0.85,
+            "key_risk": "埃及破桶陣效率——若薩拉赫被雙人包夾鎖死、馬爾穆什拉邊傳中質量不足，澳大利亞祭出世界盃上弱隊搏命的六後衛低位鐵桶，完全可能磨出0-0的悶平冷門，埃及後場出球一旦急躁，反而可能被澳大利亞偷反擊，雖然澳大利亞那攻擊力想進球需要奇蹟。",
+            "second_score": "0-2",
+            "contrarian_md": "主流/名氣會怎麼想？「埃及有薩拉赫+馬爾穆什，澳大利亞連個像樣的前鋒都沒有，實力碾壓，無懸念穿盤。」我不完全買賬的點就在這裡：世界盃上個人能力差被過分放大了。澳大利亞確實爛，但爛隊死守的紀律性常常被低估。2018年澳大利亞自己就逼平過丹麥、1-2小負法國，2022年沙特贏阿根廷、日本贏德國，都是「一人球隊」面對擺大巴時缺乏B計劃。埃及的中場創造力幾乎全掛在薩拉赫回撤組織上，埃馬姆·阿舒爾、哈姆迪·法蒂這些人都是工兵型，一旦澳大利亞用五後衛收縮肋部、逼迫埃及走外線傳中，埃及的高點並不佔絕對優勢——澳大利亞中衛蘇塔爾1米98，高空球恰好是他的飯。這就是我看走眼的溫床：埃及久攻不下，心態浮躁，最後被澳大利亞定位球或亂戰偷一個，搞出個0-0甚至0-1的驚天動地。",
+            "signature_scene": "上半場第37分鐘，埃及10號薩拉赫（Liverpool）右路肋部接球，面對澳大利亞5號喬丹·博斯（Feyenoord）的貼身，突然切向內線，與22號馬爾穆什（Manchester City）打出撞牆後在大禁區角上直接左腳兜射遠角，球繞過門將1號馬修·瑞安（Levante UD）的指尖掛網——這個球一進，澳大利亞鐵桶裂開，比賽結束。",
+            "reasoning_md": "埃及用薩拉赫的靈光一刻解決比賽，澳大利亞攻擊力近乎為零，想進埃及門將的球難如登天，0-1是最符合雙方真實實力的劇本。",
+            "script_md": "① 整體判讀：埃及強在鋒線雙核，薩拉赫和馬爾穆什是世界盃上能憑個人能力改變比分的怪物；澳大利亞的「攻擊實力指數0.21」根本不夠看，整條前鋒線裡唯一有頂級資料的克里斯蒂安·沃爾帕託（US Sassuolo）xG90才0.06，這種火力想洞穿埃及的門將埃爾謝納維簡直痴人說夢。埃及會輕鬆掌控七成球權，澳大利亞從第1分鐘起就擺大巴，指望定位球和界外球蒙一個。\n\n② 關鍵對位：埃及10號薩拉赫直接對位澳大利亞左後衛——很可能是5號喬丹·博斯（Feyenoord）或16號阿齊茲·貝希（Melbourne City FC）。無論是誰，面對薩拉赫盤帶和射門都是降維打擊。澳大利亞唯一能製造混亂的是19號哈利·蘇塔爾（Leicester City）的定位球高點，埃及防線本土球員偏多，防空專注力是唯一破綻。\n\n③ 比賽走勢：前30分鐘埃及圍而不攻，試探性滲透。澳大利亞20號沃爾帕託和8號康納·梅特卡夫（FC St. Pauli）嘗試反擊推進但立刻被斷。30-45分鐘，薩拉赫一次內切或與馬爾穆什的配合撕開缺口，取得1-0。下半場埃及主動降速控場，馬爾穆什會浪費一次反擊擴大比分的機會，澳大利亞調上高中鋒26號特特·延吉（FC Machida Zelvia）衝吊，但艾哈邁德·赫加齊型別的埃及中衛不吃這套。最後15分鐘澳大利亞體力下滑，埃及可能再偷一個反擊，但我押最可能收在0-1，因為埃及沒必要拼命刷淨勝球，薩拉赫70分鐘就散步了。\n\n④ 為什麼是這個比分：弱隊死守的世界盃小組賽，1球差是最常見的結果。澳大利亞攻擊力為0，埃及只需要1個進球就能鎖勝，再多進就要看對手是否崩盤，而澳大利亞中後場還有蘇塔爾、博格斯這種勉強能在二流聯賽混的後衛，不至於瞬間連丟兩三個，除非早早紅牌。\n\n⑤ 翻盤條件：一、薩拉赫腳風不順，遠射全打飛；二、澳大利亞利用角球或任意球，蘇塔爾頭球破門意外領先，那埃及心態炸裂；三、裁判對澳大利亞的肉搏尺度寬鬆，埃及球員情緒失控，這種局面一旦發生，0-0的冷平就出來了。"
           },
           {
             "name": "Gemini",
@@ -6581,16 +6581,16 @@
             "predicted_score": "0-1",
             "win_prob": {
               "H": 0.15,
-              "D": 0.3,
-              "A": 0.55
+              "D": 0.25,
+              "A": 0.6
             },
             "confidence": 0.75,
-            "key_risk": "澳洲隊靠著定位球早早取得進球，隨後成功執行「擺大巴」戰術，讓缺乏頂尖中場創造力的埃及隊感到相當挫折。",
-            "second_score": "1-1",
-            "contrarian_md": "顯而易見的論調是，埃及的世界級雙星 Mohamed Salah 和 Omar Marmoush 將能輕易擊潰 Australia。但我並不認為會出現一面倒的慘案。埃及的中場與後防線幾乎全由本土聯賽球員（Al Ahly、Pyramids、Zamalek）組成。面對強悍、身體對抗性十足的 Australia 中場，他們可能難以掌控比賽節奏或提供高質量的傳球。如果 Australia 採取深度防守並壓縮空間，Salah 和 Marmoush 將無法獲得他們賴以生存的轉換進攻機會。回想 2022 年 Australia 以 1-0 艱難戰勝 Denmark 和 Tunisia 的比賽——如果他們能將埃及拖入肉搏戰，那麼透過定位球爆冷取勝是完全有可能的。",
-            "signature_scene": "下半場尾聲，在經歷了 70 分鐘面對澳洲隊低位防守的挫折後，22 號 Omar Marmoush 回撤接應，將一名中後衛拉出防守位置，隨即送出一記精準的直塞球至右路空檔，讓 10 號 Mohamed Salah 順勢起腳，皮球應聲入網，擊敗了門將 Mathew Ryan。",
-            "reasoning_md": "埃及頂尖的進攻素質終將打破僵局，但澳洲隊身體對抗強悍且防線深縮的戰術，將使這場比賽成為一場艱苦且低比分的拉鋸戰。",
-            "script_md": "這場比賽是個人天賦對決團隊硬實力的教科書式碰撞。Egypt 在進攻端擁有巨大的優勢，進攻指數高達 2.72，這完全歸功於 Mohamed Salah 和 Omar Marmoush 的世界級水準。相反地，Australia 在運動戰中幾乎沒有進攻威脅（指數僅 0.21），但他們擁有一支凝聚力強且久經沙場的防守部隊。\n\n關鍵戰場在 Australia 的禁區邊緣。身材高大的中後衛 No.19 Harry Souttar (Leicester City) 和 No.21 Cameron Burgess (Swansea City) 將築起一道身體對抗的圍牆，挑戰 Egypt 是否能透過空中爭頂擊敗他們——而他們顯然做不到。在中場，Australia 的 No.22 Jackson Irvine 和 No.8 Connor Metcalfe 將試圖壓制 Egypt 以本土球員為核心的中場組合，即 No.8 Emam Ashour 和 No.19 Marwan Attia (皆效力於 Al Ahly)，以切斷對 Salah 的供輸線。\n\n預計 Australia 從開賽起就會採取緊湊的低位防守，完全放棄控球權。上半場對 Egypt 來說將會是令人沮喪的橫傳球過程，Salah 將頻繁遭到 No.16 Aziz Behich 與一名回撤中場的包夾。Australia 唯一的進攻途徑將是爭取對手犯規，藉此獲得定位球機會，將球送往 Souttar 的頭頂。\n\n我預測 Egypt 將以 0-1 小勝，因為純粹的世界級實力通常總能找到機會創造出致命的魔法時刻，即便是在節奏破碎的比賽中也是如此。然而，如果 Australia 能在開賽初期透過角球偷得一分，Egypt 中場缺乏歐洲頂級聯賽經驗的弱點可能會導致陣腳大亂，這場比賽很容易演變成 1-1 平手，或是 Australia 以 1-0 爆冷取勝。"
+            "key_risk": "澳洲隊在定位球上的身體素質優勢，暴露了 Egypt 以本土球員為主的防線弱點，進而可能導致一場「偷襲式」的平局或爆冷。",
+            "second_score": "0-2",
+            "contrarian_md": "顯而易見的劇本是 Salah 和 Marmoush 將會對澳洲平庸的防線大肆蹂躪。但我並不認為會出現一面倒的屠殺。埃及的中場和後防線幾乎全由本土球員組成，他們並不習慣像澳洲隊那樣強悍的身體對抗。如果澳洲隊採取深度且難纏的低位防守，並將比賽變成一場肉搏戰，Salah 就會陷入孤立無援的境地。還記得 2022 年阿根廷輸給沙烏地阿拉伯的那場比賽嗎？當弱勢的一方封鎖中路並伺機爭取定位球時，頂級前鋒可能會陷入無球可踢的窘境。如果澳洲隊能透過 19 號 Harry Souttar (Leicester City FC) 在角球進攻中偷得一分，埃及脆弱的中場陣容可能會因此陷入恐慌。",
+            "signature_scene": "下半場第 65 分鐘。Australia 採取深度防守。Egypt 22 號 Omar Marmoush 回撤至左側半空間（half-space）接球，吸引兩名防守球員後，送出一記反向傳球給內切的 Egypt 10 號 Mohamed Salah。Salah 停球後起腳，皮球劃出一道弧線繞過門將飛入遠角，打破僵局。",
+            "reasoning_md": "埃及隊擁有 Salah 和 Marmoush 這兩位頂尖火力，是此役唯一的勝負關鍵，但他們必須設法突破澳洲隊頑強且具身體對抗性的低位防守。澳洲隊缺乏在運動戰中製造威脅的進攻素質，這意味著埃及球星們只要靈光一現，就足以在這場膠著的比賽中定勝負。",
+            "script_md": "澳洲隊 0.21 的進攻指數說明了一切：他們打算擺出「鐵桶陣」、頻繁犯規，並祈禱能獲得角球機會。埃及隊則擁有 2.72 的進攻指數，展現出巨大的進攻優勢，這完全歸功於 Mohamed Salah 與 Omar Marmoush 這對世界級搭檔。\n\n然而，這對「法老軍團」來說並不會是一場輕鬆的比賽。埃及隊的中場與後防線過度依賴本土球員。他們雖然能掌控控球權，但要突破由 Australia No.19 Harry Souttar (Leicester City FC) 與 Australia No.21 Cameron Burgess (Swansea City AFC) 組成的強悍防線，仍需要極大的耐心。澳洲隊將採取深度防守，試圖讓 Salah 感到挫折，並透過 Australia No.20 Cristian Volpato (US Sassuolo) 進行反擊，或是依賴定位球戰術。\n\n預計上半場將會是一場謹慎且令人沮喪的拉鋸戰，埃及隊會在禁區外圍傳導，但難以在禁區內找到空間。僵局很可能會在下半場澳洲隊體力下滑時被打破。Marmoush 的直接衝擊與 Salah 頂級的終結能力（xG90 0.77）太過銳利，澳洲隊很難在 90 分鐘內完全封鎖他們。一旦埃及隊取得進球，澳洲隊將被迫壓上進攻，但他們缺乏足夠的火力來扭轉戰局。\n\n0-1 的比分是最現實的結果。唯一可能翻盤的情況是澳洲隊先透過定位球得分——Souttar 在空中爭頂時對上埃及本土後衛，是澳洲隊唯一能佔據優勢的對位。"
           },
           {
             "name": "Kimi",
@@ -6599,16 +6599,16 @@
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.12,
-              "D": 0.23,
-              "A": 0.65
+              "D": 0.22,
+              "A": 0.66
             },
             "confidence": 0.78,
-            "key_risk": "Salah被鎖死但Marmoush也啞火，澳洲靠定位球偷一個拖進加時",
+            "key_risk": "澳洲門將 Mathew Ryan 在 Levante 的射門資料極低(0.06)，但這是門將資料——他可能靠經驗撲出 Salah 單刀，把比分壓成 1-1 或 0-1，讓我的 2-1 預測落空。",
             "second_score": "0-2",
-            "contrarian_md": "主流敘事：「埃及有Salah，但澳洲身體流、拼勁足，世界盃常有冷門，說不定能咬下一分」。這是廢話。真相是：澳洲這屆攻擊指數0.21是倒數級別的爛，頂級聯賽深度5人 vs 埃及3人聽起來差不多，但埃及那3人是Salah、Marmoush、Haissem Hassan——兩個在英超頂尖球隊當核心，一個在西乙有穩定輸出。澳洲的頂級聯賽球員是誰？Connor Metcalfe在德乙St. Pauli，Jackson Irvine也在同隊，Cristian Volpato在意乙Sassuolo掙扎。這不是「深度」，是「名字多但戰力薄」。2018德國輸韓國、2022阿根廷輸沙烏地，冷門的共同點是強隊控球壓上被反擊打穿——但澳洲根本沒有控球壓上的本錢，他們是防守方，而埃及恰恰是打防反的專家。冷門的條件不成立。",
-            "signature_scene": "下半場65分鐘，埃及10號Salah（Liverpool）右路內切，澳洲16號Aziz Behich（Melbourne City）被過乾淨，Salah橫傳後點，22號Omar Marmoush（Manchester City）推射空門2-0。Behich38歲老腿，這球他追了三步就放掉了。",
-            "reasoning_md": "埃及贏，2-1或2-0。Salah+Marmoush雙核對澳洲業餘級防線是降維打擊，澳洲唯一機會是定位球亂戰偷一個。",
-            "script_md": "## 整體判讀\n這是「英超雙核 vs 澳超聯隊」的實力差距。埃及攻擊指數2.72，澳洲0.21——差13倍，世界盃小組賽罕見的單邊碾壓局。澳洲26人裡頂級聯賽資料能看的只有St. Pauli雙中場Metcalfe（8號）和Irvine（22號），但兩人xG90加起來3.48，還不如Salah一個人4.01。更慘的是後衛線：正選應該是APOEL的Degenek（2號）、Albirex Niigata的Geria（6號）、Leicester的Souttar（19號）——只有Souttar算英冠水準，其餘是歐洲二三線或亞洲聯賽。\n\n## 關鍵對位\n- **右路爆破點**：埃及10號Salah對澳洲左後衛16號Behich（Melbourne City，38歲）。Behich本季澳超場均被過1.8次，Salah本季英超場均過人3.4次。這是教練組的犯罪級對位，除非澳洲改打五後衛，否則Behich這側會被反覆沖擊。\n- **第二殺手**：22號Marmoush（Manchester City）本季在曼城替補出場xG90 0.44，射門轉化率極高。澳洲中衛Souttar（19號）身高198cm防空可以，但轉身慢，Marmoush的斜插身後剛好剋制。\n- **澳洲唯一武器**：20號Volpato（Sassuolo）是陣中唯一有創造力的，關鍵傳球90 2.38，但他在意乙都踢不上主力。澳洲要進球只能靠定位球——Souttar身高優勢或Metcalfe的遠射亂戰。\n\n## 比賽劇本\n- **早段（0-30分鐘）**：埃及試探性控球，Salah拉邊牽制Behich，Marmoush在中路遊弋。澳洲收縮5-4-1，Metcalfe和Irvine雙後腰保護禁區前沿。前20分鐘悶戰，埃及1-2次射正。\n- **中段（30-60分鐘）**：埃及進球。35分鐘左右，Salah右路連續踩單車過Behich，內切橫傳，Marmoush後點包抄1-0。澳洲被迫壓出，45分鐘前再丟一個——這次是反擊，Trézéguet（7號，Al Ahly）左路突破傳中，Marmoush頭槌2-0。\n- **末段（60-90分鐘）**：澳洲換上Irankunda（17號，Watford）和Touré（9號，Norwich）衝擊，75分鐘定位球Souttar（19號）頭槌扳回1-2。埃及換人收縮，Salah單騎反擊被Souttar戰術犯規黃牌，最後十分鐘澳洲長傳衝吊無功。\n\n## 為什麼是這個比分\n埃及2-1或2-0。世界盃強隊2球領先後會收斂，澳洲進球能力太差（預期貢獻1.02），能偷一個已是極限。Salah+Marmoush的組合在這種對位下正常發揮就是2球輸出，第三球需要澳洲壓上被打反擊，但澳洲沒有壓上的資本。\n\n## 翻盤條件\nSalah或Marmoush開場15分鐘內受傷退場，埃及被迫用Zizo（25號，Al Ahly）或Adel（20號，Nordsjælland）頂替，攻擊降級為「普通非洲隊」，澳洲靠定位球0-0或1-1悶平。但這是低機率事件，不能作為主判斷依據。"
+            "contrarian_md": "主流敘事：「Salah + Marmoush 雙核，埃及穩贏，可能大勝」。這敘事漏了兩個洞：第一，埃及中場全是 Al Ahly、Zamalek、Pyramids 的本土球員，沒有一個在歐洲頂級聯賽踢過——這種配置打世界盃，一旦被澳洲 22號 Jackson Irvine 和 8號 Connor Metcalfe（兩個德乙 St. Pauli 的中場）用身體對抗切斷前後聯絡，Salah 會變成孤島。2022 阿根廷輸沙烏地就是前場美斯+勞塔羅豪華，中場被沙烏地工兵跑死。第二，澳洲雖然整體弱，但後衛 3號 Alessandro Circati（Parma）和 5號 Jordan Bos（Feyenoord）有義甲、荷甲經驗，不是純魚腩。埃及要贏，但贏得辛苦。",
+            "signature_scene": "下半場 65 分鐘，埃及 10號 Mohamed Salah（Liverpool）在右肋部拿球，澳洲 3號 Alessandro Circati（Parma）貼身防守被晃開半個身位，Salah 小角度抽射遠柱破門，2-1 領先。這球之前澳洲 20號 Cristian Volpato（Sassuolo）剛在 58 分鐘用一腳遠射扳平，全場澳洲唯一一次射正。",
+            "reasoning_md": "埃及贏，但只贏一球。Salah 和 Marmoush 的頂級聯賽資料是真金白銀，但埃及中場太弱，澳洲有兩個德乙中場能跑能搶，能把比賽切得零碎。最可能劇本：埃及上半場靠 Salah 先進一球，下半場被澳洲遠射偷一個，最後 Salah 個人能力解決比賽。",
+            "script_md": "**整體判讀**：埃及紙面強，但結構畸形——前場兩個曼城/利物浦級別，中後場全是非洲聯賽。澳洲相反，沒有明星但中軸線有德國、荷蘭、義甲經驗，身體對抗和戰術紀律不會崩。\n\n**關鍵對位**：\n- 澳洲 8號 Connor Metcalfe（St. Pauli，射門90 2.43）+ 22號 Jackson Irvine（St. Pauli，射門90 1.05）：這兩個德乙中場是澳洲的肺，任務就是纏鬥埃及中場 8號 Emam Ashour 和 19號 Marwan Attia，不讓球舒服給到 Salah。\n- 埃及 10號 Salah（xG90 0.77）vs 澳洲 3號 Circati（Parma）：Circati 有義甲經驗，但 Salah 是世界級，這個對位遲早會被突破，問題是什麼時候。\n- 澳洲 20號 Cristian Volpato（Sassuolo，射門90 1.78，關鍵傳球90 2.38）：澳洲唯一有創造力的點，替補上來踢二前鋒或邊前衛，可能偷一腳。\n\n**比賽劇本**：\n- **早段（0-30）**：埃及控球，但中場傳球慢，Salah 回撤拿球被澳洲雙中場夾擊，兩邊試探，0-0。\n- **中段（30-60）**：35 分鐘左右，Salah 在右邊路內切，澳洲 5號 Bos 犯規，定位球沒進，但二次進攻 Salah 禁區邊緣抽射，1-0 埃及。下半場澳洲教練調整，58 分鐘 20號 Volpato 遠射，埃及門將 El Shenawy 撲救脫手，補射進，1-1。\n- **末段（60-90）**：埃及教練換上 12號 Haissem Hassan（Real Oviedo）增加寬度，65 分鐘 Salah 個人能力破門 2-1。之後埃及收縮，澳洲長傳找 9號 Mohamed Touré（Norwich）和 17號 Nestory Irankunda（Watford），但兩人都沒頂級聯賽進球資料，把握不住。終場 2-1。\n\n**為什麼是這個比分**：世界盃小組賽，強隊對中等隊，2-1 是最常見的「控制但沒殺死」比分。埃及中場弱，沒能力大勝；澳洲有兩個德乙中場能攪和，不會被零封。\n\n**翻盤情景**：如果 Salah 上半場就被 Circati 和 Geria 聯手鏟傷（Geria 在 J 聯賽以兇狠著稱），或者 Marmoush 被孤立到隱形，埃及可能 0-0 或 0-1 輸給澳洲反擊。澳洲 23號 Nishan Velupillay（Melbourne Victory）速度不錯，打反擊能偷一個。"
           },
           {
             "name": "Grok",
@@ -6621,12 +6621,12 @@
               "A": 0.5
             },
             "confidence": 0.68,
-            "key_risk": "澳洲隊的主場組織與定位球傳送，在開賽初期成功抵銷了 **Salah** 的威脅。",
-            "second_score": "0-1",
-            "contrarian_md": "傳統觀點認為 Egypt 將在 Salah 和 Marmoush 的帶領下輕鬆過關；但數據顯示，儘管雙方在進攻端存在明顯差距，Egypt 頂級聯賽球員深度不足（僅 3 人）且需長途跋涉，這可能讓 Australia 有機會透過低位防守將比賽拖入平局，正如 2022 年 Saudi Arabia 對陣 Argentina 的比賽一樣，球星的個人能力被嚴密的防守體系所抵銷。",
-            "signature_scene": "下半場第 68 分鐘：埃及隊 10 號 Mohamed Salah (Liverpool FC) 在右路接球，內切晃過 3 號 Alessandro Circati，接獲 Marmoush 的快速轉移球後，以低射擊敗 Mathew Ryan 破門得分。",
-            "reasoning_md": "埃及獲勝的原因在於他們兩位頂尖攻擊手（Salah xG90 0.77、Marmoush xG90 0.44）的實力遠超澳洲全隊（指數 0.21）；主場優勢雖讓比賽保持膠著，但仍不足以扭轉戰局。",
-            "script_md": "埃及隊掌控球權，並透過 Salah 和 Marmoush 創造出唯一持續的威脅，而澳洲隊則採取深度防守，且轉換進攻的選擇有限。比賽初期，埃及隊透過 Marmoush 回撤接球進行試探；澳洲隊 19 號 Harry Souttar 和 5 號 Jordan Bos 堅守防線，但多次被迫讓出角球。比賽中段，埃及隊打破僵局，Salah 利用了 2 號 Miloš Degenek 身後的空間。比賽尾聲，隨著埃及隊體能下降，澳洲隊憑藉 20 號 Cristian Volpato 的定位球頭槌扳回一城。隨後，埃及隊利用 Marmoush 的速度在反擊中鎖定勝局。比分之所以維持在合理範圍，是因為埃及隊除了兩大球星外缺乏板凳深度，且澳洲隊在主場組織嚴密。除非 Salah 在 90 分鐘內被完全封鎖，或是埃及隊早早領到紅牌，否則比賽結果不會翻盤。"
+            "key_risk": "Salah 或 Marmoush 遭遇傷病或停賽",
+            "second_score": "0-2",
+            "contrarian_md": "傳統觀點認為 Egypt 在 Salah 和 Marmoush 的帶領下能輕鬆過關；我並不完全買單，因為 Egypt 陣中只有三名球員擁有頂級聯賽的數據，其餘皆為 Egyptian-league 的常規球員，在身體對抗激烈的客場比賽中容易被壓制。2018 年的 Germany 和 2022 年的 Argentina 在眾人皆預期球星能扛起陣容深度不足的球隊時，最終都吞下了敗仗。",
+            "signature_scene": "下半場第 65 分鐘：埃及隊 10 號 Mohamed Salah (Liverpool FC) 在右路接球，內切晃過澳洲隊 3 號 Alessandro Circati (Parma) 後，以一記低射攻破 Mathew Ryan 的大門。",
+            "reasoning_md": "埃及以 1-2 獲勝。他們兩位頂尖攻擊手（Salah 0.77 xG/90、Marmoush 0.44 xG/90）即便是在客場作戰，其表現也遠超澳洲整支球隊（0.21 進攻指數）。",
+            "script_md": "埃及隊掌控球權，並透過 Salah 與 Marmoush 創造出唯一持續的威脅；澳洲隊則採取低位防守（low block），依賴定位球以及長傳給 Leckie 和 Irankunda。開賽初期埃及隊獲得良機，Marmoush 與 Salah 進行一次快速二過一配合後起腳，可惜偏出門柱。上半場結束前，澳洲隊靠著 Souttar 的角球頭槌破門，意外取得領先。下半場開賽五分鐘，埃及隊由 Marmoush 在反擊中扳平比分，隨後在第 65 分鐘，因 Circati 防守站位失誤，Salah 攻入致勝球。澳洲隊在比賽末段發起猛攻，但面對埃及隊的三後衛體系，缺乏創造出絕佳機會的實力。最終比分定格在 1-2，原因在於埃及隊兩名世界級前鋒決定了比賽勝負，而雙方其餘球員表現則相互抵銷。除非 Salah 無法上場，或是澳洲隊在埃及隊穩住陣腳前能靠定位球攻入兩球，否則比賽結果不會翻盤。"
           },
           {
             "name": "GLM",
@@ -6634,17 +6634,17 @@
             "selection_team": "埃及",
             "predicted_score": "0-2",
             "win_prob": {
-              "H": 0.1,
-              "D": 0.15,
-              "A": 0.75
+              "H": 0.15,
+              "D": 0.2,
+              "A": 0.65
             },
-            "confidence": 0.8,
-            "key_risk": "Salah 被澳洲後衛野蠻犯規釘死，埃及中場本土班底組織失靈，變成一場 0-0 的爛仗。",
-            "second_score": "0-1",
-            "contrarian_md": "主流一定看埃及攻擊指數 2.72 狂碾澳洲 0.21，覺得 Salah 跟 Marmoush 兩支英超槍隨便射都能進。但我偏要挑毛病：埃及中場全是本土聯賽班底，跟鋒線完全脫節，Salah 在國家隊經常要回撤拿球、孤立無援。如果澳洲擺鐵桶陣、19號 Souttar 跟 3號 Circati 兩個高大中衛死守禁區，埃及的傳球根本滲不進去。2022 阿根廷輸沙烏地就是這種劇本——大牌前鋒撞上密集防守跟越位陷阱，全場進不了球還被反咬。但澳洲鋒線資料太爛，就算埃及中場斷線，澳洲也沒能力懲罰他們，所以爆冷機率低，但埃及要大勝也很難。",
-            "signature_scene": "下半場 60 分鐘，10號 Mohamed Salah 在右路拿球，晃過澳洲16號 Behich，內切後傳中，22號 Omar Marmoush 禁區內搶點破門，埃及 2-0 鎖定勝局。",
-            "reasoning_md": "埃及贏，因為 Salah 跟 Marmoush 兩個頂級聯賽前鋒的火力，澳洲根本沒人能對位。澳洲攻擊指數 0.21 是災難級別，全隊只有 5 人有頂級聯賽資料，鋒線幾乎全空。比分壓在 0-2，因為埃及中場本土化嚴重、組織能力有限，不會刷出大比分，但鋒線個人能力夠進 2 球。",
-            "script_md": "## 整體判讀\n這場沒什麼好拐彎的——埃及攻擊指數 2.72 對澳洲 0.21，差了十倍以上。埃及有 Liverpool 的 Salah（xG90 0.77）跟 Man City 的 Marmoush（xG90 0.44），這兩個人在世界盃小組賽面對澳洲這種級別的後防線，就是降維打擊。澳洲這邊攻擊資料幾乎全空，20號 Volpato（Sassuolo）是唯一有點看頭的，但 xG90 只有 0.06，根本威脅不了埃及門將。\n\n## 關鍵對位\n- **埃及10號 Mohamed Salah（Liverpool）vs 澳洲16號 Aziz Behich（Melbourne City）**：Salah 的 xG90 0.77、射門90 4.01，Behich 在澳超踢球，這個對位就是大人打小孩。Salah 隨便切內線就能製造殺機。\n- **埃及22號 Omar Marmoush（Man City）vs 澳洲19號 Harry Souttar（Leicester）**：Marmoush 速度跟射門量（射門90 3.00）都夠，Souttar 雖然身高有優勢但轉身慢，會被拉出來打。\n- **澳洲中場8號 Connor Metcalfe（St. Pauli，射門90 2.43）vs 埃及中場19號 Marwan Attia（Al Ahly）**：Metcalfe 是澳洲少數有頂級聯賽資料的中場，但埃及中場雖然本土化，身體對抗不差，會用犯規戰術切斷他的連線。\n\n## 比賽劇本\n- **早段（0-20分）**：澳洲主場會先搶一波開局，靠體能跟士氣壓個 10 分鐘，但攻擊資料太爛，射門質量極低，埃及門將1號 El Shenawy（Al Ahly）穩穩接住。埃及撐過前 15 分鐘就開始接管比賽。\n- **中段（20-60分）**：Salah 開始在右路發威，澳洲左路防守會被連續打穿。上半場 35 分鐘左右，Salah 切入禁區製造混亂，Marmoush 補射或 Salah 自己來，埃及 1-0 領先。下半場澳洲被迫壓上，埃及打反擊，60 分鐘左右 Salah 助攻 Marmoush 再下一城，2-0。\n- **末段（75分+）**：澳洲換上17號 Irankunda（Watford）跟23號 Velupillay 賭一把，但埃及收縮防守，澳洲沒有能力突破，比賽在埃及控制節奏中結束。\n\n## 為什麼是 0-2\n不灌水。埃及鋒線夠強進 2 球，但中場本土化嚴重、組織效率有限，不會刷到 3 球以上。澳洲攻擊指數 0.21、鋒線幾乎無頂級聯賽資料，進 1 球都很勉強，大機率被零封。0-2 是最寫實的結局。\n\n## 什麼情況會翻盤\n- Salah 開場被澳洲後衛惡意犯規搞傷離場，埃及失去核心，攻擊癱瘓。\n- 澳洲靠定位球（Souttar 身高優勢）偷進 1 琲，然後擺 10-0-0 鐵桶陣，埃及中場組織不力打不穿，最後 1-1 甚至澳洲 1-0 偷走。但這個機率很低，因為澳洲的定位球質量也不夠看。"
+            "confidence": 0.78,
+            "key_risk": "埃及後防線集體來自國內聯賽，若澳洲靠死球或20號 Volpato 的定位球偷到一球，比賽將瞬間陷入泥沼戰。",
+            "second_score": "1-2",
+            "contrarian_md": "主流一定會說：這是薩拉赫跟馬穆什的個人秀，埃及進攻指數2.72碾壓澳洲0.21，比賽毫無懸念。但我不完全買帳！世界盃冷門怎麼來的？就是強隊以為鋒線碾壓就能躺贏，結果後防集體來自本土聯賽（2號 Ibrahim、3號 Hany），默契和節奏根本跟不上頂級鋒線的轉換速度。如果澳洲像2022的日本或摩洛哥那樣，開局直接用肉搏戰把比賽切碎，埃及這條本土防線只要開局被撞歪一次，所謂的進攻碾壓就會變成焦慮的單打獨鬥，這就是爆冷的溫床。",
+            "signature_scene": "下半場第65分鐘，埃及10號 Mohamed Salah 在右路拿球，面對澳洲5號 Jordan Bos 的防守，一個輕巧的假動作內切，直接在禁區弧頂起腳，球貼柱入網，徹底殺死比賽懸念。",
+            "reasoning_md": "埃及雙星薩拉赫與馬穆什的終結能力是降維打擊，澳洲鋒線毫無頂級聯賽進球資料支撐，客隊穩穩拿下。",
+            "script_md": "① **整體判讀**：埃及的進攻火力是實打實的英超+曼城等級，薩拉赫跟馬穆什的xG90資料擺在那；澳洲全隊只有中場8號 Metcalfe 和20號 Volpato 能看，鋒線根本是盲腸，這場就是攻防演練。\n② **關鍵對位**：澳洲20號 Cristian Volpato（US Sassuolo）是唯一能送出威脅球的人，但他得面對埃及6號 Mohamed Abdelmonem（OGC Nice）領銜的防線；反觀澳洲19號 Harry Souttar（Leicester City FC）這高大中衛，轉身慢的弱點絕對會被薩拉赫的靈巧和馬穆什的衝擊力針對到死。\n③ **比賽劇本**：開局澳洲肯定想用身體對抗和主場氣勢攪局，前20分鐘犯規不斷，比賽支離破碎。但埃及不急，穩住中場後，上半場尾聲馬穆什抓一次反擊空檔先破門。下半場澳洲必須壓上，後防漏洞大開，薩拉赫在65分鐘內切射門鎖定勝局。\n④ **為什麼是這個比分**：0-2是最寫實的結果。澳洲進攻端沒人能穩定輸出，全隊預期貢獻才1.02，想進球難如登天；埃及也不需要大開殺戒，2球領先就直接收工，世界盃小組賽沒人在跟你灌水比淨勝球的。\n⑤ **什麼情況會翻盤**：如果埃及雙星同時腳軟，且澳洲20號 Volpato 靠定位球精準找到19號 Souttar 頂進一顆，比賽變成1-1的肉搏戰，那埃及的本土防線就可能因為沒見過這種逆風壓力而自爆。"
           }
         ]
       },
@@ -6652,26 +6652,294 @@
     },
     {
       "match_id": "54327947",
-      "home": "J1",
-      "away": "H2",
+      "home": "阿根廷",
+      "away": "維德角",
       "kickoff_tw": "2026-07-04 06:00",
       "stage": "1/16決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "阿根廷",
+        "win_prob": 0.834,
+        "agree": "7/7 models",
+        "predicted_score": "2-0",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.78,
+              "D": 0.17,
+              "A": 0.05
+            },
+            "confidence": 0.74,
+            "key_risk": "阿根廷在面對低位防守時的進球轉化率——如果他們浪費了早期的絕佳機會，Cape Verde 的一次定位球或反擊就可能讓比賽陷入苦戰（瞬間變成 1-1 的局面）。",
+            "second_score": "2-1",
+            "contrarian_md": "**顯而易見的劇本：** Argentina 是衛冕冠軍，陣容各個位置人才濟濟，而 Cape Verde 在頂級聯賽的數據寥寥無幾——這看起來是一場例行公事的散步，甚至可能演變成一場大勝。\n\n**為什麼我不完全相信「輕鬆 4-0」的說法：** Argentina 的預期進球貢獻值（expected contribution）僅為 **1.58**，並非那種 2.5+ 的恐怖輾壓級數據；且世界盃的弱旅通常透過將比賽拖入 70 分鐘的低位防守泥淖來求生存。如果 Cape Verde 能保持陣型並把握住一次機會（定位球或一次轉換進攻），整個局面就可能動搖——**Argentina 自己在 2022 年就曾被 Saudi Arabia 爆冷擊敗**，當時奪冠熱門誤以為「安全」就等於「勝券在握」。此外，如果 **No.13 Cristian Romero** 的表現受到哪怕一點點限制，那正是 Cape Verde 罕見反擊可能得手的缺口。",
+            "signature_scene": "下半場約 62 分鐘：Argentina 將 Cape Verde 壓制在半場內。**No.11 Giovani Lo Celso** 送出一記隱蔽的直塞球至右半空間給 **No.26 Nahuel Molina**，隨後橫傳至十二碼點——**No.22 Lautaro Martínez** 第一時間跟進起腳破門。這顆進球打破了對手的防線，也粉碎了爆冷的夢想。",
+            "reasoning_md": "阿根廷之所以能贏，是因為他們擁有數名高 xG（預期進球值）的終結者（22 號 Lautaro、9 號 Julián），加上頂尖的創造機會能力（11 號 Lo Celso、7 號 De Paul），而對手 Cape Verde 不僅缺乏具說服力的進攻產出，板凳深度也相當不穩。",
+            "script_md": "Argentina 將會長時間控球：他們的中場三角（**No.7 Rodrigo De Paul**、**No.20 Alexis Mac Allister**、**No.24 Enzo Fernández**）能夠透過不斷的導傳來化解壓力，直到對手防線出現裂痕；而前鋒線則具備極強的進球威脅，包括 **No.22 Lautaro Martínez (0.67 xG/90)** 與 **No.9 Julián Alvarez (0.48 xG/90)**。\n\nCape Verde 最好的策略顯而易見且並不美觀：採取緊湊的防守陣型，寄望 **No.1 Vozinha (GD Chaves)** 有神勇表現，並嘗試透過 **No.7 Jovane Cabral (CF Estrela Da Amadora)** 尋求反擊機會——但傳出他帶傷上陣的消息至關重要，因為他們身後並沒有第二位可靠的進攻發起點。\n\n比賽初期劇本：Argentina 會選擇耐心推進而非急躁進攻。**No.10 Lionel Messi** 會內切以拉開對手中場防線，同時 **No.15 Nicolás González** 與 **No.26 Nahuel Molina** 負責拉開邊路寬度。首個進球很可能來自半場空間的配合，而非 30 碼外的世界波——Argentina 不需要英雄式的遠射，他們只需要一次乾淨的得分機會。\n\n中後段比賽：一旦 Argentina 取得進球，Cape Verde 就必須壓出來進攻，這時第二個進球就會出現——可能是 Lautaro 或 Julián 的倒三角回傳破門，或是透過持續的角球施壓在第二波進攻中得分。Cape Verde 的進攻指數 (1.69) 與預期貢獻值 (0.70) 顯示他們「或許能有一次不錯的進攻」，但無法構成持續威脅；Argentina 的中後衛（**No.6 Lisandro Martínez**、**No.13 Cristian Romero**）正是為了贏下這些一對一對抗而生的。\n\n這就是為什麼我預測比分為 **2-0**：完全的掌控力，透過持續施壓攻入兩球，但不會出現誇張的大比分，因為世界盃等級的低位防守會減少比賽的混亂程度，且終結能力的變數確實存在。什麼情況會翻盤？Argentina 變得急躁（濫射低品質射門）、半場前未能取得進球，以及 Cape Verde 把握住一次定位球或反擊機會——特別是如果 **No.13 Romero** 的狀態未達 100%——這可能會讓比賽演變成令人緊張的 1-1 拉鋸戰。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.86,
+              "D": 0.1,
+              "A": 0.04
+            },
+            "confidence": 0.72,
+            "key_risk": "阿根廷輕敵加上 **Vozinha** 神勇發揮——維德角（Cape Verde）擺出鐵桶陣，阿根廷最終僅以一場艱苦的險勝收場。",
+            "second_score": "3-0",
+            "contrarian_md": "顯而易見的觀點是：擁有 Messi、Lautaro、Álvarez 的衛冕冠軍，對上一個只有 2 名球員效力於頂級聯賽的國家——這簡直是屠殺，比分會是 4-0 或 5-0。但我並不買帳這種大勝論。Cape Verde 能闖進 16 強絕非偶然；他們組織嚴密、身體對抗強悍（效力於 Villarreal 的 Logan Costa 是貨真價實的五大聯賽中後衛），而且會採取全線退守的策略。Argentina 的指數雖然頂尖，但他們的預期進球貢獻僅為 1.58——這是一支擅長以 1-0 或 2-0 磨死對手的球隊，而不是那種會狂刷進球數的隊伍。歷史也告訴我們，當「所有人都認為安全無虞」時，奪冠熱門往往會踢到鐵板——2022 年 Saudi Arabia 擊敗 Argentina 的那一幕，正是這支 Argentina 的寫照。我不會預測爆冷，但我會為比分設限：這將是一場受控的 2-0，而不是一場進球嘉年華。",
+            "signature_scene": "下半場約 60 分鐘：10 號 Messi 移至右側半空間（half-space），穿過兩名中後衛之間送出一記低平球，助攻 22 號 Lautaro Martínez 掃射破門，鎖定勝局——Cape Verde 的門將 Vozinha 此前已完成三次撲救，最終是被對手的跑位而非射門所擊敗。",
+            "reasoning_md": "阿根廷輕鬆取勝，但並未出現大比分屠殺——儘管雙方天賦差距懸殊，但 Cape Verde 會採取「擺大巴」戰術，而阿根廷是一支擅長以磨人戰術取得小勝的球隊（1.58 xContribution）。最終以 2-0 穩健獲勝。",
+            "script_md": "**整體解讀：** 這是一場天賦極度失衡的對決——Argentina 的進攻指數高達 3.37，陣中 26 名球員有 22 名來自頂級聯賽；反觀 Cape Verde 進攻指數僅 1.69，26 人中僅 2 人效力頂級聯賽。Argentina 的每一位中場球員（Enzo、Mac Allister、De Paul）傳球能力都遠超 Cape Verde 陣中任何一人，而由 Messi、Lautaro、Álvarez、Nico Paz 組成的鋒線更是處於另一個維度。\n\n**關鍵對位：** Cape Verde 陣中唯一具備此等級實力的球員是 5 號 Logan Costa（Villarreal）——他必須在與 4 號 Roberto Lopes（Shamrock Rovers）和 3 號 Diney（Al Bataeh）搭檔的中後衛位置上展現統治力，因為這條防線將面臨長達 90 分鐘的圍攻。他們唯一的進攻希望 7 號 Jovane Cabral（Estrela da Amadora）目前帶傷上陣，且將面臨缺乏支援的窘境。門將 1 號 Vozinha（Chaves）將迎來極其漫長的一晚，比分是否能維持在體面範圍內全看他的表現。\n\n**比賽劇本：** Argentina 從開賽起就會主導控球權；Cape Verde 將退守至深位的 5-4-1 陣型，試圖壓縮場地空間。預計前 25-30 分鐘會陷入僵局——弱勢方的防守陣型初期能守住——隨後 Argentina 的實力優勢將會顯現，很可能來自 Messi 與 De Paul 的連線，或是由前鋒群製造出的定位球機會。一旦首開紀錄，Cape Verde 必須稍微拉開陣型，Argentina 則會在下半場透過反擊再下一城。預計不會出現紅牌，但整場比賽將面臨持續的角球壓力。\n\n**為何預測 2-0：** Argentina 是一支傾向於小比分勝出的球隊（比賽貢獻值 1.58），而 Cape Verde 紀律性足夠，足以避免慘敗——這會是一場專業的 2-0 勝利，而非 5-0 的屠殺。如果 Vozinha 有神級發揮，比分可能是 1-0；如果 Argentina 開賽即進入巔峰狀態，比分則會傾向 3-0，這是我第二順位的預測。\n\n**變數所在：** 唯有在 Argentina 輕敵，加上 Cape Verde 透過 Jovane 在反擊中靈光一現，才可能演變成令人緊張的 1-1 平局——即 2022 年對陣 Saudi Arabia 的翻版。我並不看好這種情況發生，但這是爆冷的唯一途徑。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.8,
+              "D": 0.15,
+              "A": 0.05
+            },
+            "confidence": 0.85,
+            "key_risk": "阿根廷久攻不下，維德角門將Vozinha超神發揮，或一次角球/反擊意外得分",
+            "second_score": "1-0",
+            "contrarian_md": "主流看法：衛冕冠軍阿根廷抽到上上籤，首次闖入十六強的維德角不過是待宰羔羊，梅西領銜的豪華鋒線將輕鬆上演進球盛宴。但別急著開香檳。世界盃淘汰賽史裡，嚴重一邊倒卻悶平甚至爆冷的劇本比比皆是：2018 西班牙被俄羅斯鐵桶拖死，2010 瑞士 1-0 掀翻無敵艦隊。維德角明知自己只有 2 人具備頂級聯賽資料，一定會擺出 5-4-1 雙層大巴，把所有希望押在門將 Vozinha 和一次反擊上。阿根廷破密集的本事在 2022 小組賽就露過怯，對沙特和澳大利亞都是費盡力氣才開啟局面；若洛塞爾索、德保羅的外圍發炮效率不高，梅西被兩人黏住，誰來刺破鐵桶？我不覺得會翻車，但‘屠殺’二字在這裡是笑話。",
+            "signature_scene": "上半場第 33 分鐘，阿根廷連續傳遞拉扯防線，10 號梅西回撤接球帶走兩名中場，18 號 Nico Paz（Como）從後排插上，禁區弧頂迎球不停球直接抽射，球鑽入右下死角，1-0。",
+            "reasoning_md": "阿根廷整體實力碾壓，維德角只能靠死守求存。衛冕冠軍憑藉更強的個人拿球和定位球優勢，在上下半場各破一城，2-0 是最現實的淘汰賽晉級比分。",
+            "script_md": "**整體判讀**：阿根廷的陣容攻擊指數 3.37 對維德角 1.69，這不是一個量級的對話。但淘汰賽的鐵律是弱隊先扎籬笆，維德角必定全員退守，把比賽切得支離破碎。阿根廷真正的殺手鐧不是快速反擊，而是圍著打時二次進攻的持續施壓和定位球。\n\n**關鍵對位**：維德角中衛 4 號 Roberto Lopes（Shamrock Rovers）和 3 號 Diney（阿聯酋球隊）將直接面對 Lautaro Martínez 和 Julián Alvarez 的穿插。這兩人轉身速度慢，阿根廷的雙前鋒會不停繞身後。維德角唯一的反擊火種是 7 號 Jovane Cabral，本場帶傷觀察出場，他的速度本可針對 Molina 的壓上，但有傷在身難以滿血。中場方面，維德角 10 號 Jamiro Monteiro 要獨鬥 Mac Allister、De Paul 和 Enzo 的輪番前插，體力將在 60 分鐘後崩盤。\n\n**比賽劇本**：開局阿根廷控球超過 70%，但前 25 分鐘只能在禁區外刷遠射。第 33 分鐘，梅西回撤製造區域性人數優勢，Nico Paz 弧頂重炮破僵。下半場維德角被迫陣型稍微提上，第 67 分鐘阿根廷利用角球：Lisandro Martínez 前點後蹭，Lautaro 後點墊射鎖定 2-0。最後 20 分鐘阿根廷降速控場，維德角連打長傳都找不到點，比賽平穩結束。\n\n**為何是 2-0**：維德角本屆場均預期貢獻僅 0.70，面對 Emi Martínez 和 Romero 的防線幾乎不可能運動戰進球。阿根廷只需贏，不必狂勝，兩球后主動收力，符合淘汰賽務實流。\n\n**翻盤點**：若阿根廷上半場浪費機會，且維德角在極少數的定位球中由 5 號 Logan Costa（比利亞雷亞爾）頭球意外得手，比賽可能 1-1 僵持，甚至拖入加時。但維德角板凳僅兩人有頂級資料，加時也是徒勞。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.09,
+              "A": 0.03
+            },
+            "confidence": 0.9,
+            "key_risk": "Argentina 取得早早進球，迫使 Cape Verde 必須立即採取開放式打法，這讓比賽演變成一場 4 球以上的大勝。",
+            "second_score": "3-0",
+            "contrarian_md": "最顯而易見的劇本是一場 4-0 或 5-0 的血洗。每個人都看到衛冕冠軍對陣實力懸殊的弱旅，並預期會出現像板球那樣的高比分。但我並不這麼認為。看看世界盃的歷史：2022 年 16 強賽 Argentina 對陣 Australia 的比賽就是一場艱苦的拉鋸戰（2-1）。Cape Verde 將會把 10 名球員撤回後場防守，由效力於 Villarreal 的 5 號球員 Logan Costa 坐鎮，並壓縮比賽空間。Argentina 的中場雖然能掌控比賽節奏，但並非那種能在前 30 分鐘就徹底擊潰對手的球隊。如果 Cape Verde 的門將 Vozinha 能踢出職業生涯代表作，這場比賽的比分將會僵持到最後階段，讓 Argentina 感到如坐針氈。",
+            "signature_scene": "下半場約 60 分鐘。Cape Verde 的低位防守讓 Argentina 感到棘手，但 7 號 Rodrigo De Paul 在空檔處找到機會，將球傳給 10 號 Lionel Messi，後者吸引了三名防守球員後，將球橫傳給 22 號 Lautaro Martínez，由他以一記精準的近柱射門，終於打破僵局。",
+            "reasoning_md": "阿根廷隊壓倒性的實力與陣容深度，終將瓦解 Cape Verde 的防線，但預計這會是一場有條不紊的擊潰，而非早早拉開比分的屠殺。這支衛冕冠軍擁有過於強大的火力，而 Cape Verde 則缺乏足夠的進攻威脅來透過反擊懲罰對手。",
+            "script_md": "整體分析：這是一場典型的「大衛對抗歌利亞」之戰。Argentina 擁有 3.37 的進攻指數，且各位置皆具備頂級聯賽的深厚陣容；而 Cape Verde（指數 1.69）則高度依賴拚勁、組織紀律以及幾位出色的球員，例如 5 號 Logan Costa (Villarreal CF)。\n\n關鍵對位：Argentina 的 22 號 Lautaro Martínez 與 10 號 Lionel Messi，將對上 Cape Verde 的中後衛組合 Costa 與 4 號 Roberto Lopes (Shamrock Rovers FC)。Cape Verde 唯一的進攻出口 7 號 Jovane Cabral (CF Estrela Da Amadora) 目前帶傷上陣，預計將會被 13 號 Cristian Romero 完全封鎖。\n\n比賽劇本：Cape Verde 從第一分鐘起就會採取「擺大巴」戰術。預計 Argentina 上半場將掌握 75% 的控球權，不斷試探但會發現中路完全被堵死。突破口很可能出現在下半場，屆時島民隊（Islanders）的體能將會下滑。一旦 Argentina 取得首顆進球，Cape Verde 就必須稍微拉開陣型，這將為第二顆進球創造空間。\n\n為何預測此比分：2-0 的勝利反映了 Argentina 的統治力，且不會過度誇大比分。Scaloni 執教的 Argentina 講求實用主義——一旦取得 2-0 領先，他們會透過控球來消磨比賽時間，而不是去追求 5-0 的大勝。\n\n什麼情況會翻盤：如果 Cape Verde 能將 0-0 的比分拖入第 80 分鐘，Argentina 的陣中可能會出現焦慮情緒，這將為 Logan Costa 透過幸運的定位球頭槌破門創造機會，進而製造出冷門賽果。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.72,
+              "D": 0.18,
+              "A": 0.1
+            },
+            "confidence": 0.78,
+            "key_risk": "維德角邊鋒Jovane Cabral（7號）若復出+阿根廷邊衛Molina壓得太上，一次長傳打穿阿根廷右肋，可能偷到1球。",
+            "second_score": "1-1",
+            "contrarian_md": "主流敘事：衛冕冠軍火力3.37碾壓1.69，深度22人vs2人頂級聯賽，穩吃非洲小國。我不買賬：阿根廷本屆xG1.58並非爆炸級，梅西39歲+Lo Celso/De Paul近期俱樂部出賽時間下滑，進球轉換率未必高；維德角5-4-1鐵桶+邊鋒Jovane Cabral反擊速度，複刻2022沙烏地、日本模式，若先偷1球阿根廷會急，後面高壓容易身後漏。",
+            "signature_scene": "下半場63分鐘，維德角7號Jovane Cabral右路反擊生吃Medina，突入禁區被Romero鏟倒，裁判沒給點，阿根廷立刻長傳找10號Messi，外圍遠射中柱彈出，隨即17號Giuliano Simeone補射2-0鎖定。",
+            "reasoning_md": "阿根廷邊中結合與定位球優勢明顯，維德角進攻端只有Jovane Cabral一人有頂級資料，撐不住90分鐘，主隊小勝2球。",
+            "script_md": "- 整體：阿根廷xG總值是對手2.4倍，且中場Mac Allister+Enzo+De Paul三人組本季歐冠/英超傳球穿透力頂級；維德角僅5號Logan Costa踢過西甲，其餘後衛全是二級聯賽，高度與速度都對不上Lautaro/Messi的斜插。\n- 關鍵對位：阿根廷右側Nahuel Molina+Rodrigo De Paul輪流套上，會對位維德角左閘22號Steven Moreira（美職水平）；阿根廷左側Medina插上較少，但Gio Lo Celso左腳外圍傳中xA0.31/90，專打5號Logan Costa身後。\n- 劇本：前20分鐘阿根廷控球75%，第28分鐘Lo Celso左側角球，Romero前點蹭到，Lautaro近門鏟射1-0；領先後阿根廷節奏放緩，維德偶爾長傳找9號Livramento爭一點，但成功率低。下半場65分鐘Scaloni換上Alvarez+Julian+Enzo三前腰，第78分鐘Messi中路直塞，Giuliano Simeone反越位12碼推射2-0。\n- 為何2-0：阿根廷習慣領先後控節奏，維德角xG0.7實在太低，想進1球需超常反擊+阿根廷門將Emi Martinez罕見失誤，機率<10%。\n- 翻盤情境：若Cabral帶傷復出並在第55分鐘利用阿根廷邊衛壓上，單刀扳平1-1，士氣一漲+阿根廷急躁，可能重演2022德國被日本逆轉劇本，但機率仍低於兩成。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.88,
+              "D": 0.1,
+              "A": 0.02
+            },
+            "confidence": 0.82,
+            "key_risk": "維德角（Cape Verde）低位防守 + 一次 Jovane Cabral 的反擊，而 Emi Martinez 未能成功攔截。",
+            "second_score": "3-0",
+            "contrarian_md": "傳統觀點：身為衛冕冠軍的 Argentina 會以 4-0 或 5-0 橫掃弱旅。現實檢視：Cape Verde 陣中僅有兩名球員擁有頂級聯賽出賽紀錄，且將採取 6-3-1 的鐵桶陣；過去三場世界盃類似實力懸殊的對戰（2018 年 Germany 對 Korea、2022 年 Argentina 對 Saudi），當強勢的一方因久攻不下而變得急躁，進而導致防線出現空檔時，至少出現過一次爆冷賽果。",
+            "signature_scene": "下半場第 68 分鐘：Argentina 10 號 Messi 回撤接球，送出一記斜傳給 9 號 Julián Alvarez，後者在經歷一連串角球攻勢後，直接起腳射門，球越過 Vozinha 入網。",
+            "reasoning_md": "Argentina 以 2-0 取勝，因為他們的進攻指數（3.37）與陣容深度（22 名頂級聯賽球員）遠超 Cape Verde（1.69，僅 2 名頂級聯賽球員）；雙方實力差距過大，難以爆冷。",
+            "script_md": "Argentina 從開賽起便掌握了 68-72% 的控球權，由 Enzo Fernández 與 Mac Allister 在中場主導節奏。Cape Verde 的 7 號球員 Jovane Cabral (Estrela Da Amadora) 是他們唯一的威脅，但他在前場顯得孤立無援，被迫拉邊進攻。Argentina 早期的施壓在第 22 分鐘收到成效，由 Molina 回傳助攻，Lautaro Martínez 首開紀錄。下半場 Argentina 陣型略微後撤，給予對手定位球機會；Cape Verde 在第 58 分鐘的一次反擊中創造出半次機會，但被 Emi Martinez 穩穩沒收。隨後，Argentina 在一連串角球攻勢中由 Julián Alvarez 攻入第二球。比賽尾聲節奏趨緩，Argentina 選擇控制球權而非強求第三個進球。除非 Messi 或 Lautaro 提早受傷導致球隊失去進攻端的支點，否則比賽結果不會有懸念。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "阿根廷",
+            "predicted_score": "3-0",
+            "win_prob": {
+              "H": 0.92,
+              "D": 0.05,
+              "A": 0.03
+            },
+            "confidence": 0.88,
+            "key_risk": "阿根廷久攻不下被維德角死守拖到 70 分鐘仍 0-0，球員心態急躁出現低階失誤",
+            "second_score": "2-0",
+            "contrarian_md": "主流敘事：衛冕冠軍打首次進十六強的維德角，純粹屠殺局，4-0、5-0 起跳。我不完全信。理由一：阿根廷預期首發有 Messi（Inter Miami CF）和 De Paul（Inter Miami CF），兩人不在歐洲頂級聯賽節奏裡，面對維德角擺鐵桶陣，創造力可能不如預期。理由二：維德角能從小組賽出線說明他們防守有組織，不是隨便被碾的魚腩。2018 德國輸韓國、2022 阿根廷自己輸沙烏地，都是「覺得穩贏」結果翻車。如果這場爆冷，爆法會是：維德角 5 號 Logan Costa（Villarreal CF）領導的防線頂住前 60 分鐘，阿根廷急躁壓上，7 號 Jovane Cabral（CF Estrela Da Amadora）帶傷替補上場打反擊偷一個。但這個劇本機率很低，因為阿根廷的板凳深度太誇張，替補席上坐著 xG90 0.78 的 18號 Nico Paz（Como）和 0.67 的 22號 Lautaro Martínez（FC Internazionale Milano），這不是 2018 德國那種鋒無力的狀態。",
+            "signature_scene": "下半場 55 分鐘左右，阿根廷 10號 Messi（Inter Miami CF）在禁區前沿拿球吸引三人包夾，腳後跟做給插上的 24號 Enzo Fernández（Chelsea FC），Enzo 一腳直塞撕開防線，22號 Lautaro Martínez（FC Internazionale Milano）反越位成功面對 1號 Vozinha（GD Chaves）冷靜推射遠角破門，開啟僵局。",
+            "reasoning_md": "阿根廷贏，毫無懸念。攻擊指數 3.37 vs 1.69，深度 22/26 vs 2/26 有頂級聯賽資料，這是三個檔次以上的差距。維德角唯一有五大聯賽背景的 5號 Logan Costa（Villarreal CF）獨木難支，撐不住整場 90 分鐘。比分壓在 3-0 而不是更大，因為世界盃淘汰賽強隊領先後會收，不會為了刷進球浪費體能。",
+            "script_md": "## 整體判讀\n這場就是一面倒。阿根廷攻擊指數 3.37，維德角 1.69，差了將近一倍。深度更不用比：阿根廷 26 人裡 22 人有頂級聯賽資料，維德角只有 2 個人。維德角能進十六強已經是奇蹟，但奇蹟到這裡就是終點。\n\n## 關鍵對位\n- 維德角 5號 Logan Costa（Villarreal CF）是唯一在五大聯賽踢球的首發後衛，他要一個人面對阿根廷整條攻擊線。他旁邊的 3號 Diney（Al Bataeh Club）在阿聯酋踢球，4號 Roberto Lopes（Shamrock Rovers FC）在愛爾蘭超級聯賽，這個等級的後衛面對 Lautaro Martínez 和 Julián Alvarez 就是送菜。\n- 維德角 7號 Jovane Cabral（CF Estrela Da Amadora）有傷在身，就算上場也打折扣。他是維德角唯一 xG90 有數字的主力前鋒（0.17），少了他的反擊威脅，維德角連偷一個的資本都沒有。\n- 阿根廷中場 24號 Enzo Fernández（Chelsea FC，xG90 0.25）和 20號 Alexis Mac Allister（Liverpool FC，關鍵傳球90 1.59）的控制力，會讓維德角連球都摸不到。\n\n## 比賽劇本\n- **上半場 0-25 分鐘**：阿根廷控球率大概 75% 以上，維德角全隊退到禁區前沿擺大巴。阿根廷耐心倒腳尋找空檔，Messi 回撤組織。維德角 1號 Vozinha（GD Chaves）會被逼出幾次撲救，但阿根廷前 25 分鐘可能只進 1 個，因為維德角前 20 分鐘體能還撐得住密集防守。\n- **上半場 25-45 分鐘**：維德角體能開始下滑，防線出現縫隙。阿根廷大機率在上半場結束前再進 1 個，帶著 2-0 進中場休息。\n- **下半場**：阿根廷領先後節奏放慢，換人調整。替補上場的 18號 Nico Paz（Como，xG90 0.78）或 17號 Giuliano Simeone（Atlético De Madrid，xG90 0.40）在 65-75 分鐘再進 1 個鎖定勝局。之後阿根廷收著踢，不會再冒險壓上。\n- **維德角的進攻**：基本不存在。他們全場可能只有 1-2 次射門，而且大機率是禁區外遠射，對 23號 Emiliano Martínez（Aston Villa FC）構不成威脅。\n\n## 為什麼是 3-0\n不灌水、不壓更大。世界盃淘汰賽，強隊 2-0 領先後的選擇是「控場 + 等機會」，不是「繼續狂攻」。第三個進球來自替補球員的個人能力，第四個進球？沒必要，也不符合淘汰賽的節奏。3-0 已經是碾壓級的比分。\n\n## 什麼情況會翻盤\n只有一種：阿根廷開場 30 分鐘狂攻不進，球員開始急躁，然後 13號 Cristian Romero（Tottenham Hotspur FC）的膝傷復發或者 6號 Lisandro Martínez（Manchester United FC）冒頂失誤，被維德角偷一個反擊。但就算 0-1 落後，以阿根廷的攻擊深度，最後大機率還是能翻回來 2-1。真正爆冷的機率不到 5%。"
+          }
+        ]
+      },
       "correct": null
     },
     {
       "match_id": "54328012",
-      "home": "K1",
-      "away": "D3/E3/I3/J3/L3",
+      "home": "哥倫比亞",
+      "away": "迦納",
       "kickoff_tw": "2026-07-04 09:30",
       "stage": "1/16決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "哥倫比亞",
+        "win_prob": 0.573,
+        "agree": "7/7 models",
+        "predicted_score": "2-1",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.56,
+              "D": 0.25,
+              "A": 0.19
+            },
+            "confidence": 0.62,
+            "key_risk": "哥倫比亞的後防線（年齡較大、機動性較差的球員，如 13 號 Yerry Mina 和 23 號 Davinson Sánchez）在攻守轉換時被迦納的速度（19 號 Iñaki Williams、24 號 Ernest Nuamah）徹底擊潰，將原本一場「控制型」的比賽變成了田徑賽。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點：Colombia 主場作戰，進攻指數較高（2.03），加上 Díaz 與 Suárez 的火力，理應是一場例行公事的勝利。\n\n為何我並不完全買單：Ghana 的鋒線配置正是為了懲罰 Colombia 邊後衛（No.2 Daniel Muñoz / No.17 Johan Mojica）壓上後的空檔。只要一次乾淨的球權轉換，Williams、Nuamah 與 Sulemana 就能直接衝擊回防的中後衛組合。冷門往往發生在強隊認為比賽「十拿九穩」之時——Argentina 對陣 Saudi（2022）的比賽基本上就是「一次糟糕的防線站位 + 一次攻守轉換」的不斷重演，如果 Colombia 在中場處理球過於草率，他們面臨的風險狀況也如出一轍。",
+            "signature_scene": "下半場（55'–65'）：Colombia 7 號 Luis Díaz (FC Bayern München) 在左路一對一面對 Ghana 2 號 Alidu Seidu (Stade Rennais)，隨後突破至底線並回傳給 25 號 Luis Suárez (Sporting CP) 直接起腳破門——這正是 Colombia 能不斷創造出的高 xG（預期進球值）禁區觸球機會。",
+            "reasoning_md": "Colombia 以 2-1 勝出：他們單純擁有更可靠的創造機會能力（預期貢獻值 2.63），以及兩名真正的終結者——7 號 Luis Díaz 和 25 號 Luis Suárez；而 Ghana 最好的進攻途徑則是反擊，但很可能只能攻入一球。",
+            "script_md": "根據數據顯示，Colombia 是進攻端更為全面的球隊：擁有更高的進攻指數（2.03 對 1.65）以及更為可觀的場均預期貢獻值（2.63 對 1.57）。這通常體現在進攻三區更長時間的控球，以及在黃金區域更多的射門，而不僅僅是華而不實的控球。\n\n關鍵對位在於 Colombia 的邊路威脅對抗 Ghana 的防守結構。7 號 Luis Díaz (FC Bayern München) 加上 2 號 Daniel Muñoz (Crystal Palace) 的套邊進攻是持續不斷的機會製造機，而 25 號 Luis Suárez (Sporting CP，xG/90 為 0.53) 正是 Ghana 最不想面對的禁區終結者。Ghana 的最佳武器是速度與直接的進攻風格：19 號 Iñaki Williams (Athletic Club) 和 24 號 Ernest Nuamah (Lyon) 能夠在兩次傳球內將一次中斷的進攻轉化為絕佳機會。\n\n比賽初期：Colombia 開局強勢，利用邊路寬度壓制 Ghana；Ghana 則採取守勢，尋求第一次乾淨俐落的攻守轉換。我預計 Colombia 會先馳得點——可能是透過倒三角回傳進球，或是在禁區周圍的第二落點爭搶——因為他們頂尖的 xG 數據（Díaz/Suárez）效率更高。\n\n比賽中段是 Ghana 反擊的時刻：如果 Colombia 的邊後衛位置過高，Ghana 終將獲得一次關鍵反擊，透過 Williams/Nuamah 或 Jordan Ayew 的傳中，出現 1-1 平局的可能性非常高。但綜觀 90 分鐘，Colombia 應能創造出更多可持續的進攻機會，而這種進攻量通常能贏下這種一球之差的比賽。\n\n比賽末段：Colombia 不需要進行對攻戰；他們會控制節奏，持續讓 Díaz 在邊路單打，並為 Suárez（或如 2 號 Muñoz 這樣的後插上球員）創造出另一次乾淨的機會，最終以 2-1 勝出。這樣的比分符合世界盃的典型模式：比分膠著，但由射門品質更好且創造者更多的球隊勝出。\n\n變數：如果 Ghana 的替補門將 16 號 Benjamin Asare (Hearts Of Oak) 有神級發揮，加上 Colombia 在防守轉換中丟掉一顆廉價進球（或在定位球防守中出現混亂），比賽可能會被拖入 1-1 平局；若 Colombia 為了進球而大舉壓上導致陣型拉開，甚至可能出現 Ghana 偷襲得手以 1-2 取勝的局面。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.54,
+              "D": 0.26,
+              "A": 0.2
+            },
+            "confidence": 0.58,
+            "key_risk": "迦納的前場三叉戟（Williams/Semenyo/Nuamah）速度快且進攻直接——哥倫比亞年邁的中後衛組合（Mina, Davinson）在反擊中容易暴露弱點，比賽隨即演變成一場對攻戰。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的觀點：擁有效力於 Bayern 的 Luis Díaz、Sporting 狀態火熱的 Luis Suárez（每 90 分鐘預期進球值 0.53！）以及更深厚頂尖球員儲備的南美勁旅，將輕鬆擊敗一支防線由 Rayo、Rennes 和 Wolfsburg 替補球員拼湊而成的 Ghana。進攻指數 2.03 對 1.65，預期貢獻值 2.63 對 1.57——看起來這是一場主場輕鬆取勝的比賽。但我並不買帳的地方在於：Colombia 的後防線確實老舊且「緩慢」——Yerry Mina (Cagliari) 和 Davinson Sánchez 正是那種會被速度型跑者撕裂的靜態防守者，而 Ghana 陣中正好有 Iñaki Williams、Semenyo 和 Nuamah 這「三劍客」。Ghana 的板凳深度在防守端確實薄弱，但他們的火力貨真價實——這正是那種會製造世界盃冷門的典型配置（參見 2022 年 Argentina 對 Saudi Arabia、Germany 對 Japan：頂尖進攻，卻在面對速度時防線閃神）。再加上處於 MLS 節奏模式、不願回防的 James Rodríguez，Colombia 可能會失球。我仍然傾向主勝，但這絕非散步般的輕鬆——平局的可能性非常高。",
+            "signature_scene": "下半場約 65 分鐘：Colombia 全員壓上尋求領先，卻在中場丟球，Ghana 11 號 Antoine Semenyo (Manchester City) 隨即送出直塞，讓 19 號 Iñaki Williams (Athletic Club) 突破 Yerry Mina 的防線——Williams 最終不是直接破門，就是製造了追平比分的十二碼。這顆進球讓 Colombia 陷入苦戰。",
+            "reasoning_md": "哥倫比亞頂尖的進攻素質（Díaz、Suárez、Muñoz 的前插）略勝一籌，但迦納的速度能有效打擊對手緩慢的中後衛，這場比賽將維持一球之差的緊張局面。預測主場 2-1 勝出。",
+            "script_md": "**整體解讀：** Colombia 在進攻端實力更強、陣容深度更佳——Luis Díaz (Bayern) 與 Luis Suárez (Sporting，場均 0.53 xG 的怪物) 加上頻繁前插的邊後衛 Daniel Muñoz，為他們提供了多種得分途徑。但他們的防線中軸線年齡偏大且速度緩慢，這正是 Ghana 會鎖定的弱點。\n\n**關鍵對位：** Colombia 的創造力源自 7 號 Luis Díaz 與 10 號 James Rodríguez 為 25 號 Luis Suárez 輸送炮彈。Ghana 則依靠純粹的速度進行反擊：19 號 Iñaki Williams (Athletic Club) 與 11 號 Antoine Semenyo (Manchester City)，配合 24 號 Ernest Nuamah (Olympique Lyonnais) 的內切——這對 13 號 Yerry Mina (Cagliari) 來說是速度上的噩夢對位。Ghana 的中場核心 5 號 Thomas Partey (Villarreal) 會嘗試進行屏障防守，但他們的門將令人擔憂：首選門將 Ati-Zigi 因傷缺陣，因此將由近乎首秀的 16 號 Benjamin Asare 先發。\n\n**比賽劇本：** Colombia 預計會在開局掌控球權並進行試探；預期他們會在上半場透過 Suárez 或 Díaz 的內切突破僵局——1-0。Ghana 不會輕易崩盤——他們會伺機反擊，比賽中段 Williams/Semenyo 將在身後製造威脅，很有可能扳回一城或製造險情。隨後 Colombia 憑藉更勝一籌的實力在比賽末段重新確立領先優勢，但過程中會顯得有些緊張。\n\n**為何預測 2-1：** Colombia 的火力明顯高出一個檔次，但面對三名速度型前鋒，緩慢的防線幾乎保證了 Ghana 能取得進球——這場比賽預計會是一場一球之差、總進球數在 2-3 球之間的賽事。\n\n**變數：** 如果 Mina/Davinson 在反擊中兩次陷入孤立無援，或者 Colombia 的進攻球員（如 James 不參與回防）讓 Nuamah 獲得自由空間，Ghana 就有機會逼平甚至偷走勝利——這就是潛在的爆冷路徑，這也是為什麼我對勝出的信心不超過 58% 的原因。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.6,
+              "D": 0.25,
+              "A": 0.15
+            },
+            "confidence": 0.65,
+            "key_risk": "哥倫比亞久攻不下，迦納門將 Benjamin Asare 如有神助，且 Iñaki Williams 反擊偷襲得手",
+            "second_score": "1-0",
+            "contrarian_md": "主流一定認為哥倫比亞實力碾壓，Díaz 和 Suárez 能輕鬆打穿迦納防線。但我看未必，迦納的 19 號 Iñaki Williams（Athletic Club）速度生吃哥倫比亞中衛不是問題，而且 11 號 Antoine Semenyo（曼城）前場攪局能力強，別忘了 2022 世界盃迦納差點逼平葡萄牙，非洲球隊的韌性常被低估。哥倫比亞大賽慢熱的毛病，可能讓比賽陷入僵局，一旦被拖入迦納節奏，翻車不是不可能。",
+            "signature_scene": "上半場第 28 分鐘，哥倫比亞 7 號 Luis Díaz 左路突破後倒三角，25 號 Luis Suárez 門前 12 碼處一蹴而就，首開紀錄。",
+            "reasoning_md": "哥倫比亞靠前場雙星拿下比賽，但迦納會進一個，最終 2-1，南美人驚險晉級。",
+            "script_md": "① 整體：哥倫比亞中前場創造力明顯優於迦納，Díaz 和 James Rodríguez 的連線是破局關鍵，但防線速度是隱患。迦納的反擊有 Iñaki Williams 這把尖刀，定位球也有 Thomas Partey 的遠射。\n② 關鍵對位：哥倫比亞右後衛 Daniel Muñoz（Crystal Palace）將面對迦納左路 Ernest Nuamah（Lyon）的衝擊，兩人速度對轟。迦納中後衛 Jonas Adjetey（Wolfsburg）經驗不足，會是哥倫比亞 Suárez 重點打擊物件。\n③ 比賽劇本：開場哥倫比亞主控，迦納收縮。上半場中段，Díaz 個人能力閃現，助攻 Suárez 破門。下半場初段，迦納反擊，Iñaki Williams 利用 Davinson Sánchez 身後空檔單刀扳平。但哥倫比亞很快由 James 角球助攻 Yerry Mina 頭球再度領先。最後 20 分鐘迦納猛攻，哥倫比亞死守，有驚無險。\n④ 比分 2-1：雙方都會進球，迦納有能力破門，但哥倫比亞進攻點多，能打進兩球。\n⑤ 翻盤條件：如果迦納先進球，比賽可能走向 0-1 或 1-1，哥倫比亞心態急躁，迦納門將 Asare 屢救險球，爆冷淘汰哥倫比亞。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.6,
+              "D": 0.25,
+              "A": 0.15
+            },
+            "confidence": 0.75,
+            "key_risk": "迦納的轉換進攻節奏（Williams、Semenyo）完全暴露了哥倫比亞中後衛速度緩慢的弱點，而他們的替補門將則打出了生涯代表作。",
+            "second_score": "1-1",
+            "contrarian_md": "最顯而易見的劇本是，由 Bayern 的 Luis Díaz 領軍、球星雲集的 Colombia 進攻線，將會痛宰這支被迫啟用國內聯賽替補門將的 Ghana。但別盲目地相信這支南美勁旅。Colombia 的中後衛搭檔 Yerry Mina 與 Davinson Sánchez 以容易被純粹的速度與快速攻守轉換擊潰而聞名。而 Ghana 正好具備這些特質：Iñaki Williams 與 Antoine Semenyo 是頂尖的轉換進攻威脅。如果 Ghana 採取「擺大巴」戰術來保護門將，並單純地將球長傳至邊路空檔，他們就有機會撕裂 Colombia 的高位防線，上演一場如同 2022 年 Morocco 對陣 Spain 那樣經典的「偷襲式」爆冷勝利。",
+            "signature_scene": "下半場第 65 分鐘：Colombia 壓得很高，但一顆鬆散的球被 5 號 Thomas Partey 攔截。他隨即將球長傳至右路通道。19 號 Iñaki Williams 開啟加速模式，徹底甩開 13 號 Yerry Mina，並在門前起腳勁射，以一記低平球考驗門將。",
+            "reasoning_md": "哥倫比亞壓倒性的進攻實力最終應能突破迦納的防線，特別是考慮到迦納門前是由替補的本土門將把關。然而，迦納在反擊中頂尖的速度將會暴露哥倫比亞中後衛移動緩慢的弱點，使這場比賽陷入令人不安的膠著狀態。",
+            "script_md": "- **整體分析**：Colombia 擁有頂級的進攻火力（預期貢獻值 2.63）並將掌控比賽節奏，但 Ghana 的轉換進攻極具威脅。最明顯的對位劣勢在於 Colombia 的菁英前鋒群對上 Ghana 來自國內聯賽的替補門將，即 16 號 Benjamin Asare (Hearts Of Oak SC)。\n- **關鍵對位**：決定勝負的戰場在於攻守轉換。Ghana 的 19 號 Iñaki Williams (Athletic Club) 與 11 號 Antoine Semenyo (Manchester City FC) 將試圖利用 Colombia 進攻型邊後衛留下的空間，直接挑戰 13 號 Yerry Mina (Cagliari) 與 23 號 Davinson Sánchez (Galatasaray SK) 的回防速度。在另一端，7 號 Luis Díaz (FC Bayern München) 將不斷考驗 Ghana 的右路防守。\n- **比賽劇本**：預計 Colombia 將在開賽後主導控球權，試探對手弱點。他們很有可能在上半場透過 Díaz 的靈光一現或 James Rodríguez 的定位球率先破門。Ghana 不會輕易崩盤；他們將採取深度防守、承受壓力，並發動快速反擊。若 Ghana 在下半場初段，當 Williams 或 Semenyo 突破 Mina 的防線後扳平比分，請不要感到驚訝。然而，隨著體力下滑，Colombia 更深厚的板凳深度與持續施壓，將迫使經驗不足的 Ghana 門將犯錯，進而鎖定勝局。\n- **為何預測比分為 2-1**：Colombia 的進攻火力太強，不可能被零封，但他們的後衛組合在面對頂級速度時，容易出現至少一次致命失誤，這確保了 Ghana 能夠取得進球。\n- **什麼情況會翻盤**：如果 Asare 在門前上演神級表現，且 Colombia 的中後衛過早被對手打穿，Ghana 完全有可能憑藉純粹的反擊效率，以 1-0 或 2-1 爆冷取勝。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.55,
+              "D": 0.25,
+              "A": 0.2
+            },
+            "confidence": 0.72,
+            "key_risk": "迦納邊鋒群（11號Semenyo、19號Iñaki）若把哥倫比亞邊後衛Daniel Muñoz壓到只能犯規，定位球或反擊偷1球就能翻盤。",
+            "second_score": "1-1",
+            "contrarian_md": "主流敘事：南美技術流＋Luis Díaz、James星光閃閃，穩吃非洲糙哥。我不買賬：哥倫比亞中衛組Mina+Sánchez轉身慢，碰上Iñaki直塞身後就是單刀；迦納本屆預期進球1.57並非魚腩，2022世界盃他們就讓葡萄牙嚇出一身冷汗。",
+            "signature_scene": "下半場63分鐘，哥倫比亞14號Gustavo Puerta左肋帶球被斷，迦納11號Antoine Semenyo（Man City）反擊直塞，19號Iñaki Williams單刀扳平1-1，全場非洲鼓聲炸裂。",
+            "reasoning_md": "哥倫比亞火力2.03對1.65就是高一檔，邊路Díaz+Suárez能把迦納邊衛26號Senaya壓到禁區內，主場氣勢先開紀錄，最後10分鐘再補一刀。",
+            "script_md": "- 整體：哥倫比亞攻擊指數高24%，邊路Díaz（7號，Bayern）+Suárez（25號，Sporting）每90合計0.96 xG，對位迦納Auxerre二隊等級邊衛26號Senaya+14號Mensah，就是大人打小孩。\n- 關鍵對位：哥倫比亞右後衛2號Daniel Muñoz（CPFC）壓上助攻後身後空檔，碰上迦納19號Iñaki Williams（Athletic）直塞跑位，是迦納唯一殺手鐧。\n- 劇本：前20分鐘哥倫比亞高位逼搶，25號Suárez禁區內搶點首開紀錄；迦納收縮5-4-1，靠11號Semenyo反擊拖節奏。70分鐘後James定位球吊後點，3號Lucumí頭槌2-0；補時迦納靠角球由4號Adjetey（Wolfsburg）扳回面子。\n- 比分原因：實力差＋主場，但哥倫比亞防線怕直塞，給迦納1次定位球破門。\n- 翻盤情境：若James體能掉檔、中場失控，迦納把比分壓在1-1，最後5分鐘Iñaki單刀就可能爆冷2-1帶走。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.58,
+              "D": 0.27,
+              "A": 0.15
+            },
+            "confidence": 0.62,
+            "key_risk": "當 Colombia 向前推進後，Ghana 透過 Williams/Semenyo 發動反擊",
+            "second_score": "1-0",
+            "contrarian_md": "傳統觀點認為，作為實力較強的南美球隊，憑藉優異的進攻數據與主場優勢，Colombia 將能輕鬆取勝。然而，這種說法忽略了 Ghana 陣中擁有 14 名具備頂級聯賽數據的球員，以及極具威脅的邊路進攻；若 Partey 能做好防守屏障，且 Williams 能有效利用 Muñoz 身後的空間，爆冷局面便會發生，這就如同 2018 年 Korea 擊敗 Germany 的模式一樣。",
+            "signature_scene": "下半場第 65 分鐘：哥倫比亞 7 號 Luis Díaz (Bayern) 在左路接獲 James Rodríguez 的傳球，內切晃過 Seidu 後，以低射擊敗 Asare 破門得分。",
+            "reasoning_md": "Colombia 較高的進攻指數以及兩名頂尖前鋒讓他們在主場佔據優勢；一旦 Díaz 和 Suárez 進入比賽節奏，Ghana 將缺乏足夠的板凳深度來維持平局。",
+            "script_md": "比賽一開始，Colombia 便掌控了球權與場上區域，由 Díaz 和 Suárez 拉開 Ghana 的防線，而 Lerma 與 Ríos 則在後方穩固陣型。Ghana 依賴 Partey 來破壞對手攻勢，並在反擊時將球輸送給 Williams 和 Semenyo，但早期的進攻機會相當有限。下半場中段，Díaz 內切破門首開紀錄。Ghana 隨即由 Ayew 以定位球頭槌扳平比分，然而 Colombia 的板凳深度發揮作用，由 Suárez 在比賽尾聲攻入致勝球。2-1 的比分反映了 Colombia 的實力優勢，但由於 Ghana 前鋒群的運動能力讓比賽始終保持懸念，因此並未演變成一面倒的屠殺。若 Colombia 的其中一名邊後衛領到紅牌，或是 Williams 的反擊能更具威脅，比賽結果可能會完全不同。"
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "哥倫比亞",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.58,
+              "D": 0.22,
+              "A": 0.2
+            },
+            "confidence": 0.65,
+            "key_risk": "迦納鋒線運動能力碾壓哥倫比亞老邁防線，若讓 Iñaki Williams 衝起來，哥倫比亞中後場脫節必遭反噬",
+            "second_score": "1-1",
+            "contrarian_md": "主流一定看這組資料覺得：哥倫比亞攻擊指數 2.03 輾壓迦納 1.65，又有 Díaz、James 領銜，主場優勢加持，贏定了。但我偏不信這套。仔細看名單：哥倫比亞中後場一堆在美洲踢球、頂級聯賽出場數寥寥，James 在 MLS、Carrascal 在巴西、Castaño 在阿根廷 River Plate——這條中軸線面對歐洲級別的高壓逼搶能撐多久？反觀迦納，14人有頂級聯賽資料，深度還比哥倫比亞多3人。更致命的是哥倫比亞後防：Mina 在 Cagliari、Sánchez 在 Galatasaray、Arias 在阿根廷獨立隊——這條線面對 Iñaki Williams（畢爾巴鄂競技，xG90 0.36）和 Semenyo（曼城，xG90 0.27）的純速度衝擊，就是定時炸彈。2022 德國輸日本、2018 德國輸韓國，都是「資料看著贏、節奏被衝垮」的翻車範本。這場如果爆冷，就是迦納用速度把哥倫比亞老腿跑散了。",
+            "signature_scene": "下半場60-70分鐘，迦納19號 Iñaki Williams（Athletic Club）接 Thomas Partey 長傳，硬吃哥倫比亞23號 Davinson Sánchez（Galatasaray SK）的轉身速度，單刀切入禁區扳平——那一刻全場安靜，因為所有人都以為哥倫比亞穩了",
+            "reasoning_md": "哥倫比亞贏，但贏得心驚肉跳。攻擊端 Díaz 和 Luis Suárez 的火力足以在主場敲開迦納臨時門將的門，但自家防線扛不住迦納鋒線的速度反擊，丟1球幾乎是必然。2-1 是最真實的比分。",
+            "script_md": "## 整體判讀\n哥倫比亞攻擊指數 2.03 vs 迦納 1.65，表面看是南美勁旅碾壓非洲球隊。但別被數字騙了——迦納的 14人頂級聯賽深度比哥倫比亞的 11人還厚，而且迦納鋒線四個人（Williams、Semenyo、Nuamah、Ayew）全在歐洲五大聯賽踢球，速度和對抗都是頂級。哥倫比亞的優勢在進攻端創造力（James 傳球、Díaz 突破、Luis Suárez 終結），劣勢在中後場老化、節奏慢。\n\n## 關鍵對位\n- **哥倫比亞 7號 Luis Díaz（FC Bayern）vs 迦納 2號 Alidu Seidu（Stade Rennais）**：Díaz 的 xG90 0.43 是全場最高威脅點，Seidu 在雷恩踢右後衛，速度跟得上但經驗不足。Díaz 只要內切一步就是威脅，Seidu 吃黃牌是遲早的事。\n- **迦納 19號 Iñaki Williams（Athletic Club）vs 哥倫比亞 23號 Davinson Sánchez（Galatasaray SK）**：這是全場最致命對位。Williams 的純速度 + Sánchez 轉身慢 = 炸彈。Sánchez 在加拉塔薩雷踢球，節奏偏慢，世界盃強度下面對 Williams 的衝刺，至少被打穿一次。\n- **中場：迦納 5號 Thomas Partey（Villarreal）vs 哥倫比亞 10號 James Rodríguez（Minnesota United）**：Partey 在黃潛還在頂級水準，James 在 MLS 節奏已經慢了。Partey 如果貼身壓迫，James 的傳球視野會被壓縮到只能回傳。\n\n## 比賽劇本\n- **早段（0-25分）**：哥倫比亞主動控球，James 拉到左路組織，Díaz 在左翼反覆衝擊 Seidu。迦納擺出 4-4-2 中低位防守，Partey 掃蕩中路，不急著壓出。哥倫比亞佔控球但打不穿。\n- **中段（25-60分）**：哥倫比亞靠定位球或邊路傳中先破門——最可能是 25號 Luis Suárez（Sporting CP，xG90 0.53）在禁區內搶點或 7號 Díaz 內切後起腳。1-0 之後哥倫比亞開始收縮，這時候迦納的反擊就來了。\n- **末段（60-90分）**：迦納換上 22號 Kamaldeen Sulemana（Atalanta）和 24號 Ernest Nuamah（Lyon）加速邊路，19號 Williams 移到中路專打 Sánchez 身後。60-70分鐘之間，Williams 大機率靠一次長傳反擊扳平。之後哥倫比亞被逼著壓上，靠 7號 Díaz 或 25號 Suárez 在 75-85 分鐘的個人能力再進一個。2-1 收場。\n\n## 為什麼是 2-1 不是 3-0\n哥倫比亞防線老化是硬傷，面對迦納四個歐洲級別速度型前鋒，不丟球不可能。但迦納臨時門將 16號 Benjamin Asare（Hearts Of Oak SC）在迦納國內聯賽踢球，面對 Díaz 和 Suárez 的射門，擋不住兩次。所以 2-1，不是大勝。\n\n## 什麼情況會翻盤\n如果 Partey 在中場完全鎖死 James，讓哥倫比亞進攻只能靠 Díaz 單幹，同時 Williams 在反擊中早早進球（上半場就破門），哥倫比亞心態一急，中場脫節，迦納 1-2 爆冷不是不可能。這就是我給迦納 20% 勝率的原因——不是客氣話，是真的有這個風險。"
+          }
+        ]
+      },
       "correct": null
     },
     {
