@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T05:24:53+08:00",
+  "generated_at": "2026-07-04T17:31:56+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -6218,8 +6218,8 @@
       "away": "克羅埃西亞",
       "kickoff_tw": "2026-07-03 07:00",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -6356,7 +6356,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54327946",
@@ -6364,8 +6364,8 @@
       "away": "阿爾及利亞",
       "kickoff_tw": "2026-07-03 11:00",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -6502,7 +6502,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328013",
@@ -6510,8 +6510,8 @@
       "away": "埃及",
       "kickoff_tw": "2026-07-04 02:00",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -6648,7 +6648,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54327947",
@@ -6656,8 +6656,8 @@
       "away": "維德角",
       "kickoff_tw": "2026-07-04 06:00",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -6794,7 +6794,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54328012",
@@ -6802,8 +6802,8 @@
       "away": "迦納",
       "kickoff_tw": "2026-07-04 09:30",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -6940,30 +6940,298 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328018",
-      "home": "第1場1/16決賽勝者",
-      "away": "第3場1/16決賽勝者",
+      "home": "加拿大",
+      "away": "摩洛哥",
       "kickoff_tw": "2026-07-05 01:00",
       "stage": "1/8決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "摩洛哥",
+        "win_prob": 0.466,
+        "agree": "5/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.28,
+              "D": 0.27,
+              "A": 0.45
+            },
+            "confidence": 0.56,
+            "key_risk": "摩洛哥在帳面上的創造機會能力，看起來比他們在本屆賽事中的實際表現（1.73 的預期貢獻值）要好，因此如果他們無法將控球優勢轉化為明確的射門機會，加拿大憑藉轉換進攻的速度，很有可能偷走勝利。",
+            "second_score": "1-1",
+            "contrarian_md": "**顯而易見的劇本：** Morocco 是陣容更完整、深度更足且擁有更多頂級聯賽球員的隊伍（進攻指數 1.54；擁有 Hakimi、Mazraoui、Díaz、El Khannouss），因此他們「應該」能掌控比賽。\n\n**我為何不完全買單：** Morocco 在本屆賽事的*實際產出*顯得有些平庸（預期貢獻值 1.73），而 Canada 在主場即便踢得不夠「乾淨」，卻能創造出大量的進攻機會（4.87）。如果 Morocco 的邊後衛大舉壓上，而雙中場又無法阻擋反擊，Canada 就可能複製 2022 年的模式上演「偷襲」——試想 **Japan vs Germany 2022** 的比賽：一方「掌控」局面，另一方則利用空間，透過兩次冷酷的反擊扭轉戰局。",
+            "signature_scene": "下半場約 58 分鐘：摩洛哥 2 號 **Achraf Hakimi (PSG)** 從內側前插，同時 10 號 **Brahim Díaz (Real Madrid)** 向內切入；Hakimi 的低平球回傳由 Díaz 第一時間起腳破門，取得領先——當時加拿大防線雖已就位，但中場防守屏障慢了半拍。",
+            "reasoning_md": "摩洛哥以 2-1 勝出：他們擁有更多的創造者以及頂尖的機會創造質量（Díaz + Hakimi/Mazraoui 的傳送），而加拿大因 Koné 的缺陣導致中場戰力薄弱，使得他們在防守半場空間（half-spaces）時顯得脆弱。",
+            "script_md": "摩洛哥是進攻組織更為犀利的一方：10號 **Brahim Díaz** 加上 2號 **Hakimi** 與 3號 **Mazraoui** 兩名邊後衛的助攻輸出，比起缺乏 Koné 的加拿大中場組織顯然更為可靠。不過，加拿大的威脅依然不容小覷——主場氣勢、直接的跑動，以及透過 17號 **Tajon Buchanan (Villarreal CF)** 在邊路製造的混亂，再加上 19號 **Alphonso Davies (Bayern)** 回歸後帶來的套邊與脫困路線。\n\n比賽初期，加拿大節奏明快，將比賽變成了田徑賽：Buchanan 與 10號 **Jonathan David (Juventus)** 在轉換進攻中獲得幾次機會，迫使摩洛哥的中後衛（14號 **Issa Diop**、18號 **Chadi Riad**）只能選擇解圍，而非冷靜地推進。但一旦摩洛哥挺過第一波攻勢，他們便開始壓制加拿大——23號 **El Khannouss (Stuttgart)** 與 8號 **Ounahi (Girona)** 找到空檔，迫使加拿大的邊路中場必須內收防守，進而讓邊後衛的通道門戶大開。\n\n我預測摩洛哥會透過右路配合（Hakimi 參與其中）先馳得點，加拿大則在混亂階段——定位球、第二落點，或是由 David/Oluwaseyi 完成的快速反擊——做出回應，最後摩洛哥在持續施壓下，由 Díaz 在禁區內獲得乾淨的觸球機會並攻入致勝球。\n\n為何是 2-1 而非大勝：加拿大確實擁有頂尖的速度型箭頭，且具備足夠的射門次數來攻入一球，特別是在主場；摩洛哥實力較強但並非無懈可擊，且他們在賽事中的進球效率並未展現出「輾壓」的態勢。\n\n變數在於：如果 Davies 的體能確實足以應付 90 分鐘，且加拿大能持續在邊路一對一中孤立 Mazraoui/Diop，那麼摩洛哥邊後衛過於激進的壓上將成為隱憂，比賽可能會演變成 1-1 平手，或是加拿大以 2-1 偷襲得手。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.24,
+              "D": 0.28,
+              "A": 0.48
+            },
+            "confidence": 0.58,
+            "key_risk": "加拿大在主場迎來 Davies 回歸，能透過 David/Oluwaseyi 的反擊戰術打擊 Morocco 的高位防線——只要有一次乾淨俐落的突破，比賽局勢就可能轉向平手，甚至對 Morocco 而言更糟。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為：Morocco 是 2022 年的四強隊伍，陣中擁有來自 Real Madrid 的攻擊手 (Brahim Díaz)、PSG 的 Hakimi 在邊路頻頻前插，且陣容深度極佳（26 人中有 15 人效力於頂級聯賽，而 Canada 僅有 8 人），加上 1.54 對 0.94 的指數優勢——這意味著 Morocco 將輕鬆取勝。我對此持保留態度，原因如下：Morocco 在本屆世界盃至今的「場均預期貢獻值」僅為慘淡的 1.73，而 Canada 則高達 4.87——這意味著儘管 Morocco 名氣響亮，但實際上進攻效率並不高，反觀 Canada 的進攻產出相當可觀。Morocco 在 2022 年是靠著「擺大巴」戰術取得輝煌戰績；他們並非一支擅長大舉進攻的球隊。面對有主場球迷加持且 Davies 強勢回歸的 Canada，這種急於追分的對手正是當年爆冷擊敗 2022 Argentina (Saudi Arabia) 和 Germany (Japan) 的典型類型。如果 Morocco 採取高位壓迫並讓 Hakimi 前插，那麼埋伏在後方的 David 和 Oluwaseyi 將成為隨時會引爆的致命威脅。",
+            "signature_scene": "下半場約 65 分鐘：Hakimi（2 號）因位置過於靠前，Canada 的 Alphonso Davies（19 號）發動左路反擊，並將球傳給身後的 Jonathan David（10 號）突破 Diop 的防守——Canada 在不被看好的情況下追平或取得領先。但 Morocco 隨即做出回應：El Khannouss（23 號）在第 78 分鐘贏得第二落點，Brahim Díaz（10 號）隨即在禁區邊緣起腳弧線球破門，幫助客隊再次取得領先。",
+            "reasoning_md": "Morocco 小勝——在進攻三區擁有更高的技術水準（Díaz、Hakimi、El Khannouss）且陣容深度遠勝對手——但 Canada 主場的反擊威脅以及 Davies 的回歸，讓這場比賽維持在一球之差的緊張局面，而非一場輕鬆的散步。",
+            "script_md": "**整體分析：** 從帳面實力來看，Morocco 是較強的一方——指數為 1.54 對 0.94，擁有 15 名頂級聯賽球員對上 8 名，且具備 Brahim Díaz (xG90 0.41)、Hakimi 和 El Khannouss 等真正的球星素質。但他們的世足賽貢獻值（1.73）卻異常偏低；這是一支講求控制與伺機突擊的球隊，而非摧枯拉朽的進攻機器。Canada 並非任人宰割的魚腩——Larin、David、Oluwaseyi 以及回歸的 Alphonso Davies 在反擊中極具威脅，且他們進攻效率不俗（4.87）。\n\n**關鍵對位：** 比賽勝負取決於 Morocco 2 號 Hakimi (PSG) 與 Canada 左路的對抗。Hakimi 頻繁前插會留下身後空檔，而這正是 Davies (19 號) 和 Jonathan David (10 號) 最喜歡衝刺的區域。中場方面，Morocco 23 號 Bilal El Khannouss (VfB Stuttgart, Shots90 2.32) 與 10 號 Brahim Díaz 是球隊的創造核心；Canada 必須倚賴 Saliba 和 Eustáquio 進行防守屏障。Koné 因腳踝骨折缺陣，削弱了 Canada 中場的硬度。\n\n**比賽劇本：** Morocco 開賽後將掌握更多球權，透過 Díaz 和 Ounahi 進行試探。Canada 採取緊湊的 4-4-2 陣型，僅在轉換進攻時製造威脅——首個真正的得分機會可能來自 Morocco 的定位球或 Díaz 的個人突破。預計 Morocco 會在中場休息前或剛開賽後取得領先。Canada 隨後將加強火力，在 Davies 的帶動下，於 60 分鐘左右透過反擊扳平或反超比分——但 Morocco 更深厚的板凳深度與 Díaz 的關鍵時刻發揮將在比賽末段定勝負。\n\n**比分預測理由：** 1-2 的比分符合這場實力強勁的熱門球隊與危險的主場黑馬之間膠著的戰況——這是符合世足賽一球之差的現實預測，而非 Morocco 數據所無法支撐的大比分屠殺。\n\n**變數：** 若 Canada 先馳得點並迫使 Morocco 壓上進攻，Morocco 的高防線將被撕裂——David 和 Oluwaseyi 有望將比分改寫為 Canada 2-1 獲勝或 1-1 戰平。此外，Morocco 在 Hakimi 的防守失誤上毫無容錯空間。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "DRAW",
+            "selection_team": "和局",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.3,
+              "D": 0.4,
+              "A": 0.3
+            },
+            "confidence": 0.65,
+            "key_risk": "摩洛哥的Brahim Díaz個人能力超班，隨時可能靠一次靈光閃現改寫比分，而加拿大中後場回追速度偏慢。",
+            "second_score": "0-0",
+            "contrarian_md": "主流敘事會拿2022年摩洛哥2-1加拿大、以及摩洛哥陣容星光熠熠（Hakimi、Mazraoui、Bono、Díaz）說事，認定摩洛哥穩贏。但我不完全買賬：加拿大本屆世界盃每場預期貢獻高達4.87，是摩洛哥（1.73）的近三倍，說明加拿大創造絕對機會的能力遠比名氣強，只是把握率拖後腿；加上主場之利和Davies復出，摩洛哥若擺出無鋒陣很可能陷入得勢不得分的窘境，就像2022年德國輸日本、阿根廷輸沙烏地那樣，高控球無實質殺招，反被加拿大定位球或反擊咬一口。",
+            "signature_scene": "上半場第34分鐘，加拿大19號Alphonso Davies左路後插上，接8號Ismaël Koné的缺陣替代者25號Nathan Saliba的斜塞，低平球掃入禁區，10號Jonathan David前點巧妙一漏，後點12號Tani Oluwaseyi搶在摩洛哥2號Achraf Hakimi身前捅射破門，先拔頭籌。",
+            "reasoning_md": "加拿大主場氣勢加成，創造機會能力強，但摩洛哥防守體系成熟，大機率各取一分。",
+            "script_md": "① 整體判讀：摩洛哥陣容實力指數（1.54）和頂級聯賽深度（15人）明顯優於加拿大（0.94，8人），但加拿大的每場預期貢獻（4.87）遠高於摩洛哥（1.73），說明前者進攻端能頻繁打到威脅區域，只是臨門一腳欠佳；摩洛哥更依賴控球和個別球星靈光。② 關鍵對位：加拿大左路Alphonso Davies（19號，拜仁）復出對上摩洛哥右路Achraf Hakimi（2號，巴黎），兩人都有極強的往返能力，會互相牽制；中軸線Jonathan David（10號，尤文）對Issa Diop（14號，富勒姆）和Chadi Riad（18號，水晶宮），David的跑位和射門是加拿大最大的威脅點；摩洛哥進攻指望Brahim Díaz（10號，皇馬）的回撤串聯，但加拿大雙後腰Nathan Saliba（25號，安德萊赫特）和Stephen Eustáquio（7號，LAFC）會貼身絞殺。③ 比賽劇本：開場加拿大藉助主場氣勢猛衝，前15分鐘連續獲得角球和定位球機會，Oluwaseyi（12號）頭球偏出；20分鐘後摩洛哥穩住陣腳，透過Hakimi和Mazraoui的邊路插上控制節奏，但Bouaddi（6號）和El Aynaoui（24號）雙後腰創造力不足，只能靠Díaz遠射形成威脅；第34分鐘加拿大反擊，Davies套邊傳中，Oluwaseyi包抄得分，1-0；下半場摩洛哥加強逼搶，第67分鐘利用角球，Aguerd（5號）頭球被Crépeau（16號）撲出，但隨後二次進攻，Unahi（8號）禁區外遠射變線入網，1-1；此後雙方均無建樹，加拿大換Larin（9號）強攻，Bono（1號）神撲保平。④ 為什麼是這個比分：加拿大進攻能創造機會但效率不高，摩洛哥整體防守穩健且門將出眾，各進一球最符合雙方臨場機會轉化率，1-1是真實上限。⑤ 翻盤情況：若摩洛哥早早取得進球，加拿大被迫壓出，身後空檔會被Díaz和Hakimi的反擊打穿，可能出現0-2；若加拿大上半場搶到兩球領先，摩洛哥攻堅能力不足，可能爆冷輸球。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "HOME",
+            "selection_team": "加拿大",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.45,
+              "D": 0.3,
+              "A": 0.25
+            },
+            "confidence": 0.75,
+            "key_risk": "摩洛哥在中場的技術優勢完全切斷了 Canada 的控球權，不僅抵銷了他們的轉換進攻，更迫使他們退守至後場進行被動防守。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的論調是，Morocco 擁有的頂尖歐洲賽場資歷（Hakimi、Díaz、Mazraoui）將能輕易瓦解缺少了中場核心 Ismaël Koné 的 Canada。但我並不買帳。Morocco 預計的先發陣容缺乏一名真正的 9 號球員，完全依賴進攻中場來完成終結。更重要的是，Hakimi 和 Mazraoui 的踢法如同邊鋒，這在他們身後留下了巨大的防守空檔。Canada 的球隊建構完全是為了轉換進攻而生。正如 Morocco 在 2022 年透過穩守反擊、無情地打擊對手而震驚 Spain 一樣，Canada 在這裡也將對 Morocco 如法炮製，並在巨大的主場優勢以及高達 4.87 的預期貢獻率（expected contribution rate）加持下，完成同樣的壯舉。",
+            "signature_scene": "下半場中段，Morocco 的 2 號 Achraf Hakimi 位置壓得太過靠前。Canada 的 19 號 Alphonso Davies 攔截了一次傳球失誤，沿著左路長驅直入 40 碼推進至空檔，隨後送出一記完美的橫傳，助攻 10 號 Jonathan David 勁射破門。",
+            "reasoning_md": "加拿大強大的賽事氣勢與主場優勢，與他們擅長的轉換進攻風格完美契合，這將無情地暴露 Morocco 在邊後衛過於激進以及缺乏純粹前鋒方面的弱點。",
+            "script_md": "- **整體分析：** 從帳面數據來看，Morocco 擁有更優異的技術素質與陣容深度（進攻指數 1.54）。但 Canada 坐擁主場優勢，且正處於極其瘋狂的進攻狀態（場均預期貢獻值 4.87），其戰術佈局更是這支 Morocco 的天敵。\n- **關鍵對位：** Morocco 的邊後衛，No.2 Achraf Hakimi (Paris Saint-Germain) 與 No.3 Noussair Mazraoui (Manchester United FC) 雖屬頂尖，但以進攻侵略性強著稱。這正好落入 Canada 快腿球員的圈套。隨著 No.19 Alphonso Davies (FC Bayern München) 回歸，加上邊路的 No.17 Tajon Buchanan (Villarreal CF)，Canada 具備足夠的純粹速度來懲罰對手身後的空檔。另一方面，Morocco 的 No.10 Brahim Díaz (Real Madrid C. F.) 將考驗 Canada 的 No.15 Moïse Bombito (OGC Nice)，但由於缺乏正統前鋒作為目標，Morocco 的最後一傳將缺乏進攻支點。\n- **比賽劇本：** Morocco 將在開賽初期主導控球，透過 Díaz 與 No.8 Azzedine Ounahi (Girona FC) 進行試探。然而，由於先發陣容中缺乏傳統 9 號球員，他們的攻勢往往在禁區附近無疾而終。Canada 將採取紀律嚴明的半場防守（mid-block），承受壓力並發動致命反擊。預計 Canada 將透過快速轉換率先破門。Morocco 可能會憑藉 Díaz 的個人靈光一現或定位球扳平比分，但 Canada 不間斷的垂直進攻與主場球迷的吶喊，將推動他們在比賽尾聲攻入致勝球。\n- **比分預測理由：** 2-1 的 Canada 勝局反映了他們高強度的創造機會能力，以及 Morocco 在禁區內缺乏臨門一腳的致命性。Morocco 會因其純粹的實力取得進球，但 Canada 的戰術對位優勢將讓他們險勝。\n- **翻盤關鍵：** 若 Morocco 將邊後衛位置後撤，迫使 Canada 必須面對陣地戰，那麼 Canada 中場創造力的匱乏——特別是在 No.8 Ismaël Koné (US Sassuolo) 缺陣的情況下——將會暴露無遺，這將導致 Morocco 以 0-1 或 0-2 輕鬆取勝。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.28,
+              "D": 0.32,
+              "A": 0.4
+            },
+            "confidence": 0.65,
+            "key_risk": "Davies 復出狀態未知，若他左路上下往返開啟局面，加拿大可能搶到領先後擺大巴",
+            "second_score": "1-1",
+            "contrarian_md": "**主流敘事**：「摩洛哥 2022 四強、陣容深度碾壓（15人頂級聯賽 vs 加拿大 8人），Hakimi、Diaz、Mazraoui 都是豪門主力，這場穩贏。」\n\n**我不買賬**：2022 摩洛哥四強靠的是鐵桶防守+快速反擊，但這場他們是**被期待主導進攻的一方**。資料說了實話——摩洛哥本屆預期貢獻僅 1.73，遠低於紙面實力，進攻端除了 Diaz 和 El Aynaoui，其他人 xG90 慘淡或根本沒資料。加拿大雖然深度差，但 Larin xG90 0.42 跟 Diaz 幾乎同級，Davies 復出後的左路衝擊是 X-factor。2022 阿根廷輸沙烏地、德國輸日本，都是「豪門陣容 vs 被低估的跑動+反擊」——加拿大有 Davies+Larin+David 這套快打旋風的骨架。",
+            "signature_scene": "下半場第 68 分鐘，加拿大 9 號 Cyle Larin（Southampton）在禁區弧頂背身扛住 18 號 Chadi Riad（Crystal Palace），半轉身抽射遠角破門扳平 1-1，全場加拿大球迷起立——但這球會耗盡他們最後的體能，隨後摩洛哥 10 號 Brahim Diaz（Real Madrid）在 79 分鐘禁區邊緣個人秀鎖定勝局。",
+            "reasoning_md": "摩洛哥紙面強但進攻轉化差，加拿大深度不足但有 Davies 復出+雙前鋒衝擊，預期一場拉鋸戰，摩洛哥小勝或逼平。",
+            "script_md": "**① 整體判讀**：摩洛哥陣容攻擊指數 1.54 對加拿大 0.94，差距明顯，但本屆預期貢獻 1.73 對 4.87 完全倒掛——摩洛哥控球多但創造少，加拿大效率更高。這是「控球型強隊 vs 反擊型弱隊」的經典對位，但加拿大有主場優勢（2026 北美賽場）。\n\n**② 關鍵對位**：\n- **左路走廊**：加拿大 19 號 Alphonso Davies（Bayern）復出是最大變數，他 xG90 0.04 不高但預期助攻 0.14+關鍵傳球 1.60，代表他是發動機而非終結者。對位摩洛哥 2 號 Achraf Hakimi（PSG）——這是當世最強右邊衛對決，但 Hakimi 本屆要承擔更多進攻責任，身後空檔是加拿大 17 號 Tajon Buchanan（Villarreal，xG90 0.17+預期助攻 0.26）的獵場。\n- **中場硬度**：加拿大少了 8 號 Ismael Koné（Sassuolo，射門90 0.76）這個推進點，改由 25 號 Nathan Saliba（Anderlecht）搭檔 7 號 Stephen Eustáquio（LAFC），這組合歐洲經驗不足。摩洛哥 6 號 Ayyoub Bouaddi（Lille）+ 24 號 Neil El Aynaoui（Roma，xG90 0.15）技術壓制明顯，但 Bouaddi 本屆資料掛蛋，實際效果存疑。\n- **前鋒效率**：加拿大 9 號 Cyle Larin（Southampton，xG90 0.42）是純終結者，搭配 12 號 Tani Oluwaseyi（Villarreal）或 10 號 Jonathan David（Juventus）雙前鋒，目標就是搶第一點後快速二打一。摩洛哥 10 號 Brahim Diaz（Real Madrid，xG90 0.41+預期助攻 0.30）是唯一能穩定創造進攻的點，但他習慣在右肋活動，剛好撞上加拿大最強的 Davies-Buchanan 防區。\n\n**③ 比賽劇本**：\n- **早段（0-25分）**：摩洛哥控球 60%+，但 8 號 Azzedine Ounahi（Girona，xG90 0.07）和 23 號 Bilal El Khannouss（Stuttgart，射門90 2.32 但無 xG90）遠射多、滲透少。加拿大 5-4-1 低位防守，Davies 暫不壓上。\n- **中段（25-60分）**：摩洛哥 10 號 Diaz 開始回撤拿球，第 34 分鐘禁區邊緣直塞 11 號 Ismael Saibari（PSV）破門，1-0。加拿大被迫壓出，Davies 開始衝刺，但 25 號 Saliba 中場失誤險釀單刀。\n- **末段（60-90分）**：加拿大換上 14 號 Jacob Shaffelburg（LAFC）和 20 號 Ali Ahmed（Norwich）衝刺，第 68 分鐘 Larin 扳平。但摩洛哥 20 號 Ayoub El Kaabi（Olympiacos）替補上場增加支點，第 79 分鐘 Diaz 個人能力 1v2 破門，2-1。加拿大最後 10 分鐘長傳亂戰無果。\n\n**④ 為什麼是 1-2**：摩洛哥紙面優勢需要 Diaz 個人發揮才能轉化，加拿大防守紀律+主場氣氛能咬到一球，但深度不足（僅 8 人頂級聯賽資料）撐不住 90 分鐘高強度。兩隊都不是大比分球隊，3 球總和已算開放。\n\n**⑤ 翻盤情境**：若 Davies 狀態火熱、上半場就助攻 Larin 領先，加拿大可能 5-4-1 死守到底，摩洛哥破密集能力存疑，可能逼成 1-1 甚至加拿大偷第二球 2-1 爆冷——這需要 1 號 Maxime Crépeau（Orlando）門前神撲+摩洛哥前鋒繼續浪費機會。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.28,
+              "D": 0.32,
+              "A": 0.4
+            },
+            "confidence": 0.62,
+            "key_risk": "Alphonso Davies 回歸並在摩洛哥穩住陣腳前，於左路製造了混亂",
+            "second_score": "0-1",
+            "contrarian_md": "傳統觀點認為：摩洛哥擁有較高的陣容指數（1.54 對 0.94）、更深厚的頂級聯賽球員儲備（15 人對 8 人），以及像 Hakimi 和 Díaz 這樣的球星，這場比賽應是客隊輕鬆取勝。但我並不完全認同，因為加拿大在主場作戰且有 Davies 回歸，他們可以利用摩洛哥薄弱的中場中路（Bouaddi 與 El Aynaoui 的搭檔在此層級尚未經受考驗），並製造定位球混亂；2022 年的比賽顯示，當對手採取嚴密防守時，摩洛哥在攻守轉換時可能會顯得遲鈍。",
+            "signature_scene": "下半場第 62 分鐘：加拿大隊 19 號 Alphonso Davies (Bayern) 盤球突破 Mazraoui，吸引兩名防守球員後橫傳給 10 號 Jonathan David，後者以低射擊敗 Bono，將比分扳平為 1-1。",
+            "reasoning_md": "Morocco 在陣容實力和深度上的明顯優勢應能勝出，但主場優勢與 Davies 的回歸讓比賽保持懸念；1-2 是較為現實的賽果。",
+            "script_md": "摩洛哥在球員素質上擁有明顯優勢，陣中擁有 15 名頂級聯賽球員，進攻指數為 1.54，而加拿大僅有 8 名此類球員，進攻指數為 0.94。關鍵對位在於加拿大 19 號 Alphonso Davies（效力於 Bayern）對陣摩洛哥由 Mazraoui 與 Hakimi 組成的右路防線；若 Davies 保持健康，他將能拉開對手的防守陣型。比賽初期，摩洛哥憑藉 Díaz 與 El Khannouss 進行高位壓迫，但加拿大以 4-4-2 陣型嚴密防守並伺機反擊。比賽中段的轉折點在於定位球：摩洛哥 2 號 Hakimi 開出角球，由 5 號 Nayef Aguerd 頭槌破門，比分來到 0-1。比賽末段，加拿大發起反攻，在 Davies 長驅直入後由 David 扳平比分，但摩洛哥隨即發動反擊，由 10 號 Brahim Díaz 妙傳給 11 號 Ismael Saibari 攻入致勝球。最終比分定格在 1-2，因為雙方皆未能創造足夠的進攻威脅來取得更多進球。比賽結果翻盤的唯一可能，是 Koné 的缺陣導致加拿大中場完全失守，或是 Davies 的傷勢復發。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "摩洛哥",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.18,
+              "D": 0.22,
+              "A": 0.6
+            },
+            "confidence": 0.7,
+            "key_risk": "摩洛哥主力中後衛 Chadi Riad 帶傷先發，若比賽中段傷勢復發退場，面對加拿大反擊防線瞬間崩盤。",
+            "second_score": "1-2",
+            "contrarian_md": "主流名氣敘事會說：摩洛哥陣容深度(15/26人有頂級聯賽資料)和球員星度完全碾壓加拿大(僅8/26人)，加上加拿大中場大將 Ismaël Koné 腳踝骨折缺陣，中場失控，摩洛哥穩贏。但我偏不信這套「紙面實力=必勝」的鬼話。看資料：加拿大本屆每場預期貢獻高達 4.87，摩洛哥卻只有可憐的 1.73！這代表摩洛哥進攻端嚴重當機，空有皇馬的 Brahim Díaz 卻化不成進球。世界盃冷門史還少嗎？2022 德國就是看資料以為穩贏日本，結果被反擊打穿。加拿大有 Davies 拉邊、Larin 支點，如果摩洛哥久攻不下被加拿大抓反擊，這場絕對有爆冷空間。",
+            "signature_scene": "下半場第68分鐘，摩洛哥2號 Hakimi 右路強壓加拿大防線，與10號 Brahim Díaz 踢牆配合後下底傳中，11號 Ismael Saibari 禁區中央搶點破門，徹底殺死比賽懸念。",
+            "reasoning_md": "摩洛哥贏。加拿大中場核心 Koné 報銷、Davies 剛傷癒，中場失控；摩洛哥雖進攻效率低，但整體實力與深度優勢太大，靠陣地戰磨也能磨垮加拿大。",
+            "script_md": "### 整體判讀\n摩洛哥整體實力明顯佔優，陣容深度(15/26人有頂級聯賽數賽資料)遠勝加拿大(8/26人)。加拿大中場大將8號 Ismaël Koné（US Sassuolo）腳踝骨折缺陣，中場硬度直接降級；左後衛19號 Alphonso Davies（FC Bayern München）剛傷）剛傷癒，狀態未知。摩洛哥雖然本屆進攻效率不佳(每場預期貢獻僅1.73)，但防守體系完整，靠陣地戰壓制就能贏。\n\n### 關鍵對位\n加拿大鋒線9號 Cyle Larin（Southampton FC，xG90 0.42）是唯一威脅，但摩洛哥中衛18號 Chadi Riad（Crystal Palace FC）若健康先發，加上14號 Issa Diop（Fulham FC）協防，能鎖死。摩洛哥右路2號 Achraf Hakimi（Paris Saint-Germain，預期助攻90 0.26）強壓加拿大左路，是最大突破口。\n\n### 比賽劇本\n- **早段(0-20分)**：摩洛哥控球壓制，加拿大收縮防守反擊。Larin 兩次反擊射偏。\n- **中段(20-60分)**：摩洛哥圍攻但效率低，Díaz 兩次禁區邊緘射門被門將16號 Maxime Crépeau（Orlando City SC）撲出。加拿大體力下滑。\n- **末段(60-90分)**：摩洛哥換人加壓，Hakimi 右路傳中製造混亂，Rahimi 或 El Kaabi 破門。加拿大全線壓上，被摩洛哥反擊再進一球。\n\n### 為什麼是這個比分\n0-2 最合理：摩洛哥進攻效率不高，但加拿大中場失控、體力下滑後防線必崩。摩洛哥靠圍攻和反擊各進一球，加拿大全場 xG 不到0.8，難以破蛋。\n\n### 什麼情況會翻盤\n如果摩洛哥18號 Chadi Riad 帶傷先發又傷退，加拿大9號 Larin 抓住中衛空檔反擊進球，加上19號 Davies 超水準發揮邊路突破，加拿大有機會逼和甚至1-0爆冷。但機率不高，因為加拿大中場缺了 Koné 真的組織不起來。"
+          }
+        ]
+      },
       "correct": null
     },
     {
       "match_id": "54328017",
-      "home": "第2場1/16決賽勝者",
-      "away": "第5場1/16決賽勝者",
+      "home": "巴拉圭",
+      "away": "法國",
       "kickoff_tw": "2026-07-05 05:00",
       "stage": "1/8決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "法國",
+        "win_prob": 0.653,
+        "agree": "7/7 models",
+        "predicted_score": "0-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.12,
+              "D": 0.23,
+              "A": 0.65
+            },
+            "confidence": 0.66,
+            "key_risk": "法國隊的中場傷病問題（**Tchouaméni** 缺陣、**Kanté** 上陣成疑）削弱了球隊的控制力，使比賽演變成混亂的攻守轉換戰，這讓 Paraguay 有機會偷襲得手並死守戰果。",
+            "second_score": "1-2",
+            "contrarian_md": "顯而易見的劇本：法國隊輕鬆過關——Mbappé 加上豪華的前鋒線壓垮 Paraguay，故事結束。為什麼我不完全相信這種「安全」的觀點：法國隊缺少了他們的穩定器 (Tchouaméni)，甚至可能還有 Kanté，這會讓即使是實力較強的球隊在中場顯得草率，並容易受到反擊和定位球的威脅；這正是世界盃爆冷門的溫床（想想 2022 年 Argentina 對陣 Saudi Arabia 的比賽——紙面上佔盡優勢，卻在關鍵時刻受到懲罰）。如果 Paraguay 的 19 號 Enciso (RC Strasbourg) 獲得射門空間，而 10 號 Almirón 能對著輪換的中場發起衝擊，這場比賽可能會變成一場難看的 1-1 苦戰，而不是一場表演賽。",
+            "signature_scene": "下半場（62’）：法國隊在前場成功斷球，7號 Dembélé (PSG) 帶球內切並妙傳給右路的11號 Olise (Bayern)；Olise 第一時間橫傳回中路，由10號 Mbappé (Real Madrid) 推射破門——在 Paraguay 的防線終於崩潰後，這是一次經典的兩腳觸球絕殺。",
+            "reasoning_md": "法國隊獲勝的原因在於他們的創造機會能力與陣容深度遙遙領先，而 Paraguay 的進攻數據（0.59 預期貢獻值）根本不足以支撐對攻戰——特別是如果 Alderete 無法上場，導致後防線被壓制的情況下。",
+            "script_md": "法國隊在純進攻產出上處於完全不同的層級（預期貢獻值 2.86 對比 0.59），即便少了 9 號 Thuram 和 8 號 Tchouaméni，客隊依然擁有眾多頂尖的機會創造者（7 號 Dembélé、11 號 Olise、12 號 Barcola）來為 10 號 Mbappé 輸送彈藥。\n\nParaguay 的策略很明確：退守、贏下對抗，並透過 19 號 Julio Enciso (RC Strasbourg) 和 10 號 Miguel Almirón (Atlanta United) 發動反擊，寄望 17 號門將 Orlando Gill (CA San Lorenzo) 能有神勇表現，並依靠 15 號 Gustavo Gómez (SE Palmeiras) 的定位球來解圍。但如果 3 號 Omar Alderete (Sunderland) 無法先發，這意味著面對不斷輪轉的鋒線時，他們將少了一名防線指揮官。\n\n比賽初期，Paraguay 會保持陣型緊湊並試圖誘敵深入；你會看到這支弱旅表現最好的時刻，往往來自一次犀利的推進——Enciso 的遠射，或是 Almirón 傳出穿越球。問題在於，即便沒有「完美」的中場控制，法國隊依然能創造機會：2 號 Malo Gusto 和 3 號 Lucas Digne 都能提供支援，而邊鋒即便面對低位防守也能製造射門。\n\n法國隊會先馳得點，隨後比賽將陷入混亂——比起精妙的中路配合，這更有可能來自邊路的超載進攻。一旦法國隊領先，Paraguay 就必須稍微拉開陣型，這正是法國隊攻入第二球的時機：透過轉換進攻或倒三角回傳破門，而非圍攻。\n\n為何預測比分為 0-2：Paraguay 缺乏足夠的持續性預期進球（xG）來穩定得分，而法國隊的防線（Upamecano/Saliba/Koundé 等級）足以應付低頻率的反擊戰。可能翻盤的變數：法國隊中場傷病帶來的後遺症導致頻繁失誤，加上 Paraguay 透過一次定位球機會（Gómez/Balbuena/G. Gómez）將比分扳成 1-1，進而導致比賽末段陷入緊張局面。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.14,
+              "D": 0.24,
+              "A": 0.62
+            },
+            "confidence": 0.6,
+            "key_risk": "法國隊缺少了 Thuram 和 Tchouaméni，導致中軸線受到影響，而 Paraguay 則採取「擺大巴」戰術，靠著 Enciso 的一次閃光偷得一場平局。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為：法國的進攻指數（2.98 對 1.59）是巴拉圭的兩倍，且陣中擁有 Mbappé、Olise、Dembélé，還有 25/26 的球員效力於頂級聯賽——這應該是一場 3-0 的例行公事。但我並不完全買單這種大勝論。法國隊缺少了兩名狀態最好的終結者：Thuram（每 90 分鐘 0.51 xG）以及若未先發的 Mateta，再加上中場少了 Tchouaméni——這在面對一支擅長深度防守並伺機反擊的巴拉圭隊時，防守破壞者的角色出現了真正的空缺。巴拉圭的後防線經過 CONMEBOL（南美足協）賽事的磨練（G. Gómez、Alonso、Canale 皆效力於巴西頂級聯賽），而這正是最讓法國隊頭痛的類型——別忘了 2022 年法國隊踢得相當掙扎，以及阿根廷在眾人以為勝券在握時輸給沙烏地阿拉伯的例子。Enciso（每 90 分鐘 5.29 次射門、0.45 xAG）是一位真正的比賽終結者，隨時能創造關鍵時刻。因此，我預測法國會贏，但我堅決不認同會有 3 球差距的大勝。",
+            "signature_scene": "下半場約 70 分鐘：法國隊 11 號 Olise 傳出一記精準的過頂球給 10 號 Mbappé，隨後由 12 號 Barcola 接應倒三角回傳破門，在 Paraguay 體力下滑、防線終於崩潰之際，這顆進球徹底終結了比賽懸念。另外值得關注的是，上半場補時階段，Paraguay 19 號 Enciso (RC Strasbourg) 發動反擊，迫使 Maignan 做出一次精彩撲救。",
+            "reasoning_md": "法國隊獲勝——即便少了 Thuram 和 Tchouaméni，天賦差距依然過於懸殊——但 Paraguay 陣型深陷且身體對抗強悍的後防線，加上 Enciso 的反擊威脅，讓比賽維持在受控的 2-0，而非一場大屠殺。",
+            "script_md": "**整體分析：** 法國隊在進攻三區的實力與板凳深度皆大幅領先，但傷病問題（Thuram、Tchouaméni 缺陣，Kanté 上陣成疑）削弱了他們最銳利的終結者與中場核心。巴拉圭則是典型的「深度防守反擊」球隊，擁有強悍的南美洲（CONMEBOL）中軸線，以及前場的一名關鍵靈魂人物。\n\n**關鍵對位：** 巴拉圭的 15 號 Gustavo Gómez (SE Palmeiras) 與 6 號 Júnior Alonso (Atlético Mineiro) 將構築兩道防線，試圖在攻守轉換時封鎖 Mbappé 與 Barcola。法國隊的威脅來自 11 號 Olise 與 7 號 Dembélé 的創造力（兩人場均關鍵傳球皆超過 2.5 次），為 Mbappé 製造機會。巴拉圭爆冷的希望全繫於 19 號 Julio Enciso (RC Strasbourg) —— 場均 5.29 次射門、0.45 次預期助攻（xAG）—— 以及 10 號 Miguel Almirón (Atlanta United) 發動的反擊；若 Alderete 缺陣，他們從後場組織進攻的能力將變得更加不穩。\n\n**比賽劇本：** 預計巴拉圭從開賽起就會採取深度防守，法國隊將掌控控球權，但初期難以取得進球。上半場節奏可能較為謹慎，或許以 0:0 收場，或是法國隊靠定位球或 Dembélé/Olise 的連線取得一球領先。巴拉圭會展現一次反擊（由 Enciso 發動）來提醒對手。下半場隨著法國隊換上生力軍，實力差距將顯現，防線潰堤——大約在 60 分鐘左右取得進球，隨後在對手體力下滑時，透過倒三角回傳再下一城。\n\n**為何預測此比分：** 0:2 符合法國隊在面對組織嚴密的低位防守時的勝出模式，且考量到缺少兩名頂尖終結者，比分不會過於誇張——這是世界盃中常見且務實的勝分差。若 Enciso 能靈光一現，而法國隊拼湊的中軸線出現失誤，1:1 是另一種可能的賽況。\n\n**變數：** 若 Enciso 或 Almirón 率先進球，迫使法國隊必須壓上進攻，導致 Maignan 的防線在反擊中暴露空檔，巴拉圭便能透過「擺大巴」守住 1:0 或 1:1 的爆冷戰果。這條爆冷路徑並非空想，考慮到法國隊目前的缺陣名單，這是有可能發生的。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.25,
+              "A": 0.65
+            },
+            "confidence": 0.65,
+            "key_risk": "法國中前場兩大主力Thuram和Tchouaméni同時缺陣，Kanté帶傷狀態不明，絕對控制力打折，巴拉圭擺鐵桶陣偷襲效率若高，可能偷走1分。",
+            "second_score": "0-1",
+            "contrarian_md": "主流盯著法國身價和名氣，覺得隨便踢都能碾壓巴拉圭。我可不這麼看。2022阿根廷輸沙特、2018德國輸韓國，哪次不是巨星壓陣翻車？法國沒了Tchouaméni，中場掃蕩立刻降級，Rabiot搭檔隨時可能受傷的Kanté或者稚嫩的Zaïre-Emery，攔截能力一打對摺。鋒線上Thuram傷缺，Mbappé頂中鋒向來彆扭，他最舒服的位置是左路，硬塞中路只會擠佔內切空間。巴拉圭有19號Enciso（RC Strasbourg），他就在法甲混，對法國後衛的節奏心裡有譜，加上10號Almirón（Atlanta United FC）的突擊，一旦法國邊衛Digne、Koundé壓上回不來，反擊一打一個準。這場絕不是3-0、4-0的劇本。",
+            "signature_scene": "上半場巴拉圭死守出奇效，第38分鐘，法國角球被頂出，巴拉圭19號Enciso（RC Strasbourg）中圈接球轉身直接抽射，皮球擦著立柱飛出嚇出Maignan一身冷汗。下半場法國調整後，第67分鐘7號Dembélé（Paris Saint-Germain）右路連續晃動送出低平傳中，10號Mbappé（Real Madrid）前點搶射打破僵局，最後時刻巴拉圭搏命，第88分鐘利用定位球由15號Gustavo Gómez（SE Palmeiras）頭球扳回一球，但法國仍守住了勝利。",
+            "reasoning_md": "法國傷病滿營但仍靠明星靈光一閃過關，巴拉圭防守紀律嚴明但終有縫隙，看好法國2-1險勝，防平局。",
+            "script_md": "**① 整體判讀**  \n法國攻擊實力指數2.98對1.59是明牌差距，但不要被數字騙了——法國缺了Thuram（支點中鋒）和Tchouaméni（中場大閘），Kanté還能跑多少分鐘是問號，整套中軸線硬度打折。巴拉圭會從第一分鐘就擺出5後衛深度防守，紀律性極高，反擊只靠Almirón和Enciso的速度。法國想靠傳球滲透很難，最後還得靠定位球或個人爆發。\n\n**② 關鍵對位**  \n法國後防要小心巴拉圭19號Enciso（RC Strasbourg），這小子射門慾望極強（射門90高達5.29），在法甲踢球熟悉Saliba和Upamecano的轉身習慣。巴拉圭右路10號Almirón（Atlanta United FC）會對上法國左後衛Digne，Digne助攻後身後空當是巴拉圭反擊走廊。法國這邊，10號Mbappé（Real Madrid）踢中鋒會吸引兩人包夾，為後插上的14號Rabiot（AC Milan）或11號Olise（FC Bayern München）製造遠射機會。\n\n**③ 比賽劇本**  \n- 0-30分鐘：法國控球率超65%，但巴拉圭11人全縮在30米區域，姆巴佩陷入重圍，Dembélé邊路起球找不到高點，法國前半小時悶死。\n- 30-45分鐘：巴拉圭第一次清晰反擊，Almirón右路衝刺傳中，Enciso後點搶射被Maignan神撲，這是巴拉圭全場最佳的偷雞機會。半場0-0。\n- 55-70分鐘：法國持續施壓後終於破局，一次角球混戰中被解圍，Olise禁區外發炮被擋，Dembélé機敏補射或者造成門將脫手後姆巴佩跟進吃餅，1-0。\n- 75-90分鐘：法國開始控制節奏，巴拉圭換上前鋒9號Sanabria（US Cremonese）搏命，陣型前壓，法國反擊機會增多但浪費兩個單刀。終場前巴拉圭利用法國鬆懈，角球中後衛15號Gustavo Gómez（SE Palmeiras）頭球破門追成1-2，但時間所剩無幾。\n\n**④ 為什麼是1-2**  \n世界盃絕大部分比賽就是1球差，這個比分最真實。法國能進兩球不是靠碾壓，是靠定位球或對手體能極限時的瞬間質量。巴拉圭能進一球是因為法國後防從來不是鐵板一塊，且最後時段注意力下降。3-0在缺兵少將+對手死守下太奢侈，1-1則需要法國徹底啞火，機率有但沒到主選。\n\n**⑤ 什麼情況會翻盤**  \n如果法國上半場過早丟球（比如Enciso反擊偷一個），比賽會進入地獄模式。巴拉圭會全員堵槍眼，門將Gill再開點掛，法國情緒一急更容易被再打一個。另外裁判尺度若寬鬆，巴拉圭的南美式小動作可能拆解法國節奏，那不是沒可能悶平或0-1屈辱。複製德國輸韓國的味道，就在這裡。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.18,
+              "A": 0.72
+            },
+            "confidence": 0.85,
+            "key_risk": "法國隊殘缺的中場無法控制攻守轉換，讓 Paraguay 在開賽不久便透過反擊取得進球，隨後擺出「鐵桶陣」死守。",
+            "second_score": "1-2",
+            "contrarian_md": "最顯而易見的劇本是法國隊的輾壓——Mbappé 和 Dembélé 在一支僅有 6 名頂級聯賽球員的南美球隊面前大殺四方。但我並不認為會出現 4-0 的大勝。為什麼？看看法國隊的中場核心。Tchouaméni 缺陣，Kanté 上陣成疑。你突然得依賴 Rabiot 搭配像 Zaïre-Emery 或 Koné 這樣缺乏經驗的年輕小將來坐鎮中場。當一支奪冠大熱門失去了防守中場的屏障時，爆冷就會發生（想想 2022 年的 Argentina 對陣 Saudi Arabia）。Paraguay 的進攻核心完全建立在透過 10 號 Miguel Almirón 和 19 號 Julio Enciso 進行混亂且高速的轉換進攻上。如果法國隊將邊後衛推得太靠前並發生失誤，那條臨時拼湊的中場線將在幾秒鐘內被對手直接穿透。",
+            "signature_scene": "下半場中段，法國隊的一次進攻無功而返，19號 Julio Enciso (RC Strasbourg) 截獲了這顆鬆散的球。他帶球長驅直入 40 碼，直接穿透了法國隊空虛的中場，迫使 Dayot Upamecano 在禁區外不得不採取戰術犯規，領到一張黃牌，以阻止他與 Maignan 形成 1 對 1 的局面。",
+            "reasoning_md": "法國隊純粹的進攻天賦終將壓垮缺少了陣中最佳旅歐中後衛的 Paraguay 防線，但法國隊殘缺的中場陣容將使比分維持在合理的範圍內。",
+            "script_md": "法國帶著 2.98 的恐怖進攻指數進入這場比賽，但真正的焦點在於中場。隨著 Tchouaméni 缺陣且 Kanté 有傷在身，Les Bleus 失去了他們的防守安全網。與此同時，Paraguay 是一支典型的南美硬派球隊，但他們因主力後衛、背號 3 號的 Omar Alderete (Sunderland) 極可能缺席而受到嚴重削弱。\n\n邊路的對決將決定這場比賽的勝負。法國會將球權導向 Ousmane Dembélé 和 Michael Olise，讓他們與 Paraguay 的背號 6 號 Júnior Alonso (Atlético Mineiro) 以及背號 4 號 Juan José Cáceres (FC Dynamo Moscow) 進行一對一。這是一場殘酷的實力懸殊對決。預計法國將在開賽初期掌控球權，試探 Paraguay 的深度低位防守。Paraguay 甚至不會假裝想要控球；他們將採取 5-4-1 陣型，等待時機發動反擊，由背號 10 號 Miguel Almirón (Atlanta United) 和背號 19 號 Julio Enciso (RC Strasbourg) 衝鋒陷陣。\n\n法國應該會在上半場末段打破僵局，這並非透過複雜的中場組織，而是來自邊路球員的個人閃光時刻——很可能是 Dembélé 或 Barcola 的回傳球找到 Mbappé。一旦 Paraguay 在下半場被迫壓出，空間就會隨之打開。然而，法國臨時拼湊的中場看起來會顯得脫節，這將給予 Paraguay 幾次驚心動魄的反擊機會，讓比賽保持緊張感。\n\n我預測比分為 0-2。法國的火力過於強大，Paraguay 殘缺的後防線難以支撐 90 分鐘，但法國中場缺乏凝聚力也阻止了他們大獲全勝。這場比賽唯一可能爆冷踢成 1-1 平局的情況是：Enciso 在開賽初期抓到 Rabiot 控球時的鬆懈，完成一次偷襲得分，隨後法國在面對 10 人防守鐵桶陣時陷入慌亂。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.12,
+              "D": 0.22,
+              "A": 0.66
+            },
+            "confidence": 0.75,
+            "key_risk": "Mbappé狀態低迷+法國中場缺Tchouaméni和Kanté，Rabiot配輪換中場的硬度和節奏控制可能讓巴拉圭10號Almirón（Atlanta United FC）和19號Enciso（RC Strasbourg）有反擊空間",
+            "second_score": "0-2",
+            "contrarian_md": "主流敘事：「法國天賦碾壓，南美二線球隊撐不過60分鐘」。這套敘事忽略了：① 法國本屆世界盃至今預期貢獻2.86雖高，但Thuram和Tchouaméni同時缺陣，進攻支點和中場屏障全沒；② 巴拉圭預期貢獻0.59是低，但他們有Enciso（RC Strasbourg）這個在法甲踢球的「內奸」，熟悉法國球員習性；③ 2018年德國0-2南韓、2022年阿根廷1-2沙烏地，都是「天賦碾壓論」翻車的標本——強隊中場缺人、邊後衛壓上後被反擊打穿。法國左邊Digne（Aston Villa FC）攻強守弱，Koundé（FC Barcelona）代打右邊也不是正牌邊衛，這兩條邊就是留給Almirón和Sosa（SE Palmeiras）的跑道。",
+            "signature_scene": "下半場65分鐘，法國2-1領先後想收，Rabiot（AC Milan）單後腰位置被斷球，巴拉圭10號Almirón（Atlanta United FC）直塞19號Enciso（RC Strasbourg），Enciso晃過Saliba（Arsenal FC）後低射遠角——Maignan（AC Milan）撲出，但法國這一下嚇出冷汗，隨後換上Konaté（Liverpool FC）改三後衛死守，比賽最後25分鐘變成圍攻鐵桶。",
+            "reasoning_md": "法國贏，但只贏一球。天賦差距真實存在，但中場缺人讓他們無法碾壓，Mbappé本屆狀態存疑，最後靠Olise或Dembélé個人能力破局，2-1或0-2是務實區間。",
+            "script_md": "① **整體判讀**：法國攻擊實力指數2.98 vs 巴拉圭1.59，紙面差距巨大。但法國缺Thuram（進攻支點）、Tchouaméni（節奏器）、Kanté（存疑），中場只剩Rabiot（AC Milan）一個正選級，這是硬傷。巴拉圭深度慘淡（6/26頂級聯賽），但主力三條線都有南美頂級聯賽或美職聯骨幹，身體對抗和奔跑不會垮。\n\n② **關鍵對位**：法國左邊Digne（Aston Villa FC）攻強守弱，對位巴拉圭7號Sosa（SE Palmeiras）這個Palmeiras邊翼衛，Sosa的衝擊力+Digne的身後空檔=法國最大隱患。法國右邊Koundé（FC Barcelona）代打，面對10號Almirón（Atlanta United FC）的內切和19號Enciso（RC Strasbourg）的穿插，速度不吃虧但位置感非專長。巴拉圭中場8號D. Gómez（Brighton & Hove Albion FC）是少數頂級聯賽球員，他的覆蓋面能幫Cubas（Vancouver Whitecaps FC）補位，讓Almirón和Enciso專心反擊。\n\n③ **比賽劇本**：開場法國控球六四開，但Rabiot配輪換中場的傳導缺乏縱深，Mbappé（Real Madrid C. F.）本屆射門轉化率存疑，前30分鐘圍攻無果。35分鐘前後，法國右邊Olise（FC Bayern München）或Dembélé（Paris Saint-Germain）個人能力破局，1-0。下半場巴拉圭押上，60-70分鐘利用定位球或反擊扳平（Enciso或Sanabria替補出擊）。法國75分鐘後換上Mateta（Crystal Palace FC）或Barcola（Paris Saint-Germain）衝刺，最後10分鐘再進一球鎖定，2-1。若Mbappé持續低迷，可能變成0-2（Olise+Dembélé各一）。\n\n④ **為什麼是這個比分**：世界盃小組賽第二輪，法國需要贏但不需要大勝，領先後會收；巴拉圭主場氛圍+身體對抗能咬到最後，不會被血洗。大勝（3球+）需要中場完全壓制+前鋒狀態火熱，法國兩項都不具備。\n\n⑤ **翻盤情境**：若Mbappé上半場浪費兩次絕佳機會+巴拉圭Enciso反擊偷一個，法國心態急躁，Rabiot單後腰被針對打穿，可能1-1或1-2爆冷。歷史參照：2022阿根廷1-2沙烏地，強隊中場缺人、邊後衛壓上、前鋒狀態差，三項全中。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.18,
+              "D": 0.25,
+              "A": 0.57
+            },
+            "confidence": 0.68,
+            "key_risk": "Mbappé 與 Olise 在 Paraguay 穩住陣腳前，聯手發動了兩次快速反擊",
+            "second_score": "0-1",
+            "contrarian_md": "傳統觀點認為：儘管有兩名球員受傷，法國隊仍憑藉 Mbappé、Dembélé 和 Olise 的強大火力橫掃對手。但我並不完全買單，因為 Thuram 和 Tchouaméni 的缺陣削弱了球隊的壓迫強度，而巴拉圭緊湊的防守陣型（14 號 Cubas + 8 號 D. Gómez）可能會迫使法國隊只能進行低成功率的遠射；2018 年德國對陣韓國的比賽就完美展示了，一支防守嚴密、組織有序的球隊，是如何懲罰那些缺少關鍵串聯球員的奪冠熱門。",
+            "signature_scene": "下半場第 65 分鐘：巴拉圭 19 號 Julio Enciso (RC Strasbourg) 接獲 10 號 Almirón 的快攻傳球，內切晃過 Saliba 後起腳低射，球穿過 Maignan 破門，比分來到 1-1，隨後法國隊發動反擊回應。",
+            "reasoning_md": "法國隊仍擁有遠勝對手的陣容深度與進攻指數（2.98 對 1.59），因此他們會獲勝，但兩名關鍵球員的傷病以及 Paraguay 的主場組織能力，使比分差距維持在一球，而非一場大勝。",
+            "script_md": "法國隊從開賽哨響後便主導了控球權與場上區域，但由於缺乏 Thuram 的持球支點作用以及 Tchouaméni 的中場屏障，Paraguay 得以保持陣型緊湊，冷靜化解壓力。Paraguay 的 19 號 Enciso 與 17 號 Kaku 在上半場透過反擊製造了唯一真正的威脅，並迫使對手送出兩次角球，但皆無功而返。下半場開始後，法國隊換上 Olise 與 Dembélé 增加進攻的直接性；僵局在 Olise 妙傳給身後的 Barcola 後被打破，法國隊取得 0-1 領先。Paraguay 隨後壓上進攻，並由 Enciso 在反擊中扳回一城，但法國隊憑藉板凳深度（Mateta、Doué）在比賽末段重新掌控局面，最終由 Mateta 在一次定位球混戰中補射攻入致勝球。1-2 的比分反映出法國隊在實力上的明顯優勢，但因人員缺陣而受到抵銷，同時也體現了 Paraguay 有組織的頑強抵抗；除非出現早期的紅牌或 Mbappé 上演帽子戲法，否則比分差距很難進一步拉大。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "法國",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.2,
+              "A": 0.7
+            },
+            "confidence": 0.75,
+            "key_risk": "巴拉圭放低姿態擺鐵桶陣，靠19號 Enciso（RC Strasbourg）的靈光一閃偷反擊得手，把法國拖入陣地戰泥沼。",
+            "second_score": "0-1",
+            "contrarian_md": "主流名氣看這場：法國陣容豪華、攻擊指數2.98碾壓巴拉圭的1.59，加上姆巴佩領巴佩領銜，隨便打都贏兩球起跳。我不完全信的點：法國中場傷了Tchouaméni、Kanté也存疑，中場硬度驟降；世界盃小組賽強隊翻車往往就藏在「大家都覺得穩」的輕敵裡（2022阿根廷輸沙烏地、德國輸日本）。如果法國中場攔截不力，被巴拉圭用犯規戰術切碎節奏，這場完全可能變成1球差的窒息戰。",
+            "signature_scene": "下半場60分鐘左右，法國11號 Olise（FC Bayern München）在右肋部拿球，吸引兩名防守後送出直塞，7號 Dembélé（Paris Saint-Germain）斜插禁區右側小角度爆射近柱破網，打破僵局。",
+            "reasoning_md": "法國贏，但贏得不輕鬆。法國中場傷病讓控制力下降，但前鋒線個人能力太強，巴拉圭後防主力缺陣擋不住整場高壓，終將失守。",
+            "script_md": "### 整體判讀\n法國整體實力明顯佔優，攻擊指數2.98 vs 巴拉圭1.59，深度更是25/26人有頂級聯賽資料的碾壓級。但法國中場傷了8號 Tchouaméni（Real Madrid C. F.）和可能缺陣的13號 Kanté（Fenerbahçe SK），中場硬度打折；巴拉圭本屆每場預期貢獻只有0.59，進攻火力有限，但後防有15號 Gustavo Gómez（SE Palmeiras）坐鎮，不是軟柿子。\n\n### 關鍵對位\n- 法國10號 Mbappé（Real Madrid C. F.，射門90 5.06）對巴拉圭4號 Juan José Cáceres（FC Dynamo Moscow）——速度碾壓，但巴拉圭會用犯規戰術延緩。\n- 法國11號 Olise（FC Bayern München，xG90 0.40 / 預期助攻90 0.37）對巴拉圭中場14號 Andrés Cubas（Vancouver Whitecaps FC）——Olise的創造力是破密集的鑰匙。\n- 巴拉圭19號 Julio Enciso（RC Strasbourg，xG90 0.33 / 關鍵傳球90 1.70）反擊威脅——他是巴拉圭唯一能製造驚嚇的人。\n- 巴拉圭後防主力3號 Omar Alderete（Sunderland AFC）膝傷可能缺陣，替補上來的13號 José Canale（CA Lanús）面對法國鋒線會是明顯弱點。\n\n### 比賽劇本\n- **早段（0-25分鐘）**：法國控球70%以上，但巴拉圭退守半場，禁區內擠了8-9人。法國幾次遠射無功而返，姆巴佩被犯規2-3次，節奏被切碎。\n- **中段（25-60分鐘）**：法國加強兩翼轉移，Dembélé和Barcola輪番衝擊巴拉圭替補右後衛區域。巴拉圭靠19號 Enciso零星反擊製造角球，但威脅不大。法國中場因傷病輪換，傳球失誤開始變多。\n- **末段（60-90分鐘）**：法國換上9號 Mateta（Crystal Palace FC，xG90 0.48）增加禁區高度，Olise在肋部找到縫隙送出關鍵傳球，Dembélé或Mbappé破門。巴拉圭被迫壓上，法國再抓反擊空間鎖定勝局。\n\n### 為什麼是0-2\n法國前鋒線個人能力太強，巴拉圭密集防守能撐60分鐘但撐不到90分鐘。一旦第一球進了，巴拉圭必須壓上，第二球就是反擊空間的必然結果。不開3-0是因為法國中場傷病讓控制力下降，不會出現完全碾壓的局面。\n\n### 什麼情況會翻盤\n如果巴拉圭前30分鐘靠19號 Enciso偷到一個反擊進球，法國急躁壓上，中場失誤被19號 Enciso或10號 Almirón（Atlanta United FC）再抓一次——這場就會變成1-1甚至2-1巴拉圭贏的冷門。法國中場傷病是最大變數。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -6975,7 +7243,141 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "第6場1/16決賽勝者",
+        "win_prob": 0.453,
+        "agree": "6/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.31,
+              "D": 0.25,
+              "A": 0.44
+            },
+            "confidence": 0.58,
+            "key_risk": "挪威的後防線（Ajer/Østigård/Wolfe）在面對巴西邊鋒時陷入 1 對 1 的孤立狀態——如果 7 號 Vinícius Júnior 和 11 號 Raphinha 在有空間的情況下發起衝擊，挪威可能會先失球並陷入苦苦追趕的局面。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的劇本是：*巴西坐鎮主場，實力過於強大，Norway 會被震懾住，只能撿對手的殘羹剩飯。*\n\n我並不完全買單，因為數據顯示 Norway 在此處的創造機會能力完全是另一個檔次（預期貢獻值 3.59 對比 Brazil 的 1.08），而且這不僅僅是「靠 Haaland 碰運氣」——他們擁有數名高 xG（預期進球值）的終結者（9 號 Haaland、7 號 Sørloth、11 號 Strand Larsen），外加 22 號 Oscar Bobb 和 10 號 Ødegaard 這兩大真正的進攻樞紐。這正是世界盃上那種「名氣大的一方看似穩贏」，卻最終翻船的典型比賽——試想 2022 年 Argentina 對陣 Saudi Arabia 的情況：只要對手先給予重重一擊，奪冠熱門就會在接下來的 70 分鐘裡陷入急躁強攻的泥淖。",
+            "signature_scene": "下半場第 63 分鐘：Norway 在持續施壓後贏得角球；10 號 Ødegaard (Arsenal) 將球開向十二碼點，9 號 Haaland (Man City) 卡住 4 號 Marquinhos 並強勢頭槌破門——Norway 以 1-2 超前，Brazil 開始頻頻從刁鑽角度強行射門。",
+            "reasoning_md": "挪威以 2-1 勝出：他們在前場擁有更穩定、可複製的 xG（預期進球）來源，而巴西的進攻模式看起來更依賴邊路球員，且整體的預期產出較低。",
+            "script_md": "### 整體分析\nBrazil 擁有華麗的球風與控球權，但 Norway 擁有更強大的重砲火力。客隊的進攻並非單一維度：9 號 Haaland (Manchester City) 是重錘，而 7 號 Sørloth (Atlético) 與 11 號 Strand Larsen (Crystal Palace) 則提供了第二與第三種進球途徑，這在小組賽中至關重要。\n\n### 關鍵對位\n- Brazil 最大的優勢在於邊路：7 號 Vinícius Júnior (Real Madrid) 與 11 號 Raphinha (Barcelona) 若能形成一對一，將能撕裂 Norway 的邊後衛。\n- Norway 的優勢在於中路終結能力：Brazil 防守雖佳，但面對 Haaland 等級的 xG/90 (1.10)，一次失誤通常就意味著失球。\n- 關注創造者：22 號 Oscar Bobb (Fulham) 與 10 號 Martin Ødegaard (Arsenal) 能持續向禁區輸送球權；Brazil 的中場（5 號 Casemiro、8 號 Bruno Guimarães、20 號 Paquetá）必須切斷傳球路線，而不僅僅是盯防前鋒。\n\n### 比賽劇本（開局 → 中段 → 尾聲）\nBrazil 在主場開局迅速，透過 7 號 Vinícius Júnior 在左路發動大量攻勢，很可能會藉由倒三角回傳或混亂局面先馳得點 (1-0)。隨後比賽將考驗 Brazil 是否能終結懸念——因為 Norway 不會坐以待斃：他們會直接長傳找 9 號 Haaland 與 7 號 Sørloth，並爭搶第二落點。\n\n進入中段，Norway 的進攻機會將大量湧現：傳中、定位球，以及來自 Ødegaard/Bobb 的快速出球。Brazil 的後衛或許能化解第一波攻勢，但問題在於第二、三波——Norway 擁有數名可靠的終結者，因此 Brazil 不能只是「包夾 Haaland 就掉以輕心」。\n\n比賽尾聲，Brazil 為了追平比分投入更多進攻球員（如 22 號 Martinelli / 19 號 Endrick 等類型），這正好為 Norway 開啟了他們想要的進攻空間：再創造一次絕佳機會，再完成一次致命終結。Norway 最終透過老練的控球與定位球控制守住勝果。\n\n### 為何是 1-2\n這是最現實的爆冷比分：Brazil 依然能創造機會，但 Norway 的進攻數據與終結深度足以轉化為兩顆高品質進球，而非 3 球以上的大勝。\n\n### 翻盤關鍵\n如果 Brazil 的邊鋒能持續製造一對一優勢，並迫使 Norway 的中後衛早早犯規領牌，客隊將無法冷靜地防守禁區——屆時比賽將演變成 Brazil 以 2-1 艱難取勝，而非 Norway 的偷襲得手。"
+          },
+          {
+            "name": "Claude",
+            "selection": "HOME",
+            "selection_team": "第4場1/16決賽勝者",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.44,
+              "D": 0.26,
+              "A": 0.3
+            },
+            "confidence": 0.5,
+            "key_risk": "Haaland 只要獲得一次乾淨的射門機會，巴西隊令人質疑的中後衛組合（Bremer 與 Marquinhos 在面對強力 9 號球員時顯得漏洞百出）就會讓這 1 次機會轉化為扭轉整場比賽局勢的進球。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的觀點是：巴西坐鎮主場，擁有森巴足球的靈動，加上 Vini 和 Raphinha，他們當然能輕鬆擊敗一支「小」北歐球隊。但我並不完全買單。看看數據——Norway 的進攻指數（3.48）實際上比 Brazil（3.16）還要**高**，而 Haaland 的 1.10 xG/90 是整張數據表上最具殺傷力的數字。Brazil 喜歡控球，但他們的後防線並非頂級：Marquinhos 還算稱職，但另一名中後衛搭檔和邊後衛（Alex Sandro 現在已是 Flamengo 的老將，而非巔峰期）正是 Haaland、Sørloth 和 Strand Larsen 三重威脅在定位球和長傳進攻中最喜歡折磨的類型。2022 年的比賽已經向我們展示了奪冠熱門如何在面對組織嚴密、身體對抗強悍且球風直接的對手時翻船（Argentina 對 Saudi Arabia、Germany 對 Japan）。只要 Norway 擺出鐵桶陣，餵球給 Haaland，再由 Ødegaard 操刀一次定位球，這就足夠了。",
+            "signature_scene": "下半場，大約一小時左右：巴西隊發動攻勢，挪威隊 10 號 **Ødegaard** (Arsenal) 送出一記長傳，9 號 **Haaland** (Man City) 擺脫 **Bremer** 的防守，隨即迫使 **Alisson** 做出一次精彩撲救，或是直接攻入追平比分的進球——那一刻，Maracanã 球場將陷入死寂，而巴西隊也將被迫陷入苦苦追趕的局面。",
+            "reasoning_md": "Brazil 憑藉主場優勢、進攻產量以及頂級聯賽前鋒的陣容深度險勝，但這場比賽的實力差距遠比名氣所顯示的還要接近——Norway 的進攻火力貨真價實，且他們的指數確實更高，因此我只看好主隊能以一球之差小勝。",
+            "script_md": "**整體分析：** 巴西擁有更深厚、更多樣化的進攻陣容——Vinícius (0.76 xG90)、Raphinha (0.50)，加上板凳席上的 Martinelli、Cunha、Luiz Henrique 和 Endrick，意味著他們能維持 90 分鐘的進攻強度並隨時換血。但 Norway 並非軟柿子：他們的陣容指數更高，且前場擁有 Haaland (1.10)、Sørloth (0.56) 和 Strand Larsen (0.51) 組成的兇猛鋒線。這是一場火力對火力的對決，巴西的優勢在於控球與全場壓迫，而 Norway 的優勢則是精準且直接的威脅。\n\n**關鍵對位：** 一切取決於巴西 4 號 Marquinhos (PSG) 和 14 號 Bremer (Juventus) 能否抵擋 Norway 9 號 Haaland (Man City)——如果他們在身體對抗中落居下風或在防守傳中時漏人，就會導致失球。在中場，Bruno Guimarães 和 Paquetá 必須封鎖 Norway 10 號 Ødegaard (Arsenal) 和 22 號 Bobb (Fulham)，這兩人是真正的進攻發動機；切斷這兩人的聯繫，Norway 的進攻就會變得單調且容易預測。\n\n**比賽劇本：** 巴西開賽後將主導控球，並有望在中場休息前取得領先——預計 Vinícius 或 Raphinha 會從左路撕開防線攻入首球。Norway 將採取深度防守、伺機而動，等待 Ødegaard 的定位球機會以及 Haaland 的轉換進攻。比賽的危險時段在 60 至 75 分鐘：如果屆時 Norway 仍保持平手或僅落後一球，一次長傳或角球就可能讓 Haaland 獲得機會，將比分扳平為 1-1，讓現場觀眾陷入緊張。巴西更強大的板凳深度（Endrick、Cunha、Martinelli 替補上陣）將是決定膠著戰局的關鍵。\n\n**為何預測 2-1：** 巴西的實力足以攻入兩球以上，但 Haaland 的能力太強，難以完全封鎖——一球的勝負差距既符合數據，也符合世界盃的現實。**變數：** 如果 Haaland 先進球，Norway 隨即退守低位防線，而巴西的臨門一腳失準，那麼比賽可能會以 0-1 或 1-1 的冷門收場，屆時每個人都會裝作自己早就預料到了。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.25,
+              "A": 0.5
+            },
+            "confidence": 0.7,
+            "key_risk": "巴西主場氣勢與挪威大賽經驗不足，Haaland被Gabriel Magalhães完全鎖死，巴西靠定位球偷到勝利。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會說巴西是五星桑巴，挪威只有一個Haaland，小組賽巴西穩贏。但資料狠狠打臉：挪威攻擊實力指數3.48壓過巴西的3.16，本屆場均預期貢獻3.59對1.08，完全是兩個量級。巴西的進攻雷聲大雨點小，Vinicius之外再無穩定第二點，而挪威除了Haaland還有Sørloth、Bobb、Strand Larsen多點開花。別忘了2022阿根廷輸沙烏地、德國輸日本，都是名氣被實效碾壓的經典。巴西這條後防線，Marquinhos和Alex Sandro都已過巔峰，面對Haaland的衝擊力，翻車絕非意外。",
+            "signature_scene": "上半場第31分鐘，挪威22號Oscar Bobb（Fulham FC）右路內切後送出直塞，9號Erling Haaland（Manchester City FC）反越位甩開4號Marquinhos，單刀面對Alisson左腳推射遠角破門，挪威1-0領先。",
+            "reasoning_md": "挪威攻擊火力遠超巴西，Haaland無人能擋，巴西進攻效率低下，爆冷輸球。",
+            "script_md": "① 整體判讀：挪威是本屆世界盃進攻最恐怖的球隊之一，Haaland場均預期進球1.10，全隊場均預期貢獻3.59，反觀巴西只有1.08，進攻創造力嚴重不足。巴西空有控球，但禁區內缺乏終結者，Neymar已不在巔峰，Vinicius獨木難支。\n② 關鍵對位：巴西3號Gabriel Magalhães（Arsenal FC）在俱樂部就常被Haaland折磨，這次國家隊再遇，沒有Saliba搭檔，他會非常吃力。挪威中場10號Martin Ødegaard（Arsenal FC）對巴西中場的熟悉將幫助挪威切斷Casemiro與前場的聯絡。巴西右後衛13號Danilo Luiz（CR Flamengo）速度偏慢，會被挪威20號Antonio Nusa（RB Leipzig）的衝擊打穿。\n③ 比賽劇本：開場巴西主場猛攻，但雷聲大雨點小，Raphinha內切射門頻頻高出。挪威穩守反擊，第31分鐘Bobb助攻Haaland單刀破門。巴西落後後大舉壓上，下半場挪威再抓反擊，第67分鐘Sørloth接Strand Larsen傳中頭球擴大比分。巴西終場前由Vinicius個人能力扳回一球，但無力迴天。\n④ 為什麼是1-2：挪威攻擊效率極高，預計2次絕對機會轉化為2球，巴西靠球星靈光一現進1球，符合兩隊真實火力差距，也符合世界盃常見的1球差比分。\n⑤ 翻盤條件：若巴西早早進球，挪威被迫壓出，巴西反擊速度可能擴大比分；或者Haaland被完全限制，挪威中場無法輸送砲彈，則可能0-0或巴西小勝。但以挪威的攻擊指數，被零封機率極低。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.3,
+              "D": 0.25,
+              "A": 0.45
+            },
+            "confidence": 0.75,
+            "key_risk": "巴西隊的邊鋒（Vinícius 和 Raphinha）突然產生化學反應，在 Haaland 有機會發動攻勢前，就先擊潰了 Norway 相對平庸的中後衛組合 Ajer 和 Østigård。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的說法是，巴西的森巴風格與足球底蘊將會徹底輾壓一支「一人球隊」的挪威。但我完全不這麼認為。看看實際的數據表現：巴西的進攻顯得疲軟，每場比賽的預期貢獻值僅有 1.08，而挪威則高達 3.59。挪威早已不只是 Haaland 的球隊；有了 Sørloth、Strand Larsen 和 Bobb，他們擁有一套多面向且極具身體對抗性的進攻體系，足以壓制巴西的後防線。回想一下 2022 年克羅埃西亞是如何窒息並挫敗巴西，或是摩洛哥如何震驚葡萄牙——挪威完全能做到同樣的事，而且在反擊時擁有更致命的終結能力。",
+            "signature_scene": "下半場第 65 分鐘，Norway 發動了一次冷酷無情的攻守轉換。10 號 Martin Ødegaard (Arsenal) 在 Brazil 的中場防線中穿針引線，精準找到正在跑動中的 9 號 Erling Haaland (Man City)。Haaland 以身體素質扛住 Marquinhos，在停球後隨即起腳，一記勢大力沉的低射擊敗 Alisson，讓全場 Brazil 球迷瞬間鴉雀無聲。",
+            "reasoning_md": "挪威之所以能爆冷取勝，是因為他們目前的進攻數據遠比對手更具威脅。儘管 Brazil 仍仰賴過往名氣且近期狀態起伏不定，但 Haaland 與其隊友所具備的身體素質以及強大的預期進球數（xG），足以讓他們在火力上壓過 Seleção。",
+            "script_md": "巴西擁有著名的黃色球衣，但挪威卻擁有數據支撐。挪威的進攻指數（3.48）和預期比賽貢獻值（3.59）完全碾壓巴西（分別為 3.16 和 1.08）。這並非僥倖；挪威的前鋒線對任何防線來說都是一場絕對的身體對抗噩夢。\n\n這場比賽的關鍵對決在於挪威的「雙塔」——9 號 Erling Haaland（Manchester City）與 7 號 Alexander Sørloth（Atlético De Madrid）——對陣 Gabriel Magalhães 和 Marquinhos。巴西的中後衛固然頂尖，但要應付兩名狀態火熱且場均合計貢獻超過 1.6 xG 的巨型前鋒，體能消耗極大。在另一端，Vinícius Júnior 和 Raphinha 將試圖孤立挪威的 3 號 Kristoffer Ajer（Brentford）與 4 號 Leo Østigård（Genoa），這將是巴西最明確的取勝之道。\n\n預計巴西會在開賽初期掌控球權，在禁區周圍試探，但難以送出最後一傳，這也是他們本屆賽事至今貢獻度偏低的一個反覆出現的主題。挪威將採取緊湊的中位防守，承受壓力並利用 Ødegaard 發動快速、直接的反擊。挪威將透過 Haaland 的轉換進攻率先破門。巴西很可能會憑藉 Vinícius 個人的閃光時刻扳平比分，但挪威在定位球和傳中球上持續不斷的身體施壓，將會讓他們在比賽末段攻入致勝球。\n\n1-2 的比分完美反映了挪威優異的進攻狀態，以及巴西目前難以將無效控球轉化為進球的困境。唯一能扭轉此結果的情況是，挪威防線在 Vinícius 的速度衝擊下過早崩潰，迫使他們放棄反擊戰術，進而留下巨大的空間供巴西利用。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.35,
+              "D": 0.25,
+              "A": 0.4
+            },
+            "confidence": 0.72,
+            "key_risk": "巴西若上半場領先，挪威高空轟炸體系可能被迫提前暴露，反而給巴西反擊空間；但資料顯示挪威本屆預期貢獻3.59遠超巴西的1.08，這差距不是偶然",
+            "second_score": "2-2",
+            "contrarian_md": "主流敘事：「巴西星光熠熠，維尼修斯+拉菲尼亞+內馬爾，挪威只有哈蘭德一個超巨，南美技術流碾壓北歐長人」。這敘事漏了兩件事：第一，挪威陣容攻擊指數3.48其實高過巴西3.16，深度17人頂級聯賽也贏過巴西16人；第二，哈蘭德xG90 1.10是維尼修斯0.76的1.5倍，而挪威前場四叉戟（哈蘭德1.10、索爾洛特0.56、斯特蘭德·拉森0.51、奧斯卡·博布0.50）合計xG90 2.67，巴西前場（維尼修斯0.76、拉菲尼亞0.50、庫尼亞0.37、馬丁內利0.31、恩德里克無xG資料）根本對不上。2018德國輸韓國、2022阿根廷輸沙烏地，都是「技術流強隊被身體+速度+定位球釘死」的劇本，挪威剛好三項全齊。",
+            "signature_scene": "下半場65分鐘，挪威10號厄德高（Arsenal FC）中場斷球後斜長傳轉移右路，22號奧斯卡·博布（Fulham FC）底線回扣，9號哈蘭德（Manchester City FC）後點衝頂破門——這球巴西4號馬爾基尼奧斯（Paris Saint-Germain）完全失位，身高劣勢被生吃，挪威2-1反超。",
+            "reasoning_md": "挪威贏。資料不騙人：挪威本屆預期貢獻3.59是巴西1.08的三倍，哈蘭德+索爾洛特+斯特蘭德·拉森三高中鋒輪流衝擊巴西老邁防線（馬爾基尼奧斯、阿萊士·桑德羅、達尼洛都過30或來自巴甲），巴西中場卡塞米羅+吉馬良斯攔不住厄德高+貝格的快速轉換。巴西贏球需要上半場領先後收縮，但挪威定位球和長傳衝弔專打收縮隊。",
+            "script_md": "## 整體判讀\n\n這場是「資料冷門」對「名氣熱門」的經典對決。挪威陣容攻擊指數3.48 > 巴西3.16，本屆預期貢獻3.59更是巴西1.08的三倍——這不是抽樣誤差，是體系火力真實差距。巴西星光靠維尼修斯、拉菲尼亞個人爆點，挪威卻有哈蘭德這臺進球機器（xG90 1.10，全場最高）配三個0.5+級別的接應點。\n\n## 關鍵對位：巴西老防線 vs 挪威三高中鋒\n\n- **巴西致命弱點**：4號馬爾基尼奧斯（Paris Saint-Germain）+ 6號阿萊士·桑德羅（CR Flamengo）+ 13號達尼洛·路易斯（CR Flamengo）平均年齡31歲，馬爾基尼奧斯本季在巴黎狀態下滑，阿萊士·桑德羅已回巴甲養老。三人對抗哈蘭德（1.94m）、索爾洛特（1.94m）、斯特蘭德·拉森（1.93m）的三高輪換，定位球和長傳衝弔必崩。\n- **挪威中場優勢**：10號厄德高（Arsenal FC）關鍵傳球+長傳排程，8號桑德·貝格（Fulham FC）身體對抗碾壓，2號託斯比（US Cremonese）後插上射門——這三人組合剛好剋制巴西卡塞米羅+吉馬良斯「技術有餘、硬度不足」的雙後腰。\n\n## 比賽劇本\n\n**早段（0-30分鐘）**：巴西控球圍攻，維尼修斯左路內切製造威脅，但挪威5後衛+雙後腰收縮，哈蘭德深度回撤接應，巴西破不了密集。25分鐘左右挪威第一次反擊，哈蘭德背身做球，厄德高直塞，斯特蘭德·拉森（Crystal Palace FC）單刀被阿利松撲出——這是預警。\n\n**中段（30-60分鐘）**：巴西體能下降，挪威開始上強度。40分鐘定位球，哈蘭德前點幹擾，索爾洛特（Atlético De Madrid）後點頭球破門，0-1。巴西急於扳平，拉菲尼亞遠射中柱，半場前維尼修斯個人能力扳平1-1——但這球消耗太大。\n\n**末段（60-90分鐘）**：挪威換上20號努薩（RB Leipzig）和11號斯特蘭德·拉森保持衝擊，巴西換上10號內馬爾（Santos FC）試圖控場，但內馬爾已無頂級聯賽資料，實際是負作用。65分鐘，厄德高-博布-哈蘭德連線，挪威2-1反超（見signature_scene）。巴西最後20分鐘狂攻，但庫尼亞、恩德里克射術不精，挪威5後衛+門將尼蘭德（Sevilla FC）守住勝果。\n\n## 為什麼是1-2\n\n挪威火力夠贏2球，但巴西主場+阿利松神撲會限制在1球；巴西能進1球靠維尼修斯/拉菲尼亞個人爆發，但體系被剋制難以第二球。世界盃小組賽強隊翻車常見比分就是1-2（2018德國0-2韓國、2022阿根廷1-2沙烏地）。\n\n## 什麼情況會翻盤\n\n巴西上半場2-0領先，迫使挪威壓出，巴西反擊空間開啟——但這需要挪威後衛4號萊奧·厄斯蒂高（Genoa CFC）或3號阿耶爾（Brentford FC）重大失誤送點或紅牌，資料顯示兩人雖非頂級但本季意甲/英超出勤穩定，機率偏低。更可能的是挪威先進球後巴西急躁，反而被第二、第三波反擊打死。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.32,
+              "D": 0.3,
+              "A": 0.38
+            },
+            "confidence": 0.67,
+            "key_risk": "巴西主場觀眾的壓力與定位球防守失誤，導致了最後時刻的追平進球。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為，憑藉 Vinícius 和 Raphinha 的強大火力，Brazil 在主場將能輕鬆過關；但數據卻戳破了這一點，因為 Norway 的進攻指數（3.48）與預期貢獻值（3.59）遠高於 Brazil 的 3.16/1.08，而這主要歸功於 Haaland 每 90 分鐘 1.10 的預期進球數（xG/90）。這正是當年 2022 年 Saudi Arabia 擊敗 Argentina，或是 2018 年 Korea 擊敗 Germany 的典型劇本——被高估的主隊若進攻產出貧乏，便極易在反擊中被頂級前鋒一擊致命。",
+            "signature_scene": "下半場第 68 分鐘：挪威隊 9 號 Haaland（Manchester City FC）接獲 Ødegaard 的長傳球後，扛住 Bremer 的防守，轉身起腳低射，球穿過 Alisson 的防守破門，比數來到 1-2。",
+            "reasoning_md": "Norway 獲勝是因為他們的進攻數據遠勝 Brazil，且 Haaland 是場上最明顯的錯位優勢；主場優勢只能讓比分保持接近。",
+            "script_md": "挪威擁有較高的球隊進攻指數（3.48 對 3.16），預期貢獻值更是對方的三倍（3.59 對 1.08），其中 Haaland 每 90 分鐘 1.10 的預期進球（xG）是他們最強大的武器。巴西的鋒線顯得支離破碎——Vinícius（0.76）陷入孤立，而 Raphinha（0.50）與 Martinelli（0.31）則缺乏來自 Casemiro 和 Bruno Guimarães 的穩定支援。比賽初期，巴西採取高位壓迫，但挪威透過 Oscar Bobb 和 Martin Ødegaard 的轉換進攻化解壓力。比賽中段，挪威採取較深防線，誘敵深入後再利用 Haaland 與 Jørgen Strand Larsen 發動反擊。首個進球出現在第 35 分鐘左右，由 Haaland 接應倒三角回傳破門；巴西則在半場結束前靠著 Vinícius 的點球扳平比分。下半場挪威重掌節奏，Haaland 在對抗 Bremer 的持球進攻中攻入致勝球。最終比分維持在 1-2，原因在於巴西在 Casemiro 體力下滑後缺乏追分的板凳深度。若要翻轉賽果，前提是 Gabriel Magalhães 和 Marquinhos 必須在定位球防守中保持零失球，並由巴西在第 90 分鐘透過角球偷襲得手。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "第6場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.2,
+              "A": 0.55
+            },
+            "confidence": 0.65,
+            "key_risk": "巴西鋒線集體爆發打破進球荒，或挪威後防線高壓下崩盤送大禮。",
+            "second_score": "1-1",
+            "contrarian_md": "主流名氣會說：巴西是足球王國，陣容全是大牌，挪威只是個靠哈蘭德進球的二流球隊，巴西穩贏。但我不買帳。看資料，巴西本屆世界盃每場預期貢獻只有可憐的 1.08，鋒線資料雖然好看但轉化率極低，這是一支「名大於實」的偽強隊。反觀挪威，每場預期貢獻高達 3.59，陣容深度（17/26）甚至優於巴西（16/26）。世界盃冷門史告訴我們，當強隊鋒無力又遇上對方有超級終結者時，翻車是常態（2022 德國輸日本就是前車之鑑）。巴西的後防線老化且轉身慢，根本擋不住挪威的反擊速度。",
+            "signature_scene": "下半場 70 分鐘，巴西全隊壓上進攻，被挪威 10號 Ødegaard（Arsenal FC）在中場截球後送出直塞，9號 Haaland（Manchester City FC）利用速度硬吃巴西 4號 Marquinhos（Paris Saint-Germain），禁區內一腳爆射破門，徹底澆熄巴西反撲氣焰。",
+            "reasoning_md": "挪威贏。巴西空有名氣但進攻轉化率極低（1.08），挪威靠哈蘭德的高效終結（3.59）和更優的陣容深度，客場反殺。",
+            "script_md": "① **整體判讀**：別被球衣顏色騙了，這支巴西隊是「紙老虎」。攻擊指數 3.16 看似不差，但本屆世界盃每場預期貢獻只有 1.08，說明前場球星各自為戰，打不出配合。挪威攻擊指數 3.48 且預期貢獻 3.59，火力分佈更廣、效率更高。\n② **關鍵對位**：巴西的軟肋在防線。3號 Gabriel Magalhães（Arsenal FC）和 4號 Marquinhos（Paris Saint-Germain）的中衛組合轉身慢，面對挪威 9號 Haaland（Manchester City FC）的衝擊力會非常吃力。中場方面，巴西 5號 Casemiro（Manchester United FC）狀態下滑嚴重，面對挪威 10號 Ødegaard（Arsenal FC）的排程會顧此失彼。\n③ **比賽劇本**：上半場巴西借主場之勢猛攻，但雷聲大雨點小，Vini Jr. 和 Raphinha 幾次射門都無功而返。挪威穩守反擊，40 分鐘左右靠角球亂戰，9號 Haaland 搶點破門。下半場巴西急躁壓上，70 分鐘被挪威 10號 Ødegaard 直塞，Haaland 單刀再下一城。巴西 85 分鐘靠 Vini Jr. 個人能力扳回一球，但為時已晚。\n④ **為什麼是這個比分**：1-2 是最合理的冷門比分。巴西進攻低效註定進不了太多球，而挪威的反擊效率極高，進 2 球是正常發揮。\n⑤ **翻盤情況**：如果挪威後防線（如 4號 Østigård（Genoa CFC））早早犯錯送點球，或者哈蘭德被巴西后衛針對性鎖死，巴西可能靠定位球偷雞 1-0 險勝。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -6987,7 +7389,141 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "第8場1/16決賽勝者",
+        "win_prob": 0.648,
+        "agree": "6/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.1,
+              "D": 0.2,
+              "A": 0.7
+            },
+            "confidence": 0.68,
+            "key_risk": "英格蘭浪費了多次絕佳機會（Kane、Saka 和 Bellingham 雖然進攻頻率高，卻缺乏臨門一腳），墨西哥則靠著定位球戰術和門將的火熱狀態死裡逃生，最終這場比賽演變成一場 1-1 的苦戰，而非英格蘭預期中的輕鬆獲勝。",
+            "second_score": "1-2",
+            "contrarian_md": "顯而易見的劇本：英格蘭憑藉球星實力輾壓墨西哥，以 2-0 或 3-0 輕鬆勝出。\n\n為什麼我不完全認同這種「安全牌」觀點：英格蘭即便佔據主導地位，若在攻守轉換時的防守（rest-defense）過於鬆懈，仍可能被墨西哥透過一次快速反擊或定位球拖入一球定勝負的局面。墨西哥的最佳策略簡單而粗暴：將所有進攻機會集中給 **No.11 Santiago Giménez (AC Milan)** 和 **No.9 Raúl Jiménez (Fulham)**，爭取定位球機會，然後製造混亂。我們已經看過小組賽中強隊被爆冷的先例——**Argentina vs Saudi (2022)** 和 **Germany vs Japan (2022)** 本質上都是「一次重擊，戰局翻盤」。英格蘭在帳面實力上仍應勝出，但如果他們無法儘早終結比賽，這場勝利並非萬無一失。",
+            "signature_scene": "上半場約 33 分鐘：英格蘭在右路形成人數優勢——**No.24 Reece James (Chelsea)** 在壓制住墨西哥左路後，傳出一記低平回傳球，**No.9 Harry Kane (Bayern)** 插上至 **No.3 César Montes (Lokomotiv Moscow)** 與 **No.5 Johan Vásquez (Genoa)** 之間，以側腳將球踢進。隨後 10 分鐘，墨西哥持續面臨角球防守壓力。",
+            "reasoning_md": "英格蘭獲勝的原因在於其進攻深度以及射門與 xG（預期進球）的產量（Kane、Saka、Bellingham 以及板凳上的選擇）完全處於不同檔次，而 Mexico 的創造力過於薄弱，無法在 90 分鐘的比賽中與對手進行對攻。",
+            "script_md": "英格蘭的優勢在於其強大的進攻火力：他們能從各個位置製造射門機會——**No.9 Kane**、**No.7 Saka**、**No.10 Bellingham**、**No.21 Eze**——且身後還有真正的創造者（特別是 **No.24 Reece James** 和 **No.4 Declan Rice**）。墨西哥雖然有幾位可靠的終結者，但從球隊進攻指數和板凳深度來看，他們顯然難以維持持續的進攻壓力。\n\n墨西哥的戰術意圖很明顯：採取緊湊的防守陣型，封鎖中路，並利用 **No.9 Raúl Jiménez (Fulham)** 作為出球點，同時讓 **No.11 Santiago Giménez (AC Milan)** 尋找那唯一一次的射門良機。問題在於英格蘭能從兩翼發動進攻並持續施壓；**Saka 對位 No.23 Jesús Gallardo (Deportivo Toluca)** 將是英格蘭會不斷利用的對決，而 **Bellingham** 的後插上正是墨西哥中場最不擅長盯防的跑位類型。\n\n比賽初期：英格蘭控球，墨西哥退守並試圖將比賽節奏拖入定位球大戰。英格蘭的首個進球將來自邊路——由 James/Saka 創造出關鍵傳中，並由 Kane 完成終結（或是 Bellingham 補射第二波球）。比賽中期：下半場開局後，墨西哥會有一段短暫的進攻期，將 **No.8 Álvaro Fidalgo (Real Betis)** 的位置前移並試圖餵球給 Giménez；他們會獲得一次危險的進攻機會，但這更像是「一次性的絕佳機會」，而非持續性的壓制。\n\n比賽末段：隨著墨西哥急於追分，英格蘭替補球員的速度（例如 **No.19 Ollie Watkins** 或 **No.12/No.18 的邊路快馬**）將使比賽轉為攻守轉換，英格蘭藉此攻入第二球——可能是反擊，也可能是第二波定位球。這就是為什麼 0-2 的比分很合理：英格蘭的上限很高，但世界盃小組賽一旦強隊領先，比賽通常會進入控制節奏的模式，而非演變成進球大戰。\n\n變數所在：若英格蘭開局無法把握機會，隨後被墨西哥利用定位球（由 Montes/Vásquez 前插搶點）或是一次反擊——由 Jiménez 護球並由 Giménez 完成射門——比分瞬間變成 1-1，英格蘭就會陷入「一個失誤定勝負」的緊張局面。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.2,
+              "D": 0.26,
+              "A": 0.54
+            },
+            "confidence": 0.58,
+            "key_risk": "墨西哥坐鎮主場，面對 2026 年世界盃充滿敵意的觀眾，只要能展現「擺大巴」的紀律，再加上 Jiménez 的靈光一現，就有機會像 Cape Verde 和 Saudi Arabia 對陣強權時那樣，從對手手中偷走一場平局。",
+            "second_score": "0-1",
+            "contrarian_md": "顯而易見的觀點：英格蘭的進攻指數（3.88）遠超墨西哥（0.64）——擁有 Kane、Saka、Bellingham、Watkins 和 Eze，這支球隊就算排出兩套鋒線陣容，火力依然能壓制大多數國家。每個人都預測會是一場 3-0 的輕鬆大勝。但我並不完全相信會出現這種一面倒的局面。首先，英格蘭在世界盃的慣例是靠 1-0 或 2-1 的苦戰取勝，而非大屠殺——Southgate 時代的淘汰賽足球向來是在狹窄的勝負差距中求生存。其次，墨西哥在 2026 年主場作戰，背負著「絕對不能輸」的壓力，勢必會採取低位防守，而他們的威脅是真實存在的：Jiménez（每 90 分鐘預期進球值 0.38）是貨真價實的英超前鋒，而替補席上的 Santi Giménez（Milan）則提供了第二個進攻點。英格蘭的防線並不穩固——Guéhi 和 Burn 表現紮實，但缺乏世界級的中後衛搭檔，而 Reece James 或 Spence 在邊後衛位置上可能會被對手的反擊速度所針對。歷史不斷提醒我們要謹慎：2018 年德國對韓國、2022 年阿根廷對沙烏地阿拉伯——奪冠熱門往往就死在「每個人都覺得安全」的地方。英格蘭會贏，但過程會很緊張，墨西哥逼平對手的可能性依然非常大。",
+            "signature_scene": "下半場約 70 分鐘：墨西哥 9 號 Raúl Jiménez（Fulham）在後點擺脫 Guéhi，接應 Luis Chávez 的定位球頭槌攻門，球擊中邊網——全場觀眾沸騰，England 隨後陷入了十分鐘的混亂。接著 Harry Kane（9 號）回撤接應，將球直塞給身後的 Saka，成功撕破 Mateo Chávez 的防線，完成了致命的二過一配合。",
+            "reasoning_md": "英格蘭贏了，但並非大勝——他們的火力簡直是另一個檔次的，然而 Mexico 的主場防守陣型加上 Jiménez 的表現，讓比賽維持在 2-1 這種令人緊張的一球之差，而非一場屠殺。",
+            "script_md": "**整體解讀：** 從帳面數據來看，這是一場天賦懸殊的對決——英格蘭的進攻指數為 3.88，而墨西哥僅為 0.64；英格蘭 26 名球員中有 25 名來自頂級聯賽，相比之下墨西哥僅有 8 名。英格蘭擁有五名真正的進球威脅（Kane 1.04、Watkins 0.53、Saka 0.51、Bellingham 0.50、Eze 0.40）；而墨西哥基本上只有 Jiménez（0.38）一人。但數據不會親自上場比賽——組織能力與比賽狀態才是關鍵。\n\n**關鍵對位：** 英格蘭的創造力源自 7 號 Bukayo Saka（Arsenal，每 90 分鐘關鍵傳球 2.68 次）與 24 號 Reece James（Chelsea，驚人的每 90 分鐘預期助攻 0.57 次、關鍵傳球 2.35 次）的邊路重疊進攻——墨西哥左路的 20 號 Mateo Chávez（AZ Alkmaar）與 23 號 Jesús Gallardo（Deportivo Toluca）將面臨嚴峻考驗。在中場方面，4 號 Declan Rice 與 10 號 Jude Bellingham 應能壓制 6 號 Érik Lira（Cruz Azul）與 24 號 Luis Chávez（Dynamo Moscow）。墨西哥唯一的希望在於 9 號 Raúl Jiménez（Fulham）的持球策應，以及 5 號 Johan Vásquez（Genoa）在後防線上的解圍能力，而 11 號 Santiago Giménez（AC Milan）則是下半場的奇兵。\n\n**比賽劇本：** 墨西哥從開賽起便採取深度防守，承受壓力並藉助主場球迷的能量。英格蘭不斷試探，甚至擊中門框，在上半場互交白卷的情況下顯得有些急躁——這正是爆冷傳聞開始發酵的時刻。英格蘭在 60 分鐘左右透過 Kane 的頭槌或 Saka 的內切打破僵局。墨西哥換上 Giménez，並確實透過定位球（以 Jiménez 為目標）製造威脅並扳回一城。隨後，英格蘭展現出色的反擊能力，由 Kane 或替補球員在比賽末段鎖定勝局。\n\n**比分預測原因：** 1-2——考慮到 Jiménez 的威脅以及主場定位球的氣勢，墨西哥攻入一球是合理的，但英格蘭的板凳深度與終結能力將助其勝出。若墨西哥的防守陣型堅不可摧且未造成實質威脅，則可能出現 0-1 的苦戰結果。\n\n**變數：** 如果墨西哥能早早透過定位球取得進球，且英格蘭不穩定的中後衛組合（Guéhi/Burn）出現慌亂，比賽將演變成 1-1 的拉鋸戰，甚至可能出現主隊偷襲得手的冷門——這正是 2018 年德國隊或 2022 年阿根廷隊遭遇的劇本。但我相信英格蘭龐大的球員素質優勢最終能叩開對手大門。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "DRAW",
+            "selection_team": "和局",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.2,
+              "D": 0.45,
+              "A": 0.35
+            },
+            "confidence": 0.65,
+            "key_risk": "英格蘭前場個人能力太突出，Kane或Saka一腳遠射就能殺死比賽，墨西哥大巴稍有不慎就會被撕開。",
+            "second_score": "0-1",
+            "contrarian_md": "主流會告訴你英格蘭實力碾壓、墨西哥毫無機會。我不買賬的點就在於墨西哥的「主場」二字。世界盃主辦國小組賽爆冷的劇本還少嗎？墨西哥世界盃底蘊遠超卡達，他們有Ochoa這種大賽門神，而英格蘭在大賽客場慢熱是刻在基因裡的——2010平美國、2016輸冰島、2022平美國。當阿茲特克的狂熱聲浪把草皮震得發抖，什麼身價3.88的攻擊群都可能腿軟。墨西哥只要開局頂住，越踢越瘋，搶走一分甚至三分絕非痴人說夢。",
+            "signature_scene": "下半場第54分鐘，墨西哥後場解圍，9號Raúl Jiménez（Fulham FC）中圈頭球後蹭，11號Santiago Giménez（AC Milan）瞬間啟動甩開John Stones，禁區弧頂一腳爆射砸進死角，全場炸裂。隨後英格蘭瘋狂反撲，第78分鐘Bellingham突入禁區被4號Edson Álvarez（Fenerbahçe SK）絆倒，點球，9號Harry Kane（FC Bayern München）操刀命中，1-1。",
+            "reasoning_md": "墨西哥主場威勢難忽視，英格蘭大賽慢熱的老毛病不改，這場就是衝著冷門平局去的。",
+            "script_md": "- **整體判讀**：英格蘭陣容攻擊指數3.88，Kane、Saka、Bellingham個個恐怖，墨西哥僅0.64，看似差了好幾個檔次。但這是墨西哥主場，世界盃小組賽的狂熱主場加成足以抹平紙面差距，而且英格蘭歷來小組賽首戰或客場作戰容易掉鏈子，這場藏著巨大的爆冷基因。\n- **關鍵對位**：墨西哥的命門在於中場絞殺，4號Edson Álvarez（Fenerbahçe SK）必須全場鎖死10號Jude Bellingham的前插路線，一旦讓他衝起來，墨西哥後防根本扛不住。反擊方面，11號Santiago Giménez（AC Milan）的速度專打John Stones身後，只要長傳到位就有戲。英格蘭右路24號Reece James助攻幅度極大，他身後的空檔就是墨西哥生命線。\n- **比賽劇本**：開場前30分鐘，英格蘭控球壓制，Kane頻頻回撤組織，Saka內切打門，但墨西哥門將Ochoa高接抵擋，主場門柱也幫忙，半場0-0。更衣室出來後墨西哥偷襲得手：一腳後場長傳，Jiménez擺渡，Giménez生吃後衛破僵。英格蘭如夢初醒，換上Watkins和Eze強攻，墨西哥全線退守，最終Bellingham造點，Kane點球扳平。隨後英格蘭圍攻無果，1-1爆冷收場。\n- **為什麼是這個比分**：世界盃強弱遭遇的最經典劇本就是「大巴+反擊」vs「控球壓制」，1-1完美體現強隊丟魂後靠球星靈光一閃續命，但已無力迴天。墨西哥攻擊力能偷一個，英格蘭天賦能進一個，再多就難了。\n- **什麼情況會翻盤**：如果英格蘭開場15分鐘內破門，墨西哥主場氣焰瞬間澆滅，那可能0-3或1-3；另外Ochoa若狀態失常，也可能崩。但我賭他這場會重回2018年封鎖德國的神級模式。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.15,
+              "D": 0.25,
+              "A": 0.6
+            },
+            "confidence": 0.75,
+            "key_risk": "英格蘭在開賽前 15 分鐘內取得進球，迫使 Mexico 放棄低位防守，最終將比賽演變成一場 3-0 或 4-0 的大勝。",
+            "second_score": "0-1",
+            "contrarian_md": "最顯而易見的論調是，擁有高達 3.88 進攻指數的英格蘭「黃金世代」，將會輾壓那支在歐洲頂級聯賽僅有 8 名球員的墨西哥隊。但我並不認為會出現一面倒的慘案。英格蘭在壓力下踢出被動、保守足球的惡名昭彰，且在北美洲對陣墨西哥，環境極其險惡。回想一下 2022 年英格蘭與美國 0-0 戰平，或是 2018 年對陣哥倫比亞時的掙扎。如果墨西哥採取深度防守，派 **Edson Álvarez** 盯防 **Bellingham**，並將比賽演變成一場身體對抗激烈的肉搏戰，英格蘭的超級球星們很容易會感到挫折，並陷入低比分的苦戰泥淖中。",
+            "signature_scene": "下半場第 65 分鐘。Mexico 採取 5-4-1 陣型嚴防死守。Bukayo Saka（7 號）終於在右路成功一對一擺脫 Johan Vásquez，隨後內切並送出一記低平球傳中，Harry Kane（9 號）在門前混戰中將球補進，打破僵局，也讓現場喧鬧的主場球迷瞬間鴉雀無聲。",
+            "reasoning_md": "英格蘭勢不可擋的進攻火力，終究讓陣容單薄的墨西哥難以抵擋 90 分鐘；然而，墨西哥憑藉著主場優勢與堅韌的防守，將使這場比賽變得膠著且令人挫折。",
+            "script_md": "- **整體局勢：** 從帳面實力來看，這是一場實力懸殊的對決。英格蘭陣容中充滿了頂尖人才（25 名頂級聯賽球員，進攻指數 3.88），而墨西哥則僅依賴少數幾名旅歐球員（指數 0.64）。然而，墨西哥擁有主場優勢，現場氣氛將會非常狂熱。英格蘭將掌握控球權，但要突破鬥志高昂的墨西哥防線將是一項艱鉅的任務。\n- **關鍵對位：** 比賽勝負將取決於中場的爭奪。墨西哥的 4 號 Edson Álvarez（Fenerbahçe）將負責盯防 Jude Bellingham（10 號，Real Madrid）並試圖打亂英格蘭的節奏。在鋒線上，墨西哥寄望 11 號 Santiago Giménez（AC Milan）能利用反擊機會，在 John Stones 和 Marc Guéhi 的防守下有所斬獲。\n- **比賽劇本：** 預計墨西哥在主場球迷的助威下會以高強度開局，前 20 分鐘比賽將陷入混亂。英格蘭將會挺過這段風暴並逐漸掌控球權，但在試圖滲透墨西哥的低位防守時會顯得有些遲緩。上半場很可能以 0-0 結束，或是英格蘭靠著混亂的進球取得領先。下半場，英格蘭的板凳深度——換上 Ollie Watkins 或 Eberechi Eze 等球員——將會拉開體力下滑的墨西哥防線。\n- **為何預測比分為 1-2：** 英格蘭的實力過於強大，不可能整場比賽都無法進球，Harry Kane 的精準射門終將懲罰墨西哥的失誤。然而，墨西哥的韌性以及定位球威脅，或許能靠 3 號 César Montes（FC Lokomotiv Moscow）的頭槌破門，讓「三獅軍團」整場比賽都處於緊張的領先狀態。\n- **變數：** 如果英格蘭在開賽前 15 分鐘內進球，現場氣氛將會冷卻，墨西哥被迫壓上進攻，比賽可能會演變成一場大勝。反之，如果墨西哥的 13 號 Guillermo Ochoa（AEL Limassol）再次上演他標誌性的世界盃級神勇表現，讓英格蘭因久攻不下而頻頻遠射，那麼 1-1 戰平或墨西哥爆冷以 1-0 取勝也完全有可能發生。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.08,
+              "D": 0.22,
+              "A": 0.7
+            },
+            "confidence": 0.75,
+            "key_risk": "墨西哥主場氛圍+英格蘭大賽首戰慢熱，若上半場被Jiménez偷一個，英格蘭可能陷入急躁亂攻",
+            "second_score": "0-2",
+            "contrarian_md": "主流敘事：英格蘭紙面碾壓，Kane+Saka+Bellingham三叉戟世界頂級，墨西哥只剩Ochoa老骨頭和一堆墨超本土，穩贏。我不買賬的點：英格蘭這套陣容是『攻強守疑』——中場Rice單後腰，兩個邊後衛Livramento/Reece James愛壓上，正中路Stones+Guéhi這對曼城組合大賽首戰默契未驗證。墨西哥9號Raúl Jiménez（Fulham）xG90 0.38雖然平庸，但他擅長背身做球+搶點，剛好對上Guéhi（xG90 0.02，進攻慾強但防守資料普通）這種愛上搶的型別。2018德國輸韓國、2022阿根廷輸沙烏地，都是強隊控球70%卻被對方前鋒一次反擊+一次定位球咬死。英格蘭若上半場破不了密集，下半場心態會毛。",
+            "signature_scene": "下半場65分鐘，英格蘭10號Jude Bellingham（Real Madrid）後插上禁區弧頂，接7號Saka（Arsenal）倒三角回做，一腳低射破門逆轉——這球前墨西哥剛換上11號Santiago Giménez（AC Milan）想提速，結果中場被Rice搶斷發動反擊",
+            "reasoning_md": "英格蘭贏，但只贏一球。墨西哥主場氣勢+鐵桶能扛60分鐘，但陣容深度（8 vs 25頂級聯賽）決定末段體能斷電，被Bellingham後插上或Kane定位球砸開。",
+            "script_md": "## 整體判讀：階級差距，但風格有險\n英格蘭攻擊實力指數3.88 vs 墨西哥0.64，這是六倍差距。但墨西哥主場作戰，且英格蘭這套4231/433變陣有個老毛病：邊後衛壓上後，單後腰Rice（Arsenal）覆蓋面積有限，正中路空檔大。墨西哥4號Edson Álvarez（Fenerbahçe）+24號Luis Chávez（Dynamo Moscow）雙中場雖然名氣小，但都是歐洲二線硬漢，長傳轉換能力夠用。\n\n## 關鍵對位：誰能咬誰\n- **墨西哥9號Raúl Jiménez（Fulham） vs 英格蘭6號Marc Guéhi（Man City）**：Jiménez本季在Fulham是替補奇兵，但xG90 0.38裡有0.11預期助攻，說明他會回撤做球。Guéhi資料華麗（關鍵傳球0.31、射門0.22），但這是進攻資料——他愛上搶，大賽首戰若位置感飄了，Jiménez一次背身做球給插上的15號Israel Reyes（Club América）或26號Brian Gutiérrez（Guadalajara），就是冷門火種。\n- **英格蘭10號Jude Bellingham（Real Madrid） vs 墨西哥6號Érik Lira（Cruz Azul）**：Lira是墨超本土工兵，xG資料沒有，但體能好、犯規果斷。Bellingham xG90 0.50是頂級後插上殺手，但Lira若上半場用兩張黃牌的代價（甚至紅牌風險）把他頂在弧頂外，英格蘭進攻會卡殼。\n\n## 比賽劇本：悶→急→開\n- **早段（0-30分鐘）**：英格蘭控球75%，但墨西哥5後衛+雙後腰收死，Kane（Bayern）兩次禁區內射門被擋。英格蘭邊路Saka/Madueke傳中質量差，墨西哥門將1號Raúl Rangel（Guadalajara）雖然沒頂級聯賽資料，但主場氣勢加持，出擊果斷。\n- **中段（30-60分鐘）**：英格蘭急躁，Rice壓上助攻被斷，墨西哥反擊！Jiménez背身做球，11號Santiago Giménez（AC Milan，射門90 2.72）替補上場後第一次觸球就射門——Pickford（Everton）撲出，但角球混戰中3號César Montes（Lokomotiv Moscow）頭球中柱。英格蘭嚇出一身冷汗，Southgate換上19號Ollie Watkins（Aston Villa）增加跑動。\n- **末段（60-90分鐘）**：體能差距顯現。墨西哥24號Luis Chávez（Dynamo Moscow）抽筋下場，換上19號Gilberto Mora（Tijuana）——這是純本土替補，強度斷檔。英格蘭70分鐘破門：Reece James（Chelsea）右路傳中，Kane做球，Bellingham後插上低射1-0。墨西哥75分鐘扳平：Jiménez禁區內被Guéhi拉倒，VAR介入判點，Jiménez自己罰進1-1！英格蘭85分鐘絕殺：Saka右路內切傳中，Watkins前點蹭後柱，Kane補射2-1。\n\n## 為什麼是1-2不是3-0\n英格蘭陣容強但大賽首戰磨合不足，Guéhi+Stones中衛組合首次世界盃搭檔，定位球防守有隙。墨西哥主場+鐵桶+Jiménez做球能力，能偷一個或造點。但深度差距（替補上場後墨西哥只剩墨超球員，英格蘭還有Eze、Toney、Rashford）決定末段被壓死。\n\n## 什麼情況會翻盤\n英格蘭若上半場0-0後下半場繼續亂傳中、Bellingham被Lira犯規戰術搞毛領黃，墨西哥有機會複製2022沙烏地阿拉伯劇本：一次反擊+一次定位球，2-1爆冷。但這需要Guéhi或Stones重大失誤+Ochoa（雖然老了但還在名單）神撲——機率兩成，不押。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.18,
+              "D": 0.27,
+              "A": 0.55
+            },
+            "confidence": 0.72,
+            "key_risk": "墨西哥緊湊的低位防守，以及由 Chávez 或 Romo 操刀的定位球，創造出一次混亂的得分機會。",
+            "second_score": "0-2",
+            "contrarian_md": "最顯而易見的劇本是 England 以 3-0 或 4-0 橫掃實力有限的 Mexico，畢竟雙方在進攻數據上有 3.88 對 0.64 的巨大差距，且 England 陣中擁有 25 名頂級聯賽球員。然而，這種觀點忽略了 Mexico 在小組賽主場作戰時，可以採取 5-4-1 陣型，透過封鎖轉換進攻來製造對手挫折感，並利用 Jiménez 的一次閃光或定位球機會來決定勝負——這正是 2018 年 Germany 敗給 Korea，以及 2022 年 Argentina 輸給 Saudi Arabia 時所出現的典型模式。",
+            "signature_scene": "下半場第 68 分鐘：墨西哥隊 4 號 Edson Álvarez (Fenerbahçe) 在中場爭搶中勝出，隨即轉移球給 9 號 Raúl Jiménez (Fulham)，後者吸引兩名防守球員後回敲給 24 號 Luis Chávez (Dynamo Moscow)，Luis Chávez 起腳低射，皮球擦著門柱內側入網，比分扳平為 1-1。",
+            "reasoning_md": "英格蘭隊壓倒性的陣容深度與進攻數據應能勝出，但墨西哥隊在主場的組織能力將使比分維持在 1-2 的小輸局面，而非一場大勝。",
+            "script_md": "英格蘭隊從開賽哨響後便主導了控球權與場上區域，由 Bellingham 和 Rice 掌控節奏，而 Mexico 則採取防守陣型，以兩道緊湊的五人防線應對。英格蘭隊早期的決定性威脅來自於邊路的超載戰術——Saka 和 Eze 反覆孤立 Mexico 的邊後衛，導致第 34 分鐘時，Kane 在接獲回傳球後於近距離輕鬆破門。下半場 Mexico 保持陣型緊湊並伺機反擊，透過一段罕見的持續施壓，由 Chávez 以一記精彩的射門扳平比分。隨後英格蘭隊換上 Watkins 和 Gordon 注入活力，重新掌握比賽控制權，但 Mexico 門將 Rangel 始終將比分維持在膠著狀態，直到比賽尾聲 Kane 接應角球頭槌破門，最終以 1-2 鎖定勝局。由於 Mexico 的防守人數優勢以及主場觀眾的助威，使得比分維持在合理範圍內，否則以雙方實力差距，通常會出現三到四球的勝分差；若非一張紅牌或 Saka 再多一次精準的臨門一腳，比分本可能改寫為 0-3。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "第8場1/16決賽勝者",
+            "predicted_score": "0-2",
+            "win_prob": {
+              "H": 0.08,
+              "D": 0.12,
+              "A": 0.8
+            },
+            "confidence": 0.78,
+            "key_risk": "英格蘭後防線重組默契不足，若被墨西哥抓到反擊或定位球先破門，可能重演強隊落後後心態失衡的崩盤戲碼。",
+            "second_score": "1-3",
+            "contrarian_md": "主流敘事會說：英格蘭陣容身價碾壓、攻擊指數 3.88 對 0.64，這是一面倒的屠殺。我不完全買帳。英格蘭名單裡中後場充斥 Guéhi、Quansah、Konsa 這種剛湊起來的組合，沒有 Maguire 那種體系老搭檔，面對高壓主場容易出線溝通失誤。世界盃冷門史告訴我們：強隊翻車往往不是輸在實力，是輸在「以為穩了」的心態加上後防一次致命失誤。如果墨西哥靠主場氣勢在前 20 分鐘咬住甚至偷一個，英格蘭急躁起來什麼事都可能發生。",
+            "signature_scene": "下半場第 65 分鐘，英格蘭 10號 Bellingham（Real Madrid）在中場擺脫逼搶後送出直線，7號 Saka（Arsenal）右路切入禁區低傳，9號 Kane（Bayern München）近門推射破網，徹底澆熄主場反撲氣焰。",
+            "reasoning_md": "英格蘭贏，因為攻擊端質量與深度完全不在同一個檔次。墨西哥中後場幾乎沒有頂級聯賽骨架，撐不住整場高壓，但英格蘭後防重組意味著不會是大比分屠殺，2 球差距是合理上限。",
+            "script_md": "## 整體判讀\n英格蘭的攻擊指數 3.88 對墨西哥的 0.64，這不是「強隊贏球」的差距，是「不同運動」的差距。英格蘭板凳上坐著 Watkins、Toney、Rashford 這種在其他國家隊是絕對主力的前鋒，墨西哥連拿得出頂級聯賽資料的球員都只有 8 個人。但這場不會是屠殺，因為英格蘭後防線是臨時拼裝品。\n\n## 關鍵對位\n墨西哥唯一能威脅的是 9號 Raúl Jiménez（Fulham FC），xG90 0.38 在英超算堪用，但他面對的將是 4號 Rice（Arsenal FC）領銜的中場屏障——Rice 的關鍵傳球90 1.30、射門90 1.60，攻防兩端都壓制墨西哥中場。墨西哥中場核心 8號 Fidalgo（Real Betis）射門90 才 0.66，沒有頂級聯賽 xG 資料，說明他在這個層級的終結威脅接近零。墨西哥後防 5號 Vásquez（Genoa CFC）是少數在五大聯賽站穩的，但他一個人擋不住 Kane（xG90 1.04）和 Saka（xG90 0.51）的輪番衝擊。\n\n## 比賽劇本\n- **早段（0-25 分鐘）**：墨西哥靠主場氣勢高位壓迫，試圖用體能攪和。英格蘭後防 Guéhi-Quansah 組合第一次搭檔大賽，前 15 分鐘會有幾次傳球失誤，墨西哥拿到 1-2 個定位球機會但不會轉化。\n- **中段（25-60 分鐘）**：英格蘭站穩節奏，Rice 和 Bellingham 開始控制中場。Kane 回撤組織，拉扯墨西哥防線。第一個進球大機率在 35-45 分鐘之間到來，Saka 或 Kane 其中一人。\n- **末段（60-90 分鐘）**：西哥被迫壓上，英格蘭換上 Watkins 或 Toney 打反擊。第二個進球來自反擊，墨西哥全線壓上後被一刀捅穿。\n\n## 為什麼是 0-2\n英格蘭攻擊火力足以打穿墨西哥防線 2-3 次，但後防重組的默契問題意味著他們不會零封——然而墨西哥的鋒線 Jiménez 和 Giménez（AC Milan）在面對頂級中衛時的轉化率不夠看，最終可能 1-2 個機會只抓進 0 個。0-2 是最合理的落點：英格蘭贏得乾淨但不華麗，墨西哥輸得體面但無懸念。\n\n## 什麼情況會翻盤\n如果英格蘭開場 10 分鐘內因為後防失誤丟一個，然後全隊開始急躁單打獨鬥（Bellingham 和 Kane 搶點球權那種戲碼），墨西哥死守反擊偷 1-1 不是不可能。但這需要英格蘭同時犯「落後+心態崩+後防再送一個」三個錯，機率很低。"
+          }
+        ]
+      },
       "correct": null
     },
     {
@@ -6999,7 +7535,141 @@
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "第12場1/16決賽勝者",
+        "win_prob": 0.449,
+        "agree": "7/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.26,
+              "D": 0.24,
+              "A": 0.5
+            },
+            "confidence": 0.61,
+            "key_risk": "葡萄牙的轉換進攻（17號 Rafael Leão + 18號 Pedro Neto）有效利用了西班牙邊後衛過於激進的站位，加上 9號 Gonçalo Ramos 全場大量的射門嘗試，成功扭轉了終結效率的變數。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點：「伊比利亞半島的棋局對決——西班牙掌握球權，葡萄牙坐擁球星，戰況膠著，大概率會以平局收場。」\n\n我為何不完全認同：兩隊在進攻端的實際產出差距並不小——西班牙每場比賽的預期貢獻值（4.27）遠高於葡萄牙（1.94），且西班牙的創造機會能力分散在多名威脅點上（17號 Nico Williams、19號 Lamine Yamal、7號 Ferran Torres、20號 Pedri、16號 Rodri），因此你無法只靠「鎖死一人」來防守。葡萄牙若誤以為能靠「受讓與反擊」撐過 90 分鐘，最終反而可能因為西班牙一波接一波的攻勢而連丟兩球，導致全盤皆輸。\n\n如果這場比賽出現爆冷，那將會是世界盃經典劇本的翻版：強勢的一方浪費機會，隨後被對手透過一次攻守轉換或定位球偷襲得手（參考 2022 年阿根廷對陣沙烏地阿拉伯）。葡萄牙絕對具備執行這種戰術的球員類型，但西班牙的陣容深度與進攻頻率，使他們成為更有可能獲勝的一方。",
+            "signature_scene": "下半場，Spain 在左路發動超載進攻：3 號 Álex Grimaldo (Bayer 04 Leverkusen) 將球傳入中路給 20 號 Pedri (FC Barcelona)，後者一腳觸球傳給 17 號 Nico Williams (Athletic Club)，Nico Williams 隨即甩開 5 號 Diogo Dalot 並橫傳給 7 號 Ferran Torres (FC Barcelona) 輕鬆推射破門——比分來到 2-1，Portugal 只能在後苦苦追趕。",
+            "reasoning_md": "Spain 以 2-1 勝出，因為他們創造了遠多於對手的機會，且陣中擁有眾多進攻發起者與終結者；而 Portugal 的威脅雖然真實存在，但更依賴於瞬間的爆發力與把握度。",
+            "script_md": "### 整體分析\n- 根據數據顯示，Spain 是進攻端更為犀利的機器：擁有更高的球隊進攻指數（3.69 對 2.96）以及巨大的機會產出訊號（4.27 對 1.94）。這通常能在 90 分鐘內轉化為進球。\n- Portugal 並不弱——9 號 Gonçalo Ramos (PSG) 和 11 號 João Félix (Al Nassr) 都是具備高 xG（預期進球）能力的頂尖終結者——但 Spain 擁有更多進攻手段，且板凳深度更為雄厚。\n\n### 關鍵對位\n- **Spain 邊路威脅 vs Portugal 邊後衛：** 17 號 Nico Williams (Athletic Club) 和 19 號 Lamine Yamal (FC Barcelona) 在 5 號 Diogo Dalot 和 2 號 Nélson Semedo 周圍的空間進行衝擊，這是 Spain 將控球轉化為實質射門的關鍵。\n- **Portugal 的反擊槓桿：** 如果 8 號 Bruno Fernandes (Manchester United) 能儘早將球傳給 17 號 Rafael Leão (AC Milan) 或 18 號 Pedro Neto (Chelsea)，Spain 位置靠前的邊後衛（3 號 Álex Grimaldo / 12 號 Pedro Porro）可能會受到懲罰。\n- **中場控制：** 16 號 Rodri (Manchester City) 加上 20 號 Pedri 應能確保 Spain 即使在 Portugal 發動攻勢時也能保持穩定；Portugal 的最佳希望是製造混亂，而非爭奪控制權。\n\n### 比賽劇本（開局 → 中段 → 尾聲）\n- 開局階段，Spain 佔據地盤並在禁區周圍堆疊傳球；Portugal 則採取防守姿態，尋找 Bruno 傳給 Leão 的第一次反擊機會。Spain 的首個進球將來自持續的施壓，而非奇蹟——這會是那種球不斷回傳、進行第二波進攻時所產生的進球。\n- Portugal 會做出回應，因為他們確實擁有終結者：一次快速轉換進攻以 Ramos (9 號 Gonçalo Ramos) 的機會告終，他們很可能會把握住一次機會——無論是低平球傳中破門，還是由 Bruno 創造的射門。\n- 差異在於第二波攻勢：Spain 透過 15 號 Álex Baena、10 號 Dani Olmo 以及邊鋒群持續創造機會，隨著 Portugal 體能下降且反擊變得草率，Spain 將在下半場找到致勝球。\n\n### 為何預測此比分\n- 2-1 符合世界盃的現實：比分膠著，總進球數在 2-3 球之間，但 Spain 憑藉更優異的進攻量與板凳深度，在關鍵時刻多把握住了一次機會。\n\n### 什麼情況會翻盤\n- 如果 Portugal 先進球且 Diogo Costa 表現神勇，Spain 可能會陷入「我們控球率佔優但……」的經典困境——加上一次冷酷的反擊（Leão/Neto）以及 3 號 Rúben Dias 在定位球上的機會，這場比賽可能會變成 Portugal 以 1-0 或 2-1 偷襲得手的結果。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.31,
+              "D": 0.28,
+              "A": 0.41
+            },
+            "confidence": 0.55,
+            "key_risk": "葡萄牙的主場優勢 + Gonçalo Ramos/João Félix 在開賽初期把握住幾次機會，而西班牙則陷入過度傳導、最終撞上防守高牆的困境。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的觀點：西班牙的中場（Pedri、Rodri、Zubimendi、Baena）是本屆賽事最強的，指數為 3.69 對上葡萄牙的 2.96，他們掌握球權，他們就能贏。我有一半認同——但問題在於：西班牙真正的**進球**來自於邊路/輪換前鋒（Ferran 0.47、Oyarzabal 0.42，兩者皆非巴薩體系球員）——他們創造了大量機會卻進球寥寥，這正是西班牙在 2022 年世界盃被摩洛哥點球淘汰的經典缺陷。葡萄牙若有 Ramos（0.63）和 Félix（0.52）坐鎮，他們不需要 15 次機會，只需要兩次。這正是那種「每個人都覺得很穩」的時刻——一支無法終結比賽的控球型球隊，可能會在 Nuno Mendes 或 Leão 的一次反擊中被突襲。我傾向西班牙，但這場比賽**絕不輕鬆**，平局的可能性非常高。",
+            "signature_scene": "下半場約 65 分鐘，Spain 在 Portugal 半場圍攻但毫無建樹——Nuno Mendes (No.25) 攔截了 Grimaldo 的一次傳球失誤，隨即在左路發動反擊並傳給 Rafael Leão (No.17)，Leão 橫傳助攻 Gonçalo Ramos (No.9) 追平比分。隨後 Spain 在比賽末段施壓，Pedri (No.20) 送出直塞球找到 Oyarzabal (No.21)，後者攻破 Diogo Costa 的大門完成絕殺。",
+            "reasoning_md": "西班牙憑藉中場控制力與更深厚的板凳深度（26人名單中25人有數據，對比葡萄牙的20人）略佔上風，但葡萄牙擁有主場優勢且前鋒群極具威脅，這場比賽將會是一場比分膠著、令人緊張的賽事——我預測西班牙以 2-1 勝出。",
+            "script_md": "**整體解讀：** 西班牙掌控中場——Pedri、Rodri、Zubimendi 和 Baena 的傳球能力將勝過由 Vitinha、Bruno 和 Bernardo 組成的葡萄牙引擎，且西班牙的板凳深度更厚（26 人名單中有 25 人擁有頂級聯賽數據）。然而，西班牙的火力較為分散且臨門一腳稍顯不足；反觀葡萄牙的火力集中且高效，擁有 Ramos（0.63）與 Félix（0.52）兩大箭頭。\n\n**關鍵對位：** 比賽勝負取決於葡萄牙邊路對抗西班牙邊後衛——Rafael Leão（17 號）與 Nuno Mendes（25 號）對陣 Pedro Porro/Pubill 的組合，是葡萄牙反擊的生命線。在中路，Rúben Dias 必須嚴加看管 Ferran Torres（7 號）與 Oyarzabal（21 號）；若葡萄牙的壓迫被 Pedri（20 號）破解，這將會是漫長的一夜。\n\n**比賽劇本：** 西班牙開局掌握控球權，但身為地主的葡萄牙不會消極退守——預計上半場會陷入膠著，比分可能是 0-0，或是西班牙在非受迫情況下取得領先。西班牙透過 Ferran/Oyarzabal 的進球或定位球取得優勢，葡萄牙隨後以 Leão 助攻 Ramos 的反擊扳平比分，比賽在後段進入開放對攻。西班牙替補球員更佳的體能與中場控制力將助其攻入致勝球。\n\n**為何預測 1-2：** 兩名高效前鋒讓葡萄牙保有競爭力，但西班牙擁有更多進球途徑與控制力——多出的 20-30 分鐘施壓將成為關鍵。這是一個符合世界盃水準、一球之差的現實預測。\n\n**變數：** 若 Ramos 或 Félix 把握住開局機會，且在 Dias 的指揮下葡萄牙採取鐵桶陣，西班牙過於繁瑣的進攻可能會讓葡萄牙以 1-0 偷襲得手或逼平對手。這正是 2022 年摩洛哥的贏球藍圖，也是為何這場比賽並非穩操勝券的原因。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.3,
+              "A": 0.45
+            },
+            "confidence": 0.65,
+            "key_risk": "葡萄牙反擊效率與主場氣勢可能抵消西班牙控球優勢，若西班牙遲遲無法破門，平局或葡萄牙小勝風險升高。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會說西班牙陣容深度和攻擊力遠勝葡萄牙，小組賽將輕鬆取勝。但我不完全買賬，因為葡萄牙擁有主場優勢，且西班牙的防線在面對速度型邊鋒時常有漏洞，2018世界盃西班牙就被葡萄牙逼平，當時C羅帽子戲法。如今葡萄牙雖無C羅巔峰，但Leão和Neto的衝擊力可能讓西班牙邊後衛吃盡苦頭。此外，西班牙在大賽中常有得勢不得分的毛病，若久攻不下，急躁情緒可能導致失誤。",
+            "signature_scene": "下半場第68分鐘，葡萄牙17號 Rafael Leão（AC Milan）左路突破西班牙2號 Marc Pubill（Atlético De Madrid）後低平球傳中，9號 Gonçalo Ramos（Paris Saint-Germain）前點搶射破門，葡萄牙扳平比分。",
+            "reasoning_md": "西班牙整體實力佔優，但葡萄牙主場作戰且反擊犀利，預計西班牙將艱難取勝，比分不會大。",
+            "script_md": "① 整體判讀：西班牙陣容攻擊實力指數3.69遠高於葡萄牙的2.96，中場由Rodri、Pedri掌控，前場多人有得分能力；葡萄牙反擊速度極快，Leão、Neto兩翼衝擊力強，主場作戰絕非待宰羔羊。\n② 關鍵對位：葡萄牙左路17號Rafael Leão對上西班牙右後衛2號Marc Pubill將是爆點，Pubill防守硬度不足，Leão的突破可能製造殺機；西班牙16號Rodri需限制葡萄牙8號Bruno Fernandes的後插上遠射，否則禁區外圍會有漏洞。\n③ 比賽劇本：開場西班牙控球主導，葡萄牙收縮半場。上半場西班牙10號Dani Olmo遠射中柱，19號Lamine Yamal內切射門被撲，半場0-0。下半場西班牙加壓，第55分鐘7號Ferran Torres接Álex Grimaldo傳中頭球破門，0-1。葡萄牙被迫壓出，第68分鐘反擊中Leão傳中造成混亂，9號Gonçalo Ramos撿漏扳平，1-1。西班牙全力進攻，第82分鐘替補上場的21號Mikel Oyarzabal禁區內被犯規獲點球，Rodri主罰命中，1-2。\n④ 為什麼是這個比分：西班牙攻擊點分散，但葡萄牙防守韌性足且主場能進球，2-1是典型的強強對話劇本，雙方各打半場好球。\n⑤ 翻盤情況：若葡萄牙上半場利用反擊先入球，西班牙可能心態急躁，葡萄牙全線退守，有機會守成1-0爆冷；或者西班牙久攻不下，0-0平局收場。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.28,
+              "A": 0.47
+            },
+            "confidence": 0.65,
+            "key_risk": "葡萄牙頂尖的轉換進攻（由 **Bruno Fernandes** 傳給 **Rafael Leão**）完全繞過了西班牙的中場壓迫，將控球權轉化為西班牙隊的劣勢。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的論點是，西班牙壓倒性的預期進球貢獻（4.27）以及對中場的壟斷將會讓 Portugal 窒息。但控球並不總是等於突破，尤其是在伊比利半島德比中。如果 Spain 投入過多兵力，他們將會為 Rafael Leão 和 Pedro Neto 留下大片空檔。我們曾在 2022 年目睹 Spain 對陣 Morocco 時因過度傳導而陷入困境；如果 Portugal 願意放下身段，由 Rúben Dias 坐鎮後防進行深度防守，並完全仰賴 Bruno Fernandes 的長傳調度，那麼 Spain 的高位防線可能會成為他們自掘墳墓的關鍵。",
+            "signature_scene": "第 65 分鐘：西班牙隊在葡萄牙隊禁區外圍圍攻。Rodri 的射門被 Rúben Dias 擋出，球落到了 Bruno Fernandes 腳下。Bruno 在沒有看人的情況下，直接發動了一記 40 碼的長距離斜傳給 Rafael Leão，Leão 成功單挑 Pedro Porro，隨後加速過掉對手，迫使 Unai Simón 做出了一次狼狽的撲救。",
+            "reasoning_md": "西班牙在進攻數據與創造機會的能力上佔有絕對優勢，但 Portugal 憑藉球員個人的反擊天賦，確保了這場伊比利半島德比戰將會是一場膠著且競爭激烈的比賽。",
+            "script_md": "- **整體分析：** 西班牙帶著驚人的底層數據進入本場比賽（每場比賽預期貢獻值為 4.27），這歸功於他們能掌控全局的中場，以及能拉開球場空間的邊鋒群。葡萄牙擁有頂尖的個人天賦（Bruno Fernandes、Rafael Leão），但整體的進攻輸出明顯較低（1.94）。\n- **關鍵對位：** 勝負關鍵在於邊路。西班牙的 Nico Williams 和 Lamine Yamal 將考驗葡萄牙的進攻型邊後衛 Nuno Mendes 和 João Cancelo。如果 Cancelo 壓得太靠前，Williams 將會予取予求。反過來說，Leão 面對 Pedro Porro 的突破是葡萄牙最具威脅的武器。\n- **比賽劇本：** 西班牙將從開賽起就壟斷球權，將葡萄牙壓制在半場，並透過 Pedri 和 Álex Baena 進行試探。預計西班牙會先馳得點，很可能是透過倒三角回傳，由 Ferran Torres 或 Dani Olmo 完成射門。葡萄牙將被迫在下半場放棄防守陣型，換上 Pedro Neto 和 João Félix 追趕比分，這將導致最後 20 分鐘呈現開放且混亂的局面。\n- **比分預測原因：** 西班牙創造機會的數量龐大到無法忽視，但葡萄牙的火力（Bruno Fernandes 每 90 分鐘 3.26 次關鍵傳球）保證了他們不會被零封。1-2 的客勝比分反映了西班牙的體系優勢，同時也尊重了葡萄牙的進攻威脅。\n- **可能翻盤的因素：** 如果葡萄牙透過 Gonçalo Ramos 的頭槌或 Leão 的快攻在逆勢中先取得進球，西班牙可能會因此感到挫折、過度壓上，進而遭到反擊撕裂防線。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.28,
+              "D": 0.31,
+              "A": 0.41
+            },
+            "confidence": 0.68,
+            "key_risk": "葡萄牙邊路反擊一旦打穿西班牙高位丟球，瞬間就變單刀；若西班牙前20分鐘沒先進球，士氣會被客隊球迷壓回去。",
+            "second_score": "1-1",
+            "contrarian_md": "主流敘事：西班牙控球＋火力3.69碾壓葡萄牙2.96，穩吃。我不買賬：葡萄牙這批邊鋒（17號Leão、18號Neto、26號Conceição）全是單挑怪，西班牙兩個邊衛3號Grimaldo、24號Cucurella身後空檔大，世界盃上高位被打身後翻車的案例還少？2022德國就是這麼被日本逆推。",
+            "signature_scene": "下半場58分鐘，西班牙剛換上21號Oyarzabal想收比賽，葡萄牙17號Leão左路硬吃Cucurella下底橫掃，9號Ramos門前鏟射追平1-1，全場紅潮瞬間壓過綠潮。",
+            "reasoning_md": "西班牙火力更分散、預期進球4.27遠高葡萄牙1.94，但葡萄牙邊路反擊能咬人；最終西班牙多一口氣，2-1帶走。",
+            "script_md": "- 整體：西班牙中場六人輪轉（16號Rodri+8號Fabián+20號Pedri）控球率65%起跳，但前場壓得高，兩個邊衛身後是真空；葡萄牙退5-4-1，靠17號Leão+18號Neto打反擊，xG瞬間0.4的單刀兩回合就能撿一次。\n- 關鍵對位：西班牙14號Laporte前插時，葡萄牙9號Ramos會貼著他跑，Ramos速度不吃虧；另一側3號Grimaldo壓上後身後大片草原，18號Neto+Chelsea隊友5號Dalot套邊2打1，是葡萄牙最有可能爆點的路線。\n- 劇本：上半場西班牙20分鐘內靠10號Olmo禁區前沿撞射先開紀錄，1-0；領先後他們慣性收慢，葡萄牙57分鐘抓Grimaldo失位，Leão反擊助攻Ramos鏟射扳平1-1；78分鐘西班牙第二波高位逼搶搶回球權，21號Oyarzabal左腳抽近角，2-1鎖定。\n- 為啥這比分：西班牙創造機會多一倍，但葡萄牙反擊效率夠高，不會被拉開到兩球以上；最終多一口氣的還是西班牙。\n- 翻盤情景：若葡萄牙先進球，他們會全隊退回禁區擺大巴，西班牙外圍遠射不開胡就可能被0-1悶死；或者Cristiano後備上場頭槌砸進一個定位球，老將殺舊主戲碼也能翻。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.32,
+              "D": 0.28,
+              "A": 0.4
+            },
+            "confidence": 0.68,
+            "key_risk": "葡萄牙由 Bruno Fernandes 操刀的定位球傳中，成功打穿了西班牙的防線高位。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為，Spain 較高的陣容指數（3.69 對 2.96）與預期貢獻值（4.27 對 1.94）使他們成為明顯的熱門。然而這忽略了 Portugal 在主場可以透過 Vitinha 和 Bruno Fernandes 堆疊中場，從而削弱 Spain 的組織進攻；這正是 2018 年 Germany 和 2022 年 Argentina 在被看好能「輕鬆取勝」時，卻反而落入的陷阱。",
+            "signature_scene": "下半場第 65 分鐘：西班牙隊 16 號 Rodri (Manchester City) 在中場贏得一顆鬆散球權，隨即傳給 17 號 Nico Williams，後者內切晃過 5 號 Diogo Dalot，並以低射擊敗 Diogo Costa 入網。",
+            "reasoning_md": "西班牙獲勝的原因在於他們的進攻深度與貢獻數據明顯更勝一籌；Portugal 在 90 分鐘的比賽中缺乏與之抗衡的火力。",
+            "script_md": "西班牙在陣容進攻指數與預期貢獻度上佔有明顯優勢，這讓他們能透過 Rodri、Pedri 和 Gavi 等中場球員掌控比賽節奏。葡萄牙的主要威脅來自 Gonçalo Ramos 和 João Félix，但除了 Ronaldo 之外，其餘支援球員缺乏在頂級聯賽中穩定的輸出。比賽初期，西班牙採取高位壓迫，並由 Grimaldo 與 Cucurella 進行邊路重疊進攻；葡萄牙則採取緊湊防守，並尋求 Bruno Fernandes 的斜線長傳。比賽中段，西班牙在 Rodri 奪回球權後，由 Nico Williams 打破僵局。比賽末段，葡萄牙換上 Leão 和 Neto 發動反撲，但西班牙憑藉板凳深度（Oyarzabal、Olmo）透過反擊鎖定勝局。1-2 的比分符合世界盃常見的勝負差距；若葡萄牙想獲勝，則必須仰賴西班牙的創意核心（Pedri、Yamal）當天完全失常。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "第12場1/16決賽勝者",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.25,
+              "A": 0.5
+            },
+            "confidence": 0.65,
+            "key_risk": "西班牙中後場過度自信的傳控在葡萄牙高壓逼搶下發生致命失誤，被葡萄牙抓反擊偷走勝利。",
+            "second_score": "1-1",
+            "contrarian_md": "主流名氣會覺得這是五五波的伊比利內戰，甚至因為葡萄牙有C羅、B費、Leão等大牌，認為葡萄牙主場能抗衡。但我完全不買單這套敘事。看資料：西班牙陣容深度25/26人有頂級聯賽資料，攻擊指數3.69碾壓葡萄牙的2.96，本屆預期貢獻4.27更是葡萄牙1.94的兩倍有餘。葡萄牙的鋒線Ramos和Félix都在沙烏地聯賽踢球，面對頂級防線的實戰強度存疑。主流容易被葡萄牙的星味騙了，但實際上西班牙的中場控制力（Rodri、Pedri、Baena）和邊路爆發力（Nico Williams、Lamine Yamal）才是真正能主宰比賽的武器。歷史冷門如2022德國輸日本，強隊就是輕敵被反擊打穿——但這場相反，是大家高估了葡萄牙的星味，低估了西班牙的體系完整性。",
+            "signature_scene": "下半場60分鐘左右，西班牙11號 Nico Williams（Athletic Club）在左路拿球，葡萄牙2號 Nélson Semedo（Fenerbahçe）一對一防守被速度硬吃，Williams切入禁區後橫傳，10號 Dani Olmo（FC Barcelona）跟進推射破網，西班牙2-1超前。Semedo的俱樂部層級和Williams差太多，這個對位就是西班牙的提款機。",
+            "reasoning_md": "西班牙贏。中場控制力和邊路速度是決勝點，葡萄牙鋒線在沙烏地聯賽的進球資料灌水嚴重，面對西班牙體系防線打不出來。比分壓在1-2，一球差最寫實。",
+            "script_md": "## 整體判讀\n西班牙的陣容深度和體系完整性明顯優於葡萄牙。攻擊指數3.69 vs 2.96，本屆預期貢獻4.27 vs 1.94，差距不是星味能彌補的。西班牙中場有Rodri坐鎮、Pedri組織、Baena輸送，這條中場線在世界盃是頂級配置。葡萄牙的中場雖然有B費和Bernardo Silva，但整體控球能力和西班牙不是一個檔次。\n\n## 關鍵對位\n- 葡萄牙2號 Nélson Semedo（Fenerbahçe）vs 西班牙11號 Nico Williams（Athletic Club）：Semedo在土超踢球，面對Williams的速度和爆發力會非常吃力。這是西班牙最大的突破口。\n- 葡萄牙中衛3號 Rúben Dias（Manchester City）vs 西班牙7號 Ferran Torres（FC Barcelona）：Dias穩，但Torres的跑位和xG90 0.47的效率會給他製造麻煩。\n- 葡萄牙9號 Gonçalo Ramos（PSG）vs 西班牙22號 Pau Cubarsí（FC Barcelona）：Ramos的xG90 0.63看起來嚇人，但Cubarsí的閱讀比賽能力能限制他。\n\n## 比賽劇本\n- **早段（0-20分）**：西班牙控球為主，葡萄牙收縮打反擊。B費嘗試長傳找Leão，但西班牙中場壓制力讓葡萄牙很難組織。\n- **中段（20-60分）**：西班牙透過邊路Williams和Yamal輪番衝擊葡萄牙防線。上半場35分鐘左右，西班牙先進球，可能是Pedri直塞，Oyarzabal或Ferran Torres完成破門。葡萄牙落後後被迫壓上，B費遠射或定位球製造威脅。\n- **末段（60-90分）**：葡萄牙換人加強進攻，可能靠定位球或反擊扳平一次，但西班牙在70分鐘左右靠Williams左路突破傳中，Olmo或替補上場的球員再進一球鎖定勝局。\n\n## 為什麼是1-2\n一球差最寫實。葡萄牙主場不會毫無還手之力，B費的關鍵傳球（3.26次/90分鐘）和Leão的反擊能力能製造一次破門。但西班牙的整體進攻火力更分散、更持續，進2球的能力完全有。世界盃小組賽強隊贏弱隊1球是最常見的結果。\n\n## 什麼情況會翻盤\n如果西班牙開場就因為後場傳控失誤被葡萄牙抓反擊先丟球，比賽節奏會被打亂。Rodri雖然穩，但西班牙後防線的Eric García和Cucurella都有冒險傳球的習慣，一旦被B費斷球長傳Leão，葡萄牙可能偷走1-0或1-1。另外如果Cubarsí年輕經驗不足在禁區犯規送點，葡萄牙也有機會靠死球戰術翻盤。"
+          }
+        ]
+      },
       "correct": null
     },
     {
