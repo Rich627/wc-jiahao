@@ -144,7 +144,8 @@ function taipeiDateKeys(offsetDays) {
     return d.toISOString().slice(0, 10);
 }
 function threeDayWindowKeys() {
-    return [taipeiDateKeys(-1), taipeiDateKeys(0), taipeiDateKeys(1)];
+    // Rich (2026-07-07): forward-looking window — today, tomorrow, day-after — not centered on today.
+    return [taipeiDateKeys(0), taipeiDateKeys(1), taipeiDateKeys(2)];
 }
 
 function fmtDateHeading(key) {
@@ -208,10 +209,22 @@ const carousel = {
 
 function carouselSlideHtml(match) {
     const p = match.my_prediction;
-    const pickLabel = SEL_LABEL[p.consensus_selection] || p.consensus_selection || '';
-    const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
-    const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
-    const agree = p.agree || ((p.models ? p.models.length : 0) + ' models');
+    const predictionRow = p
+        ? (() => {
+            const pickLabel = SEL_LABEL[p.consensus_selection] || p.consensus_selection || '';
+            const pickClass = SEL_CLASS[p.consensus_selection] || 'pick-draw';
+            const winPct = p.win_prob != null ? Math.round(p.win_prob * 100) + '%' : '—';
+            const agree = p.agree || ((p.models ? p.models.length : 0) + ' models');
+            return `<div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 flex-wrap">
+            <span class="pick-chip ${pickClass} text-sm px-3 py-1.5">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
+            <span class="text-text-muted text-xs font-mono">勝率 ${winPct}</span>
+            <span class="text-text-muted text-xs font-mono">預測比分 ${esc(p.predicted_score || '—')}</span>
+            <span class="text-text-muted text-xs font-mono">${esc(agree)} 認同</span>
+          </div>`;
+        })()
+        : `<div class="flex items-center justify-center">
+            <span class="pick-chip pick-draw text-sm px-3 py-1.5">尚未預測</span>
+          </div>`;
     return `<div class="carousel-slide" data-match="${esc(match.match_id)}" role="group" aria-label="${esc(match.home)} vs ${esc(match.away)}">
         <div class="carousel-card">
           <div class="flex items-center justify-between mb-4">
@@ -232,12 +245,7 @@ function carouselSlideHtml(match) {
           <div class="text-center text-text-muted text-xs font-mono mb-4">
             ${esc(dateKey(match.kickoff_tw))} ${esc(fmtTime(match.kickoff_tw))} (台灣時間)
           </div>
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 flex-wrap">
-            <span class="pick-chip ${pickClass} text-sm px-3 py-1.5">Master 共識：${esc(pickLabel)}${p.consensus_team ? ' · ' + esc(p.consensus_team) : ''}</span>
-            <span class="text-text-muted text-xs font-mono">勝率 ${winPct}</span>
-            <span class="text-text-muted text-xs font-mono">預測比分 ${esc(p.predicted_score || '—')}</span>
-            <span class="text-text-muted text-xs font-mono">${esc(agree)} 認同</span>
-          </div>
+          ${predictionRow}
         </div>
       </div>`;
 }
@@ -288,8 +296,9 @@ function carouselRestartTimer() {
 function renderCarousel() {
     const el = document.getElementById('carousel-section');
     if (!el) return;
+    const windowKeys = threeDayWindowKeys();
     const matches = state.matches
-        .filter(m => m.my_prediction && m.my_prediction.models && m.my_prediction.models.length && !isFinished(m))
+        .filter(m => !isFinished(m) && windowKeys.includes(dateKey(m.kickoff_tw)))
         .sort((a, b) => (a.kickoff_tw || '').localeCompare(b.kickoff_tw || ''));
     carousel.matches = matches;
     if (!matches.length) { el.innerHTML = ''; return; }
