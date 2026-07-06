@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T17:31:56+08:00",
+  "generated_at": "2026-07-06T12:26:39+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -6948,8 +6948,8 @@
       "away": "摩洛哥",
       "kickoff_tw": "2026-07-05 01:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -7086,7 +7086,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328017",
@@ -7094,8 +7094,8 @@
       "away": "法國",
       "kickoff_tw": "2026-07-05 05:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -7232,20 +7232,20 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328019",
-      "home": "第4場1/16決賽勝者",
-      "away": "第6場1/16決賽勝者",
+      "home": "巴西",
+      "away": "挪威",
       "kickoff_tw": "2026-07-06 04:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
-        "consensus_team": "第6場1/16決賽勝者",
+        "consensus_team": "挪威",
         "win_prob": 0.453,
         "agree": "6/7 models",
         "predicted_score": "1-2",
@@ -7253,7 +7253,7 @@
           {
             "name": "GPT",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.31,
@@ -7271,7 +7271,7 @@
           {
             "name": "Claude",
             "selection": "HOME",
-            "selection_team": "第4場1/16決賽勝者",
+            "selection_team": "巴西",
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.44,
@@ -7289,7 +7289,7 @@
           {
             "name": "DeepSeek",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.25,
@@ -7307,7 +7307,7 @@
           {
             "name": "Gemini",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.3,
@@ -7325,7 +7325,7 @@
           {
             "name": "Kimi",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.35,
@@ -7343,7 +7343,7 @@
           {
             "name": "Grok",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.32,
@@ -7361,7 +7361,7 @@
           {
             "name": "GLM",
             "selection": "AWAY",
-            "selection_team": "第6場1/16決賽勝者",
+            "selection_team": "挪威",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.25,
@@ -7378,20 +7378,20 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328020",
-      "home": "第7場1/16決賽勝者",
-      "away": "第8場1/16決賽勝者",
+      "home": "墨西哥",
+      "away": "英格蘭",
       "kickoff_tw": "2026-07-06 08:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
-        "consensus_team": "第8場1/16決賽勝者",
+        "consensus_team": "英格蘭",
         "win_prob": 0.648,
         "agree": "6/7 models",
         "predicted_score": "1-2",
@@ -7399,7 +7399,7 @@
           {
             "name": "GPT",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "0-2",
             "win_prob": {
               "H": 0.1,
@@ -7417,7 +7417,7 @@
           {
             "name": "Claude",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.2,
@@ -7453,7 +7453,7 @@
           {
             "name": "Gemini",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.15,
@@ -7471,7 +7471,7 @@
           {
             "name": "Kimi",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.08,
@@ -7489,7 +7489,7 @@
           {
             "name": "Grok",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.18,
@@ -7507,7 +7507,7 @@
           {
             "name": "GLM",
             "selection": "AWAY",
-            "selection_team": "第8場1/16決賽勝者",
+            "selection_team": "英格蘭",
             "predicted_score": "0-2",
             "win_prob": {
               "H": 0.08,
@@ -7524,12 +7524,12 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328021",
-      "home": "第11場1/16決賽勝者",
-      "away": "第12場1/16決賽勝者",
+      "home": "葡萄牙",
+      "away": "西班牙",
       "kickoff_tw": "2026-07-07 03:00",
       "stage": "1/8決賽",
       "status": "未開賽",
@@ -7537,7 +7537,7 @@
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
-        "consensus_team": "第12場1/16決賽勝者",
+        "consensus_team": "西班牙",
         "win_prob": 0.449,
         "agree": "7/7 models",
         "predicted_score": "1-2",
@@ -7545,7 +7545,7 @@
           {
             "name": "GPT",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.26,
@@ -7563,7 +7563,7 @@
           {
             "name": "Claude",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.31,
@@ -7581,7 +7581,7 @@
           {
             "name": "DeepSeek",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.25,
@@ -7599,7 +7599,7 @@
           {
             "name": "Gemini",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.25,
@@ -7617,7 +7617,7 @@
           {
             "name": "Kimi",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.28,
@@ -7635,7 +7635,7 @@
           {
             "name": "Grok",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.32,
@@ -7653,7 +7653,7 @@
           {
             "name": "GLM",
             "selection": "AWAY",
-            "selection_team": "第12場1/16決賽勝者",
+            "selection_team": "西班牙",
             "predicted_score": "1-2",
             "win_prob": {
               "H": 0.25,
@@ -7674,14 +7674,148 @@
     },
     {
       "match_id": "54328022",
-      "home": "第9場1/16決賽勝者",
-      "away": "第10場1/16決賽勝者",
+      "home": "美國",
+      "away": "比利時",
       "kickoff_tw": "2026-07-07 08:00",
       "stage": "1/8決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "AWAY",
+        "consensus_team": "比利時",
+        "win_prob": 0.459,
+        "agree": "7/7 models",
+        "predicted_score": "1-2",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.24,
+              "D": 0.26,
+              "A": 0.5
+            },
+            "confidence": 0.58,
+            "key_risk": "如果 Lukaku 真的從板凳出發，比利時的早期進攻將會受挫；若美國隊能透過高位壓迫限制 De Bruyne 並造成對手失誤，比利時防守不穩的比賽狀態（他們上一場才以 3-2 險勝 Senegal）就有可能翻盤，讓美國隊在主場取勝。",
+            "second_score": "1-1",
+            "contrarian_md": "**顯而易見的論點：** Belgium 擁有較高的進攻指數（3.03）、陣容深度更佳的頂級聯賽球員，以及 Courtois 和 De Bruyne——因此他們理應掌控比賽並獲勝。\n\n**為什麼我並不完全買單：** Belgium 的「掌控」顯得混亂——對陣 Senegal 時丟掉 2 球是一個警訊，顯示他們的後防線並非無懈可擊，且由於 **Lukaku 沒有先發**，他們失去了一個能緩解壓力的簡單出口。US 擁有實打實的前場 xG（Balogun 0.66/90），加上高產量的創造者 Reyna（2.64 次關鍵傳球/90）：這正是「穩贏」的熱門球隊在小組賽中翻船的典型方式（參見 **2022 年 Argentina 對陣 Saudi Arabia**）。如果比賽演變成攻守轉換的節奏，而非 Belgium 的控球戰，US 絕對有機會偷走勝利。",
+            "signature_scene": "下半場約 70 分鐘：Belgium 終於拉開了防守陣型——7 號 Kevin De Bruyne 傳出一記斜線球至右半空間，15 號 Thomas Meunier 跟進並直接起腳傳中，替補上場的 9 號 Romelu Lukaku 憑藉充沛體力，以一記強力的頭槌攻入致勝球。",
+            "reasoning_md": "比利時以 2-1 小勝：他們擁有更多創造進攻的方式（De Bruyne 加上多名場均 0.5 xG 的邊路得分手）以及更深厚的板凳深度，但美國隊在主場表現夠好，足以取得進球並將比分咬住。",
+            "script_md": "### 整體分析\nBelgium 擁有更精準的頂尖創造力（No.7 De Bruyne 的 0.87 xAG/90 與 4.23 次關鍵傳球/90 分鐘簡直是作弊碼），且前場擁有更多終結者（Trossard 與 Lukébakio 的 xG/90 皆為 0.52）。US 的進攻充滿威脅且現代化——Balogun、Reyna 與 Pulisic 具備創造機會的能力——但 Belgium 的陣容深度與 Courtois 的存在，讓他們在比賽後段佔據優勢。\n\n### 關鍵對位\n- **US 進攻路徑：** No.7 Giovanni Reyna (Borussia Mönchengladbach) 為 No.20 Folarin Balogun (AS Monaco) 輸送炮彈，對抗防守表現並不穩固的 Belgium 防線。No.5 Antonee Robinson (Fulham) 與 No.2 Sergiño Dest (PSV) 可以壓制 Belgium 的邊後衛，並迫使對手在邊路丟球。\n- **Belgium 進攻路徑：** No.7 De Bruyne 尋找前插球員（No.10 Trossard / No.14 Lukébakio），攻擊 Dest 與 Robinson 身後的空間——這正是 US 若大舉壓上時最容易被抓到的弱點。\n\n### 比賽劇本（開局 → 中段 → 尾聲）\n- **開局：** US 在主場開局強勢，採取高位壓迫，並透過 Reyna 傳給 Balogun 創造出一次絕佳機會。他們很可能獲得一次進球回報——無論是轉換快攻射門還是倒三角回傳後的終結。\n- **中段：** Belgium 逐漸穩定下來，透過 De Bruyne 組織進攻，將 US 的中場（No.4 Tyler Adams, No.8 McKennie）左右拉扯；邊路前鋒（Trossard 或 Lukébakio）在第二波進攻中扳平比分。\n- **尾聲：** 隨著 US 因高壓逼搶導致體能下滑，Belgium 的板凳深度發揮作用——**Lukaku** 的直接威脅將半機會轉化為決定性時刻，而 Courtois 則封鎖住最後的混亂攻勢。\n\n### 為何預測 1-2\n大多數世界盃比賽最終比分都落在 1 球差距、總進球數 2-3 球的區間——這場比賽也不例外：US 有足夠的進攻火力取得進球，但 Belgium 比起 US，擁有更多取得第二顆進球的途徑（定位球、傳中給 Lukaku，或是 De Bruyne 的穿透傳球）。\n\n### 變數\n如果 US 能透過嚴密的中場防守限制住 De Bruyne，並在 Lukaku 上場前就重創 Belgium（或者 Belgium 防線在壓迫下自亂陣腳），這場比賽可能會變成 US 以 2-1 偷襲得手，或是以 1-1 和局收場，讓 Belgium 來不及祭出他們的「最後一擊」。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.32,
+              "D": 0.26,
+              "A": 0.42
+            },
+            "confidence": 0.55,
+            "key_risk": "美國隊坐鎮主場，迎來 Balogun 回歸且有地主球迷助陣——如果比利時那條不穩定的防線（Debast 缺陣，僅靠 Courtois 苦撐）在反擊中被撕裂，戰局將會迅速翻轉。",
+            "second_score": "1-1",
+            "contrarian_md": "顯而易見的觀點是：比利時「黃金世代」的強大火力（De Bruyne、Doku、Trossard、Lukaku、Lukébakio）——指數 3.03 對上 2.38 ——將輾壓勇敢但實力有限的美國隊。但仔細觀察：比利時僅以 3-2 險勝塞內加爾，且丟了兩球，他們的防線確實是個隱憂——Debast 因傷缺陣，Mechele、Theate 和 De Winter 在俱樂部層級表現尚可，但稱不上頂尖，且防守漏洞百出。美國隊坐鎮主場，帶著 2-0 完勝波士尼亞的氣勢，加上 Balogun（每 90 分鐘預期進球值 0.66 ——這是一個驚人的數據）剛解禁復出。這完全就是 2022 年阿根廷對陣沙烏地阿拉伯的翻版：眾人認為穩操勝券的熱門球隊，遇上了只需要兩次乾淨機會就能創造奇蹟的飢渴地主。我並不完全相信比利時能輕鬆過關。",
+            "signature_scene": "下半場，美國隊 20 號 Balogun 從 Mechele 的防守側翼切入，接獲 Pulisic（10 號）的穿越傳球，隨即起腳低射穿過 Courtois 的防守破門，將比分扳成緊張的 1-1——全場觀眾沸騰，而 Belgium 的後防線瞬間顯得老態盡現。",
+            "reasoning_md": "比利時優異的進攻火力與 De Bruyne 的創造力優勢應能險勝，但他們漏洞百出的防線讓 USA 仍有機會——我傾向看好比利時以一球之差勝出，但過程絕不輕鬆。",
+            "script_md": "**整體分析：** Belgium 從前場到後場的進攻都更為銳利——De Bruyne（預期助攻 xAG 0.87，關鍵傳球 4.23）屬於不同層級的創造者，而 Trossard、Lukébakio 和 Doku 則提供了多個預期進球值（xG）超過 0.5 的威脅點。但他們的後防線是致命軟肋：Debast 受傷，而 Mechele、Theate 和 De Winter 雖然是稱職的職業球員，卻稱不上是頂級防守者。USA 整體陣容深度較薄（僅 16/26 名球員有頂級聯賽數據），但他們的火力集中且真實——Balogun (0.66)、Reyna (0.40)、Pulisic (0.27)。\n\n**關鍵對位：** 比賽勝負取決於 Belgium 7 號 De Bruyne (SSC Napoli) 與 Tyler Adams (4 號) 的對決——如果 Adams 無法有效限制他，USA 的四後衛防線將會被撕裂。反過來說，20 號 Balogun 和 10 號 Pulisic 面對一支剛被 Senegal 攻入兩球的 Belgium 防線，將是 USA 的生命線。Jérémy Doku (11 號) 與 Antonee Robinson (5 號) 在邊路的極速對決，光是這場戲碼就值回票價。\n\n**比賽劇本：** 預計 Belgium 會在開賽初期掌控球權，由 De Bruyne 進行試探，我認為他們會在半場前取得首個進球——由 Lukébakio 或 Trossard 接應 De Bruyne 的倒三角回傳破門。身為地主的 USA 不會退守，他們會透過 Pulisic 和 Balogun 發動反擊，考慮到 Belgium 的防守脆弱性，他們絕對會有機會——很可能在下半場扳平比分，讓對手陷入緊張。Lukaku 從板凳出發將增加一個後期的進攻目標，這很可能會讓 Belgium 再次取得領先。\n\n**為何預測此比分：** 2-1 Belgium 的比分符合雙方的球隊特質——Belgium 進球能力較強，但會丟掉一球，因為他們的防守確實不足以完全封鎖擁有 Balogun 的地主隊。如果 USA 的終結能力保持水準，1-1 的平局也非常有可能發生。\n\n**變數：** 如果 Balogun 把握住第一次絕佳機會讓 USA 取得領先，現場觀眾的氣勢加上 Belgium 脆弱的中軸線，可能會讓地主隊拿下這場著名的 2-1 勝利。這是爆冷的途徑，而且並非遙不可及。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.3,
+              "A": 0.45
+            },
+            "confidence": 0.65,
+            "key_risk": "比利時後防Debast缺陣、Lukaku替補，美國主場氣勢與Balogun解禁後的衝擊力可能打亂節奏",
+            "second_score": "1-1",
+            "contrarian_md": "主流覺得比利時星光熠熠、德布勞內帶著一群五大聯賽射手，穩吃美國。我不完全買賬——美國是東道主，2022年就差點掀翻荷蘭，現在陣容更成熟；比利時3-2險勝塞內加爾已經露了防守的老底，後場除了庫爾圖瓦沒一個真讓人放心的。翻車劇本很現成：美國搶開局先進一個，然後死守打反擊，跟2018韓國幹德國一樣，名氣在主場球迷面前根本不頂用。",
+            "signature_scene": "下半場第63分鐘，比利時7號德布勞內（SSC Napoli）右側肋部一腳穿襠直塞，9號盧卡庫（SSC Napoli）替補登場後反越位扛開3號理查茲推射遠角破門，2-1反超。",
+            "reasoning_md": "比利時攻擊質素明顯更高，但美國主場能咬住場面；最終比利時會靠個人能力一球小勝。",
+            "script_md": "① 整體判讀：比利時攻擊實力指數3.03，深度21人頂級聯賽，前場有特羅薩德（xG90 0.52）、盧克巴基奧（0.52）這類高效終結點，德布勞內場均4.23次關鍵傳球是核武。美國2.38的攻擊指數，靠巴洛貢（xG90 0.66）單點爆破，雷納（0.40）和普利西奇（0.27）輔助，但整體創造力不如。比利時強在中前場厚度，美國強在轉換速度和主場。\n② 關鍵對位：美國2號德斯特（PSV）與5號羅賓遜（富勒姆，場均關鍵傳球0.85）兩翼會前壓，身後必被比利時邊鋒杜庫（曼城，射門3.12）和特羅薩德利用。比利時中衛德巴斯特傷缺，梅切萊或西特可能首發，轉身慢，美國20號巴洛貢（摩納哥）的無球斜插會是致命殺招。\n③ 比賽劇本：早段美國憑藉主場氣勢搶攻，可能第18分鐘由10號普利西奇左路內切傳中，20號巴洛貢前點捅射先拔頭籌。比利時隨即反撲，上半場補時德布勞內定位球助攻，10號特羅薩德頭球扳平。下半場盧卡庫替下德凱特拉雷，比利時壓得更深，美國防線開始出錯，第63分鐘德布勞內直塞盧卡庫反超。之後美國換上佩皮、小維阿強攻，但庫爾圖瓦高接抵擋保勝。\n④ 為什麼是1-2：一球勝負符世界盃淘汰賽常態，美國能進球得益於比利時防線重組，但比利時得分手多、板凳深度足夠改變局面，2球剛好是他們的平均輸出。\n⑤ 翻盤條件：若美國先進球后收縮成功，而比利時德布勞內被亞當斯（伯恩茅斯）鎖死，盧卡庫又陷入越位陷阱，美國可能拖出1-1甚至2-1；另一條劇本是美國利用定位球由3號理查茲（水晶宮）砸進第二球，徹底引爆主場冷門。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.22,
+              "D": 0.26,
+              "A": 0.52
+            },
+            "confidence": 0.75,
+            "key_risk": "美國隊的主場觀眾激發了球隊不間斷的壓迫式打法，徹底打亂了 Belgium 的中場節奏，而 Belgium 搖搖欲墜的防線在面對美國隊的反擊速度時徹底崩潰。",
+            "second_score": "1-1",
+            "contrarian_md": "最顯而易見的論點是，比利時純粹的進攻質量——由 De Bruyne 為 Doku 和 Trossard 穿針引線——將會輕易勝過美國。但別盲目相信比利時老化的核心陣容與臨時拼湊的防線。他們才剛被 Senegal 攻入兩球，證明了他們在攻守轉換時極度脆弱。美國隊擁有 Pulisic 和回歸的 Balogun，具備極快的速度。如果美國隊能避開中場糾纏，直接進攻 Meunier 和 Castagne 身後的空間，比利時很可能會像 2022 年世界盃對陣 Morocco 時那樣崩盤，輕易被對手打穿。",
+            "signature_scene": "下半場，大約第 65 分鐘。在經歷了一段時間的持續施壓後，美國隊的防線顯得捉襟見肘。Kevin De Bruyne（7 號）在空檔處發現機會，送出一記招牌式的穿透傳球至左路。Jérémy Doku（11 號）成功單挑 Sergiño Dest，透過盤球突破至底線，隨後回傳給替補上場的 Romelu Lukaku（9 號），由後者在近距離勁射破門。",
+            "reasoning_md": "由 De Bruyne 和 Doku 領軍的比利時，其強大的進攻火力將會徹底暴露美國隊在邊路防守上的弱點。雖然美國隊能利用比利時漏洞百出的後防線，在反擊中找到進球機會，但比利時憑藉著大量的進攻威脅，以及 Lukaku 在下半場的影響力，最終將以些微差距險勝。",
+            "script_md": "- **整體解讀：** 比利時擁有頂尖的進攻指數（3.03）以及世界級的創造者，但其防守端存在隱憂。美國隊（2.38）具備威脅對手的實力，特別是在主場優勢與 Balogun 回歸的情況下，但他們的後防線將難以抵擋比利時持續不斷的邊路攻勢。\n- **關鍵對位：** 勝負關鍵在於邊路。比利時的 11 號 Jérémy Doku (Manchester City) 將不斷衝擊美國隊的右路，極可能讓 2 號 Sergiño Dest 或 23 號 Joe Scally 陷入孤立無援的境地。而在另一端，美國隊的 10 號 Christian Pulisic (AC Milan) 與 20 號 Folarin Balogun (AS Monaco) 將試圖利用比利時進攻型邊後衛身後的空檔。\n- **比賽劇本：** 美國隊將憑藉主場觀眾的熱情以高能量開局，甚至可能透過 Reyna 與 Balogun 的快速轉換先馳得點。然而，比利時將逐漸掌握控球權。De Bruyne 將開始主導節奏，而 Doku 的盤帶將迫使美國隊退守低位防線。比利時極可能在上半場結束前扳平比分。\n- **決勝階段：** 下半場，當 9 號 Romelu Lukaku (SSC Napoli) 替補上場對陣體力下滑的美國中後衛組合（Richards 與 Ream）時，天平將會傾斜。Lukaku 的身體對抗優勢加上 De Bruyne 的傳球輸送，最終將打破僵局。\n- **為何預測比分為 1-2：** 比利時的防守不足以在面對鬥志高昂的美國隊時保持零封，但他們的進攻深度讓美國隊難以堅持 90 分鐘不失球。\n- **什麼情況會翻盤：** 如果 Tyler Adams 能成功干擾 De Bruyne 的節奏，且 Matt Turner 有神級發揮，美國隊或許能讓比利時因挫折而犯錯，並透過反擊以 2-1 爆冷取勝。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.35,
+              "D": 0.28,
+              "A": 0.37
+            },
+            "confidence": 0.68,
+            "key_risk": "美國邊路若把Dest+Robinson推到高位，被Doku反擊一對一生吞，單場xG可能直接翻車。",
+            "second_score": "2-2",
+            "contrarian_md": "主流敘事：『歐洲紅魔天團打MLS班底，KDB餵Lukaku頭槌就結束。』我不買賬：比利時防線沒Debast只剩Theate+Mechele，轉身是英冠級；美國前場Balogun+Reyna+xG2.06並非魚腩，一旦搶斷Tielemans腳下球，直線找Weah插Castagne身後，完全能複刻2022日本逆轉德國的劇本。",
+            "signature_scene": "下半場55分鐘，美國7號Reyna中圈斷下Tielemans，一路帶到弧頂分右側，21號Weah單刀被Courtois神撲，隨即Belgium反擊11號Doku左路生吃Dest，橫傳後點17號De Ketelaere鏟射破網。",
+            "reasoning_md": "Belgium中前場質量高一檔，但美國邊中轉換夠快，夠咬到一球；最後還是Doku決定比賽。",
+            "script_md": "- **整體判讀**：Belgium攻擊指數3.03+21名頂級聯賽>美國2.38，但美國年輕腿跑動距離勝一截，預期比利時控球65%卻打不穿5號Robinson+3號Richards的回收五後衛。\n- **關鍵對位**：美國20號Balogun（Monaco 0.66 xG）對位Mechele，身體不吃虧；Belgium7號De Bruyne（4.2關鍵傳球）面前是4號Tyler Adams，美國隊長若像對波赫那樣鏟到黃牌邊緣，KDB就能釋放11號Doku單吃2號Dest。\n- **比賽劇本**：開場20分鐘Belgium壓著打，Lukaku替補上場頭槌中柱；第35分鐘美國反擊，Reyna直塞，Balogun低射1-0。Belgian中段調整，Trossard內收，第52分鐘Doku反擊助攻De Ketelaere 1-1。78分鐘美國體能掉檔，KDB自由球造成混亂，Lukaku門前推射1-2。\n- **為什麼是這比分**：美國能偷一球，但Belgium三線輪換火力更厚，最後15分鐘xG0.45>美國0.12，經驗收比賽。\n- **翻盤情境**：若McKenzie缺陣，Ream+Trusty搭檔，Lukaku背身做球，De Bruyne遠射世界波，可能直接3-1打花；另一邊若Dest+Weah把Castagne衝到兩黃，美國定位球砸頭也有2-1逆轉的可能。"
+          },
+          {
+            "name": "Grok",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.27,
+              "D": 0.33,
+              "A": 0.4
+            },
+            "confidence": 0.62,
+            "key_risk": "美國主場觀眾與 Balogun 的反擊威脅，將一次失誤轉化為平局",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為，比利時憑藉更優異的陣容（指數 3.03，擁有 De Bruyne、Doku、Trossard）能輕鬆擊敗實力較弱的美國隊。但比利時近期在世界盃淘汰賽的慘澹紀錄（2018 年對陣德國、2022 年對陣日本）顯示，這些球星在面對組織嚴密的防守時，往往無法將天賦轉化為戰果；美國隊的主場優勢，加上 Balogun 每 90 分鐘 0.66 的預期進球值（xG/90），足以讓 De Bruyne 任何狀態不佳的時刻付出代價。",
+            "signature_scene": "第 65 分鐘：比利時 7 號 De Bruyne（SSC Napoli）送出一記穿越傳球給 11 號 Doku，但被 Turner 擋下；隨後美國 20 號 Balogun（AS Monaco）發動反擊並逼出一次角球，進而形成持續的進攻壓力。",
+            "reasoning_md": "比利時在進攻端擁有明顯優勢（3.03 對 2.38），且頂級聯賽球員陣容更為深厚，理應勝出，但美國隊的主場韌性將使比分維持在 1-2 的接近差距。",
+            "script_md": "比利時擁有明顯的實力優勢，陣中擁有 21 名頂級聯賽球員以及多名高 xG（預期進球）的攻擊手（Trossard 0.52、Lukébakio 0.52、De Ketelaere 0.33），而美國隊的最佳終結者僅有 Balogun。預計 De Bruyne 和 Doku 將先發並主導中場轉換，隨後由 Lukaku 替補上場完成致命一擊。比賽初期，比利時透過控球進行試探，但美國隊的 3 號 Richards 和 5 號 Robinson 成功保持禁區防守的緊湊度。比賽中段，美國隊 20 號 Balogun（AS Monaco）在一次反擊中創造了首次真正的威脅，迫使 Courtois 做出撲救。比利時在 55 分鐘左右打破僵局，由 De Bruyne 送出關鍵傳球，助攻 Trossard 完成破門。美國隊隨後透過 McKennie 的定位球頭槌短暫扳平比分，但 Lukaku 的替補上場最終鎖定了比賽勝局。1-2 的比分反映了比利時的優勢，但並未演變成大勝，這是因為美國隊的陣容深度（16 名頂級聯賽球員）以及主場觀眾的助威防止了球隊崩盤。若比利時能保持零封，或是 Balogun 提早進球，比賽結果可能會轉向平局。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "比利時",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.22,
+              "D": 0.23,
+              "A": 0.55
+            },
+            "confidence": 0.62,
+            "key_risk": "美國主場氣勢＋Balogen解禁反彈，若上半場偷到進球，比利時後防線老化可能自亂陣腳",
+            "second_score": "1-1",
+            "contrarian_md": "主流會看比利時陣容星度碾壓——De Bruyne、Trossard、Lukaku隨便一個名字都嚇死人，攻擊指數3.03 vs 2.38，深度21/26 vs 16/26，帳面就是不同級別。但我偏要挑毛病：比利時這條後防線Theate、Mechele、Castagne、Meunier，不是老就是慢，Debast還傷著。上一場被塞內加爾灌2球，防守根本不穩。美國的Pulisic和Weah專打邊路反擊，速度正好剋這條防線。2018德國輸韓國、2022阿根廷輸沙烏地，都是強隊後防老化被反擊打穿。如果這場爆冷，就是美國上半場死守、下半場靠Pulisic或Balogun偷一個，比利時急躁壓上再被反擊。",
+            "signature_scene": "下半場65分鐘左右，比利時10號De Bruyne在中場送出直塞，11號Doku左路突破後橫傳，9號Lukaku禁區內搶點破門——美國3號Richards和5號Robinson兩個中衛完全跟不上Lukaku的衝擊力，這球會是決定勝負的瞬間。",
+            "reasoning_md": "比利時贏，但贏得不輕鬆。攻擊端星度和深度確實壓過美國，De Bruyne的組織＋Doku的突破＋Lukaku下半場的衝擊力，美國防線扛不住90分鐘。但比利時後防有漏洞，美國靠反擊能咬住，所以是1-2不是大勝。",
+            "script_md": "## 整體判讀\n比利時攻擊指數3.03、深度21/26有頂級聯賽資料，帳面硬實力就是比美國高一檔。De Bruyne每90分鐘關鍵傳球4.23，這個數字是全場最恐怖的武器，美國中場4號Tyler Adams（Bournemouth）一個人根本看不住。但比利時後防線是軟肋——Debast傷缺，Mechele在布魯日踢球、Meunier在裡爾，這條線面對速度型反擊會出事。\n\n## 關鍵對位\n- **比利時7號De Bruyne（Napoli）vs 美國4號Tyler Adams（Bournemouth）**：Adams的關鍵傳球90有0.81，說明他會參與組織，但防守De Bruyne的4.23關鍵傳球幾乎不可能。美國8號McKennie（Juventus）必須協防，但一協防就空出Trossard或Doku。\n- **美國10號Pulisic（AC Milan）vs 比利時15號Meunier（Lille）**：Pulisic射門90有2.20，Meunier已經33歲、速度跟不上。這是美國最有機會的突破口。\n- **比利時11號Doku（Man City）vs 美國5號Antonee Robinson（Fulham）**：Doku射門90有3.12、關鍵傳球2.51，Robinson在富勒姆表現不差但面對Doku的爆發力會很吃力。\n\n## 比賽劇本\n- **早段（0-25分）**：比利時控球壓制，De Bruyne在中場排程，Doku左路反覆衝擊Robinson。美國收縮防守，Adams+McKennie組成雙後衛死守。美國門將1號Turner（New England Revolution）在MLS踢球，面對比利時這種級別的射門會很緊張，但前25分鐘可能還扛得住。\n- **中段（25-60分）**：比利時持續施壓，Trossard或De Ketelaere會找到空檔。預計35-40分鐘比利時先進球——大機率是De Bruyne助攻、Trossard或Doku收尾。美國落後後不會完全龜縮，Pulisic會嘗試反擊，上半場結束前可能製造1-2次威脅。\n- **末段（60-90+）**：Lukaku下半場登場，美國防線體能下降。Lukaku的xG90有0.40，面對美國中衛Richards（Crystal Palace）和Robinson（Fulham），身體對抗完全碾壓。比利時會在65-75分鐘再進一球拉開。美國在80分鐘後靠Balogun（xG90 0.66，全隊最高）追回一球，但為時已晚。\n\n## 為什麼是1-2\n比利時攻擊火力夠，但後防不穩，丟1球很正常。美國有Balogun（xG90 0.66）和Pulisic（xG90 0.27），反擊能製造威脅。但美國門將Turner在MLS、中衛Richards在水晶宮，面對比利時多點開花的攻擊線，丟2球是底線。1-2是最合理的寫實比分。\n\n## 什麼情況會翻盤\n如果美國上半場死守成功、0-0進入中場休息，下半場比利時急躁壓上，美國靠Pulisic或Balogun反擊偷一個——然後全隊縮排禁區死守1-0。比利時後防線老化、Debast缺陣的問題會在這種局面下被放大，就像2022年德國被日本反擊打穿一樣。但機率不高，因為De Bruyne的組織能力太強，美國防線很難90分鐘零封。"
+          }
+        ]
+      },
       "correct": null
     },
     {
