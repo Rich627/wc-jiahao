@@ -7532,8 +7532,8 @@
       "away": "西班牙",
       "kickoff_tw": "2026-07-07 03:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -7670,7 +7670,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328022",
