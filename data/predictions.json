@@ -1815,8 +1815,8 @@
       "away": "沙烏地阿拉伯",
       "kickoff_tw": "2026-06-22 00:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "4-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -1932,7 +1932,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329957",
@@ -1940,8 +1940,8 @@
       "away": "伊朗",
       "kickoff_tw": "2026-06-22 03:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -2057,7 +2057,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54330008",
@@ -2065,8 +2065,8 @@
       "away": "維德角",
       "kickoff_tw": "2026-06-22 06:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -2182,7 +2182,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54330000",
@@ -2190,8 +2190,8 @@
       "away": "埃及",
       "kickoff_tw": "2026-06-22 09:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -2307,7 +2307,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329966",
@@ -2315,8 +2315,8 @@
       "away": "奧地利",
       "kickoff_tw": "2026-06-23 01:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -2432,7 +2432,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329963",
@@ -2440,8 +2440,8 @@
       "away": "伊拉克",
       "kickoff_tw": "2026-06-23 05:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2452,8 +2452,8 @@
       "away": "塞內加爾",
       "kickoff_tw": "2026-06-23 08:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-2",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2464,8 +2464,8 @@
       "away": "阿爾及利亞",
       "kickoff_tw": "2026-06-23 11:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-2",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2476,8 +2476,8 @@
       "away": "烏茲別克",
       "kickoff_tw": "2026-06-24 01:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "5-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2488,8 +2488,8 @@
       "away": "迦納",
       "kickoff_tw": "2026-06-24 04:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2500,8 +2500,8 @@
       "away": "克羅埃西亞",
       "kickoff_tw": "2026-06-24 07:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2512,8 +2512,8 @@
       "away": "剛果民主共和國",
       "kickoff_tw": "2026-06-24 10:00",
       "stage": "小組賽 第2輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -2524,8 +2524,8 @@
       "away": "加拿大",
       "kickoff_tw": "2026-06-25 03:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -2641,7 +2641,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329986",
@@ -2774,8 +2774,8 @@
       "away": "巴西",
       "kickoff_tw": "2026-06-25 06:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -2891,7 +2891,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329989",
@@ -2899,8 +2899,8 @@
       "away": "海地",
       "kickoff_tw": "2026-06-25 06:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "4-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3016,7 +3016,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328041",
@@ -3024,8 +3024,8 @@
       "away": "墨西哥",
       "kickoff_tw": "2026-06-25 09:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3141,7 +3141,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54329976",
@@ -3149,8 +3149,8 @@
       "away": "韓國",
       "kickoff_tw": "2026-06-25 09:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3161,8 +3161,8 @@
       "away": "德國",
       "kickoff_tw": "2026-06-26 04:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3173,8 +3173,8 @@
       "away": "象牙海岸",
       "kickoff_tw": "2026-06-26 04:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-2",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3185,8 +3185,8 @@
       "away": "荷蘭",
       "kickoff_tw": "2026-06-26 07:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-3",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3197,8 +3197,8 @@
       "away": "瑞典",
       "kickoff_tw": "2026-06-26 07:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3221,8 +3221,8 @@
       "away": "澳大利亞",
       "kickoff_tw": "2026-06-26 10:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3233,8 +3233,8 @@
       "away": "法國",
       "kickoff_tw": "2026-06-27 03:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-4",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3350,7 +3350,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54330012",
@@ -3358,8 +3358,8 @@
       "away": "伊拉克",
       "kickoff_tw": "2026-06-27 03:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "5-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3475,7 +3475,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329961",
@@ -3483,8 +3483,8 @@
       "away": "西班牙",
       "kickoff_tw": "2026-06-27 08:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3600,7 +3600,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54330009",
@@ -3608,8 +3608,8 @@
       "away": "沙烏地阿拉伯",
       "kickoff_tw": "2026-06-27 08:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -3725,7 +3725,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54329958",
@@ -3733,8 +3733,8 @@
       "away": "比利時",
       "kickoff_tw": "2026-06-27 11:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-5",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -3850,7 +3850,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54330001",
@@ -3858,8 +3858,8 @@
       "away": "伊朗",
       "kickoff_tw": "2026-06-27 11:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -3870,8 +3870,8 @@
       "away": "英格蘭",
       "kickoff_tw": "2026-06-28 05:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -4008,7 +4008,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54330022",
@@ -4016,8 +4016,8 @@
       "away": "迦納",
       "kickoff_tw": "2026-06-28 05:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -4154,7 +4154,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329970",
@@ -4162,8 +4162,8 @@
       "away": "葡萄牙",
       "kickoff_tw": "2026-06-28 07:30",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -4300,7 +4300,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54330019",
@@ -4308,8 +4308,8 @@
       "away": "烏茲別克",
       "kickoff_tw": "2026-06-28 07:30",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -4446,7 +4446,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54329967",
@@ -4454,8 +4454,8 @@
       "away": "阿根廷",
       "kickoff_tw": "2026-06-28 10:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-3",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -4592,7 +4592,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54330015",
@@ -4600,8 +4600,8 @@
       "away": "奧地利",
       "kickoff_tw": "2026-06-28 10:00",
       "stage": "小組賽 第3輪",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-3",
       "had_odds": null,
       "my_prediction": null,
       "correct": null
@@ -6072,8 +6072,8 @@
       "away": "奧地利",
       "kickoff_tw": "2026-07-03 03:00",
       "stage": "1/16決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "3-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -6210,7 +6210,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54327944",
