@@ -135,6 +135,18 @@ function dateKey(kickoff) {
     return (kickoff || '').slice(0, 10);
 }
 
+// 3-day rolling window (yesterday/today/tomorrow) anchored to Taiwan wall-clock
+// time, independent of the viewer's local timezone.
+function taipeiDateKeys(offsetDays) {
+    const nowTaipei = new Date(Date.now() + 8 * 3600 * 1000);
+    const d = new Date(Date.UTC(nowTaipei.getUTCFullYear(), nowTaipei.getUTCMonth(), nowTaipei.getUTCDate()));
+    d.setUTCDate(d.getUTCDate() + offsetDays);
+    return d.toISOString().slice(0, 10);
+}
+function threeDayWindowKeys() {
+    return [taipeiDateKeys(-1), taipeiDateKeys(0), taipeiDateKeys(1)];
+}
+
 function fmtDateHeading(key) {
     const p = parseTW(key + ' 00:00');
     if (!p) return key;
@@ -509,6 +521,8 @@ function renderMatches() {
     if (state.currentStage !== 'all') {
         list = list.filter(m => shortStage(m.stage) === state.currentStage);
     }
+    const windowKeys = threeDayWindowKeys();
+    list = list.filter(m => windowKeys.includes(dateKey(m.kickoff_tw)));
     list.sort((a, b) => (a.kickoff_tw || '').localeCompare(b.kickoff_tw || ''));
 
     const upcoming = list.filter(m => !isFinished(m));
@@ -536,7 +550,7 @@ function renderMatches() {
     }
 
     let html = '';
-    if (upcoming.length) html += groupHtml(upcoming);
+    if (upcoming.length) html += groupHtml(upcoming, true);
     if (finished.length) {
         html += `<details class="match-history-group mt-4" ${upcoming.length ? '' : 'open'}>
             <summary class="match-history-summary">
