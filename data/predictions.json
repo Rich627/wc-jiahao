@@ -7970,8 +7970,8 @@
       "away": "哥倫比亞",
       "kickoff_tw": "2026-07-08 04:00",
       "stage": "1/8決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8108,7 +8108,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54328025",
