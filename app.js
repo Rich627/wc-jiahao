@@ -293,6 +293,133 @@ function carouselRestartTimer() {
     if (carousel.matches.length > 1) carouselStart();
 }
 
+/* ---------- wallet chart (7-model cumulative P&L since launch) ---------- */
+// Fixed categorical order — not the model's brand color, so 7 lines stay
+// CVD-distinguishable; validated via dataviz skill's validate_palette.js.
+const WALLET_COLORS = {
+    GPT:      { light: '#2a78d6', dark: '#3987e5' },
+    Claude:   { light: '#1baf7a', dark: '#199e70' },
+    DeepSeek: { light: '#eda100', dark: '#c98500' },
+    Gemini:   { light: '#008300', dark: '#1fa31f' },
+    Kimi:     { light: '#4a3aa7', dark: '#9085e9' },
+    Grok:     { light: '#e34948', dark: '#e66767' },
+    GLM:      { light: '#e87ba4', dark: '#d55181' },
+};
+const WALLET_STAKE = 100;
+const WALLET_FAIR_ODDS = 1.91; // -110 fallback when no real market odds stored
+
+function walletOutcome(score) {
+    const m = /(\d+)\s*-\s*(\d+)/.exec(score || '');
+    if (!m) return null;
+    const h = +m[1], a = +m[2];
+    return h > a ? 'HOME' : (a > h ? 'AWAY' : 'DRAW');
+}
+
+function computeWalletSeries() {
+    const finished = state.matches
+        .filter(m => isFinished(m) && m.my_prediction && m.my_prediction.models && m.my_prediction.models.length)
+        .sort((a, b) => (a.kickoff_tw || '').localeCompare(b.kickoff_tw || ''));
+    const names = Object.keys(WALLET_COLORS);
+    const cum = {}; names.forEach(n => cum[n] = 0);
+    const series = {}; names.forEach(n => series[n] = []);
+    finished.forEach(m => {
+        const actual = walletOutcome(m.score);
+        if (!actual) return;
+        const odds = m.had_odds || {};
+        (m.my_prediction.models || []).forEach(mo => {
+            const meta = modelMeta(mo.name);
+            const label = meta ? Object.keys(MODEL_BRANDS).find(k => MODEL_BRANDS[k] === meta) : null;
+            if (!label || !(label in cum)) return;
+            const sel = mo.selection;
+            const oddsKey = sel === 'HOME' ? 'H' : (sel === 'AWAY' ? 'A' : 'D');
+            const payoutOdds = odds[oddsKey] || WALLET_FAIR_ODDS;
+            cum[label] += (sel === actual) ? WALLET_STAKE * (payoutOdds - 1) : -WALLET_STAKE;
+        });
+        names.forEach(n => series[n].push({ date: dateKey(m.kickoff_tw), match: `${m.home} v ${m.away}`, cum: Math.round(cum[n] * 10) / 10 }));
+    });
+    return series;
+}
+
+function renderWalletChart() {
+    const el = document.getElementById('wallet-chart-section');
+    if (!el) return;
+    const series = computeWalletSeries();
+    const names = Object.keys(WALLET_COLORS);
+    const n = series.GPT ? series.GPT.length : 0;
+    if (n < 2) { el.innerHTML = ''; return; }
+
+    const isDark = document.documentElement.dataset.theme === 'dark';
+    const colorOf = name => WALLET_COLORS[name][isDark ? 'dark' : 'light'];
+
+    const W = 980, H = 380, marginL = 56, marginR = 16, marginT = 10, marginB = 30;
+    const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+    let minV = 0, maxV = 0;
+    names.forEach(nm => series[nm].forEach(p => { minV = Math.min(minV, p.cum); maxV = Math.max(maxV, p.cum); }));
+    const pad = (maxV - minV) * 0.08 || 50;
+    minV -= pad; maxV += pad;
+    const xAt = i => marginL + (i / (n - 1)) * plotW;
+    const yAt = v => marginT + plotH - ((v - minV) / (maxV - minV)) * plotH;
+
+    function niceStep(range) {
+        const rough = range / 5;
+        const mag = Math.pow(10, Math.floor(Math.log10(rough || 1)));
+        const norm = rough / mag;
+        const step = norm < 1.5 ? 1 : (norm < 3.5 ? 2.5 : (norm < 7.5 ? 5 : 10));
+        return step * mag;
+    }
+    const step = niceStep(maxV - minV) || 100;
+
+    let gridHtml = '', yAxisHtml = '';
+    for (let v = Math.ceil(minV / step) * step; v <= maxV; v += step) {
+        const y = yAt(v);
+        const isZero = Math.abs(v) < step / 2;
+        gridHtml += `<line x1="${marginL}" x2="${W - marginR}" y1="${y}" y2="${y}" class="${isZero ? 'wallet-zeroline' : 'wallet-gridline'}"/>`;
+        yAxisHtml += `<text x="${marginL - 8}" y="${y + 3.5}" text-anchor="end" class="wallet-axis-label">${v > 0 ? '+' : ''}$${Math.round(v).toLocaleString()}</text>`;
+    }
+
+    let xAxisHtml = '';
+    let lastDate = null;
+    series.GPT.forEach((p, i) => {
+        if (p.date !== lastDate) {
+            lastDate = p.date;
+            const x = xAt(i);
+            xAxisHtml += `<text x="${x}" y="${H - marginB + 16}" text-anchor="middle" class="wallet-axis-label">${esc(p.date.slice(5).replace('-', '/'))}</text>`;
+            xAxisHtml += `<line x1="${x}" x2="${x}" y1="${H - marginB}" y2="${H - marginB + 4}" class="wallet-gridline"/>`;
+        }
+    });
+
+    let linesHtml = '', dotsHtml = '', legendHtml = '';
+    names.forEach(nm => {
+        const color = colorOf(nm);
+        const pts = series[nm].map((p, i) => `${xAt(i).toFixed(1)},${yAt(p.cum).toFixed(1)}`).join(' ');
+        linesHtml += `<polyline points="${pts}" class="wallet-series-line" stroke="${color}"/>`;
+        const last = series[nm][series[nm].length - 1];
+        dotsHtml += `<circle cx="${xAt(series[nm].length - 1)}" cy="${yAt(last.cum)}" r="4" fill="${color}" class="wallet-series-dot"/>`;
+        legendHtml += `<div class="wallet-legend-item">
+            <span class="wallet-legend-swatch" style="background:${color}"></span>
+            ${modelBadge(nm, 'wallet-legend-icon')}
+            <span class="wallet-legend-name">${esc(nm)}</span>
+            <span class="wallet-legend-value">${last.cum >= 0 ? '+' : '-'}$${Math.abs(Math.round(last.cum)).toLocaleString()}</span>
+        </div>`;
+    });
+
+    el.innerHTML = `
+      <div class="wallet-chart-card">
+        <h2 class="wallet-chart-title">足球 Master 7 模型 — 累計錢包走勢</h2>
+        <p class="wallet-chart-subtitle">新系統上線以來每場比賽結算後的累計損益(固定 $100 注 HAD)，有真實賠率用真實賠率，沒有則用 -110(1.91) 估算。</p>
+        <div class="wallet-chart-scroll">
+          <svg viewBox="0 0 ${W} ${H}" class="wallet-chart-svg" role="img" aria-label="7個AI模型累計損益折線圖">
+            ${gridHtml}
+            ${linesHtml}
+            ${dotsHtml}
+            ${xAxisHtml}
+            ${yAxisHtml}
+          </svg>
+        </div>
+        <div class="wallet-legend">${legendHtml}</div>
+      </div>`;
+}
+
 function renderCarousel() {
     const el = document.getElementById('carousel-section');
     if (!el) return;
@@ -713,6 +840,7 @@ function wireModals() {
         const next = cur === 'dark' ? 'light' : 'dark';
         try { localStorage.setItem('worldcup-theme', next); } catch (_) {}
         document.documentElement.dataset.theme = next;
+        renderWalletChart();
     });
 
     // Risk gate (once per browser)
@@ -733,6 +861,7 @@ async function init() {
     wireModals();
     try {
         await loadData();
+        renderWalletChart();
         renderCarousel();
         renderStats();
         renderTabs();
