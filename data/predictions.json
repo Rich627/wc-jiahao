@@ -7820,8 +7820,8 @@
     },
     {
       "match_id": "54328023",
-      "home": "第14場1/16決賽勝者",
-      "away": "第16場1/16決賽勝者",
+      "home": "阿根廷",
+      "away": "埃及",
       "kickoff_tw": "2026-07-08 00:00",
       "stage": "1/8決賽",
       "status": "未開賽",
@@ -7829,136 +7829,136 @@
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
-        "consensus_team": "第14場1/16決賽勝者",
-        "win_prob": 0.626,
+        "consensus_team": "Argentina",
+        "win_prob": 0.674,
         "agree": "7/7 models",
         "predicted_score": "2-1",
         "models": [
           {
             "name": "GPT",
             "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
+            "selection_team": "Argentina",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.62,
+              "D": 0.22,
+              "A": 0.16
+            },
+            "confidence": 0.63,
+            "key_risk": "Egypt’s only real path is also the most plausible one: one clean transition where No.10 Salah (Liverpool) and No.22 Marmoush (Manchester City) isolate Argentina’s knocked-up fullbacks, plus Argentina’s attack getting sloppy if No.10 Messi is again managed off the bench.",
+            "second_score": "2-0",
+            "contrarian_md": "Obvious narrative: *Argentina at home, deeper squad, Egypt battered at the back — routine win.*\n\nWhy I don’t fully buy the “routine” part: Egypt’s output data says they’re not just surviving (2.14 expected contribution per match), and their two stars aren’t paper tigers — Salah (0.77 xG/90, 0.43 xAG/90) + Marmoush (0.44 xG/90) can score off one or two shots if Argentina’s fullbacks (Molina/Medina) are limited. This is exactly how giants get clipped in groups — think 2022 Argentina–Saudi Arabia: one or two defensive moments, and suddenly the favorite is chasing a low block with nerves.",
+            "signature_scene": "Second half, around 67’: Argentina bring on No.10 Messi (Inter Miami) and immediately overload the right half-space; No.9 Julián Álvarez (Atlético) slips a short pass inside, Messi takes one touch and threads it across the six for No.22 Lautaro Martínez (Inter) to stab in the 2-1.",
+            "reasoning_md": "Argentina win 2-1: they have more top-end attackers and far better depth, and Egypt’s defense is limping into this (Fatouh out, Abdelmonem compromised) against relentless shot volume from Álvarez/Lautaro/Nico González.",
+            "script_md": "Argentina’s edge is simple: waves of top-league attackers and creators versus an Egypt squad with two elite forwards and a drop-off everywhere else. Even if Messi is managed, Argentina can still generate chances through No.9 Julián Álvarez (Atlético), No.22 Lautaro Martínez (Inter), and No.15 Nicolás González (Atlético) — that’s too many runners for a back line missing No.13 Ahmed Fatouh (Zamalek) and carrying No.6 Mohamed Abdelmonem (OGC Nice) at less than 100%.\n\nEgypt’s threat is concentrated and real: No.10 Mohamed Salah (Liverpool) and No.22 Omar Marmoush (Manchester City) are exactly the kind of transition pair that can punish one sloppy turnover or a fullback who can’t sprint (Argentina’s Molina/Medina knocks matter here). If Egypt score, it won’t be pretty build-up — it’ll be one vertical ball, one cutback, one ruthless finish.\n\nMatch script: Argentina start on the front foot, pin Egypt in, and rack up shots from the edges of the box through No.11 Lo Celso (Real Betis) and No.20 Mac Allister (Liverpool) feeding runners. The first goal comes from sustained pressure — a rebound/second ball or a quick combination ending with Lautaro/Álvarez inside the area.\n\nEgypt hang in, then nick an equalizer on the counter (Salah pulling wide right, Marmoush attacking the channel). That’s the moment the game gets tense — but Argentina’s bench and quality in the final third are what Egypt can’t match for 90 minutes.\n\nLate on, the finishing difference shows: whether it’s Messi off the bench or just Álvarez’s pressing forcing a bad clearance, Argentina find the second goal and shut it down with Romero/Lisandro winning the duels. 2-1 fits the reality: Egypt can land a punch, but their injured defense and shallow depth make it hard to survive Argentina’s volume.\n\nWhat flips it: Salah’s hamstring holds up *and* Argentina’s wide defenders can’t run — then one Egypt goal becomes two, and you’re watching another group-stage headline."
+          },
+          {
+            "name": "CLAUDE",
+            "selection": "HOME",
+            "selection_team": "Argentina",
+            "predicted_score": "2-0",
+            "win_prob": {
+              "H": 0.7,
+              "D": 0.19,
+              "A": 0.11
+            },
+            "confidence": 0.6,
+            "key_risk": "Salah, even at 60%, produces one moment of magic and Egypt nick a scrappy 1-1 by parking the bus.",
+            "second_score": "2-1",
+            "contrarian_md": "The obvious take: Argentina are world champions, deeper across every line, and Egypt's defence is a battlefield hospital (Fattouh out, Abdelmonem on one ankle) — a routine 3-0. Where I poke holes: Argentina are managing minutes (Messi a super-sub, Molina/Medina with calf knocks, Otamendi patching CB), and champions get lazy against a low block — see 2022 Argentina 1-2 Saudi Arabia in this exact spot. Egypt's real weapon isn't their squad index (thin, 3/26 top-league) but two elite forwards who only need one transition. But 'upset' here needs a clean sheet from a broken back line, and that's the piece I don't buy — you don't keep out Lautaro, Álvarez AND Nico Paz with Al Ahly centre-backs and a hobbled Abdelmonem.",
+            "signature_scene": "Second half, around the 65th minute: Egypt tiring from chasing, No.9 Julián Álvarez peels off the injured Abdelmonem's shoulder, Enzo Fernández slides it through, and Álvarez finishes low across El Shenawy — the goal that kills the game after a frustrating first hour of Egyptian bodies-behind-the-ball.",
+            "reasoning_md": "Argentina win. The talent and depth gap is real and Egypt's defence is genuinely gutted by injuries — but Egypt's block plus Salah keep it to a controlled, not blown-out, margin.",
+            "script_md": "**Overall read:** Argentina are stronger everywhere — 3.37 attack index vs 2.72, and crucially 22/26 players with top-league data against Egypt's 3/26. That depth number is the whole story: Egypt live and die by two men, Argentina roll out Nico Paz (0.78), Lautaro (0.67), Álvarez (0.48) and can bring Messi off the bench. Egypt's strength is entirely in attack transition; their defence is a MASH unit.\n\n**Key matchups:** Egypt No.10 Mohamed Salah (Liverpool) at 60% hamstring is still the most dangerous player on the pitch and Argentina's makeshift right side (Molina calf, Otamendi possibly at CB) is where he'll hunt. No.22 Omar Marmoush (Man City) offers a second runner. But against them Egypt No.6 Abdelmonem (OGC Nice) is on a battered ankle and No.13 Fattouh (Zamalek) is OUT entirely — leaving Al Ahly-level cover to handle Álvarez and Lautaro. That's a mismatch Argentina exploit.\n\n**Match script:** Egypt sit deep from the whistle, funnelling everything through Salah on the break — expect a nervy, low-chance first half where Argentina probe and Egypt survive on bodies. The block cracks in the second half as legs go: Argentina score first around the hour, likely from Álvarez or a set piece with Romero back and firing (0.77 shots/90). Once behind, Egypt must push and that's when the second arrives on a counter of Argentina's own.\n\n**Why this scoreline:** 2-0 fits the pattern — champions grind past a stubborn block without blowing it open, because a parked bus limits chance quality even against superior talent. It's not 4-0 precisely because Egypt commit numbers back and Argentina are rotating.\n\n**What flips it:** If Salah gets a clean transition early and Egypt lead, Argentina's minute-management gamble backfires — that's your 1-1 or the Saudi-2022 nightmare. But needing Al Ahly defenders to keep a clean sheet all game is the bet I won't make."
+          },
+          {
+            "name": "DEEPSEEK",
+            "selection": "HOME",
+            "selection_team": "Argentina",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.7,
+              "D": 0.2,
+              "A": 0.1
+            },
+            "confidence": 0.75,
+            "key_risk": "埃及前場雙星反擊效率極高，阿根廷後防臨時拼湊，開場若遲遲不進球，可能被薩拉赫偷一個導致平局",
+            "second_score": "2-0",
+            "contrarian_md": "主流會覺得阿根廷星光熠熠，打殘缺埃及就是輾壓局，3-0 起跳。但數據不這麼說：埃及本屆場均預期貢獻 2.14，比阿根廷的 1.58 還高，說明他們創造威脅的本事一點不弱。薩拉赫帶傷照樣首發，馬爾穆什在曼城練級歸來，兩匹快馬就等著阿根廷壓上後的空檔。加上阿根廷後防羅梅羅剛傷癒、莫利納可能缺陣，奧塔門迪老腿一旦被沖，這就是 2018 德國輸韓國、2022 阿根廷輸沙烏地的翻版溫床。所以我絕不認為阿根廷能輕鬆零封，翻車的引信一直都在。",
+            "signature_scene": "上半場第 34 分鐘，Argentina 22 號 Lautaro Martínez 接 9 號 Julián Alvarez 右路低平傳中，小禁區邊緣鏟射破網，把埃及剛穩住的神經再次扯斷。",
+            "reasoning_md": "阿根廷整體陣容深度完全碾壓，埃及防線重傷員缺陣難頂全場；但薩拉赫與馬爾穆什有能力抓阿根廷後防空隙，預料阿根廷 2-1 小勝。",
+            "script_md": "① 整體判讀：阿根廷強在攻擊點分散且板凳深厚——Nico Paz、Lautaro、Alvarez、Nicolás González 都能終結，中場 Lo Celso 的關鍵傳球（每 90 分鐘 3.28 次）專撕防線。埃及幾乎只有兩杆槍：10 號 Mohamed Salah（利物浦）和 22 號 Omar Marmoush（曼城），其他人全不具備頂級強度，尤其後防線 Fattouh 報銷、Abdelmonem 帶重傷，連基本組織都很吃力。\n② 關鍵對位：阿根廷 14 號 Exequiel Palacios（勒沃庫森）會全場貼 Salah，切斷他向中路連結；當埃及被迫長傳找 Marmoush 時，阿根廷中衛 13 號 Cristian Romero（熱刺）的上搶剛好對得上。埃及左後衛 13 號 Ahmed Fatouh 缺陣，換上來的替補會是阿根廷主攻通道——右邊 Molina 若缺陣，由 26 號 Nahuel Molina（馬競）或變陣，這邊仍會是阿根廷傳中源頭。\n③ 比賽劇本：開場 15 分鐘阿根廷壓制，控球率衝到 68%，埃及縮回半場。第 28 分鐘左右阿根廷拿到連續角球，11 號 Lo Celso 主罰找到 Lautaro，頭球被撲。第 34 分鐘，Argentina 左路配合，Alvarez 下底倒三角，Lautaro 鏟射 1-0。埃及丟球後被迫陣型前壓，下半場開場 10 分鐘內反擊提速，Salah 一次單刀被 23 號 Emiliano Martínez 出擊化解。第 67 分鐘，Argentina 15 號 Nicolás González（馬競）禁區外遠射中柱，22 號 Lautaro 補射 2-0。埃及沒有崩潰，第 78 分鐘靠 Marmoush 左路突破後橫敲，Salah 禁區弧頂低射死角扳回 2-1，懸念乍現。但阿根廷隨即用 5 號 Leandro Paredes 換上控場，最後 10 分鐘埃及再無實質機會。\n④ 為什麼是 2-1：阿根廷能創造大量預期進球（Lautaro 0.67 xG90、Nico Paz 0.78），對著殘缺防線起碼進兩個；但埃及的前場 xG 貢獻高於阿根廷，說明薩拉赫和 Marmoush 有能力從少數機會裡搞出一個，2-1 正好反映實力差與埃及的反擊威懾。\n⑤ 什麼情況會翻盤：阿根廷如果先丟球（例如 Otamendi 失誤送點或 Salah 反擊早早得手），就會陷入攻堅急躁的老毛病；埃及全線退守，靠 1 號 El Shenawy 撲幾個神仙球，就可能把平局或 0-1 拖到最後，重演四年前阿根廷首戰沙烏地的意外。"
+          },
+          {
+            "name": "GEMINI",
+            "selection": "HOME",
+            "selection_team": "Argentina",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.72,
+              "D": 0.19,
+              "A": 0.09
+            },
+            "confidence": 0.8,
+            "key_risk": "Egypt's elite counter-attacking duo of Salah and Marmoush exploit Argentina's defensive injuries and pace issues to steal an early lead and bunker down.",
+            "second_score": "2-0",
+            "contrarian_md": "The obvious narrative is that Argentina will steamroll a battered Egyptian defense and cruise to a comfortable 3-0 win. I don't buy a blowout. Look at the data: Egypt's expected contribution per match so far (2.14) is actually significantly higher than Argentina's (1.58). With Nahuel Molina carrying a knock and the aging Nicolás Otamendi potentially deputizing, Argentina has a glaring pace deficit at the back. Remember Saudi Arabia in 2022? A high line against quick, direct forwards can turn a 'safe' game into a nightmare. If Argentina overcommits, Omar Marmoush and a hobbled-but-lethal Mohamed Salah have the exact profile to punish them on the break.",
+            "signature_scene": "Second half, 68th minute: Lionel Messi (No.10) comes off the bench to replace Giovani Lo Celso. Within five minutes, he threads a signature disguised through-ball to a darting Julián Alvarez (No.9), who exploits the hesitation of a bruised Mohamed Abdelmonem to slot home Argentina's decisive second goal.",
+            "reasoning_md": "Argentina's overwhelming attacking depth will eventually break down a battered Egyptian defense, but Egypt's elite counter-attacking duo ensures it won't be a comfortable clean sheet. Expect Argentina to dominate possession and edge a tight, transitional game.",
+            "script_md": "- **Overall Read:** Argentina boasts overwhelming squad depth (22 top-league players) and relentless firepower, but Egypt packs a massive punch on the counter. The defining factor is Egypt's defensive injuries—lacking Ahmed Fatouh and with a bruised Mohamed Abdelmonem, they simply lack the physical resilience to bunker for 90 minutes against Argentina's waves of attack.\n- **Key Matchups:** The most critical battle is Egypt's No.22 Omar Marmoush (Manchester City FC) running at Argentina's right side, especially if Otamendi is forced to cover the wide channels. On the other end, Argentina's No.22 Lautaro Martínez and No.9 Julián Alvarez will constantly test Egypt's No.6 Mohamed Abdelmonem (OGC Nice), whose severe ankle bruising makes him highly vulnerable to quick changes of direction in the box.\n- **Match Script:** Egypt will sit in a deep, compact 5-3-2, absorbing pressure and looking to spring Salah and Marmoush. Argentina will dominate the ball early, probing through De Paul and Mac Allister. Expect Argentina to find a breakthrough late in the first half as Egypt's compromised defense tires and loses focus. Egypt is entirely capable of snatching one back on a rapid transition, exploiting the space behind Argentina's advancing fullbacks. However, Scaloni's luxury of bringing on Lionel Messi and Nico Paz against dead legs will seal the game late.\n- **Why this scoreline:** A 2-1 reflects Argentina's inevitable attacking success against a weakened backline, while acknowledging Egypt's proven ability to generate high-quality chances (2.14 expected contribution) through their Premier League stars.\n- **What would flip the result:** If Salah's hamstring holds up and he connects with Marmoush for an early counter-attack goal, Egypt could park the bus and frustrate the South Americans. If Argentina's finishing is wasteful—a recurring theme in their tight tournament games—Egypt could absolutely steal a 1-1 draw."
+          },
+          {
+            "name": "KIMI",
+            "selection": "HOME",
+            "selection_team": "Argentina",
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.58,
               "D": 0.25,
               "A": 0.17
             },
-            "confidence": 0.61,
-            "key_risk": "埃及的雙人菁英轉換（10號 Salah + 22號 Marmoush）懲罰了阿根廷過於激進的邊後衛與年長的中後衛輪換——只要一次失誤，整套「控制」戰術就會瞬間崩盤。",
+            "confidence": 0.72,
+            "key_risk": "Salah帶傷仍爆種＋阿根廷邊衛Molina／Medina有傷，側翼被Omar Marmoush（22號，Man City）速度生吃",
             "second_score": "1-1",
-            "contrarian_md": "### 傳統觀點（名氣）\n阿根廷坐鎮主場，陣容深度更佳，頂級聯賽球員更多——這應該是一場勝券在握的比賽。\n\n### 為何我並不完全買單\n阿根廷的優勢確實存在，但並非「穩操勝券」。埃及的進攻雖然頭重腳輕，但卻*極具威脅*：10號 Salah (Liverpool) 加上 22號 Marmoush (Man City)，即便埃及被壓制了 70 分鐘，他們依然能靠一次反擊製造進球。阿根廷已經證明過他們會被拖入苦戰（他們才剛在面對弱旅時未能拿下比賽——**2022年阿根廷對陣沙烏地阿拉伯**就是經典的警示：佔盡優勢、錯失良機，最後慘遭逆襲）。如果阿根廷浪費了開局的機會，埃及的低位防守加反擊戰術，正是豪門球隊慘遭滑鐵盧的標準劇本。",
-            "signature_scene": "下半場 63 分鐘：Argentina 在前場丟球；Egypt 立即發動反擊——10 號 Mohamed Salah (Liverpool) 帶球衝向 3 號 Tagliafico，隨後橫傳至禁區，22 號 Omar Marmoush (Manchester City) 跟進直接起腳破門，將比分扳平為 1-1。",
-            "reasoning_md": "Argentina 贏得這場膠著的比賽，因為他們的進攻機會數量與陣容深度（Alvarez/Lautaro/Nico Paz 以及 Lo Celso/Enzo 等組織核心）最終應能壓過 Egypt 的低位防守，但 Salah 與 Marmoush 的組合讓比賽隨時可能因一個失誤而陷入麻煩。",
-            "script_md": "Argentina 將掌握球權與射門次數——由 11 號 Lo Celso (Real Betis) 與 24 號 Enzo Fernández (Chelsea) 為 9 號 Julián Alvarez 和 22 號 Lautaro Martínez 輸送彈藥，這種持續的進攻壓力對於除了幾位球星外、缺乏頂級聯賽深度球員的 Egypt 來說實在太過沉重。\n\nEgypt 的計畫顯而易見且並不愚蠢：退守，讓 1 號 El Shenawy (Al Ahly) 處理遠射，然後透過 10 號 Salah (Liverpool) 策動，並由 22 號 Marmoush (Manchester City) 從旁衝刺突破。危險的對位在於 Argentina 的邊後衛壓上後留下的空間——只要一次攻守轉換防守（rest-defense）失誤，Egypt 就有機會得手。\n\n劇本：Argentina 開局強勢，累積角球與第二波球權，並在半場中後段取得首開紀錄的進球（最可能是由 De Paul/Lo Celso 發起攻勢，再由 Alvarez 接應倒三角傳球破門）。Egypt 不需要「踢得好」也能進球——一次轉換進攻或定位球機會就能讓他們扳平比分，很可能與 Salah 的參與有關。\n\n比賽後段，Argentina 的板凳深度與球員素質將決定勝負：更多的進攻浪潮、更多的射門，以及一名禁區殺手的終結——Lautaro 是將比分從 1-1 改寫為 2-1 最合適的人選。這就是為什麼比分會維持在世界盃的現實區間：Argentina 小勝，但 Egypt 讓他們贏得驚險。\n\n翻盤點：Argentina 在開局浪費重大機會（特別是如果 Messi 受到輪休管理，導致最後一傳變得草率），Egypt 先馳得點，隨後比賽演變成低位防守與拖延時間的拉鋸戰，Salah 懲罰對手的急躁——這正是「必勝」比賽如何演變成爆冷頭條的典型過程。"
+            "contrarian_md": "主流會說『梅西最後一舞，阿根廷火力3.37碾壓埃及2.72，穩吃』——我不買帳。埃及本屆xG2.14高於阿根廷1.58，Salah＋Marmoush雙箭頭效率實打實；阿根廷後衛群剛打完加時體能存疑，且Messi現在是替補定位，先發火力其實靠Como的Nico Paz（18號）撐場，世界盃舞台菜鳥。2022沙烏地、日本都示範過：只要前半段頂住，下半場高溫＋反擊，技術差距能抹平。",
+            "signature_scene": "68'，Egypt反擊，Salah右路吸雙衛橫敲，Marmoush 12碼推射被Emi Martínez指尖撲出，阿根廷逃過1-1；隨即79'阿根廷角球，Lisandro Martínez（6號）前點蹭到，Lautaro（22號）近門鏟射2-1鎖定。",
+            "reasoning_md": "阿根廷深度＋主場氣氛先破門，但埃及效率不差，咬到最後一球差。",
+            "script_md": "- 整體：阿根廷中場豪華（Enzo 24號＋Mac Allister 20號＋De Paul 7號）控球65%，但埃及擺5-4-1鐵桶，雙快Salah／Marmoush埋伏反擊。\n- 對位：阿根廷左閘Tagliafico（3號）對位Salah，速度吃虧；埃及右後衛Karim Hafez（15號，Pyramids）要扛Alvarez＋Nico Paz輪流衝擊，犯規堆積，55'黃牌，定位球危機。\n- 劇本：上半場30'阿根廷靠Nico Paz禁區外世界波1-0；埃及43'角球，Salah前點頭槌中柱。下半場60' Egypt換上Trézéguet（7號）提速，70'反擊Marmoush單刀被Romero（13號）戰術犯規，阿根廷驚險守。79'阿根廷第二個角球，Lautaro搶點2-0；補時Egypt靠Salah個人突破12碼點射1-2，來不及第二球。\n- 翻盤劇：若Molina／Medina傷退，Otamendi（19號）＋Montiel（4號）側翼成隧道，Salah 1v1 80'後絕平1-1，阿根廷小組第一就飛了。"
           },
           {
-            "name": "Claude",
+            "name": "GROK",
             "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
+            "selection_team": "Argentina",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.62,
-              "D": 0.24,
-              "A": 0.14
-            },
-            "confidence": 0.58,
-            "key_risk": "Salah 獲得一次絕佳射門機會，埃及隨即全線退守；Argentina 在對陣 Cape Verde 時早早陷入平局危機，這顯示他們在該輕鬆取勝時卻反而跌跌撞撞。",
-            "second_score": "2-0",
-            "contrarian_md": "顯而易見的觀點是：Argentina 從上到下陣容豪華（指數 3.37，26 人中有 22 人擁有頂級聯賽數據），而 Egypt 基本上就是靠 Salah、Marmoush 和九名來自 Al Ahly/Zamalek 的球員——簡直是大人打小孩。我大體上認同這一點，但不會盲目相信。Egypt 在本屆賽事的「預期貢獻值」（2.14）實際上比 Argentina（1.58）還要**高**，這顯示出一支球隊在有限的觸球次數下依然高效且危險——這正是那種能讓自以為安全的熱門球隊慘遭伏擊的球隊特質。我過去的紀錄也曾讓我吃過虧：我曾預測 Argentina 會以 2-0 擊敗 Cape Verde，結果卻踢成 1-1。這次也是同樣的陷阱——Argentina 開局慢熱、傳球過多，而 Salah 的一次致命一擊就能讓一場輕鬆的比賽變成苦戰。2022 年的 Saudi Arabia 沒有 Salah；但 Egypt 有。",
-            "signature_scene": "下半場約 65 分鐘，10 號 Mohamed Salah (Liverpool) 擺脫了 Argentina 的高位防線，接獲 Marmoush 的輕點傳球，迫使 Emiliano Martínez 狼狽地將球撲出——隨後 Egypt 在反擊中贏得了一波令人緊張的角球攻勢，讓主場球迷沉默了 90 秒。但最終是由 22 號 Lautaro Martínez 在比賽末段鎖定勝局，他在 Nico Paz 的射門被擋出後，補射破門得分。",
-            "reasoning_md": "阿根廷獲勝——擁有過於強大的火力與陣容深度（Lautaro、Julián、Nico Paz、Enzo、Simeone），對上僅靠 Salah 加上一絲希望的埃及隊。但這會是一場 2-1 的苦戰，而非大勝：埃及的高效率與 Salah 的存在，意味著他們終究會反咬一口。",
-            "script_md": "**整體分析：** 除了 Mohamed Salah 所處的區域外，Argentina 在每個位置上都更為強大。他們的進攻指數（3.37）以及至關重要的陣容深度（22 名頂級聯賽球員對比 Egypt 的 3 名）意味著攻勢將源源不絕——Lautaro (0.67)、Nico Paz (0.78)、Julián Álvarez (0.48)、Simeone (0.40)、Enzo Fernández (0.25)。Egypt 的威脅集中在兩人身上：10 號 Mohamed Salah (Liverpool, xG90 0.77) 和 22 號 Omar Marmoush (Manchester City, xG90 0.44)。在他們身後的是來自 Al Ahly 和 Zamalek 的球員——雖然拚勁十足，但實力仍低了一個檔次。\n\n**關鍵對位：** Argentina 的邊後衛與 Salah 之間的對決。Nahuel Molina 和 Nicolás Tagliafico 都喜歡前插（KeyPass90 分別為 0.93 和 0.76）——這正是 Salah 想要打開的缺口。Egypt 的 6 號 Mohamed Abdelmonem (OGC Nice) 和門將 1 號 El Shenawy (Al Ahly) 將面臨 Lautaro 和 Nico Paz 的猛烈圍攻。誰能贏下 Molina 與 Salah 這一側的對抗，很可能就決定了這場比賽會是 2-0 的輕鬆獲勝，還是 2-1 的緊張局面。\n\n**比賽劇本：** Argentina 開賽後將掌控球權，但正如他們對陣 Cape Verde 時一樣，首個進球不會來得太容易；Egypt 會採取深度防守、陣型緊縮，將所有賭注押在 Salah 的反擊上。我預計 Argentina 會在中場休息前取得突破，很可能是由 Lautaro 或 Nico Paz 進球。隨後出現轉折：下半場中段，Salah 策劃了一次進攻——無論是反擊還是定位球——Egypt 扳回一城，讓全場觀眾鴉雀無聲。Argentina 在驚慌失措後，憑藉板凳深度的優勢重新穩住陣腳，並攻入決定性的第二球。\n\n**為何是 2-1：** Egypt 的賽事效率（貢獻值 2.14）告訴我他們會進一球；Argentina 的火力則告訴我他們會進兩球。這是一場典型的世界盃 2-1 比賽——熱門球隊獲勝，但過程驚險。\n\n**變數：** 如果 Salah 先進球，讓 Egypt 能夠在領先的情況下「擺大巴」，這對 Argentina 來說將變成 1-1 的夢魘——這正是對陣 Cape Verde 時的劇本。此外，如果 Argentina 的邊後衛壓得太靠前，Marmoush 的速度可能會讓比分變成 1-2，從而爆出冷門。"
-          },
-          {
-            "name": "DeepSeek",
-            "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
-            "predicted_score": "2-1",
-            "win_prob": {
-              "H": 0.58,
-              "D": 0.28,
-              "A": 0.14
-            },
-            "confidence": 0.65,
-            "key_risk": "埃及的反擊效率與阿根廷的破密集能力；Salah與Marmoush的速度足以懲罰高位防線，而阿根廷在小組賽有慢熱前科。",
-            "second_score": "1-1",
-            "contrarian_md": "主流會說阿根廷豪華攻擊群（Lautaro、Álvarez、Lo Celso）對上埃及幾乎全本土聯賽的後防，肯定是輕鬆大勝。但我不吃這套。世界盃歷史上，強隊輸給「有超巨的弱隊」的故事還少嗎？2022年沙特有誰？但他們在門將和防守上超神發揮加上一個反擊，就掀翻了阿根廷。埃及有Mohamed Salah這種世界級殺手，還有一個在曼城踢球的Marmoush，這兩人的攻擊效率（本屆世界盃場均預期貢獻2.14，比阿根廷的1.58還高）說明他們抓機會能力極強。阿根廷後防並非鐵板一塊，Tagliafico和Molina壓上後留下的空當，簡直就是給Salah量身定做的反擊通道。別忘了，我們上次預測阿根廷對維德角2-0，結果1-1，證明這支阿根廷面對大巴時辦法不多，如果埃及先偷一球，阿根廷就危險了。",
-            "signature_scene": "下半場第63分鐘，埃及13號 Ahmed Fatouh（Zamalek SC）後場左側長傳，10號 Mohamed Salah（Liverpool FC）利用速度生吃阿根廷26號 Nahuel Molina，突入禁區右側低射遠角，球越過Emiliano Martínez的指尖，1-0。",
-            "reasoning_md": "阿根廷整體實力碾壓，但埃及有Salah這個最大變數；預計阿根廷控場但防線會失守一次，最終靠更猛的火力逆轉，2-1險勝。",
-            "script_md": "① 整體判讀：阿根廷在中前場擁有五大聯賽級別的深度和創造力，Lo Celso（Betis）的關鍵傳球（3.28/90）和De Paul（Inter Miami）的串聯將主導球權；但後防線面對Salah（利物浦）和Marmoush（曼城）這組英超級別的速度與技術，必然會有被一對一爆掉的時刻。埃及整體防守組織雖好，但中後場個人能力差距明顯，很難全場零封。\n② 關鍵對位：左路將是決戰場——阿根廷3號 Tagliafico（里昂）將直面埃及10號 Salah。Tagliafico助攻慾望強，一旦他壓上，Salah的反擊奔襲將是致命威脅。另一邊，埃及22號 Marmoush對準阿根廷26號 Molina（馬競），兩人都是快馬，互有攻守。埃及的定位球防守中，中後衛6號 Abdelmonem（尼斯）是唯一有歐洲經驗的後防，但他能否限制住阿根廷22號 Lautaro（國米）的頭球搶點？我看懸。\n③ 比賽劇本：開局阿根廷猛攻，前20分鐘形成圍攻，但埃及門將1號 El Shenawy（阿赫利）多次救險。第35分鐘，阿根廷角球，13號 Romero（熱刺）頭球中柱，二點球被15號 Nicolás González（馬競）補射入網，1-0。下半場埃及不甘失利，換上前鋒9號 Hamza Abdelkarim（巴薩B隊）加強進攻。第63分鐘，埃及後場斷球發動經典反擊，Salah單刀破門，1-1。阿根廷隨後換上Messi（邁阿密國際）加強組織。第81分鐘，Messi右路斜傳，Lautaro禁區接球轉身抽射，2-1。之後阿根廷回收守住勝果。\n④ 為什麼是這個比分：阿根廷破密集能力不算頂級，預期貢獻僅1.58，但個人閃光足夠進兩球；埃及靠反擊有極高效率，預期貢獻2.14不是虛的，Salah必會進球，一球合理。2-1是實力體現。\n⑤ 什麼情況會翻盤：如果阿根廷上半場未能破門，焦慮累積，Tagliafico或Molina一次冒失上搶被Salah反擊得分，埃及可能祭出更極端的大巴。阿根廷若落後，心態失衡，Messi年邁體力下降，其他人浪射（注意Nico Paz的射門選擇很差，15次射門才0.78xG），就可能被0-1或0-2直接打死。這就是冷門的路徑。"
-          },
-          {
-            "name": "Gemini",
-            "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
-            "predicted_score": "2-1",
-            "win_prob": {
-              "H": 0.65,
+              "H": 0.68,
               "D": 0.22,
-              "A": 0.13
+              "A": 0.1
             },
-            "confidence": 0.65,
-            "key_risk": "Argentina 在面對嚴密的低位防守時進攻效率下滑，而 Egypt 憑藉兩位效力於 Premier League 的頂尖球星在反擊中攻入一球，最終逼平對手。",
-            "second_score": "1-1",
-            "contrarian_md": "最顯而易見的劇本是 Argentina 以 3-0 或 4-0 大勝。他們擁有 22 名頂級聯賽球員，而 Egypt 只有 3 名。但我並不認為會出現一面倒的慘案。看看數據：Egypt 目前的預期貢獻值（2.14）實際上比 Argentina（1.58）還要**高**。Argentina 過去在面對紀律嚴明、採取深度防守的阿拉伯球隊時，向來表現掙扎（還記得 2022 年以 1-2 輸給 Saudi Arabia 的比賽嗎）。如果 Egypt 祭出以 Al Ahly/Zamalek 為核心的防守陣容，並不斷向邊路發動長傳，那麼 Argentina 的高位防線在面對 Salah 和 Marmoush 世界級的速度與終結能力時，將會顯得極其脆弱。預測一面倒的大勝是種懶惰的分析；這場比賽將會是一場苦戰。",
-            "signature_scene": "下半場第 65 分鐘。Argentina 全線壓上，將 Enzo Fernández 和 Mac Allister 推得太靠前，試圖攻入保險球。Egypt 解圍一次角球，22 號 Omar Marmoush 接球後，在攻守轉換中甩開 Nahuel Molina，隨即橫傳給 10 號 Mohamed Salah，後者將球射入 Emi Martínez 把守的大門，讓全場鴉雀無聲。",
-            "reasoning_md": "Argentina 擁有壓倒性的陣容深度與控球優勢，但 Egypt 擁有 Salah 與 Marmoush 這對頂尖的反擊搭檔，將使這場比賽變得緊張且膠著。預計 Argentina 將掌控球權並最終取得突破，但過程中難免會因對手的反擊而失球，場面將會相當驚險。",
-            "script_md": "**整體局勢：** Argentina 是一支控球怪獸，陣容深度極佳，但他們即將面對一支為「偷襲爆冷」而生的 Egypt：由堅韌的本土防守鐵桶陣，搭配世界級的轉換進攻球員所組成。\n\n**關鍵對位：** 整場比賽的勝負關鍵在於 Argentina 的中後衛，13 號 Cristian Romero 與 6 號 Lisandro Martínez，能否在面對 10 號 Mohamed Salah (Liverpool) 與 22 號 Omar Marmoush (Man City) 時，處理好身後的大片空檔。在另一端，Egypt 的 6 號 Mohamed Abdelmonem (Nice) 與 2 號 Yasser Ibrahim (Al Ahly) 必須組織起深陷且擁擠的禁區，以抵擋 Julián Alvarez 與 Lautaro Martínez 不間斷的跑位。\n\n**比賽劇本：** Argentina 開賽後將壟斷球權，透過 Lo Celso 與 De Paul 進行試探。他們很可能在上半場透過 Lautaro Martínez 的門前嗅覺或 Nico Paz 的遠射取得突破。然而，Egypt 不會輕易崩潰。他們將採取嚴密的 5-4-1 陣型，承受壓力並等待 Argentina 不可避免的注意力鬆懈。\n\n**高潮時刻：** 下半場當 Argentina 試圖攻入第二球以終結比賽懸念時，Egypt 將發動反擊。Marmoush 的速度與 Salah 的精準射門（每 90 分鐘 0.77 xG）實力太強，很難在 90 分鐘內被完全封鎖。\n\n**為何預測比分為 2-1：** Argentina 龐大的進攻天賦（Alvarez、Simeone 與替補上陣的 Nico González）最終將壓過 Egypt 的本土後衛群並攻入絕殺球，但這將是一場令人冷汗直流、過程艱辛的 2-1，而非 3-0 的輕鬆獲勝。如果 Argentina 的臨門一腳稍有偏差，這場比賽極易以 1-1 收場。"
-          },
-          {
-            "name": "Kimi",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
-            "win_prob": {
-              "H": 0.55,
-              "D": 0.25,
-              "A": 0.2
-            },
-            "confidence": 0.65,
-            "key_risk": "埃及雙箭頭Salah+Marmoush反擊效率超高，阿根廷邊衛壓上後身後空檔一次就夠嗆。",
-            "second_score": "2-1",
-            "contrarian_md": "主流敘事：梅西最後一舞+五大聯賽海嘯級陣容，穩吃非洲二隊。我不買賬：阿根廷鋒線xG全是聯賽資料，世界盃3場真實預期進球只有1.58，火力被高估；埃及2.14反而更高，且全隊擺5-4-1鐵桶+雙速馬反擊，剛好對上阿根廷邊後衛愛壓上的毛病。2022沙烏地2-1、2018克羅埃西亞3-0，都是低姿態反擊把阿根廷踢到懷疑人生，這劇本有機複製。",
-            "signature_scene": "68'，阿根廷26號Nahuel Molina殺到前場被斷，埃及10號Salah得球後一路沿右邊路長途推進，45米外精準斜塞找到22號Marmoush(Man City)單刀，後者12碼外右腳推遠角破網，1-1。",
-            "reasoning_md": "阿根廷空有控球但破不了5-4-1，埃及一次反擊就咬死，和局最合理。",
-            "script_md": "- 整體判讀：阿根廷中場豪華但鋒線xG轉化率被高估，埃及靠Salah+Marmoush雙頂級聯賽終結者+本土鐵桶，反擊效率更高。\n- 關鍵對位：阿根廷左側3號Tagliafico壓上後身後大片草原，直接對上埃及10號Salah+7號Trézéguet(Al Ahly)的速馬走廊；阿根廷18號Nico Paz(Como)雖xG0.78，但首次世界盃先發，面對埃及2號Yasser Ibrahim(Al Ahly)的粗野夾擊可能隱形。\n- 劇本：上半場阿根廷控球75%但只射3腳，埃及蹲坑0射；55'梅西自由球中柱彈出，混戰中9號Julián Alvarez撿漏1-0。領先後阿根廷更壓上，68'被Salah反擊追平。末段埃及全員退守，阿根廷高球砸不進，1-1收場。\n- 為何這比分：阿根廷真實火力1.58，埃及2.14，差距沒名氣大；埃及鐵桶+反擊剋控球，和局最貼近資料。\n- 翻盤情境：若阿根廷早早2球領先，埃及被迫壓出，阿根廷中場技術優勢會放大，可能變3-0；若阿根廷先被反擊落後，埃及收得更死，阿根廷高空劣勢浮現，可能0-1輸。"
-          },
-          {
-            "name": "Grok",
-            "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
-            "predicted_score": "2-1",
-            "win_prob": {
-              "H": 0.78,
-              "D": 0.15,
-              "A": 0.07
-            },
-            "confidence": 0.74,
-            "key_risk": "Salah 憑藉一次反擊中的精彩表現，憑一己之力將比分扳成 1-1。",
+            "confidence": 0.72,
+            "key_risk": "Salah staying fit and Egypt parking the bus for a 70-minute smash-and-grab",
             "second_score": "1-0",
-            "contrarian_md": "最顯而易見的劇本是 Argentina 憑藉 Messi、Alvarez 和板凳深度以 3-0 輕鬆取勝。但這忽略了 Egypt 以本土球員為主的後防線依然薄弱，以及 Salah 的一次反擊就能懲罰任何輕敵心態；2018 年 Germany 對陣 Korea 的比賽就精準展示了當「穩贏」的熱門球隊面對採取深度防守並伺機打轉換進攻的弱旅時，是如何崩盤的。",
-            "signature_scene": "下半場第 65 分鐘：Argentina 9 號 Julián Alvarez (Atlético) 回撤接應，隨後傳球給 10 號 Messi，Messi 送出一記直塞球，助攻 21 號 José Manuel López 在 Egypt 因急於追平比分而防線壓得過高時，以低射攻破 El Shenawy 把守的大門。",
-            "reasoning_md": "阿根廷以 3.37 的進攻指數及 22 名頂級聯賽球員，輾壓埃及的 2.72 指數及 3 名頂級聯賽球員；最終由主場球隊以 2-1 勝出。",
-            "script_md": "阿根廷從開賽哨響便憑藉優勢中場（Enzo Fernández、Mac Allister、Lo Celso）掌控節奏，主導控球權與場上區域；埃及則採取緊湊防守，並仰賴 Salah 每 90 分鐘 0.77 的預期進球值（xG/90）進行反擊。早期的壓力來自定位球以及 Tagliafico 和 Molina 在邊路的重疊進攻；埃及的本土後衛（Hany、Abdelmonem）難以應對 Alvarez 與 Lautaro 的跑位。首顆進球出現在 35 分鐘左右，由 Nico Paz 或 Alvarez 在持續的角球攻勢後接獲回傳球破門。埃及憑藉 Salah 的個人能力以及 Marmoush 每 90 分鐘 0.44 的預期進球值（xG/90）串聯攻勢，在比賽末段透過轉換進攻追回一球。阿根廷最終以替補球員或定位球攻入第二球鎖定勝局，而非大比分獲勝，這是因為埃及的低位防守限制了開放性進攻。2-1 的比分反映了阿根廷明顯的優勢，但面對一支能把握瞬間機會的球隊，並未過度擴大勝分差距。除非阿根廷有兩名關鍵進攻球員迅速受傷，或是 Salah 繳出數據上難以支撐全隊表現的 90 分鐘超神演出，否則比賽結果不會翻盤。"
+            "contrarian_md": "Conventional take is Argentina cruise 3-0 because of squad depth and home advantage. That ignores Egypt's two genuine top attackers (Salah + Marmoush) and Argentina's recent pattern of using Messi off the bench while rotating defenders; one early Salah counter or set-piece lapse flips the script exactly like Saudi Arabia 2022.",
+            "signature_scene": "Second half, 65th minute: Argentina No.21 José Manuel López wins a corner, No.9 Julián Alvarez nods it down, No.22 Lautaro Martínez finishes first-time at the near post.",
+            "reasoning_md": "Argentina's 3.37 attacking index and 22 top-league players crush Egypt's thin 2.72 side; even with Salah, Egypt lack the depth to survive 90 minutes against Argentina's press and set-pieces.",
+            "script_md": "Argentina control the ball and territory from the first whistle; Egypt sit deep with a low block and rely on Salah's runs in behind. Early pressure comes from Argentina's midfield trio (No.24 Enzo Fernández, No.20 Alexis Mac Allister, No.11 Giovani Lo Celso) creating overloads on the left. Egypt's weakened defense (No.6 Mohamed Abdelmonem carrying ankle damage, No.13 Ahmed Fatouh already out) struggles to clear crosses. First goal arrives before half-time via a set-piece or cut-back finished by Lautaro or Alvarez. Egypt stay compact after the break hoping for one Salah transition; they nick a 75th-minute reply on the counter. Argentina push again and restore the two-goal cushion through a second-half substitute or late Alvarez finish. The 2-1 scoreline holds because Argentina have too many attacking options (Paz, Simeone, González) for Egypt's three-man top-league core to contain all night. Result flips only if Salah's hamstring forces him off early and Egypt concede two set-piece goals before the 60th minute."
           },
           {
             "name": "GLM",
             "selection": "HOME",
-            "selection_team": "第14場1/16決賽勝者",
+            "selection_team": "Argentina",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.62,
-              "D": 0.23,
-              "A": 0.15
+              "H": 0.72,
+              "D": 0.16,
+              "A": 0.12
             },
-            "confidence": 0.68,
-            "key_risk": "阿根廷中後場過度壓上，被薩拉赫與馬穆什抓到單刀反擊空間，導致落後被迫狂攻。",
-            "second_score": "1-1",
-            "contrarian_md": "主流名氣會看這場：阿根廷是衛冕冠軍，陣容深度 22/26 人有頂級聯賽資料，攻擊指數 3.37 碾壓埃及的 2.72，理所當然覺得阿根廷穩贏、甚至大勝。但我偏不信這套。阿根廷本屆每場預期貢獻只有 1.58，埃及卻高達 2.14——埃及的進攻效率在這屆世界盃實際上比阿根廷更狠。更致命的是，埃及的兩個火力點薩拉什（10號 Salah，Liverpool）和馬穆什（22號 Marmoush，Man City）都在英超頂級節奏裡踢球，阿根廷後防線對他們毫無陌生感優勢。2022 年阿根廷首戰輸沙烏地、2018 德國輸韓國，都是強隊以為「穩了」然後被反擊打穿。這場如果爆冷，就是薩拉赫和馬穆什雙鬼拍門，阿根廷後防線壓得太上去回不來。",
-            "signature_scene": "下半場 65 分鐘左右，阿根廷全隊壓過半場進攻，10號 Messi 在禁區前沿拿球被斷，埃及瞬間發動反擊，22號 Marmoush（Manchester City FC）從中場帶球狂奔，與右路的10號 Salah（Liverpool FC）做個二過一配合，Salah 禁區右側低射破門，阿根廷 1-2 落後陷入恐慌。",
-            "reasoning_md": "阿根廷贏，但不會贏得輕鬆。埃及有薩拉赫和馬穆什兩個頂級聯賽火力點，反擊威脅極大，阿根廷防線壓上後必然漏人。最終阿根廷靠整體深度和替補席優勢在末段逆轉，2-1 險勝。",
-            "script_md": "## 整體判讀\n阿根廷帳面實力確實強，攻擊指數 3.37、深度 22/26 人有頂級聯賽資料，但本屆每場預期貢獻只有 1.58，進攻效率並不突出。埃及雖然整體深度差（只有 3/26 人有頂級聯賽資料），但每場預期貢獻 2.14 反而更高，關鍵就在 10號 Salah（Liverpool FC）和 22號 Marmoush（Manchester City FC）這兩個點——一個 xG90 0.77、一個 0.44，都是英超頂級節奏的球員，埃及的進攻威脅完全集中在他們身上。\n\n## 關鍵對位\n阿根廷的軟肋在後防線的壓上後留下的空間。3號 Tagliafico（Olympique Lyonnais）和 26號 Molina（Atlético De Madrid）邊後衛插上幅度大，一旦球權轉換，埃及 10號 Salah 和 22號 Marmoush 的反擊速度會直接打穿這個區域。埃及中場 19號 Marwan Attia（Al Ahly FC）和 8號 Emam Ashour（Al Ahly FC）雖然俱樂部層級低，但他們的任務很簡單——搶斷後第一時間找前面的兩個英超前鋒，不需要複雜組織。\n\n## 比賽劇本\n- **早段（0-25 分鐘）**：阿根廷控球率壓到 65% 以上，但埃及 1號 El Shenawy（Al Ahly FC）門將站位穩，前 20 分鐘阿根廷幾次遠射都被沒收。埃及全隊退守，不急著反擊。\n- **中段（25-60 分鐘）**：阿根廷靠 21號 Nico Paz（Como，xG90 0.78）或 22號 Lautaro Martínez（FC Internazionale Milano，xG90 0.67）在禁區內製造混亂，先進一球。但阿根廷領先後繼續壓上，埃及在 55 分鐘左右靠一次快速反擊，22號 Marmoush 接長傳帶球推進，分給 10號 Salah 禁區內射門扳平。\n- **末段（60-90 分鐘）**：阿根廷換上替補席的 9號 Julián Alvarez（Atlético De Madrid）和 17號 Giuliano Simeone（Atlético De Madrid）加強鋒線衝擊，埃及後防線深度不足的問題暴露——主力 2號 Yasser Ibrahim（Al Ahly FC）和 5號 Ramy Rabia（Al Ain FC）體能下降，75 分鐘左右阿根廷靠一次定位球或禁區內混戰再進一球。\n\n## 為什麼是 2-1\n阿根廷的替補深度是決定性因素。埃及只有 3 個頂級聯賽球員，替補席上幾乎沒有能改變比賽的人；阿根廷替補席坐著 Alvarez、Simeone、Almada 這些馬競級別的球員。到 70 分鐘以後，埃及後防線體能崩潰，阿根廷靠替補衝擊拿下比賽。但埃及的薩拉赫和馬穆什至少能抓到一次反擊機會進球，所以不會被零封。\n\n## 什麼情況會翻盤\n如果阿根廷開局就急躁、全隊壓過半場，埃及前 30 分鐘就靠反擊先進一球，比賽節奏就會完全被埃及帶走。阿根廷一旦落後被迫陣地戰，埃及 1號 El Shenawy 門將狀態好的話能撐住，這場就可能變成 1-1 甚至埃及 1-2 偷走。"
+            "confidence": 0.7,
+            "key_risk": "Salah 拖著傷腿照樣踢出世界級反擊，Marmoush 跑穿阿根廷臨時中衛搭檔，一擊要命。",
+            "second_score": "2-0",
+            "contrarian_md": "主流敘事：阿根廷陣容深度 22/26 有頂級聯賽數據，攻擊指數 3.37 碾壓埃及 2.72，加上埃及防線傷了 15號 Ahmed Fatouh（Grade 2 撕裂退賽）、6號 Mohamed Abdelmonem（嚴重踝傷硬上），阿根廷贏定了。我不完全信的是：阿根廷本屆每場預期貢獻只有 1.58，低於埃及的 2.14——這代表阿根廷的進攻轉化率在這屆賽事並不穩定，火力數據好看但實際產出打折。加上 13號 Cristian Romero 剛傷癒、19號 Otamendi 可能替補中衛，這條防線面對 Salah＋Marmoush 的反擊速度，一個失誤就翻車。2022 阿根廷首戰輸沙烏地就是被反擊打穿，這場埃及有足夠的鋒線火力複製那個劇本。",
+            "signature_scene": "下半場 65 分鐘左右，10號 Salah 在右路接長傳，硬扛剛傷癒的 13號 Romero，一腳斜塞給 22號 Marmoush 禁區左側起腳——這球進了就 1-1，阿根廷被迫壓上。",
+            "reasoning_md": "阿根廷贏，但贏得不輕鬆。深度和整體火力碾壓，但防線傷病隱患＋進攻轉化率偏低，讓埃及有機會咬住甚至追平。2-1 是最合理的結局：阿根廷靠陣地戰進兩個，埃及靠反擊偷一個。",
+            "script_md": "## 整體判讀\n阿根廷的陣容深度是真的嚇人——22/26 人有頂級聯賽數據，攻擊指數 3.37，板凳上坐著 18號 Lautaro Martínez（xG90 0.67）和 21號 Nico Paz（xG90 0.78）這種火力。但埃及不是軟柿子：他們本屆每場預期貢獻 2.14，比阿根廷的 1.58 還高，這代表埃及的進攻效率在這屆賽事是實打實的好。\n\n## 關鍵對位\n- **阿根廷左路 vs 埃及右路反擊**：10號 Salah（xG90 0.77）雖然帶著腿筋傷，但他的預期助攻90 高達 0.43、關鍵傳球90 2.32，他不需要全場衝刺，一次精準傳球就夠命。22號 Marmoush（xG90 0.44）是真正的速度威脅，阿根廷中衛 13號 Romero 剛傷傷癒、轉身慢一拍就是致命的。\n- **埃及防線漏洞**：15號 Ahmed Fatouh 退賽、6號 Mohamed Abdelmonem 踝傷硬上，這條防線面對阿根廷的 9號 Julián Alvarez（xG90 0.48）和 22號 Lautaro Martínez（xG90 0.67），撐不住 90 分鐘。\n- **中場控制**：阿根廷 20號 Mac Allister 和 24號 Enzo Fernández 的傳控能力遠超埃及中場，埃及的 8號 Emam Ashour（Al Ahly FC）和 19號 Marwan Attia（Al Ahly FC）在頂級聯賽數據上是空白，中場會被壓著打。\n\n## 比賽劇本\n- **上半場（0-45 分鐘）**：阿根廷控球壓制，埃及收縮防守。阿根廷靠中場創造機會，但 10號 Messi 如果替補上場，上半場進攻缺乏最後一傳的魔法。20-30 分鐘左右，9號 Alvarez 或 22號 Lautaro 抓住埃及防線傷病混亂，角球或禁區混戰先進一個。1-0。\n- **下半場（45-75 分鐘）**：埃及被迫壓出，但這正好給 Salah 和 Marmoush 反擊空間。60 分鐘左右，Salah 一腳長傳找 Marmoush，阿根廷中衛線速度不夠，被扳平 1-1。阿根廷主帥 Scaloni 換上 Messi 和 Nico Paz。\n- **末段（75-90 分鐘）**：梅西上場後埃及防線全面退縮，75-80 分鐘阿根廷連續角球攻勢，Nico Paz 或 Lautaro 在禁區搶點破門。2-1 收場。\n\n## 為什麼是這個比分\n阿根廷的火力深度足以進兩個，但防線傷病和進攻轉化率問題讓他們很難零封。埃及有 Salah 和 Marmoush 的反擊能力，偷一個進球是合理的。3 球以上的大勝需要埃及防線全面崩潰，但 Abdelmonem 雖然帶傷，硬撐 90 分鐘的可能性還在。\n\n## 什麼情況會翻盤\n如果 Salah 的腿筋傷在比賽中惡化、被迫下場，埃及失去反擊核心，阿根廷可能 3-0 碾壓。反過來，如果 Romero 的膝傷復發、阿根廷中衛線徹底混亂，埃及靠 Marmoush 單兵反擊可能 1-1 甚至 2-1 爆冷。但最可能的結局是阿根廷 2-1 險勝。"
           }
         ]
       },
@@ -7966,8 +7966,8 @@
     },
     {
       "match_id": "54328024",
-      "home": "第13場1/16決賽勝者",
-      "away": "第15場1/16決賽勝者",
+      "home": "瑞士",
+      "away": "哥倫比亞",
       "kickoff_tw": "2026-07-08 04:00",
       "stage": "1/8決賽",
       "status": "未開賽",
@@ -7975,136 +7975,136 @@
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
-        "consensus_team": "第13場1/16決賽勝者",
-        "win_prob": 0.477,
+        "consensus_team": "Switzerland",
+        "win_prob": 0.491,
         "agree": "7/7 models",
         "predicted_score": "2-1",
         "models": [
           {
             "name": "GPT",
             "selection": "HOME",
-            "selection_team": "第13場1/16決賽勝者",
+            "selection_team": "Switzerland",
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.46,
+              "D": 0.27,
+              "A": 0.27
+            },
+            "confidence": 0.58,
+            "key_risk": "Colombia’s transition threat through No.7 Luis Díaz (FC Bayern München) isolating Switzerland’s full-backs and turning one big counter + set-piece into a result.",
+            "second_score": "1-1",
+            "contrarian_md": "**Obvious narrative:** “Switzerland are at home, settled, deeper squad — Colombia lose Córdoba, so the Swiss just control it and win.”\n\n**Why I don’t fully buy it:** Colombia’s attack isn’t ‘gone’ without Córdoba — it’s **condensed**. No.7 **Luis Díaz** + No.25 **Luis Suárez** is still elite shot volume and xG, and Switzerland can be made to look slow if their full-backs get dragged high. One Díaz break, one James dead-ball, and you’re suddenly in the 2022 territory where big teams got clipped (Argentina vs Saudi, Germany vs Japan): not because the favourite was “bad,” but because they were **a little open in the wrong zones**.",
+            "signature_scene": "First half (28’): Switzerland win a spell of territory, No.3 Widmer (Mainz) whips an early ball after No.10 Xhaka (Sunderland) switches play; No.7 Embolo (Rennes) attacks the near post and forces a goal-mouth scramble that ends with a Swiss tap-in (likely No.19 Okafor) from six yards.",
+            "reasoning_md": "Switzerland 2-1: marginally better overall attacking output and far better depth/structure, while Colombia’s loss of Córdoba makes them more dependent on Díaz/Suárez moments rather than sustained pressure.",
+            "script_md": "Switzerland have the cleaner, deeper attacking spread (Okafor/Embolo/Ndoye/Amdouni all live around real xG numbers), and they can keep waves coming without the whole plan collapsing if one forward has an off day. Colombia’s top-end is scary (No.7 Luis Díaz, No.25 Luis Suárez), but the **team attack** looks thinner on the data and even more so with Córdoba out — that’s a real hit to their ability to pin centre-backs and recycle second balls.\n\nKey matchup is Switzerland’s right side: if No.3 Widmer (Mainz) pushes high, Colombia will try to spring Díaz into that channel and force No.5 Akanji (Inter) to defend wide. Switzerland’s advantage is the middle: No.10 Xhaka and No.6 Zakaria can keep Colombia running, and when Colombia’s block drops, Swiss wide runners like No.11 Ndoye and No.17 Vargas generate repeat shots rather than waiting for a miracle pass.\n\nScript: Switzerland start fast at home, establish territory, and create the first real chance through crosses and cutbacks — **they score first** (a scrappy box goal is more likely than a 25-yard worldie). Colombia respond the only sensible way: direct transitions and set pieces, with No.7 Díaz driving and No.10 James Rodríguez (Minnesota United FC) looking for the killer ball; they get an equaliser or at least a massive swing moment.\n\nBut over 90 minutes Switzerland’s depth and shot-creation wins out: a second-half spell of pressure (corners, second balls, and one clean chance for Okafor/Embolo) produces the deciding goal. That’s why it lands in the realistic World Cup lane: **2-1**, not a blowout.\n\nWhat flips it: Díaz gets a consistent 1v1 against a high Swiss full-back and turns it into an early goal, forcing Switzerland to open up — then Colombia can ride the game with Suárez finishing one more chance. If Switzerland stay compact and don’t donate transitions, they edge it."
+          },
+          {
+            "name": "CLAUDE",
+            "selection": "HOME",
+            "selection_team": "Switzerland",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.45,
               "D": 0.29,
+              "A": 0.26
+            },
+            "confidence": 0.52,
+            "key_risk": "Luis Díaz getting isolated 1v1 against Switzerland's fullbacks and turning one moment into a goal — his ceiling is far above anyone on the pitch.",
+            "second_score": "2-1",
+            "contrarian_md": "The obvious take: Colombia lost Córdoba, they're thin (only 11/26 with top-league data), and Switzerland at home with an EPL-heavy attack and settled squad should control this. But I don't fully buy the Swiss firepower. Look closer — Okafor at Leeds, Amdouni at Burnley, Vargas at Sevilla scraping 0.19: these are decent numbers on paper but this is a team that scores in dribs and drabs, no true elite finisher, and it goes cold in tight knockout games. Colombia meanwhile still owns the two single best attacking talents on the field: Luis Díaz (Bayern, xG90 0.43, xAG90 0.22) and Suárez (Sporting, 0.53). Switzerland's expected contribution 4.06 vs Colombia's 2.63 flatters the Swiss because of depth, not top-end — and knockout games are decided by top-end. 2022 Morocco and 2018 Germany both remind us organised, star-fronted underdogs bury 'settled favourites' who lack a killer.",
+            "signature_scene": "Second half, ~65th minute: Colombia No.7 Luis Díaz (Bayern) drifts left, drops the shoulder on Widmer and whips one across for a tap-in or wins the equaliser himself off a Muñoz overlap. Switzerland, having led, ends up hanging on for the draw as Xhaka drops deeper and deeper.",
+            "reasoning_md": "Near-identical squad indices, but Switzerland's edge is depth and home comfort while Colombia's edge is elite top-end firepower even without Córdoba. That cancels into a tight, low-scoring game — I lean draw with a slight Swiss tilt.",
+            "script_md": "**(1) Overall read:** These two are separated by a whisker — 2.04 vs 2.03 attacking index. Switzerland is deeper and more balanced (23/26 with top-league data, EPL/Serie A spine in Akanji, Zakaria, Xhaka), but they have no elite finisher — Okafor 0.49 is nice but it's Leeds-tier, and Embolo blows hot and cold. Colombia is thin behind the first XI but carries the two most dangerous players on the pitch in Díaz and Suárez.\n\n**(2) Key matchups:** The game turns on Colombia No.7 Luis Díaz (FC Bayern) vs whoever plays right-back for Switzerland — Widmer is back from a hip issue and that's a wound Colombia will probe all night. Up front, Colombia No.25 Luis Suárez (Sporting CP, xG90 0.53) inherits the No.9 spot after Córdoba's adductor tear; he's a real finisher, not a downgrade in quality, just in link-up. Watch Colombia No.14 Gustavo Puerta (Racing Santander) numbers — 2.81 KeyPass90 — he can feed the runners. For Switzerland, Xhaka (Sunderland, 1.30 KeyPass90) is the metronome and Embolo/Ndoye carry the threat.\n\n**(3) Match script:** Cagey opening, both sides respect each other. Switzerland likely edges territory at home and may nick the first goal off a set piece or an Embolo/Ndoye break in the first half. But Colombia won't fold — they'll sit a touch deeper and spring Díaz on the counter, and I expect the equaliser to come mid-second-half through him or Suárez. Late on it gets nervy; Xhaka's Swiss drop deep and invite pressure.\n\n**(4) Why this score:** Two evenly-matched, defensively sound sides with elite-but-limited attacks scream low-scoring. 1-1 is my call, 2-1 Switzerland the backup if their depth tells in the last 20.\n\n**(5) What flips it:** If Díaz has a night, Colombia win outright (1-2). If Switzerland's midfield strangles Puerta and Díaz gets no service, the Swiss depth grinds out a 2-0/2-1."
+          },
+          {
+            "name": "DEEPSEEK",
+            "selection": "HOME",
+            "selection_team": "Switzerland",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.45,
+              "D": 0.3,
               "A": 0.25
             },
-            "confidence": 0.56,
-            "key_risk": "哥倫比亞的前場頂級配置（7號 Luis Díaz + 25號 Luis Suárez）若能把握住瑞士邊後衛壓上所留下的轉換空檔，即便在射門次數較少的比賽中，也有能力上演「偷襲得手」的戲碼。",
-            "second_score": "1-1",
-            "contrarian_md": "**顯而易見的劇本：** 瑞士坐鎮主場，陣容深度更佳，結構也更穩定——他們會透過磨合戰術擊垮 Colombia。\n\n**為什麼我並不完全買單：** Colombia 前場的「上限」比瑞士更高：7 號 **Luis Díaz** (Bayern) 加上 25 號 **Luis Suárez** (Sporting) 只要有兩次半場機會就能贏下比賽，而瑞士缺乏一個能確保每場比賽穩定創造得分機會的「核心」組織者。如果這場比賽演變成一球定勝負的局面，爆冷的劇本就很有可能發生——想想 **Argentina vs Saudi Arabia (2022)**：實力較強的一方掌控局面卻浪費機會，最後在攻守轉換中被對手突襲得手。",
-            "signature_scene": "下半場（62’）：瑞士隊在右路形成人數優勢，No.3 Silvan Widmer (Mainz) 與 No.11 Dan Ndoye 進行二過一配合後，送出一記低平球回傳；No.19 Noah Okafor 插上至前點附近，將球捅入網窩，比分改寫為 2-1。",
-            "reasoning_md": "瑞士隊贏得了一場膠著的比賽，因為他們的進攻深度更足且更具持續性（擁有數名場均 xG 值在 0.3–0.5 之間的鋒線球員），且即便 Díaz 與 Suárez 的表現讓比賽充滿懸念，瑞士隊整體的貢獻率仍遠超 Colombia。",
-            "script_md": "瑞士是此役進攻端更為*完整*的一方：Okafor、Embolo、Ndoye、Amdouni 與 Vargas 的組合能帶來一波波的射門攻勢，數據也明確顯示他們具備持續創造機會的能力（預期貢獻值 4.06 對比哥倫比亞的 2.63）。哥倫比亞的威脅則較為集中——只要 7 號 **Luis Díaz** 能帶球衝擊後撤的防線，且 25 號 **Luis Suárez** 能獲得傳球支援，他們並不需要太多次射門機會就能得分。\n\n關鍵對位在於瑞士的右路：3 號 **Silvan Widmer** 與 5 號 **Manuel Akanji** 必須上前封堵 Díaz 的斜線帶球。只要他們出現一次判斷失誤，哥倫比亞就有可能先馳得點。但放眼 90 分鐘，哥倫比亞數據支持下較為單薄的板凳深度（11/26）就會顯現出來：當瑞士持續透過 10 號 **Granit Xhaka** 與 6 號 **Denis Zakaria** 進行攻守轉換時，哥倫比亞將難以維持施壓強度。\n\n比賽初期，哥倫比亞會試圖製造混亂——快速將球傳給 Suárez，並由 Díaz 爭搶第二落點。瑞士將會先穩住陣腳，隨後透過 Ndoye 與 Vargas 在邊路的頻繁突破將哥倫比亞壓制在半場，藉此製造角球與第二波射門機會。\n\n瑞士憑藉進攻產量先馳得點（極可能是 Okafor 或 Embolo 在禁區內的混戰進球），哥倫比亞隨後透過反擊或定位球扳回一城（Díaz 參與其中），接著瑞士憑藉板凳深度與持續的進攻節奏贏下比賽後段——更充沛的體能、更多的射門，以及一次乾淨俐落的倒三角回傳破門。\n\n**為何預測 2-1：** 兩隊在帳面上的「進攻指數」相差無幾，因此不會出現一面倒的屠殺；但瑞士在創造機會的模式與板凳深度上的優勢，使他們比哥倫比亞更有可能攻入致勝的第二球。\n\n**變數：** 瑞士在開賽初期錯失重大得分機會且邊後衛壓得太上；哥倫比亞成功打出一次 Díaz 傳給 Suárez 的反擊，隨後退守並將比賽變成一場 1-0 或 1-1 的五五波對決。"
-          },
-          {
-            "name": "Claude",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
-            "win_prob": {
-              "H": 0.4,
-              "D": 0.29,
-              "A": 0.31
-            },
-            "confidence": 0.55,
-            "key_risk": "哥倫比亞的兩位頂尖終結者（Díaz + Suárez）僅需一個瞬間，就能在反擊中懲罰瑞士隊移動緩慢的中後衛。",
+            "confidence": 0.65,
+            "key_risk": "Luis Díaz 個人爆點能力加上瑞士可能圍攻不下被反擊",
             "second_score": "1-0",
-            "contrarian_md": "顯而易見的觀點是：Switzerland 陣容深度更佳、更為均衡——26 人中有 23 人擁有頂級聯賽數據，具備六名可靠的得分手（Okafor 0.49、Embolo 0.42、Ndoye、Amdouni、Vargas），還有 Kobel 這位世界盃等級的門將。Colombia 看起來則是頭重腳輕：僅 11 人有實質數據，進攻火力完全集中在 Díaz 和 Suárez 身上。因此，「Switzerland 憑藉深度磨垮對手」是一個保險的說法。但我並不完全買單。兩隊的進攻指數旗鼓相當（2.04 對 2.03），且 Colombia 最強的兩名前鋒在 xG/90（預期進球數/90分鐘）上都高於每一位 Swiss 前鋒——Suárez 的 0.53 和 Díaz 的 0.43 是頂尖的決勝球員，這正是那種能在單場比賽中爆冷擊敗熱門球隊的類型。Switzerland 的後防線老化且遲緩（效力於 Betis 的 Rodríguez、Elvedi、Cömert），而這正是 2022 年 Saudi 和 Japan 擊敗「更穩健」球隊的方式：擺大巴、防守反擊、把握兩次關鍵反擊機會。如果 Switzerland 無法突破低位防守且輕易被斷球，那麼他們的陣容深度就毫無意義。",
-            "signature_scene": "下半場約 65 分鐘：Switzerland 投入重兵尋求致勝球，Colombia 7 號 Luis Díaz (FC Bayern) 在左側邊線接球，帶球衝向體力下滑的 Ricardo Rodríguez，隨後送出一記斜傳給 25 號 Luis Suárez (Sporting CP)，後者擺脫 Akanji 的防守，以一記低射穿越 Kobel 破門。這是典型的強隊壓上進攻反遭反擊的案例。",
-            "reasoning_md": "從帳面實力來看，雙方旗鼓相當，因此我傾向於平局，雖然瑞士的板凳深度讓他們在主場略佔優勢，但 Colombia 兩名頂尖前鋒的存在，讓這場比賽隨時可能爆冷。預測雙方握手言和，比分 1-1。",
-            "script_md": "**整體解讀：** 進攻指數旗鼓相當（2.04 對 2.03），因此若有人認為這是一場輕鬆的主場勝利，那他看的是表面現象而非數據。Switzerland 的優勢在於陣容深度與陣型——擁有六名得分手、門將位置有 Kobel 坐鎮，以及 Xhaka 的中場調度。Colombia 則顯得頭重腳輕：頂尖戰力強大（Díaz、Suárez），但後備深度不足，多來自 MLS 或國內聯賽。\n\n**關鍵對位：** Switzerland 的問題在於攻守轉換時的防守。Rodríguez 和 Elvedi 面對 Colombia 7 號 Luis Díaz (FC Bayern) 與 25 號 Luis Suárez (Sporting CP) 時，在速度與鋒利度上存在明顯的實力差距——這兩人的威脅總和甚至超過了整個 Switzerland 前鋒線。反過來看，Embolo (0.42) 與 Okafor (0.49) 必須針對 Colombia 不穩定的門將位置（37 歲的 Ospina 或來自 Liga MX 的 Camilo Vargas）以及容易被拉開空檔的中後衛 Lucumí/Mina 進行攻擊。請留意 Colombia 14 號 Gustavo Puerta (Racing Santander)——他擁有出色的底層數據，是中場的一枚活棋。\n\n**比賽劇本：** 預計上半場會是一場謹慎的戰術博弈——Colombia 樂於退守並讓出控球權，伺機透過 Díaz 進行反擊。Switzerland 則由 Xhaka 和 Rieder 負責組織進攻，預計會佔據控球優勢；若有人能率先打破僵局，極可能是來自 Switzerland 的定位球或 Embolo 的門前搶點。然而，Colombia 擁有更具威脅的個人閃光點；當比賽進入 60 分鐘後節奏拉開，正是 Díaz 與 Suárez 懲罰對手的時刻。我看好雙方戰平。\n\n**為何預測此比分：** 兩支實力相當的隊伍，一方控球防守較佳，另一方則擁有兩名最致命的終結者——這整場看下來就是 1-1 的局面，若 Switzerland 能偷到一顆定位球並守住，則 1-0 是備選比分。\n\n**變數：** 若 Switzerland 先進球並迫使 Colombia 走出防守陣型，Switzerland 的陣容深度將能輕鬆勝出（2-0）。若 Colombia 先馳得點並採取死守戰術，Suárez 的終結能力將讓比賽變成 0-2 的偷襲戰——而根據我過去的紀錄，我曾因過度看好熱門球隊而吃虧，所以我這次不會這麼做。"
+            "contrarian_md": "主流會覺得瑞士陣容整齊、哥倫比亞少了 Córdoba 就一定沒戲，但大賽裡這種『有優勢但非碾壓』的局最易翻車。哥倫比亞有 Luis Suárez 這種高轉換率前鋒，加上 Luis Díaz 可一人撕破防線，瑞士後防並非頂級，一旦上半場悶局，下半場一個定位球或反擊直接要命——就像 2018 德國被韓國、2022 阿根廷被沙烏地那樣，控場的一方反而被咬死。哥倫比亞中後場南美老油條多，死守起來很難啃。",
+            "signature_scene": "下半場第 62 分鐘，瑞士 19 號 Noah Okafor 接 7 號 Breel Embolo 禁區前沿的腳後跟做球，順勢左腳低射遠角破門，打破 1-1 僵局。",
+            "reasoning_md": "瑞士攻擊點分散且板凳深度明顯優於哥倫比亞，Córdoba 報銷讓哥倫比亞只剩 Suárez 一個穩定終結點，瑞士靠主場與體能優勢下半場收割，1 球小勝合理。",
+            "script_md": "① 整體判讀：瑞士不是超級強隊，但陣容極度均衡，前場 Okafor、Embolo、Ndoye 都有衝刺和終結能力，中場 Xhaka 掌控節奏，哥倫比亞中後場多名球員來自非五大聯賽，高強度對抗下容易斷線。少了 Córdoba，哥倫比亞反擊只能找 Díaz 和 Suárez 兩個點，太單薄。\n② 關鍵對位：哥倫比亞 7 號 Luis Díaz（拜仁）對位瑞士 3 號 Widmer 或 2 號 Muheim，這邊會被爆幾次，但瑞士中衛 5 號 Akanji 協防意識好，能堵槍眼。真正的殺招是哥倫比亞 25 號 Luis Suárez（葡萄牙體育），他 xG90 高達 0.53，只要給他禁區內一腳，就能讓瑞士付出代價。反過來，哥倫比亞中衛 13 號 Mina 轉身極慢，瑞士 19 號 Okafor 和 7 號 Embolo 會專打他身後。\n③ 比賽劇本：開場瑞士控場，哥倫比亞收縮半場，前 20 分鐘瑞士獲得多次角球但沒能得分。哥倫比亞 35 分鐘左右反擊，7 號 Díaz 左路內切射門被 Kobel 撲出，跟進的 25 號 Suárez 補射得手，哥倫比亞客場 1-0 領先結束半場。下半場瑞士加大力度，第 55 分鐘 10 號 Xhaka 中路遠射造成門將脫手，7 號 Embolo 門前補進扳平。隨後哥倫比亞體能下滑，62 分鐘 Okafor 接 Embolo 做球打入超前球。之後瑞士控制節奏，哥倫比亞無力反撲。\n④ 為什麼是 2-1：瑞士攻擊效率一般，不會刷大比分，但哥倫比亞防線深度不夠，下半場必丟球。哥倫比亞有個人能力能偷一個，所以 2-1 最貼合雙方實力與狀態。\n⑤ 翻盤條件：如果哥倫比亞上半場頂住且反擊先得手，然後全隊死守，瑞士急躁大舉壓上，70 分鐘後哥倫比亞利用 Díaz 速度再打一個反擊，可能變成 1-2 或 0-2 爆冷；或者門將 Ospina 超神發揮，撲出必進球，搞成 0-0 平局。"
           },
           {
-            "name": "DeepSeek",
+            "name": "GEMINI",
             "selection": "HOME",
-            "selection_team": "第13場1/16決賽勝者",
-            "predicted_score": "1-0",
-            "win_prob": {
-              "H": 0.5,
-              "D": 0.3,
-              "A": 0.2
-            },
-            "confidence": 0.62,
-            "key_risk": "哥倫比亞雙箭頭 Luis Díaz 和 Luis Suárez 的個人能力足以靠一次反擊或定位球改寫比分，瑞士圍攻不下時後場空當就是他們的獵場。",
-            "second_score": "1-1",
-            "contrarian_md": "主流看名氣會覺得瑞士陣容齊整、歐洲頂級聯賽球員扎堆，又有主場之利，拿下哥倫比亞理所當然。但我不完全買賬：哥倫比亞的頂級聯賽資料球員只有 11 人，深度確實寒酸，可他們恰恰因此會徹底放下身段擺大巴，把比賽拖進泥潭。世界盃史上這種「強隊控球圍毆、弱隊一次偷襲得手」的劇本太多了——2018 德國輸韓國、2022 阿根廷輸沙特，都是強隊久攻不下被反殺。瑞士的預期貢獻雖高，但主力射手 Okafor 和 Embolo 都不是那種一錘定音的絕對殺器，一旦上半場打不開，急躁之下後場留出的空當，就是 7 號 Luis Díaz（拜仁）這種快馬最愛的獵場。",
-            "signature_scene": "下半場第 63 分鐘，瑞士前場角球被解圍，哥倫比亞 7 號 Luis Díaz 從中圈附近啟動，甩開瑞士 3 號 Silvan Widmer，一路帶到禁區左側低平球橫傳，25 號 Luis Suárez 搶在 5 號 Akanji 身前剷射，被門將 1 號 Kobel 神勇用腳擋出——這是全場最接近破門的一次反擊，也是瑞士最危險的警鐘。",
-            "reasoning_md": "瑞士贏在整體深度和防守穩定性，哥倫比亞深度太薄撐不住全場高壓，1-0 是最現實的劇本。",
-            "script_md": "① 整體判讀：瑞士強在陣容厚度和體系完整，23 人有頂級聯賽資料，中後場有 Akanji、Kobel 這種歐冠級別的定海神針，前場火力點分散，Okafor（0.49 xG90）和 Embolo（0.42）都能製造威脅。哥倫比亞攻擊實力指數不輸，但只有 11 人有頂級聯賽資料，板凳上大多是南美聯賽球員，下半場體能和戰術執行必然下滑。\n② 關鍵對位：瑞士的命門是右後衛 3 號 Silvan Widmer（美因茨），他助攻幅度大但回追速度一般，正好對上哥倫比亞最強爆點 7 號 Luis Díaz（拜仁，xG90 0.43，射門90 3.13）。哥倫比亞若想偷雞，必定盯著這一側打身後。反過來，哥倫比亞中衛 13 號 Yerry Mina（卡利亞里）轉身慢，瑞士 19 號 Noah Okafor（利茲聯）的無球穿插會讓他非常難受。\n③ 比賽劇本：開場瑞士控球主攻，哥倫比亞收縮成 5-4-1，前 30 分鐘瑞士會有 2-3 次禁區內射門但被堵槍眼。上半場 0-0，哥倫比亞偶爾靠 Díaz 的盤帶造犯規，爭取定位球。下半場 55-65 分鐘是瑞士的收割視窗，哥倫比亞替補席深度不足，中後場開始出現跟人不緊，瑞士利用一次角球或二次進攻，由中衛 5 號 Manuel Akanji（國米）或後插上的 10 號 Granit Xhaka（桑德蘭）在混亂中把球弄進去。領先後瑞士會適度回收，哥倫比亞被迫壓出，但瑞士門將 Kobel 的高空球控制讓哥倫比亞的傳中很難奏效。\n④ 為什麼是 1-0：瑞士不是那種嗜血成性的進攻大隊，預期貢獻 4.06 說明能穩定創造機會但轉化率一般；哥倫比亞的預期貢獻只有 2.63，且深度問題導致他們很難在落後時組織起持續反撲。一球小勝最符合兩隊真實水平差。\n⑤ 翻盤條件：如果哥倫比亞上半場就靠 Díaz 或 Suárez 的反擊偷一個，瑞士會陷入陣地戰破大巴的噩夢，哥倫比亞則越守越有信心，可能爆冷 0-1 或 1-1。另外，瑞士若早早吃紅牌（比如 Widmer 兩黃變一紅），比賽天平立刻傾斜。"
-          },
-          {
-            "name": "Gemini",
-            "selection": "HOME",
-            "selection_team": "第13場1/16決賽勝者",
-            "predicted_score": "2-1",
-            "win_prob": {
-              "H": 0.52,
-              "D": 0.28,
-              "A": 0.2
-            },
-            "confidence": 0.75,
-            "key_risk": "Luis Díaz 單槍匹馬在反擊中瓦解了瑞士隊的右路防線，並將比賽演變成一場混亂的對攻戰。",
-            "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為，Colombia 憑藉南美球風和 Luis Díaz 的球星魅力，是危險的黑馬，而 Switzerland 則被視為一支沉悶、防守型的球隊。我不這麼認為。錦標賽的勝利取決於中場控制力和陣容深度，而不僅僅是一位頂尖邊鋒。Colombia 只有 11 名球員擁有頂級聯賽數據；他們的板凳深度與先發陣容相比有如天壤之別。Switzerland 則擁有 23 名頂級聯賽球員，預期比賽貢獻值為 4.06。一旦比賽進入第 60 分鐘，Switzerland 可以換上體能充沛的 Premier League 和 Bundesliga 球員，而 Colombia 只能依賴老將或本土聯賽球員。還記得 2018 年那支結構嚴謹的 Swiss 隊如何讓 Brazil 感到挫折嗎？他們最擅長對付這種頭重腳輕的球隊。",
-            "signature_scene": "下半場第 70 分鐘。Granit Xhaka 掌控節奏，將球分往邊路給 11 號 Dan Ndoye。Ndoye 在邊路一對一面對哥倫比亞 17 號 Johan Mojica，憑藉充沛的體力突破至底線，隨後回傳給 7 號 Breel Embolo 在近距離勁射破門，徹底暴露了哥倫比亞防線體力耗盡的弱點。",
-            "reasoning_md": "瑞士隊深厚的陣容深度與優異的中場控制力，將會拖垮頭重腳輕的哥倫比亞隊。儘管 Luis Díaz 能持續製造威脅，但瑞士隊擁有過多進攻手段，將在下半場的消耗戰中勝出。",
-            "script_md": "整體解讀：這是一場哥倫比亞個人天賦與瑞士團隊機器的對決。哥倫比亞擁有頂尖火力，包括 7 號 Luis Díaz (Bayern) 和 25 號 Luis Suárez (Sporting)，但他們的陣容深度令人擔憂。相反地，瑞士全隊皆具備頂級聯賽水準，場均預期貢獻值高達 4.06。\n\n關鍵對位：勝負將取決於中場。瑞士的 10 號 Granit Xhaka 與 8 號 Remo Freuler 將試圖從 16 號 Jefferson Lerma 及老化的哥倫比亞核心陣容手中壟斷控球權。在邊路，哥倫比亞的 Díaz 將考驗 3 號 Silvan Widmer，但瑞士的 11 號 Dan Ndoye 與 19 號 Noah Okafor 將不斷拉開哥倫比亞的邊後衛防線。\n\n比賽劇本：哥倫比亞將會開局搶攻，尋求儘早將球傳給 Díaz，以趁瑞士隊立足未穩時發動攻勢。他們甚至可能透過反擊取得領先。然而，隨著比賽進行，瑞士結構化的控球將造成巨大消耗。到了 60 分鐘，陣容深度的差距將會顯現。瑞士可以換上 23 號 Zeki Amdouni 和 17 號 Rubén Vargas 等球員，對抗由 23 號 Davinson Sánchez 領軍、體能已下滑的哥倫比亞防線。\n\n比分預測理由：瑞士以 2-1 取勝，反映了哥倫比亞憑藉個人天賦進球的能力，但也認可了瑞士持續不斷的施壓與更優質的板凳深度。瑞士很可能在南美球隊體能下滑時，上演逆轉或在比賽末段攻入致勝球。\n\n什麼情況會翻盤：如果哥倫比亞的 1 號 David Ospina (Atlético Nacional) 能重現當年勇，繳出頂級的門線撲救表現，或者 Díaz 成功讓瑞士後防線領到早期的紅牌，哥倫比亞就有機會以 1-0 爆冷取勝。"
-          },
-          {
-            "name": "Kimi",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
-            "win_prob": {
-              "H": 0.42,
-              "D": 0.29,
-              "A": 0.29
-            },
-            "confidence": 0.62,
-            "key_risk": "哥倫比亞邊路 Luis Díaz 單點爆破力＋瑞士右後衛 Widmer 助攻後身後空檔，若被先打一次反擊，瑞士只能壓上卻缺乏一錘定音的人。",
-            "second_score": "1-2",
-            "contrarian_md": "主流會說『瑞士陣容深度歐洲頂級聯賽 23/26，哥倫比亞只有 11/26，南美二線，穩吃』——我偏不信：1) 瑞士火力指數 2.04 僅比哥倫比亞 2.03 高 0.01，根本同一檔；2) 瑞士預期進球 4.06 是『預期』，實際 Okafor+Embolo 都是 0.4-0.5 的 xG，沒有 0.6+ 的超級終結者；3) 哥倫比亞有 Luis Díaz 0.43 xG＋2.13 關鍵傳球，單兵能自己幹；4) 世界盃歷史告訴我們，歐洲『穩贏』經常翻（德國輸韓、阿根廷輸沙烏地），只要南美隊擺 4-5-1 防反，歐洲隊破鐵桶就會越踢越急。",
-            "signature_scene": "下半場 63 分鐘，瑞士 3 號 Widmer 前插傳中未果，哥倫比亞 7 號 Luis Díaz 在左邊線拿球 1v1 面對 Widmer，一個假內切突底線，倒三角找到 25 號 Luis Suárez 推遠角——球擊中立柱彈出，瑞士逃過一劫，但全隊嚇到立刻回收，比賽自此從 1-0 變成 1-1 的均勢。",
-            "reasoning_md": "兩隊火力同一檔、瑞士缺終結者、哥倫比亞有單點爆發，破不了鐵桶就會被反咬，1-1 最合理。",
-            "script_md": "- 整體：瑞士中後場歐洲化、控球穩，但前場 xG 分散，沒人場均 0.6+；哥倫比亞深度一半在南美聯賽，可體能衝擊力強，打法主守反擊。\n- 對位焦點：瑞士 10 號 Xhaka 長傳排程 vs 哥倫比亞 16 號 Lerma 纏鬥；哥倫比亞 7 號 Luis Díaz 邊路對位瑞士 3 號 Widmer，後者助攻後身後是真空，只要被 Díaz 單打一次就夠嗆。\n- 劇本：開局瑞士控球 65% 但只開花不結果，30' 左右靠 Embolo 頭槌中楣；哥倫比亞 40' 第一次反擊，Díaz 底線強吃後橫傳，Suárez 鏟射 0-1。瑞士下半場 55' 靠定位球 Akanji 頭槌扳平 1-1。末段瑞士壓上，哥倫比亞兩翼死守，補時 Díaz 再衝一次被 Rodriguez 鏟倒——裁判沒給點，1-1 收場。\n- 為何這比分：兩隊真實火力差 0.01，瑞士缺超級前鋒、哥倫比亞缺歐洲級中場，誰都沒本事再捅第二刀。\n- 翻盤可能：若 60' 前瑞士就 0-2，必須全壓，哥倫比亞二次反擊可再偷，就變 1-2；或瑞士 75' 前靠 Okafor 個人突破拿到十二碼，2-1 小勝。"
-          },
-          {
-            "name": "Grok",
-            "selection": "HOME",
-            "selection_team": "第13場1/16決賽勝者",
-            "predicted_score": "2-1",
-            "win_prob": {
-              "H": 0.49,
-              "D": 0.3,
-              "A": 0.21
-            },
-            "confidence": 0.62,
-            "key_risk": "哥倫比亞透過 Díaz 和 Suárez 發動反擊，隨後瑞士的板凳深度發揮作用",
-            "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為，瑞士隊擁有主場優勢、更深厚的陣容深度（23 名頂級聯賽球員對比 11 名），以及更高的預期貢獻值（4.06 對比 2.63），理應掌控比賽。但我對此持保留態度，因為 Colombia 的兩名頂級前鋒（效力於 Bayern 的 Díaz 和效力於 Sporting 的 Suárez）具備在單場比賽中製造混亂的能力，足以懲罰任何疏忽；2022 年 Saudi Arabia 擊敗 Argentina 的比賽就證明了，只要反擊夠犀利，單場比賽的表現足以凌駕於球隊數據指標之上。",
-            "signature_scene": "下半場第 65 分鐘：瑞士隊 19 號 Okafor（Leeds）接獲 Xhaka 的轉移球後切入身後，以低射擊敗 Ospina，將比分改寫為 2-1。",
-            "reasoning_md": "Switzerland 以 2-1 勝出，原因在於儘管兩隊的原始數據指標相近，但 Switzerland 的進攻深度與預期貢獻優於 Colombia 陣容單薄的劣勢。",
-            "script_md": "瑞士在陣容上擁有明顯優勢，共有 23 名球員來自頂級聯賽，而哥倫比亞僅有 11 名，且瑞士 4.06 的預期貢獻值（expected contribution）遠高於哥倫比亞的 2.63。顯而易見的劇本是瑞士在主場輕鬆取勝，但反面觀點認為，哥倫比亞兩位真正的關鍵球員（效力於 Bayern 的 No.7 Luis Díaz 和效力於 Sporting 的 No.25 Luis Suárez）能夠懲罰任何防守上的疏失，並發動反擊。比賽初期，瑞士透過 Xhaka 和 Zakaria 進行高位壓迫，迫使哥倫比亞退守；首個進球預計出現在 35 分鐘左右，由 Embolo 或 Okafor 透過定位球或倒三角回傳破門。哥倫比亞在下半場以 Díaz 的反擊進球回應，將比分扳平為 1-1，但瑞士的板凳深度（Ndoye、Amdouni、Vargas）持續創造機會，最終由 Okafor 攻入致勝球。2-1 的比分相當務實，因為大比分獲勝的情況依然罕見，且哥倫比亞薄弱的板凳深度使其難以維持高壓。若 Akanji 領到紅牌或 Suárez 早早進球，戰局則可能翻轉為哥倫比亞獲勝。"
-          },
-          {
-            "name": "GLM",
-            "selection": "HOME",
-            "selection_team": "第13場1/16決賽勝者",
+            "selection_team": "Switzerland",
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.55,
               "D": 0.25,
               "A": 0.2
             },
-            "confidence": 0.68,
-            "key_risk": "Colombia 的 Luis Díaz（拜仁等級）單兵爆破打穿 Akanji 防線，靠個人能力硬扯平甚至絕殺",
+            "confidence": 0.75,
+            "key_risk": "Luis Díaz isolates a Swiss full-back for a moment of individual magic, or James Rodríguez delivers a perfect set-piece to Yerry Mina.",
+            "second_score": "1-0",
+            "contrarian_md": "The conventional narrative is that Colombia's South American flair, led by Luis Díaz and James Rodríguez, makes them a dangerous, unpredictable threat that can overwhelm a 'boring' European side like Switzerland. I don't buy it. Switzerland is anything but boring right now—they are an offensive juggernaut generating a massive 4.06 expected contribution per match. More importantly, look at the depth: Switzerland has 23 top-league players compared to Colombia's 11. Colombia relies entirely on their starting XI. If this game is tight at 60 minutes, Switzerland brings on fresh, high-xG attackers from top European clubs, while Colombia's bench drops off a cliff. The 'flair' narrative often dies when the legs get heavy.",
+            "signature_scene": "72nd minute: Granit Xhaka dictates the tempo, threading a pass out wide to Dan Ndoye. A quick cutback finds substitute Noah Okafor (No.19) arriving late in the box, and he finishes clinically to break the Colombian resistance, exposing their tired legs.",
+            "reasoning_md": "Switzerland's overwhelming squad depth and relentless attacking metrics will eventually wear down a top-heavy Colombia side that lacks the bench quality to survive a grueling 90 minutes.",
+            "script_md": "- **Overall Read:** Switzerland is quietly one of the most complete squads in the tournament. Their midfield control is elite, and their attacking depth is relentless. Colombia has top-end talent in Luis Díaz and Luis Suárez, but a steep drop-off in quality outside their starting XI.\n- **Key Matchups:** Colombia's No.7 Luis Díaz (FC Bayern München) against Switzerland's No.3 Silvan Widmer is the main battleground. If Akanji and Elvedi can contain No.25 Luis Suárez (Sporting CP), Colombia's attack will stall. On the other end, Colombia's center-backs will have to deal with the physical presence of Embolo and the pace of Ndoye.\n- **Match Script:** Colombia will start with high energy, looking to feed Díaz early and win set-pieces. Switzerland will absorb the pressure, using Xhaka and Freuler to control the tempo and take the sting out of the game. By the second half, the physical toll will show on Colombia. Switzerland's ability to bring on fresh, high-xG attackers like Okafor and Amdouni against a tiring Colombian defense will be the difference-maker.\n- **Why this scoreline:** A 2-1 reflects Colombia grabbing a goal through individual brilliance or a set-piece, but Switzerland's sustained pressure and vastly superior depth ultimately overpowering them late in the game.\n- **What would flip the result:** If Colombia scores first and sits deep, relying on their physical center-backs to clear crosses, while Díaz acts as the perfect counter-attacking outlet to punish a high Swiss line."
+          },
+          {
+            "name": "KIMI",
+            "selection": "HOME",
+            "selection_team": "Switzerland",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.46,
+              "D": 0.28,
+              "A": 0.26
+            },
+            "confidence": 0.72,
+            "key_risk": "Luis Díaz單點爆發＋瑞士右側輪換空檔",
             "second_score": "1-1",
-            "contrarian_md": "主流會看兩隊攻擊指數 2.04 vs 2.03 幾乎一樣，然後 Colombia 有 Luis Díaz 在拜仁、Luis Suárez 在葡超 xG90 高達 0.53，名氣響亮，覺得南美球隊技術細膩能跟瑞士掰手腕。我不買這帳。Colombia 深度只有 11/26 人有頂級聯賽資料，瑞士是 23/26——這不是小差距，這是「板凳上坐著誰能替補」的鴻溝。世界盃小組賽第二場體能開始吃緊，Colombia 替補席上全是南美聯賽球員，後段掉檔是必然。2018 德國輸韓國就是「以為名氣夠就能撐住」，結果後段被跑死。Colombia 的風險一模一樣。",
-            "signature_scene": "下半場 65 分鐘左右，Colombia 中場開始脫節，瑞士 10號 Xhaka（Sunderland）在中圈攔截一腳斜傳，19號 Okafor（Leeds United）左路切入禁區，用速度吃掉 23號 Sánchez（Galatasaray），近角低射破門——這球就是深度差距的具象化。",
-            "reasoning_md": "瑞士贏。攻擊指數幾乎相同但深度差距巨大（23/26 vs 11/26），Colombia 替補全是南美聯賽等級，後段體能掉檔被瑞士板凳衝垮。比分壓在 2-1，不灌水。",
-            "script_md": "## 整體判讀\n兩隊先發攻擊指數 2.04 vs 2.03，表面看五五開。但瑞士 23/26 人有頂級聯賽資料，Colombia 只有 11/26——這代表 70 分鐘後換人，瑞士能上 Rieder（Augsburg）、Sow（Sevilla）、Amdouni（Burnley），Colombia 換上來的是 River Plate、Flamengo、Palmeiras 等級。世界盃小組賽第二場，這個差距會要命。\n\n## 關鍵對位\n- **Colombia 唯一真實威脅**：7號 Luis Díaz（Bayern München），xG90 0.43、關鍵傳球 2.13——他是場上唯一能單兵改變比賽的人。瑞士 5號 Akanji（Inter）會專門照顧他。\n- **Colombia 的軟肋**：23號 Davinson Sánchez（Galatasaray）和 4號 Santiago Arias（Independiente）這條防線，面對瑞士多點開花（Okafor 0.49、Embolo 0.42、Ndoye 0.31）會顧此失彼。\n- **中場控制權**：瑞士 10號 Xhaka（Sunderland）關鍵傳球 1.30 + 8號 Freuler（Bologna）0.68，哥倫比亞中場只有 16號 Lerma（Crystal Palace）有頂級聯賽資料，其餘全在南美聯賽。中場爭奪瑞士佔優。\n\n## 比賽劇本\n- **上半場（0-45）**：Colombia 開場靠 Díaz 衝幾下製造威脅，但瑞士中場控球率佔優。20 分鐘左右瑞士角球或定位球，Embolo 或 Akanji 搶點，1-0 領先。Colombia 會嘗試反擊但最後一傳品質不夠。\n- **下半場（45-70）**：Colombia 體能開始下滑，Díaz 被孤立。瑞士控球壓制，65 分鐘左右 Okafor 或 Ndoye 利用替補上來的體能差打穿防線，2-0。\n- **末段（70-90+）**：Colombia 孤注一擲壓上，Díaz 靠個人能力在 80 分鐘左右扳回一球，2-1。但瑞士深度夠，換人守住最後十分鐘。\n\n## 為什麼是 2-1 不是 3-0\nColombia 先發不弱，Díaz 是真拜仁等級，Suárez xG90 0.53 也不是擺設。瑞士能贏但做不到碾壓——對方前場有火槍，後段一定會偷一個。\n\n## 什麼情況翻盤\n如果 Díaz 上半場就進球，Colombia 收縮打反擊，瑞士攻堅能力其實不算頂級（Okafor 在 Leeds、Embolo 在 Rennes——都不是豪門），可能 1-1 甚至 0-1 被偷走。另外 Colombia 門將 Ospina 大賽經驗豐富，若他開掛連撲，瑞士得勢不得分也不是沒可能。"
+            "contrarian_md": "主流會說『瑞士火力指數2.04、全員五大聯賽，哥倫比亞只有11人踢頂級聯賽，穩吃』——我不買賬。哥倫比亞本屆預期貢獻2.63，其實只比瑞士少0.4，而且少了Cordoba後Suárez xG0.53直接頂上，火力沒掉。瑞士小組對鐵桶都磨到80分鐘才開罐，碰上南美高位+反擊，邊後衛Widmer剛傷癒、Jaquez經驗淺，Díaz專吃這條邊。2014哥倫比亞就曾在巴西高原掀翻烏拉圭，本場若爆冷，就是Díaz上半場先偷一個，瑞士壓出後被James直塞打穿。",
+            "signature_scene": "第34分鐘，哥倫比亞7號Díaz左路硬吃瑞士3號Widmer，內切射門中柱彈出，瑞士門將Kobel驚魂未定——這一球預告瑞士右側危機，也逼Xhaka回收，後續瑞士進攻節奏被打斷。",
+            "reasoning_md": "瑞士深度＋主場草皮熟悉度勝出，但哥倫比亞邊路單點夠狠，比分咬在2-1。",
+            "script_md": "- 整體判讀：瑞士23人頂級聯賽履歷，中後場Akanji+Xhaka+Freuler全是歐冠16強級，板凳還能擺出Okafor、Amdouni繼續衝；哥倫比亞只有11人踢頂級聯賽，後腰Lerma+Castaño要面對歐式高位，深度明顯吃虧。\n- 關鍵對位：瑞士右側Widmer剛傷癒、速度下滑，對上Díaz（xG0.43＋2.13關鍵傳球）是天然錯位；瑞士左側Rodriguez經驗夠但年齡擺在那，得靠Ndoye回撤補防，否則Díaz+Muñoz套邊直接打穿。\n- 劇本：前20分鐘瑞士控球65%但只遠射，第28分鐘Embolo背身做球，Okafor禁區內搶射破門1-0；哥倫比亞立即高位逼搶，第39分鐘Díaz反擊內切被Akanji犯規，James自由球中楣；下半場55分鐘瑞士第二波換人，Amdouni頂上打雙前鋒，第67分鐘角球Xhaka開出、Akanji頭槌2-0；哥倫比亞75分鐘換Quintero+Gómez搏命，80分鐘Díaz左路傳中造成Elvedi烏龍2-1，最後10分鐘瑞士收縮5-4-1守住。\n- 為什麼是2-1：瑞士火力點分散，Okafor+Embolo+Amdouni輪番衝擊，哥倫比亞中衛Mina轉身慢、邊後衛Mojica身後空檔大，瑞士能靠二次進攻再補一刀；但Díaz單點威脅保證哥倫比亞至少抓一個反擊或定位球。\n- 翻盤情境：若Widmer被Díaz反覆衝爆，Petkovic被迫提前換上Jaquez，邊路高度下降，James 60分鐘後長傳找Suárez（xG0.53）頭槌追平，比賽最後15分鐘瑞士壓上被反擊，Díaz單刀絕殺——這就是南美球隊熟悉的劇本，瑞士想避開就得早早再進第二球。"
+          },
+          {
+            "name": "GROK",
+            "selection": "HOME",
+            "selection_team": "Switzerland",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.52,
+              "D": 0.3,
+              "A": 0.18
+            },
+            "confidence": 0.62,
+            "key_risk": "Colombia counter through Díaz and Suárez before Switzerland settle",
+            "second_score": "1-1",
+            "contrarian_md": "Conventional take says Switzerland cruise at home with superior depth and full squad; everyone expects the 2-0 or 2-1. But Colombia's front three (Díaz + Suárez + Lerma) carry real incision that can punish set-piece lapses or one transition, exactly the profile that toppled bigger sides in 2018 and 2022.",
+            "signature_scene": "Second half, 68th minute: Switzerland No.7 Embolo (Rennes) holds up play on the edge of the box, feeds No.19 Okafor (Leeds) who finishes low past Montero after a sustained spell of Swiss corners.",
+            "reasoning_md": "Switzerland win 2-1. Better squad depth (23 vs 11 top-league players) and home edge outweigh Colombia's two star forwards once Córdoba's absence is factored in.",
+            "script_md": "Switzerland control the ball and territory from the start with Xhaka and Zakaria anchoring midfield while Embolo and Okafor stretch Colombia's back line. Colombia sit compact, relying on Díaz's runs and Suárez's hold-up to spring counters, but lack the bench to rotate when the press is bypassed. First goal comes from a set-piece header by Akanji just before half-time. Colombia equalise early in the second half on a Díaz cut-back finished by Suárez, yet Switzerland regain the lead through sustained pressure and Okafor's clinical finish. Late Colombia push yields nothing because their remaining attackers (Arias, Hernández) lack top-league rhythm. Score stays 2-1 because Switzerland's extra depth lets them close the game without panic. Result flips only if Díaz produces two moments of individual brilliance before Switzerland's midfield can impose itself."
+          },
+          {
+            "name": "GLM",
+            "selection": "HOME",
+            "selection_team": "Switzerland",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.55,
+              "D": 0.25,
+              "A": 0.2
+            },
+            "confidence": 0.7,
+            "key_risk": "Luis Díaz 在拜仁的單兵爆破能力太強，只要抓到瑞士邊衛壓上後的空檔，一次反擊就足以改寫戰局。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會看瑞士陣容深度（23/26人有頂級聯賽數據）和本屆場均4.06預期貢獻，覺得瑞士穩贏。但我不完全信——瑞士的攻擊指數2.04跟哥倫比亞2.03根本在誤差範圍內，差距沒有帳面那麼大。哥倫比亞雖然深度只有11/26人有頂級聯賽數據，但主力11人質量不差，Luis Díaz在拜仁、Luis Suárez在里斯本競技xG90高達0.53。世界盃冷門史告訴你：2018德國輸韓國、2022阿根廷輸沙烏地，都是「大家都覺得穩」的強隊被反擊打穿。哥倫比亞如果擺低姿態打反擊，瑞士攻擊群（Okafor在英冠、Embolo在雷恩）的終結效率未必能撐住全場。",
+            "signature_scene": "下半場60分鐘左右，瑞士10號 Xhaka（Sunderland AFC）中場長傳找19號 Okafor（Leeds United FC）左路切入，Ospina出擊猶豫半拍，Okafor近角低射破網，2-1。",
+            "reasoning_md": "瑞士贏。主場＋陣容深度（23/26人有頂級聯賽數據）＋本屆場均預期貢獻4.06遠勝哥倫比亞2.63，加上Cordoba報銷削弱哥倫比亞鋒線，瑞士穩中求勝。但哥倫比亞有Luis Díaz的單兵能力，丟1球很正常，不會零封。",
+            "script_md": "## 整體判讀\n瑞士強在「到處都有頂級聯賽球員」，26人名單23人有五大聯賽數據，替補上來的不掉檔。哥倫比亞只有11人有頂級聯賽數據，替補深度差一截。但主力11人擺出來，哥倫比亞不虛——Luis Díaz在拜仁、Luis Suárez在里斯本競技xG90 0.53，火力是真的。問題是Cordoba報銷後，Suárez臨時頂上首發中鋒，化學反應存疑。\n\n## 關鍵對位\n- 瑞士5號 Akanji（Inter Milano）鎮中路，哥倫比亞25號 Luis Suárez（Sporting CP）要在他面前討便宜很難。Akanji本季在國米體系防守數據紮實，SuárezxG雖高但面對頂級中衛會被壓制。\n- 哥倫比亞7號 Luis Díaz（FC Bayern München）打瑞士右路3號 Widmer（Mainz 05），這是哥倫比亞唯一能製造麻煩的位置。Widmer剛傷癒復出，髖部小傷加上年紀，被Díaz衝擊很可能吃牌或失位。\n- 瑞士中場10號 Xhaka（Sunderland AFC）關鍵傳球90高達1.30，是全隊節拍器。哥倫比亞中場16號 Lerma（Crystal Palace）要負責掐他，但Lerma防守數據普通，xG90只有0.09，進攻威脅有限，瑞士中場控制力佔優。\n\n## 比賽劇本\n- **上半場（0-45分）**：瑞士主場壓著打，控球率預計55-60%。Xhaka中場調度，Okafor和Ndoye兩翼輪流衝擊。哥倫比亞收縮防守，Mina和Sánchez在中路堆人牆。上半場25分鐘左右，瑞士7號 Embolo（Stade Rennais FC）禁區內搶點或接角球破門，1-0。哥倫比亞靠Díaz零星反擊製造威脅但無法轉化。\n- **下半場（45-75分）**：哥倫比亞被迫壓出，瑞士打反擊。60分鐘左右，Xhaka長傳Okafor左路切入，近角低射，2-0。哥倫比亞主帥換人，Jhon Arias（Palmeiras）上來加邊路速度。70分鐘左右，Díaz終於抓到Widmer壓上後的空檔，一次左路突破內切射門，2-1。比賽最後15分鐘哥倫比亞全線壓上，但替補深度不足（只有11人有頂級聯賽數據），換上來的人配合生疏，瑞士守住比分。\n\n## 為什麼是2-1\n瑞士攻擊指數2.04 vs 哥倫比亞2.03，差距極小，但瑞士有主場、深度、Cordoba缺陣三重優勢。2-1是最合理的比分——瑞士能進但防不住Díaz的單兵，哥倫比亞能咬住但追不回。\n\n## 什麼情況會翻盤\n如果Díaz在上半場就突破Widmer先進球，瑞士被迫壓上打陣地戰，哥倫比亞反擊空間更大。Suárez如果跟Díaz連線成功一次，2-1反超不是不可能。另外，如果Mina在定位球進攻中發揮（xG90 0.10，中衛裡不算低），哥倫比亞靠角球或自由球偷1球，比賽走向完全不同。"
           }
         ]
       },
