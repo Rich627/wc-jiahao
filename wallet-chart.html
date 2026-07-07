@@ -1,0 +1,421 @@
+<title>模型錢包走勢 — WC2026 家豪系統</title>
+<style>
+  .viz-root {
+    --surface-1:      #fcfcfb;
+    --surface-2:      #f3f2ef;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #85837c;
+    --grid:           #e4e2dc;
+    --series-gpt:      #2a78d6; /* blue */
+    --series-claude:   #1baf7a; /* aqua */
+    --series-deepseek: #eda100; /* yellow */
+    --series-gemini:   #008300; /* green */
+    --series-kimi:     #4a3aa7; /* violet */
+    --series-grok:     #e34948; /* red */
+    --series-glm:      #e87ba4; /* magenta */
+    --zero-line:       #b8b6ae;
+  }
+  @media (prefers-color-scheme: dark) {
+    .viz-root {
+      --surface-1:      #1a1a19;
+      --surface-2:      #232322;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #8f8d84;
+      --grid:           #33322f;
+      --series-gpt:      #3987e5;
+      --series-claude:   #199e70;
+      --series-deepseek: #c98500;
+      --series-gemini:   #1fa31f;
+      --series-kimi:     #9085e9;
+      --series-grok:     #e66767;
+      --series-glm:      #d55181;
+      --zero-line:       #4a4944;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    --surface-1:      #1a1a19;
+    --surface-2:      #232322;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #8f8d84;
+    --grid:           #33322f;
+    --series-gpt:      #3987e5;
+    --series-claude:   #199e70;
+    --series-deepseek: #c98500;
+    --series-gemini:   #1fa31f;
+    --series-kimi:     #9085e9;
+    --series-grok:     #e66767;
+    --series-glm:      #d55181;
+    --zero-line:       #4a4944;
+  }
+  :root[data-theme="light"] .viz-root {
+    --surface-1:      #fcfcfb;
+    --surface-2:      #f3f2ef;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #85837c;
+    --grid:           #e4e2dc;
+    --series-gpt:      #2a78d6;
+    --series-claude:   #1baf7a;
+    --series-deepseek: #eda100;
+    --series-gemini:   #008300;
+    --series-kimi:     #4a3aa7;
+    --series-grok:     #e34948;
+    --series-glm:      #e87ba4;
+    --zero-line:       #b8b6ae;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .viz-root {
+    background: var(--surface-1);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px 20px 40px;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 20px; font-weight: 700; margin: 0 0 4px; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; margin: 0 0 20px; line-height: 1.5; }
+  .chart-card {
+    background: var(--surface-2);
+    border-radius: 12px;
+    padding: 20px 20px 12px;
+    overflow-x: auto;
+  }
+  .chart-wrap { position: relative; min-width: 720px; }
+  svg.chart { display: block; width: 100%; height: auto; overflow: visible; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .zeroline { stroke: var(--zero-line); stroke-width: 1.5; stroke-dasharray: 3 3; }
+  .axis-label { fill: var(--text-muted); font-size: 11px; font-family: inherit; }
+  .series-line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+  .series-dot { r: 4; stroke: var(--surface-2); stroke-width: 2; }
+  .hover-ring { r: 8; fill: none; stroke-width: 2; opacity: 0; }
+  .crosshair { stroke: var(--text-muted); stroke-width: 1; stroke-dasharray: 2 3; opacity: 0; pointer-events: none; }
+  .hit-col { fill: transparent; cursor: crosshair; }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    margin: 18px 2px 4px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+  .legend-swatch {
+    width: 18px; height: 3px; border-radius: 2px; flex: none;
+  }
+  .legend-icon { width: 15px; height: 15px; flex: none; }
+  .legend-name { color: var(--text-primary); font-weight: 600; }
+  .legend-value { font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--surface-1);
+    border: 1px solid var(--grid);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    opacity: 0;
+    transition: opacity 0.08s;
+    min-width: 190px;
+    z-index: 5;
+  }
+  .tooltip-date { font-weight: 700; color: var(--text-primary); margin-bottom: 2px; }
+  .tooltip-match { color: var(--text-muted); font-size: 11px; margin-bottom: 6px; }
+  .tooltip-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 1px 0; }
+  .tooltip-row .k { display: flex; align-items: center; gap: 6px; color: var(--text-secondary); }
+  .tooltip-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+  .tooltip-row .v { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-primary); }
+
+  .toggle-row { display: flex; justify-content: flex-end; margin-top: 14px; }
+  .toggle-btn {
+    font-size: 12px;
+    color: var(--text-secondary);
+    background: none;
+    border: 1px solid var(--grid);
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .toggle-btn:hover { color: var(--text-primary); border-color: var(--text-muted); }
+
+  table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 14px;
+    display: none;
+  }
+  table.data-table.show { display: table; }
+  table.data-table th, table.data-table td {
+    text-align: right;
+    padding: 5px 8px;
+    border-bottom: 1px solid var(--grid);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  table.data-table th:first-child, table.data-table td:first-child { text-align: left; }
+  table.data-table th { color: var(--text-muted); font-weight: 600; position: sticky; top: 0; background: var(--surface-2); }
+  .table-scroll { max-height: 380px; overflow: auto; border-radius: 8px; }
+  .note { font-size: 11.5px; color: var(--text-muted); margin-top: 14px; line-height: 1.6; }
+</style>
+
+<div class="viz-root">
+  <a href="index.html" style="display:inline-block;margin-bottom:10px;font-size:13px;color:var(--text-secondary);text-decoration:none;">← 回預測首頁</a>
+  <h1>足球 Master 7 模型 — 累計錢包走勢</h1>
+  <p class="subtitle">新系統上線以來(2026-06-19 首場結算 → 2026-07-07)，每場比賽結算後各模型的累計損益。固定 $100 注 HAD(獨贏)，有真實賠率用真實賠率，沒有則用約定俗成的 -110(1.91) 計算。</p>
+
+  <div class="chart-card">
+    <div class="chart-wrap">
+      <svg class="chart" id="chart" viewBox="0 0 980 460" role="img" aria-label="7個AI模型累計損益折線圖">
+        <g id="gridlines"></g>
+        <g id="lines"></g>
+        <g id="dots"></g>
+        <g id="hoverrings"></g>
+        <line id="crosshair" class="crosshair" x1="0" y1="0" x2="0" y2="400"></line>
+        <g id="xaxis"></g>
+        <g id="yaxis"></g>
+        <rect id="hitlayer" class="hit-col" x="0" y="0" width="980" height="400"></rect>
+      </svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+
+    <div class="legend" id="legend"></div>
+
+    <div class="toggle-row">
+      <button class="toggle-btn" id="tableToggle">顯示資料表格</button>
+    </div>
+    <div class="table-scroll">
+      <table class="data-table" id="dataTable"></table>
+    </div>
+
+    <p class="note">⚠️ 純數據參考，非市場真實盤口累積 P&amp;L；波膽/大小等其他盤口未納入。odds 缺漏時以 -110 常規賠率估算，非真實市場成交價。</p>
+  </div>
+</div>
+
+<script id="wallet-data" type="application/json">{"GPT": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 524.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 424.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 515.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 606.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 697.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 788.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 879.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 779.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 679.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 770.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 861.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 952.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 1043.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 1134.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 1225.0}], "Claude": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 524.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 615.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 706.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 797.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 888.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 979.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 1070.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 970.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 870.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 961.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 1052.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 1143.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 1043.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 1134.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 1225.0}], "DeepSeek": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 333.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 424.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 515.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 606.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 697.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 597.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 688.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 588.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 488.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 579.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 479.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 570.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 661.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 561.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 652.0}], "Gemini": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 5.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 96.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 187.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 87.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 178.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 78.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": -22.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 69.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": -31.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": -131.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": -40.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 51.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 142.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 42.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 133.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 224.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 315.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 215.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 306.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 206.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 106.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 197.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 97.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 188.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 279.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 370.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 461.0}], "Kimi": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 524.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 615.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 706.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 797.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 888.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 788.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 879.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 779.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 679.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 770.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 861.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 952.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 1043.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 1134.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 1225.0}], "Grok": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 524.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 424.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 515.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 606.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 697.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 788.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 879.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 779.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 679.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 770.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 861.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 952.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 1043.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 1134.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 1225.0}], "GLM": [{"date": "2026-06-19", "match": "捷克 v 南非", "cum": -100.0}, {"date": "2026-06-19", "match": "瑞士 v 波黑", "cum": -65.0}, {"date": "2026-06-19", "match": "加拿大 v 卡達", "cum": -41.0}, {"date": "2026-06-19", "match": "墨西哥 v 韓國", "cum": -141.0}, {"date": "2026-06-20", "match": "美國 v 澳大利亞", "cum": -50.0}, {"date": "2026-06-20", "match": "蘇格蘭 v 摩洛哥", "cum": 41.0}, {"date": "2026-06-20", "match": "巴西 v 海地", "cum": 132.0}, {"date": "2026-06-20", "match": "土耳其 v 巴拉圭", "cum": 32.0}, {"date": "2026-06-21", "match": "荷蘭 v 瑞典", "cum": 123.0}, {"date": "2026-06-21", "match": "德國 v 象牙海岸", "cum": 214.0}, {"date": "2026-06-22", "match": "西班牙 v 沙烏地阿拉伯", "cum": 305.0}, {"date": "2026-06-22", "match": "比利時 v 伊朗", "cum": 205.0}, {"date": "2026-06-22", "match": "烏拉圭 v 維德角", "cum": 105.0}, {"date": "2026-06-22", "match": "紐西蘭 v 埃及", "cum": 196.0}, {"date": "2026-06-23", "match": "阿根廷 v 奧地利", "cum": 287.0}, {"date": "2026-06-25", "match": "瑞士 v 加拿大", "cum": 378.0}, {"date": "2026-06-25", "match": "蘇格蘭 v 巴西", "cum": 469.0}, {"date": "2026-06-25", "match": "摩洛哥 v 海地", "cum": 560.0}, {"date": "2026-06-25", "match": "捷克 v 墨西哥", "cum": 460.0}, {"date": "2026-06-27", "match": "挪威 v 法國", "cum": 360.0}, {"date": "2026-06-27", "match": "塞內加爾 v 伊拉克", "cum": 451.0}, {"date": "2026-06-27", "match": "烏拉圭 v 西班牙", "cum": 351.0}, {"date": "2026-06-27", "match": "維德角 v 沙烏地阿拉伯", "cum": 251.0}, {"date": "2026-06-27", "match": "紐西蘭 v 比利時", "cum": 342.0}, {"date": "2026-06-28", "match": "巴拿馬 v 英格蘭", "cum": 433.0}, {"date": "2026-06-28", "match": "克羅埃西亞 v 迦納", "cum": 524.0}, {"date": "2026-06-28", "match": "哥倫比亞 v 葡萄牙", "cum": 424.0}, {"date": "2026-06-28", "match": "剛果民主共和國 v 烏茲別克", "cum": 515.0}, {"date": "2026-06-28", "match": "約旦 v 阿根廷", "cum": 606.0}, {"date": "2026-07-03", "match": "西班牙 v 奧地利", "cum": 506.0}, {"date": "2026-07-03", "match": "葡萄牙 v 克羅埃西亞", "cum": 406.0}, {"date": "2026-07-03", "match": "瑞士 v 阿爾及利亞", "cum": 497.0}, {"date": "2026-07-04", "match": "澳洲 v 埃及", "cum": 397.0}, {"date": "2026-07-04", "match": "阿根廷 v 維德角", "cum": 297.0}, {"date": "2026-07-04", "match": "哥倫比亞 v 迦納", "cum": 388.0}, {"date": "2026-07-05", "match": "加拿大 v 摩洛哥", "cum": 479.0}, {"date": "2026-07-05", "match": "巴拉圭 v 法國", "cum": 570.0}, {"date": "2026-07-06", "match": "巴西 v 挪威", "cum": 661.0}, {"date": "2026-07-06", "match": "墨西哥 v 英格蘭", "cum": 752.0}, {"date": "2026-07-07", "match": "葡萄牙 v 西班牙", "cum": 843.0}]}</script>
+<script id="icon-data" type="application/json">{"gpt": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 2406 2406\">\n\t<path d=\"M1 578.4C1 259.5 259.5 1 578.4 1h1249.1c319 0 577.5 258.5 577.5 577.4V2406H578.4C259.5 2406 1 2147.5 1 1828.6V578.4z\" fill=\"#74aa9c\"/>\n\t<path id=\"a\" d=\"M1107.3 299.1c-197.999 0-373.9 127.3-435.2 315.3L650 743.5v427.9c0 21.4 11 40.4 29.4 51.4l344.5 198.515V833.3h.1v-27.9L1372.7 604c33.715-19.52 70.44-32.857 108.47-39.828L1447.6 450.3C1361 353.5 1237.1 298.5 1107.3 299.1zm0 117.5-.6.6c79.699 0 156.3 27.5 217.6 78.4-2.5 1.2-7.4 4.3-11 6.1L952.8 709.3c-18.4 10.4-29.4 30-29.4 51.4V1248l-155.1-89.4V755.8c-.1-187.099 151.601-338.9 339-339.2z\" fill=\"#fff\"/>\n\t<use xlink:href=\"#a\" transform=\"rotate(60 1203 1203)\"/>\n  \t<use xlink:href=\"#a\" transform=\"rotate(120 1203 1203)\"/>\n\t<use xlink:href=\"#a\" transform=\"rotate(180 1203 1203)\"/>\n\t<use xlink:href=\"#a\" transform=\"rotate(240 1203 1203)\"/>\n\t<use xlink:href=\"#a\" transform=\"rotate(300 1203 1203)\"/>\n\n</svg>", "claude": "<svg fill=\"#191919\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Anthropic</title><path d=\"M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z\"/></svg>", "deepseek": "<svg fill=\"#5786FE\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>DeepSeek</title><path d=\"M23.748 4.651c-.254-.124-.364.113-.512.233-.051.04-.094.09-.137.137-.372.397-.806.657-1.373.626-.829-.046-1.537.214-2.163.848-.133-.782-.575-1.248-1.247-1.548-.352-.155-.708-.311-.955-.65-.172-.24-.219-.509-.305-.774-.055-.16-.11-.323-.293-.35-.2-.031-.278.136-.356.276-.313.572-.434 1.202-.422 1.84.027 1.436.633 2.58 1.838 3.393.137.094.172.187.129.323-.082.28-.18.553-.266.833-.055.179-.137.218-.328.14a5.5 5.5 0 0 1-1.737-1.179c-.857-.828-1.631-1.743-2.597-2.46a12 12 0 0 0-.689-.47c-.985-.957.13-1.743.387-1.836.27-.098.094-.433-.778-.428-.872.003-1.67.295-2.687.685a3 3 0 0 1-.465.136 9.6 9.6 0 0 0-2.883-.101c-1.885.21-3.39 1.1-4.497 2.622C.082 8.776-.231 10.854.152 13.02c.403 2.284 1.568 4.175 3.36 5.653 1.857 1.533 3.997 2.284 6.438 2.14 1.482-.085 3.132-.284 4.994-1.86.47.234.962.328 1.78.398.629.058 1.235-.031 1.705-.129.735-.155.684-.836.418-.961-2.155-1.004-1.682-.595-2.112-.926 1.095-1.295 2.768-3.598 3.284-6.733.05-.346.115-.834.108-1.114-.004-.171.035-.238.23-.257a4.2 4.2 0 0 0 1.545-.475c1.397-.763 1.96-2.016 2.093-3.517.02-.23-.004-.467-.247-.588M11.58 18.168c-2.088-1.642-3.101-2.183-3.52-2.16-.39.024-.32.472-.234.763.09.288.207.487.371.74.114.167.192.416-.113.603-.673.416-1.842-.14-1.897-.168-1.361-.801-2.5-1.86-3.301-3.306-.775-1.393-1.225-2.888-1.299-4.482-.02-.385.094-.522.477-.592a4.7 4.7 0 0 1 1.53-.038c2.131.311 3.946 1.264 5.467 2.774.868.86 1.525 1.887 2.202 2.89.72 1.066 1.494 2.082 2.48 2.915.348.291.626.513.892.677-.802.09-2.14.109-3.055-.615zm1.001-6.44a.306.306 0 0 1 .415-.287.3.3 0 0 1 .113.074.3.3 0 0 1 .086.214c0 .17-.136.307-.308.307a.303.303 0 0 1-.306-.307m3.11 1.596c-.2.081-.4.151-.591.16a1.25 1.25 0 0 1-.798-.254c-.274-.23-.47-.358-.551-.758a1.7 1.7 0 0 1 .015-.588c.07-.327-.007-.537-.238-.727-.188-.156-.426-.199-.689-.199a.6.6 0 0 1-.254-.078.253.253 0 0 1-.114-.358 1 1 0 0 1 .192-.21c.356-.202.767-.136 1.146.016.352.144.618.408 1.001.782.392.451.462.576.685.915.176.264.336.536.446.848.066.194-.02.353-.25.45\"/></svg>", "gemini": "<svg fill=\"#8E75B2\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Google Gemini</title><path d=\"M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81\"/></svg>", "kimi": "<svg role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Moonshot AI</title><path d=\"m1.053 16.91 9.538 2.55a21 20.981 0 0 0 .06 2.031l5.956 1.592a12 11.99 0 0 1-15.554-6.172m-1.02-5.79 11.352 3.035a21 20.981 0 0 0-.469 2.01l10.817 2.89a12 11.99 0 0 1-1.845 2.004L.658 15.918a12 11.99 0 0 1-.625-4.796m1.593-5.146L13.573 9.17a21 20.981 0 0 0-1.01 1.874l11.297 3.02a21 20.981 0 0 1-.67 2.362l-11.55-3.087L.125 10.26a12 11.99 0 0 1 1.499-4.285ZM6.067 1.58l11.285 3.016a21 20.981 0 0 0-1.688 1.719l7.824 2.091a21 20.981 0 0 1 .513 2.664L2.107 5.218a12 11.99 0 0 1 3.96-3.638M21.68 4.866 7.222 1.003A12 11.99 0 0 1 21.68 4.866\"/></svg>", "grok": "<svg fill=\"#000000\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>xAI Grok</title><path d=\"M9.27 15.29l7.978-5.897c.391-.29.95-.179 1.137.272.98 2.369.542 5.215-1.41 7.169-1.951 1.954-4.667 2.382-7.149 1.406l-2.711 1.257c3.889 2.661 8.611 2.003 11.562-.953 2.341-2.344 3.066-5.539 2.388-8.42l.006.007c-.983-4.232.242-5.924 2.75-9.383.06-.082.12-.164.179-.248l-3.301 3.305v-.01L9.267 15.292M7.623 16.723c-2.792-2.67-2.31-6.825.071-9.21 1.761-1.763 4.647-2.483 7.166-1.416l2.705-1.253c-.487-.34-1.114-.673-1.732-.89-3.034-1.176-6.532-.537-8.989 1.923-2.366 2.37-3.084 5.928-1.808 9.046 0 0 .013 0 .049-.026z\"/></svg>\n", "glm": "<svg fill=\"#3859FF\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Zhipu GLM</title><path d=\"M3.6 1.2h16.8c1.325 0 2.4 1.075 2.4 2.4v16.8c0 1.325-1.075 2.4-2.4 2.4H3.6A2.4 2.4 0 0 1 1.2 20.4V3.6c0-1.325 1.075-2.4 2.4-2.4zm3.07 5.04v2.04h6.49l-7.02 7.7v2.74h11.18v-2.04h-7.36l7.02-7.7V6.24H6.67z\"/></svg>\n"}</script>
+<script>
+(function() {
+  try {
+    const saved = localStorage.getItem('worldcup-theme');
+    if (saved === 'dark' || saved === 'light') document.documentElement.dataset.theme = saved;
+  } catch (_) {}
+  const raw = JSON.parse(document.getElementById('wallet-data').textContent);
+  const icons = JSON.parse(document.getElementById('icon-data').textContent);
+
+  const MODELS = [
+    { key: 'gpt',      name: 'GPT',      dataKey: 'GPT',      colorVar: '--series-gpt' },
+    { key: 'claude',   name: 'Claude',   dataKey: 'Claude',   colorVar: '--series-claude' },
+    { key: 'deepseek', name: 'DeepSeek', dataKey: 'DeepSeek', colorVar: '--series-deepseek' },
+    { key: 'gemini',   name: 'Gemini',   dataKey: 'Gemini',   colorVar: '--series-gemini' },
+    { key: 'kimi',     name: 'Kimi',     dataKey: 'Kimi',     colorVar: '--series-kimi' },
+    { key: 'grok',     name: 'Grok',     dataKey: 'Grok',     colorVar: '--series-grok' },
+    { key: 'glm',      name: 'GLM',      dataKey: 'GLM',      colorVar: '--series-glm' },
+  ];
+
+  const n = raw.GPT.length;
+  const W = 980, H = 460, marginL = 56, marginR = 16, marginT = 10, marginB = 34;
+  const plotW = W - marginL - marginR, plotH = H - marginT - marginB;
+
+  let minV = 0, maxV = 0;
+  MODELS.forEach(m => raw[m.dataKey].forEach(p => { minV = Math.min(minV, p.cum); maxV = Math.max(maxV, p.cum); }));
+  const pad = (maxV - minV) * 0.08 || 50;
+  minV -= pad; maxV += pad;
+
+  function xAt(i) { return marginL + (i / (n - 1)) * plotW; }
+  function yAt(v) { return marginT + plotH - ((v - minV) / (maxV - minV)) * plotH; }
+
+  const root = document.querySelector('.viz-root');
+  const cs = getComputedStyle(root);
+  function cssVar(name) { return cs.getPropertyValue(name).trim(); }
+
+  // ---- gridlines (y) at clean steps ----
+  const gridG = document.getElementById('gridlines');
+  const yAxisG = document.getElementById('yaxis');
+  function niceStep(range) {
+    const rough = range / 5;
+    const mag = Math.pow(10, Math.floor(Math.log10(rough)));
+    const norm = rough / mag;
+    let step;
+    if (norm < 1.5) step = 1; else if (norm < 3.5) step = 2.5; else if (norm < 7.5) step = 5; else step = 10;
+    return step * mag;
+  }
+  const step = niceStep(maxV - minV);
+  const gridColor = cssVar('--grid');
+  for (let v = Math.ceil(minV / step) * step; v <= maxV; v += step) {
+    const y = yAt(v);
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', marginL); line.setAttribute('x2', W - marginR);
+    line.setAttribute('y1', y); line.setAttribute('y2', y);
+    line.setAttribute('class', Math.abs(v) < step / 2 ? 'zeroline' : 'gridline');
+    gridG.appendChild(line);
+    const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    label.setAttribute('x', marginL - 8); label.setAttribute('y', y + 3.5);
+    label.setAttribute('text-anchor', 'end'); label.setAttribute('class', 'axis-label');
+    label.textContent = (v > 0 ? '+' : '') + '$' + Math.round(v).toLocaleString();
+    yAxisG.appendChild(label);
+  }
+
+  // ---- x-axis: label first occurrence of each unique date ----
+  const xAxisG = document.getElementById('xaxis');
+  const dates = raw.GPT.map(p => p.date);
+  let lastDate = null;
+  dates.forEach((d, i) => {
+    if (d !== lastDate) {
+      lastDate = d;
+      const x = xAt(i);
+      const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      label.setAttribute('x', x); label.setAttribute('y', H - marginB + 18);
+      label.setAttribute('text-anchor', 'middle'); label.setAttribute('class', 'axis-label');
+      label.textContent = d.slice(5).replace('-', '/');
+      xAxisG.appendChild(label);
+      const tick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      tick.setAttribute('x1', x); tick.setAttribute('x2', x);
+      tick.setAttribute('y1', H - marginB); tick.setAttribute('y2', H - marginB + 5);
+      tick.setAttribute('class', 'gridline');
+      xAxisG.appendChild(tick);
+    }
+  });
+
+  // ---- lines + end dots ----
+  const linesG = document.getElementById('lines');
+  const dotsG = document.getElementById('dots');
+  const hoverG = document.getElementById('hoverrings');
+  const legend = document.getElementById('legend');
+
+  MODELS.forEach(m => {
+    const series = raw[m.dataKey];
+    const color = cssVar(m.colorVar);
+    const pts = series.map((p, i) => `${xAt(i).toFixed(1)},${yAt(p.cum).toFixed(1)}`).join(' ');
+    const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
+    poly.setAttribute('points', pts);
+    poly.setAttribute('class', 'series-line');
+    poly.setAttribute('stroke', color);
+    linesG.appendChild(poly);
+
+    // end dot + icon badge
+    const last = series[series.length - 1];
+    const ex = xAt(series.length - 1), ey = yAt(last.cum);
+    const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    dot.setAttribute('cx', ex); dot.setAttribute('cy', ey);
+    dot.setAttribute('class', 'series-dot');
+    dot.setAttribute('fill', color);
+    dotsG.appendChild(dot);
+
+    // hover ring per model (reused across all x, shown on hover)
+    const ring = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    ring.setAttribute('class', 'hover-ring');
+    ring.setAttribute('stroke', color);
+    ring.setAttribute('id', 'ring-' + m.key);
+    hoverG.appendChild(ring);
+
+    // legend entry
+    const item = document.createElement('div');
+    item.className = 'legend-item';
+    const iconWrap = document.createElement('span');
+    iconWrap.className = 'legend-icon';
+    iconWrap.innerHTML = icons[m.key];
+    const svgEl = iconWrap.querySelector('svg');
+    if (svgEl) { svgEl.setAttribute('width', '15'); svgEl.setAttribute('height', '15'); }
+    const swatch = document.createElement('span');
+    swatch.className = 'legend-swatch';
+    swatch.style.background = color;
+    const nameEl = document.createElement('span');
+    nameEl.className = 'legend-name';
+    nameEl.textContent = m.name;
+    const valEl = document.createElement('span');
+    valEl.className = 'legend-value';
+    valEl.textContent = (last.cum >= 0 ? '+$' : '-$') + Math.abs(Math.round(last.cum)).toLocaleString();
+    item.appendChild(swatch);
+    item.appendChild(iconWrap);
+    item.appendChild(nameEl);
+    item.appendChild(valEl);
+    legend.appendChild(item);
+  });
+
+  // ---- hover interaction ----
+  const svg = document.getElementById('chart');
+  const hit = document.getElementById('hitlayer');
+  const crosshair = document.getElementById('crosshair');
+  const tooltip = document.getElementById('tooltip');
+  const chartWrap = document.querySelector('.chart-wrap');
+
+  function indexFromClientX(clientX) {
+    const rect = svg.getBoundingClientRect();
+    const scale = W / rect.width;
+    const svgX = (clientX - rect.left) * scale;
+    let idx = Math.round(((svgX - marginL) / plotW) * (n - 1));
+    return Math.max(0, Math.min(n - 1, idx));
+  }
+
+  function showAt(idx) {
+    const x = xAt(idx);
+    crosshair.setAttribute('x1', x); crosshair.setAttribute('x2', x);
+    crosshair.setAttribute('y1', marginT); crosshair.setAttribute('y2', H - marginB);
+    crosshair.style.opacity = 1;
+
+    let html = `<div class="tooltip-date">${raw.GPT[idx].date}</div>`;
+    html += `<div class="tooltip-match">${raw.GPT[idx].match}</div>`;
+    const rows = MODELS.map(m => ({ m, v: raw[m.dataKey][idx].cum }));
+    rows.sort((a, b) => b.v - a.v);
+    rows.forEach(({ m, v }) => {
+      const color = cssVar(m.colorVar);
+      const ring = document.getElementById('ring-' + m.key);
+      ring.setAttribute('cx', x); ring.setAttribute('cy', yAt(v)); ring.style.opacity = 1;
+      html += `<div class="tooltip-row"><span class="k"><span class="tooltip-dot" style="background:${color}"></span>${m.name}</span><span class="v">${v >= 0 ? '+' : '-'}$${Math.abs(Math.round(v)).toLocaleString()}</span></div>`;
+    });
+    tooltip.innerHTML = html;
+    tooltip.style.opacity = 1;
+
+    const rect = svg.getBoundingClientRect();
+    const scale = rect.width / W;
+    let left = x * scale + 14;
+    if (left + 200 > rect.width) left = x * scale - 214;
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = (marginT * scale) + 'px';
+  }
+
+  function hide() {
+    crosshair.style.opacity = 0;
+    tooltip.style.opacity = 0;
+    MODELS.forEach(m => { document.getElementById('ring-' + m.key).style.opacity = 0; });
+  }
+
+  hit.addEventListener('mousemove', e => showAt(indexFromClientX(e.clientX)));
+  hit.addEventListener('mouseleave', hide);
+  hit.addEventListener('touchmove', e => { if (e.touches[0]) { showAt(indexFromClientX(e.touches[0].clientX)); e.preventDefault(); } }, { passive: false });
+  hit.addEventListener('touchend', hide);
+
+  // ---- table view ----
+  const table = document.getElementById('dataTable');
+  let thead = '<thead><tr><th>日期</th><th>對戰</th>' + MODELS.map(m => `<th>${m.name}</th>`).join('') + '</tr></thead>';
+  let tbody = '<tbody>';
+  for (let i = 0; i < n; i++) {
+    tbody += `<tr><td>${raw.GPT[i].date}</td><td>${raw.GPT[i].match}</td>`;
+    MODELS.forEach(m => {
+      const v = raw[m.dataKey][i].cum;
+      tbody += `<td>${v >= 0 ? '+' : '-'}$${Math.abs(Math.round(v)).toLocaleString()}</td>`;
+    });
+    tbody += '</tr>';
+  }
+  tbody += '</tbody>';
+  table.innerHTML = thead + tbody;
+
+  document.getElementById('tableToggle').addEventListener('click', function() {
+    const showing = table.classList.toggle('show');
+    this.textContent = showing ? '隱藏資料表格' : '顯示資料表格';
+  });
+})();
+</script>
