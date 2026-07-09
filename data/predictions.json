@@ -8116,8 +8116,8 @@
       "away": "摩洛哥",
       "kickoff_tw": "2026-07-10 04:00",
       "stage": "1/4決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8254,7 +8254,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328026",
