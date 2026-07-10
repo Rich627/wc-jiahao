@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T04:19:30+08:00",
+  "generated_at": "2026-07-10T17:21:52+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -8268,8 +8268,8 @@
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "西班牙",
-        "win_prob": 0.48,
-        "agree": "6/7 models",
+        "win_prob": 0.57,
+        "agree": "7/7 models",
         "predicted_score": "2-1",
         "models": [
           {
@@ -8278,17 +8278,17 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.46,
-              "D": 0.26,
-              "A": 0.28
+              "H": 0.49,
+              "D": 0.27,
+              "A": 0.24
             },
-            "confidence": 0.57,
-            "key_risk": "比利時的直接殺手組合：由 7 號 De Bruyne 負責創造機會，搭配頂尖終結者（10 號 Trossard / 14 號 Lukébakio / 9 號 Lukaku），將西班牙的控球轉化為一兩次高價值的反擊——隨後由 Courtois 鎖定勝局。",
+            "confidence": 0.58,
+            "key_risk": "Courtois 挺身而出為 Belgium 爭取足夠時間，最終靠著 De Bruyne 的一次攻守轉換定勝負（Spain 可以掌控比賽，但若臨門一腳失準，依然會輸球）。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點：西班牙坐擁主場優勢、陣容深度更佳且進攻指數更高——比利時的「黃金世代」再次煙消雲散。\n\n為什麼我並不完全買單：比利時前場球員的*實際*數據相當驚人（Trossard 和 Lukébakio 的 xG/90 皆為 0.52；Lukaku 為 0.40），而且他們還擁有 7 號 De Bruyne 這張作弊代碼（xAG/90 為 0.87，每 90 分鐘關鍵傳球 4.23 次）。這正是那些「穩健」控球型球隊在盃賽中被懲罰的方式——一次攻守轉換、一次定位球、一個瞬間。我們以前就看過強隊掉進這種陷阱（2018 年德國對陣韓國；2022 年阿根廷對陣沙烏地阿拉伯）。如果戰局翻轉，速度會非常快：西班牙掌控球權，比利時贏下禁區。",
-            "signature_scene": "下半場（62’）：西班牙將 Belgium 壓制在半場內——3 號 Grimaldo (Bayer 04 Leverkusen) 前插並以左腳傳中至十二碼點；7 號 Ferran Torres (FC Barcelona) 在 3 號 Theate 身前快速衝頂，完成一次第一時間的射門，將比分改寫為 2-1。在此之前，Courtois 已經兩度拯救了 Belgium。",
-            "reasoning_md": "西班牙以 2-1 小勝：他們展現了更多維持施壓的方式（透過 **Grimaldo**、**Baena** 與 **Pedri** 發動一波波攻勢），並擁有足夠的終結者來突破表現強勢的門將，即便 **Belgium** 靠著 **De Bruyne** 的反擊攻入一球。",
-            "script_md": "西班牙在這場比賽中更像是一台精密的「**機器**」——擁有更高的進攻指數、先發十一人在頂級聯賽中更豐富的出場時間，且進攻創造力遍地開花（3號 Grimaldo、15號 Álex Baena、20號 Pedri）。比利時則更像是一把「**利刃**」：雖然缺乏持續性的進攻套路，但透過 7號 Kevin De Bruyne (SSC Napoli) 以及三名真正活躍於禁區內的終結者，他們擁有極其高效的進攻路徑。\n\n關鍵對位在於西班牙邊後衛與 8號位球員的前壓，對抗比利時的反擊出口。如果 3號 Grimaldo (Bayer 04 Leverkusen) 和 12號 Pedro Porro (Tottenham) 整晚都壓在比利時的半場，西班牙將能創造出大量的進攻機會；但每一次掉球，都會讓 De Bruyne 有機會傳球給 14號 Lukébakio (SL Benfica) 或 10號 Trossard (Arsenal)，讓他們衝擊西班牙正在後撤的防線。\n\n比賽初期，西班牙會佔據地盤並累積角球與倒三角回傳機會；比利時的第一波真正威脅，將來自 De Bruyne 給 9號 Lukaku (SSC Napoli) 的雷射傳球，或是 14號 Lukébakio 跑向遠柱的插上。西班牙的先馳得點將來自這種持續的壓迫——由 7號 Ferran Torres (FC Barcelona) 或 21號 Oyarzabal (Real Sociedad) 接應 15號 Baena 或 20號 Pedri 所創造的機會完成破門。\n\n比利時會以他們唯一擅長的方式回應：一次犀利的攻守轉換，De Bruyne 送出直塞球，讓西班牙在掌控比賽的情況下失球。但經過 90 分鐘的拉鋸，西班牙不斷的滲透（加上 Grimaldo、Baena、Olmo 的定位球傳送）最終會壓垮比利時的後防線——Courtois 能讓比分保持接近，但他無法讓比賽變得毫無懸念。\n\n這就是為什麼比分會落在 2-1，而不是一場大勝：比利時的門將表現加上終結能力，阻止了西班牙將比分拉開，且比利時只需要一次乾淨的射門機會就能得分。決定比賽結果的關鍵很簡單——如果西班牙的最後一傳草率，而 Courtois 狀態神勇，比利時的反擊就可能演變成 0-1 或 1-2 的偷襲得手。"
+            "contrarian_md": "**顯而易見的劇本：** Spain 的中場（Rodri/Pedri）壓制 Belgium，將他們困在後場，並透過控球取勝。\n\n**為什麼我並不完全買單：** 當 **No.7 De Bruyne** 在場上時，Belgium 的創造機會能力極其直接（xAG/90 為 0.87），且他們擁有數名 xG/90 超過 0.50 的終結者（Trossard/Lukébakio）。Spain 的風格看起來很「安全」，直到他們丟失一次第二落點球，並被對手打穿邊後衛身後——這正是強隊在世界盃上爆冷的方式（想想 **2022 年 Germany 對陣 Japan**：只有控球卻缺乏致命一擊，隨後被兩次無情的反擊擊潰）。如果 Courtois 能將比賽變成低比分的拉鋸戰，Belgium 只需要一次反擊就能扭轉戰局。",
+            "signature_scene": "下半場約 62 分鐘：西班牙在左路發動人數優勢——**No.3 Álex Grimaldo** 與 **No.10 Dani Olmo** 進行快速撞牆配合後，送出一記低平球回傳；**No.21 Mikel Oyarzabal** 插上至 **No.4 Mechele** 與 **No.25 Ngoy** 之間，以側腳將球踢進，比數來到 2-1。",
+            "reasoning_md": "西班牙以 2-1 取勝：球隊展現了更深層次、更流暢的導傳推進，且先發十一人中具備更多創造力；而 Belgium 失去 Onana 則剝奪了中場的防守屏障，使其後防線無法有效抵禦 Spain 在兩線之間穿插的跑動。",
+            "script_md": "西班牙的優勢並非「氛圍」，而是創造者的數量：**No.16 Rodri**、**No.20 Pedri**、**No.15 Álex Baena**、**No.10 Dani Olmo**，再加上邊路的威脅（**No.19 Lamine Yamal**、**No.17 Nico Williams**），這意味著比利時必須防守的是一波波的攻勢，而非單一時刻。\n\n比利時的進攻威脅同樣明顯：如果 **No.7 Kevin De Bruyne (SSC Napoli)** 能轉身面對前方，西班牙的邊後衛就會成為目標，而 **No.10 Leandro Trossard (Arsenal FC)** 或 **No.14 Dodi Lukébakio (SL Benfica)** 就能迅速完成終結。問題在於缺乏壓艙石——**Onana 缺陣**導致 **Tielemans/Vanaken** 必須負擔過多的補位工作，這就是為什麼他們會被迫陷入持續的禁區防守。\n\n**開局：** 西班牙開賽節奏明快，在前場第一時間施壓，迫使比利時只能採取長傳解圍；第一個真正的機會來自於傳給 **No.21 Oyarzabal** 的半空間穿越球。西班牙透過持續的施壓而非單一反擊，先馳得點（1-0）。\n\n**中段：** 當 De Bruyne 找到空檔後，比利時逐漸穩住陣腳；一次轉換進攻終於奏效——西班牙在 Porro/Cucurella 前插後陣型失位，**No.7 De Bruyne** 將球送入通道給 Trossard/Lukébakio，比利時在逆境中扳平比分（1-1）。\n\n**尾聲：** 這是 Onana 缺陣的影響最顯著的時刻——比利時的防線不斷後撤，Courtois 雖然力保球門不失，但西班牙的後上球員源源不絕。一次 Grimaldo 與 Olmo 的配合創造了關鍵的倒三角回傳，由 **No.21 Oyarzabal** 破門（2-1），隨後西班牙靠著 Rodri 的節奏控制守住最後幾分鐘。\n\n為何是 2-1（而非大勝）：比利時門將的表現加上終結能力，阻止了比賽變成一場輕鬆的勝利，且西班牙目前仍較依賴機會創造，而非純粹的殺手本能。\n\n翻盤關鍵：如果 Courtois 能在前 60 分鐘將比賽拖入 0-0 或 1-0 的苦戰，且比利時能把握住一次 De Bruyne 的乾淨反擊（或定位球混戰），西班牙的統治力就可能演變成強隊在世界盃中常見的遺憾。"
           },
           {
             "name": "Claude",
@@ -8296,53 +8296,53 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.56,
+              "H": 0.6,
               "D": 0.24,
-              "A": 0.2
+              "A": 0.16
             },
-            "confidence": 0.58,
-            "key_risk": "比利時的前鋒線（Trossard、Lukébakio、Lukaku 皆具備高 xG）在反擊中重創西班牙，而 De Bruyne 以 0.87 的 xAG 送出了一記決定勝負的關鍵傳中。",
-            "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點是：Spain 的陣容深度更佳、整體性更強——指數為 3.69 對上 3.03，由 Rodri、Pedri、Baena 組成的中場能有效控球，並擁有本屆賽事最出色的傳球中軸線。Belgium 看起來像是一支黃金世代凋零後的殘軍，過度依賴 34 歲的 De Bruyne，且他現在效力的是 Napoli 而非 City。但我不買帳的是：Belgium 在本屆世界盃實際的場均預期貢獻值（3.58）其實比 Spain（3.24）還要高，而且他們的鋒線數據相當驚人——Trossard 0.52、Lukébakio 0.52、De Ketelaere 0.33、Lukaku 0.40。Spain 雖然掌控控球權，但他們的兩名中後衛（Cubarsí 年輕尚嫩、Eric García 表現不穩）容易被對手突破，而 Courtois 是一位淘汰賽殺手，他一人就能將 2-0 的局面扭轉為 1-0。這正是 2022 年 Argentina 對 Saudi 或 Germany 對 Japan 的翻版：熱門球隊佔據控球權，卻在反擊中兩度被對手偷襲。如果 Spain 掉以輕心，Belgium 犀利的前場三叉戟將會給予懲罰。",
-            "signature_scene": "下半場約 65 分鐘：7 號 De Bruyne (Napoli) 回撤接應，送出一記斜線球穿透西班牙年輕防線的身後，14 號 Lukébakio (Benfica) 或 10 號 Trossard (Arsenal) 跟進追平比分或取得領先——這正是西班牙高位防線被瓦解的時刻。",
-            "reasoning_md": "西班牙憑藉控球、陣容深度與主場火力取勝——Ferran、Oyarzabal 與 Yamal 為球隊創造了更多可複製的進攻機會——但比利時前鋒的高效表現，讓比賽始終維持在一球之差。",
-            "script_md": "**整體解讀：** Spain 在結構上是表現更好的一方——Rodri 和 Pedri 掌控節奏，Baena (0.35 xAG) 與 Grimaldo 在邊路製造人數優勢，而進攻終結點則分散在 Ferran Torres (0.47)、Oyarzabal (0.42)、Yamal 和 Nico Williams 身上。Belgium 則是頭重腳輕：擁有頂尖的前鋒群，但中軸線薄弱且老化，防線（Theate、Mechele、De Winter）整晚將疲於奔命。\n\n**關鍵對位：** 比賽勝負取決於 Spain 的中場壓迫與 No.7 De Bruyne (Napoli) 的對抗——如果 Zubimendi/Rodri 能切斷他的供輸，Belgium 的進攻將陷入癱瘓。在邊路，Lamine Yamal 對上 No.5 De Cuyper (Brighton) 是 Spain 整晚會持續猛攻的錯位優勢。Belgium 的威脅在於轉換進攻：No.10 Trossard (Arsenal)、No.14 Lukébakio (Benfica) 和 No.9 Lukaku (Napoli) 只需要兩次絕佳機會就能破門。\n\n**比賽劇本：** Spain 從開賽就掌控局面，控球率超過 65%，並持續將球導向 Yamal 的邊路。Belgium 採取深度防守，寄望於反擊與定位球。預計 Spain 會在 60 分鐘前透過精妙配合打破僵局——由 Oyarzabal 或 Ferran 完成進球。Belgium 隨後會靠 De Bruyne 的個人能力扳回一城，讓比賽尾聲變得緊張，但 Spain 板凳深度（Olmo、Pino、Merino）將確保勝果。\n\n**為何預測 2-1：** Spain 創造的機會更多且終結能力更強，但 Courtois 的存在加上 Belgium 前鋒群的冷酷效率，保證了這場比賽不會演變成大屠殺——比分將維持在經典的一球之差。\n\n**變數：** 如果 Spain 的年輕中後衛在反擊中兩度陷入孤立，或者 Courtois 有如神助，比賽可能會翻盤為 1-1 平手，甚至演變成 Belgium 1-2 偷襲得手的爆冷結局。"
+            "confidence": 0.6,
+            "key_risk": "De Bruyne 策動反擊：只要一記 KDB 的直塞球傳給 Trossard 或 Lukaku，西班牙的防線就會被徹底撕裂。",
+            "second_score": "2-0",
+            "contrarian_md": "顯而易見的觀點是：Spain 是本屆賽事最強的球隊，擁有最深厚的進攻指數（3.69），陣中滿是來自 Barça 和 Arsenal 的天才球員，且坐擁主場優勢——他們將輾壓剛失去 Onana 且「黃金世代已過」的 Belgium。我有一半認同這個說法，但問題在於：Belgium 的火力在帳面上其實是頂級的——Trossard（0.52）、Lukébakio（0.52）、Lukaku（0.40），再加上重掌兵符的 De Bruyne。這絕非軟腳蝦，而是一支致命的反擊型勁旅，專門用來懲罰 Spain 那種近乎自殺式的高位防線。此外，Spain 的中後衛組合 Cubarsí 與 Laporte 雖然實力出眾，但速度並不快。世界盃的歷史不斷提醒我們必須謹慎：2018 年的 Spain 被採取鐵桶陣的 Russia 淘汰，2022 年小組賽則在面對 Morocco 和 Japan 時表現疲軟。Spain 掌控 65% 的控球率，卻仍可能在 KDB 傳給 Lukaku 的瞬間翻船——這就是本場比賽爆冷的劇本。",
+            "signature_scene": "下半場約 65 分鐘，比利時 7 號 De Bruyne 在 Cucurella 身後送出一記第一時間的斜傳，讓 10 號 Trossard 從防守者身後切入——比利時扳平比分，西班牙板凳席陷入恐慌。但西班牙隨即做出回應：比賽末段，19 號 Lamine Yamal 從右路內切，吸引兩名防守球員後，送出直塞球助攻 21 號 Oyarzabal 攻入致勝球。",
+            "reasoning_md": "西班牙以 2-1 勝出——陣容深度更佳、掌控力更強，且他們的中場（Rodri-Pedri-Baena）將會壓制住因 Onana 膝蓋十字韌帶（ACL）受傷而戰力大減的 Belgium 中場。不過 Belgium 的鋒線具備足夠的威脅，能在反擊中攻入一球，因此不會出現大比分屠殺。",
+            "script_md": "**整體解讀：** Spain 在決定世界盃淘汰賽勝負的關鍵領域——中場控制力與板凳深度——更勝一籌。Rodri（0.16 xAG，每 90 分鐘 1.88 次射門）、Pedri（每 90 分鐘 2.25 次關鍵傳球）與 Baena（每 90 分鐘 2.84 次關鍵傳球）組成了一台控球機器，而 Belgium 在缺少 Amadou Onana（十字韌帶受傷，無緣本屆賽事）的屏障下，中場完全無法與之抗衡。Belgium 的優勢在於純粹的轉換進攻威脅。\n\n**關鍵對位：** Onana 的缺陣是整場比賽的焦點——Belgium 由 Vanaken 與 Tielemans（8 號 Tielemans，Aston Villa）組成的中場防線過於薄弱，而 De Bruyne（7 號，Napoli，每 90 分鐘 4.23 次關鍵傳球）雖然能創造機會，卻不會參與回防。這使得 Belgium 必須依賴 Courtois 的神勇撲救，並寄望於打穿 Spain 的高位防線：10 號 Trossard（Arsenal，每 90 分鐘 0.52 xG）與 9 號 Lukaku（Napoli，0.40 xG）將是主要的進攻箭頭。在邊路，Spain 的 Yamal 與 Nico Williams 將折磨 Belgium 臨時拼湊的四後衛防線（Ngoy 與 Mechele 並非頂級搭檔），De Cuyper 在面對 Yamal 時將度過漫長的一夜。\n\n**比賽劇本：** Spain 開賽即掌控球權，積極爭取角球機會，Cucurella 與 Porro 位置前壓。預計 Spain 會在 30 分鐘左右取得突破——透過 Baena 與 Pedri 的配合，或是 Yamal 的回敲助攻 Oyarzabal 進球。Belgium 將採取更深度的防守，等待 KDB 發動反擊；他們會在下半場獲得機會，很可能是來自 De Bruyne 的身後球傳送，並在 60-65 分鐘左右扳平比分。但 Spain 的板凳深度（Ferran Torres、Olmo、Merino）高出 Belgium 一個檔次，他們將在比賽末段重新取得領先。\n\n**為何預測此比分：** 2-1 是合理的結果——Spain 的控制力足以攻入兩球，而 Belgium 具備真正的鋒線實力，面對這樣的進攻組合，Spain 很難保持零封。這是一場典型的「強隊獲勝但過程驚險」的淘汰賽劇本。\n\n**變數：** 如果 Spain 的中後衛在反擊中不斷暴露空檔，且 Courtois 繳出大師級表現，Belgium 有機會以 1-0 或 2-1 偷走勝利。這是爆冷的途徑——雖然確實存在可能，但我仍看好 Spain 的板凳深度與中場控制力能贏下這場持久戰。"
           },
           {
             "name": "DeepSeek",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.35,
-              "D": 0.35,
-              "A": 0.3
+              "H": 0.5,
+              "D": 0.3,
+              "A": 0.2
             },
-            "confidence": 0.65,
-            "key_risk": "西班牙得勢不得分，比利時高效反擊一擊致命",
-            "second_score": "1-2",
-            "contrarian_md": "主流會想當然認為西班牙傳控碾壓，比利時黃金一代已過氣，穩拿三分。但資料不說謊：西班牙本屆場均預期貢獻只有3.24，低於比利時的3.58，進攻端除了Ferran Torres沒有穩定終結點；比利時手握Trossard（xG90 0.52）和Lukébakio（xG90 0.52）兩大高效殺手，加上De Bruyne的致命一傳和Courtois的門神屬性，完全具備爆冷土壤。別忘了2018西班牙被俄羅斯拖死，2022又被摩洛哥零封，碰到收縮反擊型球隊就腿軟。",
-            "signature_scene": "下半場第67分鐘，比利時7號De Bruyne中場突然送出過頂長傳，10號Trossard反越位成功，單刀推射遠角破門；西班牙陷入絕境後瘋狂反撲，第82分鐘19號Yamal右路連續晃動傳中，21號Oyarzabal後點包抄剷射扳平。",
-            "reasoning_md": "西班牙控場但破門乏術，比利時反擊刀刀見血，1-1是雙方真實實力的合理對映。",
-            "script_md": "① 整體判讀：西班牙陣容深度佔優，中後場技術細膩，但鋒線缺乏一錘定音的超級射手；比利時防線有漏洞，可中前場個人能力極強，反擊效率是勝負手。\n② 關鍵對位：西班牙右後衛12號Porro（熱刺）助攻幅度大，身後空當正好對上比利時10號Trossard（阿森納）的斜插；比利時中衛2號Debast（葡萄牙體育）缺乏頂級聯賽資料，會被西班牙17號Nico Williams（畢爾巴鄂競技）的爆發力反覆衝擊。\n③ 比賽劇本：開場西班牙用控球把比利時壓在半場，前30分鐘形成圍攻，但Courtois高接低擋，Nico Williams的兩次內切射門都被撲出。上半場尾聲比利時打出經典反擊，De Bruyne一腳30米貼地直塞找到Lukaku，後者扛住Laporte回做，Trossard弧頂低射破門，比利時1-0領先進入更衣室。下半場西班牙換上Baena加強遠射，第70分鐘利用角球混戰，Oyarzabal門前補射扳平。最後20分鐘比利時回收，西班牙圍攻無果，1-1收場。\n④ 比分1-1符合世界盃小組賽最常見的一球差距平局，雙方各取一分都能接受，沒必要冒險。\n⑤ 翻盤情況：如果西班牙早早進球，比利時被迫壓出，西班牙可能再抓反擊打成2-0；如果比利時反擊效率逆天，上半場就兩球領先，則可能2-1爆冷帶走勝利。"
+            "confidence": 0.6,
+            "key_risk": "比利時反擊雙翼Trossard和Lukebakio的終結效率（xG90皆0.52），以及De Bruyne的致命一傳；西班牙可能得勢不得分，被一擊致命。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會說西班牙中場控制力碾壓缺少Onana的比利時，輕鬆晉級。但西班牙過去兩屆世界盃淘汰賽全死在控球無效、反擊一刀的劇本（2018輸俄羅斯、2022輸摩洛哥），前鋒群xG90沒一個破0.5，破密防效率存疑。比利時有Courtois把門，加上Trossard、Lukebakio這些高效殺手，完全可能復刻冷門，把比賽拖入加時甚至偷走勝利。",
+            "signature_scene": "下半場第63分鐘，西班牙久攻不下，比利時7號De Bruyne（SSC Napoli）後場斷球後一腳50米長傳找到左路10號Trossard（Arsenal FC），後者內切射門被撲，17號De Ketelaere（Atalanta Bergamo）門前補射破門，比利時1-0領先。隨後西班牙換上7號Ferran Torres（FC Barcelona），第78分鐘接20號Pedri（FC Barcelona）直塞扳平。第85分鐘西班牙角球，19號Lamine Yamal（FC Barcelona）跟進補射絕殺。",
+            "reasoning_md": "西班牙控場但破門不易，比利時反擊致命；最終西班牙靠深度和定位球2-1險勝。",
+            "script_md": "① 整體判讀：西班牙中場Rodri+Pedri控制節奏，但前場缺乏絕對強點，Oyarzabal和Olmo的xG90都不算頂級；比利時中場防守因Onana十字韌帶撕裂形同虛設，但De Bruyne回歸提供世界級反擊彈藥，前場Trossard和Lukebakio的xG90高達0.52，終結能力極強。② 關鍵對位：西班牙右路19號Yamal（FC Barcelona）將反覆衝擊比利時左後衛5號De Cuyper（Brighton & Hove Albion FC，無頂級聯賽資料），這一側很可能被打爆。比利時反擊核心7號De Bruyne（SSC Napoli，預期助攻90 0.87）會瞄準西班牙防線身後，找10號Trossard（Arsenal FC）和14號Lukebakio（SL Benfica）的速度。③ 比賽劇本：西班牙開場就高位控球圍攻，上半場第28分鐘，Yamal右路突破傳中，21號Oyarzabal（Real Sociedad）前點搶射破門，1-0。比利時下半場果斷換上9號Lukaku（SSC Napoli）加強對抗，第60分鐘利用角球混戰，4號Mechele（Club Brugge）趁亂捅射扳平，1-1。西班牙隨即換上7號Ferran Torres（FC Barcelona，xG90 0.47）強攻，第78分鐘他接Pedri直塞單刀低射遠角，2-1。④ 為什麼是2-1：西班牙能進球但防線並非頂級，Cubarsi年輕、Laporte回追偏慢，比利時反擊幾乎必有所獲；但西班牙深度更好，後段發力能再進一球。⑤ 翻盤條件：若西班牙久攻不下，Courtois多次神撲，比利時可能靠一次反擊或定位球領先，然後全線退守，西班牙就會重演2022年對摩洛哥的噩夢，0-1或1-1拖入加時甚至點球。"
           },
           {
             "name": "Gemini",
-            "selection": "AWAY",
-            "selection_team": "比利時",
-            "predicted_score": "1-2",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.35,
-              "D": 0.28,
-              "A": 0.37
+              "H": 0.58,
+              "D": 0.24,
+              "A": 0.18
             },
-            "confidence": 0.65,
-            "key_risk": "西班牙開賽即取得進球，迫使 Belgium 放棄反擊戰術，轉而陷入 Spain 令人窒息的控球網中。",
-            "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為，西班牙充滿活力的年輕核心（Yamal、Williams、Pedri）將會把被認為「黃金世代」已過巔峰的比利時隊耍得團團轉。但我並不這麼認為。西班牙的體系依賴於窒息式的控球以及像 Grimaldo 和 Porro 這樣積極前插的邊後衛。這使得他們身後留下了巨大的空檔——而這正是擅長轉換進攻的球隊所渴望的。人們忘記了在盃賽足球中，頂尖的組織策劃能力勝過乏味的控球。隨著 Kevin De Bruyne 每 90 分鐘能創造出驚人的 4.23 次關鍵傳球，加上像 Doku 和 Trossard 這樣隨時準備衝擊邊路的跑動型球員，比利時的陣容配置非常適合在承受壓力後進行反擊，就像 2022 年摩洛哥對陣西班牙時所做的那樣。",
-            "signature_scene": "下半場，Spain 全員壓上爭搶角球。球被解圍至 7 號 Kevin De Bruyne 腳下，他直接起腳，送出一記 40 碼的雷射長傳，精準落入 11 號 Jérémy Doku 的跑動路徑上。Doku 在邊路一對一單挑 Pedro Porro，憑藉速度強行突破，隨後橫傳給 10 號 Leandro Trossard，後者在對手攻勢正盛時，以一記重砲轟門破網。",
-            "reasoning_md": "西班牙將會掌控球權，但比利時致命的轉換進攻——在 De Bruyne 頂級的組織策劃與 Doku 的速度加持下——將會無情地撕裂西班牙的高位防線。",
-            "script_md": "- **整體解讀：** Spain 擁有更深厚的陣容深度與中場控制力（進攻指數 3.69），但 Belgium 頂尖的進攻效率（3.58 的預期貢獻值）使他們極具威脅。這是一場典型的控球對抗轉換進攻的經典戰役。\n- **關鍵對位：** Spain 的邊鋒，19 號 Lamine Yamal 與 17 號 Nico Williams，將考驗 Belgium 較為脆弱的邊後衛。然而，真正的戰場在於 Spain 丟球後的防守。16 號 Rodri 將面臨嚴峻挑戰，必須全力盯防 7 號 Kevin De Bruyne，後者目前場均 xAG90（預期助攻）高達 0.87，且每 90 分鐘能送出 4.23 次關鍵傳球。\n- **比賽劇本：** Spain 將在開賽初期掌控節奏，將 Belgium 壓制在半場。預計 10 號 Dani Olmo 與 15 號 Álex Baena 將不斷試探半場空間，最終為 Spain 帶來突破——或許是透過定位球，由 14 號 Aymeric Laporte（數據顯示他每 90 分鐘有驚人的 15 次射門）在禁區製造混亂。但 Belgium 不會慌亂，他們將採取中位防守（mid-block），等待 Spain 的邊後衛（Grimaldo 與 Porro）壓上過深時發動反擊。\n- **轉捩點：** 隨著下半場比賽空間拉開，Belgium 的反擊將變得活躍。De Bruyne 將開始為 11 號 Jérémy Doku 與 10 號 Leandro Trossard（xG90 為 0.52）輸送炮彈。9 號 Romelu Lukaku 的身體對抗將牽制住 Cubarsí，為邊鋒創造利用的空檔。Belgium 將先追平比分，隨後在反擊中攻入絕殺球。\n- **為何是此比分 (1-2)：** Spain 的控球在面對低位防守時往往缺乏致命一擊，而 Belgium 的直接進攻風格正是懲罰高位防線的絕佳武器。\n- **可能翻盤的因素：** 如果 Rodri 能徹底封鎖 De Bruyne，或者 Courtois 在面對 Spain 的大量射門時狀態不佳，Spain 有望以 2-0 輕鬆取勝。"
+            "confidence": 0.75,
+            "key_risk": "De Bruyne 完全繞過中場，利用長傳轉換進攻，以打擊 Spain 的高位防線。",
+            "second_score": "2-0",
+            "contrarian_md": "傳統觀點認為這是一場將由靈光一現決定勝負的重量級對決，且由於控球優勢，Spain 稍被看好。我不認為這會是一場勢均力敵的較量。在缺少 Amadou Onana 的情況下，Belgium 由 Tielemans 和 Vanaken 組成的中場防守漏洞百出，將會被 Rodri 和 Pedri 完全壓制。然而，爆冷的風險在於 Belgium 是否能認清現實：如果他們徹底放棄中場，採取深度防守陣型，並完全依賴 De Bruyne 為 Lukebakio 和 Doku 送出越過 Spain 高位防線的直接傳球，他們或許能複製 Morocco 在 2022 年的成功藍圖。Spain 的中後衛缺乏頂級的回追速度，而無效的控球可能會成為他們的致命傷。",
+            "signature_scene": "第 65 分鐘。Spain 在禁區周圍進行了一連串持續的傳導，讓 Belgium 感到窒息。Pedri 將球精準塞給半場空間（half-space）的 10 號 Dani Olmo，後者快速轉身並起腳低射。Courtois 將球擋出，但 21 號 Mikel Oyarzabal 第一時間補射入網，為 Spain 取得應得的領先。",
+            "reasoning_md": "西班牙的頂級中場將徹底壓制缺少了防守核心 Amadou Onana 的比利時隊，這將使 La Roja 能夠掌控比賽節奏，並最終艱難取得勝利。",
+            "script_md": "- **整體解讀**：西班牙的中場運作如同一台精密的機器，而比利時則是一支頭重腳輕、依賴攻守轉換魔力的球隊。此役的致命傷在於 Amadou Onana 的傷缺，這使比利時失去了唯一真正的中場破壞者，並讓他們的後防線完全暴露。\n- **關鍵對位**：關注中場核心地帶：Rodri 與 Pedri 對陣 Tielemans 和 20 號 Hans Vanaken (Club Brugge)，這場對決簡直是一場即將發生的屠殺。比利時雙人組缺乏足夠的防守侵略性來阻擋西班牙細膩的傳導。此外，比利時由 25 號 Nathan Ngoy (Lille) 與 4 號 Brandon Mechele (Club Brugge) 組成的臨時中後衛搭檔，在盯防 Yamal、Olmo 和 Oyarzabal 的跑位時將會疲於奔命。\n- **比賽劇本**：西班牙從第一分鐘起就會在比利時的半場安營紮寨。由於缺乏 Onana 來進行攔截，比利時將被迫採取深位、絕望的低位防守。西班牙會耐心地尋找空檔，進球只是遲早的事。比利時唯一的希望是靠 De Bruyne 長傳給 Lukebakio 或 Trossard 進行孤注一擲的反擊。西班牙極有可能先馳得點，若比利時為了追分而壓上，西班牙致命的板凳深度（Nico Williams、Ferran Torres）將會在對手體力下滑時給予最後一擊。\n- **比分預測原因**：2-1 的比分完美體現了比賽的動態：西班牙掌控球權並創造出高品質的進攻機會，但憑藉 Courtois 頂級的撲救能力以及比利時潛在的反擊威脅，不至於讓比分演變成一面倒的屠殺。\n- **什麼情況會翻盤**：如果西班牙陷入無效控球的陷阱，並將邊後衛（Porro、Cucurella）壓得太靠前，De Bruyne 只要一次大師級的過頂長傳給高速插上的 Doku 或 Lukebakio，就有可能扭轉戰局，上演比利時式的偷襲爆冷。"
           },
           {
             "name": "Kimi",
@@ -8350,17 +8350,17 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.52,
-              "D": 0.28,
-              "A": 0.2
+              "H": 0.62,
+              "D": 0.22,
+              "A": 0.16
             },
-            "confidence": 0.65,
-            "key_risk": "De Bruyne 7號 的世界波遠射 + 定位球直接破門——西班牙這批後衛沒真正扛過這種級別的炮，Raya 撲救範圍有限",
+            "confidence": 0.75,
+            "key_risk": "De Bruyne 單場爆發 + Lukaku 定位球頭槌偷一個，西班牙邊衛壓上後被打身後",
             "second_score": "1-1",
-            "contrarian_md": "主流敘事：「西班牙傳控王朝，黃金一代接班，小組賽輕取老邁比利時」。這套敘事漏了兩個洞：第一，比利時本屆預期貢獻 3.58 其實高於西班牙的 3.24，資料上比利時火力沒輸；第二，西班牙這套後衛線——Grimaldo 3號 和 Cucurella 24號 都是攻強守弱的邊翼，Laporte 14號 年紀上來轉身慢，正中 Lukaku 9號 這種坦克的靶。2022 阿根廷輸沙烏地、德國輸日本，都是傳控強隊被「快速轉換+單點爆破」打穿的劇本。比利時有 Trossard 10號 和 Doku 11號 兩把刀，De Bruyne 7號 的直塞球只要找到一次，西班牙的邊後衛回追就是災難。這場不是穩贏，是「可能贏得很驚險，甚至先丟球」。",
-            "signature_scene": "上半場 35 分鐘，比利時 7號 Kevin De Bruyne（SSC Napoli）中場右側接球，Laporte 14號 上搶半步被晃，De Bruyne 直塞肋部給 10號 Leandro Trossard（Arsenal FC），Trossard 內切橫傳，9號 Romelu Lukaku（SSC Napoli）扛倒 Cubarsí 22號 推射遠角破門——比利時 1-0 領先，西班牙傳控 35 分鐘零射正",
-            "reasoning_md": "西班牙紙面強但邊後衛防守漏洞明顯，比利時有 De Bruyne+Lukaku 的經典連線能抓這個軟肋；西班牙靠中場厚度和替補深度（25/26 頂級聯賽 vs 比利時 21/26）後段壓上逆轉，但贏不了兩球以上。",
-            "script_md": "**① 整體判讀：誰強在哪**\n西班牙中場是宇宙級：Rodri 16號、Pedri 20號、Merino 6號、Zubimendi 18號 四個頂級節拍器，傳控節奏穩如老狗。但後衛線是隱患——Grimaldo 3號（Bayer Leverkusen）和 Cucurella 24號（Chelsea）都是攻上去回不來的型別，Laporte 14號 轉身速度下滑，正中 Lukaku 9號 的胃口。比利時陣容深度差一截（只有 21 人有頂級資料），但前場有 Trossard 10號（xG90 0.52）、Lukébakio 14號（xG90 0.52）、De Ketelaere 17號（xG90 0.33）三個高效終結點，加上 De Bruyne 7號 的 4.23 關鍵傳球/90——這是西班牙後衛沒見過的炮。\n\n**② 關鍵對位/球員**\n- **致命對位**：De Bruyne 7號 vs Laporte 14號——Laporte 本季在 Athletic Club 打中衛，面對的是西甲中鋒，De Bruyne 的直塞球速和角度是另一個維度。\n- **西班牙的解藥**：Nico Williams 17號（Athletic Club）和 Lamine Yamal 19號（FC Barcelona）的邊路爆破，比利時 2號 Zeno Debast（Sporting CP）和 5號 Maxim De Cuyper（Brighton）這條邊路組合經驗不足，會被速度生吃。\n- **比利時的軟肋**：中場 Witsel 6號（Girona）36 歲，Tielemans 8號（Aston Villa）覆蓋範圍有限，西班牙中場圍搶後能直接面對後衛線。\n\n**③ 比賽劇本**\n- **早段（0-30 分鐘）**：西班牙控球 65%，但比利時 11號 Jérémy Doku（Manchester City）和 14號 Dodi Lukébakio（SL Benfica）兩邊埋伏，等西班牙邊後衛壓上後打反擊。De Bruyne 7號 第 35 分鐘直塞助攻，Lukaku 9號 破門，比利時 1-0。\n- **中段（30-70 分鐘）**：西班牙被迫提速，Pedri 20號 和 Baena 15號（Atlético Madrid，xG90 0.23+2.84 關鍵傳球）輪流前插。第 52 分鐘，Yamal 19號 右路內切傳中，Ferran Torres 7號（xG90 0.47）頭槌扳平。第 68 分鐘，Torres 禁區內被 Theate 3號 絆倒，VAR 介入判點，Torres 親自主罰命中，2-1。\n- **末段（70-90 分鐘）**：比利時換上 De Ketelaere 17號 和 Saelemaekers 22號 搏命，但西班牙換上 Oyarzabal 21號（xG90 0.42）和 Olmo 10號 控場，比利時最後一波角球被 Raya 1號（Arsenal）撲出。\n\n**④ 為什麼是這個比分**\n西班牙中場優勢轉化為後段壓制力，但邊後衛漏洞讓比利時一定能抓到一次機會；比利時深度不足，70 分鐘後體能下滑，擋不住西班牙輪流上場的攻擊手。2-1 是最常見的「強隊逆轉」比分，1-1 是比利時死守成功的備案。\n\n**⑤ 什麼情況會翻盤**\nDe Bruyne 7號 遠射世界波或定位球直接破門，比利時 2-1 領先，西班牙被迫全壓上，後防空虛被 Trossard 10號 再偷一個——比利時 2-1 或 3-1 爆冷。或者 Laporte 14號 紅牌（他上搶兇狠但轉身慢，容易被 Lukaku 扛倒後犯規），西班牙 10 打 11 被逆轉。"
+            "contrarian_md": "主流敘事：『西班牙傳控碾壓，比利時黃金一代老了又缺 Onana，穩贏』。我不買賬的點：比利時本屆預期貢獻 3.58 其實高於西班牙的 3.24，他們不是沒貨；De Bruyne 輪休一場後體能滿格，Trossard 和 Lukébakio 的 xG90 都是 0.52 頂級終結者。2018 比利時對巴西、2022 摩洛哥對西班牙都證明——傳控隊最怕被『放球權+快速轉換+邊路爆破』。西班牙兩個邊衛 Porro 和 Cucurella 都是攻強守弱，若比利時刻意收縮讓出 60% 球權，De Ketelaere 和 Doku 打 Cucurella 身後，這場絕對有冷門土壤。",
+            "signature_scene": "下半場 65 分鐘，比利時 10 號 Leandro Trossard（Arsenal FC）左路內切，西班牙 12 號 Pedro Porro（Tottenham Hotspur FC）站位過於靠前，Trossard 直塞給 14 號 Dodi Lukébakio（SL Benfica）反越位單刀，Raya 撲出但補射進網，1-1 扳平，西班牙被迫全線壓上",
+            "reasoning_md": "西班牙控場但缺絕對爆點，比利時缺 Onana 中場攔截會被滲透，但反擊武器夠銳。西班牙小勝或被逼平，2-1 最實在。",
+            "script_md": "## 整體判讀\n西班牙紙面強 3.69 vs 比利時 3.03，但比利時本屆實際預期貢獻 3.58 更高，這不是虐菜局。西班牙深度 25/26 頂級聯賽 vs 比利時 21/26，替補席西班牙明顯厚，但先發差距沒那麼大。\n\n## 關鍵對位\n- **西班牙命門**：Rodri + Pedri 雙核控場，但邊衛 Porro（熱刺）和 Cucurella（切爾西）都是進攻型，身後空檔大。比利時 11 號 Jérémy Doku（Manchester City FC）和 14 號 Dodi Lukébakio（SL Benfica）都是 3.1+ 射門/90 的邊路爆點，專打這個。\n- **比利時命門**：Onana 傷退，Vanaken + Tielemans 雙人組橫移慢、回追差，西班牙 15 號 Álex Baena（Atlético De Madrid）和 20 號 Pedri（FC Barcelona）的 2.25+/2.84 關鍵傳球會在肋部找到空檔。\n- **X 因子**：De Bruyne 4.23 關鍵傳球/90 是本場最高單點，但他 35 歲體能只能爆 60 分鐘；西班牙 Laporte 15.00 射門/90 是定位球大殺器，比利時 Ngoy + Mechele 防空一般。\n\n## 比賽劇本\n- **早段（0-25分）**：西班牙控球 65%，但比利時刻意低位，不搶中場。西班牙邊路傳中效率低，Oyarzabal 0.42 xG90 需要支援但 Yamal 被包夾。\n- **中段（25-60分）**：西班牙進球——Pedri 肋部直塞，Baena 橫傳，Oyarzabal 門前搶點，1-0。比利時立刻換人，Doku 上場衝 Cucurella，65 分鐘 Trossard-Lukébakio 連線扳平（見 signature_scene）。\n- **末段（60-90分）**：西班牙全線壓上，比利時體能下滑無法持續反擊。80 分鐘 Laporte 角球頭槌，或 Ferran Torres 替補上場偷一個，2-1 鎖定。\n\n## 為什麼是 2-1\n西班牙創造機會更多但終結效率中等（Torres 0.47 xG90 算最高，但非頂級射手），比利時反擊能進一球但缺 Onana 後中場攔不住第二波攻勢。世界盃淘汰賽 2-1 是最常見比分，不會開大。\n\n## 翻盤情景\nDe Bruyne 60 分鐘前兩助攻，或 Lukaku 定位球頭槌梅開二度，比利時 2-1 逆轉；或西班牙久攻不下，80 分鐘後被反擊偷第二球，1-2 爆冷。西班牙若早段 30 分鐘前進兩球，才可能 3-0 打穿。"
           },
           {
             "name": "Grok",
@@ -8368,35 +8368,35 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.54,
-              "D": 0.29,
-              "A": 0.17
+              "H": 0.58,
+              "D": 0.28,
+              "A": 0.14
             },
             "confidence": 0.62,
-            "key_risk": "比利時透過 De Bruyne 與 Trossard 利用 Spain 的高位防線進行反擊",
+            "key_risk": "在西班牙隊站穩陣腳前，由 De Bruyne 策動反擊",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為 Spain 憑藉陣容深度與進攻指數（3.69 對 3.03）在主場能輕鬆過關。我並不完全買單：Belgium 的鋒線擁有更高的個人 xG 數據與預期貢獻值（3.58），且 Spain 的進攻過於依賴從未在淘汰賽壓力下扛起球隊的 Torres 與 Oyarzabal。2018 年 Germany 對陣 Korea 的比賽就精準展示了當對手採取嚴密防守並透過兩次轉換進攻反擊時，一支「穩操勝券」的熱門球隊是如何崩盤的。",
-            "signature_scene": "下半場第 65 分鐘：比利時隊 7 號 De Bruyne (SSC Napoli) 送出一記斜傳，找到 10 號 Trossard (Arsenal FC)，後者在 Spain 全線壓上後發動反擊破門，將比分扳平為 1-1。",
-            "reasoning_md": "西班牙以 2-1 勝出。更深厚的板凳深度與主場優勢，抵銷了 Belgium 在單場貢獻度上些微的領先；Spain 掌控了中場，並在比賽末段攻入致勝球。",
-            "script_md": "西班牙在陣容深度（25 名對 21 名頂級聯賽球員）以及透過 Rodri、Pedri 和 Gavi 掌控中場方面擁有明顯優勢。比利時的威脅集中在四名擁有頂尖 xG（預期進球值）的前鋒身上：Trossard 0.52、Lukébakio 0.52、Lukaku 0.40 以及 De Bruyne 的創造力。比賽初期，西班牙採取高位壓迫，並透過 Grimaldo 和 Baena 的重疊跑位製造角球。比賽中段，比利時採取緊湊防守，吸收壓力並利用 De Bruyne 的關鍵傳球發動反擊。西班牙在第 35 分鐘左右率先破門，由 Ferran Torres 在一次定位球混戰後補射入網。比利時隨後如前所述，透過反擊扳平比分。比賽末段，西班牙大舉壓上，Oyarzabal 接獲 Pedri 的傳中頭槌攻入致勝球。比分最終維持在 2-1，因為雙方皆未能創造出足夠的絕佳機會來攻入第三球。除非西班牙在比賽初期因 Rodri 受傷而失去核心，且比利時的中場能不受限制地推進，否則比賽結果不會翻盤。"
+            "contrarian_md": "傳統觀點認為 Spain 憑藉深厚的陣容深度與進攻指數（3.69 對 3.03）將在主場橫掃對手。然而，Onana 的十字韌帶撕裂使 Belgium 失去了中場屏障，但他們的前場四人組（Trossard 0.52 xG/90、Lukébakio 0.52、De Ketelaere 0.33）仍具備致命的轉換進攻威脅；Spain 的高位防線以及 Pedri 與 Rodri 的中場組合，極有可能重蹈 2018 年 Germany 被 Korea 擊敗的覆轍——當時所有人也都認為 Germany 能完全掌控比賽。",
+            "signature_scene": "下半場第 65 分鐘：比利時 7 號 Kevin De Bruyne (SSC Napoli) 送出一記斜傳給 10 號 Leandro Trossard (Arsenal FC)，後者在 Spain 角球進攻壓得太靠前的情況下，透過反擊完成破門。",
+            "reasoning_md": "西班牙以 2-1 取勝，原因在於其陣容深度與主場優勢勝過了比利時缺少 Onana 的影響，但比分始終維持膠著，因為 De Bruyne 的回歸讓比利時在反擊中仍具威脅。",
+            "script_md": "西班牙透過 Rodri 和 Pedri 控制球權，但比利時的進攻指數僅低了 0.66，且其前鋒群繳出了頂級的 xG（預期進球）數據。比賽初期，西班牙採取高位壓迫，由 Yamal 和 Olmo 創造出半場機會；Nico Williams 的輕微傷勢限制了邊路進攻。比賽中段，比利時 7 號 De Bruyne 回撤較深以填補 Onana 缺陣留下的空檔，並在攻守轉換時為 Trossard 和 Lukébakio 輸送球權。西班牙在 35 分鐘左右由 Baena 送出關鍵傳球，助攻 Oyarzabal 門前補射破門，取得領先。比利時則在上半場結束前透過反擊扳平比分。下半場，西班牙憑藉 Laporte 或 Cubarsi 的參與，透過定位球再下一城，隨後陣型後撤以守住領先優勢。最終比分定格在 2-1，原因在於比利時在中場缺乏足夠的體能，無法在 De Bruyne 體力下滑後維持壓迫強度。除非 Debast 通過體能測試且比利時能成功擺出兩道四人防線，否則比賽結果難以翻盤。"
           },
           {
             "name": "GLM",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
+            "selection": "HOME",
+            "selection_team": "西班牙",
+            "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.45,
-              "D": 0.3,
-              "A": 0.25
+              "H": 0.62,
+              "D": 0.23,
+              "A": 0.15
             },
-            "confidence": 0.6,
-            "key_risk": "比利時反擊太利，Trossard 跟 Lukébakio 的 xG90 都破 0.5，西班牙壓上去若被斷球就是一刀斃命。",
-            "second_score": "2-1",
-            "contrarian_md": "主流一定看西班牙陣容豪華、控球無敵，覺得比利時黃金世代尾巴老化、後防青黃不接，西班牙穩贏。但我不完全買帳：西班牙攻擊指數 3.69 號稱嚇人，可你仔細看主力前鋒 Ferran Torres xG90 才 0.47，Nico Williams 0.25，Lamine Yamal 0.24——這些人名氣大於實際產出。反觀比利時 Trossard 0.52、Lukébakio 0.52、De Ketelaere 0.33、Lukaku 0.40，四個人輪流捅你，火力分佈反而更嚇人。世界盃冷門史告訴你：控球強隊遇到反擊利刃，2018 德國輸韓國、2022 德國輸日本都是同一個劇本。西班牙如果開局壓不上、被比利時先偷一個，整場就難踢了。",
-            "signature_scene": "下半場 65 分鐘左右，西班牙全隊壓過半線，Rodri 在中圈附近傳球被 Amadou Onana（24號，Aston Villa）攔截，一腳直塞找到前插的 10號 Trossard（Arsenal FC），Trossard 殺入禁區左肋一腳低射被 David Raya 撲出，但 9號 Lukaku（SSC Napoli）跟進補射破網——整個反擊從斷球到進球不超過 8 秒。",
-            "reasoning_md": "西班牙控球佔優但鋒線實際產出被高估，比利時反擊火力分散且致命，這場大機率打平。西班牙主場有一點點優勢但不足以碾壓，1-1 最合理。",
-            "script_md": "## 整體判讀\n西班牙帳面攻擊指數 3.69 看著漂亮，但拆開看，真正能穩定進球的人不多。Ferran Torres 0.47 是全隊最高，可他從來不是那種一場能扛你兩球的殺手。比利時這邊指數 3.03 看著矮一截，但人家四個前鋒 xG90 全在 0.33 以上，Trossard 跟 Lukébakio 還雙雙破 0.52——這不是靠一個人吃飯，是四把刀輪流捅。\n\n## 關鍵對位\n中場是勝負手。西班牙 16號 Rodri（Manchester City）是全世界最好的後腰之一，他若能鎖死 De Bruyne 的傳球線路，比利時攻勢會斷一半。但問題是 De Bruyne 本屆預期助攻90 高達 0.87、關鍵傳球90 4.23，這傢伙一場能餵出四腳致命球，Rodri 一個人看不住。比利時這邊 24號 Amadou Onana（Aston Villa）的攔截能力是反擊發起點，他只要斷下西班牙中場幾次球，前面 Trossard、Lukaku、Doku 三個跑狗就夠西班牙後防喝一壺。西班牙後防 22號 Cubarsí（FC Barcelona）年輕、速度快但經驗不足，面對 Lukaku 這種肉盾中鋒會很吃力。\n\n## 比賽劇本\n開場西班牙照例控球、比利時收縮打反擊。前 20 分鐘西班牙圍攻但臨門一腳不行，Ferran Torres 跟 Oyarzabal 各浪費一個半機會。30 分鐘左右比利時第一次有威脅的反擊，Doku 左路突破傳中，Lukaku頭球頂偏。上半場尾段西班牙靠 Pedri 或 Baena 的直塞球製造一次絕佳機會，可能進、也可能被 Courtois 神撲。下半場比利時體能下滑但反擊威脅不減，60-70 分鐘最可能進球時段，Onana 斷球→Trossard 或 Lukaku 完成反擊進球。西班牙落後後壓上，靠替補或定位球在 75-85 分鐘扳平。\n\n## 為什麼是 1-1\n西班牙進球能力被高估（鋒線 xG90 普遍偏低），比利時反擊能偷一個但控球不住、守不滿全場。雙方各進一球最符合資料走勢。西班牙主場優勢讓他們不至於輸，但也不夠贏。\n\n## 什麼情況會翻盤\n如果 Courtois 超常發揮零封西班牙，比利時靠一次反擊 1-0 偷走比賽——這是最可能的爆冷劇本。反過來，如果西班牙上半場就進了兩個，比利時被迫壓出來打，那西班牙反擊空間大增，可能 3-0 或 3-1 收場。但以兩隊實際資料看，這兩種極端情況機率都不高。"
+            "confidence": 0.7,
+            "key_risk": "比利時 De Bruyne（7號）大爆發，靠個人能力在中路打穿 Rodri 防線，讓西班牙空有控球卻被反擊懲罰。",
+            "second_score": "1-1",
+            "contrarian_md": "主流敘事會說：西班牙陣容完整、深度碾壓，加上比利時失去 Onana 中場門戶大開，西班牙贏定了。我不完全信。比利時的鋒線資料其實非常嚇人：Trossard（10號）和 Lukébakio（14號）xG90 都高達 0.52，De Ketelaere（17號）0.33，這火力根本不輸西班牙。世界盃冷門史告訴我們，強隊過度自信壓上，後防一個失誤就會被這種高效前鋒咬死。如果 Courtois（1號）開掛，西班牙得勢不得分，這場完全可能翻車成和局甚至比利時偷走。",
+            "signature_scene": "下半場 60 分鐘左右，西班牙 16號 Rodri 在中場斷球後直傳，19號 Lamine Yamal 右路內切吸引兩名後衛，橫傳給禁區頂的 10號 Dani Olmo，一腳貼地冷箭穿過 4號 Mechele 胯下破網，打破僵局。",
+            "reasoning_md": "西班牙贏在陣容完整和中場控制力，比利時失去 Onana 後中場防守出現大洞，但比利時鋒線效率極高能咬住比分，不至於被大比分屠殺。",
+            "script_md": "### 整體判讀\n西班牙陣容深度（25/26人有頂級聯賽資料）明顯優於比利時（21/26），加上 Rodri（16號）坐鎮中場，控制力是這場的基本盤。比利時最大變數是 Onana 傷退，中場防守硬度直接降一檔，Vanaken（20號）和 Tielemans（8號）都不是正統掃蕩型，面對西班牙的中場輪轉會很吃力。\n\n### 關鍵對位\n- **西班牙 16號 Rodri vs 比利時 7號 De Bruyne**：這是全場勝負手。Rodri 的職責就是掐死 De Bruyne 的輸送線，如果 KDB 被限制，比利時進攻只能靠兩翼 Doku（11號）和 Lukébakio（14號）單幹。\n- **比利時後防 4號 Mechele（Club Brugge）+ 25號 Ngoy（Lille OSC）**：這兩人面對 Yamal（19號）和 Olmo（10號）的換位會非常痛苦，Mechele 轉身慢是老毛病。\n- **比利時鋒線反擊**：Trossard（10號）xG90 0.52 是比利時最危險的武器，Cucurella（24號）壓上後留下的空檔就是他的走廊。\n\n### 比賽劇本\n- **上半場（0-45分）**：西班牙控球率壓到 65% 以上，但比利時擺出低位防守，Courtois（1號）狀態正常發揮，西班牙得勢不得分。比利時靠 Doku（11號）反擊製造 1-2 次威脅，但 Cubarsí（22號）和 Laporte（14號）處理乾淨。\n- **下半場（45-70分）**：西班牙加快節奏，Yamal 開始頻繁內切。60 分鐘左右 Olmo（10號）接 Yamal 橫傳破網，1-0。\n- **末段（70-90分）**：比利時被迫壓上，De Bruyne 送出直塞，Trossard（10號）反擊破門扳平，1-1。但西班牙 75 分鐘換上 Nico Williams（17號）和 Ferran Torres（7號）加強衝擊，85 分鐘左右靠定位球或禁區混戰，Oyarzabal（21號）絕殺，2-1。\n\n### 為什麼是 2-1\n比利時鋒線效率夠高（xG90 平均 0.3-0.5），不可能被零封。但 Onana 缺席導致中場防守崩潰，西班牙後段換人後的衝擊力比利時扛不住。2-1 是最合理的真實比分。\n\n### 什麼情況會翻盤\n如果 Courtois（1號）開掛擋掉前 60 分鐘西班牙的必進球，比利時撐到 70 分鐘 0-0，De Bruyne 一次反擊偷走 1-0，西班牙急躁壓上再被反擊打穿，0-2 爆冷完全可能。Onana 的缺席是雙刃劍：防守變弱但進攻反擊速度更快。"
           }
         ]
       },
@@ -8414,7 +8414,7 @@
       "my_prediction": {
         "consensus_selection": "AWAY",
         "consensus_team": "英格蘭",
-        "win_prob": 0.489,
+        "win_prob": 0.491,
         "agree": "7/7 models",
         "predicted_score": "1-2",
         "models": [
@@ -8424,38 +8424,56 @@
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.23,
-              "D": 0.27,
-              "A": 0.5
+              "H": 0.25,
+              "D": 0.24,
+              "A": 0.51
             },
-            "confidence": 0.56,
-            "key_risk": "挪威頂尖的終結能力（9號 Haaland 每 90 分鐘 1.10 的預期進球值 xG，加上 7 號 Sørloth）將英格蘭防線上的微小失誤轉化為兩顆進球——這是因為英格蘭的優勢在於陣容深度與創造力，而非一條「滴水不漏」的防線。",
+            "confidence": 0.62,
+            "key_risk": "挪威的核心火力（9號 Haaland + 7號 Sørloth / 11號 Strand Larsen）在把握大好機會的效率上低於英格蘭——只要出現一次致命的進攻波段或定位球轉機，英格蘭在進攻深度上的優勢就將變得無關緊要。",
             "second_score": "1-1",
-            "contrarian_md": "### 顯而易見的觀點\nEngland 擁有陣容深度更佳、更完整的球隊，理應掌控比賽；而 Norway 基本上就是「靠 **Ødegaard** 傳給 **Haaland**，然後祈禱」。\n\n### 為什麼我並不完全買單\n這種說法忽略了足以顛覆世界盃小組賽局勢的關鍵：頂級前鋒 + 簡單的戰術套路。Norway 可以直接長傳找 **No.9 Haaland (Man City)**，並由 **No.7 Sørloth (Atlético)** 作為第二波進攻點，如果 England 的邊後衛（特別是當 **No.24 Reece James** 前插時）留下了轉換進攻的空間，Norway 確實能給實力更強的對手致命一擊。我們已經見過「穩贏」的熱門球隊在單場比賽中翻船——**Argentina 輸給 Saudi Arabia (2022)** 就是典型的例子：只要有一次強勢的進攻階段，加上一名冷酷的終結者，比賽局勢就會變得極其棘手。",
-            "signature_scene": "下半場（62’）：England 在右路發動人數優勢——7號 Saka (Arsenal) 壓制住邊後衛，24號 Reece James (Chelsea) 傳出一記強勁的早傳球；9號 Kane (Bayern) 插上至 4號 Østigård (Genoa) 與 3號 Ajer (Brentford) 之間，完成一次第一時間的射門，將比分改寫為 1-2。",
-            "reasoning_md": "英格蘭以 2-1 取勝，原因在於他們的進攻機會創造分散在 **Kane**、**Saka**、**Bellingham**、**Eze** 以及板凳球員身上；反觀挪威雖然威脅力驚人，但進攻手段較為單一——只要經歷一段低潮期，英格蘭仍有更多方式能取得進球。",
-            "script_md": "就純數據而言，England 是建構更完善的進攻機器：**3.88** 的球隊進攻指數、**3.15** 的預期貢獻值，且各位置深度充足；Norway 的 **3.48** 雖然鋒線強大，但主力球員身後的深度較為薄弱。不過，這場比賽絕不會輕鬆——Norway 的鋒線屬於那種能將半機會轉化為進球的類型，由 **No.9 Erling Haaland (Manchester City, 1.10 xG/90)** 領銜，並由 **No.7 Alexander Sørloth (Atlético, 0.56 xG/90)** 與 **No.22 Oscar Bobb (Fulham, 0.50 xG/90; 2.68 KP/90)** 提供支援。\n\n關鍵對決：England 的創造者對抗 Norway 抵禦攻勢的能力。**No.10 Jude Bellingham (Real Madrid, 0.50 xG/90)** 與 **No.21 Eberechi Eze (Arsenal, 0.40 xG/90; 3.56 shots/90)** 能夠將 Norway 的中場防線拉出，一旦防守間距被破壞，**No.7 Saka (Arsenal)** 就會開始製造倒三角回傳。Norway 最好的反擊方式簡單而殘暴：由 Ødegaard 儘早將球傳給 Haaland 或 Sørloth，再加上 Bobb 作為第三名跑動球員跟進。\n\n劇本：England 開局將掌握更多球權並有更流暢的進攻滲透；他們是更穩定能持續製造射門的一方，因此我預期他們會先馳得點（例如由 Saka 創造機會，並由 Kane 或 Bellingham 完成進球）。Norway 在遭受首波打擊後會做出回應——憑藉主場優勢與一兩次直接的進攻套路，Haaland 正是那種能在極少支援下將比分扳平為 1-1 的球員。決勝階段將出現在比賽末段：England 的深度與多樣性（多名持球者與傳中者，加上更多的終結選擇）將創造出最後一次絕佳機會，並驚險勝出。\n\n為何預測比分為 1-2：兩隊都擁有真正的頂級終結者，但 England 擁有*更多*獨立的 xG 來源（Kane/Saka/Bellingham/Eze/Watkins），因此在膠著的比賽中，他們更有可能在不需要完美劇本的情況下找到第二個進球。而導致 Norway 勝出的關鍵很直接：England 的邊後衛壓上過深，在中場輸掉一次對抗，讓 Norway 獲得兩次轉換進攻機會——Haaland 不需要三次機會就能破門。"
+            "contrarian_md": "顯而易見的論調：英格蘭憑藉更深厚、更有天賦的陣容輾壓挪威——Kane、Saka 和 Bellingham 的組合應該會讓對手難以招架。\n\n為什麼我並不完全買單：挪威並非只有一人表演——這支球隊不僅有 Haaland（每 90 分鐘預期進球值 xG 1.10），還有多位貨真價實的終結者（Sørloth 0.56、Strand Larsen 0.51），以及身穿 22 號球衣、能創造頂級機會的 Oscar Bobb（每 90 分鐘 xG 0.50、每 90 分鐘預期助攻值 xAG 0.40、每 90 分鐘關鍵傳球 2.68 次）在主場為他們輸送彈藥。英格蘭或許能掌控比賽節奏，但仍可能被一支球風直接、門前冷靜的球隊突襲得手——世界盃充滿了「穩贏」的熱門球隊慘遭滑鐵盧的案例（2022 年德國對陣日本就是範本：空有控球卻缺乏致命一擊，隨後遭到懲罰）。如果英格蘭的邊後衛壓上，而攻守轉換時的防守（rest-defense）又顯得鬆散，挪威只需要 2 到 3 次乾淨俐落的反擊，就能讓比賽變得非常難看。",
+            "signature_scene": "下半場約 63 分鐘：England 丟失球權，10 號 Martin Ødegaard (Arsenal) 在右路送出直塞給 22 號 Oscar Bobb (Fulham)；Bobb 隨即橫傳至禁區空檔，9 號 Erling Haaland (Manchester City) 跟進勁射破門——這是 Norway 全場表現最好的時段，進球來自於一次垂直傳導與一次冷酷的終結。",
+            "reasoning_md": "英格蘭以 2-1 小勝：他們擁有更深厚、更多樣化的射門與創造機會基礎（進攻指數 3.88 對 3.48），且具備多種得分手段，而不僅僅依賴單一進攻點；但 Norway 前場三叉戟的個人能力讓比賽始終保持膠著。",
+            "script_md": "### 整體分析\n- 就帳面實力而言，England 是更為全面的進攻機器：Kane (1.04 xG/90)、Saka (0.51)、Bellingham (0.50)，再加上多位具備替補水準的得分手（Watkins 0.53、Toney 0.44、Gordon 0.34）。這種深度通常是決定小組賽勝負的關鍵。\n- Norway 的威脅範圍較窄但更為*尖銳*：9 號 Erling Haaland (Manchester City) 是「一擊必殺」的終結者，且他身後有真正的二線得分手支援——7 號 Alexander Sørloth (Atlético) 與 11 號 Jørgen Strand Larsen (Crystal Palace)——他們絕非陪襯。\n\n### 關鍵對位\n- Norway 的最佳進攻路徑是快速將球送入禁區：由 10 號 Martin Ødegaard (Arsenal) 和 22 號 Oscar Bobb (Fulham) 為 Haaland/Sørloth 創造機會。如果 England 的中後衛被迫拉開去防守邊路，中路就會為 Haaland 的第一時間射門敞開大門。\n- England 的優勢在於進攻數量與多樣性：7 號 Bukayo Saka (Arsenal) 加上 9 號 Harry Kane (Bayern) 能持續製造威脅，而 10 號 Jude Bellingham (Real Madrid) 的後插上則是 Norway 在 90 分鐘內難以完全盯防的額外跑動點。\n\n### 比賽劇本\n- 開局：England 擁有更多控球權與禁區進入次數；Norway 選擇接受現狀，並尋求快速反擊 Haaland，而非進行「組織進攻」。預計 Norway 會出現幾次反擊，其威脅性將高於他們的控球佔有率。\n- 中段：England 的壓力奏效——Saka 與 Eze 將 Norway 的防守陣型左右拉扯，Kane 在禁區內的威脅最終轉化為進球（可能是倒三角回傳或前點搶點）。0-1。\n- 回應：Norway 不會崩盤；他們的前場火力太過強大。一次乾淨俐落的 Ødegaard/Bobb 傳球，就能製造出 Haaland 的進球扳平比分。1-1。\n- 尾聲：這正是深度發揮作用的時候。England 可以在不降低 xG 的情況下更換前鋒線——擁有 Watkins/Toney/Gordon/Madueke 等選項——而 Norway 的戰術依然是「餵球給殺手」。England 透過第二波進攻跑動（Bellingham）或定位球/第二落點找到致勝球。1-2。\n\n### 為何預測此比分\n- 數據顯示兩隊皆有進球能力（雙方都擁有頂級 9 號球員，且場均預期貢獻值強勁：Norway 2.89，England 3.15），但 England 的深度與多元的創造力，使他們更有可能攻入*第二個*進球。\n\n### 變數\n- 如果 England 因邊後衛過於激進導致防守轉換時陣型被拉開，並給予 Norway 多次將球傳給 Haaland/Sørloth 的反擊機會，Norway 絕對有能力以 2-1 取勝——只要有一次高效的臨門一腳就足夠了。"
           },
           {
             "name": "Claude",
+            "selection": "DRAW",
+            "selection_team": "和局",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.34,
+              "D": 0.28,
+              "A": 0.38
+            },
+            "confidence": 0.5,
+            "key_risk": "Haaland 只要有一次絕佳的射門機會就能將其轉化為進球——他每 90 分鐘的預期進球數（xG/90）高達 1.10，這意味著他只需要一次機會就能扭轉戰局。",
+            "second_score": "1-2",
+            "contrarian_md": "顯而易見的觀點是：英格蘭的陣容指數（3.88）和深度（26人中有25人擁有頂級聯賽數據）遠勝於挪威單薄的板凳深度（26人中僅17人）。英格蘭擁有 Kane、Saka、Bellingham、Eze 和 Watkins——這是一套預期進球（xG）的恐怖陣容，因此人們認為他們能輕鬆過關。但我並不買帳。挪威並非虛有其表的弱旅——這是一支貨真價實擁有前六水準的進攻球隊，由 Haaland、Sørloth、Strand Larsen 領銜，並由 Ødegaard 在中場穿針引線，且此役是在主場進行，具備小組賽必須取勝的強度。英格蘭的軟肋在於後防線：這條以 City 風格為主的防線（Stones、Guéhi、O'Reilly）雖然優雅但速度緩慢，且極易在面對支點型中鋒的狂轟濫炸時出現注意力不集中的問題。2018 年的德國隊已經領教過一支充滿動力、踢法直接的球隊，是如何對付技術更勝一籌的熱門球隊的。只要長傳餵給 Haaland，英格蘭的高位防線就會成為致命傷。",
+            "signature_scene": "下半場約 65 分鐘：挪威 10 號 Ødegaard (Arsenal) 挑傳斜線球至防線身後，9 號 Haaland 擺脫 John Stones 的盯防後重砲轟門得分——主場球迷情緒沸騰，英格蘭隊原本的冷靜蕩然無存。隨後英格蘭隊在比賽末段做出回應，由 7 號 Saka 橫傳助攻 9 號 Kane 破門。",
+            "reasoning_md": "英格蘭隊實力更強、陣容深度更佳，但挪威隊坐鎮主場，且由 Haaland 領銜鋒線，正是那種充滿鬥志、球風直接，能將奪冠熱門拖入苦戰的對手。我傾向看好雙方踢成平手，若英格蘭能靠板凳深度決勝，則稍微看好英格蘭小勝。",
+            "script_md": "**整體解讀：** 英格蘭在場上各個位置的陣容深度與平衡性更佳——擁有 25/26 名頂級聯賽球員、由 Rice/Bellingham/Eze 組成的中場，以及一條讓所有小組賽對手都感到頭痛的鋒線。但 Norway 的火力集中且致命：Haaland（每 90 分鐘預期進球 xG 為 1.10）完全不輸給 Kane，而他身邊的 Sørloth、Strand Larsen 和 Ødegaard 都能提供實質的進攻產出。這是一場頂級進攻對決頂級進攻的戲碼，差別在於英格蘭擁有更優異的中軸線與板凳深度。\n\n**關鍵對位：** Norway 9 號 Haaland 對決英格蘭的 John Stones/Marc Guéhi——英格蘭這幾位帶有 City 風格的後衛技術出色，但面對直接衝擊型的中鋒時，容易被拉出位置或被轉身突破。Norway 10 號 Ødegaard (Arsenal) 是能破解英格蘭高位防線的進攻核心，而 22 號 Oscar Bobb (Fulham，每 90 分鐘關鍵傳球 2.68 次) 則能提供邊路寬度。對英格蘭而言，Saka 和 Eze 面對 Norway 平庸的邊後衛是明顯的實力差距，而 Bellingham 的後插上則是經典的決勝手段。\n\n**比賽劇本：** 預計 Norway 會稍微退守並採取直接打法——長傳找 Haaland、爭搶第二落點、利用定位球。英格蘭將掌控控球權，但 Norway 的主場強度會讓上半場陷入膠著，比分可能是 0-0 或 1-0。關鍵時刻將出現在下半場中段：Haaland 或 Sørloth 把握住一次防守疏失。英格蘭的板凳席（Watkins、Rashford、Gordon、Toney）是最大的平衡點——當 Norway 體能下滑時，他們能改變比賽戰局。\n\n**為何預測此比分：** 兩名頂尖前鋒、兩條稍顯脆弱的防線、加上鬥志高昂的主隊——1-1 是最客觀的解讀，但英格蘭憑藉深度在比賽末段以 1-2 險勝的機會也很大。大比分屠殺的可能性不高；Norway 的前場實力太強，不容小覷。\n\n**變數：** 如果 Haaland 被孤立且缺乏支援，英格蘭將輕鬆獲勝。如果英格蘭堅持高位防線，而 Norway 在空中對抗與反擊中勝出，這場比賽將演變成 Norway 以 2-1 爆冷取勝的局面。"
+          },
+          {
+            "name": "DeepSeek",
             "selection": "AWAY",
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.34,
-              "D": 0.27,
-              "A": 0.39
+              "H": 0.2,
+              "D": 0.3,
+              "A": 0.5
             },
-            "confidence": 0.5,
-            "key_risk": "Haaland 只要獲得一次乾淨的射門機會就能破門得分——挪威並不需要太多機會；England 的中後衛（Guéhi、Konsa、Quansah）表現不錯，但面對一位靠著單次機會就能生存的球員時，他們還稱不上是頂尖。",
+            "confidence": 0.7,
+            "key_risk": "挪威反擊效率與Haaland的終結能力。英格蘭後防線缺乏絕對回追速度，一旦中場傳球失誤被打身後，Haaland的衝擊力足以讓任何頂級後衛難堪。",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為：England 擁有陣容深度與天賦——指數為 3.88 對 3.48，26 名球員中有 25 名擁有頂級聯賽數據，而 Norway 僅為 17/26——因此這將是一場對陣「一人半」進攻球隊的輕鬆客場勝利。但我並不完全認同「輕鬆」這一點。Norway 並非只有 Haaland：Sørloth (0.56)、Strand Larsen (0.51)、Bobb (0.50) 以及在身後運籌帷幄的 Ødegaard，構成了一條貨真價實的頂級中軸線。在主場且有全國球迷吶喊助威的情況下，這正是那種能讓背負奪冠期望的熱門球隊翻船的典型劇本。England 在這類比賽中向來容易怯場——想想 2016 年的 Iceland，或是當他們被要求攻破密集防守時表現出的沉悶。如果 Norway 採取中位防守並利用反擊輸送球給 Haaland，一個瞬間就能扭轉戰局。這就是 Saudi Arabia 對陣 Argentina，或是 Japan 對陣 Germany 的模板：頂級熱門、充滿敵意的主場氛圍，以及一名只需要一次機會就能改變比賽的前鋒。",
-            "signature_scene": "下半場約 65 分鐘，Norway 發動反擊：10 號 Ødegaard 順勢送出一記直塞球，9 號 Haaland 擺脫 Guéhi 的防守，以一記低射穿越 Pickford 的防線破門——比分來到 1-1，全場沸騰。但 England 的板凳深度成為勝負關鍵：比賽末段，19 號 Watkins 或 22 號 Toney 替補上陣，面對體力下滑的 Østigård 與 Heggem，最終攻入致勝球。",
-            "reasoning_md": "英格蘭憑藉深厚的板凳深度與替補球員改變戰局的能力，以 2-1 小勝——但這絕非一場輕鬆的比賽；挪威在主場有 Haaland 坐鎮，勢必會給予對手重擊，雙方戰平的可能性極高。",
-            "script_md": "**整體分析：** 英格蘭實力更強，且關鍵在於「板凳深度」——兩隊的差距不在先發十一人（挪威由 Haaland、Sørloth、Strand Larsen 組成的鋒線加上 Ødegaard，絕對是頂級配置），而在於替補席。英格蘭可以換上 Watkins、Toney、Gordon、Madueke、Rashford；而挪威在 17 名頂級聯賽球員之後，深度迅速下滑。這就是 90 分鐘比賽決勝的關鍵。\n\n**關鍵對位：** 挪威 9 號 Haaland (Man City) 對決英格蘭的 Guéhi/Konsa/Quansah 是整場比賽的焦點——他只需要一次機會。挪威 10 號 Ødegaard (Arsenal) 是進攻補給線；切斷他，挪威的進攻就會變得遲鈍。另一端，英格蘭的 Kane–Saka–Bellingham 中軸線必須設法突破主隊，因為挪威很可能會採取比預期更深縮的防守。若英格蘭 24 號 Reece James 先發，請密切關注他（預期助攻 xAG 0.57，關鍵傳球 2.35）——面對挪威中規中矩但稱不上頂級的後防線，他的定位球與邊路傳中可能是勝負關鍵。\n\n**比賽劇本：** 預計挪威會採取中低位防守，並瞄準 Haaland 進行反擊——這對他們來說是一場必須拿出表現的主場比賽。英格蘭可能會掌控控球權，但在前一小時感到挫折，比賽在下半場仍會處於膠著狀態。我認為挪威確實能給予對手重擊——透過 Haaland 的進球或 Sørloth 在定位球中的頭槌——隨後英格蘭憑藉更優質的板凳深度扭轉戰局。利用替補球員（Watkins/Toney）衝擊挪威疲憊的防線，是最有可能出現致勝球的方式。\n\n**比分預測原因：** 2-1 是這場比賽符合世界盃水準、一球之差的現實比分——天賦上英格蘭佔優，但挪威的鋒線保證了他們在主場不會被零封。若 Haaland 進球且英格蘭進攻陷入停滯，1-1 和局是極有可能發生的第二種結果。\n\n**變數：** 若 Haaland 獲得兩次絕佳射門機會，或是英格蘭重蹈覆轍，面對密集防守時表現得平淡且被動，那麼這將演變成挪威獲勝的爆冷劇本。"
+            "contrarian_md": "主流會說英格蘭陣容深度、大賽經驗、整體實力全面碾壓挪威，贏球理所當然。但我不完全買賬。英格蘭在小組賽向來有慢熱的毛病，2022世界盃被美國逼平，2024歐洲盃小組賽也踢得磕磕絆絆。挪威有主場之利，而且Haaland這種級別的射手根本不需要太多機會，一次反擊、一個定位球就能改變比賽。英格蘭中後衛Stones和Guéhi都不是速度型，邊後衛James助攻幅度大，身後空檔正是挪威邊路快馬Bobb和Nusa最喜歡的走廊。別忘了2018德國輸韓國、2022阿根廷輸沙烏地，都是強隊控球圍攻卻被一擊致命。",
+            "signature_scene": "下半場第63分鐘，挪威後場斷球後迅速交給10號Ødegaard（Arsenal），他一腳直塞打穿英格蘭防線身後，9號Haaland（Manchester City）反越位單刀，被Pickford撲出底線。隨後挪威角球開出，4號Østigård（Genoa）頭球擺渡，Haaland門前混戰中捅射扳平比分。",
+            "reasoning_md": "英格蘭整體實力與陣容深度明顯佔優，但挪威坐擁主場及超級射手Haaland，有能力破門。預計英格蘭會掌控局面並打進兩球，但挪威的反擊足以讓他們取得一個進球，最終英格蘭小勝。",
+            "script_md": "① 整體判讀：英格蘭的攻擊火力點多且穩定，Kane、Saka、Bellingham、Eze都能製造威脅，中場控制力遠勝挪威。但挪威的進攻極度依賴Haaland的終結和Bobb、Ødegaard的創造力，打法直接但高效。英格蘭防線在應對高速反擊時存在隱患。\n② 關鍵對位：英格蘭右後衛24號Reece James（Chelsea）助攻時會大量壓上，他身後的空間將是挪威22號Oscar Bobb（Fulham）和20號Antonio Nusa（RB Leipzig）的重點打擊區域。挪威中衛4號Leo Østigård（Genoa）和3號Kristoffer Ajer（Brentford）必須正面對抗Harry Kane的策應與搶點，壓力極大。\n③ 比賽劇本：開場英格蘭會主控，挪威收縮半場。前20分鐘英格蘭透過邊路傳中與禁區前的配合尋找機會，Kane在第28分鐘接James的傳中頭球破門，0-1。挪威落後後陣型稍往前壓，利用Haaland的支點作用製造定位球。下半場英格蘭體能稍有下降，挪威在第63分鐘透過反擊或定位球由Haaland扳平，1-1。英格蘭隨後加強攻勢，Bellingham在第78分鐘禁區外遠射折射入網，1-2。最後階段挪威換上Sørloth強攻，但英格蘭守住。\n④ 為什麼是這個比分：英格蘭的攻擊群實力足以打進兩球，但挪威有Haaland這個世界頂級射手，在主場不可能被零封。1-2符合兩隊實力差距與世界盃小組賽常見的一球分勝負格局。\n⑤ 翻盤條件：如果挪威上半場死守成功0-0，並在下半場利用英格蘭壓上後的反擊先由Haaland偷一個，英格蘭可能陷入急躁，挪威再抓一個反擊打成2-0，或者英格蘭圍攻只進一球，最終挪威2-1爆冷。另外，英格蘭若早早進球後過於放鬆，挪威完全有能力扳平甚至反超。"
           },
           {
-            "name": "DeepSeek",
+            "name": "Gemini",
             "selection": "AWAY",
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
@@ -8465,30 +8483,12 @@
               "A": 0.5
             },
             "confidence": 0.65,
-            "key_risk": "Haaland的個人能力可能單挑英格蘭防線成功，且挪威主場氣勢可能讓英格蘭不適應。",
+            "key_risk": "英格蘭的中後衛完全無法應對 Haaland 和 Sørloth 的身體素質差距，導致挪威多次透過反擊得分並搶下勝利。",
             "second_score": "1-1",
-            "contrarian_md": "主流會說英格蘭陣容深度遠勝挪威，Kane、Saka、Bellingham組成的攻擊線足以碾壓挪威防線，這是一場英格蘭穩贏的比賽。但我不完全買賬：挪威擁有Haaland這個每90分鐘預期進球1.10的怪物，他只需要一次機會就能改變比賽。英格蘭的中後衛Stones和Guéhi在俱樂部並非沒有漏洞，且挪威中場有Ødegaard和Bobb的創造力，Bobb的關鍵傳球90高達2.68，他能給Haaland輸送炮彈。世界盃歷史上，強隊被超級前鋒偷襲翻車的例子不少，比如2010年瑞士1-0西班牙。英格蘭如果久攻不下，挪威的反擊會非常致命。",
-            "signature_scene": "上半場第23分鐘，挪威22號Oscar Bobb在右路突破後傳中，9號Erling Haaland力壓英格蘭6號Marc Guéhi頭球破門，挪威1-0領先。",
-            "reasoning_md": "英格蘭整體實力佔優，但挪威有Haaland這個大殺器，預計英格蘭會艱難取勝，比分1-2。",
-            "script_md": "① 整體判讀：英格蘭陣容更均衡，攻擊點多，中前場Kane、Saka、Bellingham、Eze都能製造威脅，但挪威有Haaland這個超級終結點，且主場作戰，不會輕易繳械。挪威的戰術很簡單：收縮防線，讓Bobb和Ødegaard找Haaland打反擊。\n\n② 關鍵對位：挪威9號Haaland對英格蘭6號Guéhi和5號Stones，Haaland的衝擊力將考驗英格蘭防線；英格蘭10號Bellingham的前插將針對挪威中場防守空隙，挪威2號Thorsby（US Cremonese）的覆蓋能力可能跟不上。挪威22號Bobb（Fulham）的關鍵傳球90高達2.68，他會是挪威反擊的發起點，英格蘭左後衛需要警惕。\n\n③ 比賽劇本：開場英格蘭控球主導，挪威收縮半場。前20分鐘英格蘭難有絕對機會，反而挪威利用一次角球或反擊，由Bobb傳中，Haaland頭球先拔頭籌。英格蘭如夢初醒，開始猛攻，上半場結束前可能由Kane門前補射扳平。下半場英格蘭持續施壓，Saka內切射門或Bellingham後插上得分反超。挪威最後20分鐘換上Sørloth和Strand Larsen強攻，但英格蘭防線經驗老到，守住一球優勢。\n\n④ 為什麼是1-2：兩隊都有進球能力，挪威主場氣勢加持，Haaland幾乎必進球，但英格蘭整體實力更強，攻擊點分散，能打進兩球。世界盃小組賽常見一球分勝負，1-2是最合理的劇本。\n\n⑤ 什麼情況會翻盤：如果挪威先進球後全線退守，英格蘭破密集能力不足，可能被逼平甚至被挪威反擊再進一球。另外，英格蘭門將Pickford偶有失誤，定位球防守也可能送禮。挪威若死守成功，1-0或1-1的冷門就會誕生。"
-          },
-          {
-            "name": "Gemini",
-            "selection": "AWAY",
-            "selection_team": "英格蘭",
-            "predicted_score": "1-2",
-            "win_prob": {
-              "H": 0.22,
-              "D": 0.25,
-              "A": 0.53
-            },
-            "confidence": 0.65,
-            "key_risk": "Haaland 純粹的個人天賦將半個機會轉化為梅開二度，徹底繞過了英格蘭隊在中場的統治力。",
-            "second_score": "2-2",
-            "contrarian_md": "傳統觀點認為，England 壓倒性的陣容深度與中場控制力將會壓制 Norway，使他們淪為一支缺乏支援的單人球隊。但我並不這麼認為。England 的中後衛組合 Stones 與 Guéhi 技術固然出色，但缺乏足以在 90 分鐘內應付像 Haaland 這種重型坦克般的身體對抗優勢。如果 England 將邊後衛位置推得太高，就會在反擊中留下巨大的空檔，讓 Haaland 與 Sørloth 有機可乘。回想一下 England 面對身體對抗強悍、戰術直接的球隊時所遭遇的掙扎，或是 2016 年對陣 Iceland 時的崩盤——如果讓 Norway 先馳得點，England 那惡名昭彰的「大賽焦慮症」可能會隨之發作。",
-            "signature_scene": "下半場中段，Martin Ødegaard 傳出一記精彩的直接穿越球，越過了 Declan Rice。Haaland 在與 Marc Guéhi 的速度對抗中憑藉身體優勢勝出，隨即起腳勁射，皮球以無法阻擋之勢低平飛入球門，攻破 Pickford 的十指關，讓現場的英格蘭球迷瞬間鴉雀無聲。",
-            "reasoning_md": "英格蘭更深厚的板凳深度與中場控制力最終應能瓦解挪威的防線，但在那之前，Haaland 與 Ødegaard 的反擊勢必會讓他們驚出一身冷汗。",
-            "script_md": "- **整體分析：** 這是一場英格蘭窒息式控球與挪威恐怖轉換速度之間的對決。英格蘭擁有巨大的陣容深度優勢（指數 3.88），但挪威的前鋒線同樣具備致命威脅，這使得本場比賽充滿高度變數。\n- **關鍵對位：** 決定性的戰役在於 9 號 Erling Haaland (Manchester City) 如何在單打獨鬥中面對 6 號 Marc Guéhi (Crystal Palace)。在中場，Arsenal 的隊友 10 號 Martin Ødegaard 與 4 號 Declan Rice 將爭奪比賽節奏，而 7 號 Bukayo Saka 則會試圖撕裂挪威 5 號 David Møller Wolfe (Wolves) 的防區。\n- **比賽劇本：** 英格蘭將在開賽初期壟斷球權，將挪威壓制在半場。預計 Jude Bellingham 與 Harry Kane 將聯手製造早期的突破，迫使挪威陣型前壓。然而，挪威不需要太多控球權就能反擊；Ødegaard 只需要一個空檔，就能將球傳給身後英格蘭高位防線的 Haaland。比賽中段將會非常緊張，挪威的每一次反擊都將帶來威脅。\n- **為何預測此比分 (1-2)：** 由 3 號 Kristoffer Ajer 與 4 號 Leo Østigård 領銜的挪威防線失誤率過高，難以在面對 Kane 與 Saka 時保持清白之身。即便 Haaland 攻入他慣有的進球，英格蘭在比賽後段換上 Ollie Watkins 或 Eberechi Eze 等能改變戰局的球員，面對體力下滑的挪威防線，將成為勝負關鍵。\n- **翻盤條件：** 如果 1 號 Ørjan Nyland (Sevilla) 有如神助，且英格蘭門前把握度不佳，挪威強大的進攻火力（Haaland, Sørloth, Bobb）絕對有能力在逆勢中以 2-1 爆冷取勝。"
+            "contrarian_md": "傳統觀點認為，英格蘭隊擁有價值 10 億英鎊的深厚陣容與大賽經驗，將能壓制挪威，使比賽演變成一場例行公事般的 2-0 控球勝利。但我並不買帳。英格蘭的中後衛——**Stones** 與 **Guéhi**——是技術型球員，而非硬漢型防守者。他們在面對絕對的身體對抗時非常脆弱。挪威擁有 **Erling Haaland** 這位終極衝撞型前鋒，身後還有 **Alexander Sørloth** 的支援。如果英格蘭回歸他們標誌性緩慢、保守的大賽節奏，他們就是在自討苦吃，等著被反擊懲罰。想想 2016 年的冰島，或是 2022 年沙烏地阿拉伯如何憑藉幾次直接、強悍的進攻震驚阿根廷。挪威不需要 10 次機會；他們只需要兩次，就能改寫劇本。",
+            "signature_scene": "第 68 分鐘。England 在禁區周圍橫傳，試圖消耗比賽時間。Declan Rice 丟球，Norway 隨即發動反擊。10 號 Martin Ødegaard 停球後，直接送出一記 40 碼的精準長傳。9 號 Erling Haaland 成功單挑 Marc Guéhi，在未減速的情況下憑藉身體優勢強行突破，隨後左腳重砲轟門，皮球越過 Jordan Pickford 破網，將比分扳平。",
+            "reasoning_md": "英格蘭隊壓倒性的陣容深度與極其豐富的進攻天賦，最終將會磨出勝果，但過程絕非一帆風順，甚至會讓人捏把冷汗。挪威隊世界級的前場鋒線將會衝擊英格蘭的防線，這將會是一場讓「三獅軍團」贏得驚險萬分、苦戰到底的勝利。",
+            "script_md": "- **整體分析：** England 擁有深厚的陣容深度與技術優勢（進攻指數 3.88），但 Norway 是一支極其可怕的黑馬。挪威隊的進攻指數高達 3.48，他們絕非為了死守而來；他們具備頂級的火力，足以正面重擊 England 的防線。\n- **關鍵對位：** 整場比賽的勝負關鍵在於 England 的 6 號 Marc Guéhi 與 5 號 John Stones 能否抵擋住 Norway 9 號 Erling Haaland (Manchester City) 的衝擊。這是一場顯而易見的身體素質對抗。而在另一端，England 的 7 號 Bukayo Saka (Arsenal) 將會不斷衝擊 Norway 的左路，針對 5 號 David Møller Wolfe (Wolverhampton Wanderers) 進行突破，迫使 Norway 退守至禁區邊緣。\n- **比賽劇本：** England 將在開賽初期掌控節奏，對 Norway 施加高壓，並很可能透過 9 號 Harry Kane 或 10 號 Jude Bellingham 後插上禁區找到突破口。但一旦 England 試圖守住 1-0 的領先優勢，Norway 就會發動反擊。10 號 Martin Ødegaard 與 22 號 Oscar Bobb 將會繞過中場壓迫，為 Haaland 輸送炮彈以扳平比分。比賽最後 20 分鐘將演變成緊張刺激的對攻戰。England 擁有 21 號 Eberechi Eze 或 19 號 Ollie Watkins 等豪華替補陣容，最終將在比賽尾聲擊潰疲憊的挪威防線。\n- **比分預測理由：** 1-2 的客勝比分完美體現了比賽動態：England 憑藉板凳深度贏下比賽，但 Norway 的頂級先發球員確保了他們能給對手造成重創。\n- **翻盤變數：** 如果 England 的中後衛在開賽初期就被壓制，並因定位球防守失誤讓 3 號 Kristoffer Ajer 或 Sørloth 取得進球，Norway 便能退守並吸收壓力，透過反擊以 2-1 爆冷取勝。"
           },
           {
             "name": "Kimi",
@@ -8496,17 +8496,17 @@
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.22,
-              "D": 0.28,
-              "A": 0.5
+              "H": 0.28,
+              "D": 0.26,
+              "A": 0.46
             },
-            "confidence": 0.65,
-            "key_risk": "Haaland 單點爆發 + 英格蘭後防 Stones/Guéhi 組合在 World Cup 高壓下曾出現傳球失誤，若被挪威 10號 Ødegaard 抓住轉換節奏，可能先丟球導致英格蘭急躁",
-            "second_score": "1-1",
-            "contrarian_md": "主流敘事：英格蘭陣容深度碾壓（25/26 頂級聯賽 vs 挪威 17/26）、Kane+Saka+Bellingham 三叉戟火力更均衡、世界盃至今預期貢獻 3.15 > 2.89，穩贏。\n\n我不買賬的點：英格蘭這套陣容的「深度」是虛胖。後衛線 Stones（5號）配 Guéhi（6號）在曼城體系裡習慣控球主導，但面對 Haaland 這種「背身→衝刺」型怪獸，兩人都不以正面對抗速度見長。2022 阿根廷輸沙烏地、德國輸日本，強隊翻車的共同點是：中後衛被迫面對「快速縱深衝刺」而站位過高。挪威 9號 Haaland（Man City）+ 7號 Sørloth（Atlético）+ 11號 Strand Larsen（Crystal Palace）三個大個子輪流衝擊，英格蘭若先進球後壓上，反而給挪威反擊空間。挪威的勝機不在「比整體」，而在「Haaland 兩三次觸球決定比賽」——這是他每季在 Man City 幹的事。",
-            "signature_scene": "下半場 65-75 分鐘，英格蘭 1-0 領先後換上 Jordan Henderson（14號）想控場，但 Henderson 在 Brentford 的節奏偏慢，被挪威 8號 Sander Berge（Fulham）斷球後直塞，Haaland 反越位單刀追平。隨後英格蘭急躁，Bellingham 遠射被擋，挪威 22號 Oscar Bobb（Fulham）反擊中內切射遠柱，Pickford 撲到但脫手，Sørloth 補射——這球被 VAR 吹掉，但英格蘭後防已經心虛。",
-            "reasoning_md": "英格蘭紙面強但後防對 Haaland 型別缺針對性，挪威主場 + 雙前鋒輪換衝擊能咬到最後。英格蘭贏面大但過程驚險，1-2 或 1-1 最實在，3 球以上大勝機率低。",
-            "script_md": "## 整體判讀\n英格蘭攻擊指數 3.88 vs 挪威 3.48，差距不算懸殊。關鍵是「誰的打法能執行出來」——英格蘭想控球圍攻，挪威只想打轉換。世界盃小組賽第三場（假設情境），挪威需要分數，不會從頭龜縮。\n\n## 關鍵對位：Haaland vs Stones/Guéhi\n- **挪威 9號 Haaland（Man City）**：xG90 1.10，射門 4.25 次/90，這是怪物資料。他不需要隊友餵很多球，兩三次機會就夠。\n- **英格蘭 5號 Stones + 6號 Guéhi（Man City）**：兩人關鍵傳球加起來不到 1.0，這是「出球後衛」配置，不是「對抗型」。Haaland 背身扛住轉身那一下，兩人沒有一個能單防。\n- **挪威 10號 Ødegaard（Arsenal）**：射門 1.45/90，關鍵傳球資料沒給但已知是頂級，他是轉換發動機。英格蘭 4號 Rice（Arsenal）要盯他，但 Rice 本屆覆蓋範圍已被消耗。\n\n## 比賽劇本\n**早段（0-25分鐘）**：英格蘭 10號 Bellingham（Real Madrid）+ 7號 Saka（Arsenal）右路強攻，挪威 3號 Ajer（Brentford）+ 17號 Heggem（Bologna）邊路會吃緊。英格蘭先進球機率高，Kane（9號）或 Bellingham 遠射，1-0。\n\n**中段（25-60分鐘）**：挪威被迫壓出，但英格蘭第二球遲遲不來。Haaland 開始回撤接應，製造 Stones/Guéhi 前頂猶豫。挪威 22號 Bobb（Fulham，xG90 0.50）+ 11號 Strand Larsen（Crystal Palace，xG90 0.51）兩個英超熟面孔，知道怎麼打英格蘭後衛的身後。\n\n**末段（60-90分鐘）**：英格蘭換 Henderson（14號）控節奏，這是敗筆——Henderson 在 Brentford 的節奏偏慢，被 Berge（8號）斷球後直塞，Haaland 追平 1-1。英格蘭急躁換上 Watkins（19號）+ Madueke（20號），挪威收縮 5-4-1，Haaland 單箭頭等反擊。最後 10 分鐘英格蘭 24號 Reece James（Chelsea）右邊衛壓上助攻，被挪威 26號 Ryerson（Dortmund）反擊中傳中，Sørloth（7號）頭槌險些絕殺，Pickford 神撲。補時英格蘭角球，Stones 頭槌 2-1 絕殺——或著沒進，1-1 收場。\n\n## 為什麼是 1-2（或 1-1）\n英格蘭贏面大但「控場能力」被高估。Rice + Mainoo（16號）雙後腰覆蓋不足，Bellingham 前插後身後空檔大。挪威三前鋒輪流衝擊，90 分鐘內必有一次得手。英格蘭要贏只能靠明星單點（Kane/Bellingham/Saka）硬解，2-1 是最常見的強隊小勝比分。\n\n## 什麼情況會翻盤（挪威贏）\nHaaland 上半場就進球，英格蘭 1-0 領先後過度壓上，挪威第二球來自 Bobb 或 Strand Larsen 的反擊。英格蘭後防失誤送點，或 Pickford 出球被斷——這是他老毛病。若挪威 2-1 領先進入 80 分鐘，英格蘭急躁圍攻，挪威第三球空門鎖定 3-1，複製 2022 日本贏德國劇本。"
+            "confidence": 0.68,
+            "key_risk": "挪威定位球+Haaland第一點爭頂，若英格蘭後場Guéhi/Stones其中一人被單吃，比分會瞬間翻盤",
+            "second_score": "0-1",
+            "contrarian_md": "主流敘事：英格蘭星光熠熠、陣容深度碾壓，穩吃挪威。我不買賬：①三獅中衛組合缺高度（Guéhi 1米85、Stones 1米82），Haaland 1米94專克這種「技術型」矮後衛；②英格蘭邊衛Reece James剛傷癒，身後空檔正是Bobb（挪威22號，Fulham）最愛的反擊走廊；③歷史冷門模板：2018德國輸韓國、2022阿根廷輸沙烏地——全是「強隊控球圍攻卻被高中鋒+邊路偷雞」翻車，這場劇本90%雷同",
+            "signature_scene": "下半場63分鐘，挪威9號Haaland禁區前沿扛住Stones背身做牆，22號Bobb從右肋啟動直插Reece James身後，Haaland腳後跟一蹭，Bobb單刀被Pickford撲出後挪威連續兩個角球——第二個角球10號Ødegaard開前點，Haaland力壓Guéhi頭槌中柱彈進，1-1瞬間點燃主場",
+            "reasoning_md": "英格蘭整體火力更分散，但挪威有單點爆破+主場氣勢，1-2是最常見的「強隊小勝」劇本",
+            "script_md": "**整體判讀**：英格蘭預期進球3.15 vs 挪威2.89，差距只有0.26，並非鴻溝；但英格蘭25/26人來自頂級聯賽，挪威僅17/26，板凳厚度決定後30分鐘英格蘭能換上Watkins、Eze、Madueke持續衝刺，挪威只能硬撐Haaland。\n\n**關鍵對位**：\n- 挪威9號Haaland vs 英格蘭5號Stones：Haaland xG90 1.10，Stones本季英超對位頂級中鋒成功率僅42%，身高差12公分，定位球第一點挪威穩吃。\n- 挪威22號Bobb vs 英格蘭24號Reece James：Bobb本季關鍵傳球2.68/90，James剛傷癒速度未回，身後空檔是挪威最大反擊通道。\n- 英格蘭10號Bellingham vs 挪威2號Thorsby：Bellingham xG90 0.5，Thorsby攔截+犯規數意甲前列，專幹髒活，若開場30分鐘內Bellingham被連環伐木，英格蘭節奏會斷電。\n\n**比賽劇本**：\n1. 0-15分鐘：英格蘭高位壓迫，Norway收541，Haaland單箭頭。\n2. 23分鐘：英格蘭21號Eze右肋內切，弧頂遠射掛網，0-1。\n3. 30-60分鐘：挪威利用長傳找Haaland第二點，Bobb+Ødegaard搶反彈，場面55開。\n4. 63分鐘：Haaland頭槌中柱進，1-1（signature_scene）。\n5. 70分鐘後：Southgate換上Watkins+Madueke提速，挪威後衛Ajer+Østigård轉身慢，第81分鐘Madueke下底傳中，Watkins前點鏟射，1-2。\n\n**為什麼是1-2**：英格蘭板凳火力更持久，挪威70分鐘後體能斷崖，符合「強隊小勝」最常見劇本。\n\n**什麼情況會翻盤**：若挪威上半場靠定位球先偷1-0，英格蘭被迫全壓，James身後持續被Bobb+Ryerson二打一反擊，挪威2-1逆襲並非夢話——這就是冷門路徑。"
           },
           {
             "name": "Grok",
@@ -8514,17 +8514,17 @@
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.28,
-              "D": 0.32,
-              "A": 0.4
+              "H": 0.24,
+              "D": 0.29,
+              "A": 0.47
             },
-            "confidence": 0.62,
+            "confidence": 0.68,
             "key_risk": "在英格蘭隊穩住陣腳前，Haaland 先把握住一次高 xG（預期進球）機會",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為 England 憑藉陣容深度與進攻指數（3.88 對 3.48）能輕鬆勝出。這種說法忽略了 Norway 在主場作戰的優勢，以及 Haaland 每 90 分鐘 1.10 的預期進球值（xG）與 Ødegaard 的創造力；2022 年 Saudi Arabia 的案例便展示了單一高效的進攻點，是如何擊敗過度依賴控球的熱門球隊。",
-            "signature_scene": "下半場第 68 分鐘：挪威隊 9 號 Haaland（Manchester City）在接獲長傳球後扛住 John Stones，隨即在接獲 Bobb 的快速轉移球後轉身低射，皮球越過 Pickford 破門得分。",
-            "reasoning_md": "英格蘭隊更深厚的陣容深度與更高的預期貢獻使其略佔優勢，但挪威隊的主場火力讓比賽維持在一個球的差距內。",
-            "script_md": "英格蘭擁有 25 名頂級聯賽球員及 3.88 的進攻指數，整體實力明顯優於僅有 17 名球員基礎的挪威。關鍵的對位落差在於 Kane (1.04 xG/90) 與 Bellingham (0.50) 面對由 Ajer 和 Østigård 領軍、但缺乏穩定頂級聯賽出賽時間的防線。比賽初期，英格蘭透過 Saka 和 Rice 進行高位壓迫，迫使挪威只能長傳找 Haaland。比賽中段，挪威採取緊湊防守，並透過 Bobb (0.50 xG/90) 和 Sørloth 進行轉換進攻；Haaland 的射門產量 (4.25 次射門/90) 為主隊創造了進球。比賽末段，英格蘭換上 Watkins 和 Eze 注入活力，Kane 透過定位球或倒三角傳球完成致勝一擊。比分維持在 1-2，因為雙方都採取務實打法，且世界盃小組賽鮮少出現大比分。除非 Ødegaard 和 Haaland 在英格蘭穩住陣腳前聯手攻入兩球，否則比賽結果不會翻盤。"
+            "contrarian_md": "傳統觀點認為，憑藉陣容深度與 3.88 的指數，England 將能輕鬆過關。但 Norway 集中式的威脅（Haaland 每 90 分鐘 1.10 的預期進球值 xG，加上 Bobb 與 Ødegaard）足以懲罰 England 後防線上的任何疏失，正如當年 Germany 敗給 Korea，或是 Argentina 輸給 Saudi Arabia 那樣，都是因為「穩操勝券」的熱門球隊在比賽中鬆懈所致。",
+            "signature_scene": "下半場第 68 分鐘：挪威隊 9 號 Haaland (Manchester City) 在 Stones 身旁持球策應，隨後分球給 22 號 Bobb (Fulham)，後者在反擊中起腳弧線球射入遠角。",
+            "reasoning_md": "英格蘭憑藉更優異的進攻指數（3.88 對 3.48）以及更深厚的陣容深度勝出，但 Norway 的主場火力讓比分差距維持在一球之內。",
+            "script_md": "英格蘭在陣容深度與進攻厚度上擁有明顯優勢，Kane、Saka、Bellingham 與 Watkins 皆繳出強勁的 xG（預期進球）數據，且全隊有 25 名球員具備頂級聯賽經驗。Norway 則高度依賴 Haaland 的頂尖終結能力，輔以 Bobb、Sørloth 與 Ødegaard 的貢獻，但僅有 17 名球員擁有相近的數據水準。比賽初期，英格蘭透過 Rice 與 Bellingham 控制球權，而 Norway 則採取緊縮防守，伺機尋找 Haaland 進行反擊。比賽中段出現首顆進球：Saka 內切後傳中，由 Kane 在近距離完成破門。Norway 隨即以持續的定位球攻勢回應，並由 Haaland 在一次反擊中進球，將比分扳平為 1-1。比賽末段，英格蘭再次投入重兵進攻；Bellingham 的跑位拉開空間，助攻 Watkins 攻入致勝球。1-2 的比分反映了英格蘭的實力優勢，但並未形成一面倒的屠殺。若英格蘭後衛領到紅牌，或是 Haaland 錯失絕佳機會，比賽結果可能會轉向平局。"
           },
           {
             "name": "GLM",
@@ -8532,17 +8532,17 @@
             "selection_team": "英格蘭",
             "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.22,
-              "D": 0.18,
-              "A": 0.6
+              "H": 0.18,
+              "D": 0.2,
+              "A": 0.62
             },
-            "confidence": 0.62,
-            "key_risk": "Haaland 在禁區內的絕對統治力——只要 England 後防線一次定位球或反擊失誤，他 90 分鐘內 1.10 的 xG 隨時能咬回一口，把 2-0 變成 2-1 懸念重來。",
+            "confidence": 0.68,
+            "key_risk": "挪威的 Haaland 與 Sørloth 把握度極高，若英格蘭後防壓上失誤，被單刀抓反反擊，隨時能咬平甚至絕殺。",
             "second_score": "1-1",
-            "contrarian_md": "主流敘事會說：England 陣容深度 25/26 人頂級聯賽、攻擊指數 3.88、Kane xG90 1.04，這場穩拿。我不完全信。原因：England 的後防名單裡，5號 Stones 本季在曼城出勤率堪憂、6號 Guéhi 剛轉曼城還沒站穩、26號 Quansah 在藥廠也不是鐵主力——這條防線「名氣大於目前實際磨合度」。挪威的鋒線不是擺設：9號 Haaland（xG90 1.10）+ 7號 Sørloth（xG90 0.56）+ 11號 Strand Larsen（xG90 0.51），三個人加起來的 xG90 超過 2.1，這不是哪支小國魚腩的攻擊線，這是能撕開任何防線的火力。2018 德國輸韓國、2022 德國輸日本，翻車點都一樣：強隊以為穩了、後防一次鬆懈被咬住、然後心態崩。如果這場爆冷，爆法就是：England 先進球後收縮，Haaland 在 60-75 分鐘用身體碾壓 Quansah 或 Stones 頭球扳平，然後挪威主場士氣炸裂最後十分鐘狂轟。",
-            "signature_scene": "下半場 63 分鐘左右，挪威10號 Ødegaard（Arsenal FC）在右路開出角球，9號 Haaland 在小禁區前沿用身體卡住 England 26號 Quansah（Bayer 04 Leverkusen），直接起跳頭槌——球砸橫樑上沿彈出，但這一下讓 England 後防線集體冒冷汗，隨後 5 分鐘挪威連續兩波攻勢逼出角球，主場氣勢完全起來。這就是比賽從「England 控制」變成「挪威攪局」的轉折點。",
-            "reasoning_md": "England 贏，但不會贏得漂亮。陣容深度和整體質量確實高一檔，但挪威的鋒線火力足以製造真正的威脅——這不是一場能零封的比賽。England 靠中場創造力（Bellingham + Saka + Eze）在運動戰中鑿出缺口，但後防不夠穩到能守住 2-0。比分壓在 1-2，一球差的懸念留到終場。",
-            "script_md": "## 完整劇本\n\n### ① 整體判讀\nEngland 確實強一檔——攻擊指數 3.88 vs 3.48，深度 25/26 vs 17/26 有頂級聯賽資料，中場創造力明顯佔優。但挪威的鋒線是「世界級的窄而深」：Haaland 一個人 xG90 1.10 就抵得過英格蘭大部分球員，加上 Sørloth 和 Strand Larsen，這是一支「你只要給他一次機會他就咬你」的球隊。英格蘭的問題不在進攻，在後防——Stones 的出勤率、Guéhi 剛轉會的磨合、Quansah 在藥廠的地位，這條線沒有看起來那麼穩。\n\n### ② 關鍵對位\n- **英格蘭 10號 Bellingham（Real Madrid CF，xG90 0.50）vs 挪威 8號 Sander Berge（Fulham FC）**：Bellingham 的前插是英格蘭最重要的進攻武器之一，Berge 的覆蓋範圍和身體對抗是挪威中場第一道閘。Berge 如果壓不住，Bellingham 會在禁區前沿反覆製造殺機。\n- **英格蘭 7號 Saka（Arsenal FC，xG90 0.51）vs 挪威 16號 Marcus Holmgren Pedersen（Torino FC）**：Saka 這側是英格蘭的主攻方向，Pedersen 在都靈不算頂級右後衛，這一側大機率會被反覆打穿。\n- **挪威 9號 Haaland vs 英格蘭 26號 Quansah（Bayer 04 Leverkusen）或 5號 Stones**：這是全場最不對稱的對位。Haaland 的力量和衝刺在禁區內幾乎無解，英格蘭中衛只要一次跟丟就是進球。\n- **挪威 22號 Oscar Bobb（Fulham FC，xG90 0.50）vs 英格蘭左路防線**：Bobb 的關鍵傳球 90 高達 2.68，是挪威除了 Ødegaard 之外最有創造力的人，他會是反擊中的出球點。\n\n### ③ 比賽劇本\n- **早段（0-25 分鐘）**：英格蘭控球率大概 60-65%，Saka 在右路反覆試探 Pedersen 這側。挪威不急，擺 4-4-2 中低位防守，Haaland 和 Sørloth 在前面等機會。英格蘭大機率在 20-30 分鐘之間破門——最可能的路徑是 Saka 右路突破後傳中，Kane 禁區內搶點，或者 Bellingham 前插接 Eze 直塞。\n- **中段（25-60 分鐘）**：英格蘭 1-0 領先後不會大幅收縮，但節奏會放慢。挪威開始往前壓，Ødegaard 和 Bobb 嘗試在兩翼製造機會。挪威的進球最可能來自定位球或反擊——Haaland 在禁區內的空間爭奪。如果挪威在 55-70 分鐘之間扳平，比賽會瞬間變得開放。\n- **末段（60-90 分鐘）**：這是英格蘭最危險的階段。如果比分還是 1-1，挪威主場士氣會推著他們壓上，但英格蘭的替補深度（Watkins、Gordon、Madueke）在反擊中會獲得巨大空間。最可能的劇本：挪威 65 分鐘左右靠 Haaland 扳平，英格蘭 78-85 分鐘靠替補上場的 Watkins 或 Gordon 反擊絕殺。\n\n### ④ 為什麼是 1-2\n英格蘭的進攻火力分佈太廣了——Kane、Saka、Bellingham、Eze、Watkins 五個人 xG90 都在 0.40 以上，這意味著即使挪威防住其中兩三個，剩下的還是能進球。挪威的防守深度不夠（17/26 有頂級聯賽資料），到了 70 分鐘以後體能下滑，英格蘭的替補衝擊力會決定比賽。但挪威的鋒線太強了，英格蘭的後防又不夠穩，零封不太現實。1-2 是最合理的落點：英格蘭贏，但贏得心驚肉跳。\n\n### ⑤ 什麼情況會翻盤\n- **Haaland 早早進球**：如果挪威在前 20 分鐘靠反擊或定位球先進球，英格蘭會被迫壓上，挪威的鋒線速度和 Haaland 的反擊能力會讓英格蘭後防付出代價。1-0 變成 2-0、甚至 3-1 都不是不可能。\n- **英格蘭後防傷退**：Stones 或 Quansah 如果在比賽中受傷退場，替補中衛的默契度會進一步下降，Haaland 會在禁區內予取予求。\n- **Ødegaard 的自由球**：挪威10號在阿森納的自由球質量極高，禁區前沿任何犯規都是致命威脅。如果英格蘭在危險區域犯規太多，Ødegaard 一腆就能改變比賽。"
+            "contrarian_md": "主流名氣會看這場：英格蘭星光熠熠，Bellingham、Saka、Kane 全是豪門主力，陣容深度 25/26 人有頂級聯賽資料，挪威只有 17/26 人勉強夠看，差距明顯，英格蘭穩贏。但我不完全信這套敘事。英格蘭的問題在於後防線資料平庸且缺乏頂級穩定性——5號 Marc Guéhi（Manchester City FC）與 2號 Ezri Konsa（Aston Villa FC）的 xG90 與關鍵傳球資料都偏低，面對挪威那組全歐洲最暴力的鋒線組合，9號 Haaland（xG90 1.10）與 7號 Sørloth（xG90 0.56）的衝擊力，英格蘭中衛未必扛得住。世界盃冷門史告訴你，強隊翻車往往不是輸在中場，是輸在後防被一個怪獸前鋒硬生生撕開——2018 德國輸韓國、2022 德國輸日本，都是「大家都覺得穩」的時候被反咬。挪威這場若爆冷，會是 Haaland 一腳定江山的劇本。",
+            "signature_scene": "下半場 65 分鐘，英格蘭 4號 Declan Rice（Arsenal FC）中場傳球被 8號 Sander Berge（Fulham FC）硬生生搶斷，Berge 直塞，9號 Erling Haaland（Manchester City FC）單刀突入禁區，硬扛 5號 Marc Guéhi（Manchester City FC）推射破門，挪威 1-1 扳平，全場氣氛瞬間炸裂。",
+            "reasoning_md": "英格蘭贏，但贏得驚險。中場創造力與整體深度夠碾壓挪威，但後防面對 Haaland 的衝擊會丟一球，最終 2-1 險勝。",
+            "script_md": "## 整體判讀\n英格蘭整體實力指數 3.88 高於挪威 3.48，且陣容深度 25/26 人有頂級聯賽資料，遠勝挪威的 17/26。中場是英格蘭最大優勢——10號 Jude Bellingham（Real Madrid C. F.，xG90 0.50）與 21號 Eberechi Eze（Arsenal FC，xG90 0.40）的創造力與推進能力，挪威中場 6號 Sander Berge（Fulham FC）與 10號 Martin Ødegaard（Arsenal FC）雖然不差，但整體中場厚度與變化性輸一截。英格蘭的火力分佈也更廣，7號 Bukayo Saka（xG90 0.51）、9號 Harry Kane（xG90 1.04）、19號 Ollie Watkins（xG90 0.53）三條線都能進球，挪威幾乎全押在 Haaland 一個人身上。\n\n## 關鍵對位\n- **挪威 9號 Erling Haaland vs 英格蘭 5號 Marc Guéhi**：Haaland 的 xG90 1.10 是全場最高，Guéhi 的防守資料（xG90 0.02 / 關鍵傳球90 0.31）完全壓不住這個等級的怪獸。Haaland 只要拿到一次單刀或定位球機會，英格蘭就要付出代價。\n- **英格蘭 10號 Jude Bellingham vs 挪威 8號 Sander Berge**：Bellingham 的推進與關鍵傳球（1.84）是英格蘭進攻發動機，Berge 是挪威中場最硬的一道牆，但他的資料（xG90 0.06 / 關鍵傳球90 0.86）顯示他更多是防守型，創造力不足，很難跟 Bellingham 全面對抗。\n- **英格蘭 7號 Bukayo Saka vs 挪威 3號 Kristoffer Ajer**：Saka 的突破與傳中（關鍵傳球90 2.68）會持續施壓挪威右路，Ajer（Brentford FC）雖然有頂級聯賽經驗，但防守 Saka 這種等級的邊鋒會非常吃力。\n\n## 比賽劇本\n- **早段（0-25 分鐘）**：英格蘭控球率壓制，Bellingham 與 Saka 在前場頻繁換位，挪威收縮防線，Haaland 前場孤立無援。英格蘭大機率在 20 分鐘前靠 Saka 或 Bellingham 的中路滲透先破門，1-0 領先。\n- **中段（25-60 分鐘）**：挪威被迫壓上，英格蘭開始打反擊。Kane 回撤組織，Saka 與 Rashford 兩翼齊飛，挪威後防被拉扯。但挪威不會坐以待斃——Ødegaard 的定位球與 Haaland 的禁區嗅覺會製造威脅，50 分鐘前後挪威靠一次角球或反擊，Haaland 硬扛 Guéhi 破門，1-1 扳平。\n- **末段（60-90 分鐘）**：英格蘭換上 19號 Ollie Watkins（Aston Villa FC）增加鋒線活力，挪威體能下滑。75 分鐘左右，Eze 或 Saka 在禁區邊緣製造混亂，Kane 補射或 Bellingham 後插上破門，2-1。挪威最後十分鐘狂轟濫炸，但英格蘭門將 1號 Jordan Pickford（Everton FC）穩住局面。\n\n## 為什麼是 1-2\n英格蘭的進攻點太多，挪威防不住 Saka+Bellingham+Kane 的三叉戟輪番衝擊，至少會丟兩球。但挪威有 Haaland 這個「不講理」的變數，他不需要太多機會，一腳就進，所以英格蘭很難零封。1-2 是最合理的寫實比分。\n\n## 什麼情況會翻盤\n如果英格蘭後防線集體當機，Guéhi 與 Konsa 溝通失誤被 Haaland 抓兩次反擊，挪威 2-1 爆冷不是不可能。另外，若 10號 Martin Ødegaard（Arsenal FC）在主場打出俱樂部等級的組織能力，串聯 Haaland 與 Sørloth，英格蘭中場若沒有及時壓制，挪威的進攻效率會比帳面資料更高。世界盃小組賽最怕的就是「強隊以為穩了，弱隊拼了命」，挪威主場作戰，士氣加成不可忽視。"
           }
         ]
       },
@@ -8560,7 +8560,7 @@
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "阿根廷",
-        "win_prob": 0.623,
+        "win_prob": 0.633,
         "agree": "7/7 models",
         "predicted_score": "2-1",
         "models": [
@@ -8571,34 +8571,34 @@
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.56,
-              "D": 0.26,
-              "A": 0.18
+              "D": 0.27,
+              "A": 0.17
             },
-            "confidence": 0.58,
-            "key_risk": "阿根廷的後防線（特別是邊路通道）在攻守轉換時被 Okafor 和 Embolo 突破，而 Kobel 則讓瑞士隊保持競爭力，直到他們能給予對手致命一擊。",
+            "confidence": 0.62,
+            "key_risk": "瑞士隊透過直接的轉換進攻（Okafor/Embolo/Ndoye）懲罰了阿根廷隊過於激進的邊後衛，加上 Kobel 的出色表現，將比賽拖入低比分的拉鋸戰。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點：**Argentina 在主場橫掃 Switzerland**——實力差距過大，前場質量過高，比賽毫無懸念。\n\n但我不太買帳的地方在於：這支 Argentina **不再**是一支僅靠一人「光環」的球隊；這是一支追求大量射門的球隊，有時會顯得**缺乏耐心**。Switzerland 擁有一位頂級門將（Kobel），且具備足夠的速度與前鋒（Okafor、Embolo、Ndoye）來懲罰任何一次防守轉換時的鬆懈。這就是強隊如何在小組賽中翻船的劇本——**2018 Germany 對陣 Korea**、**2022 Argentina 對陣 Saudi Arabia**：一方掌控球權，另一方打出兩次乾淨俐落的反擊，奪冠熱門隨即陷入恐慌。如果讓 Switzerland 先馳得點，這場比賽將演變成一場棘手且勝負僅在毫釐之間的苦戰。",
-            "signature_scene": "下半場約 62 分鐘：Argentina 將對手壓制在半場內——11 號 Lo Celso (Real Betis) 傳出一記隱蔽的穿透球，穿過 Akanji 與 Elvedi 之間，22 號 Lautaro Martínez (FC Internazionale Milano) 迅速衝向近柱將球轉進球門。Switzerland 隨即做出回應，由 19 號 Noah Okafor (Leeds United FC) 在 Argentina 右路發動了一波為期 5 分鐘的反擊攻勢。",
-            "reasoning_md": "Argentina 以 2-1 勝出，因為他們的進攻機會數量以及多點開花的 xG（Lautaro/Álvarez/Nico Paz）確實更高，但 Switzerland 的鋒線實力足以在反擊中偷得一球，因此這場比賽過程不會太輕鬆。",
-            "script_md": "阿根廷的優勢很簡單：**更多的終結威脅**以及更多創造射門的方式——22號 Lautaro Martínez 和 9號 Julián Alvarez 都是高產量的前鋒，甚至連像15號 Nicolás González 這樣的邊路球員，進攻禁區時都像前鋒一樣。瑞士的優勢同樣簡單：**體系 + Kobel**，以及一組能跑動的前場三叉戟——19號 Noah Okafor、7號 Breel Embolo、11號 Dan Ndoye。\n\n比賽初期，阿根廷掌握球權並將瑞士壓制在中低位防守；你會看到11號 Lo Celso 和7號 De Paul 試圖為跑動的隊友輸送球，同時26號 Molina 和3號 Tagliafico 持續施壓。瑞士的計畫是先穩守，再將球傳給 Okafor/Embolo，利用阿根廷邊後衛身後的通道發動反擊——特別是當阿根廷防線前壓時，針對13號 Romero / 6號 Lisandro 身側的空間。\n\n阿根廷憑藉持續的壓力而非某種浪漫的時刻率先破門（1-0）——可能是透過倒三角回傳，或是瑞士防線被拉開後，由 Lautaro/Álvarez 前插至近柱完成進球。瑞士的回應方式正如世界盃中弱勢球隊的典型表現：一次乾淨俐落的轉換，一次果斷的終結——當阿根廷攻守轉換防守（rest-defense）薄弱時，由 Okafor 或 Embolo 將比分扳平為 1-1。\n\n隨後的差異在於板凳深度與進攻的持續性：阿根廷能在比賽末段持續製造機會（換上像17號 Giuliano Simeone 或16號 Almada 這樣的生力軍），而瑞士的進攻則變得更依賴「單一關鍵時刻」。阿根廷透過第二波進攻找到致勝球（2-1）——中場球員（24號 Enzo Fernández / 20號 Mac Allister）插上助攻，保持高射門次數，直到最終有一球擊敗 Kobel。\n\n為何是 2-1：瑞士實力足夠強大，不至於慘敗，但阿根廷在進攻指數上的差距是真實存在的，他們擁有數個高 xG（預期進球）的進攻點，最終能突破防線。可能翻盤的因素：Kobel 神勇發揮，加上瑞士先取得**第一顆**進球——屆時阿根廷被迫追分，防線被拉開，Okafor/Embolo 的反擊將成為致命一擊。"
+            "contrarian_md": "顯而易見的劇本：*阿根廷坐鎮主場，球星陣容更豪華，實力差距懸殊——一場例行公事的勝利。*\n\n為什麼我並不完全買單這種「穩贏」論調：阿根廷的優勢主要在於進攻終結的產量（Lautaro、Álvarez、Nico González），但 Switzerland 並非軟柿子——他們擁有一位頂級門將 No.1 Gregor Kobel (Borussia Dortmund)，以及極具威脅的反擊能力（No.19 Noah Okafor、No.7 Breel Embolo）。如果阿根廷大舉壓上卻浪費了開局的機會，瑞士只要一次乾淨俐落的反擊就能扭轉整個戰局——這正是那些「穩贏」的熱門球隊在世界盃中翻船的典型方式（試想 2022 年的 Argentina 對陣 Saudi Arabia，或是 2018 年的 Germany 對陣 Korea）。",
+            "signature_scene": "下半場約 63 分鐘：阿根廷將瑞士隊壓制在半場內。11 號 Giovani Lo Celso (Real Betis) 在兩線之間接球，隨即送出一記精準的反向傳球至右路空檔，給 9 號 Julián Álvarez (Atlético De Madrid)，後者第一時間橫傳回中路，由 22 號 Lautaro Martínez (FC Internazionale Milano) 在十二碼點附近完成破門——這一波攻勢成功瓦解了由 Kobel 領軍的頑強防線。",
+            "reasoning_md": "阿根廷以 2-1 取勝，原因在於他們的鋒線深度更足，且在創造射門機會上更具穩定性（Lautaro/Álvarez/Nico González），而瑞士隊雖具威脅，但更依賴反擊能否精準到位。",
+            "script_md": "就純數據與深度而言，Argentina 是進攻端更強大的隊伍：他們能派出 22 號 Lautaro Martínez (0.67 xG/90)、9 號 Julián Álvarez (0.48)、15 號 Nicolás González (0.51)，再加上 11 號 Giovani Lo Celso (3.28 次關鍵傳球/90) 與 7 號 Rodrigo De Paul (1.68) 等創造者。Switzerland 的威脅不在於控球優勢，而在於透過 19 號 Noah Okafor (Leeds United FC) 與 7 號 Breel Embolo (Stade Rennais FC) 進行直線、一腳觸球的進攻，並由 11 號 Dan Ndoye (Nottingham Forest FC) 在邊路奔襲。\n\n比賽初期，Switzerland 會保持防守陣型緊湊，並倚賴 5 號 Manuel Akanji (FC Internazionale Milano) 與 4 號 Nico Elvedi (Borussia Mönchengladbach) 來化解傳中球，同時靠 Kobel 的撲救與冷靜的摘球爭取時間。Argentina 依然能創造機會，因為他們的中場球員確實會向前傳球：Lo Celso 與 24 號 Enzo Fernández (Chelsea FC) 會尋找空檔，而 Switzerland 的中場（10 號 Granit Xhaka, Sunderland AFC；6 號 Denis Zakaria, AS Monaco）可能會被拉扯到過多的橫向防守中。\n\n我認為 Argentina 會先得分——可能是透過持續的施壓，最終由 Lautaro 或 Álvarez 完成終結，或是利用邊路傳中後的第二波球權。Switzerland 唯一合理的應對方式是：快速反擊至邊路空檔，針對 26 號 Nahuel Molina (Atlético De Madrid) 與 3 號 Nicolás Tagliafico (Olympique Lyonnais) 身後的空間；這正是 Okafor 與 Embolo 可能扳平比分的機會。\n\n勝負關鍵在於比賽後段：Argentina 有更多持續製造射門的方式，而 Switzerland 的進攻雖然具備威脅，卻缺乏同樣多元的進攻來源。因此，2-1 是世界盃中最現實且常見的結果：Argentina 小勝，但過程絕不輕鬆。\n\n可能翻盤的因素：如果 Kobel 表現如銅牆鐵壁，而 Argentina 的射門手感冰冷，Switzerland 有機會靠一次冷酷的轉換進攻偷走勝利（或以 1-1 逼平）。如果 Argentina 在追分時失去陣型結構，由 Embolo 領軍的單次反擊將是爆冷的途徑。"
           },
           {
             "name": "Claude",
             "selection": "HOME",
             "selection_team": "阿根廷",
-            "predicted_score": "2-0",
+            "predicted_score": "2-1",
             "win_prob": {
               "H": 0.62,
               "D": 0.24,
               "A": 0.14
             },
-            "confidence": 0.62,
-            "key_risk": "瑞士隊擺出鐵桶陣，**Kobel** 表現神勇，並靠著定位球或由 **Embolo** 與 **Ndoye** 發動的反擊，趁著阿根廷隊的輕敵心態偷走一分。",
-            "second_score": "2-1",
-            "contrarian_md": "顯而易見的觀點：衛冕冠軍、Messi、Lautaro，3.37 的進攻指數對上瑞士的 2.04——這完全是實力懸殊的對決，Argentina 將以 3-0 輕鬆勝出。但我並不完全相信會出現這種大勝。Switzerland 並非任人宰割的魚腩部隊：Kobel (Dortmund) 是頂尖門將，Akanji 坐鎮紀律嚴明的後防線，而 Xhaka 則指揮著一個能壓縮空間、讓對手窒息的中場——這正是那種能讓奪冠熱門陷入焦慮並以 1-0 險勝的典型球隊。Argentina 在小組賽中平局或輸球並非天方夜譚（2022 年對陣 Saudi Arabia，而且這個模擬引擎已經出現過 Brazil 輸給 Norway 的情況）。Switzerland 不需要贏下比賽，只需要讓比賽變得難看——他們由 Embolo/Okafor/Ndoye 組成的前場三叉戟，在面對 Argentina 的高位防線時，反擊極具威脅。爆冷的機會就在於 0-0 的拉鋸戰，或是靠一次反擊偷襲得手。",
-            "signature_scene": "下半場約 65 分鐘：Argentina 在角球進攻中遲遲無法突破，隨後 22 號 Lautaro Martínez 在前柱擺脫 Akanji 的防守，接應 De Paul 與 Enzo 配合傳出的球頭槌破門——這顆進球終於撕開了 Swiss 頑強的防線。",
-            "reasoning_md": "阿根廷獲勝——雙方在進攻火力與中場素質上的差距是真實存在的，而 Switzerland 缺乏一名頂尖的創造者來撕開對手防線。但憑藉 Swiss 的紀律性以及 Kobel 的表現，比分將被控制在 2-0，不會演變成一場大屠殺。",
-            "script_md": "**(1) 整體分析：** Argentina 在所有關鍵環節都更為強勢——進攻端（3.37 對 2.04）、由 De Paul、Mac Allister 與 Enzo Fernández 掌控的中場，以及 Lautaro 與 Álvarez 具備的致命威脅。Switzerland 的優勢在於結構而非爆發力：穩健的門將、組織嚴密的防線，以及旨在限制對手而非創造機會的工兵型中場。\n\n**(2) 關鍵對位：** Switzerland 的上限取決於 19 號 Noah Okafor (Leeds)、7 號 Breel Embolo (Rennais) 與 11 號 Dan Ndoye (Nottingham Forest) 能否在攻守轉換中重創 Argentina——這是他們取得進球的唯一途徑。球隊大腦是 10 號 Granit Xhaka (Sunderland)，他將位置後撤並拖慢比賽節奏。Argentina 的威脅在於進攻產量：Lautaro (0.67 xG90)、Julián Álvarez (0.48)，加上替補席上 Simeone 與 Nico González 在邊路的威脅。1 號門將 Gregor Kobel (Dortmund) 是唯一能憑一己之力讓比分維持體面的關鍵人物。\n\n**(3) 比賽劇本：** 預計 Switzerland 開賽後會採取低位防守並引誘對手進攻，由 Akanji 與 Elvedi 鎮守禁區。Argentina 將掌控球權，但上半場比分會維持膠著——瑞士隊對進攻組織的干擾可能會讓比賽陷入 0-0 的僵局。Argentina 預計在下半場取得突破，可能是在 60 分鐘左右透過戰術配合或定位球（由 Lautaro 或 Enzo 操刀）打破僵局，隨後控制比賽節奏。Switzerland 最好的機會來自反擊，但他們的終結能力不足以兩度懲罰對手。\n\n**(4) 比分預測理由：** 2-0 的比分符合賽事走向——實力明顯佔優的一方，最終磨掉了一支紀律嚴明但缺乏深度與創造力來爆冷的球隊。這不會是一場大勝，因為瑞士的防線與 Kobel 的實力確實不俗；第二個進球將出現在 Switzerland 為了追分而大舉壓上後的比賽末段。\n\n**(5) 變數：** 如果 Argentina 開局表現鬆散隨意，且 Embolo 或 Ndoye 把握住一次早期的反擊機會，那麼瑞士的防線將變得更難攻破，比賽出現 0-0 或 1-1 的爆冷局面機率將大幅提升。此外，紅牌或 Kobel 的神級表現也可能將比賽拖入平局。"
+            "confidence": 0.6,
+            "key_risk": "瑞士隊緊湊的防守陣型，加上 Kobel 將比分維持在 0-0 直到最後 20 分鐘，這讓阿根廷隊感到緊張，最終由 Embolo 以頭槌完成了一次突襲得手。",
+            "second_score": "2-0",
+            "contrarian_md": "顯而易見的觀點：Argentina 從前場到後場皆具世界級水準，擁有 Messi、Lautaro、Álvarez 的強大火力，指數 3.37 對上 2.04——這應該是一場輕鬆的勝利，甚至可能是一場大勝。但我並不完全相信會是大勝。Switzerland 是賽事中最難纏的對手：Akanji、Elvedi、Kobel 和 Xhaka 組成的中軸線讓他們臨危不亂，而他們的球隊基因就是讓強隊陷入挫折——看看他們與 Colombia 的 0-0 平局，或是 Switzerland 在歷史上如何將巨人拖入低比分的苦戰。Argentina 最近的比賽也打得很緊繃（3-2 勝 Egypt，並非輕鬆寫意）。如果 Argentina 抱持輕敵心態，而 Switzerland 擺出兩道四人防線，這場比賽可能會變成 1-0 的驚險戰，甚至出現爆冷——2018 年的 Germany 對 Korea 以及 2022 年的 Argentina 對 Saudi Arabia 都提醒我們，強隊往往就是在「每個人都覺得安全」的時候倒下。",
+            "signature_scene": "下半場約 70 分鐘：Argentina 持續施壓，Lo Celso (11 號) 不斷送出穿越球，而 Switzerland 的 5 號 Akanji (Inter) 頭槌解圍了一次角球——但在反擊中，11 號 Ndoye (Nottingham Forest) 在右路速度碾壓 Molina 並橫傳給 7 號 Embolo (Rennes)，造成門前一陣混亂，一度將比分扳平為 1-1，直到比賽尾聲由 Lautaro 鎖定勝局。",
+            "reasoning_md": "阿根廷獲勝——進攻端過於強大的實力與深度，讓瑞士那種中規中矩但缺乏變化的防守陣型難以支撐 90 分鐘——不過瑞士隊的中軸線表現穩健，將比分維持在 2-1 的苦戰，而非一場大勝。",
+            "script_md": "**整體解讀：** Argentina 在進攻端的所有關鍵位置都更為強勢——Lautaro (0.67)、Nico Paz、Julián Álvarez，再加上負責穿針引線的 Enzo、Mac Allister 和 Lo Celso。Switzerland 的優勢在於防守組織與經驗：門將 Kobel、中衛組合 Akanji 與 Elvedi，以及負責屏障的 Xhaka。他們的進攻端（Okafor 0.49、Embolo 0.42、Ndoye 0.31）確實具備威脅，但面對這條後防線顯得單薄。\n\n**關鍵對位：** 比賽的勝負關鍵在於 Switzerland 的 10 號 Granit Xhaka (Sunderland) 與 6 號 Denis Zakaria (Monaco) 能否成功壓制 Argentina 的中場創造者——Enzo Fernández、Mac Allister 和 Lo Celso（場均關鍵傳球 3.28 次，屬於頂尖水準）。在邊路，Switzerland 的 11 號 Dan Ndoye (Nottingham Forest) 是他們對抗 Nahuel Molina 時真正的反擊威脅；7 號 Breel Embolo (Rennes) 則是能從 Otamendi/Romero 身上透過定位球偷得進球的關鍵人物。\n\n**比賽劇本：** 預計 Switzerland 開賽後會採取深度防守並引誘對手進攻，保持陣型緊湊，力求半場結束時維持平手。Argentina 將掌握控球權，但可能會發現首個進球來得相當艱難——很可能是下半場由 Lautaro 突破僵局，或是由 Lo Celso 助攻完成破門。一旦取得領先，Argentina 的陣型會稍微拉開，Switzerland 將獲得一次乾淨的反擊或角球機會——由 Ndoye/Embolo 追成 2-1 的緊張局面，隨後 Argentina 憑藉更優質的板凳深度與火力終結比賽。\n\n**為何預測此比分：** 2-1 的比分符合一支實力明顯佔優的熱門球隊，面對一支紀律嚴明、能力稱職且不會輕易崩盤的防守體系時的賽況。大比分慘案不太可能發生，因為 Kobel-Akanji-Elvedi 的組合實力堅強，不至於失掉四球。\n\n**變數：** 如果 Kobel 表現神勇，且比賽進行到 75 分鐘仍維持 0-0，Switzerland 的信心將會提升，屆時只要 Embolo 的一次頭槌就可能造成 0-1 的爆冷賽果——這正是過去幾屆大賽中，德國與 Argentina 曾遭遇過的經典劇本。"
           },
           {
             "name": "DeepSeek",
@@ -8606,17 +8606,17 @@
             "selection_team": "阿根廷",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.58,
-              "D": 0.27,
+              "H": 0.6,
+              "D": 0.25,
               "A": 0.15
             },
-            "confidence": 0.65,
-            "key_risk": "瑞士死守 90 分鐘，阿根廷久攻不下被反擊偷一個",
+            "confidence": 0.7,
+            "key_risk": "阿根廷圍攻不下，瑞士定位球或反擊偷一個先破僵，比賽陷入瑞士節奏。",
             "second_score": "1-0",
-            "contrarian_md": "主流看名氣會覺得阿根廷擁有 Messi、Lautaro、Alvarez 等頂星，打瑞士穩贏兩球起。我不完全買賬。瑞士這條防線有 Kobel、Akanji、Elvedi，硬骨頭屬性拉滿；中前場雖然創造力不足，但 Okafor 和 Embolo 的反擊速度專克高位防線。2022 年阿根廷首戰輸沙特，就是被鐵桶+反擊打穿，瑞士完全有能力照抄作業。如果阿根廷上半場不捅破窗戶紙，急躁壓上後防留空，翻車劇本隨時可能上演。",
-            "signature_scene": "下半場第 67 分鐘，瑞士 19 號 Okafor（Leeds United）利用 Molina 插上回防不及的空當，接 Xhaka 長傳後高速趟過 Romero，低平球傳中，7 號 Embolo（Stade Rennais）抗開 Lisandro Martínez 剷射破門，瑞士短暫扳成 1-1。",
-            "reasoning_md": "阿根廷整體實力碾壓，但瑞士防守有韌性，阿根廷靠定位球或替補奇兵一球險勝。",
-            "script_md": "① 整體：阿根廷的攻擊火力（3.37）遠勝瑞士（2.04），中前場人手豐富，能持續施壓；瑞士進攻辦法不多，但中後場紀律性強，Kobel 把關穩，定位球有身高優勢。\n② 關鍵對位：阿根廷 15 號 Nicolás González（Atlético De Madrid）的左邊路射門慾望（射門 90 3.99，xG90 0.51）對上瑞士右後衛 3 號 Widmer（1. FSV Mainz 05，xG90 0.09），這是絕對優勢對位，阿根廷大部分威脅會從這一側發起。瑞士想偷雞得靠 19 號 Okafor 對阿根廷右路 Molina 身後的衝刺。\n③ 比賽劇本：開場阿根廷控場，瑞士收縮成 5-4-1。前 30 分鐘阿根廷外圍傳導，15 號 González 內切射門製造角球，6 號 Lisandro Martínez 禁區混戰一腳捅射被 Kobel 撲出。僵局在上半場補時打破——10 號 Messi 右側肋部挑傳，22 號 Lautaro Martínez 反越位凌空墊射，1-0。\n④ 下半場瑞士被迫壓出，65-75 分鐘瑞士透過轉換獲得幾次角球和反擊，由 7 號 Embolo 混戰扳平。阿根廷隨即換上 18 號 Nico Paz 加強遠射，第 81 分鐘 Paz 禁區外發炮被撲，9 號 Julián Alvarez 補射空門得手，2-1。最後階段瑞士無力反撲。\n⑤ 為什麼 2-1：阿根廷火力點多但終結效率一般，瑞士防守有硬度，阿根廷很難零封，瑞士能利用某次反擊或定位球破荒，但阿根廷整體壓制力足夠再進一球。若瑞士率先破門，阿根廷可能陷入急躁，0-0 或 0-1 翻盤風險存在——此時劇本改為瑞士密集防守，阿根廷全場 70% 控球但只開花不結果，最後瑞士靠零星反擊 1-0 偷走勝利。"
+            "contrarian_md": "主流會想當然覺得阿根廷名氣大、攻擊手多，瑞士就是來陪跑的。但瑞士這批人幾乎全員五大聯賽，防守體系刻在骨子裡，中後場有國米的5號 Akanji、門興的4號 Elvedi，門將1號 Kobel 是多特蒙德一門，想靠陣地戰打穿沒那麼容易。阿根廷2022年首戰就輸給沙特，當時也是圍攻、越位、被反擊一刀斃命。瑞士前場7號 Embolo 和19號 Okafor 都有速度，一旦阿根廷壓得太上，後場只剩 Romero 和 Otamendi 兩個轉身慢的，翻車劇本完全成立。",
+            "signature_scene": "下半場第63分鐘，阿根廷10號 Messi 右肋吸引兩人防守後突然直塞，22號 Lautaro Martínez 從 Akanji 身後斜插，小禁區角上不停球直接抽射近角破門，打破1-1僵局。",
+            "reasoning_md": "阿根廷攻擊線深度碾壓，瑞士能靠身體和紀律偷一個，但終究頂不住多波衝擊，阿根廷2-1險勝。",
+            "script_md": "① 整體判讀：阿根廷攻擊實力指數3.37對2.04，火力完全不在一個檔次。Lautaro、Alvarez、Nico Paz 三個點都有獨立終結能力，加上 Messi 的最後一傳，瑞士防線全場都要被反覆拉扯。瑞士強在雙後腰6號 Zakaria 和8號 Freuler 的掃蕩，以及兩個中衛的正面防守，但邊路和肋部結合部是命門。\n② 關鍵對位：阿根廷15號 Nicolás González（馬競）在左路對上瑞士3號 Widmer（美因茨），González 的 xG90 高達0.51，射門慾望極強，Widmer 防守資料平平，這一側會被反覆爆破。瑞士的反擊命脈在7號 Embolo（雷恩），他的 xG90 0.42 搭配速度，專打阿根廷13號 Romero（熱刺）身後，一旦阿根廷雙中衛間距拉開，Embolo 就有單刀機會。\n③ 比賽劇本：開場阿根廷控場，瑞士退守半場。前20分鐘阿根廷會有3-4次角球和邊路傳中，但 Akanji 和 Elvedi 第一點清球很穩。僵局在35分鐘左右打破：阿根廷左側角球二次進攻，20號 Mac Allister 禁區外遠射造成 Kobel 脫手，9號 Alvarez 補射得手，1-0。下半場瑞士被迫壓出，55分鐘利用一次反擊，10號 Xhaka 長傳找左路插上的17號 Vargas，後者低平球傳中，Embolo 搶在 Lisandro Martínez 身前剷射扳平，1-1。阿根廷隨即換上16號 Almada 加強突破，第63分鐘 Messi 與 Lautaro 連線再次超出，2-1。最後20分鐘瑞士搏命，但阿根廷換上5號 Paredes 加強控制，守住勝果。\n④ 為什麼是2-1：阿根廷能進兩個因為攻擊點太多，瑞士必丟球；瑞士能進一個因為阿根廷防線不是鐵板一塊，且瑞士定位球和反擊有身高有速度，偷一個完全合理。大勝（3-0以上）機率極低，瑞士的防守紀律不會崩盤。\n⑤ 翻盤條件：如果阿根廷上半場遲遲不進球，心態一急，後場傳球失誤被 Embolo 或 Okafor 抓一個，然後瑞士全員退守擺大巴，阿根廷就可能0-1爆冷，或者1-1悶平。另外，裁判尺度若偏松，瑞士上身體絞殺中場，阿根廷的節奏會非常碎。"
           },
           {
             "name": "Gemini",
@@ -8625,16 +8625,16 @@
             "predicted_score": "2-1",
             "win_prob": {
               "H": 0.62,
-              "D": 0.24,
-              "A": 0.14
+              "D": 0.25,
+              "A": 0.13
             },
             "confidence": 0.75,
-            "key_risk": "Gregor Kobel 踢出了他生涯最精彩的一場比賽，讓 Argentina 感到挫折，而 Switzerland 則把握住了一次難得且冷靜的快速反擊機會。",
-            "second_score": "1-1",
-            "contrarian_md": "顯而易見的論調是，擁有 3.37 指數的 Argentina 豪華鋒線將會輕鬆輾壓 Switzerland。但我並不認為這會是一場輕鬆的完勝。Switzerland 的中軸線——Kobel、Akanji、Xhaka——正是為了在面對頂級控球球隊時，能夠承受壓力並生存下來而打造的。還記得 2022 年 Brazil 靠著第 83 分鐘的一記折射進球才以 1-0 險勝他們嗎？此外，Switzerland 2.75 的預期貢獻值顯示他們並非只會「擺大巴」；他們具備真正的威脅。如果 Argentina 的邊後衛壓得太靠前，11 號 Dan Ndoye 和 19 號 Noah Okafor 正是能透過反擊懲罰他們的最佳人選。如果比賽進行到 60 分鐘仍是 0-0，壓力將完全轉移到 Argentina 身上，這將為 Switzerland 經典的「偷襲得手」創造機會。",
-            "signature_scene": "下半場第 65 分鐘。Argentina 掌握了大部分的控球權，但難以突破 Swiss 的防線。Giovani Lo Celso 傳出一記穿透力十足的直塞球，找到 22 號 Lautaro Martínez，後者轉身擺脫 5 號 Manuel Akanji，隨即起腳低射，皮球越過 Kobel 入網，終於打破僵局。",
-            "reasoning_md": "Argentina 強大的進攻深度與充滿創造力的中場，最終將會瓦解 Switzerland 頑強的防守陣型，但這將會是一場艱苦的考驗。Swiss 的中軸線組織嚴密，不易被大比分擊潰，且具備足夠的防守反擊威脅，能讓比賽維持膠著，因此小勝將是最可能的結果。",
-            "script_md": "- **整體解讀：** Argentina 帶著強大的火力（進攻指數 3.37）迎戰組織嚴密的 Switzerland，而後者同樣具備令人驚豔的進攻威脅（預期貢獻值 2.75）。這不會是一場單方面的圍攻，而是一場重量級的戰術對決。\n- **關鍵對位：** 中場的爭奪將決定比賽走勢。Argentina 的創造力核心 Giovani Lo Celso（每 90 分鐘關鍵傳球 3.28 次）與 Rodrigo De Paul 將試圖撕開 Switzerland 10 號 Granit Xhaka (Sunderland AFC) 與 8 號 Remo Freuler (Bologna FC) 的防線。鋒線上，Lautaro Martínez 將面臨 5 號 Manuel Akanji (FC Internazionale Milano) 的嚴峻考驗。\n- **比賽劇本：** 預計 Switzerland 將採取中位防守（mid-block），在承受壓力的同時，積極尋求透過轉換進攻發動 11 號 Dan Ndoye (Nottingham Forest FC) 與 19 號 Noah Okafor (Leeds United FC)。Argentina 將掌握控球權，但上半場可能會陷入僵局。到了下半場，Argentina 雄厚的板凳深度——換上射門效率驚人的 18 號 Nico Paz (Como) 或跑動不懈的 Julián Alvarez——終將擊潰 Swiss 的防線。然而，Switzerland 的反擊威脅意味著他們極有可能取得進球。\n- **比分預測理由：** 2-1 的比分反映了攻破這支 Swiss 隊伍的現實難度。他們不容易被大比分擊潰，且 2.75 的預期貢獻值意味著他們會有所斬獲，但 Argentina 擁有過多能決定比賽勝負的球員，足以在 90 分鐘內勝出。\n- **變數：** 如果 Switzerland 先透過定位球或快速反擊得分，他們將會退守至深位的低位防守（low block），讓對手感到挫折。如果 1 號門將 Gregor Kobel (Borussia Dortmund) 有神級演出，這場比賽極可能以 1-1 和局收場，甚至出現 1-2 的爆冷賽果。"
+            "key_risk": "瑞士隊透過反擊先馳得點，隨後成功執行「擺大巴」戰術，讓 Argentina 的控球轉變為徒勞無功且令人沮喪的傳導。",
+            "second_score": "1-0",
+            "contrarian_md": "顯而易見的論調是，Argentina 星光熠熠、豪華的進攻陣容將能輕易瓦解 Switzerland。我不認為這會是一場輕鬆的勝利。Switzerland 的整條中軸線——Akanji、Elvedi、Xhaka、Zakaria——皆是為了封鎖中路空間而設計，而這正是 Argentina 的組織核心最喜歡活動的區域。還記得 2022 年 Argentina 首戰對陣 Saudi Arabia 的慘劇嗎？當紀律嚴明的防守陣型封鎖了中路，他們就會陷入泥淖。如果 Switzerland 能將比分維持在 0-0 進入下半場，壓力將完全轉移到地主隊身上，而 Okafor 或 Ndoye 在反擊中的速度，將成為足以扭轉戰局的巨大威脅。",
+            "signature_scene": "第 72 分鐘，場上氣氛緊繃，Argentina 難以突破對手的低位防守。一次角球進攻後的二次球落到了 24 號 Enzo Fernández 腳下，他送出一記巧妙的背後傳球進入禁區。22 號 Lautaro Martínez 扛住 Manuel Akanji，轉身低射穿過 Gregor Kobel 的防守，終於瓦解了 Swiss 的防線。",
+            "reasoning_md": "Argentina 擁有壓倒性的進攻深度與素質，但 Switzerland 紀律嚴明且強悍的防守陣型，將使這場比賽成為一場極度考驗耐心的硬仗。預計這場比賽將會是一場比分接近的苦戰，最終 South Americans 將憑藉板凳深度取得勝利。",
+            "script_md": "整體解讀：Argentina 擁有 Lautaro Martínez、Julián Alvarez 等頂尖火力，以及 Nico Paz 這位高產量的射手，但 Switzerland 絕對是典型的「爆冷門」殺手。瑞士隊擁有組織嚴密的防線和旨在破壞節奏的中場，因此這場比賽不太可能出現一面倒的大勝。\n\n關鍵對位：Argentina 的進攻核心（De Paul、Mac Allister、Lo Celso）將與 Switzerland 由 10 號 Granit Xhaka (Sunderland AFC) 和 6 號 Denis Zakaria (AS Monaco) 組成的中場引擎展開消耗戰。在前場，22 號 Lautaro Martínez 將面對他 Inter Milan 的隊友、5 號 Manuel Akanji 的嚴峻身體對抗。\n\n比賽劇本：上半場 Switzerland 將採取中低位防守，吸收壓力並讓 Argentina 感到挫折。主隊將掌握控球權，但在面對 Gregor Kobel 時難以創造出絕佳的破門機會。下半場，Argentina 較深厚的板凳深度將成為關鍵——預計他們會換上像 18 號 Nico Paz 這樣體力充沛的球員，透過遠射來轟炸球門並拉開疲憊的瑞士防線。Switzerland 將透過 19 號 Noah Okafor (Leeds United FC) 和 11 號 Dan Ndoye (Nottingham Forest FC) 的反擊偶爾製造威脅，但 Argentina 最終將找到突破口。\n\n為何預測此比分：2-1 或 1-0 的比分反映了 Switzerland 頑強的防守韌性，以及 Argentina 最終在比賽後段展現出的實力。瑞士隊在大型賽事中極少遭到大比分擊潰。\n\n什麼情況會翻盤：如果 Switzerland 能在下半場初段透過定位球或快速轉換攻入一球，他們有足夠的防守紀律和中場韌性來「擺大巴」，守住 1-0 的爆冷勝利或 1-1 的平局。"
           },
           {
             "name": "Kimi",
@@ -8647,12 +8647,12 @@
               "A": 0.17
             },
             "confidence": 0.72,
-            "key_risk": "瑞士雙翼 Ndoye+Okafor 若同時爆發，阿根廷邊衛 Molina 身後空檔被逮個正著，單場 xG 可能衝上 1.8，直接逼到平局。",
+            "key_risk": "瑞士雙翼 Ndoye+Okafor 反擊打穿阿根廷邊衛身後，一次偷雞就夠把盤口炸翻。",
             "second_score": "1-1",
-            "contrarian_md": "主流敘事：梅西最後一舞＋阿根廷火力 3.37 指數，穩吃瑞士 2.04，小組首名提前到手。我不買賬：瑞士本屆預期貢獻 2.75 遠高紙面陣容值，代表雅金擺的 3-4-3 防反效率極高；阿根廷 22 名頂級聯賽球員裡 8 人超 30 歲，高壓 60 分鐘後強度斷崖，2022 小組首戰輸沙烏地就是這劇本。",
-            "signature_scene": "68' 阿根廷領先 1-0，梅西中圈丟球，瑞士 11號 Ndoye（Nottingham Forest）邊線生吃 26號 Molina，一路帶到禁區橫傳，19號 Okafor（Leeds United）搶點扳平 1-1，全場瑞士球迷沸騰。",
-            "reasoning_md": "阿根廷贏，但只能淨勝一球：中場厚度＋替補火力明顯高兩檔，瑞士鋒線轉換夠犀利保平局懸念。",
-            "script_md": "- 整體判讀：阿根廷中場人均關鍵傳球 1.5+，24號 Enzo＋20號 Mac Allister 雙後腰能把球權穩在 60%；瑞士靠 10號 Xhaka（Sunderland）長傳找 7號 Embolo，邊翼衛 3號 Widmer 插上，主打 30 米空檔一刀流。\n- 關鍵對位：阿根廷 15號 N. González（Atlético）左邊鋒 xG 0.51 全隊第二，正面對上瑞士 25號 Jaquez（VfB）20 歲小將，速度生吃是最大錯位；另一端瑞士 11號 Ndoye 每 90 分鐘 2.07 次射門，專打 26號 Molina 身後，阿根廷需 6號 L. Martínez 補位。\n- 劇本：前 25 分鐘阿根廷圍攻，18號 Paz（Como）遠射中楣；35' 梅西定位球助攻 2號 Montiel 頭槌 1-0。瑞士立刻回收 5-4-1，中場擺雙大巴，把比賽切成碎片。68' 瑞士反擊扳平（見 signature）。75' 斯卡洛尼換上 22號 Lautaro，85' 他接 11號 Lo Celso 直塞單刀 2-1 絕殺。\n- 為什麼是這比分：阿根廷創造力夠，但瑞士防反效率+Kobel 神撲擋住大勝；2-1 是實力差與比賽結構的折中值。\n- 翻盤情境：若 6號 L. Martínez 30' 前傷退，阿根廷左側補位變 19號 Otamendi，轉身速度被 Okafor 反覆針對，瑞士 2-1 爆冷並非天方夜譚。"
+            "contrarian_md": "主流敘事：梅西最後一舞＋阿根廷衛冕冠軍，瑞士火力指數差一截，穩吃。我不買賬：阿根廷這條邊衛 3-Tagliafico、26-Molina 本季在歐洲被爆速反擊的鏡頭一堆，而瑞士 11-Ndoye(諾丁漢)＋19-Okafor(利茲) 專吃這種身後，xG 相加 0.8，夠一擊致命；2022 德國就是這麼被日本兩次偷反擊直接死亡。",
+            "signature_scene": "下半場 63 分鐘，阿根廷角球被頂出，瑞士 6-Zakaria 中路扛人護球轉身，斜塞左邊路 11-Ndoye 單刀長驅 40 米，面對 13-Romero 內切橫傳，19-Okafor 搶點撞射破門，1-1 把衛冕軍逼上懸崖。",
+            "reasoning_md": "阿根廷中場創造力仍高一檔，但邊路空檔夠瑞士咬一口，最後靠替補 22-Lautaro 禁區靈性一腳收工。",
+            "script_md": "- 整體：阿根廷預期進球 3.37 vs 瑞士 2.75，差距沒想像大；瑞士 23 人全歐頂級聯賽，深度夠跑 90 分鐘高強度反擊。\n- 對位：阿根廷雙邊衛 3-Tagliafico(里昂)、26-Molina(馬競) 本季平均被過 1.8/1.6 次/90，瑞士 11-Ndoye 速度 34 km/h，專門打身後；中路由 5-Akanji(國米) 對位 10-Messi，身體對抗不吃虧。\n- 劇本：前 20 分鐘阿根廷控球 65%，11-Lo Celso 兩腳直塞被 Kobel 撲出；30 分鐘瑞士收 5-4-1 鐵桶，阿根廷邊中結合遠射開胡 1-0；下半場瑞士提速，63 分鐘反擊扳平；75 分鐘斯卡洛尼賭 22-Lautaro+18-Paz 雙前鋒，82 分鐘 Lautaro 禁區混戰搶射 2-1。\n- 翻盤線：若 6-Zakaria+10-Xhaka 中場絞殺成功，阿根廷最後 10 分鐘仍找不到第二點，瑞士 1-1 守到終場甚至反殺，完全可能。"
           },
           {
             "name": "Grok",
@@ -8660,17 +8660,17 @@
             "selection_team": "阿根廷",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.68,
-              "D": 0.24,
-              "A": 0.08
+              "H": 0.73,
+              "D": 0.17,
+              "A": 0.1
             },
-            "confidence": 0.72,
-            "key_risk": "瑞士隊緊湊的低位防守，以及 Embolo 的持球策應，將一次反擊轉化為追平比分的進球。",
+            "confidence": 0.74,
+            "key_risk": "瑞士中場（Xhaka/Zakaria）封鎖攻守轉換，並迫使對手陷入定位球纏鬥。",
             "second_score": "1-0",
-            "contrarian_md": "傳統觀點認為：Argentina 將憑藉 Messi、Alvarez 和 Lautaro 以至少 3-0 的比分橫掃對手。我並不買帳，因為數據顯示 Argentina 的進攻過度依賴少數幾位創造者（Lo Celso 場均 3.28 次關鍵傳球、Mac Allister 1.59 次），這些球員很容易遭到包夾封鎖；而 Switzerland 的後防線（Akanji、Elvedi）組織嚴密，足以迫使對手只能進行低機率的射門。歷史證明，這種對陣局勢正是強隊翻船的典型劇本（2022 年 Argentina 對陣 Saudi，以及 2022 年 Germany 對陣 Japan）。",
-            "signature_scene": "下半場第 68 分鐘：阿根廷隊 18 號 Nico Paz (Como) 在禁區右側接獲 24 號 Enzo Fernández 的傳球，隨後內切起腳低射，球穿過 Kobel 的防守破門，比數來到 2-1。",
-            "reasoning_md": "阿根廷以 3.37 的進攻指數與更勝一籌的陣容深度，輾壓了瑞士的 2.04；他們最終以 2-1 取勝，因為雙方的火力差距過大，瑞士難以保持零失球。",
-            "script_md": "阿根廷從開賽起便主導控球權與場地優勢，由 Mac Allister、Enzo Fernández 和 Lo Celso 組成的中場三人組掌控節奏。瑞士隊則採取緊湊防守，仰賴 10 號 Granit Xhaka 與 5 號 Manuel Akanji 來進行突破。早期的施壓收穫成效，由 9 號 Julián Alvarez 接應 17 號 Giuliano Simeone 的回傳球破門得分。比賽中段，瑞士隊透過 7 號 Breel Embolo 和 11 號 Dan Ndoye 的反擊製造威脅，但缺乏持續性的進攻壓力。阿根廷在 60 分鐘後再次發動攻勢，由 18 號 Nico Paz 攻入關鍵的第二球。比賽末段，瑞士隊靠著 4 號 Nico Elvedi 的定位球頭槌扳回一城，但最終未能追平比分。2-1 的比分反映了阿根廷明顯的優勢，但由於瑞士隊的防守組織限制了對手的絕佳機會，因此並未演變成大勝。若阿根廷其中一名中後衛領到紅牌，或是錯失一記點球，比賽結果便可能翻盤為平局。"
+            "contrarian_md": "顯而易見的劇本是 Argentina 在 Messi 的帶領下，憑藉更深厚的陣容深度輕鬆過關；但反面觀點則是 Switzerland 緊湊的 4-2-3-1 陣型，透過 Xhaka 與 Zakaria 的坐鎮，能讓 Argentina 在中場陷入窒息，無法獲得空間，這正是過去爆冷門（2018 年的 Germany、2022 年的 Argentina）的開端，將比賽轉變為有利於弱勢一方的低進球數消耗戰。",
+            "signature_scene": "下半場 68 分鐘，10 號 Messi 回撤接球，送出一記斜傳給 9 號 Julián Alvarez，後者在一次罕見的瑞士防線被撕裂後，直接起腳射門，皮球越過 Kobel 入網。",
+            "reasoning_md": "阿根廷以 3.37 的進攻指數與頂尖的前鋒深度，輾壓了瑞士 2.04 的進攻上限；主場優勢將比分推向 2-1 的險勝，而非一場大勝。",
+            "script_md": "阿根廷從開賽哨響便主導控球權並創造多次機會，Paz、Alvarez 與 Lautaro 皆繳出高 xG（預期進球值）數據；瑞士則採取緊縮防守，仰賴 Xhaka 與 Zakaria 進行屏障，並由 Embolo/Ndoye 伺機進行罕見的反擊。首顆進球由 Nico Paz 的倒三角回傳或 Romero 的定位球頭槌在開賽不久後產生。下半場阿根廷因投入過多兵力進攻，遭瑞士透過 Okafor 或 Embolo 的反擊扳平比分。比賽尾聲的致勝球來自阿根廷深厚的板凳深度（Alvarez 或 Simeone），利用瑞士球員體能下滑之際攻破防線。2-1 是最現實的比分差距，因為除非弱勢一方實力極度單薄，否則世界盃小組賽中實力懸殊的對戰很少出現三球以上的差距。除非瑞士先馳得點，並在接下來的 70 分鐘內擺出兩道四人防線，且 Messi 始終無法找到空檔，否則比賽結果不會翻盤。"
           },
           {
             "name": "GLM",
@@ -8682,13 +8682,13 @@
               "D": 0.18,
               "A": 0.1
             },
-            "confidence": 0.68,
-            "key_risk": "阿根廷中場過度壓上，被瑞士 Embolo 與 Ndoye 的反擊速度打穿單後衛防線",
+            "confidence": 0.7,
+            "key_risk": "阿根廷中場控制力下滑，若被瑞士打出高效反擊，可能重演2022年輸沙烏地的翻車劇本。",
             "second_score": "1-1",
-            "contrarian_md": "主流會說阿根廷攻擊指數 3.37 碾壓瑞士 2.04，前鋒線 Lautaro、Alvarez、Nico Paz 個個能進球，瑞士只能擺大巴等死。我不完全信。阿根廷這條中場 Mac Allister、Enzo、De Paul 全是壓上型，關鍵傳球資料高但防守覆蓋不足；瑞士 Xhaka 加 Zakaria 的雙後腰是專門剋制這種「中場不回防」的配置。2022 德國輸日本就是中場壓上去回不來，被反擊打穿——阿根廷如果輕視瑞士的轉換速度，同樣的劇本可以再演一次。",
-            "signature_scene": "下半場 65 分鐘，阿根廷 10號 Messi 在中線附近送出直傳被 10號 Xhaka（Sunderland）攔截，Xhaka一腳長傳找 7號 Embolo（Stade Rennais），Embolo用速度生吃 13號 Romero，禁區右側低射破門追平比分。",
-            "reasoning_md": "阿根廷贏，但贏得不輕鬆。前場火力深度夠，但中場防守留洞，瑞士反擊能咬住一球。2-1 是最合理的真實比分。",
-            "script_md": "## 整體判讀\n阿根廷攻擊指數 3.37 對瑞士 2.04，表面差距大，但瑞士本屆預期貢獻 2.75 說明他們狀態不差。阿根廷的問題不在進攻，在於中場 Mac Allister（Liverpool）、Enzo（Chelsea）、De Paul（Inter Miami）全是攻大於守的型別，面對瑞士雙後腰 Xhaka（Sunderland）和 Zakaria（Monaco）的絞殺，阿根廷中場推進會比預期卡。\n\n## 關鍵對位\n- **阿根廷 22號 Lautaro Martínez（Inter）xG90 0.67** vs **瑞士 5號 Akanji（Inter）**：同隊隊友，Akanji 最懂 Lautaro 的跑位，這組對位會讓 Lautaro 比俱樂部賽更難受。\n- **阿根廷 21號 Nico Paz（Como）xG90 0.78** 是最大變數，但射門90 高達 15.00 說明他大量浪射，面對瑞士這種紀律防線效率會打折。\n- **瑞士 7號 Embolo（Rennes）xG90 0.42** vs **阿根廷 6號 Lisandro Martínez（Man United）**：Embolo 的身體和速度是專打 Lisandro 的弱點，這條線瑞士能製造威脅。\n\n## 比賽劇本\n- **早段（0-25分）**：阿根廷控球壓制，瑞士 5-3-2 收縮。阿根廷靠 11號 Lo Celso（Betis）的關鍵傳球（90分鐘 3.28）在左路製造混亂，25 分鐘左右 Lautaro 或 Alvarez 搶點破門，1-0。\n- **中段（25-65分）**：阿根廷繼續壓但效率下降，Nico Paz 上來後瘋狂射門但打不穿。瑞士穩住後開始找 Embolo 和 11號 Ndoye（Nottingham Forest）的反擊空間。\n- **末段（65-90分）**：瑞士 65 分鐘左右靠一次反擊由 Embolo 追平。阿根廷被嚇醒，Messi 或 Alvarez 在 75-85 分鐘靠個人能力或定位球再進一個，2-1 收尾。\n\n## 為什麼是 2-1\n阿根廷火力夠進 2 球，但中場防守漏洞讓瑞士一定咬回 1 球。不會是大比分，因為瑞士門將 1號 Kobel（Dortmund）是頂級的，Akanji 體系也不會崩。\n\n## 什麼情況會翻盤\n如果阿根廷中場全壓上被瑞士連續打兩次反擊得手（像 2022 沙烏地打阿根廷那樣），1-2 爆冷完全可能。瑞士不是沒有這個能力，Embolo 和 Ndoye 的速度就是為這種場景準備的。"
+            "contrarian_md": "主流一定覺得阿根廷星光熠熠，瑞士連主力都在英冠或保級隊，阿根廷隨便捏。但我偏要挑毛病：阿根廷名單裡 De Paul 跑去美職聯、Paredes 回阿根廷聯賽，中場硬度跟巔峰期比差了一截。瑞士那邊 Xhaka 雖然去了桑德蘭，但他是那種世界盃會突然回魂的老油條，加上 Akanji 在國米練出來的防守體系，瑞士如果鐵了心擺大巴，阿根廷這套中場不一定能像大家想的那樣輕鬆切開。2022 年阿根廷輸沙烏地就是被反擊打穿，瑞士有 Embolo 和 Okafor 這種速度型，真不是沒機會咬一口。",
+            "signature_scene": "下半場 65 分鐘左右，阿根廷久攻不下，瑞士10號 Xhaka（Sunderland）在中場斷球直接長傳左路，7號 Embolo（Stade Rennais）用速度硬吃阿根廷4號 Montiel（River Plate），殺入禁區低射破門，全場傻眼。",
+            "reasoning_md": "阿根廷整體實力跟深度還是贏瑞士一檔，但中場硬度下滑讓他們很難零封。瑞士反擊有威脅，能進球但後防扛不住阿根廷多點開花，最終阿根廷 2-1 險勝。",
+            "script_md": "### 整體判讀\n阿根廷攻擊指數 3.37 對瑞士 2.04，帳面差距明顯，但阿根廷中場幾個主力（De Paul、Paredes）離開歐洲頂級聯賽，控制力跟 2022 年冠軍隊不是同一個檔次。瑞士雖然鋒線在英冠、法甲中下游打轉，但後防有 Akanji（國米）坐鎮，Xhaka 中場排程經驗老到，不是軟柿子。\n\n### 關鍵對位\n- 阿根廷18號 Nico Paz（Como）xG90 高達 0.78，是這場最大變數，他跟22號 Lautaro（國米）的鋒線組合能給瑞士後防製造持續壓力。\n- 瑞士5號 Akanji（國米）對阿根廷鋒線的單防能力是瑞士能不能撐住的關鍵，他本季在國米狀態穩定。\n- 瑞士7號 Embolo（Stade Rennais）xG90 0.42，速度跟身體是瑞士反擊唯一指望，阿根廷4號 Montiel（River Plate）回防速度是隱患。\n\n### 比賽劇本\n- **上半場**：阿根廷控球為主，瑞士縮得很深，Xhaka 指揮防線不給空間。阿根廷靠11號 Lo Celso（Real Betis）的關鍵傳球（90分鐘3.28次）穿針引線，但瑞士門將1號 Kobel（多特蒙德）狀態夠硬，上半場大機率0-0或阿根廷1-0小領先。\n- **中段**：阿根廷下半場加快節奏，Nico Paz 或 Lautaro 在禁區內製造混亂，60分鐘前後破門。瑞士被迫壓出來，反擊空間就出來了。\n- **末段**：瑞士換上19號 Okafor（Leeds）衝刺，阿根廷中場硬度不足的問題暴露，被反擊偷一個。但阿根廷鋒線深度夠，最後靠替補或定位球再進一個鎖定勝局。\n\n### 為什麼是 2-1\n阿根廷火力多點分佈（Paz、Lautaro、Alvarez 都有 0.4 以上 xG90），瑞士防得住一時防不住整場，進2球合理。但阿根廷中場硬度下滑，瑞士反擊有 Embolo 和 Okafor 的速度，偷1球完全可能。2-1 是最寫實的強隊小勝劇本。\n\n### 翻盤條件\n如果阿根廷上半場被瑞士反擊先進球，被迫壓上狂攻，瑞士擺鐵桶，阿根廷中場創造力不足以破密集防守，這場就可能1-1甚至0-1翻車。Xhaka 的經驗加上 Kobel 的門線技術，是瑞士能搞事的本錢。"
           }
         ]
       },
