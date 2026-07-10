@@ -8262,8 +8262,8 @@
       "away": "比利時",
       "kickoff_tw": "2026-07-11 03:00",
       "stage": "1/4決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "2-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8400,7 +8400,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328027",
