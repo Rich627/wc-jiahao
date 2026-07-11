@@ -8408,8 +8408,8 @@
       "away": "英格蘭",
       "kickoff_tw": "2026-07-12 05:00",
       "stage": "1/4決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -8546,7 +8546,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54328028",
