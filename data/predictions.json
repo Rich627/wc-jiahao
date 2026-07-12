@@ -8554,8 +8554,8 @@
       "away": "瑞士",
       "kickoff_tw": "2026-07-12 09:00",
       "stage": "1/4決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "1-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8692,7 +8692,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54328029",
