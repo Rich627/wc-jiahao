@@ -8700,8 +8700,8 @@
       "away": "西班牙",
       "kickoff_tw": "2026-07-15 03:00",
       "stage": "半決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8838,7 +8838,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     },
     {
       "match_id": "54328030",
