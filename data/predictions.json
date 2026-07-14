@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T17:21:52+08:00",
+  "generated_at": "2026-07-14T10:51:19+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -8409,7 +8409,7 @@
       "kickoff_tw": "2026-07-12 05:00",
       "stage": "1/4決賽",
       "status": "已完賽",
-      "score": "1-1",
+      "score": "1-2",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -8546,7 +8546,7 @@
           }
         ]
       },
-      "correct": false
+      "correct": true
     },
     {
       "match_id": "54328028",
@@ -8555,7 +8555,7 @@
       "kickoff_tw": "2026-07-12 09:00",
       "stage": "1/4決賽",
       "status": "已完賽",
-      "score": "1-1",
+      "score": "3-1",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -8692,18 +8692,152 @@
           }
         ]
       },
-      "correct": false
+      "correct": true
     },
     {
       "match_id": "54328029",
-      "home": "第1場1/4決賽勝者",
-      "away": "第2場1/4決賽勝者",
+      "home": "法國",
+      "away": "西班牙",
       "kickoff_tw": "2026-07-15 03:00",
       "stage": "半決賽",
       "status": "未開賽",
       "score": null,
       "had_odds": null,
-      "my_prediction": null,
+      "my_prediction": {
+        "consensus_selection": "HOME",
+        "consensus_team": "法國",
+        "win_prob": 0.392,
+        "agree": "4/7 models",
+        "predicted_score": "2-1",
+        "models": [
+          {
+            "name": "GPT",
+            "selection": "AWAY",
+            "selection_team": "西班牙",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.32,
+              "D": 0.27,
+              "A": 0.41
+            },
+            "confidence": 0.58,
+            "key_risk": "法國隊的轉換進攻致命一擊：如果 10 號 Mbappé 狀態確實達到 100%，而西班牙的邊後衛（12 號 Porro / 24 號 Cucurella）又壓得太靠前，只要出現一兩次掉球，法國隊的前鋒線就能將比賽迅速轉化為 2-0 的局面。",
+            "second_score": "1-1",
+            "contrarian_md": "### 明顯的敘事\n法國隊擁有「主場」優勢、衛冕冠軍的光環，加上 Mbappé 與豪華的前場陣容——因此最保險的看法是 **France edge it（法國險勝）**。\n\n### 為什麼我並不完全買單\n西班牙的數據顯示他們擁有 **更強的整體進攻質量與更多的創造機會方式**（球隊進攻指數 3.69 對比 2.98），且他們預計的首發陣容具備那種中場控制力（No.16 Rodri + No.20 Pedri + No.10 Dani Olmo），足以讓法國隊最強大的武器：混亂轉換進攻陷入飢渴。如果法國隊的中後衛狀態有哪怕 10% 的下滑（Upamecano/Saliba 缺席訓練），西班牙持續的邊路一對一突破（No.19 Lamine Yamal，若有上場的 No.17 Nico Williams）就能製造出那一次足以扭轉「法國應該沒問題」比賽局勢的防守失誤——這正是過去大牌球隊被淘汰的方式（想想 **2022 年德國對日本**：控制、耐心，然後是無情的致命一擊）。",
+            "signature_scene": "下半場約 64 分鐘：西班牙重新組織攻勢，16 號 Rodri (Man City) 將球吊入右路通道，19 號 Lamine Yamal (Barcelona) 壓制住 3 號 Digne，隨後內切並送出低平球回傳——21 號 Mikel Oyarzabal (Real Sociedad) 跟進第一時間起腳破門，取得領先。",
+            "reasoning_md": "西班牙以 2-1 勝出：他們擁有更高水準的進攻深度，以及由 Rodri 與 Pedri 組成的控制中軸，這能防止 France 透過轉換進攻製造威脅，隨後他們憑藉一次關鍵的邊路傳中禁區攻勢鎖定勝局。",
+            "script_md": "法國隊的「頭號」威脅顯而易見——10號 Mbappé 加上 11號 Olise 和 7號 Dembélé 組成的進攻線簡直是轉換進攻的電鋸——但根據數據顯示，西班牙才是更全面的機會創造機器，擁有眾多得分手（7號 Ferran Torres、21號 Oyarzabal）和創造者（20號 Pedri、15號 Álex Baena）持續輸出。\n\n關鍵的棋盤在於中場。如果 8號 Tchouaméni 回歸，且法國隊能將比賽節奏轉變為對抗與衝刺的拉鋸戰，西班牙就會被拖入面對法國隊時最不願見到的局面：開放式防守。但西班牙預計的三人組（16號 Rodri、20號 Pedri、10號 Dani Olmo）正是為了**放慢比賽節奏**而打造，他們能讓法國隊的邊鋒疲於奔命，並持續進攻法國隊邊後衛身後的半場空間（half-spaces）。\n\n比賽劇本：西班牙開局將長時間控球，透過 19號 Lamine Yamal 和邊路重疊進攻試探右路，而法國隊早期的最佳機會來自一兩次直接的爆發（11號 Olise 傳球給 9號 Thuram，或是 7號 Dembélé 贏得角球）。法國隊仍可能先馳得點——轉換進攻或定位球是他們最直接的得分途徑——但西班牙的射門次數和機會質量會持續累積，直到他們在中場休息前後扳平比分。\n\n比賽後段是西班牙在「控制力」上的深度優勢發揮作用之處：他們可以在不讓比賽變成擲硬幣賭博的情況下持續創造機會。一次持續的進攻將法國隊壓制在後場，透過倒三角回傳或二點球補射將比分改寫為 1-2，隨後法國隊最後的猛攻將顯得慌亂多於精準（Mbappé 會有大量射門，但明確的得分機會較少）。\n\n為何是 1-2 而非大比分獲勝：兩隊都擁有頂尖門將，且防守球員足以限制對手的絕佳機會，因此這場比賽將維持世界盃常見的「一球定勝負」格局。\n\n翻盤點：如果法國隊的中後衛狀況其實沒問題，且他們能提早贏下中場對抗，那麼西班牙位置靠前的邊後衛（12號 Porro / 24號 Cucurella）就會被抓到空檔，屆時 10號 Mbappé 若能將一次失誤轉化為進球，比賽將就此終結。"
+          },
+          {
+            "name": "Claude",
+            "selection": "AWAY",
+            "selection_team": "西班牙",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.37,
+              "D": 0.27,
+              "A": 0.36
+            },
+            "confidence": 0.5,
+            "key_risk": "如果 Spain 的高位防線在反擊中被抓到空檔，France 前場強大的火力（Thuram/Mateta/Olise）將能輕易擊潰 Spain 的控球戰術。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為：衛冕冠軍 France 擁有 Mbappé、Dembélé 以及豪華的板凳深度，足以擊敗任何對手——而 Spain 雖然踢法華麗，但球風偏軟。我並不完全認同。Spain 的進攻指數（3.69）明顯高於 France（2.98），且他們的豪華中場——Rodri、Pedri、Baena、Olmo——所展現的控制力是 France 在一對一防守中無法匹敵的；Tchouaméni 才剛傷癒復出，而 Koné 與 Rabiot 也無法在該區域佔據主導地位。France 真正的弱點與過去如出一轍：Deschamps 的球隊習慣退守並賭博式地進行反擊，這正好給了 Spain 最擅長的持續施壓機會。名氣上說「France 穩贏」；但歷史證明，衛冕冠軍在面對技術更出色的球隊時往往會動搖（如 2018 年的 Germany，以及 Spain 自己也曾多次擊敗奪冠熱門）。如果 Upamecano 與 Saliba 帶傷上陣，Spain 透過 Yamal、Nico Williams 和 Oyarzabal 的輪番衝擊，將會不斷試探並最終撕裂對手的防線。",
+            "signature_scene": "下半場約 65 分鐘：西班牙 20 號 Pedri (FC Barcelona) 傳出一記隱蔽的穿越球，穿過 Konaté 與 Saliba 之間，讓 17 號 Nico Williams (Athletic Club) 趁著法國隊防線體力下滑之際衝入身後，以一記低射越過 Maignan 破門——在法國隊因過度退守以保住領先優勢後，這球成為了反超比分的關鍵進球。",
+            "reasoning_md": "稍微看好 Spain：他們在中場的優勢以及更深厚的進攻指數，應該能壓制住採取深度防守並依賴反擊的 France——但這場比賽勝負難料，因此預測比分為膠著的 2-1。",
+            "script_md": "**整體解讀：** 兩支重量級球隊，但優勢各異。法國的優勢在於純粹的終結能力與反擊速度——Thuram (0.51)、Mateta (0.48)、Olise (0.40)，再加上 Mbappé 在轉換進攻中的威脅。西班牙的優勢則在於結構：他們透過 Rodri、Pedri、Baena 和 Olmo 掌控球權，且其進攻深度（指數 3.69）確實優於法國（2.98）。\n\n**關鍵對位：** 比賽勝負取決於中場。西班牙的 16 號 Rodri (Manchester City) 與 20 號 Pedri (FC Barcelona) 將主導節奏，對抗法國由 Tchouaméni（傷癒復出狀態未明）、Koné 和 Rabiot 組成的三人中場。在邊路，17 號 Nico Williams (Athletic Club) 與 19 號 Lamine Yamal (FC Barcelona) 將衝擊法國的邊後衛——如果 Upamecano/Saliba 的狀態未達 100%，那將是防線的破口。法國的回應則是依靠 Dembélé 和 Olise 的反擊，並由 Thuram 在防線身後伺機而動。\n\n**比賽劇本：** 預計上半場會是謹慎且以控球為主的局面——西班牙佔據球權，法國則滿足於防守反擊。法國甚至可能在上半場結束前，透過反擊（Dembélé 助攻 Thuram/Mateta）先馳得點。真正的危險在 60 分鐘後：法國開始退守，西班牙的控制力顯現，替補席（Oyarzabal、Ferran Torres）能維持不間斷的壓力。屆時，法國深陷的防線將被突破。\n\n**為何預測此比分：** 1-2 的比分既符合數據（西班牙更優異的控制力與深度），也符合 Deschamps 執教球隊的慣性——先得分、防守，隨後被追平並在比賽末段崩盤。這會是一場一球之差的比賽，因為法國的終結者們具備足夠的致命性，能讓比分保持膠著。\n\n**變數：** 如果法國能透過反擊早早攻入兩球，迫使西班牙大舉壓上，那麼 Mbappé 和 Dembélé 在廣闊空間下的發揮，可能會將比分改寫為法國 2-1 獲勝。此外，平局的可能性也非常高——如果西班牙的終結能力失準（例如 Oyarzabal 浪費機會），1-1 將是可能的結果。"
+          },
+          {
+            "name": "DeepSeek",
+            "selection": "DRAW",
+            "selection_team": "和局",
+            "predicted_score": "1-1",
+            "win_prob": {
+              "H": 0.4,
+              "D": 0.3,
+              "A": 0.3
+            },
+            "confidence": 0.6,
+            "key_risk": "法國中衛傷疑（Upamecano、Saliba）若狀態不佳，會被西班牙邊路小組配合打穿，暴露姆巴佩回防不及的空間。",
+            "second_score": "2-1",
+            "contrarian_md": "主流會說西班牙傳控碾壓、法國只能被動捱打，但我不吃這套。西班牙鋒線終結太軟，Oyarzabal 和 Baena 的 xG 沒一個能一錘定音，而法國中場 Kanté 和 Tchouaméni 的搶斷後直接找姆巴佩，專打西班牙邊後衛身後。2018 西班牙輸俄羅斯、2022 輸摩洛哥，都是控球 75% 被反擊活活捅死，這場翻車劇本一模一樣。",
+            "signature_scene": "上半場 33 分鐘，法國 6 號 Manu Koné 中場斷球後直傳，10 號 Mbappé 左路趟過 2 號 Porro 後低平球橫傳，9 號 Thuram 門前鏟射破門，法國 1-0。",
+            "reasoning_md": "法國反擊的銳利度蓋過西班牙的控球，姆巴佩是決勝點，但西班牙中場能創造足夠機會扳平，平局最合理，法國小勝是次選。",
+            "script_md": "① 整體判讀：西班牙攻擊指數高，中場控制力強，但鋒線缺乏絕對殺手；法國靠世界最強反擊組合，姆巴佩、Dembélé 的速度會讓西班牙不敢全線壓上。② 關鍵對位：法國 10 號 Mbappé vs 西班牙 2 號 Porro，Porro 助攻後回不來，姆巴佩一步就能製造單刀；西班牙 19 號 Yamal 內切會找法國 19 號 Theo Hernandez 身後，但 Theo 回追快，Yamal 需要 Rodri 的過頂球。③ 比賽劇本：開場西班牙控球，法國退守中線，前 25 分鐘西班牙難有實質威脅。30-35 分鐘，法國第一次反擊就由 Mbappé 左路爆破 Porro，傳中 Thuram 搶點得分，1-0。下半場西班牙換上 Nico Williams 強攻，60-70 分鐘利用角球或二次進攻，由 21 號 Oyarzabal 門前混戰扳平 1-1。最後 20 分鐘兩邊都怕犯錯，節奏放慢，平局收場。④ 為什麼是 1-1：雙方都有頂級防線，但也都帶傷疑，各有一次致命失誤導致丟球，之後趨於保守，總進球 2 球符合大賽淘汰賽常態。⑤ 翻盤條件：若法國中衛傷勢影響超預期，西班牙可能由 Yamal 或 Ferran Torres 早段進球，法國被迫壓上，反而被打成 0-2；或者法國反擊高效，姆巴佩再進一球打成 2-0。"
+          },
+          {
+            "name": "Gemini",
+            "selection": "AWAY",
+            "selection_team": "西班牙",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.25,
+              "D": 0.3,
+              "A": 0.45
+            },
+            "confidence": 0.65,
+            "key_risk": "Mbappé 的腳踝傷勢只是煙霧彈，他的速度在開賽初期徹底摧毀了西班牙的防線。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統的觀點認為，法國隊憑藉其絕對的速度優勢和豐富的大賽經驗，將能像往常對付控球型球隊那樣，透過反擊摧毀西班牙隊的高位防線。但我並不買帳。法國隊的防守中軸線傷痕累累——Upamecano 和 Saliba 都缺席了訓練，而 Mbappé 也帶著腳踝傷勢出賽。如果你的中後衛無法保持 100% 的敏銳度來化解對手無休止的倒三角回傳，你就無法針對西班牙隊打出完美的低位防守反擊。西班牙隊的中場不會盲目壓上；Rodri 將會徹底封鎖對手的供輸線。如果法國隊因為這些傷勢導致攻守轉換慢了哪怕零點幾秒，西班牙隊的壓迫反搶將會把他們生吞活剝。",
+            "signature_scene": "下半場，大約第 65 分鐘。Spain 在禁區邊緣持續控球。19 號 Lamine Yamal 在右路一對一面對 Théo Hernandez，隨後內切，並送出一記隱蔽的倒三角傳球給 10 號 Dani Olmo，後者利用帶傷的 Upamecano 半步的遲疑，成功破門得分。",
+            "reasoning_md": "西班牙頂尖的中場控制力與優異的進攻深度（指數 3.69）將會重創傷兵滿營的法國隊。隨著法國隊先發中後衛帶傷上陣，西班牙持續不斷的控球與邊路人數優勢，終將突破他們的防守陣線。",
+            "script_md": "- **整體解讀**：這是一場風格迥異的對決，但西班牙的團隊進攻指數（3.69）優於法國（2.98）。儘管法國擁有頂級的攻守轉換武器，但他們的中軸線已傷痕累累。Upamecano 和 Saliba 缺席訓練，對於要面對西班牙持續不斷的進攻施壓來說，是一個巨大的警訊。\n- **關鍵對位**：比賽勝負將取決於邊路。西班牙的 No.19 Lamine Yamal 和 No.17 Nico Williams 將會拉開法國的邊後衛（Koundé 和 Théo Hernandez）。在中場，No.16 Rodri 將掌控節奏，迫使法國的 No.8 Tchouaméni 和 No.13 Kanté 疲於奔命。\n- **比賽劇本**：法國可能會採取中低位防守，引誘西班牙控球，同時伺機發動反擊，尋找 No.10 Mbappé 和 No.7 Dembélé。預計上半場會相當緊繃，法國甚至可能在不被看好的情況下，透過快速轉換先馳得點。然而，隨著比賽深入，法國中後衛傷病隱憂帶來的體能消耗將會顯現。由 Pedri 和 Olmo 策動的西班牙持續性施壓，將在比賽後段取得突破。\n- **為何預測此比分**：法國有足夠的火力取得進球，但西班牙壟斷球權的能力將限制法國的總體機會。1-2 的比分反映了西班牙的掌控力以及法國防線的脆弱。\n- **什麼情況會翻盤**：如果 Mbappé 的腳踝完全無礙，且他能儘早單挑 Laporte，迫使對方領到紅牌或取得兩球領先，那麼西班牙的控球可能會變得徒勞無功且陷入絕望。"
+          },
+          {
+            "name": "Kimi",
+            "selection": "AWAY",
+            "selection_team": "西班牙",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.38,
+              "D": 0.29,
+              "A": 0.33
+            },
+            "confidence": 0.68,
+            "key_risk": "Lamine Yamal 單點爆發＋法國邊衛 Gusto 身後空檔被反擊打穿",
+            "second_score": "2-2",
+            "contrarian_md": "主流敘事：法國鋒線群星＋主場氣勢，穩吃西班牙。我不買帳：西班牙攻擊指數 3.69 高過法國 2.98，控球＋兩翼 19 號 Yamal、17 號 Nico 直接對位法國邊衛 Gusto／Digne，速度劣勢明顯；2022 日本逆轉德國、2018 韓國逆德國，全是邊路快馬打爆高壓強隊，劇本似曾相識。",
+            "signature_scene": "下半場 63 分鐘，西班牙 6 號 Merino 搶回球權，直塞給 19 號 Yamal，Yamal 內切晃開 2 號 Gusto，左腳兜射遠柱破網，比分 2-1 反超，法國主場瞬間安靜。",
+            "reasoning_md": "西班牙控球壓節奏＋兩翼反擊更銳，法國鋒線轉換被 Rodri 拖慢，客隊 2-1 帶走小組第一。",
+            "script_md": "- 整體：西班牙攻擊指數更高、深度更整齊，Rodri＋Pedri 雙節拍器把比賽切成 5-10 秒搶斷＋15 秒快反，法國只能靠 Mbappé 單點衝，但中路被 Laporte／Cubarsí 包夾，預期進球轉換率下滑。\n- 關鍵對位：法國 2 號 Gusto（xG90 0.09）進攻插上後身後大片草原，直接對上 19 號 Yamal（xG90 0.24＋1.61 關鍵傳球），速度＋技術錯位，西班牙主打通路；另一側 17 號 Nico Williams 對 3 號 Digne，同樣是節奏劣勢。\n- 劇本：開場 15 分鐘法國靠 Mbappé 反擊拿到角球，Olise 開出、Thuram 頭槌 1-0；西班牙不慌，30 分鐘後控球 65%，Baena 左腳遠射中柱。下半場 50 分鐘 Oyarzabal 接 Grimaldo 低傳推遠角 1-1；63 分鐘 Yamal 單吃 Gusto 反超 2-1。法國後段換上 Mateta 打長傳，但 Rodri 兩次攔截終結攻勢。\n- 比分原因：西班牙預期進球 3.24 略低於法國 3.36，但控球＋邊路錯位製造更高品質機會，兩次轉換就進兩球；法國靠個人能力先聲奪人，後續被掐死邊中連線，只能 1-2 收場。\n- 翻盤情境：若 Tchouaméni ＋ Kanté 同時爆發，搶回中場二點，讓 Dembélé／Olise 快速二次反擊，法國有機會 2-2 甚至 3-2，但機率低於三成。"
+          },
+          {
+            "name": "Grok",
+            "selection": "HOME",
+            "selection_team": "法國",
+            "predicted_score": "2-1",
+            "win_prob": {
+              "H": 0.42,
+              "D": 0.3,
+              "A": 0.28
+            },
+            "confidence": 0.68,
+            "key_risk": "Mbappé 的腳踝傷勢復發，限制了他向後防線身後的跑動。",
+            "second_score": "1-1",
+            "contrarian_md": "傳統觀點認為，作為衛冕冠軍的 France 在 Mbappé 的領軍下將輕鬆過關。然而，這種說法忽略了 Spain 高達 3.69 的進攻指數（France 為 2.98），以及像 Pedri、Yamal 和 Olmo 這樣頂尖的創造者，他們完全有能力撕開 Upamecano 和 Saliba 狀態尚未調整至最佳的防線；2018 年的 Germany 和 2022 年的 Argentina，正是在被貼上「穩贏」熱門標籤時慘遭滑鐵盧。",
+            "signature_scene": "下半場 68 分鐘，法國隊 10 號 **Mbappé** (Real Madrid) 在左路形成單打局面，西班牙隊 16 號 **Rodri** (Manchester City) 上前防守並成功斷球，隨即傳給 19 號 **Lamine Yamal** (FC Barcelona)，後者內切後以低射攻破 **Samba** 把守的大門。",
+            "reasoning_md": "西班牙優異的進攻數據與中場控制力勝過法國的主場優勢；小勝或平局是較為實際的客場賽果。",
+            "script_md": "西班牙透過 Rodri 和 Pedri 掌控球權，法國則採取緊湊防守並尋求 Mbappé 的轉換進攻。比賽初期，西班牙從左路發動攻勢，由 Grimaldo 前插與 Yamal 配合。法國先馳得點，由 Dembélé 開出角球，Mateta 頭槌破門。西班牙在半場結束前扳平比分，Olmo 妙傳給 Baena 低射入網。下半場西班牙加強前壓，法國體能下滑，Yamal 的反擊進球讓西班牙取得領先。法國雖在比賽末段由 Olise 追回一球，但最終未能扳平比分。比分維持在 2-1，原因在於西班牙的中場深度（Rodri、Zubimendi、Merino）讓法國無法持續施壓。比賽結果唯有在 Mbappé 保持完全健康，且法國在西班牙站穩腳跟前兩度反擊得手的情況下，才有可能翻盤。"
+          },
+          {
+            "name": "GLM",
+            "selection": "AWAY",
+            "selection_team": "西班牙",
+            "predicted_score": "1-2",
+            "win_prob": {
+              "H": 0.35,
+              "D": 0.25,
+              "A": 0.4
+            },
+            "confidence": 0.65,
+            "key_risk": "法國主場光環與 Mbappé 的個人靈光一閃，可能硬生生打穿西班牙中場的節奏控制，靠反擊偷走勝利。",
+            "second_score": "1-1",
+            "contrarian_md": "主流名氣會看這場：法國是衛冕冠軍，又有 Mbappé（10號）、Thuram（9號）這種怪獸前鋒，主場作戰理應碾壓。但我不買帳。法國的陣容攻擊指數只有 2.98，遠低於西班牙的 3.69，這不是小差距，是層級上的落差。更致命的是法國中場沒有大腦，Tchouaméni（8號）剛傷癒、Kanté（13號）老了，面對西班牙 Rodri（16號）+ Pedri（20號）的雙核控制，法國中場極可能被當猴耍。世界盃冷門史告訴我們，強隊中場失勢就是翻車的開始——2022 德國輸日本就是中場被看穿。法國的「穩」是假象，傷兵名單 Upamecano（4號）、Saliba（17號）雖然預期上，但帶傷硬扛西班牙的傳導，遲早出事。",
+            "signature_scene": "下半場 60 分鐘左右，西班牙 16號 Rodri（Manchester City）在中場截斷法國 8號 Tchouaméni（Real Madrid）的傳球，一腳長傳找到左路 19號 Lamine Yamal（FC Barcelona），Yamal切入禁區晃過法國 17號 Saliba（Arsenal FC），低射破門，2-1。",
+            "reasoning_md": "西班牙中場控制力碾壓法國，Rodri+Pedri 體系能讓法國的鋒線群拿不到球。法國靠 Mbappé 個人能力偷一個，但整體節奏在西班牙手上，客隊 2-1 帶走勝利。",
+            "script_md": "### 整體判讀：西班牙中場贏，法國鋒線乾著急\n\n這場比賽的勝負手不在前鋒，在中場。西班牙的陣容攻擊指數 3.69 vs 法國 2.98，差距將近 0.7，這在頂級對決裡是很大的鴻溝。西班牙有 Rodri（16號，Manchester City）、Pedri（20號，FC Barcelona）、Dani Olmo（10號，FC Barcelona）三個人能拿球、能分球、能節奏變換，法國這邊 Tchouaméni（8號，Real Madrid）剛傷癒狀態未知，Kanté（13號，Fenerbahçe）體能下滑，中場根本對不上。\n\n### 關鍵對位：法國中場被看穿，邊路被打爆\n\n法國最大的問題是：他們的進攻全靠鋒線個人能力（Mbappé 射門90 5.06、Thuram xG90 0.51），但沒有人能穩定把球送到他們腳下。西班牙那邊 Álex Baena（15號，Atlético De Madrid）預期助攻90 0.35、關鍵傳球90 2.84，這個資料比法國任何一個中場都高。加上 Grimaldo（3號，Bayer 04 Leverkusen）左路插上助攻能力極強（預期助攻90 0.34），法國右路 Gusto（2號，Chelsea FC）會被來回拉扯，露出空檔。\n\n法國的中後衛也是隱患：Upamecano（4號，FC Bayern München）和 Saliba（17號，Arsenal FC）都帶傷，面對西班牙的小範圍滲透，反應慢半拍就是致命的。\n\n### 比賽劇本\n\n- **早段（0-20分）**：西班牙一開場就控球，法國被迫退守。法國想打反擊但中場拿不住球，Mbappé 在前面孤立無援。西班牙慢慢建立節奏，法國只能靠犯規阻斷。\n- **中段（20-60分）**：西班牙先進球。大概 30 分鐘左右，Pedri（20號）中路直塞，Oyarzabal（21號，Real Sociedad）反越位成功，1-0。法國落後開始壓上，Mbappé 拿到一次單刀機會，靠個人速度硬吃 Laporte（14號，Athletic Club），扳平 1-1。但西班牙不慌，繼續控球找機會。\n- **末段（60-90分）**：法國體能下降，中場完全失勢。西班牙換上 Nico Williams（17號，Athletic Club）衝擊法國右路，60 分鐘左右 Rodri（16號）中場斷球反擊，Lamine Yamal（19號，FC Barcelona）破門，2-1。法國最後階段全線壓上但亂了章法，西班牙穩穩收下。\n\n### 為什麼是 1-2\n\n兩隊火力都不差，但都不至於大勝。法國有 Mbappé，一定會進球；西班牙中場控制力強，能創造 2-3 個絕對機會，把握住 2 個。總進球 3 個，符合世界盃四強戰的常見節奏。\n\n### 什麼情況會翻盤\n\n如果法國中場 Tchouaméni 狀態比預期好，能跟 Rodri 對抗不落下風，加上 Mbappé 開局就偷一個，法國可能靠防守反擊 2-1 逆轉。但這個機率不高，因為西班牙的中場體系太成熟了。"
+          }
+        ]
+      },
       "correct": null
     },
     {
