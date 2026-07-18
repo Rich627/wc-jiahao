@@ -8858,8 +8858,8 @@
       "away": "英格蘭",
       "kickoff_tw": "2026-07-19 05:00",
       "stage": "季軍賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "4-6",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "AWAY",
@@ -8996,7 +8996,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": true
     },
     {
       "match_id": "54328033",
