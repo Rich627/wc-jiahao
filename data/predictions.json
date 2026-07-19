@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T15:51:10+08:00",
+  "generated_at": "2026-07-19T16:02:11+08:00",
   "competition_name": "世界盃",
   "models": [
     "GPT",
@@ -9010,8 +9010,8 @@
       "my_prediction": {
         "consensus_selection": "HOME",
         "consensus_team": "西班牙",
-        "win_prob": 0.476,
-        "agree": "7/7 models",
+        "win_prob": 0.473,
+        "agree": "6/7 models",
         "predicted_score": "2-1",
         "models": [
           {
@@ -9020,17 +9020,17 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.46,
-              "D": 0.28,
-              "A": 0.26
+              "H": 0.44,
+              "D": 0.26,
+              "A": 0.3
             },
-            "confidence": 0.57,
-            "key_risk": "西班牙的統治力最終淪為無效控球——如果他們無法在開賽階段取得進球，Argentina 頂尖的終結能力（Álvarez/Messi，加上替補席上的 Lautaro）將透過一次攻守轉換或定位球扭轉戰局。",
+            "confidence": 0.56,
+            "key_risk": "西班牙的邊後衛/8號位球員（Porro、Cucurella、Baena、Pedri）位置推得非常靠前，一旦在攻守轉換時出現防守疏漏，就會讓阿根廷的 Alvarez 或 Lautaro 轉化為乾淨俐落的反擊，或是透過 Messi 創造出定位球機會。",
             "second_score": "1-1",
-            "contrarian_md": "**顯而易見的敘事：** 阿根廷在世界盃大賽中 = Messi 的光環 + 冠軍底蘊，他們總能忍受苦戰，然後給予致命一擊。\n\n**為什麼我並不完全買單：** *數據*強烈顯示 Spain 在控球與陣容深度上佔有優勢（進攻指數達 3.69，且幾乎全員健康），反觀 Argentina 陣中帶傷（Álvarez 的腳踝、Martínez 的手指），且防線缺乏深度替補。如果 Argentina 採取過於保守的防守並依賴球星個人時刻，他們可能會被 Spain 從邊路發起的攻勢（3 號 Grimaldo、15 號 Baena、19 號 Yamal）壓制，最終防線崩潰。\n\n**為何「保守」觀點會適得其反：** 每個人都假設 Argentina 擁有「大賽免疫力」，但世界盃最愛打破這種幻覺——2022 年 Argentina 對陣 Saudi Arabia 就是教科書般的案例。如果 Spain 先馳得點，Argentina 的中場防線就必須拉開，屆時 Spain 的邊鋒將會發動一波又一波的攻勢，而不是僅僅依賴單一的奇蹟時刻。",
-            "signature_scene": "下半場約 62 分鐘：西班牙在左路發動超載進攻——3 號 Grimaldo (Leverkusen) 在 Montiel 身後傳出一記精準的早傳球；21 號 Oyarzabal (Real Sociedad) 從 Romero 身前橫向衝頂，造成門前一陣混亂，最終由 10 號 Dani Olmo (Barcelona) 在 8 碼處補射破門。西班牙以 2-1 領先，阿根廷瞬間顯得疲於奔命。",
-            "reasoning_md": "西班牙以 2-1 勝出：更深厚、更健康的進攻選擇，以及更穩定的創造機會能力，應能勝過 Argentina 依賴瞬間靈感的威脅。Argentina 仍會取得進球，因為他們的鋒線把握度太高，無法被完全封鎖，但 Spain 在邊路的供應能力將成為勝負關鍵。",
-            "script_md": "西班牙是這場比賽中更純粹的「**機會製造工廠**」：16 號 Rodri (Man City)、15 號 Álex Baena (Atlético) 和 10 號 Dani Olmo (Barcelona) 為他們提供了多種推進與輸送球給跑動球員的方式，即便其中一名邊鋒狀態不佳，他們仍具備邊路突破能力。阿根廷的優勢在於冷酷無情——9 號 Julián Álvarez (Atlético) 和 Messi 不需要大量的射門次數，他們只需要一次防線的崩潰。\n\n關鍵對位在於西班牙的左路：3 號 Grimaldo 的傳中能力以及 19 號 Lamine Yamal 牽制邊後衛的能力，迫使阿根廷的後防線必須面對自家球門進行防守。考慮到傷病報告，阿根廷的防守深度看起來較為薄弱；如果他們在爭搶第二落點時反應不及，西班牙將能累積持續的進攻壓力（角球、倒三角回傳、二次進攻）。\n\n**劇本**：西班牙開局採取主動，讓阿根廷的中場疲於奔命，並透過轉移球給 Yamal 和 Grimaldo 創造出第一次真正的威脅。阿根廷頂住壓力後，隨即透過一次攻守轉換反擊——Messi 回撤送出直塞球，讓 Álvarez 獲得一次高質量的射門機會。但隨著比賽節奏拉開，西班牙不斷從邊路滲透（加上板凳深度），將球權維持在阿根廷的半場，最終攻入致勝的第二球。\n\n**為何比分是 2-1**：兩隊都具備足夠的進攻火力取得進球，但這不會是一場大比分的屠殺——雙方實力相當且在盃賽中都較為謹慎。西班牙的優勢不在於「球星更多」，而在於 90 分鐘內更「**可持續**」的進攻輸出。\n\n**翻盤點**：西班牙浪費了開局的機會並變得急躁，給 Messi 領軍的反擊留下了空間；或者 Yamal/Porro 的體能下降導致右路威脅減弱，使西班牙的進攻變得容易預測。如果比賽進行到 70 分鐘時雙方戰成 1-1 平手，Lautaro 從板凳出發後的終結能力將成為致命一擊。"
+            "contrarian_md": "**顯而易見的敘事：**「阿根廷在大型賽事 + Messi + 冠軍基因 = 他們會險勝。」\n\n**為什麼我並不完全買單：** 原始的陣容數據大聲疾呼 *Spain 可以窒息他們*：更高的進攻深度指數（3.69 對 3.37）、多位具備實質 xAG（預期助攻）產量的創造者（No.3 Grimaldo xAG/90 為 0.34、No.15 Baena 為 0.35、No.20 Pedri 為 0.29、No.10 Olmo 為 0.33），以及一個能讓阿根廷前場球員難以觸球的控制核心（No.16 Rodri）。如果比賽演變成中場控球的拉鋸戰，阿根廷對「關鍵時刻」的依賴可能會適得其反——世界盃充滿了當熱門球隊無法執行其戰術時，被對手爆冷擊敗的「穩贏」局面（2018 年德國對韓國、2022 年阿根廷對沙烏地阿拉伯）。爆冷的途徑確實存在，這並非阿根廷穩操勝券的領域。",
+            "signature_scene": "下半場（約 62 分鐘）：西班牙將 Argentina 壓制在半場。15 號 Álex Baena (Atlético De Madrid) 將球分往邊路給 12 號 Pedro Porro (Tottenham)。Porro 的回傳球精準找到前插至近柱區域的 21 號 Mikel Oyarzabal (Real Sociedad)——一次觸球，低射破門。西班牙以 2-1 超前，Argentina 瞬間被迫在西班牙的反擊路徑上展開追趕。",
+            "reasoning_md": "Spain 2-1：他們擁有更多創造進攻的方式（邊路人數優勢 + 倒三角回傳 + 大量的定位球機會），且在 Rodri 的掌控下，應能讓 Argentina 只能靠零星機會反擊，而非持續施壓。",
+            "script_md": "西班牙的優勢在於**結構與進攻手段的多樣性**：他們的創造者遍佈球場各處（3號 Grimaldo、15號 Baena、20號 Pedri、10號 Olmo），他們能夠創造出可複製的倒三角傳中機會，而不必祈求單一的關鍵時刻。阿根廷的優勢則是**致命的終結能力**——9號 Julián Álvarez 和 22號 Lautaro Martínez 是更高效率的預期進球（xG）得分手，一次攻守轉換就能扭轉戰局。\n\n比賽初期，西班牙會控球並迫使阿根廷進行橫向防守；最初的警訊來自 **Grimaldo 的套邊助攻**以及 **Yamal/Olmo 在半場空間的接球**。阿根廷的計畫很明確：退守，然後將 **Álvarez + Messi** 送入西班牙前插邊後衛身後的空間；如果出現類似 11號 Lo Celso 的傳球路線，西班牙就會陷入麻煩。\n\n我認為西班牙會先得分——可能是透過倒三角傳中或第二波定位球——因為他們能維持更長時間的壓迫。阿根廷會以他們在膠著戰中一貫的方式回應：一次犀利的快攻或 Messi 的定位球創造出追平分，這很可能涉及 9號 Julián Álvarez (Atlético De Madrid) 在邊路通道的跑動。\n\n比賽的轉折點在於板凳深度與持續的壓迫：西班牙不斷換上體力充沛的邊路球員（若健康狀況允許，為 17號 Nico Williams / 19號 Lamine Yamal），阿根廷的防線終究會因過多的解圍壓力而失守。這就是 Baena/Porro 的連動能為 21號 Oyarzabal 創造致勝球的時刻。\n\n**為何是 2-1（而非大比分）：** 雙方都擁有頂尖的終結者與優秀的門將；世界盃頂級對決通常落在 1 球之差、總進球數 2-3 球的區間。\n\n**變數：** 如果西班牙的攻守轉換防守（Rest-defense）鬆散（Porro/Cucurella 位置過高，Rodri 被孤立），且阿根廷獲得多次反擊機會，西班牙的控球將成為陷阱——屆時比分很有可能變成 1-2，由 Lautaro/Álvarez 給予懲罰。"
           },
           {
             "name": "Claude",
@@ -9038,35 +9038,35 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.46,
+              "H": 0.44,
               "D": 0.27,
-              "A": 0.27
+              "A": 0.29
             },
             "confidence": 0.55,
-            "key_risk": "阿根廷的前場三叉戟（Álvarez、Lautaro 以及替補上陣的 Nico Paz）利用反擊懲罰了缺少狀態全滿 Porro 的西班牙防線——Cubarsí 與 Laporte 雖然強壯，但轉身速度較慢。",
+            "key_risk": "Yamal 的大腿——如果他沒有恢復到 100% 的狀態，西班牙將失去最銳利的邊路尖刀，比賽也將趨於膠著，最終可能以平局收場，或是被 Argentina 反擊得手。",
             "second_score": "1-1",
-            "contrarian_md": "顯而易見的觀點：西班牙剛剛以 2-0 輕取法國，他們是目前陣容深度最深、體能最充沛的球隊，Tiki-taka 戰術運轉流暢，全員健康——當然，他們擊敗了一支靠膠帶勉強拼湊起來的 Argentina（Emi Martínez 的手指骨折、Álvarez 的腳踝傷勢、Medina/Balerdi 離隊、後防線東拼西湊）。但我並不完全買帳這種「加冕論」。一支擁有 Messi 的衛冕冠軍在決賽中不會因為傷兵滿營就崩潰——Argentina 在 2022 年首戰輸給 Saudi 後依然捧起了獎盃；當被外界看衰時，大賽型的 Argentina 總能拉高他們的下限。西班牙真正的軟肋在於防守速度以及可能狀態生疏的 Porro；如果 Argentina 採取中位防守，讓西班牙控球 65% 卻無法製造威脅，隨後利用 Lautaro 和 Julián 在身後發動突襲，西班牙的高位防線就會在「眾人認為安全」的地方被精準撕裂。而 Nico Paz（每 90 分鐘 0.78 xG）在第 65 分鐘替補上場對抗疲憊的對手，正是那種能扭轉決賽局勢的變數。",
-            "signature_scene": "下半場約 70 分鐘：西班牙將戰線壓在 Argentina 半場，由 Rodri 負責組織轉移，但 Pedri 一次傳球失誤被對手逮個正著——De Paul 隨即送出直塞，讓 Julián Álvarez 從右內側通道突破，甩開後撤防守的 Laporte，接著 Álvarez 橫傳給 Lautaro Martínez 扳平或超前比分。這就是 Argentina 那種能讓比賽脫離眾人預期、使 Spain 無法輕鬆取勝的致命反擊。",
-            "reasoning_md": "西班牙在主場險勝——憑藉 **Rodri**、**Pedri** 與 **Baena** 的組合，他們在陣容深度、體能優勢以及控球掌控力上更勝一籌——但 Argentina 頂尖的終結能力與冠軍底蘊，讓這場比賽始終維持在一球之差的緊張局面，而非一場輕鬆的勝仗。",
-            "script_md": "**整體解讀：** 目前 Spain 是整體實力更強的球隊——球隊指數 3.69 對上 3.37，是四強中狀態最健康的隊伍，且其中場（Rodri、Pedri、Baena、Merino）將能主宰場上區域與節奏。Argentina 雖然陣容有些拼湊，但擁有兩項無法透過訓練獲得的特質：無情的鋒線（Lautaro 0.67、Álvarez 0.48，以及替補上陣的 Nico Paz 0.78）與冠軍氣質。\n\n**關鍵對位：** Spain 的 Baena（15 號）與 Olmo（10 號）在防線間的穿插，對上 Argentina 由 Paredes 與稍顯吃力的 Mac Allister 所組成的臨時防線。決定性的對決發生在邊路與身後：Lamine Yamal（19 號）與狀態可能未達 100% 的 Pedro Porro（12 號），對上 Tagliafico 以及 Julián Álvarez（9 號）的反擊衝刺。Argentina 7 號 Rodrigo De Paul（Inter Miami）是攻守轉換的發動機——他正是那個能將 Spain 的失誤轉化為 Lautaro 進球機會的關鍵人物。\n\n**比賽劇本：** Spain 開賽將佔據上風，壟斷球權，並透過 Baena 與 Grimaldo 的傳球製造早期角球。Argentina 採取緊湊的中位防守，樂於讓出控球權，並利用 Messi 回撤串聯以及 Álvarez 的跑動進行反擊。預計上半場會相當緊湊且謹慎——比分可能是 0-0，或是 Spain 透過定位球（Laporte/Cubarsí 在角球時）取得混亂中的領先。危險時段在 60-75 分鐘：Argentina 換上 Nico Paz，Spain 體能下滑，一次疏忽就可能遭到懲罰。Spain 的體能優勢與板凳深度（他們能換上 Nico Williams、Ferran、Oyarzabal）應能讓他們在比賽後段奪回或守住領先。\n\n**為何預測此比分：** 2-1 Spain 符合世界盃淘汰賽等級的膠著戰況——Spain 的控制力能換來兩球，而 Argentina 的個人能力保證至少能進一球。若 Emi Martínez 表現神勇，1-1 是極有可能發生的替代結果。\n\n**變數：** 若狀態絕佳的 Porro 缺陣，意味著 Spain 的右路將暴露在風險中；如果 Álvarez 的腳踝無礙且 De Paul 贏下攻守轉換的對抗，Argentina 可能以 1-2 小勝。如果 Spain 的高位防線保持紀律且 Rodri 能封鎖中場，比分可能會拉開至 2-0 的舒適領先。"
+            "contrarian_md": "傳統觀點認為：衛冕冠軍 Argentina、Messi 的最後一舞、De Paul/Enzo/Mac Allister 的中場引擎，以及鋒線上的 Lautaro/Julián——「經驗贏得決賽」。我並不完全買單。Argentina 的指數（3.37）落後於 Spain（3.69），且他們的鋒線在不該老化的位置上顯得老態——Messi（Inter Miami）沒有頂級聯賽的 xG 數據是有原因的，而 De Paul 現在也效力於 MLS。他們真正的火力（Nico Paz、Nico González、Simeone）在預測先發中大多坐在板凳上，這意味著 Argentina 開賽時的進攻威脅不如他們帳面實力強大。Spain 由 Rodri-Fabián-Baena-Pedri 等級球員組成的中場，單純在控球權上會佔據優勢。但反噬正是世界盃的經典劇本：2022 年的 Saudi 對 Argentina 以及 Germany 對 Japan，都是在「控制型」球隊主導控球權後被反擊得手——Spain 採用 Cubarsí/Laporte 的高防線，正是 Lautaro 和 Julián 最喜歡的誘餌。",
+            "signature_scene": "下半場約 65 分鐘：Argentina 的 24 號 Enzo Fernández 送出一記穿越球，越過 Spain 壓上的防線，22 號 Lautaro Martínez 擺脫 Cubarsí 的盯防，迫使 Unai Simón 做出一次關鍵撲救——這是 Argentina 的警告。隨後 Spain 給予回應：19 號 Lamine Yamal 從右路內切，吸引兩名防守球員後，將球橫傳給 15 號 Álex Baena，後者在近柱低射破門。這就是打破僵局的一球。",
+            "reasoning_md": "西班牙憑藉中場控制力與更深厚的進攻深度險勝——Argentina 的先發鋒線陣容不如替補席豪華，而 Spain 的控球優勢最終發揮了作用。2-1。",
+            "script_md": "**整體分析：** Spain 陣容更為均衡——擁有更優異的進攻指數（3.69 對 3.37）、能掌控球權的中場（Rodri、Fabián Ruiz、Baena，以及替補席上的 Pedri），並透過 Yamal、Nico Williams 和 Olmo 展現真正的邊路寬度。Argentina 雖然危險，但帳面上的進攻火力過度集中，而非體現在預計先發陣容中：他們數據最亮眼的球員都在板凳上——No.18 Nico Paz (Como)、No.15 Nicolás González (Atlético) 和 No.17 Giuliano Simeone (Atlético)——而 Messi (Inter Miami) 和 No.7 De Paul (Inter Miami) 先發時則缺乏頂級聯賽的數據產出。這是一支在中場區域依賴球星光環的冠軍隊伍。\n\n**關鍵對位：** 比賽勝負取決於中場。Spain 的 Rodri (Man City) 與 Fabián Ruiz (PSG) 對抗 Argentina 的 No.24 Enzo Fernández (Chelsea) 與 No.20 Alexis Mac Allister (Liverpool)——Spain 應能掌握較多控球權，但 Enzo 的穿透性傳球正是 Argentina 發動反擊的關鍵。邊路方面，若 Yamal 大腿傷勢無礙，他對上 No.3 Tagliafico (Lyon) 將形成 Spain 佔優的錯位。鋒線上則是禁區殺手的對決：Spain 由 Oyarzabal/Ferran 出戰，Argentina 則是 No.22 Lautaro Martínez (Inter) 與 No.9 Julián Álvarez (Atlético)——這對客隊組合在面對高位防線時極具威脅。\n\n**比賽劇本：** 預計 Spain 開賽後將掌控球權，而 Argentina 會採取緊縮防守，並伺機透過 No.22 Lautaro 和 No.9 Julián 發動快攻——上半場將陷入膠著，可能以 0-0 結束或由定位球打破僵局。比賽進行至一小時左右，Argentina 會製造威脅（Lautaro 接獲直塞球後的機會），隨後 Spain 的板凳深度將發揮作用：Yamal/Williams 創造突破口，由 Baena 或 Oyarzabal 完成進球。Argentina 在比賽末段追回一球——可能是 Julián/Lautaro 的個人表現或 Messi 的定位球——讓比賽尾聲變得緊張。\n\n**為何預測此比分：** 2-1 Spain 符合賽況分析——一支掌控比賽的熱門球隊透過邊路進攻得分，並因防守頂級終結者而失掉一球。若 Yamal 表現受限或 Argentina 採取更深層的防守，1-1 的平局是非常有可能的替代結果。\n\n**變數：** 若 Yamal 熱身時狀況不佳，或是 Emiliano Martínez 繳出決賽級別的撲救表現，同時 Argentina 換上 Nico Paz 和 Nico González 在比賽末段偷襲得手——這就是 Argentina 2-1 反勝的劇本，這也是我對 Spain 的勝算評估不超過 45% 的原因。"
           },
           {
             "name": "DeepSeek",
-            "selection": "DRAW",
-            "selection_team": "和局",
-            "predicted_score": "1-1",
+            "selection": "AWAY",
+            "selection_team": "阿根廷",
+            "predicted_score": "1-2",
             "win_prob": {
-              "H": 0.4,
-              "D": 0.35,
-              "A": 0.25
+              "H": 0.3,
+              "D": 0.3,
+              "A": 0.4
             },
             "confidence": 0.62,
-            "key_risk": "西班牙右後衛 Pedro Porro 帶傷出戰，回追速度打折，極可能被阿根廷替補邊鋒 15號 Nicolás González（Atlético De Madrid）或 22號 Lautaro Martínez 的斜插打穿；門將 Emiliano Martínez 無名指骨折面對折射或高質量射門的撲救穩定性也有隱憂。",
-            "second_score": "1-0",
-            "contrarian_md": "主流輿論一定吹西班牙：四強完封法國、陣容齊整、青春風暴，阿根廷老邁傷兵滿營，聽起來像是一場沒有懸唸的決賽。但我不買賬。阿根廷是衛冕冠軍，這批人太懂怎麼在淘汰賽賴著不死。Messi 全場散步也能一腳定生死，西班牙的傳控恰恰最怕鐵桶反擊——2018 輸俄羅斯、2022 輸摩洛哥都是同一個死法，對手讓出球權，一個定位球或反擊就完蛋。這場 Álvarez 帶傷照樣扛，板凳上還有 Lautaro（0.67 xG90）和 Nicolás González（0.51），下半場後半小時的衝擊力絕對能讓 Porro 那一側漏個大洞。世界盃歷史教訓還不夠嗎？2018 德國輸韓國、2022 阿根廷自己輸沙烏地，強隊翻車全是因為輕敵和單點傷情被放大，這一場完全可能複刻。",
-            "signature_scene": "下半場第 73 分鐘，阿根廷在右側禁區前沿獲得自由球，10 號 Messi 左腳內旋精準送到小禁區線，13 號 Cristian Romero（Tottenham Hotspur FC）從 Pau Cubarsí 和 Aymeric Laporte 之間旱地拔蔥，額頭一砸，球竄進球門左上死角，Emiliano Martínez 連反應都來不及做——這球把場上比分扳成 1-1，瞬間讓西班牙的控球狂潮變成背景板。",
-            "reasoning_md": "西班牙中場控制力絕對強，但阿根廷的防守紀律與 Messi 的靈光一現註定讓常規時間陷入僵局，1-1 是最誠實的劇本。",
-            "script_md": "① 開場後西班牙會用 19 號 Yamal（FC Barcelona）和 10 號 Olmo 的肋部鑽營掌握絕對球權，Pedri 和 Rodri 在中場兩側調動，阿根廷中場四人收得很緊，基本退到禁區前 30 米，放西班牙在外圍傳導。上半場西班牙只有一次 Yamal 內切中柱的機會，21 號 Oyarzabal（Real Sociedad）被 Lisandro Martínez 纏得接不到球。\n\n② 阿根廷上半場連一腳射正都交不出，Messi 回撤很深拿球，身邊永遠跟著 Rodri 或 Gavi，但他在用最低消耗試探西班牙防線的縫隙，尤其是 Porro 這一側。\n\n③ 下半場西班牙體能必然會掉，阿根廷 60 分鐘左右連換兩人：22 號 Lautaro Martínez（FC Internazionale Milano）和 15 號 Nicolás González（Atlético De Madrid）登場，專打對角線反擊，Porro 開始頻繁失位。第 65 分鐘西班牙反而先進球——20 號 Pedri 禁區外一腳遠射打在 4 號 Eric García 身上折射，1-0。\n\n④ 領先後西班牙沒有回收，繼續控，這就給阿根廷送了絕命空間。不到 8 分鐘後，Messi 中路持球吸引雙人包夾，精準斜線推給 Nicolás González，後者爆趟 Porro 後傳中造成混亂，西班牙勉強解圍，但犯規送了那個致命自由球。Messi 親自主罰找到 Romero，頭球炸裂，1-1。\n\n⑤ 最後 20 分鐘兩隊互有忌憚，誰都不想進加時前再冒險，1-1 平穩收官，加時賽再見。如果西班牙上半場能提前由 Yamal 或 Oyarzabal 把握住門前機會，比分可能鎖定 1-0 或 2-0；但若阿根廷定位球先得手，西班牙破大巴的無力感會讓他們重演 2022 對摩洛哥的劇本，客勝翻車絕非天方夜譚。"
+            "key_risk": "Yamal 帶傷硬上導致右路攻防打折，西班牙控場得勢不得分，反被阿根廷左路反擊打穿。",
+            "second_score": "1-1",
+            "contrarian_md": "主流會拿西班牙四強幹淨利落淘汰法國來說事，覺得年輕風暴能沖垮老邁阿根廷。但我不完全買賬。阿根廷這條鋒線的終結能力被嚴重低估——Nico Paz 的 xG90 高達 0.78，Lautaro 0.67，這根本不是“只靠梅西”的球隊。西班牙中衛 Laporte 在俱樂部射門資料異常（xG90 1.68、射門90 15.00）說明他可能被當成定位球攻城錘，反而暴露常規運動戰攻堅手段單一。2022 世界盃阿根廷首戰輸沙特、2018 德國輸韓國，全是控球率七成往上的球隊被一擊致命。這場只要西班牙上半場啃不動，下半場就是阿根廷反擊的獵殺時刻。",
+            "signature_scene": "下半場第 63 分鐘，阿根廷 18 號 Nico Paz（Como）替補登場，第一次觸球就在禁區右側接到 10 號 Messi 的斜塞，不停球直接低射遠角，球貼地竄入網窩，比分反超為 1-2。",
+            "reasoning_md": "阿根廷鋒線 xG 效率碾壓，西班牙控場難破密集，看好潘帕斯雄鷹常規時間 2-1 掀翻鬥牛士。",
+            "script_md": "① 整體判讀：西班牙強在中場控制與兩翼衝擊，但主力射手 Ferran Torres（xG90 0.47）和 Oyarzabal（0.42）並非頂級終結者；阿根廷強在鋒線轉化率，Nico Paz（0.78）、Lautaro（0.67）、Julián Alvarez（0.48）三人組效率恐怖，且梅西的最後一傳無解。\n② 關鍵對位：西班牙右路 Yamal 帶傷，面對阿根廷左路 Tagliafico 和回撤的 Nicolás González（xG90 0.51，射門90 3.99）衝擊，很可能被打身後；西班牙雙中衛 Cubarsí 和 Laporte 轉身偏慢，恰好對上 Lautaro 和 Alvarez 的鑽營。\n③ 比賽劇本：開場西班牙控球主導，前 30 分鐘由 Oyarzabal 搶點先下一城 1-0；阿根廷不慌，上半場尾聲利用角球由 Lisandro Martínez 混戰扳平 1-1。下半場西班牙繼續壓上，第 63 分鐘阿根廷換上 Nico Paz，第一次反擊就由梅西送出直塞，Paz 低射破門 1-2。西班牙最後狂攻，但阿根廷門將 Emiliano Martínez 兩次神撲保住勝局。\n④ 為什麼是這個比分：西班牙能進球是因為定位球或邊路傳中，但運動戰攻堅能力不足；阿根廷能進兩球是因為反擊效率極高，且西班牙壓上後留出的空間正是 Paz 和 Lautaro 的最愛。1-2 最符合雙方攻防特質。\n⑤ 翻盤條件：如果 Yamal 狀態滿血且上半場就內切造烏龍或造紅牌，西班牙可能 2-0 領先並收縮，那阿根廷就難翻；或者梅西被鎖死、阿根廷中場失控，西班牙可能 2-1 或 3-1 拿下。但以阿根廷的韌勁和鋒線深度，我更信冷門。"
           },
           {
             "name": "Gemini",
@@ -9078,13 +9078,13 @@
               "D": 0.25,
               "A": 0.2
             },
-            "confidence": 0.75,
-            "key_risk": "Argentina 在比賽初期便反客為主取得進球，並成功將比賽拖入一場充滿犯規、節奏破碎的肉搏戰，徹底打亂了 Spain 的進攻節奏。",
-            "second_score": "1-1",
-            "contrarian_md": "顯而易見的論調是，Argentina 無與倫比的賽事韌性、衛冕冠軍的光環，以及 Messi 的「宿命」將會帶領他們過關斬將。我不買帳。在巔峰的運動能力面前，浪漫主義無法贏得決賽。Argentina 的陣容傷痕累累：E. Martínez 帶著手指骨折上陣，Álvarez 的腳踝傷勢讓他步履蹣跚，而 39 歲的 Messi 在經歷了漫長的賽事征途後，雙腿已顯得沉重。浪漫的敘事蒙蔽了人們的雙眼，使他們忽略了 Spain 更優異的進攻指數（3.69 對 3.37）以及無情的邊路攻勢。正如 France 老化的核心陣容在 2022 年被 Argentina 壓制了 80 分鐘一樣，這一次，Argentina 成了那支即將被更年輕、體能更充沛的 Spain 機器拖垮的老邁球隊。",
-            "signature_scene": "下半場第 68 分鐘：西班牙隊 19 號 Lamine Yamal 在右路單挑 Tagliafico，隨後內切起腳射出一記下墜球。E. Martínez 受手指骨折影響，撲救無力將球擋向危險區域，讓 10 號 Dani Olmo 衝入禁區補射破門，攻入關鍵的致勝球。",
-            "reasoning_md": "西班牙隊壓倒性的中場控制力與充滿活力的邊路球員，將會把傷兵滿營且陣容老化的 Argentina 逼至崩潰邊緣。這支衛冕冠軍隊伍目前已是強弩之末，且飽受傷病困擾，西班牙隊更勝一籌的運動能力數據，終將在正規時間內擊穿他們的防線。",
-            "script_md": "- **整體分析：** Spain 以更具活力、狀態更佳的姿態進入決賽，其進攻指數高達 3.69，為本屆賽事之冠。Argentina 擁有深厚的底蘊與「暗黑兵法」，但其核心陣容體能已達極限，處於強弩之末。\n- **關鍵對位：** 比賽勝負將取決於邊路。Spain 的 No.19 Lamine Yamal 與 No.17 Nico Williams 將不斷衝擊 Argentina 老化的邊後衛 No.3 Nicolás Tagliafico 與 No.4 Gonzalo Montiel。在中場，No.16 Rodri 將掌控節奏，對抗 No.24 Enzo Fernández 與 No.7 Rodrigo De Paul，切斷 Messi 的供輸。\n- **比賽劇本：** Argentina 可能會採取中低位防守，試圖將比賽拖入身體對抗頻繁、節奏破碎的「肉搏戰」，以保護疲憊的雙腿。Spain 開賽後將主導控球，但可能難以突破 Romero 與 Lisandro Martínez 的防線送出致命傳球。隨著比賽深入，Spain 的邊路寬度將撕開致命空檔。預計 Spain 會在下半場發動攻勢，屆時 Álvarez 因腳踝傷勢導致壓迫力下降，讓 Spain 的中後衛能大膽前壓，在中場形成人數優勢。\n- **為何預測比分為 2-1：** Argentina 總能憑藉 Messi 的靈光一閃或 Lautaro Martínez 的轉換進攻取得進球，但 Spain 持續的施壓將創造多次高質量的得分機會。E. Martínez 的手指傷勢使他在面對遠射後的補射時顯得相當脆弱。\n- **可能翻盤的因素：** 若 Spain 的年輕邊鋒在世界盃決賽的巨大壓力下表現失常，或者 Argentina 能早早透過反擊取得進球並成功「擺大巴」，將比賽演變成混亂且充滿紅黃牌的鬥毆，結果便可能改寫。"
+            "confidence": 0.7,
+            "key_risk": "Lionel Messi 或 Julián Alvarez 把握住一次防守失誤，在比賽節奏不對等的情況下取得進球，又或是 Yamal 的大腿傷勢嚴重限制了西班牙隊的邊路進攻。",
+            "second_score": "1-0",
+            "contrarian_md": "最顯而易見的論調是，Argentina 那充滿侵略性且身經百戰的中場（De Paul、Enzo、Mac Allister）將會壓制 Spain 的技術型球員，而他們那種「宿命」般的氣場將會帶領他們過關，就像 2022 年決賽那樣。但我並不買帳。Spain 並非 2022 年的 France；他們不依賴零星的攻守轉換瞬間。他們透過結構性的控球讓對手窒息。Argentina 的中場將會花上 70 分鐘疲於奔命，且他們的邊後衛在面對 Nico Williams 和 Lamine Yamal 這種純邊鋒時，一對一防守顯得極為脆弱。當你連球都碰不到時，「堅韌黑馬」的戲碼只會適得其反。",
+            "signature_scene": "第 68 分鐘：Argentina 孤注一擲大舉壓上。No.16 Rodri 冷靜地以一記穿透性傳球破解對方的壓迫，球來到 No.10 Dani Olmo 腳下。Olmo 轉身後將球分給左路的 No.17 Nico Williams。Williams 在與 No.26 Nahuel Molina (Atlético De Madrid) 一對一的情況下，透過沉肩假動作晃開防守，隨即起腳低射，迫使 No.23 Emiliano Martínez (Aston Villa FC) 狼狽撲救，隨後 Spain 展開了一連串持續的角球攻勢，徹底瓦解了 Argentina 的進攻氣勢。",
+            "reasoning_md": "西班牙頂尖的中場控制力與邊路一對一突破，將使 Argentina 難以獲得控球權，並讓他們的邊後衛暴露在險境中。儘管 Argentina 擁有堅韌的鬥志與轉換進攻的威脅，但 Spain 掌控節奏並窒息對手攻勢的能力，最終將助他們奪得冠軍。",
+            "script_md": "西班牙在此處佔據了戰術上的制高點。他們的中場三人組以 16 號 Rodri 和 8 號 Fabián Ruiz 為核心，是本屆賽事中節奏掌控能力最強的組合；而 Argentina 則高度依賴情緒、韌性，以及透過 20 號 Alexis Mac Allister (Liverpool FC) 和 24 號 Enzo Fernández (Chelsea FC) 進行的快速轉換。\n\n決定性的對決將發生在邊路。Argentina 的邊後衛，特別是 26 號 Nahuel Molina (Atlético De Madrid)，將會陷入與 17 號 Nico Williams 和 19 號 Lamine Yamal 的一對一孤立局面。Spain 會在開賽初期壟斷控球權，迫使 Argentina 採取深位中場防守（deep mid-block）。Argentina 將會尋求透過 9 號 Julián Alvarez (Atlético De Madrid) 發動反擊，但 14 號 Aymeric Laporte 和 22 號 Pau Cubarsí 具備足夠的回追速度與站位意識來化解威脅。\n\n預計 Spain 會在上半場透過邊路的人數優勢與倒三角回傳先馳得點。一旦取得領先，Spain 不會退縮；他們會將控球作為主要的防守武器，透過傳導讓 Argentina 疲於奔命，並誘使 7 號 Rodrigo De Paul (Inter Miami CF) 和 13 號 Cristian Romero (Tottenham Hotspur FC) 犯規而感到沮喪。Argentina 或許能透過定位球或靈光一現的表現攻入一球，但 Spain 持續不斷的控制力將阻止對手完成逆轉。\n\n2-1 的比分反映了 Spain 在控球上的統治力，同時也肯定了 Argentina 不容忽視的進攻質量，包括 22 號 Lautaro Martínez (FC Internazionale Milano)。唯一可能改寫劇本的情況是 Yamal 的大腿傷勢迫使他提早退場，這將削弱 Spain 的右路攻勢，讓 Argentina 有機會壓縮場地空間，將比賽轉變為肉搏戰。"
           },
           {
             "name": "Kimi",
@@ -9092,17 +9092,17 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.52,
-              "D": 0.28,
-              "A": 0.2
+              "H": 0.48,
+              "D": 0.26,
+              "A": 0.26
             },
-            "confidence": 0.65,
-            "key_risk": "Rodri 單後腰被阿根廷中場群圍剿切斷出球，西班牙控球流轉不暢，被迫長傳陷入阿根廷身體對抗節奏",
+            "confidence": 0.72,
+            "key_risk": "阿根廷前場有 Nico Paz 這個資料怪物（0.78 xG90）坐板凳，若 60 分鐘後換上衝擊西班牙老化/疲勞的後衛線，可能複製 2022 沙烏地阿拉伯下半場翻盡阿根廷的劇本",
             "second_score": "1-1",
-            "contrarian_md": "主流敘事：阿根廷衛冕冠軍、Messi 最後一舞、大賽經驗無敵，西班牙只是『新黃金一代』還沒經過真正考驗。這套話術 2022 年卡達小組賽阿根廷輸沙烏地前也講過。真相是：這支阿根廷中場老化嚴重——De Paul 已經去邁阿密養老、Paredes 回母隊 Boca、Lo Celso 和 Palacios 在俱樂部都不是絕對主力。反觀西班牙 Rodri+Pedri+Baena 全是歐洲頂級聯賽當打核心，控場能力實質上壓過阿根廷。但冷門爆點在：阿根廷前場有 Nico Paz 這個 X-factor（0.78 xG90 瘋狂資料，雖然是意乙 Como 刷出來的），如果 Spain 壓太兇被打反擊，Paz 配 Alvarez 的跑動能撕開 Laporte-Cubarsí 這對速度偏慢的中衛組合。2018 德國輸韓國、2022 阿根廷輸沙烏地，都是強隊控球 70% 被反擊兩腳帶走。這場如果 Spain 上半場不進球，下半場心浮氣躁，阿根廷有機會複製劇本。",
-            "signature_scene": "下半場 65 分鐘，Spain 10 號 Dani Olmo（FC Barcelona）在左肋部連續兩次一腳傳球配合後突入禁區，被 Argentina 13 號 Cristian Romero（Tottenham Hotspur FC）絆倒，裁判判點球——但 Olmo 親自主罰被 Emiliano Martínez 撲出，隨後 Argentina 18 號 Nico Paz（Como）反擊單刀被 Unai Simón 神撲，全場氣氛瞬間翻轉，Spain 主教練場邊暴怒摔水瓶",
-            "reasoning_md": "Spain 贏，但會踢得很醜。中場控場優勢轉化為進球效率偏低，阿根廷靠定位球或反擊咬回一球，最終一球險勝。",
-            "script_md": "## 整體判讀：Spain 紙面強，但風格未必舒服\n\nSpain 攻擊指數 3.69 對 3.37，深度 25/26 人頂級聯賽對 22/26，資料上明顯佔優。但這是「控球 vs 防反」的經典對位——Argentina 根本不需要跟你搶球，De Paul+Fernández+Mac Allister 三個工兵型中場圍剿 Rodri 一個點，切斷 Spain 的節拍器，比賽就會變成 Spain 無效傳導、Argentina 等反擊的局。\n\n## 關鍵對位：誰能打破僵局\n\n**Spain 的勝負手**：15 號 Álex Baena（Atlético De Madrid）是本屆 Spain 最被低估的變數。2.84 關鍵傳球 90、0.35 預期助攻，他是少數能在密集防守中送出直塞的人。如果 Baena 首發（預測陣容裡有他），Spain 上半場有機會破門；如果教練保守用 Ruiz 配 Pedri，兩個都是安全球大師，進攻會悶死。\n\n**Argentina 的暗箭**：18 號 Nico Paz（Como）資料極端——0.78 xG90 但 0 關鍵傳球 0 預期助攻，說明他是純終結點、不參與組織。這種球員最適合反擊：Messi 或 Alvarez 拿球吸引 Spain 雙中衛 Laporte-Cubarsí 上壓，Paz 斜插身後，一腳定生死。Spain 中衛組合速度是硬傷，Paz 這張牌斯卡洛尼一定會打。\n\n## 比賽劇本：悶→亂→險勝\n\n**早段（0-30 分鐘）**：Spain 控球 65% 以上，但 Argentina 中場壓迫兇狠，Rodri 被迫多次回傳門將。Baena 兩次直塞被 Romero 攔截，場面熱鬧無實質。25 分鐘左右 Argentina 獲得第一個角球，Lisandro Martínez 頭槌偏出——這是訊號：Argentina 定位球有威脅。\n\n**中段（30-60 分鐘）**：Spain 終於破僵。第 38 分鐘，Yamal 右路內切牽制，Baena 斜傳左後衛 Cucurella（Chelsea FC）套邊下底，低平球掃到門前，7 號 Ferran Torres（FC Barcelona）搶點 0.47 xG90 的嗅覺發揮，1-0。Spain 領先後想收，但 Argentina 立刻反撲，第 44 分鐘 Messi 自由球擊中人牆，補射被 Simón 撲出——上半場最驚險一刻。\n\n**下半場（60-90 分鐘）**：Argentina 60 分鐘換上 Paz，改打雙前鋒。第 68 分鐘，De Paul 長傳找 Paz 身後，Laporte 轉身慢被生吃，Paz 單刀被 Simón 撲出，但 9 號 Julián Alvarez（Atlético De Madrid）補射，1-1。Spain 慌亂，Pedri 被換下，Oyarzabal 上場拚命。第 79 分鐘，Olmo 左路連過兩人傳中，Oyarzabal 頭槌破門，2-1。最後 10 分鐘 Argentina 瘋狂起高球，但 Cubarsí 頭球解圍穩住，Spain 驚險過關。\n\n## 為什麼是 2-1\n\nSpain 創造機會更多（預期貢獻 3.06 vs 3.28 但實際控球壓制），但 Argentina 有 Messi 氣場 + 反擊效率，不可能被零封。2-1 是最常見的強隊小勝比分，符合兩隊實力差距不大、但 Spain 陣容更完整的現實。\n\n## 什麼情況會翻盤\n\n如果 Rodri 上半場吃黃牌，Spain 被迫提前換下他，中場失控，Argentina 可能複製 2022 對荷蘭的劇本——先落後，再靠 Messi 個人能力 + 點球大戰逆轉。或者 Paz 反擊那腳單刀沒被 Simón 撲出、而是進了，1-2 領先後 Spain 心態崩盤，1-3 慘敗也不是不可能。這就是 2022 阿根廷輸沙烏地後的劇本：強隊壓太兇，被兩腳反擊帶走。"
+            "contrarian_md": "**主流敘事**：「西班牙黃金一代復興，Yamal+Pedri+Rodri 中場碾壓，阿根廷 Messi 老矣、De Paul/Paredes 跑不動，衛冕冠軍氣數已盡。」\n\n**我不買賬**：這套敘事忽略了三個雷——① 西班牙後衛線 Laporte(30歲)、Cucurella(26歲但剛踢完四強) 的體能儲備在決賽第 70 分鐘後會斷崖；② 阿根廷中場 Enzo Fernández(0.25 xG90) + Mac Allister(0.14) 的插上火力被嚴重低估，他們不是「跑不動」，是「藏著踢」；③ 最關鍵：Nico Paz 這個 Como 來的 0.78 xG90 怪物，替補出戰 30 分鐘的殺傷力可能超過 Messi 首發 90 分鐘。2018 德國輸韓國、2022 阿根廷輸沙烏地，強隊翻車的共同點是「控球壓制但後衛線被速度/衝擊打穿」，西班牙這場如果 60 分鐘前沒拉開比分，Paz + Giuliano Simeone(0.40 xG90) 的衝擊組合會讓 Cubarsí(22歲，經驗淺) 和 Laporte 付出代價。",
+            "signature_scene": "下半場 68 分鐘，阿根廷 10 號 Lionel Messi(Inter Miami CF) 中場拿球被 Rodri 斷下，西班牙反擊 19 號 Lamine Yamal(FC Barcelona) 右路內切射門被 Emiliano Martínez 撲出，角球——這是西班牙最後一次真正威脅。72 分鐘 Messi 被換下，18 號 Nico Paz(Como) 上場。78 分鐘 Paz 接 24 號 Enzo Fernández(Chelsea FC) 直塞，單刀挑過出擊的 Unai Simón，球擦柱而出——全場阿根廷球迷起立，西班牙後衛線腿軟了。",
+            "reasoning_md": "西班牙中場控制力和邊路活力略佔優，但阿根廷前場效率更高、替補有 Paz 這張王牌。決賽張力下西班牙先進球，但阿根廷咬得住，最終西班牙 2-1 險勝或 1-1 進延長。",
+            "script_md": "**① 整體判讀**：西班牙陣容深度碾壓（25/26 頂級聯賽 vs 阿根廷 22/26），中場 Rodri + Pedri + Fabián Ruiz 的傳控底子是當世最強。但阿根廷的「弱」是裝的——他們四強踢英格蘭的預期貢獻 3.28 緊咬西班牙 3.06，前場 Julián Álvarez(0.48 xG90) + Lautaro Martínez(0.67) + Nicolás González(0.51) 的終結效率其實比西班牙 Torres(0.47) + Oyarzabal(0.42) 更穩。\n\n**② 關鍵對位**：\n- **西班牙命門**：22 號 Pau Cubarsí(FC Barcelona) 配 14 號 Aymeric Laporte(Athletic Club) 的中衛組合，一老一嫩，面對阿根廷 9 號 Julián Álvarez(Atlético De Madrid) 的跑動和 17 號 Giuliano Simeone(Atlético De Madrid) 的衝擊，70 分鐘後會喘。\n- **阿根廷殺招**：18 號 Nico Paz(Como) 的 0.78 xG90 是整份名單最高，但預測先發沒他——這是 Scaloni 的煙霧彈，決賽他一定會用 Paz 當後手，複製 2022 對荷蘭的換人奇襲。\n- **中場暗戰**：西班牙 16 號 Rodri(Manchester City FC) 要同時盯 7 號 Rodrigo De Paul(Inter Miami CF) 的串聯和 24 號 Enzo Fernández(Chelsea FC) 的插上，Rodri 本屆消耗極大，這場會有一次關鍵失位。\n\n**③ 比賽劇本**：\n- **早段 0-30**：西班牙控球 65%，7 號 Ferran Torres(FC Barcelona) 或 21 號 Mikel Oyarzabal(Real Sociedad) 利用阿根廷 3 號 Nicolás Tagliafico(Olympique Lyonnais) 身後空檔，25 分鐘前進球，1-0。\n- **中段 30-60**：阿根廷收縮，5 號 Leandro Paredes(CA Boca Juniors) + 7 號 De Paul 絞殺 Pedri，西班牙邊路傳中效率下降。阿根廷 20 號 Alexis Mac Allister(Liverpool FC) 遠射試探，Unai Simón 撲出。\n- **末段 60-90**：60 分鐘阿根廷換上 18 號 Nico Paz，西班牙後衛線開始退防。75 分鐘前後 Paz 或 17 號 Giuliano Simeone 扳平，1-1。西班牙 80 分鐘後靠 15 號 Álex Baena(Atlético De Madrid) 或 10 號 Dani Olmo(FC Barcelona) 定位球/亂戰再進一球，2-1 鎖定。若西班牙 60 分鐘前沒進第二球，1-1 進延長甚至點球。\n\n**④ 為什麼是 2-1**：世界盃決賽極少大勝，西班牙控場但終結效率一般（Torres/Oyarzabal 都不是哈蘭德級別），阿根廷有 Messi 光環但實際輸出靠 Alvarez 和替補 Paz。兩隊實力在決賽張力下會壓縮成一球差距。\n\n**⑤ 翻盤條件**：西班牙 Yamal 大腿傷發作提前下場，或 Rodri 累積黃牌停賽風險被迫收斂；阿根廷 Paz 60 分鐘前就上場打亂西班牙節奏。這兩個條件任一發生，阿根廷 2-1 逆轉或 1-1 後點球勝出。"
           },
           {
             "name": "Grok",
@@ -9110,17 +9110,17 @@
             "selection_team": "西班牙",
             "predicted_score": "2-1",
             "win_prob": {
-              "H": 0.49,
+              "H": 0.48,
               "D": 0.28,
-              "A": 0.23
+              "A": 0.24
             },
-            "confidence": 0.67,
-            "key_risk": "Messi 的個人靈光一現或 Argentina 的定位球戰術",
+            "confidence": 0.62,
+            "key_risk": "Messi 回撤深處並在 Spain 站穩腳跟前發動反擊",
             "second_score": "1-1",
-            "contrarian_md": "傳統觀點認為 Argentina（Messi + 衛冕冠軍 + 大賽氣場）即便在客場也能險勝；但這種論述站不住腳，因為 Spain 的進攻指數高達 3.69 且陣容幾近完整，火力優於 Argentina 的 3.37，加上 Molina 的缺陣與 Alvarez 的腳踝傷勢削弱了他們的壓迫與轉換能力，而這正是 Spain 能夠利用邊路（Yamal/No.17 Nico Williams）給予重擊的弱點。歷史證明，當陣容深度不足時，「穩健」的冠軍選擇往往會失靈（2018 年的 Germany、2022 年的 Argentina）。",
-            "signature_scene": "下半場第 65 分鐘：西班牙 11 號 Yéremy Pino（Crystal Palace）在左路接獲 Pedri 的傳球，內切晃過 Montiel，並在持續的角球攻勢迫使 Romero 失位後，起腳弧線球射入遠角。",
-            "reasoning_md": "西班牙以 2-1 勝出：更高的陣容指數、更佳的板凳深度、更少的傷病以及主場優勢，足以抵銷 Argentina 的經驗值；合理的勝負差距維持在一球。",
-            "script_md": "西班牙從開賽起便掌控球權與場上區域，由 Rodri 與 Pedri 掌控節奏，而 Argentina 則採取緊縮防守，伺機透過 Messi 或 Alvarez 發動反擊。早期的壓力來自西班牙的左路，Grimaldo 與 Nico Williams 拉開了 Tagliafico 與 Montiel 的防線；比賽進行至 30 分鐘左右，在 Baena 傳出關鍵球後，由 Ferran Torres 接應倒三角回傳破門，攻入首球。Argentina 在下半場開局後由 Messi 帶動了一波攻勢，但隨著 Molina 因傷退場，球隊缺乏邊路寬度；西班牙隨後由 Laporte 接應定位球頭槌破門，取得第二分。比賽末段，Argentina 透過 Lautaro 在轉換進攻中扳回一城，但最終未能追平比分。比分維持在 2-1，原因在於西班牙的板凳深度（Olmo、Oyarzabal）維持了比賽強度，而 Argentina 陣容單薄（僅 22 名有頂級聯賽數據的球員）導致體能下滑。比賽結果唯有在 Messi 展現兩次個人天才時刻，或是西班牙右路（Porro）在 De Paul 的壓迫下崩潰時，才有可能翻盤。"
+            "contrarian_md": "傳統觀點認為，憑藉 Messi 的經驗與久經考驗的淘汰賽底蘊，Argentina 將能衛冕冠軍。然而，這種說法忽略了 Spain 在進攻指數上高出 3.69 的明顯優勢，以及他們在中場與邊後衛位置上更深厚的頂級聯賽戰力儲備，反觀 Argentina 在先發陣容體能下滑後，板凳深度明顯不足。歷史證明，正是這些被視為「穩健」的熱門球隊，往往會在對手掌控節奏時翻船（2018 年的 Germany、2022 年的 Argentina）。",
+            "signature_scene": "下半場第 65 分鐘：西班牙 16 號 Rodri (Manchester City) 在中路對抗中勝出，隨即送出直塞球，讓 11 號 Nico Williams (Athletic Club) 在 Tagliafico 身後接應並橫傳，由 Oyarzabal 門前第一時間推射破門。",
+            "reasoning_md": "西班牙以 2-1 勝出。在場地中立的情況下，更強的陣容指數、更佳的中場控制力以及更具活力的進攻深度，勝過了 Argentina 的球星光環。",
+            "script_md": "西班牙透過 Rodri 和 Fabián Ruiz 主導控球，而阿根廷則採取緊縮防守，尋求 Messi 與 Alvarez 的轉換進攻。開賽初期雙方互探虛實，節奏謹慎；西班牙由 Grimaldo 前插助攻給 Baena，創造出第一次絕佳得分機會。阿根廷隨後在不被看好的情況下，靠著 Romero 的定位球頭槌扳平比分。下半場西班牙重掌節奏，Yamal 與 Nico Williams 頻頻拉開阿根廷已顯疲態的四人防線。最終 Oyarzabal 接獲 Williams 的倒三角回傳，攻入致勝球。阿根廷在比賽末段發起反撲，但隨著 Paredes 與 De Paul 體能下滑，板凳深度不足的問題浮現。最終比分定格在 2-1，原因在於西班牙的陣容深度（25 名球員皆有頂級聯賽數據）讓他們能在輪換時不失節奏，而阿根廷的進攻則過度依賴前場三叉戟。若非 Cubarsí 領到紅牌或 Messi 早早踢進世界波，戰局或許會倒向阿根廷。"
           },
           {
             "name": "GLM",
@@ -9129,16 +9129,16 @@
             "predicted_score": "1-1",
             "win_prob": {
               "H": 0.45,
-              "D": 0.3,
-              "A": 0.25
+              "D": 0.28,
+              "A": 0.27
             },
             "confidence": 0.65,
-            "key_risk": "阿根廷中後場傷病滿營（Medina、Balerdi 缺陣，Julián Álvarez 帶傷），若比賽拖入下半場70分鐘後，體能與深度劣勢會被西班牙的邊路爆破徹底放大。",
+            "key_risk": "西班牙16號 Rodri（Manchester City FC）的中場統治力太強，若阿根廷中場失勢被壓制，比賽將落入西班牙節奏，阿根廷反擊空間被壓縮。",
             "second_score": "2-1",
-            "contrarian_md": "主流敘事肯定是「衛冕冠軍阿根廷大賽氣場無敵，梅西一發功就能碾壓西班牙的傳控」。我不買這帳。看資料：阿根廷中後場傷到連 Balerdi、Medina 都沒了，Paredes 跑不動，De Paul 在 MLS 充電，這中場能扛 Rodri 跟 Pedri？梅西在 MLS 資料再好看，面對歐洲頂級防線的肢體對抗早就不是2018、2022那回事。世界盃冷門史告訴我們，老將底蘊往往在「大家都覺得穩」的時候翻車——2018 德國就是迷信底蘊被韓國悶死。阿根廷這條殘破防線，根本沒本錢跟西班牙拼90分鐘的高位壓迫。",
-            "signature_scene": "下半場70分鐘左右，阿根廷中場 Paredes 體能透支在中圈丟球，西班牙 16號 Rodri（Manchester City）直接送出縱向直塞，17號 Nico Williams（Athletic Club）左路生吃 3號 Tagliafico（Olympique Lyonnais）切入禁區射門，逼出門將 Emiliano Martínez 撲救，隨後西班牙連續獲得角球狂轟濫炸。",
-            "reasoning_md": "西班牙中場控制力與陣容深度明顯佔優，阿根廷傷病過多且核心老化，90分鐘內極大機率被西班牙壓著打。但阿根廷鋒線效率極高且有梅西變數，西班牙鋒線 xG 偏弱可能揮霍機會，正規時間大機率逼和，就算西班牙贏也絕不會是大勝。",
-            "script_md": "① **整體判讀**：西班牙是這場比賽的「實質強隊」。陣容深度 25/26 人有頂級聯賽資料撐腰，四強 2-0 完封法國士氣正旺；反觀阿根廷名氣大但中後場殘破不堪，Balerdi、Medina 缺陣，Julián Álvarez 帶傷，大馬丁手指骨折，這根本是殘陣拼鬥。\n② **關鍵對位**：阿根廷中場 5號 Paredes（CA Boca Juniors）跟 7號 De Paul（Inter Miami CF）面對西班牙 16號 Rodri（Manchester City FC）跟 20號 Pedri（FC Barcelona）的傳控碾壓，絕對會被溜到喘不過氣。阿根廷只能靠 10號 Messi（Inter Miami CF）回撤拿球組織，但這會大幅消耗他的體力。\n③ **比賽劇本**：開賽西班牙就會靠高位壓迫搶攻，阿根廷只能縮反擊。上半場 30 分鐘左右，西班牙 21號 Oyarzabal（Real Sociedad）極有機會接獲 Pedri 直塞先破門。落後的阿根廷會在下半場透過換人調整加強壓迫，靠 9號 Julián Álvarez（Atlético De Madrid）或 22號 Lautaro Martínez（FC Internazionale Milano）的禁區嗅覺抓一次定位球或反擊機會扳平。\n④ **為什麼是這個比分**：西班牙的 xG 資料雖然漂亮，但鋒線 Ferran Torres 跟 Oyarzabal 的終結效率一直有疑慮，經常揮霍機會；阿根廷雖然中場失控，但鋒線 Lautaro（xG90 0.67）跟 Nico Paz（xG90 0.78）的進球效率極高，咬住一個機會就能扳平。1-1 是最寫實的結局。\n⑤ **翻盤條件**：如果阿根廷撐過前 30 分鐘的高壓沒丟球，且梅西找到縫隙送出致命直塞打穿西班牙年輕中衛 22號 Cubarsí（FC Barcelona）的防區，阿根廷有機會偷走勝利。但以目前的殘陣狀態，要在正規時間贏西班牙太難。"
+            "contrarian_md": "主流敘事會把這場看作「西班牙體系 vs 阿根廷巨星」，認為西班牙控球壓制、阿根廷靠Messi靈光一閃。我不完全買帳：西班牙攻擊指數3.69看似高，但主力前鋒Ferran Torres（xG90 0.47）和Oyarzabal（xG90 0.42）的效率並非頂級殺手等級，面對阿根廷的Cristian Romero（Tottenham）+ Lisandro Martínez（Man Utd）中衛組合，未必能輕鬆突破。反方視角：阿根廷本屆預期貢獻3.28略高於西班牙3.06，且阿根廷前鋒Lautaro Martínez（xG90 0.67）、Nico Paz（xG90 0.78）的進攻效率更狠。世界盃決賽歷史冷門不少（2018法國4-2克羅埃西亞不算冷門但比分意外大），強隊翻車往往藏在「大家都覺得穩」的中場失控。如果阿根廷中場De Paul+Enzo+Mac Allister能咬住Rodri，西班牙的控球優勢就會變成無效傳導，反被阿根廷反擊打穿。",
+            "signature_scene": "下半場70分鐘左右，阿根廷10號 Messi（Inter Miami CF）在中場右側拿球，吸引西班牙5號 Marcos Llorente（Atlético De Madrid）上搶，一腳直塞撕開防線，22號 Lautaro Martínez（FC Internazionale Milano）斜插Cubarsí與Laporte之間空檔，單刀面對Unai Simón冷靜推射遠柱破網——這是阿根廷最可能進球的方式，也是西班牙防線最怕的畫面。",
+            "reasoning_md": "這場決賽我押平手1-1進延長甚至PK。西班牙體系強、控球好，但阿根廷前鋒效率更高、反擊更狠，雙方互相抵消。西班牙若贏，靠Rodri中場統治+定位球；阿根廷若贏，靠Messi一腳直塞+Lautaro終結。常規時間大機率咬死。",
+            "script_md": "## 整體判讀\n西班牙體系完整、陣容深度25/26人有頂級聯賽資料，中場Rodri+Pedri+Fabián Ruiz的控球組合世界頂級。但阿根廷的進攻效率更嚇人：Lautaro Martínez（xG90 0.67）、Nico Paz（xG90 0.78）、Julián Alvarez（xG90 0.48）三人資料都狠過西班牙任何一個前鋒。決賽打的是 nerves，不是紙面實力。\n\n## 關鍵對位\n- **西班牙16號 Rodri（Manchester City FC）vs 阿根廷24號 Enzo Fernández（Chelsea FC）**：Rodri若能掌控節奏，西班牙就能把阿根廷按在半場打；Enzo若能攔截+快速分球，阿根廷反擊就會致命。\n- **西班牙22號 Pau Cubarsí（FC Barcelona）vs 阿根廷22號 Lautaro Martínez（FC Internazionale Milano）**：Cubarsí年輕、經驗淺，面對Lautaro這種禁區狐狸，一個判斷失誤就是單刀。\n- **西班牙17號 Nico Williams（Athletic Club）vs 阿根廷26號 Nahuel Molina（Atlético De Madrid）**：Williams的速度是西班牙左路最大武器，Molina若壓得太上，背後空間就是西班牙的突破口。\n\n## 比賽劇本\n- **早段（0-25分鐘）**：西班牙控球率壓到65%以上，阿根廷縮成4-4-2中低位防守，Messi+Lautaro在前場等反擊。西班牙會有2-3個half chance但打不穿Romero。\n- **中段（25-70分鐘）**：西班牙靠Nico Williams或Yamal（若健康先發）在邊路製造混亂，大機率一個定位球或禁區外遠射破網，1-0。阿根廷落後後會提速，De Paul+Mac Allister開始壓上，Messi回撤組織。\n- **末段（70-90分鐘）**：阿根廷反擊奏效，Messi直塞或Lo Celso（xG90 0.10但關鍵傳球90高達3.28）送出致命傳球，Lautaro或Alvarez扳平。1-1。之後雙方都不敢壓上，常規時間收場。\n\n## 為什麼是這個比分\n決賽雙方都怕輸，不會敞開對攻。西班牙進攻效率不夠碾壓（最強前鋒xG90才0.47），阿根廷反擊雖狠但控球劣勢大、機會數量有限。1-1是最合理的常規時間結果，真正決勝在延長賽或PK。\n\n## 什麼情況會翻盤\n- **西班牙贏**：若Yamal大腿沒事、全場健康，他的1對1能力會迫使阿根廷右路收縮，西班牙多打一邊傳中+搶點，2-1有機會。\n- **阿根廷贏**：若Rodri被Enzo+De Paul聯手絞殺、西班牙中場失控，阿根廷的反擊效率足以在常規時間內打進2球，1-2爆冷。"
           }
         ]
       },
