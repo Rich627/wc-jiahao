@@ -9004,8 +9004,8 @@
       "away": "阿根廷",
       "kickoff_tw": "2026-07-20 03:00",
       "stage": "決賽",
-      "status": "未開賽",
-      "score": null,
+      "status": "已完賽",
+      "score": "0-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -9142,7 +9142,7 @@
           }
         ]
       },
-      "correct": null
+      "correct": false
     }
   ]
 }
