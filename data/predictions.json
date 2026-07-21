@@ -9005,7 +9005,7 @@
       "kickoff_tw": "2026-07-20 03:00",
       "stage": "決賽",
       "status": "已完賽",
-      "score": "0-0",
+      "score": "1-0",
       "had_odds": null,
       "my_prediction": {
         "consensus_selection": "HOME",
@@ -9142,7 +9142,7 @@
           }
         ]
       },
-      "correct": false
+      "correct": true
     }
   ]
 }
